@@ -1,0 +1,187 @@
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+# external-ui: ui
+
+proxy-providers:
+  provider:MiaoZ
+    type: http
+    url: https://miaoz.xyz/api/v1/client/subscribe?token=411cc256588e50b4309c01cca225338f
+    interval: 86400
+    path: ./providers/provider.yaml
+    health-check:
+      enable: true
+      interval: 600
+      lazy: true
+      # url: http://www.gstatic.com/generate_204
+      url: https://cp.cloudflare.com/
+
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🎯 全球直连
+    use:MiaoZ
+      - provider
+  - name: ♻️ 自动选择
+    type: url-test
+    use:MiaoZ
+      - provider
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+
+rule-providers:
+  LAN:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/LAN.yaml"
+    path: /providers/rule/LAN.yaml
+  MSServices:
+    behavior: "classical"
+    type: file
+    path: /rules/MSServices.yaml
+  Unbreak:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/Unbreak.yaml
+  Reject:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Reject.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/Reject.yaml
+  Hijacking:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Hijacking.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/Hijacking.yaml
+  Streaming:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/Streaming.yaml
+  Bilibili:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/Bilibili.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/Bilibili.yaml
+  iQiyi:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/iQiyi.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/iQiyi.yaml
+  Letv:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/Letv.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/Letv.yaml
+  TencentVideo:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/Tencent%20Video.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/TencentVideo.yaml
+  Youku:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/Youku.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/Youku.yaml
+  Telegram:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Telegram/Telegram.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/Telegram.yaml
+  Global:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/Global.yaml
+  Apple:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Apple/Apple.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/Apple.yaml
+  China:
+    behavior: "classical"
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml"
+    interval: 86400 # rule-set
+    path: ./providers/rule/China.yaml
+  Download:
+    behavior: "classical"
+    type: file
+    # url: "https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/Download.list"
+    interval: 86400 # rule-set
+    path: ./rules/Download.yaml
+
+rules:
+ - RULE-SET,LAN,🎯 全球直连
+ - DOMAIN,store-images.s-microsoft.com,🔰 节点选择
+ - RULE-SET,MSServices,Ⓜ️ 微软服务
+ - RULE-SET,Unbreak,🎯 全球直连
+ - RULE-SET,Reject,🛑 全球拦截
+ - RULE-SET,Hijacking,🛑 全球拦截
+ - RULE-SET,Streaming,🌍 国外媒体
+ - RULE-SET,Bilibili,🌏 国内媒体
+ - RULE-SET,iQiyi,🌏 国内媒体
+ - RULE-SET,Letv,🌏 国内媒体
+ - RULE-SET,TencentVideo,🌏 国内媒体
+ - RULE-SET,Youku,🌏 国内媒体
+ - RULE-SET,Telegram,📲 电报信息
+ - RULE-SET,Global,🔰 节点选择
+ - RULE-SET,Apple,🍎 苹果服务
+ - RULE-SET,China,🎯 全球直连
+ - RULE-SET,Download,🎯 全球直连
+ - GEOIP,CN,🎯 全球直连
+ - MATCH,🐟 漏网之鱼
