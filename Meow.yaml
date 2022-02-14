@@ -1,0 +1,245 @@
+### subscription-url=https://miaoz.xyz/api/v1/client/subscribe?token=411cc256588e50b4309c01cca225338f
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: error
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 114.114.114.114
+    - 8.8.8.8
+  enhanced-mode: redir-host
+  nameserver:
+    - 114.114.114.114
+    - 8.8.8.8
+    - tls://dns.rubyfish.cn:853
+    - https://1.1.1.1/dns-query
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+    - 198.18.0.2:53
+  iOS-auto-route: true
+  iOS-auto-detect-interface: true
+rules:
+  - RULE-SET,Unbreak, DIRECT
+  - RULE-SET,Advertising, 全局拦截
+  - RULE-SET,Hijacking, REJECT
+  - RULE-SET,Privacy, REJECT
+  - RULE-SET,Global, 节点选择
+  - RULE-SET,Streaming, 国外媒体
+  - RULE-SET,StreamingSE, 港台番剧
+  - RULE-SET,Apple, 苹果服务
+  - RULE-SET,AppleMusic, 苹果服务
+  - RULE-SET,China, DIRECT
+  - GEOIP,CN, DIRECT
+  - MATCH, 漏网之鱼
+rule-providers:
+  Unbreak:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml
+    path: ./RuleSet/Unbreak.yaml
+    interval: 86400
+  Advertising:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Advertising.yaml
+    path: ./RuleSet/Guard/Advertising.yaml
+    interval: 86400
+  Privacy:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Privacy.yaml
+    path: ./RuleSet/Guard/Privacy.yaml
+    interval: 86400
+  Hijacking:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Hijacking.yaml
+    path: ./RuleSet/Guard/Hijacking.yaml
+    interval: 86400
+  Streaming:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    path: ./RuleSet/StreamingMedia/Streaming.yaml
+    interval: 86400
+  StreamingSE:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    path: ./RuleSet/StreamingMedia/StreamingSE.yaml
+    interval: 86400
+  Global:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml
+    path: ./RuleSet/Global.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master//Clash/RuleSet/Extra/Apple/Apple.yaml
+    path: ./RuleSet/Extra/Apple.yaml
+    interval: 86400
+  AppleMusic:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master//Clash/RuleSet/Extra/Apple/Music.yaml
+    path: ./RuleSet/Extra/Music.yaml
+    interval: 86400
+  China:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml
+    path: ./RuleSet/China.yaml
+    interval: 86400
+proxies:
+  - {name: 香港 HGC|CM-A|Media, server: cma.miaoz.xyz, port: 21002, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 香港 HGC|CM-B|Media, server: cmb.miaoz.xyz, port: 21002, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 香港 HKT|CM-A|Media, server: cma.miaoz.xyz, port: 21003, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 香港 HKT|CM-B|Media, server: cmb.miaoz.xyz, port: 21003, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 香港 PCCW|CM-A, server: cma.miaoz.xyz, port: 21000, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 香港 PCCW|CM-B, server: cmb.miaoz.xyz, port: 21000, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 香港 GCP|CM-A, server: cma.miaoz.xyz, port: 21022, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 香港 GCP|CM-B, server: cmb.miaoz.xyz, port: 21022, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 台湾 HiNet|CM-A|Media, server: cma.miaoz.xyz, port: 52027, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 台湾 HiNet|CM-B|Media, server: cmb.miaoz.xyz, port: 52027, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 新加坡 DO|CM-A|Media, server: cma.miaoz.xyz, port: 21004, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 新加坡 DO|CM-B|Media, server: cmb.miaoz.xyz, port: 21004, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 日本 NTT|CU|Media, server: cua.miaoz.xyz, port: 21344, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 美国 CN2|CU|Media, server: cua.miaoz.xyz, port: 21020, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 俄罗斯 JustHost|CU, server: cua.miaoz.xyz, port: 21021, type: vmess, uuid: 96a3df3a-bb12-4670-b8ba-b8f035ff00dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}, udp: true}
+proxy-groups:
+  - name:  节点选择
+    type: select
+    proxies:
+      -  自动筛选
+      - DIRECT
+      - 香港 HGC|CM-A|Media
+      - 香港 HGC|CM-B|Media
+      - 香港 HKT|CM-A|Media
+      - 香港 HKT|CM-B|Media
+      - 香港 PCCW|CM-A
+      - 香港 PCCW|CM-B
+      - 香港 GCP|CM-A
+      - 香港 GCP|CM-B
+      - 台湾 HiNet|CM-A|Media
+      - 台湾 HiNet|CM-B|Media
+      - 新加坡 DO|CM-A|Media
+      - 新加坡 DO|CM-B|Media
+      - 日本 NTT|CU|Media
+      - 美国 CN2|CU|Media
+      - 俄罗斯 JustHost|CU
+  - name:  自动筛选
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 香港 HGC|CM-A|Media
+      - 香港 HGC|CM-B|Media
+      - 香港 HKT|CM-A|Media
+      - 香港 HKT|CM-B|Media
+      - 香港 PCCW|CM-A
+      - 香港 PCCW|CM-B
+      - 香港 GCP|CM-A
+      - 香港 GCP|CM-B
+      - 台湾 HiNet|CM-A|Media
+      - 台湾 HiNet|CM-B|Media
+      - 新加坡 DO|CM-A|Media
+      - 新加坡 DO|CM-B|Media
+      - 日本 NTT|CU|Media
+      - 美国 CN2|CU|Media
+      - 俄罗斯 JustHost|CU
+  - name:  国外媒体
+    type: select
+    proxies:
+      -  节点选择
+      -  自动筛选
+      -  DIRECT
+      - 香港 HGC|CM-A|Media
+      - 香港 HGC|CM-B|Media
+      - 香港 HKT|CM-A|Media
+      - 香港 HKT|CM-B|Media
+      - 香港 PCCW|CM-A
+      - 香港 PCCW|CM-B
+      - 香港 GCP|CM-A
+      - 香港 GCP|CM-B
+      - 台湾 HiNet|CM-A|Media
+      - 台湾 HiNet|CM-B|Media
+      - 新加坡 DO|CM-A|Media
+      - 新加坡 DO|CM-B|Media
+      - 日本 NTT|CU|Media
+      - 美国 CN2|CU|Media
+      - 俄罗斯 JustHost|CU
+  - name:  港台番剧
+    type: select
+    proxies:
+      -  节点选择
+      -  自动筛选
+      -  DIRECT
+      - 香港 HGC|CM-A|Media
+      - 香港 HGC|CM-B|Media
+      - 香港 HKT|CM-A|Media
+      - 香港 HKT|CM-B|Media
+      - 香港 PCCW|CM-A
+      - 香港 PCCW|CM-B
+      - 香港 GCP|CM-A
+      - 香港 GCP|CM-B
+      - 台湾 HiNet|CM-A|Media
+      - 台湾 HiNet|CM-B|Media
+      - 新加坡 DO|CM-A|Media
+      - 新加坡 DO|CM-B|Media
+      - 日本 NTT|CU|Media
+      - 美国 CN2|CU|Media
+      - 俄罗斯 JustHost|CU
+  - name:  全局拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name:  苹果服务
+    type: select
+    proxies:
+      -  节点选择
+      -  DIRECT
+      - 香港 HGC|CM-A|Media
+      - 香港 HGC|CM-B|Media
+      - 香港 HKT|CM-A|Media
+      - 香港 HKT|CM-B|Media
+      - 香港 PCCW|CM-A
+      - 香港 PCCW|CM-B
+      - 香港 GCP|CM-A
+      - 香港 GCP|CM-B
+      - 台湾 HiNet|CM-A|Media
+      - 台湾 HiNet|CM-B|Media
+      - 新加坡 DO|CM-A|Media
+      - 新加坡 DO|CM-B|Media
+      - 日本 NTT|CU|Media
+      - 美国 CN2|CU|Media
+      - 俄罗斯 JustHost|CU
+  - name:  漏网之鱼
+    type: select
+    proxies:
+      -  节点选择
+      -  DIRECT
+      -  自动筛选
+      - 香港 HGC|CM-A|Media
+      - 香港 HGC|CM-B|Media
+      - 香港 HKT|CM-A|Media
+      - 香港 HKT|CM-B|Media
+      - 香港 PCCW|CM-A
+      - 香港 PCCW|CM-B
+      - 香港 GCP|CM-A
+      - 香港 GCP|CM-B
+      - 台湾 HiNet|CM-A|Media
+      - 台湾 HiNet|CM-B|Media
+      - 新加坡 DO|CM-A|Media
+      - 新加坡 DO|CM-B|Media
+      - 日本 NTT|CU|Media
+      - 美国 CN2|CU|Media
+      - 俄罗斯 JustHost|CU
