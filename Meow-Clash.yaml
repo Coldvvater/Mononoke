@@ -34,11 +34,11 @@ rules:
 
 proxy-providers:
 
-  MiaoZ:
+ providers:
     type: http
     url: ""
     interval: 86400
-    path: ./providers/MiaoZ.yaml
+    path: ./providers/providers.yaml
     health-check:
       enable: true
       interval: 600
@@ -114,12 +114,12 @@ proxy-groups:
       - 自动筛选
       - DIRECT
     use:
-      - MiaoZ
+      - providers
 
   - name:  自动筛选
     type: url-test
     use:
-      - MiaoZ
+      - providers
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
