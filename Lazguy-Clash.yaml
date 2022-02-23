@@ -1,0 +1,281 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:6170
+experimental:
+  ignore-resolve-fail: true
+dns:
+  enable: true
+  # ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+    - 223.6.6.6
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - "time.*.com"
+    - "time.*.gov"
+    - "time.*.edu.cn"
+    - "time.*.apple.com"
+    - "time1.*.com"
+    - "time2.*.com"
+    - "time3.*.com"
+    - "time4.*.com"
+    - "time5.*.com"
+    - "time6.*.com"
+    - "time7.*.com"
+    - "ntp.*.com"
+    - "ntp1.*.com"
+    - "ntp2.*.com"
+    - "ntp3.*.com"
+    - "ntp4.*.com"
+    - "ntp5.*.com"
+    - "ntp6.*.com"
+    - "ntp7.*.com"
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - "+.pool.ntp.org"
+    - "time1.cloud.tencent.com"
+    - "music.163.com"
+    - "*.music.163.com"
+    - "*.126.net"
+    - "musicapi.taihe.com"
+    - "music.taihe.com"
+    - "songsearch.kugou.com"
+    - "trackercdn.kugou.com"
+    - "*.kuwo.cn"
+    - "api-jooxtt.sanook.com"
+    - "api.joox.com"
+    - "joox.com"
+    - "y.qq.com"
+    - "*.y.qq.com"
+    - "streamoc.music.tc.qq.com"
+    - "mobileoc.music.tc.qq.com"
+    - "isure.stream.qqmusic.qq.com"
+    - "dl.stream.qqmusic.qq.com"
+    - "aqqmusic.tc.qq.com"
+    - "amobile.music.tc.qq.com"
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - "music.migu.cn"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - "msftconnecttest.com"
+    - "msftncsi.com"
+    - "localhost.ptlogin2.qq.com"
+    - "localhost.sec.qq.com"
+    - "+.srv.nintendo.net"
+    - "+.stun.playstation.net"
+    - "xbox.*.microsoft.com"
+    - "xnotify.xboxlive.com"
+    - "+.battlenet.com.cn"
+    - "+.wotgame.cn"
+    - "+.wggames.cn"
+    - "+.wowsgame.cn"
+    - "+.wargaming.net"
+    - "proxy.golang.org"
+    - "stun.*.*"
+    - "stun.*.*.*"
+    - "+.stun.*.*"
+    - "+.stun.*.*.*"
+    - "+.stun.*.*.*.*"
+    - "heartbeat.belkin.com"
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - "mesu.apple.com"
+    - "swscan.apple.com"
+    - "swquery.apple.com"
+    - "swdownload.apple.com"
+    - "swcdn.apple.com"
+    - "swdist.apple.com"
+    - "lens.l.google.com"
+    - "stun.l.google.com"
+    - "+.nflxvideo.net"
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+proxy-providers:
+  MIAOZ:
+    type: http
+    url: ""
+    interval: 3600
+    path: ./Provider/MIAOZ.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+proxy-groups:
+  - name:  "Proxy"
+    type: select
+    proxies:
+      - Auto
+      - Fallback-auto
+      - Load-balance
+      - DIRECT
+    use:
+      - MIAOZ
+
+  - name:  "Auto"
+    type: url-test
+    use:
+      - MIAOZ
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+  - name:  "Apple"
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    use:
+      - MIAOZ
+
+  - name:  "AnimeSeries"
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    use:
+      - MIAOZ
+
+- name: "Fallback-auto"
+    type: fallback
+    proxies:
+    use:
+      - MIAOZ
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+  - name: "Load-balance"
+    type: load-balance
+    proxies:
+    use:
+      - MIAOZ
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+  - name:  "Final"
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    use:
+      - MIAOZ
+rules:
+  - RULE-SET,UnBan,DIRECT
+  - RULE-SET,BanAD,REJECT
+  - RULE-SET,BanEasyList,REJECT
+  - RULE-SET,BanEasyListChina,REJECT
+  - RULE-SET,BanEasyPrivacy,REJECT
+  - RULE-SET,BanProgramAD,REJECT
+  - RULE-SET,ChinaCompanyIp,DIRECT
+  - RULE-SET,ChinaDomain,DIRECT
+  - RULE-SET,Download,DIRECT
+  - RULE-SET,ProxyGFWlist,Proxy
+  - RULE-SET,ProxyMediaIp,Proxy
+  - RULE-SET,BilibiliHMT,AnimeSeries
+  - RULE-SET,Apple,Apple
+  - RULE-SET,LocalAreaNetwork,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Final   
+rule-providers:
+  UnBan:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml
+    path: ./Clash/Providers/UnBan.yaml
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml
+    path: ./Clash/Providers/BanAD.yaml
+    interval: 86400
+  BanEasyList:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyList.yaml
+    path: ./Clash/Providers/BanEasyList.yaml
+    interval: 86400
+  BanEasyListChina:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml
+    path: ./Clash/Providers/BanEasyListChina.yaml
+    interval: 86400
+  BanEasyPrivacy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyPrivacy.yaml
+    path: ./Clash/Providers/BanEasyPrivacy.yaml
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml
+    path: ./Clash/Providers/BanProgramAD.yaml
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaCompanyIp.yaml
+    path: ./Clash/Providers/ChinaCompanyIp.yaml
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml
+    path: ./Clash/Providers/ChinaDomain.yaml
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml
+    path: ./Clash/Providers/Download.yaml
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
+    path: ./Clash/Providers/ProxyGFWlist.yaml
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml
+    path: ./Clash/Providers/ProxyMedia.yaml
+    interval: 86400
+  BilibiliHMT:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/BilibiliHMT.yaml
+    path: ./Clash/Providers/Ruleset/BilibiliHMT.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml
+    path: ./Clash/Providers/Ruleset/Apple.yaml
+    interval: 86400
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml
+    path: ./Clash/Providers/LocalAreaNetwork.yaml
+    interval: 86400
