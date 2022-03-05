@@ -1,164 +1,114 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-mode: Rule
+bind-address: "*"
+mode: rule
 log-level: silent
 external-controller: 127.0.0.1:9090
-experimental:
-  ignore-resolve-fail: true
 dns:
   enable: true
-  # ipv6: false
   listen: 0.0.0.0:53
+# ipv6: true 
   default-nameserver:
-    - 119.29.29.29
     - 223.5.5.5
-    - 223.6.6.6
+    - 114.114.114.114
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-
   fake-ip-filter:
-    - "*.lan"
-    - "*.localdomain"
-    - "*.example"
-    - "*.invalid"
-    - "*.localhost"
-    - "*.test"
-    - "*.local"
-    - "*.home.arpa"
-    - "time.*.com"
-    - "time.*.gov"
-    - "time.*.edu.cn"
-    - "time.*.apple.com"
-    - "time1.*.com"
-    - "time2.*.com"
-    - "time3.*.com"
-    - "time4.*.com"
-    - "time5.*.com"
-    - "time6.*.com"
-    - "time7.*.com"
-    - "ntp.*.com"
-    - "ntp1.*.com"
-    - "ntp2.*.com"
-    - "ntp3.*.com"
-    - "ntp4.*.com"
-    - "ntp5.*.com"
-    - "ntp6.*.com"
-    - "ntp7.*.com"
-    - "*.time.edu.cn"
-    - "*.ntp.org.cn"
-    - "+.pool.ntp.org"
-    - "time1.cloud.tencent.com"
-    - "music.163.com"
-    - "*.music.163.com"
-    - "*.126.net"
-    - "musicapi.taihe.com"
-    - "music.taihe.com"
-    - "songsearch.kugou.com"
-    - "trackercdn.kugou.com"
-    - "*.kuwo.cn"
-    - "api-jooxtt.sanook.com"
-    - "api.joox.com"
-    - "joox.com"
-    - "y.qq.com"
-    - "*.y.qq.com"
-    - "streamoc.music.tc.qq.com"
-    - "mobileoc.music.tc.qq.com"
-    - "isure.stream.qqmusic.qq.com"
-    - "dl.stream.qqmusic.qq.com"
-    - "aqqmusic.tc.qq.com"
-    - "amobile.music.tc.qq.com"
-    - "*.xiami.com"
-    - "*.music.migu.cn"
-    - "music.migu.cn"
-    - "*.msftconnecttest.com"
-    - "*.msftncsi.com"
-    - "msftconnecttest.com"
-    - "msftncsi.com"
-    - "localhost.ptlogin2.qq.com"
-    - "localhost.sec.qq.com"
-    - "+.srv.nintendo.net"
-    - "+.stun.playstation.net"
-    - "xbox.*.microsoft.com"
-    - "xnotify.xboxlive.com"
-    - "+.battlenet.com.cn"
-    - "+.wotgame.cn"
-    - "+.wggames.cn"
-    - "+.wowsgame.cn"
-    - "+.wargaming.net"
-    - "proxy.golang.org"
-    - "stun.*.*"
-    - "stun.*.*.*"
-    - "+.stun.*.*"
-    - "+.stun.*.*.*"
-    - "+.stun.*.*.*.*"
-    - "heartbeat.belkin.com"
-    - "*.linksys.com"
-    - "*.linksyssmartwifi.com"
-    - "*.router.asus.com"
-    - "mesu.apple.com"
-    - "swscan.apple.com"
-    - "swquery.apple.com"
-    - "swdownload.apple.com"
-    - "swcdn.apple.com"
-    - "swdist.apple.com"
-    - "lens.l.google.com"
-    - "stun.l.google.com"
-    - "+.nflxvideo.net"
-    - "*.square-enix.com"
-    - "*.finalfantasyxiv.com"
-    - "*.ffxiv.com"
+    - '*.lan'
+    - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
+    - 'time.*.com'
+    - 'time.*.gov'
+    - 'time.*.edu.cn'
+    - 'time.*.apple.com'
+    - 'time1.*.com'
+    - 'time2.*.com'
+    - 'time3.*.com'
+    - 'time4.*.com'
+    - 'time5.*.com'
+    - 'time6.*.com'
+    - 'time7.*.com'
+    - 'ntp.*.com'
+    - 'ntp1.*.com'
+    - 'ntp2.*.com'
+    - 'ntp3.*.com'
+    - 'ntp4.*.com'
+    - 'ntp5.*.com'
+    - 'ntp6.*.com'
+    - 'ntp7.*.com'
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - '+.pool.ntp.org'
     - 'time1.cloud.tencent.com'
-    # === Music Service ===
-    ## NetEase
-    - '+.music.163.com'
+    - 'music.163.com'
+    - '*.music.163.com'
     - '*.126.net'
-    ## Baidu
     - 'musicapi.taihe.com'
     - 'music.taihe.com'
-    ## Kugou
     - 'songsearch.kugou.com'
     - 'trackercdn.kugou.com'
-    ## Kuwo
     - '*.kuwo.cn'
-    ## JOOX
     - 'api-jooxtt.sanook.com'
     - 'api.joox.com'
     - 'joox.com'
-    ## QQ
-    - '+.y.qq.com'
-    - '+.music.tc.qq.com'
+    - 'y.qq.com'
+    - '*.y.qq.com'
+    - 'streamoc.music.tc.qq.com'
+    - 'mobileoc.music.tc.qq.com'
+    - 'isure.stream.qqmusic.qq.com'
+    - 'dl.stream.qqmusic.qq.com'
     - 'aqqmusic.tc.qq.com'
-    - '+.stream.qqmusic.qq.com'
-    ## Xiami
+    - 'amobile.music.tc.qq.com'
     - '*.xiami.com'
-    ## Migu
-    - '+.music.migu.cn'
-    # === Game Service ===
-    ## Nintendo Switch
-    - '+.srv.nintendo.net'
-    ## Sony PlayStation
-    - '+.stun.playstation.net'
-    ## Microsoft Xbox
-    - 'xbox.*.microsoft.com'
-    - '+.xboxlive.com'
-    # === Other ===
-    ## QQ Quick Login
+    - '*.music.migu.cn'
+    - 'music.migu.cn'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - 'msftconnecttest.com'
+    - 'msftncsi.com'
     - 'localhost.ptlogin2.qq.com'
-    ## Golang
+    - 'localhost.sec.qq.com'
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - 'xbox.*.microsoft.com'
+    - 'xnotify.xboxlive.com'
+    - '+.battlenet.com.cn'
+    - '+.wotgame.cn'
+    - '+.wggames.cn'
+    - '+.wowsgame.cn'
+    - '+.wargaming.net'
     - 'proxy.golang.org'
-    ## STUN Server
     - 'stun.*.*'
     - 'stun.*.*.*'
-
-
-    ## Bilibili CDN
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - 'heartbeat.belkin.com'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - '*.router.asus.com'
+    - 'mesu.apple.com'
+    - 'swscan.apple.com'
+    - 'swquery.apple.com'
+    - 'swdownload.apple.com'
+    - 'swcdn.apple.com'
+    - 'swdist.apple.com'
+    - 'lens.l.google.com'
+    - 'stun.l.google.com'
+    - '+.nflxvideo.net'
+    - '*.square-enix.com'
+    - '*.finalfantasyxiv.com'
+    - '*.ffxiv.com'
     - '*.mcdn.bilivideo.cn'
-
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-
   fallback-filter:
     geoip: false
     ipcidr:
@@ -184,12 +134,11 @@ dns:
       - '+.youtube.com'
       - '+.githubusercontent.com'
       - '+.googlevideo.com'
-
 tun:
   enable: false
-  stack: system
-  auto-route: true
-  auto-detect-interface: true
+  stack: system # 或 gvisor
+  macOS-auto-route: true
+  macOS-auto-detect-interface: true
   dns-hijack:
     - tcp://8.8.8.8:53
     - tcp://8.8.4.4:53
