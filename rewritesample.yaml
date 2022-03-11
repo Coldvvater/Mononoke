@@ -33,7 +33,4 @@ rewrite:
   match: url
   action: "reject"  # close connection immediately
   target: ""
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Securi
+
