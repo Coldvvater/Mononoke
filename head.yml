@@ -135,7 +135,7 @@ dns:
       - '+.githubusercontent.com'
       - '+.googlevideo.com'
 tun:
-  enable: false
+  enable: true
   stack: system # 或 gvisor
   macOS-auto-route: true
   macOS-auto-detect-interface: true
