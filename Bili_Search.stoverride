@@ -1,0 +1,17 @@
+name: bilibili搜索
+desc: 哔哩哔哩, 港澳台番剧自动切换地区 & 显示豆瓣评分
+
+http:
+  mitm:
+    - "ap?.bilibili.com"
+    - "ap?.biliapi.net"
+  script:
+    - match: ^https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&
+      name: Bili_Search
+      type: request
+      timeout: 10
+
+script-providers:
+  Bili_Search:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
+    interval: 86400
