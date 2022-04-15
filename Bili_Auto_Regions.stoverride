@@ -10,7 +10,7 @@ http:
       name: Bili_Auto_Regions
       type: request
       require-body: true
-      timeout: 120
+      timeout: 10
 
 script-providers:
   Bili_Auto_Regions:
