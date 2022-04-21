@@ -103,7 +103,7 @@ payload:
 
   # (D)
   # > Douban
-  - AND,((USER-AGENT,Frodo*), (DOMAIN,119.29.29.29))
+  # AND,((USER-AGENT,Frodo*), (DOMAIN,119.29.29.29))
 
   # (G)
   # > Google
