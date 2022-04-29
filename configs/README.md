@@ -5,5 +5,5 @@
 
 ### Config.ini
 
-一份自制的Clash自定义在线分流规则策略组配置文件，根据神机规则修改而来，需要经过* [URL-encode](https://www.urlencoder.org/)后，
+一份自制的Clash自定义在线分流规则策略组配置文件，根据神机规则修改而来，需要经过 [URL-encode](https://www.urlencoder.org/)后，
 再配合订阅转换链接使用，可自行设置各种参数，如：&emoji=true为保留节点emoji表情，如国旗，false为移除，&udp=true为开启UDP，false为关闭等。
