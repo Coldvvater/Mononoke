@@ -1,0 +1,133 @@
+name: Q-Search
+desc: Safari Search Add-ons
+
+http:
+  mitm:
+    - "duckduckgo.com"
+  rewrite:
+    # wiki xxx (Wikipedia)
+    - ^https:\/\/duckduckgo.com\/\?q=wiki(\+|%20)([^&]+).+ https://wikipedia.org/wiki/$2 302
+
+    # wk xxx (Wikipedia 中文)
+    - ^https:\/\/duckduckgo.com\/\?q=wk(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
+
+    # mg xxx (Magi)
+    - ^https:\/\/duckduckgo.com\/\?q=mg(\+|%20)([^&]+).+ https://magi.com/search?q=$2 302
+
+    # bd xxx (百度)
+    - ^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+ https://www.baidu.com/s?wd=$2 302
+
+    # gh xxx (GitHub)
+    - ^https:\/\/duckduckgo.com\/\?q=gh(\+|%20)([^&]+).+ https://github.com/search?q=$2 302
+
+    # tf xxx (Google 搜索 TestFlight)
+    - ^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com 302
+
+    # gi xxx (Google 图片)
+    - ^https:\/\/duckduckgo.com\/\?q=gi(\+|%20)([^&]+).+ https://www.google.com/search?&tbm=isch&q=$2 302
+
+    # yd xxx (有道词典)
+    - ^https:\/\/duckduckgo.com\/\?q=yd(\+|%20)([^&]+).+ https://dict.youdao.com/search?q=$2 302
+
+    # trc xxx (Google 译至中)
+    - ^https:\/\/duckduckgo.com\/\?q=trc(\+|%20)([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$2 302
+
+    # tre xxx (Google 译至英)
+    - ^https:\/\/duckduckgo.com\/\?q=tre(\+|%20)([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$2 302
+
+    # trj xxx (Google 译至日)
+    - ^https:\/\/duckduckgo.com\/\?q=trj(\+|%20)([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$2 302
+
+    # sspai xxx (少数派站内搜索)
+    - ^https:\/\/duckduckgo.com\/\?q=sspai(\+|%20)([^&]+).+ https://sspai.com/search/post/$2 302
+
+    # ssp xxx (Google 搜索少数派)
+    - ^https:\/\/duckduckgo.com\/\?q=ssp(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=sspai.com 302
+
+    # ytb xxx (YouTube)
+    - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
+
+    # so xxx (Stack Overflow)
+    - ^https:\/\/duckduckgo.com\/\?q=so(\+|%20)([^&]+).+ https://stackoverflow.com/search?q=$2 302
+
+    # se xxx (StackExchange)
+    - ^https:\/\/duckduckgo.com\/\?q=se(\+|%20)([^&]+).+ https://stackexchange.com/search?q=$2 302
+
+    # wa xxx (WolframAlpha)
+    - ^https:\/\/duckduckgo.com\/\?q=wa(\+|%20)([^&]+).+ https://www.wolframalpha.com/input/?i=$2 302
+
+    # db xxx (豆瓣)
+    - ^https:\/\/duckduckgo.com\/\?q=db(\+|%20)([^&]+).+ https://www.douban.com/search?q=$2 302
+
+    # zh xxx (知乎)
+    - ^https:\/\/duckduckgo.com\/\?q=zh(\+|%20)([^&]+).+ https://www.zhihu.com/search?q=$2 302
+
+    # wb xxx (微博)
+    - ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
+
+    # rd xxx (Reddit)
+    - ^https:\/\/duckduckgo.com\/\?q=rd(\+|%20)([^&]+).+ https://www.reddit.com/search?q=$2 302
+
+    # tw xxx (Twitter)
+    - ^https:\/\/duckduckgo.com\/\?q=tw(\+|%20)([^&]+).+ https://twitter.com/search?q=$2 302
+
+    # gd xxx (Google 搜索 Google Drive 资源)
+    - ^https:\/\/duckduckgo.com\/\?q=gd(\+|%20)([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$2 302
+
+    # tgd xxx (t.me/gdsharing 搜索 Google Drive 资源)
+    - ^https:\/\/duckduckgo.com\/\?q=tgd(\+|%20)([^&]+).+ https://t.me/s/gdsharing?q=$2 302
+
+    # tal xxx (t.me/shareAliyun 搜索阿里云盘资源)
+    - ^https:\/\/duckduckgo.com\/\?q=tal(\+|%20)([^&]+).+ https://t.me/s/shareAliyun?q=$2 302
+
+    # tal2 xxx (t.me/YunPanPan 搜索阿里云盘资源)
+    - ^https:\/\/duckduckgo.com\/\?q=tal2(\+|%20)([^&]+).+ https://t.me/s/YunPanPan?q=$2 302
+
+    # rut xxx (Google 搜索 rutracker)
+    - ^https:\/\/duckduckgo.com\/\?q=rut(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=rutracker.org 302
+
+    # ddg xxx (还原 DuckDuckGo)
+    - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$2 302
+
+    # ccn (App Store 临时换至中国区) 感谢 @mieqq
+    - ^https:\/\/duckduckgo.com\/\?q=ccn&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc= 302
+
+    # uus (App Store 临时换至美国区) 感谢 @mieqq
+    - ^https:\/\/duckduckgo.com\/\?q=uus&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc= 302
+
+    # xxx （无指令默认为 Google）
+    - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&num=100 302
+    
+  script:
+    # dlc xxx (DeepL 译至中)
+    - match: ^https:\/\/duckduckgo.com\/\?q=dlc(\+|%20)([^&]+).+
+      name: dlc
+      type: request
+      require-body: true
+      timeout: 10
+    # dle xxx (DeepL 译至英)
+    - match: ^https:\/\/duckduckgo.com\/\?q=dle(\+|%20)([^&]+).+
+      name: dle
+      type: request
+      require-body: true
+      timeout: 10
+    # dlj xxx (DeepL 译至日)
+    - match: ^https:\/\/duckduckgo.com\/\?q=dlj(\+|%20)([^&]+).+
+      name: dlj
+      type: request
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  # dlc xxx (DeepL 译至中)
+  dlc:
+    url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/DeepLQ-search.js
+    interval: 3600
+  # dle xxx (DeepL 译至英)
+  dle:
+    url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/DeepLQ-search.js
+    interval: 3600
+  # dlj xxx (DeepL 译至日)
+  dlj:
+    url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/DeepLQ-search.js
+    interval: 3600
