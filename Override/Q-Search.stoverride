@@ -1,5 +1,6 @@
 name: Q-Search
 desc: 快捷切换聚合搜索引擎
+# 使用前请先将默认搜索引擎设置为duckduckgo
 http:
   mitm:
     - "duckduckgo.com"
