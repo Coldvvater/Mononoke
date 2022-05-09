@@ -1,0 +1,15 @@
+name: QiMaoXiaoShuo
+desc: 七猫小说终身会员
+http:
+  mitm:
+    - "*.wtzw.com"
+  script:
+    - match: ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/
+      name: QMXS
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  QMXS:
+    url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/QiMaoXiaoShuo.js
+    interval: 3600
