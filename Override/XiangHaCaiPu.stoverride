@@ -1,0 +1,17 @@
+name: XiangHaCaiPu
+desc: 香哈菜谱VIP解锁
+
+http:
+  mitm:
+    - "apiios.xiangha.com"
+    - "39.97.157.167"
+  script:
+    - match: ^https?:\/\/apiios\.xiangha\.com\/main\d+\/
+      name: XHCP
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  XHCP:
+    url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/XiangHaCaiPu.js
+    interval: 3600
