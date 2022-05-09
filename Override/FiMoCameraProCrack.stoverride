@@ -1,0 +1,16 @@
+name: FiMoCameraProCrack
+desc: FIMO解锁全部胶卷
+
+http:
+  mitm:
+    - "server.yoyiapp.com"
+  script:
+    - match: ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$
+      name: FiMo
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  FiMo:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraProCrack.js
+    interval: 3600
