@@ -1,6 +1,12 @@
 name: AudioMackUnlock
 desc: AudioMack解锁永久订阅
 
+# 1.开启覆写
+# 2.登陆 Audiomack 账号
+# 3.退出 Audiomack 后台
+# 4.重新进入 Audiomack
+# 5.关闭覆写 永久订阅Get
+
 http:
   mitm:
     - "api.revenuecat.com"
