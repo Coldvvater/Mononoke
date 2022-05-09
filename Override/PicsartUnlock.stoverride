@@ -1,0 +1,16 @@
+name: PicsartUnlock
+desc: Picsart美易解锁订阅
+
+http:
+  mitm:
+    - "api.meiease.cn"
+  script:
+    - match: ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate
+      name: Picsart
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  Picsart:
+    url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/Picsart.js
+    interval: 3600
