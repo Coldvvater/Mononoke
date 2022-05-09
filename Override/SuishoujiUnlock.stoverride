@@ -1,0 +1,29 @@
+name: SuishoujiUnlock
+desc: 随手记解锁VIP
+
+http:
+  mitm:
+    - "api.feidee.net"
+    - "userapi.feidee.net"
+    - "tg.feidee.com"
+    - "community.feidee.com"
+  rewrite:
+    - ^https?:\/\/tg\.feidee\.com\/online_ad\/ - reject
+  script:
+    # 随手记解锁VIP
+    - match: ^https?:\/\/((user)?api|community)\.feidee\.(net|com)\/(v\d\/(pay/vip|profile/basic_info|app_themes/types)|transfer\/gapi\/accurat\/v\d\/tasks)
+      name: Suishouji
+      type: response
+      require-body: true
+      timeout: 10
+    # 随手记解锁VIP
+    - match: ^https?:\/\/api\.feidee\.net\/v\d\/app_themes\/\d+\/download
+      name: Suishouji
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+    # 随手记解锁VIP
+  Suishouji:
+    url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/SuiShouJi.js
+    interval: 3600
