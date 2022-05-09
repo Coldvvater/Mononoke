@@ -1,0 +1,16 @@
+name: MaKaLongWanTu
+desc: 马卡龙玩图解锁PRO
+
+http:
+  mitm:
+    - "app.api.versa-ai.com"
+  script:
+    - match: ^https?:\/\/app\.api\.versa-ai\.com\/pay\/order\/iap\/check
+      name: MKLWT
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  MKLWT:
+    url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MaKaLongWanTu.js
+    interval: 3600
