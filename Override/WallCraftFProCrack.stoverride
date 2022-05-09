@@ -1,0 +1,16 @@
+name: WallCraftFProCrack
+desc: WallCraft动态壁纸4K高清解锁专业版
+
+http:
+  mitm:
+    - "*.wallpaperscraft.com"
+  script:
+    - match: ^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$
+      name: WallCraft
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  WallCraft:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/WallCraftFProCrack.js
+    interval: 3600
