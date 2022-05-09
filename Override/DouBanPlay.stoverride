@@ -1,0 +1,15 @@
+name: DouBanPlay
+desc: Web豆瓣电影和电视剧添加便捷播放按钮
+http:
+  mitm:
+    - "m.douban.com"
+  script:
+    - match: ^https?:\/\/m\.douban\.com\/movie\/subject\/\d+\/
+      name: DouBan
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  DouBan:
+    url: https://raw.githubusercontent.com/I-am-R-E/Surge/main/JavaScript/DouBan.js
+    interval: 3600
