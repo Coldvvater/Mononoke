@@ -13,4 +13,4 @@ http:
 script-providers:
   Prisma:
     url: https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/Prisma.js
-    interval: 3600
+    interval: 86400
