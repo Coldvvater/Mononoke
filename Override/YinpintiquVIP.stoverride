@@ -1,0 +1,16 @@
+name: 音频剪辑提取
+desc: 音频剪辑提取解锁vip会员
+#注意：测试中，或不可以
+http:
+  mitm:
+    - "kongkongfufei.pdf00.com"
+  script:
+    - match: ^http:\/\/kongkongfufei.pdf00.com\/api\/client\/info
+      name: yptq
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  yptq:
+    url: https://raw.githubusercontent.com/LiangYi520/QuantumultX-Script/main/yptq.js
+    interval: 86400
