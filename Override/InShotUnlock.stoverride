@@ -1,6 +1,6 @@
 name: InShot
 desc: InShot解锁订阅
-
+# 注意：测试中，或不可用
 http:
   mitm:
     - "buy.itunes.apple.com"
