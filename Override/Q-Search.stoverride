@@ -122,12 +122,12 @@ script-providers:
   # dlc xxx (DeepL 译至中)
   dlc:
     url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/DeepLQ-search.js
-    interval: 3600
+    interval: 86400
   # dle xxx (DeepL 译至英)
   dle:
     url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/DeepLQ-search.js
-    interval: 3600
+    interval: 86400
   # dlj xxx (DeepL 译至日)
   dlj:
     url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/DeepLQ-search.js
-    interval: 3600
+    interval: 86400
