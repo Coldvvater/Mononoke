@@ -13,11 +13,14 @@ http:
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json)
-      name: MYXJ
+      name: MYXJPJ
       type: response
       require-body: true
       timeout: 10
 script-providers:
   MYXJ:
+    url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiYanXiangJi.js
+    interval: 3600
+  MYXJPJ:
     url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiYanXiangJi.js
     interval: 3600
