@@ -1,6 +1,8 @@
 name: 音频剪辑提取
 desc: 音频剪辑提取解锁vip会员
-#注意：测试中，或不可以
+# 登录后请重启1-2次
+# 下载地址：https://apps.apple.com/cn/app/%E9%9F%B3%E9%A2%91%E5%89%AA%E8%BE%91%E6%8F%90%E5%8F%96-%E9%9F%B3%E4%B9%90%E5%89%AA%E8%BE%91%E7%BC%96%E8%BE%91%E8%A7%86%E9%A2%91%E6%8F%90%E5%8F%96%E9%9F%B3%E9%A2%91%E5%B7%A5%E5%85%B7/id1546430222
+
 http:
   mitm:
     - "kongkongfufei.pdf00.com"
