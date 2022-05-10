@@ -19,4 +19,4 @@ http:
 script-providers:
   AudioMack:
     url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/AudioMackFProCrack.js
-    interval: 3600
+    interval: 86400
