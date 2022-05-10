@@ -12,4 +12,4 @@ http:
 script-providers:
   QMXS:
     url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/QiMaoXiaoShuo.js
-    interval: 3600
+    interval: 86400
