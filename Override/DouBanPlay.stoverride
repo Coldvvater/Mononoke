@@ -12,4 +12,4 @@ http:
 script-providers:
   DouBan:
     url: https://raw.githubusercontent.com/I-am-R-E/Surge/main/JavaScript/DouBan.js
-    interval: 3600
+    interval: 86400
