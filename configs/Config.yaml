@@ -83,6 +83,12 @@ proxy-groups:
       - All
     proxies:
       - 自动筛选
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - DIRECT
 
   - name: 自动筛选
     type: url-test
