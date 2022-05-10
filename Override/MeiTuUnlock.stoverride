@@ -15,4 +15,4 @@ http:
 script-providers:
   MTXX:
     url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiTuXiuXiu.js
-    interval: 3600
+    interval: 86400
