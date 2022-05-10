@@ -1,0 +1,16 @@
+name: TextEditor
+desc: TextEditor一次性解锁，或可通过iCloud同步到其他设备解锁(未实测)
+# 注意：测试中，或不可用
+http:
+  mitm:
+    - "buy.itunes.apple.com"
+  script:
+    - match: ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
+      name: TextEditor
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  TextEditor:
+    url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/TextEditor.js
+    interval: 86400
