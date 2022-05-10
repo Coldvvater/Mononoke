@@ -1,5 +1,5 @@
-name: QiMaoXiaoShuo
-desc: 七猫小说终身会员
+name: 七猫小说
+desc: 七猫小说解锁终身会员
 http:
   mitm:
     - "*.wtzw.com"
