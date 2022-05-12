@@ -86,8 +86,8 @@ http:
     # rd xxx (Reddit)
     - ^https:\/\/duckduckgo.com\/\?q=rd(\+|%20)([^&]+).+ https://www.reddit.com/search?q=$2 302
 
-    # tw xxx (Twitter)
-    - ^https:\/\/duckduckgo.com\/\?q=tw(\+|%20)([^&]+).+ https://twitter.com/search?q=$2 302
+    # tt xxx (Twitter)
+    - ^https:\/\/duckduckgo.com\/\?q=tt(\+|%20)([^&]+).+ https://twitter.com/search?q=$2 302
 
     # gd xxx (Google 搜索 Google Drive 资源)
     - ^https:\/\/duckduckgo.com\/\?q=gd(\+|%20)([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$2 302
