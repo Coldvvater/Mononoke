@@ -86,8 +86,8 @@ http:
     # rd xxx (Reddit)
     - ^https:\/\/duckduckgo.com\/\?q=rd(\+|%20)([^&]+).+ https://www.reddit.com/search?q=$2 302
 
-    # tt xxx (Twitter)
-    - ^https:\/\/duckduckgo.com\/\?q=tt(\+|%20)([^&]+).+ https://twitter.com/search?q=$2 302
+    # tw xxx (Twitter)
+    - ^https:\/\/duckduckgo.com\/\?q=tw(\+|%20)([^&]+).+ https://twitter.com/search?q=$2 302
 
     # gd xxx (Google 搜索 Google Drive 资源)
     - ^https:\/\/duckduckgo.com\/\?q=gd(\+|%20)([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$2 302
@@ -124,9 +124,6 @@ http:
     
     # hk (App Store 临时切换至香港区)
     - ^https:\/\/duckduckgo.com\/\?q=hk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc= 302
-    
-    # tw (App Store 临时切换至台湾区)
-    - ^https:\/\/duckduckgo.com\/\?q=tw&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc= 302
     
     # jp (App Store 临时切换至日本区)
     - ^https:\/\/duckduckgo.com\/\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
