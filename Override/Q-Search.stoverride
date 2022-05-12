@@ -124,15 +124,18 @@ http:
     
     # hhk (App Store 临时切换至香港区)
     - ^https:\/\/duckduckgo.com\/\?q=hhk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc= 302
+
+    # ttw (App Store 临时切换至台湾区)
+    - ^https:\/\/duckduckgo.com\/\?q=ttw&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc= 302
     
-    # jp (App Store 临时切换至日本区)
-    - ^https:\/\/duckduckgo.com\/\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
+    # jjp (App Store 临时切换至日本区)
+    - ^https:\/\/duckduckgo.com\/\?q=jjp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
     
-    # kr (App Store 临时切换至韩国区)
-    - ^https:\/\/duckduckgo.com\/\?q=kr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143466&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=kr&urlDesc= 302
+    # kkr (App Store 临时切换至韩国区)
+    - ^https:\/\/duckduckgo.com\/\?q=kkr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143466&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=kr&urlDesc= 302
     
-    # tr (App Store 临时切换至土耳其区)
-    - ^https:\/\/duckduckgo.com\/\?q=tr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
+    # ttr (App Store 临时切换至土耳其区)
+    - ^https:\/\/duckduckgo.com\/\?q=ttr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
 
     # xxx （无指令默认为 Google）
     - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&num=100 302
