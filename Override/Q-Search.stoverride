@@ -1,6 +1,6 @@
 name: Q-Search
 desc: 快捷切换聚合搜索引擎
-# 使用前请先将默认搜索引擎设置为duckduckgo
+# 使用前请先将Safari浏览器默认搜索引擎设置为duckduckgo
 http:
   mitm:
     - "duckduckgo.com"
@@ -16,6 +16,12 @@ http:
 
     # bd xxx (百度)
     - ^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+ https://www.baidu.com/s?wd=$2 302
+    
+    # bi xxx (必应)
+    - ^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ https://cn.bing.com/search?q=$1 302
+    
+    # yh xxx (油猴搜索)
+    - ^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ https://greasyfork.org/zh-CN/scripts?q=$1 302
 
     # gh xxx (GitHub)
     - ^https:\/\/duckduckgo.com\/\?q=gh(\+|%20)([^&]+).+ https://github.com/search?q=$2 302
@@ -46,6 +52,15 @@ http:
 
     # ytb xxx (YouTube)
     - ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
+    
+    # bli xxx (哔哩哔哩)
+    - ^https:\/\/duckduckgo.com\/\?q=bli\+([^&]+).+ https://m.bilibili.com/search?keyword=$1 302
+    
+    # af  xxx (Acfun)
+    - ^https:\/\/duckduckgo.com\/\?q=af\+([^&]+).+ https://www.acfun.cn/search?keyword=$1 302
+    
+    # ph  xxx (PornHub)
+    - ^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
 
     # so xxx (Stack Overflow)
     - ^https:\/\/duckduckgo.com\/\?q=so(\+|%20)([^&]+).+ https://stackoverflow.com/search?q=$2 302
@@ -64,6 +79,9 @@ http:
 
     # wb xxx (微博)
     - ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
+    
+    # wx xxx (微信)
+    - ^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ https://weixin.sogou.com/weixinwap?query=$1 302
 
     # rd xxx (Reddit)
     - ^https:\/\/duckduckgo.com\/\?q=rd(\+|%20)([^&]+).+ https://www.reddit.com/search?q=$2 302
@@ -85,15 +103,39 @@ http:
 
     # rut xxx (Google 搜索 rutracker)
     - ^https:\/\/duckduckgo.com\/\?q=rut(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=rutracker.org 302
-
+    
+    # zdm xxx (什么值得买)
+    - ^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ https://search.m.smzdm.com/?v=b&s=$1 302
+    
+    # jd xxx (京东)
+    - ^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ https://so.m.jd.com/ware/search.action?keyword=$1 302
+    
+    # tb xxx (淘宝)
+    - ^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ https://s.m.taobao.com/h5?q=$1 302
+    
     # ddg xxx (还原 DuckDuckGo)
     - ^https:\/\/duckduckgo.com\/\?q=ddg(\+|%20)([^&]+).+ https://duckduckgo.com/?ia=about&q=$2 302
 
-    # ccn (App Store 临时换至中国区) 感谢 @mieqq
+    # ccn (App Store 临时切换至中国区) 感谢 @mieqq
     - ^https:\/\/duckduckgo.com\/\?q=ccn&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc= 302
 
-    # uus (App Store 临时换至美国区) 感谢 @mieqq
+    # uus (App Store 临时换切至美国区) 感谢 @mieqq
     - ^https:\/\/duckduckgo.com\/\?q=uus&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc= 302
+    
+    # hk (App Store 临时切换至香港区)
+    - ^https:\/\/duckduckgo.com\/\?q=hk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc= 302
+    
+    # tw (App Store 临时切换至台湾区)
+    - ^https:\/\/duckduckgo.com\/\?q=tw&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc= 302
+    
+    # jp (App Store 临时切换至日本区)
+    - ^https:\/\/duckduckgo.com\/\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
+    
+    # kr (App Store 临时切换至韩国区)
+    - ^https:\/\/duckduckgo.com\/\?q=kr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143466&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=kr&urlDesc= 302
+    
+    # tr (App Store 临时切换至土耳其区)
+    - ^https:\/\/duckduckgo.com\/\?q=tr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
 
     # xxx （无指令默认为 Google）
     - ^https:\/\/duckduckgo.com\/\?q=(?!dl(c|e|j)(\+|%20))([^&]+).+ https://www.google.com/search?q=$3&num=100 302
