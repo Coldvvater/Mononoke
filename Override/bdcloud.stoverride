@@ -1,0 +1,16 @@
+name: 百度网盘破解
+desc: 百度网盘会员权限破解
+
+http:
+  mitm:
+    - "pan.baidu.com"
+  script:
+    - match: https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user
+      name: bdcloud
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  bdcloud:
+    url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
+    interval: 86400
