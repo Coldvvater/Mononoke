@@ -5,6 +5,7 @@ bind-address: "*"
 mode: rule
 log-level: silent
 external-controller: 127.0.0.1:9090
+
 dns:
   enable: true
   listen: 0.0.0.0:53
@@ -12,6 +13,7 @@ dns:
   default-nameserver:
     - 223.5.5.5
     - 114.114.114.114
+    
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
@@ -106,11 +108,17 @@ dns:
     - '*.finalfantasyxiv.com'
     - '*.ffxiv.com'
     - '*.mcdn.bilivideo.cn'
+    
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+    
+  fallback:
+    - https://dns.google/dns-query
+    - https://1.1.1.1/dns-query
+    
   fallback-filter:
-    geoip: false
+    geoip: true
     ipcidr:
       - 0.0.0.0/8
       - 10.0.0.0/8
@@ -131,6 +139,7 @@ dns:
     domain:
       - '+.google.com'
       - '+.facebook.com'
+      - '+.twitter.com'
       - '+.youtube.com'
       - '+.githubusercontent.com'
       - '+.googlevideo.com'
