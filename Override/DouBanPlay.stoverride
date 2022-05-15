@@ -1,5 +1,6 @@
-name: DouBanPlay
+name: 豆瓣影视
 desc: Web版豆瓣电影和电视剧添加便捷播放源按钮
+
 http:
   mitm:
     - "m.douban.com"
