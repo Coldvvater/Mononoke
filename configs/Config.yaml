@@ -1,5 +1,5 @@
-# 可以使用任意类型的机场订阅链接替换掉proxy-providers下url: 后的「订阅链接」四字即可使用，多个链接使用英文符号的竖杠 | 隔开一起写上即可；
-# 或者将Clash订阅转换链接替换掉整个引号""内的链接内容。
+# A Lazy_Congfg Make by Coldvvater
+# 2022.05.16
 
 port: 7890
 socks-port: 7891
@@ -40,7 +40,9 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://wild-surf-5c82.isonfm.workers.dev/sub?target=clash&url=订阅链接&list=true&udp=true"
+    url: ""
+    # 将订阅链接粘贴在""内，多个链接使用英文符号的竖杠|隔开一起填上即可，
+    # 如订阅链接不支持proxy-providers，请先进行订阅转换。
     interval: 3600
     path: ./all.yaml
     health-check:
