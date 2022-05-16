@@ -114,8 +114,8 @@ dns:
     - https://dns.alidns.com/dns-query
     
   # fallback:
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
+   # - https://dns.google/dns-query
+   # - https://cloudflare-dns.com/dns-query
     
   fallback-filter:
     geoip: true
