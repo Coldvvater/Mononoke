@@ -113,6 +113,11 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
     
+  fallback:
+    - https://doh.dns.sb/dns-query
+    - tcp://208.67.222.222:443
+    - quic://a.passcloud.xyz:784
+    
   fallback-filter:
     geoip: true
     ipcidr:
