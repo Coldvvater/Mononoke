@@ -3,7 +3,7 @@ desc: 谷歌搜索自动无缝翻页
 
 http:
   mitm:
-    - "www.google.*,"
+    - "www.google.*"
   script:
     - match: ^https?:\/\/www\.google\..*\/search
       name: Google
