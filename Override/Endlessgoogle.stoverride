@@ -1,0 +1,16 @@
+name: Google无缝翻页
+desc: 谷歌搜索自动无缝翻页
+
+http:
+  mitm:
+    - "www.google.*,"
+  script:
+    - match: ^https?:\/\/www\.google\..*\/search
+      name: Google
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  Google:
+    url: https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/endlessgoogle.js
+    interval: 86400
