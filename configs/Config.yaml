@@ -1,5 +1,5 @@
 # A Lazy_Congfg Make by Coldvvater
-# 2022.05.16
+# 2022.05.18
 
 port: 7890
 socks-port: 7891
@@ -33,7 +33,14 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
     
 proxy-providers:
 
@@ -49,21 +56,11 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-
-  #美国节点    
-  US:
-    <<: *All #引用锚点内容
-    filter: 美|🇺🇲|US|(?i)States|American
     
   #香港节点
   HK:
     <<: *All
     filter: 港|🇭🇰|HK|(?i)Hong
-
-  #日本节点
-  JP:
-    <<: *All
-    filter: 日|🇯🇵|东京|JP|(?i)Japan
  
   #台湾节点
   TW:
@@ -74,6 +71,17 @@ proxy-providers:
   SG:
     <<: *All
     filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
+    
+  #日本节点
+  JP:
+    <<: *All
+    filter: 日|🇯🇵|东京|JP|(?i)Japan
+    
+  #美国节点    
+  US:
+    <<: *All #引用锚点内容
+    filter: 美|🇺🇲|US|(?i)States|American
+    
 proxies:
             
 proxy-groups:
@@ -188,7 +196,7 @@ rule-providers:
   Unbreak:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
     path: ./ruleset/Unbreak.yaml
     interval: 86400
 
@@ -209,28 +217,28 @@ rule-providers:
   Hijacking:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Hijacking.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
     path: ./ruleset/Hijacking.yaml
     interval: 86400
 
   Streaming:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
     path: ./ruleset/Streaming.yaml
     interval: 86400
 
   StreamingSE:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
     path: ./ruleset/StreamingSE.yaml
     interval: 86400
 
   Global:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
     path: ./ruleset/Global.yaml
     interval: 86400
 
@@ -244,7 +252,7 @@ rule-providers:
   China:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
     path: ./ruleset/China.yaml
     interval: 86400
 
