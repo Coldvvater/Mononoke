@@ -1,5 +1,5 @@
 # A Lazy_Congfg Make by Coldvvater
-# 2022.05.18
+# 2022.05.19
 
 port: 7890
 socks-port: 7891
@@ -12,6 +12,7 @@ dns:
   enable: true
   listen: 0.0.0.0:53
   default-nameserver:
+    - 119.29.29.29
     - 223.5.5.5
     - 114.114.114.114
   enhanced-mode: fake-ip
@@ -33,14 +34,6 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-  fallback:
-    - https://1.1.1.1/dns-query
-    - https://dns.google/dns-query
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
     
 proxy-providers:
 
@@ -59,7 +52,7 @@ proxy-providers:
     
   #香港节点
   HK:
-    <<: *All
+    <<: *All #引用锚点内容
     filter: 港|🇭🇰|HK|(?i)Hong
  
   #台湾节点
@@ -79,7 +72,7 @@ proxy-providers:
     
   #美国节点    
   US:
-    <<: *All #引用锚点内容
+    <<: *All
     filter: 美|🇺🇲|US|(?i)States|American
     
 proxies:
