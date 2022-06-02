@@ -1,6 +1,6 @@
 name: BiliBili_CC字幕
-desc: 哔哩哔哩CC字幕繁体转简体(测试)
-
+desc: 哔哩哔哩CC字幕繁体转简体
+# 感谢：Cuttlefish
 http:
   mitm:
     - "*.hdslb.com"
