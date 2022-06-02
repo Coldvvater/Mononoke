@@ -1,0 +1,16 @@
+name: BiliBili_CC字幕
+desc: 哔哩哔哩CC字幕繁体转简体(测试)
+
+http:
+  mitm:
+    - "*.hdslb.com"
+  script:
+    - match: ^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$
+      name: BiliBili_CC
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  BiliBili_CC:
+    url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_cc.js
+    interval: 86400
