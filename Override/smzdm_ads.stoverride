@@ -1,6 +1,6 @@
 name: 什么值得买
 desc: 什么值得买APP去广告(测试版)
-
+# 如不生效或其他问题，请到库里发issues反馈。
 http:
   mitm:
     - "app-api.smzdm.com"
