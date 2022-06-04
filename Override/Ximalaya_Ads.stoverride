@@ -12,9 +12,6 @@ http:
     - ^https?:\/\/.*\.xima.*\.com/collector/xl/v\d url reject
     # ～ XiMaLaYa_喜马拉雅_屏蔽版本更新@ddgksf2013
     - ^https?:\/\/.*\.xima.*\.com/butler-portal/versionCheck url reject
-    ^https?:\/\/.*\.xima.*\.com/collector/xl/v\d url reject
-    # ～ XiMaLaYa_喜马拉雅_屏蔽版本更新@ddgksf2013
-    - ^https?:\/\/.*\.xima.*\.com/butler-portal/versionCheck url reject
     # ～ XiMaLaYa_喜马拉雅_屏蔽开屏广告@ddgksf2013
     - ^https?:\/\/(adse\.wsa|adse|adbehavior|xdcs-collector)\.xima.*\.com\/.* url reject
     # ～ XiMaLaYa_喜马拉雅_屏蔽位置请求@ddgksf2013
