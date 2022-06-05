@@ -1,6 +1,7 @@
-# A Lazy_Congfg Make by Coldvvater
-# 2022.05.19
-
+# A Lazy_Congfg for Stash Make by Coldvvater
+# 2022.06.05
+subscribe-url: 你的订阅链接
+# 替换上面文字用于Stash获取机场流量信息并在主页显示
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -14,23 +15,23 @@ dns:
   default-nameserver:
     - 119.29.29.29
     - 223.5.5.5
-    - 114.114.114.114
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
+    - '+.cn'
+    - 'time1.cloud.tencent.com'
+    - 'music.163.com'
+    - '*.music.163.com'
+    - '*.126.net'
+    - '*.mcdn.bilivideo.cn'
+    - '*.localhost'
     - localhost.ptlogin2.qq.com
-    - '+.srv.nintendo.net'
-    - '+.stun.playstation.net'
+    - '+.baidu.com'
     - '+.msftconnecttest.com'
     - '+.msftncsi.com'
-    - '+.xboxlive.com'
-    - 'msftconnecttest.com'
-    - 'xbox.*.microsoft.com'
-    - '*.battlenet.com.cn'
-    - '*.battlenet.com'
-    - '*.blzstatic.cn'
-    - '*.battle.net'
+    - '*.alipay.com'
+    - 'dl.google.com'
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
@@ -41,7 +42,7 @@ proxy-providers:
   All: &All #建立锚点
     type: http
     url: ""
-    # 将订阅链接粘贴在""内，多个链接使用英文符号的竖杠|隔开一起填上即可，
+    # 将Clash类型订阅链接粘贴在引号""内，多个链接使用英文符号的竖杠|隔开一起填上即可，
     # 如订阅链接不支持proxy-providers，请先进行订阅转换。
     interval: 3600
     path: ./all.yaml
