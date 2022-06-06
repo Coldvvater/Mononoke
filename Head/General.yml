@@ -105,7 +105,7 @@ dns:
     geoip-code: CN
     ipcidr:
       - 240.0.0.0/4
-    domain:                          #列表中的域名使用fallback返回解析结果
+    domain:
       - '+.google.com'
       - '+.twitter.com'
       - '+.facebook.com'
