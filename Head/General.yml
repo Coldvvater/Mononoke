@@ -109,6 +109,7 @@ dns:
       - '+.google.com'
       - '+.twitter.com'
       - '+.facebook.com'
-      - '+.youtube.com''
+      - '+.youtube.com'
       - '+.github.com'
       - '+.githubusercontent.com'
+      - '+.googlevideo.com'
