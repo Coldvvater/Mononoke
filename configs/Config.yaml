@@ -7,25 +7,41 @@
 subscribe-url: 你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
 
-mixed-port: 7890             #本地混合代理(http和socks5合并）端口
-allow-lan: true              #允许局域网连接(false/true)
-bind-address:                #监听IP白名单（当allow-lan：true），只允许列表设备
-  '*'                             #全部设备
-  # 192.168.122.11                #单个ip4地址
-  # "[aaaa::a8aa:ff:fe09:57d8]"   #单个ip6地址
-mode: rule                   #clash工作模式（rule/global/direct）
-log-level: debug             #日志等级（info/warning/error/debug/silent）
-external-controller: 127.0.0.1:9090   #控制器监听地址
+mixed-port: 7890
+  # 本地混合代理(http和socks5合并）端口
+allow-lan: true
+  # 允许局域网连接(false/true)
+bind-address:
+  # 监听IP白名单（当allow-lan：true），只允许列表设备
+  '*'
+  # 全部设备
+  # 192.168.122.11
+  #单个ip4地址
+  # "[aaaa::a8aa:ff:fe09:57d8]"
+  #单个ip6地址
+mode: rule
+  # clash工作模式（rule/global/direct）
+log-level: debug
+  # 日志等级（info/warning/error/debug/silent）
+external-controller: 127.0.0.1:9090
+  # 控制器监听地址
 dns:
-  enable: true               #DNS开关(false/true)
-  listen: 0.0.0.0:53         #DNS监听地址
-  ipv6: false                #IP6解析开关；如果为false，将返回ip6结果为空
-  default-nameserver:        #解析非IP的dns用的dns服务器,只支持纯IP
+  enable: true
+  # DNS开关(false/true)
+  listen: 0.0.0.0:53
+  # DNS监听地址
+  ipv6: false
+  # IP6解析开关；如果为false，将返回ip6结果为空
+  default-nameserver:
+  # 解析非IP的dns用的dns服务器,只支持纯IP
     - 223.5.5.5
     - 119.29.29.29
-  enhanced-mode: fake-ip     #DNS模式(redir-host/fake-ip)
-  fake-ip-range: 198.18.0.1/16       #Fake-IP解析地址池
-  fake-ip-filter:            #Fake-ip过滤，列表中的域名返回真实ip
+  enhanced-mode: fake-ip
+  # DNS模式(redir-host/fake-ip)
+  fake-ip-range: 198.18.0.1/16
+  # Fake-IP解析地址池
+  fake-ip-filter:
+  # Fake-ip过滤，列表中的域名返回真实ip
     - '*.lan'
     - '+.cn'
     - '*.localdomain'
@@ -105,26 +121,10 @@ dns:
     - '*.ffxiv.com'
     - '*.mcdn.bilivideo.cn'
     - 'dl.google.com'
-  nameserver:                        #默认DNS服务器，支持udp/tcp/dot/doh/doq
+  nameserver:
+  # 默认DNS服务器，支持udp/tcp/dot/doh/doq
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
-# 删除fallback以及下面一系列参数前面的'#'号注释便可使用
-#  fallback:                          #回落DNS服务器，支持udp/tcp/dot/doh/doq
-#    - https://8.8.4.4/dns-query
-#    - https://1.0.0.1/dns-query
-#  fallback-filter:                   #回落DNS服务器过滤
-#    geoip: true                      #为真时，不匹配为geoip规则的使用fallback返回结果
-#    geoip-code: CN                   #geoip匹配区域设定
-#    ipcidr:                          #列表中的ip使用fallback返回解析结果
-#      - 240.0.0.0/4
-#    domain:                          #列表中的域名使用fallback返回解析结果
-#      - '+.google.com'
-#      - '+.twitter.com'
-#      - '+.facebook.com'
-#      - '+.youtube.com'
-#      - '+.github.com'
-#      - '+.githubusercontent.com'
-#      - '+.googlevideo.com'
     
 proxy-providers:
 
