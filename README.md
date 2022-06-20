@@ -7,7 +7,7 @@
 1. 所有内容均来自互联网,不确保长期可用性。
 2. 只是搬运和同步更新大佬作品，不负责维护。
 
-### 特别感谢各路大佬辛苦成果和分享。（排名不分先后）：
+### 特别感谢各路大佬辛苦成果和分享（排名不分先后）：
 
 * [DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)  * [Tartarus2014](https://github.com/Tartarus2014)  * [nzw9314](https://github.com/nzw9314)  * [Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)  * [Hausd0rff(yqc007)](https://github.com/yqc007/QuantumultX)  * [Semporia](https://github.com/Semporia)  * [fishingworld](https://github.com/fishingworld/something)   
 
