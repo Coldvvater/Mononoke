@@ -2,7 +2,7 @@
 [![](https://img.shields.io/github/followers/Coldvvater?label=follow&style=social)](https://github.com/Coldvvater)
 #### 本配置为纯粹自用，未必适合所有人，请酌情使用。
 
-##### 声明：
+#### 声明：
 
 1. 所有内容均来自互联网,不确保长期可用性。
 2. 只是搬运和同步更新大佬作品，不负责维护。
