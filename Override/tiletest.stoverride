@@ -11,5 +11,5 @@ tiles:
 
 script-providers:
   External-IP-Tile:
-    url: https://raw.githubusercontent.com/STASH-NETWORKS-LIMITED/stash-external-ip-tile/main/external-ip-address-tile.js
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/external-ip-address-tiletest.js
     interval: 86400
