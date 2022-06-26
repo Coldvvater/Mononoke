@@ -1,0 +1,15 @@
+name: 流量统计
+desc: 用于显示当前WiFi及蜂窝流量统计(Beta)
+
+tiles:
+  - name: trafficstatistics
+    interval: 600
+    title: '流量统计'
+    content: 'This is Super Cool'
+    icon: 'arrow.up.right.and.arrow.down.left.rectangle.fill.system' # 或 https://stash.ws/amazing.png
+    backgroundColor: '#318BD5'
+
+script-providers:
+  trafficstatistics:
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/trafficstatistics.js
+    interval: 86400
