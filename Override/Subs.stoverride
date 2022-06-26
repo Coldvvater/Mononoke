@@ -10,5 +10,6 @@ tiles:
     backgroundColor: '#318BD5'
 
 script-providers:
-  Subs:https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/Subs.js
+  Subs:
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/Subs.js
     interval: 86400
