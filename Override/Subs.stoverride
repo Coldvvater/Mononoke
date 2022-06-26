@@ -1,0 +1,14 @@
+name: 显示订阅用量
+desc: 用于显示订阅链接的流量使用情况的 Stash 面板
+
+tiles:
+  - name: Subs
+    interval: 1800
+    title: '当前用量'
+    content: '未知的'
+    icon: 'network'
+    backgroundColor: '#318BD5'
+
+script-providers:
+  Subs:https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/Subs.js
+    interval: 86400
