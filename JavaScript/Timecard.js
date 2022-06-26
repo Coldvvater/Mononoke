@@ -1,88 +1,112 @@
-$httpClient.get("https://www.mxnzp.com/api/holiday/single/", function (error, response, data) {
+let params = getParams($argument)
+
+;(async () => {
+
+let traffic = (await httpAPI("/v1/traffic"))
+let interface = traffic.interface
+
+/* 获取所有网络界面 */
+let allNet = [];
+for (var key in interface){
+   allNet.push(key)
+    }
+
+if(allNet.includes("lo0")==true){
+del(allNet,"lo0")
+}
+
+let net;
+let index;
+if( $persistentStore.read("NETWORK")==null||allNet.includes($persistentStore.read("NETWORK"))==false){
+	index = 0
+	}else{
+	net = $persistentStore.read("NETWORK")
+	for(let i = 0;i < allNet.length; ++i) {
+		if(net==allNet[i]){
+		index=i
+		}
+	}
+}
+
+/* 手动执行时切换网络界面 */
+if($trigger == "button"){
+	if(allNet.length>1) index += 1
+	if(index>=allNet.length) index = 0;
+	$persistentStore.write(allNet[index],"NETWORK")
+};
+
+net = allNet[index]
+let network = interface[net]
+
+let outCurrentSpeed = speedTransform(network.outCurrentSpeed) //上传速度
+let outMaxSpeed = speedTransform(network.outMaxSpeed) //最大上传速度
+let download = bytesToSize(network.in) //下载流量
+let upload = bytesToSize(network.out) //上传流量
+let inMaxSpeed = speedTransform(network.inMaxSpeed) //最大下载速度
+let inCurrentSpeed = speedTransform(network.inCurrentSpeed) //下载速度
+
+/* 判断网络类型 */
+let netType;
+if(net=="en0") {
+	netType = "WiFi"
+	}else{
+	netType = "Cellular"
+	}
+
+
     $done({
-        title: "节假日倒计时",
-        content: tlist[nowlist][0]+"  :  "+today(tnumcount(nowlist))+"天\n"+tlist[Number(nowlist) + Number(1)][0] +"  :  "+ tnumcount(Number(nowlist) + Number(1))+ "天\n"+tlist[Number(nowlist) + Number(2)][0]+"  :  "+tnumcount(Number(nowlist) + Number(2))+"天"
-}),
-        backgroundColor: "#5AC8FA",
-        icon: "list.dash.header.rectangle",
+        title: "流量统计 | "+netType",
+        content: `流量 ➟ ${upload} | ${download}\n`+
+      `速度 ➟ ${outCurrentSpeed} | ${inCurrentSpeed}\n` +
+		`峰值 ➟ ${outMaxSpeed} | ${inMaxSpeed}`,
+        backgroundColor: "#318BD5",
+        icon: "arrow.up.right.and.arrow.down.left.rectangle.fill.system",
     })
 })
-var tlist = {
-  1: ["生日", "2022-04-20"],
-  2: ["劳动", "2022-05-01"],
-  3: ["奶奶生日", "2022-05-04"],
-  4: ["楠楠生日", "2022-05-14"],
-  5: ["520", "2022-05-20"],
-  6: ["521", "2022-05-21"],
-  7: ["端午", "2022-06-03"],
-  8: ["WWDC22", "2022-06-07"],
-  9: ["老婆生日", "2022-07-03"],
-  10: ["七夕", "2022-08-04"],
-  11: ["多多生日", "2022-08-20"],
-  12: ["中秋", "2022-09-10"],
-  13: ["国庆", "2022-10-01"],
-  14: ["元旦", "2023-01-01"],
-  15: ["春节", "2023-01-22"],
-  16: ["元宵", "2023-02-05"],
-  18: ["结婚纪念日3", "2023-03-27"],
-  19: ["清明", "2023-04-05"]
+
+function bytesToSize(bytes) {
+  if (bytes === 0) return "0B";
+  let k = 1024;
+  sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+  let i = Math.floor(Math.log(bytes) / Math.log(k));
+  return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
+}
+
+function speedTransform(bytes) {
+  if (bytes === 0) return "0B/s";
+  let k = 1024;
+  sizes = ["B/s", "KB/s", "MB/s", "GB/s", "TB/s", "PB/s", "EB/s", "ZB/s", "YB/s"];
+  let i = Math.floor(Math.log(bytes) / Math.log(k));
+  return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
+}
+
+
+function httpAPI(path = "", method = "GET", body = null) {
+    return new Promise((resolve) => {
+        $httpAPI(method, path, body, (result) => {
+			
+            resolve(result);
+        });
+    });
 };
-let tnow = new Date();
-let tnowf =
-  tnow.getFullYear() + "-" + (tnow.getMonth() + 1) + "-" + tnow.getDate();
 
-/* 计算2个日期相差的天数，不包含今天，如：2016-12-13到2016-12-15，相差2天
- * @param startDateString
- * @param endDateString
- * @returns
- */
-function dateDiff(startDateString, endDateString) {
-  var separator = "-"; //日期分隔符
-  var startDates = startDateString.split(separator);
-  var endDates = endDateString.split(separator);
-  var startDate = new Date(startDates[0], startDates[1] - 1, startDates[2]);
-  var endDate = new Date(endDates[0], endDates[1] - 1, endDates[2]);
-  return parseInt(
-    (endDate - startDate) / 1000 / 60 / 60 / 24
-  ).toString();
+
+function getParams(param) {
+  return Object.fromEntries(
+    $argument
+      .split("&")
+      .map((item) => item.split("="))
+      .map(([k, v]) => [k, decodeURIComponent(v)])
+  );
 }
 
-//计算输入序号对应的时间与现在的天数间隔
-function tnumcount(num) {
-  let dnum = num;
-  return dateDiff(tnowf, tlist[dnum][1]);
-}
-
-//获取最接近的日期
-function now() {
-  for (var i = 1; i <= Object.getOwnPropertyNames(tlist).length; i++) {
-    if (Number(dateDiff(tnowf, tlist[i.toString()][1])) >= 0) {
-      //console.log("最近的日期是:" + tlist[i.toString()][0]);
-      //console.log("列表长度:" + Object.getOwnPropertyNames(tlist).length);
-      //console.log("时间差距:" + Number(dateDiff(tnowf, tlist[i.toString()][1])));
-      return i;
-    }
-  }
-}
-
-//如果是0天，发送emoji;
-let nowlist = now();
-function today(day) {
-  let daythis = day;
-  if (daythis == "0") {
-    datenotice();
-    return "🎉";
-  } else {
-    return daythis;
-  }
-}
-
-//提醒日当天发送通知
-function datenotice() {
-  if ($persistentStore.read("timecardpushed") != tlist[nowlist][1] && tnow.getHours() >= 6) {
-    $persistentStore.write(tlist[nowlist][1], "timecardpushed");
-    $notification.post("假日祝福","", "今天是" + tlist[nowlist][1] + "日 " + tlist[nowlist][0] + "   🎉")
-  } else if ($persistentStore.read("timecardpushed") == tlist[nowlist][1]) {
-    //console.log("当日已通知");
-  }
-}
+function del(arr,num) {
+			var l=arr.length;
+		    for (var i = 0; i < l; i++) {
+			  	if (arr[0]!==num) { 
+			  		arr.push(arr[0]);
+			  	}
+			  	arr.shift(arr[0]);
+		    }
+		    return arr;
+		}
