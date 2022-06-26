@@ -2,8 +2,8 @@ $httpClient.get("https://www.tianapi.com/apiview/169", function (error, response
     $done({
         title: "疫情日报",
         content: data,
-        backgroundColor: "#EECD39",
-        icon: "https:\/\/raw.githubusercontent.com\/shoujiqiyuan\/PokemonGOforQuanX\/master\/IconSet\/X001.png",
+        backgroundColor: "#318BD5",
+        icon: "aqi.medium",
     })
 })
 /**
