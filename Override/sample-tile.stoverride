@@ -11,5 +11,5 @@ tiles:
 
 script-providers:
   sui-tile:
-    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/weather.js
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/suibian.js
     interval: 86400
