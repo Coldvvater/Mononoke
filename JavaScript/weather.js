@@ -1,4 +1,4 @@
-$httpClient.get("https://devapi.qweather.com/v7/weather/now?key=bf994b2d5cc6446184697aea4af6944d", function (error, response, data) {
+$httpClient.get("https://c-ssl.duitang.com/uploads/item/202004/26/20200426131631_taysd.jpg", function (error, response, data) {
     $done({
         title: "当前天气",
         content: data,
