@@ -1,0 +1,15 @@
+name: 流量统计
+desc: 用于显示当前WiFi及蜂窝流量信息
+
+tiles:
+  - name: trafficstatistics-tile
+    interval: 600
+    title: '流量统计'
+    content: ''
+    icon: 'arrow.up.arrow.down.circle'
+    backgroundColor: '#318BD5'
+
+script-providers:
+  trafficstatistics-tile:
+    url: https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js
+    interval: 86400
