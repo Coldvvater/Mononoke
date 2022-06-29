@@ -7,7 +7,7 @@ http:
   script:
     - match: ^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall))
       name: Tidal_Unlock
-      type: request-header
+      type: request
       require-body: false
       timeout: 10
 script-providers:
