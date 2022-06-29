@@ -1,0 +1,11 @@
+name: 疫情日报 Tile 面板
+desc: 用于显示疫情信息的面板 (Stash 2.0)
+
+tiles:
+  - name: nCoV-Tile
+    interval: 7200
+
+script-providers:
+  nCoV-Tile:
+    url: https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js
+    interval: 86400
