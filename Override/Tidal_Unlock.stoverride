@@ -1,0 +1,16 @@
+name: Tidal_HiFi_Unlock
+desc: TIDAL流媒体HiFi Plus解锁
+
+http:
+  mitm:
+    - "api.tidal.com"
+  script:
+    - match: ^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall))
+      name: Tidal_Unlock
+      type: request-header
+      require-body: false
+      timeout: 10
+script-providers:
+  Tidal_Unlock:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
+    interval: 86400
