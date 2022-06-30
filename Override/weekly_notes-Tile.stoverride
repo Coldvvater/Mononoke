@@ -1,0 +1,11 @@
+name: 每周循环信息展示 Tile 面板
+desc:  每周七天自定义显示特定信息 (Stash 2.0)
+# 搭配boxjs使用：https://raw.githubusercontent.com/smartmimi/conf/master/boxjs/cookie.boxjs.json,输入key
+tiles:
+  - name: weekly_notes-Tile
+    interval: 3600
+
+script-providers:
+  weekly_notes-Tile:
+    url: https://raw.githubusercontent.com/StevenKwan/stash-waffle/main/tiles/ipcheck.js
+    interval: 86400
