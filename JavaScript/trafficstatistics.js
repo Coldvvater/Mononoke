@@ -55,8 +55,8 @@ if(net=="en0") {
 
 
   $done({
-      title:"流量统计 | "+netType,
-      content:`流量: ${upload} ${download}\n速度: ${outCurrentSpeed} - ${inCurrentSpeed}\n峰值: ${outMaxSpeed} - ${inMaxSpeed}`,
+      title:"流量统计": netType,
+      content:`流量: ${upload} - ${download}\n速度: ${outCurrentSpeed} - ${inCurrentSpeed}\n峰值: ${outMaxSpeed} - ${inMaxSpeed}`,
       icon: "arrow.up.right.and.arrow.down.left.rectangle.fill.system",
       backgroundColor: '#318BD5',
   }
