@@ -4,6 +4,8 @@ desc: 用于显示流量信息的面板 (Stash 2.0)
 tiles:
   - name: trafficstatistics-Tile
     interval: 300
+    icon: "arrow.up.right.and.arrow.down.left.rectangle.fill.system"
+    backgroundColor: '#318BD5'
 
 script-providers:
   trafficstatistics-Tile:
