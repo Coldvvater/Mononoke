@@ -7,5 +7,5 @@ tiles:
 
 script-providers:
   weekly_notes-Tile:
-    url: https://raw.githubusercontent.com/StevenKwan/stash-waffle/main/tiles/ipcheck.js
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/weekly_notes.js
     interval: 86400
