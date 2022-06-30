@@ -1,0 +1,11 @@
+name: 机场流量 Tile 面板
+desc: 用于显示机场流量信息 (Stash 2.0)
+# 搭配boxjs使用：BoxJS订阅以下地址: https://raw.githubusercontent.com/smartmimi/conf/master/boxjs/cookie.boxjs.json, 添加"机场流量", 并按提示填写订阅链接等参数
+tiles:
+  - name: sub_info-Tile
+    interval: 3600
+
+script-providers:
+  sub_info-Tile:
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/sub_info.js
+    interval: 86400
