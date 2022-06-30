@@ -48,7 +48,7 @@ Sub_info = script-name=Sub_info
 	title:  sub_title+ "   "+nowtime(),
 	content: body,
         icon: "airplane",
-        backgroundColor: "#007B43"
+        backgroundColor: "#009944"
 	});
 })();
 
