@@ -46,7 +46,7 @@ $httpClient.get(url, function(error, response, data){
      $done({
        title: "疫情查询:"+ToDBC("  ")+"新增|现存"+ToDBC("  ")+nowtime(),
        content: ala.replace(/\n$/, ""),
-       icon: "heart.circle",
+       icon: "aqi.medium",
        backgroundColor: '#18CDCD',
      });
     }
