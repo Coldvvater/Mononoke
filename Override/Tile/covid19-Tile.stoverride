@@ -1,0 +1,11 @@
+name: 新冠疫情查询 Tile 面板
+desc: 接口数据不全，不建议使用2022/05/28 (Stash 2.0)
+# 搭配boxjs使用：BoxJS订阅以下地址: https://raw.githubusercontent.com/smartmimi/conf/master/boxjs/cookie.boxjs.json, 添加"疫情查询区域", 输入例如：中国,北京,上海 注意英文逗号
+tiles:
+  - name: covid19-Tile
+    interval: 3600
+
+script-providers:
+  covid19-Tile:
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/covid19.js
+    interval: 86400
