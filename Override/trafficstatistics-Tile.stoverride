@@ -1,0 +1,11 @@
+name: 流量统计 Tile 面板
+desc: 用于显示流量信息的面板 (Stash 2.0)
+
+tiles:
+  - name: trafficstatistics-Tile
+    interval: 300
+
+script-providers:
+  trafficstatistics-Tile:
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/trafficstatistics.js
+    interval: 86400
