@@ -47,7 +47,7 @@ Sub_info = script-name=Sub_info
   $done({
 	title:  sub_title+ "   "+nowtime(),
 	content: body,
-        icon: "airplane.departure.system",
+        icon: "airplane.departure",
         backgroundColor: "#EE4A41"
 	});
 })();
