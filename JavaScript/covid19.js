@@ -1,3 +1,12 @@
+/*
+ * 原脚本作者: smartmimi
+ * 原脚本地址：https://github.com/smartmimi/conf/blob/master/surge/covid19.js
+ * 由@Coldvvater修改
+ * 更新日期：2022.06.30
+ * 版本：1.0
+ */
+
+
 const read = $persistentStore.read("covid19area") ;
 var list = read.split(",");
 const url = "https://view.inews.qq.com/g2/getOnsInfo?name=disease_h5";
@@ -46,7 +55,7 @@ $httpClient.get(url, function(error, response, data){
      $done({
        title: "疫情查询:"+ToDBC("  ")+"新增|现存"+ToDBC("  ")+nowtime(),
        content: ala.replace(/\n$/, ""),
-       icon: "aqi.medium",
+       icon: "heart.circle",
        backgroundColor: '#18CDCD',
      });
     }
