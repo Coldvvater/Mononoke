@@ -48,7 +48,7 @@ Sub_info = script-name=Sub_info
 	title:  sub_title+ "   "+nowtime(),
 	content: body,
         icon: "airplane",
-        backgroundColor: "#009944"
+        backgroundColor: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png"
 	});
 })();
 
