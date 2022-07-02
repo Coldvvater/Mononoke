@@ -5,7 +5,7 @@ http:
   mitm:
     - "www.zhihu.com"
     - "zhuanlan.zhihu.com"
-  url-rewrite:
+  rewrite:
     # 知乎网页去广告&推荐列表
     - https://www\.zhihu\.com/api/v4/questions/\d+/related-readings - reject-200
     - https://www\.zhihu\.com/api/v4/answers/\d+/related-readings - reject-200
