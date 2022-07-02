@@ -21,4 +21,4 @@
 
 * [temppw](https://github.com/temppw/surge) * [yu-steven](https://github.com/yu-steven/openit) * [bihai](https://proxies.bihai.cf/) 
 
-* [Koolson](https://github.com/Koolson/Qure)   * [Orz-3](https://github.com/Orz-3) 
+* [Koolson](https://github.com/Koolson/Qure)   * [Orz-3](https://github.com/Orz-3)   * [smartmimi](https://github.com/smartmimi/conf/tree/master) 
