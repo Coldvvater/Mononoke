@@ -14,7 +14,7 @@ http:
     - https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation - reject-200
   script:
    # 知乎（部分替换为手机百度 Quark 的 User-Agent）
-    - match: ^https:\/\/www\.zhihu\.com\/ (\r\n)User-Agent:.+(\r\n) $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 Quark/604.1 T7/10.7 SearchCraft/2.7.7 (Baidu; P1 9.0.0)$2
+    - match: ^https:\/\/www\.zhihu\.com\/
       name: Zhihuwebsite
       type: request
       require-body: true
