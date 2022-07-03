@@ -1,0 +1,17 @@
+name: EmbyPremiere
+desc: Emby破解
+# 未测试，不可用请反馈
+http:
+  mitm:
+    - "mb3admin.com"
+  script:
+    - match: ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice
+      name: EmbyPremiere
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  EmbyPremiere:
+    url: https://raw.githubusercontent.com/rartv/SurgeScript/main/EmbyPremiere/EmbyPremiere.js
+    interval: 86400
