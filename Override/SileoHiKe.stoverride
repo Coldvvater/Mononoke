@@ -1,0 +1,16 @@
+name: Sileo 嗨客源修复
+desc: 修复嗨客源在 Sileo 上无法下载 deb 的问题
+# 未测试可用性，请及时反馈
+http:
+  mitm:
+    - "repo.qqtlr.com"
+  script:
+    - match: ^https?:\/\/repo\.qqtlr\.com\/\.\/downloads\.php%3Frequest=\d+\.deb
+      name: SileoHiKe
+      type: request
+      require-body: false
+      timeout: 10
+script-providers:
+  SileoHiKe:
+    url: https://raw.githubusercontent.com/rartv/SurgeScript/main/Jailbreak/SileoHiKe.js
+    interval: 86400
