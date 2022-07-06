@@ -1,0 +1,11 @@
+name: 流媒体信息 Tile 面板
+desc: 用于显示流媒体信息的面板 (Stash 2.0)
+
+tiles:
+  - name: stream-Tile
+    interval: 7200
+
+script-providers:
+  stream-Tile:
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/stream.js
+    interval: 86400
