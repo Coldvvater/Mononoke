@@ -164,21 +164,21 @@ rule-providers:
 
   Unbreak:
     type: http
-    behavior: domain
+    behavior: classical
     url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
     path: ./ruleset/Unbreak.yaml
     interval: 86400
 
   AD-Ban:
     type: http
-    behavior: domain
+    behavior: classical
     url: https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/AD-Ban.yaml
     path: ./ruleset/AD-Ban.yaml
     interval: 86400
 
   Privacy:
     type: http
-    behavior: domain
+    behavior: classical
     url: https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/Privacy.yaml
     path: ./ruleset/Privacy.yaml
     interval: 86400
@@ -213,7 +213,7 @@ rule-providers:
 
   Apple:
     type: http
-    behavior: domain
+    behavior: classical
     url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/Apple.yaml
     path: ./ruleset/Apple.yaml
     interval: 86400
