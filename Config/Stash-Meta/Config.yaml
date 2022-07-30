@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2022.07.06
+# Update Date: 2022.07.30
 
 subscribe-url: 你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -83,6 +83,13 @@ proxies:
             
 proxy-groups:
 
+  - name: Final
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
+    proxies:
+      - Proxy
+      - DIRECT
+
   - name: Proxy
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png
@@ -107,13 +114,6 @@ proxy-groups:
       - DIRECT
       - HK
       - TW
-    
-  - name: Final
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/YoYu.png
-    proxies:
-      - Proxy
-      - DIRECT
 
   - name: HK
     type: url-test
