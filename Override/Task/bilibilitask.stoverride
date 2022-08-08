@@ -1,6 +1,6 @@
 name: bilibili签到
-desc: 每天定时签到领取银币、直播红包
-# 此脚本为本人测试使用，未证实可用性。
+desc: 定时签到直播红包、瓜子转硬币
+# 此覆写为本人测试使用，未证实有效性。
 cron:
   script:
     - name: bilibilitask
@@ -14,7 +14,7 @@ cron:
       timeout: 100
  
     - name: silver2coin
-      cron: '13 0 * * *'
+      cron: '19 0 * * *'
       argument: ''
       timeout: 100
 
