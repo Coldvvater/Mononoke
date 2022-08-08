@@ -1,6 +1,7 @@
 name: 获取bilibili Cookie
 desc: 获取bilibili cookie进行银币及直播红包签到
-# 浏览器访问:https://www.bilibili.com或https://live.bilibili.com登陆获取cookie
+# 浏览器访问:https://www.bilibili.com
+# 或https://live.bilibili.com 登陆获取cookie
 # 如系统提示: “获取Cookie: 成功”即成功
 # 成功后可以禁用此覆写
 
