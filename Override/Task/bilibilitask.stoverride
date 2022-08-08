@@ -4,17 +4,17 @@ desc: 定时签到直播红包、银瓜子转硬币
 cron:
   script:
     - name: bilibilitask
-      cron: '10 0 * * *'
+      cron: '1 0 * * *'
       argument: ''
       timeout: 100
 
     - name: redpocket
-      cron: '20 0 * * *'
+      cron: '2 0 * * *'
       argument: ''
       timeout: 100
  
     - name: silver2coin
-      cron: '30 0 * * *'
+      cron: '3 0 * * *'
       argument: ''
       timeout: 100
 
