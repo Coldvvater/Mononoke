@@ -1,0 +1,22 @@
+name: bilibili签到
+desc: 每天定时签到领取银币、直播红包
+# 此脚本为本人测试使用，未证实可用性。
+cron:
+  script:
+    - name: bilibilicoin
+      cron: '3 0 * * *'
+      argument: ''
+      timeout: 100
+ 
+    - name: bilibiliredpocket
+      cron: '4 0 * * *'
+      argument: ''
+      timeout: 100
+
+script-providers:
+  bilibilicoin:
+    url: https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
+    interval: 86400
+  bilibiliredpocket:
+    url: https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/redpocket.js
+    interval: 86400
