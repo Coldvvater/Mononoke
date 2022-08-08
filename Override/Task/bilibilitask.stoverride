@@ -1,20 +1,20 @@
 name: bilibili签到
-desc: 定时签到直播红包、瓜子转硬币
+desc: 定时签到直播红包、银瓜子转硬币
 # 此覆写为本人测试使用，未证实有效性。
 cron:
   script:
     - name: bilibilitask
-      cron: '23 0 * * *'
+      cron: '10 0 0 * * *'
       argument: ''
       timeout: 100
 
     - name: redpocket
-      cron: '24 0 * * *'
+      cron: '20 0 0 * * *'
       argument: ''
       timeout: 100
  
     - name: silver2coin
-      cron: '25 0 * * *'
+      cron: '30 0 0 * * *'
       argument: ''
       timeout: 100
 
