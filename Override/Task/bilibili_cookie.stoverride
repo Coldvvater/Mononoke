@@ -1,0 +1,18 @@
+name: 获取bilibili Cookie
+desc: 浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com 登陆获取cookie
+# 如系统提示: “获取Cookie: 成功”即成功
+# 成功后可以禁用此覆写
+
+http:
+  mitm:
+    - "*.bilibili.com"
+  script:
+    - match: ^https:\/\/(www|live)\.bilibili\.com\/?.?
+      name: bilibilick
+      type: request
+      require-body: false
+      timeout: 10
+script-providers:
+  bilibilick:
+    url: https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
+    interval: 86400
