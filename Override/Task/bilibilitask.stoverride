@@ -3,20 +3,28 @@ desc: 每天定时签到领取银币、直播红包
 # 此脚本为本人测试使用，未证实可用性。
 cron:
   script:
-    - name: bilibilicoin
+    - name: bilibilitask
       cron: '3 0 * * *'
       argument: ''
       timeout: 100
- 
-    - name: bilibiliredpocket
+
+    - name: redpocket
       cron: '4 0 * * *'
+      argument: ''
+      timeout: 100
+ 
+    - name: silver2coin
+      cron: '13 0 * * *'
       argument: ''
       timeout: 100
 
 script-providers:
-  bilibilicoin:
+  bilibilitask:
     url: https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
     interval: 86400
-  bilibiliredpocket:
+  redpocket:
     url: https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/redpocket.js
+    interval: 86400
+  silver2coin:
+    url: https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
     interval: 86400
