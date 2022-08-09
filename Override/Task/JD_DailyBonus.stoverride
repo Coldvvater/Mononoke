@@ -1,0 +1,14 @@
+name: 京东签到
+desc: 每日定时签到领京豆、红包、钢镚等
+# 此覆写为本人测试使用，未证实有效性。
+
+cron:
+  script:
+    - name: JD_DailyBonus
+      cron: '5 0 * * *'
+      argument: ''
+      timeout: 10
+script-providers:
+  JD_DailyBonus:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+    interval: 86400
