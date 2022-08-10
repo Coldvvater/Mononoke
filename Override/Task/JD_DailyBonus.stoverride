@@ -6,8 +6,8 @@ cron:
   script:
     - name: JD_DailyBonus
       cron: '5 0 * * *'
-      argument: ''
       timeout: 10
+
 script-providers:
   JD_DailyBonus:
     url: https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
