@@ -1,0 +1,12 @@
+name: 爱奇艺会员签到
+desc: 脚本将在每天上午9:00执行
+# 此覆写为本人测试使用，未证实有效性。
+cron:
+  script:
+    - name: iQIYI
+      cron: '0 9 * * *'
+      timeout: 60
+script-providers:
+  iQIYI:
+    url: https://https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+    interval: 86400
