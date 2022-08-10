@@ -1,0 +1,25 @@
+name: 微博特别关注通知
+desc: 请先进入 https://m.weibo.cn 并登陆，获取Cookie后，回到网页刷新即可
+# 跳转可选定指定客户端，默认为 Safari，请在 BoxJs 中进行配置更改。
+# BoxJS订阅地址: https://raw.githubusercontent.com/zZPiglet/Task/master/zZPiglet.boxjs.json
+
+http:
+  mitm:
+    - "m.weibo.cn"
+  # 获取微博Cookie
+  script:
+    - match: ^https:\/\/m\.weibo\.cn\/feed\/
+      name: WeiboNoti
+      type: request
+      require-body: false
+      timeout: 30
+cron:
+  # 微博特别关注通知
+  script:
+    - name: WeiboNoti
+      cron: '0 * * * *'
+      timeout: 60
+ 
+script-providers:
+  WeiboNoti:
+    url: https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
