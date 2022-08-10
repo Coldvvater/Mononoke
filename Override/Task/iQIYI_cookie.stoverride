@@ -11,12 +11,12 @@ http:
     - "passport.iqiyi.com"
   script:
     - match: ^https:\/\/passport\.iqiyi\.com\/apis\/user\/
-      name: iQIYI
+      name: iQIYI_cookie
       type: request
       require-body: false
       timeout: 30
  
 script-providers:
-  iQIYI:
+  iQIYI_cookie:
     url: https://https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
     interval: 86400
