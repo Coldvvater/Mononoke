@@ -13,7 +13,7 @@ http:
     - match: ^https:\/\/passport\.iqiyi\.com\/apis\/user\/
       name: iQIYI_cookie
       type: request
-      require-body: false
+      require-body: true
       timeout: 30
  
 script-providers:
