@@ -10,7 +10,7 @@ http:
   # 获取微博Cookie
   script:
     - match: ^https:\/\/m\.weibo\.cn\/feed\/
-      name: WeiboCookie
+      name: WeiboNoti
       type: request
       require-body: false
       timeout: 30
