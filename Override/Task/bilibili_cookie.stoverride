@@ -2,8 +2,8 @@ name: 获取bilibili Cookie
 desc: 获取bilibili cookie以进行签到，配合'bilibili签到'覆写使用
 # 浏览器访问:https://www.bilibili.com
 # 或https://live.bilibili.com 登陆获取cookie
-# 如系统提示: “获取Cookie: 成功”即成功
-# 成功后可以禁用此覆写
+# 如系统提示: “获取Cookie: 成功”即完成
+# 获取cookie后可禁用此覆写。
 
 http:
   mitm:
