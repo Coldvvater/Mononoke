@@ -1,0 +1,22 @@
+name: 获取爱奇艺Cookie
+desc: 获取爱奇艺Cookie以进行签到，配合'爱奇艺会员签到'使用
+
+# 获取Cookie说明：
+# Safari浏览器打开 https://m.iqiyi.com/user.html 使用密码登录, 如通知成功获取cookie则可使用该脚本.
+# 获取Cookie后, 请将Cookie脚本覆写禁用，以免产生不必要的MITM.
+
+
+http:
+  mitm:
+    - "passport.iqiyi.com"
+  script:
+    - match: ^https:\/\/passport\.iqiyi\.com\/apis\/user\/
+      name: iQIYI
+      type: request
+      require-body: false
+      timeout: 30
+ 
+script-providers:
+  iQIYI:
+    url: https://https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+    interval: 86400
