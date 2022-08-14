@@ -1,0 +1,19 @@
+name: 腾讯新闻App去广告
+desc: 开屏页广告有缓存,需要重新安装应用
+# 腾讯新闻开屏广告(须重新安装应用),新闻列表(要闻/财经等),专题广告,热点精选,xx旅游列表等广告去除
+# 仓库地址 https://github.com/app2smile/rules
+
+http:
+  mitm:
+    - "news.ssp.qq.com"
+    - "r.inews.qq.com"
+  script:
+    - match: ^https:\/\/(news\.ssp\.qq\.com\/app|r\.inews\.qq\.com\/(get(QQNewsUnreadList|TwentyFourHourNews|QQNewsListItems|TagFeedList)|gw\/page\/event_detail))
+      name: qqnews
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  qqnews:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js
+    interval: 86400
