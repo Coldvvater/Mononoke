@@ -1,0 +1,13 @@
+name: IP-ASN规则
+desc: 按ASN分流中国大陆IP与域名直连
+
+rule-providers:
+  IP-ASN:
+    type: http
+    behavior: ipcidr
+    url: https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/IP-ASN.yaml
+    path: ./ruleset/IP-ASN.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,IP-ASN,DIRECT
