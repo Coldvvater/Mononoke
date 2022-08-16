@@ -1,0 +1,24 @@
+name: 淘宝历史比价
+desc: 淘宝历史价格对比
+
+http:
+  mitm:
+    - "trade-acs.m.taobao.com"
+  script:
+    # 淘宝历史比价
+    - match: ^http:\/\/.+\/amdc\/mobileDispatch
+      name: TB_Price
+      type: request
+      require-body: true
+      timeout: 10
+    # 淘宝历史比价
+    - match: ^https?:\/\/trade-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.detail\.getdetail
+      name: TB_Price
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  # 淘宝历史比价
+  TB_Price:
+    url: https://raw.githubusercontent.com/zwf234/rules/master/js/tb_price.js
+    interval: 86400
