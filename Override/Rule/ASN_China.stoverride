@@ -2,6 +2,7 @@ name: ASN for Mainland China
 desc: 按ASN分流中国大陆IP与域名直连
 
 rule-providers:
+  ASN_China:
     type: http
     behavior: classical
     url: "https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/ASN_China.yaml"
