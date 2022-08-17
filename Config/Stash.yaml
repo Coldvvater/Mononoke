@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2022.07.30
+# Update Date: 2022.08.17
 
 subscribe-url: 你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -106,6 +106,17 @@ proxy-groups:
        - All
     url: "http://www.gstatic.com/generate_204"
     interval: 300
+    
+  - name: Apple
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
+    proxies:
+      - DIRECT
+      - HK
+      - TW
+      - SG
+      - JP
+      - US
 
   - name: StreamingSE
     type: select
@@ -114,6 +125,17 @@ proxy-groups:
       - DIRECT
       - HK
       - TW
+      
+  - name: Streaming
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png
+    proxies:
+      - Proxy
+      - HK
+      - TW
+      - SG
+      - JP
+      - US
 
   - name: HK
     type: url-test
@@ -237,10 +259,10 @@ rules:
   - RULE-SET,AD-Ban,REJECT
   - RULE-SET,Privacy,REJECT
   - RULE-SET,Hijacking,REJECT
-  - RULE-SET,Streaming,Proxy
+  - RULE-SET,Streaming,Streaming
   - RULE-SET,StreamingSE,StreamingSE
   - RULE-SET,Global,Proxy
-  - RULE-SET,Apple,DIRECT
+  - RULE-SET,Apple,Apple
   - RULE-SET,China,DIRECT
   - RULE-SET,LAN,DIRECT
   - GEOIP,CN,DIRECT
