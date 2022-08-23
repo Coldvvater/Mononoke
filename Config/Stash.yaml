@@ -1,8 +1,8 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2022.08.17
-
+# Update Date: 2022.08.23
+---
 subscribe-url: 你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
 
@@ -254,6 +254,13 @@ rule-providers:
     path: ./ruleset/Lan.yaml
     interval: 86400
 
+  ASN-CN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/ASN_China.yaml
+    path: ./ruleset/ASN-CN.yaml
+    interval: 86400
+
 rules:
   - RULE-SET,Unbreak,DIRECT
   - RULE-SET,AD-Ban,REJECT
@@ -265,5 +272,6 @@ rules:
   - RULE-SET,Apple,Apple
   - RULE-SET,China,DIRECT
   - RULE-SET,LAN,DIRECT
-  - GEOIP,CN,DIRECT
+  - RULE-SET,ASN-CN,DIRECT
+  # - GEOIP,CN,DIRECT
   - MATCH,Final
