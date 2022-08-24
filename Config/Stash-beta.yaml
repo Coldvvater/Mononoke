@@ -75,7 +75,9 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
     proxies:
-      *G
+      - Proxy
+      - HK
+      - TW
        
   - name: Streaming
     type: select
