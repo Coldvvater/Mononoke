@@ -53,7 +53,7 @@ dns:
     - https://dns.alidns.com/dns-query
 
 proxies:
-            
+     
 proxy-groups:
   - name: Proxy
     type: select
@@ -71,12 +71,6 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
 
-  - name: Apple
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
-    proxies:
-      *G
-       
   - name: Streaming
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
@@ -94,7 +88,13 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
     proxies:
       *G
-      
+
+  - name: Apple
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
+    proxies:
+      *G
+
   - name: Final
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
@@ -109,7 +109,7 @@ proxy-groups:
     filter: (?=.*(港|🇭🇰|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$
     url: "http://www.gstatic.com/generate_204"
     interval: 300
-    
+
   - name: TW
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TW.png
@@ -118,7 +118,7 @@ proxy-groups:
     filter: (?=.*(台|🇨🇳|🇹🇼|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$
     url: "http://www.gstatic.com/generate_204"
     interval: 300
-         
+ 
   - name: SG
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/SG.png
@@ -127,7 +127,7 @@ proxy-groups:
     filter: (?=.*(坡|🇸🇬|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$
     url: "http://www.gstatic.com/generate_204"
     interval: 300
-    
+
   - name: JP
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/JP.png
