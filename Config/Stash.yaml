@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2022.08.23
+# Update Date: 2022.08.24
 ---
 subscribe-url: 你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -80,15 +80,16 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
     
 proxies:
-            
+  # 本地服务器
+
 proxy-groups:
+  # 策略组
 
   - name: Final
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
     proxies:
       - Proxy
-      - DIRECT
 
   - name: Proxy
     type: select
@@ -97,6 +98,11 @@ proxy-groups:
       - All
     proxies:
       - Auto
+      - Hong Kong
+      - Tai Wan
+      - Singapore
+      - Japan
+      - United States
       - DIRECT
 
   - name: Auto
@@ -112,156 +118,150 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
     proxies:
       - DIRECT
-      - HK
-      - TW
-      - SG
-      - JP
-      - US
+      - Hong Kong
+      - Tai Wan
+      - Singapore
+      - Japan
+      - United States
+      - Proxy
 
   - name: StreamingSE
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
     proxies:
       - DIRECT
-      - HK
-      - TW
+      - Hong Kong
+      - Tai Wan
       
   - name: Streaming
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png
     proxies:
       - Proxy
-      - HK
-      - TW
-      - SG
-      - JP
-      - US
+      - Hong Kong
+      - Tai Wan
+      - Singapore
+      - Japan
+      - United States
+      - DIRECT
 
-  - name: HK
+  - name: Hong Kong
     type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/HK.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png
     use:
       - All
     filter: (?=.*(港|🇭🇰|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
     
-  - name: TW
+  - name: Tai Wan
     type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TW.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png
     use:
       - All
     filter: (?=.*(台|🇨🇳|🇹🇼|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
          
-  - name: SG
+  - name: Singapore
     type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/SG.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Singapore.png
     use:
       - All
     filter: (?=.*(坡|🇸🇬|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
     
-  - name: JP
+  - name: Japan
     type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/JP.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
     use:
       - All
     filter: (?=.*(日|🇯🇵|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
 
-  - name: US
+  - name: United States
     type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/US.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png
     use:
       - All
     filter: (?=.*(美|🇺🇸|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
 
 rule-providers:
+  # 远程规则集
 
   Unbreak:
     type: http
     behavior: classical
-    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
     path: ./ruleset/Unbreak.yaml
     interval: 86400
 
   AD-Ban:
     type: http
     behavior: classical
-    url: https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/AD-Ban.yaml
+    url: https://ghproxy.com/https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/AD-Ban.yaml
     path: ./ruleset/AD-Ban.yaml
     interval: 86400
 
   Privacy:
     type: http
     behavior: classical
-    url: https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/Privacy.yaml
+    url: https://ghproxy.com/https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/Privacy.yaml
     path: ./ruleset/Privacy.yaml
     interval: 86400
 
   Hijacking:
     type: http
     behavior: classical
-    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
+    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
     path: ./ruleset/Hijacking.yaml
     interval: 86400
 
   Streaming:
     type: http
     behavior: classical
-    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
     path: ./ruleset/Streaming.yaml
     interval: 86400
 
   StreamingSE:
     type: http
     behavior: classical
-    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
     path: ./ruleset/StreamingSE.yaml
     interval: 86400
 
   Global:
     type: http
     behavior: classical
-    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
     path: ./ruleset/Global.yaml
     interval: 86400
 
   Apple:
     type: http
     behavior: classical
-    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/Apple.yaml
+    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/Apple.yaml
     path: ./ruleset/Apple.yaml
     interval: 86400
 
   China:
     type: http
     behavior: classical
-    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
     path: ./ruleset/China.yaml
     interval: 86400
 
   LAN:
     type: http
     behavior: classical
-    url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml
+    url: https://ghproxy.com/https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml
     path: ./ruleset/Lan.yaml
     interval: 86400
 
   ASN-CN:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/ASN_China.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/ASN_China.yaml
     path: ./ruleset/ASN-CN.yaml
     interval: 86400
 
 rules:
+  # 本地规则
   - RULE-SET,Unbreak,DIRECT
   - RULE-SET,AD-Ban,REJECT
   - RULE-SET,Privacy,REJECT
@@ -270,7 +270,7 @@ rules:
   - RULE-SET,StreamingSE,StreamingSE
   - RULE-SET,Global,Proxy
   - RULE-SET,Apple,Apple
-  - RULE-SET,China,DIRECT
+  # - RULE-SET,China,DIRECT
   - RULE-SET,LAN,DIRECT
   - RULE-SET,ASN-CN,DIRECT
   # - GEOIP,CN,DIRECT
