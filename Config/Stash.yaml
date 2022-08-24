@@ -146,35 +146,35 @@ proxy-groups:
       - DIRECT
 
   - name: Hong Kong
-    type: url-test
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png
     use:
       - All
     filter: (?=.*(港|🇭🇰|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$
     
   - name: Tai Wan
-    type: url-test
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png
     use:
       - All
     filter: (?=.*(台|🇨🇳|🇹🇼|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$
          
   - name: Singapore
-    type: url-test
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Singapore.png
     use:
       - All
     filter: (?=.*(坡|🇸🇬|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$
     
   - name: Japan
-    type: url-test
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
     use:
       - All
     filter: (?=.*(日|🇯🇵|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$
 
   - name: United States
-    type: url-test
+    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png
     use:
       - All
