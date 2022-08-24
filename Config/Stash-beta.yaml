@@ -70,17 +70,12 @@ proxy-groups:
        - All
     url: "http://www.gstatic.com/generate_204"
     interval: 300
-    
+
   - name: Apple
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
     proxies:
-      - DIRECT
-      - HK
-      - TW
-      - SG
-      - JP
-      - US
+      *G
        
   - name: Streaming
     type: select
@@ -92,6 +87,7 @@ proxy-groups:
       - SG
       - JP
       - US
+      - DIRECT
 
   - name: StreamingSE
     type: select
