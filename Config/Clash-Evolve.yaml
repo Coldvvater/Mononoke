@@ -207,31 +207,31 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png
     use:
-      - All
+      - HongKong
     
   - name: TaiWan # 台湾节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png
     use:
-      - All
+      - TaiWan
          
   - name: Singapore # 狮城节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Singapore.png
     use:
-      - All
+      - Singapore
     
   - name: Japan # 日本节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
     use:
-      - All
+      - Japan
 
   - name: America # 美国节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png
     use:
-      - All
+      - America
 
   - name: Others # 其他节点
     type: select
