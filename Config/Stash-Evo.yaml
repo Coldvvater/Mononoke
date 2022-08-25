@@ -172,7 +172,7 @@ proxy-groups:
 
   - name: ADblock # 广告拦截
     type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png
     proxies:
       - REJECT
       - DIRECT
