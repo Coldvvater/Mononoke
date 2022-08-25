@@ -186,56 +186,56 @@ rule-providers:
   Unbreak:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
     path: ./ruleset/Unbreak.yaml
     interval: 86400
 
   AD-Ban:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/AD-Ban.yaml
+    url: https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/AD-Ban.yaml
     path: ./ruleset/AD-Ban.yaml
     interval: 86400
 
   Privacy:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/Privacy.yaml
+    url: https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/Privacy.yaml
     path: ./ruleset/Privacy.yaml
     interval: 86400
 
   Hijacking:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
+    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
     path: ./ruleset/Hijacking.yaml
     interval: 86400
 
   Streaming:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
     path: ./ruleset/Streaming.yaml
     interval: 86400
 
   StreamingSE:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
     path: ./ruleset/StreamingSE.yaml
     interval: 86400
 
   Global:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
     path: ./ruleset/Global.yaml
     interval: 86400
 
   Apple:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/Apple.yaml
+    url: https://raw.githubusercontents.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/Apple.yaml
     path: ./ruleset/Apple.yaml
     interval: 86400
 
@@ -249,14 +249,14 @@ rule-providers:
   LAN:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml
+    url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml
     path: ./ruleset/Lan.yaml
     interval: 86400
 
   ASN-CN:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/ASN_China.yaml
+    url: https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/ASN_China.yaml
     path: ./ruleset/ASN-CN.yaml
     interval: 86400
 
