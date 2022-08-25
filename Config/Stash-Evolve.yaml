@@ -108,10 +108,10 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
 
-  - name: Global # 全球加速
+  - name: Foreign # 国外网站
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
-    proxies: &G
+    proxies: &F
       - Proxy
       - Auto
       - HongKong
@@ -122,10 +122,10 @@ proxy-groups:
       - Others
       - DIRECT
 
-  - name: China # 国内网站
+  - name: Domestic # 国内网站
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png
-    proxies: &C
+    proxies: &D
       - DIRECT
       - Proxy
       - Auto
@@ -140,37 +140,43 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
     proxies:
-      *C
+      *D
 
   - name: Spotify # 声田音乐
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Spotify.png
     proxies:
-      *G
+      *F
+
+  - name: TikTok # 海外抖音
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png
+    proxies:
+      *F
 
   - name: Streaming # 国际媒体
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png
     proxies:
-      *G
+      *F
 
   - name: Telegram # 电报信息
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram_X.png
     proxies:
-      *G
+      *F
 
   - name: Apple # 苹果服务
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
     proxies:
-      *C
+      *D
 
   - name: Microsoft # 微软服务
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Microsoft.png
     proxies:
-      *C
+      *D
 
   - name: ADblock # 广告拦截
     type: select
@@ -274,6 +280,13 @@ rule-providers:
     path: ./ruleset/YouTube.yaml
     interval: 86400
 
+  TikTok: # 海外抖音
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontents.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+    path: ./ruleset/TikTok.yaml
+    interval: 86400
+
   Streaming: # 国际媒体
     type: http
     behavior: classical
@@ -359,16 +372,18 @@ rules:
   - RULE-SET,Hijacking,ADblock
   - RULE-SET,BiliBili,BiliBili
   - RULE-SET,Spotify,Spotify
+  - RULE-SET,YouTube,Foreign
+  - RULE-SET,TikTok,TikTok
   - RULE-SET,Streaming,Streaming
   - RULE-SET,Telegram,Telegram
-  - RULE-SET,Twitter,Global
-  - RULE-SET,Google,Global
-  - RULE-SET,Github,Global
-  - RULE-SET,Global,Global
+  - RULE-SET,Twitter,Foreign
+  - RULE-SET,Google,Foreign
+  - RULE-SET,Github,Foreign
+  - RULE-SET,Foreign,Foreign
   - RULE-SET,Apple,Apple
-  - RULE-SET,Microsoft,Global
-  # - RULE-SET,China,China
+  - RULE-SET,Microsoft,Microsoft
+  # - RULE-SET,Domestic,Domestic
   - RULE-SET,LAN,DIRECT
   - RULE-SET,ASN-CN,DIRECT
-  # - GEOIP,CN,China
+  # - GEOIP,CN,Domestic
   - MATCH,Final
