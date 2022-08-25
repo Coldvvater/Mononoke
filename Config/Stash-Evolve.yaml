@@ -41,7 +41,7 @@ dns:
   # Fake-IP解析地址池
   fake-ip-filter:
   # Fake-ip过滤，列表中的域名返回真实ip
-  # Lan
+  # Local Area Network
     - '*.lan'
   # Stun Services
     - '+.stun.*.*'
