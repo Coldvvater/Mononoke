@@ -41,6 +41,8 @@ dns:
   # Fake-IP解析地址池
   fake-ip-filter:
   # Fake-ip过滤，列表中的域名返回真实ip
+  # Lan
+    - '*.lan'
   # Stun Services
     - '+.stun.*.*'
     - '+.stun.*.*.*'
@@ -217,6 +219,8 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png
     use: 
        - All
+    proxies:
+      - DIRECT
 
 rule-providers:
   # 远程规则集
