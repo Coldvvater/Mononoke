@@ -238,6 +238,8 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png
     use: 
        - All
+    proxies:
+      - DIRECT
 
 rule-providers:
   # 远程规则集
