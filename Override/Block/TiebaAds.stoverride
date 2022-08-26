@@ -5,7 +5,7 @@ desc: 1.开屏页广告 2.推荐页列表/吧内帖子列表的直播和其他�
 
 rules:
   - DOMAIN,180.76.76.200,REJECT
-  - IP-CIDR,180.76.76.200/32,no-resolve,REJECT
+  - IP-CIDR,180.76.76.200/32,REJECT,no-resolve
 http:
   mitm:
     - "afd.baidu.com"
