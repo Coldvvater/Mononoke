@@ -11,13 +11,13 @@ http:
     - "afd.baidu.com"
   script:
     # 贴吧去广告
-    - match: ^(http:\/\/c\.tieba\.baidu\.com\/(tiebaads\/commonbatch|c\/s\/sync)|https:\/\/afd\.baidu\.com\/afd\/entry)
+    - match: ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(tiebaads\/commonbatch|c\/s\/sync)
       name: tb
       type: response
       require-body: true
       timeout: 10
     # 贴吧去广告
-    - match: ^http:\/\/c\.tieba\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)
+    - match: ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)
       name: tb2
       type: response
       require-body: true
