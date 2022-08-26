@@ -4,8 +4,8 @@ desc: 开屏页广告,首页右下角悬浮框,推荐列表广告,问题回答�
 
 rules:
   - DOMAIN,118.89.204.198,REJECT
-  - IP-CIDR,118.89.204.198/32,no-resolve,REJECT
-  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve,REJECT
+  - IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
   
 http:
   mitm:
