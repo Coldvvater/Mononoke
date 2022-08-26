@@ -83,27 +83,27 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
     
   #香港节点
-  HongKong:
+  HK:
     <<: *All #引用锚点内容
     filter: 港|🇭🇰|HK|(?i)Hong
  
   #台湾节点
-  TaiWan:
+  TW:
     <<: *All
     filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
    
   #狮城节点
-  Singapore:
+  SG:
     <<: *All
     filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
     
   #日本节点
-  Japan:
+  JP:
     <<: *All
     filter: 日|🇯🇵|东京|JP|(?i)Japan
     
   #美国节点    
-  America:
+  US:
     <<: *All
     filter: 美|🇺🇲|US|(?i)States|American
 
@@ -134,10 +134,10 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
 
-  - name: Global # 全球加速
+  - name: Foreign # 国外网站
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
-    proxies: &G
+    proxies: &F
       - Proxy
       - Auto
       - HongKong
@@ -148,10 +148,10 @@ proxy-groups:
       - Others
       - DIRECT
 
-  - name: China # 国内网站
+  - name: Domestic # 国内网站
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png
-    proxies: &C
+    proxies: &D
       - DIRECT
       - Proxy
       - Auto
@@ -166,37 +166,43 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
     proxies:
-      *C
+      *D
 
   - name: Spotify # 声田音乐
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Spotify.png
     proxies:
-      *G
+      *F
+
+  - name: TikTok # 海外抖音
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png
+    proxies:
+      *F
 
   - name: Streaming # 国际媒体
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png
     proxies:
-      *G
+      *F
 
   - name: Telegram # 电报信息
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram_X.png
     proxies:
-      *G
+      *F
 
   - name: Apple # 苹果服务
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
     proxies:
-      *C
+      *D
 
   - name: Microsoft # 微软服务
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Microsoft.png
     proxies:
-      *C
+      *D
 
   - name: ADblock # 广告拦截
     type: select
@@ -295,6 +301,13 @@ rule-providers:
     path: ./ruleset/YouTube.yaml
     interval: 86400
 
+  TikTok: # 海外抖音
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontents.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+    path: ./ruleset/TikTok.yaml
+    interval: 86400
+
   Streaming: # 国际媒体
     type: http
     behavior: classical
@@ -330,11 +343,11 @@ rule-providers:
     path: ./ruleset/Github.yaml
     interval: 86400
 
-  Global: # 国外网站
+  Foreign: # 国外网站
     type: http
     behavior: classical
     url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyLite.yaml
-    path: ./ruleset/Global.yaml
+    path: ./ruleset/Foreign.yaml
     interval: 86400
 
   Apple: # 苹果服务
@@ -351,11 +364,11 @@ rule-providers:
     path: ./ruleset/Microsoft.yaml
     interval: 86400
 
-  China: # 国内网站
+  Domestic: # 国内网站
     type: http
     behavior: classical
     url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml
-    path: ./ruleset/China.yaml
+    path: ./ruleset/Domestic.yaml
     interval: 86400
 
   LAN: # 局域网
@@ -373,15 +386,17 @@ rules:
   - RULE-SET,Hijacking,ADblock
   - RULE-SET,BiliBili,BiliBili
   - RULE-SET,Spotify,Spotify
+  - RULE-SET,YouTube,Foreign
+  - RULE-SET,TikTok,TikTok
   - RULE-SET,Streaming,Streaming
   - RULE-SET,Telegram,Telegram
-  - RULE-SET,Twitter,Global
-  - RULE-SET,Google,Global
-  - RULE-SET,Github,Global
-  - RULE-SET,Global,Global
+  - RULE-SET,Twitter,Foreign
+  - RULE-SET,Google,Foreign
+  - RULE-SET,Github,Foreign
+  - RULE-SET,Foreign,Foreign
   - RULE-SET,Apple,Apple
-  - RULE-SET,Microsoft,Global
-  - RULE-SET,China,China
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Domestic,Domestic
   - RULE-SET,LAN,DIRECT
-  - GEOIP,CN,China
+  - GEOIP,CN,Domestic
   - MATCH,Final
