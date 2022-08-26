@@ -322,11 +322,11 @@ rule-providers:
     path: ./ruleset/Github.yaml
     interval: 86400
 
-  Global: # 国外网站
+  Foreign: # 国外网站
     type: http
     behavior: classical
     url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyLite.yaml
-    path: ./ruleset/Global.yaml
+    path: ./ruleset/Foreign.yaml
     interval: 86400
 
   Apple: # 苹果服务
@@ -343,11 +343,11 @@ rule-providers:
     path: ./ruleset/Microsoft.yaml
     interval: 86400
 
-  China: # 国内网站
+  Domestic: # 国内网站
     type: http
     behavior: classical
     url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml
-    path: ./ruleset/China.yaml
+    path: ./ruleset/Domestic.yaml
     interval: 86400
 
   LAN: # 局域网
