@@ -8,7 +8,7 @@ rules:
   - IP-CIDR,180.76.76.200/32,REJECT,no-resolve
 http:
   mitm:
-    - "afd.baidu.com"
+    - "tiebac.baidu.com"
   script:
     # 贴吧去广告
     - match: ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(tiebaads\/commonbatch|c\/s\/sync)
