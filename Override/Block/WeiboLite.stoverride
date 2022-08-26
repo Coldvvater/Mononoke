@@ -11,7 +11,7 @@ http:
   # ～ WeiboLite_微博国际版_屏蔽search_suggest
     - ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest - reject
   # ～ WeiboLite_微博国际版_屏蔽searching_info
-    - ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info - reject
+    - ^ttps?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info - reject
   # ～ WeiboLite_微博国际版_屏蔽search_topic
     - ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic - reject
   # ～ WeiboLite_微博国际版_屏蔽开屏广告
