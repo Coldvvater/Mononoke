@@ -7,7 +7,7 @@ http:
   script:
     - match: ^https?:\/\/.*\.example\.com
       name: fbali
-      type: request
+      type: response
       require-body: true
       timeout: 10
 script-providers:
