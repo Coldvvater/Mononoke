@@ -1,0 +1,16 @@
+name: FileBall挂载阿里云盘
+desc:  FileBall挂载阿里云盘、Alist
+
+http:
+  mitm:
+    - "*example.com"
+  script:
+    - match: ^https?:\/\/.*\.example\.com
+      name: fbali
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  fbali:
+    url: https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/ali.js
+    interval: 86400
