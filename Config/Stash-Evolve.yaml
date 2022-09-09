@@ -297,7 +297,7 @@ rule-providers:
   Telegram: # 电报信息
     type: http
     behavior: classical
-    url: https://raw.githubusercontents.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+    url: https://raw.githubusercontents.com/Coldvvater/Clash/master/RuleSet/ASN_Telegram.yaml
     path: ./ruleset/Telegram.yaml
     interval: 86400
 
