@@ -77,7 +77,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 600
-      url: http://www.gstatic.com/generate_204
+      url: http://cp.cloudflare.com/generate_204
     
 proxies:
   # 本地服务器
@@ -110,7 +110,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
     use: 
        - All
-    url: "http://www.gstatic.com/generate_204"
+    url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     
   - name: Apple
