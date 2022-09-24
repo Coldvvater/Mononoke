@@ -98,6 +98,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png
     proxies:
       - Auto
+      - Fallback
       - Others
 
   - name: Auto # 自动筛选
