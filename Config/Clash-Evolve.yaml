@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2022.08.25
+# Update Date: 2022.09.24
 
 subscribe-url: 你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -131,6 +131,14 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
     use: 
        - All
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+
+  - name: Fallback #故障转移
+    type: fallback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available.png
+    use:
+      - All
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
 
