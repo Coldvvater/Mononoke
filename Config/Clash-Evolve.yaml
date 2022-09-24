@@ -149,6 +149,7 @@ proxy-groups:
     proxies: &F
       - Proxy
       - Auto
+      - Fallback
       - HongKong
       - TaiWan
       - Singapore
@@ -164,6 +165,7 @@ proxy-groups:
       - DIRECT
       - Proxy
       - Auto
+      - Fallback
       - HongKong
       - TaiWan
       - Singapore
