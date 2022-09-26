@@ -12,5 +12,5 @@ http:
       timeout: 10
 script-providers:
   YTAds:
-    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_no_ads.js
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/YouTube_no_ads.js
     interval: 86400
