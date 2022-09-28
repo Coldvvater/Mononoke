@@ -1,0 +1,17 @@
+
+ name: NoMoCam
+ desc: NoMoCam解锁Pro滤镜
+ # 复活版
+ http:
+   mitm:
+     - "nomo.dafork.com"
+   script:
+     - match: ^https?:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_verify$
+       name: NoMoCam
+       type: request
+       require-body: false
+       timeout: 10
+ script-providers:
+   NoMoCam:
+     url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js
+     interval: 86400
