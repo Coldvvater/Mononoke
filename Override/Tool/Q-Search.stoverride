@@ -17,6 +17,9 @@ http:
 
     # wk xxx (Wikipedia 中文)
     - ^https:\/\/duckduckgo.com\/\?q=wk(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
+    
+    # wz xxx (无追搜索)
+    - ^https:\/\/duckduckgo.com\/\?q=wz\+([^&]+).+ https://www.wuzhuiso.com/s?q=$1 302
 
     # mg xxx (Magi)
     - ^https:\/\/duckduckgo.com\/\?q=mg(\+|%20)([^&]+).+ https://magi.com/search?q=$2 302
