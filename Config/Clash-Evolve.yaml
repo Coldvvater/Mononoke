@@ -64,7 +64,7 @@ dns:
     - '*.mcdn.bilivideo.cn'
   nameserver:
   # 默认DNS服务器，支持udp/tcp/dot/doh/doq
-    - https://dns.alidns.com/dns-query
+    - https://223.6.6.6/dns-query
     - https://doh.pub/dns-query
     
 proxy-providers:
