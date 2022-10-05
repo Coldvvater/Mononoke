@@ -1,3 +1,5 @@
+# ASN for Mainland China
+
 payload:
   - IP-ASN,4134 // 中国电信骨干网
   - IP-ASN,4538 // 中国教育科研网络中心
