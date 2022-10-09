@@ -27,7 +27,7 @@ external-controller: 127.0.0.1:9090
 dns:
   enable: true
   # DNS开关(false/true)
-  listen: 0.0.0.0:53
+  listen: 0.0.0.0:1053
   # DNS监听地址
   ipv6: false
   # IP6解析开关；如果为false，将返回ip6结果为空
