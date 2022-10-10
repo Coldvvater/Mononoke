@@ -66,15 +66,18 @@ dns:
   # 默认DNS服务器，支持udp/tcp/dot/doh/doq
     - https://223.6.6.6/dns-query
     - https://doh.pub/dns-query
-    
+
+proxies:
+  # 本地服务器
+
 proxy-providers:
 
   #全部节点
   All: &All #建立锚点
     type: http
     url: ""
-    # 强烈推荐你使用Clash类型订阅链接填入引号""内使用。
-    # PS：如机场没有Clash类型链接，可尝试使用通用订阅链接，如仍未解决，可通过Sub-Store或ACL4SSR等进行订阅转换。
+    # 请使用Clash类型订阅链接填入引号""内使用。
+    # 或可使用通用订阅链接通过Sub-Store进行订阅转换。
     interval: 3600
     path: ./all.yaml
     health-check:
@@ -106,9 +109,6 @@ proxy-providers:
   US:
     <<: *All
     filter: 美|🇺🇲|US|(?i)States|American
-
-proxies:
-  # 本地服务器
 
 proxy-groups:
   # 策略组
@@ -390,7 +390,7 @@ rule-providers:
     interval: 86400
 
 rules:
-  # 本地规则
+  # 分流规则引用
   - RULE-SET,Unbreak,DIRECT
   - RULE-SET,AD-Ban,ADblock
   - RULE-SET,Privacy,ADblock
