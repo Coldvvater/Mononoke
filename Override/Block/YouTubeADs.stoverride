@@ -1,0 +1,17 @@
+name: YouTube去广告(iOS 15)
+desc: 首页广告(by app2smile)
+# 仓库地址 https://github.com/app2smile/rules
+
+http:
+  mitm:
+    - "youtubei.googleapis.com"
+  script:
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?
+      name: ytads
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  ytads:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/youtube.js
+    interval: 86400
