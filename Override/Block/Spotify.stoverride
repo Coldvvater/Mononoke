@@ -1,0 +1,18 @@
+name: YouTube去广告(iOS 15)
+desc: 首页广告(by app2smile)
+# 仓库地址 https://github.com/app2smile/rules
+
+http:
+  mitm:
+    - "spclient.wg.spotify.com"
+  script:
+    - match: ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$
+      name: spotify-proto
+      type: response
+      binary-mode: true
+      require-body: true
+      timeout: 10
+script-providers:
+  spotify-proto:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+    interval: 86400
