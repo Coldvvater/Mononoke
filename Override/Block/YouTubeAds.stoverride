@@ -1,0 +1,56 @@
+name: YouTube去广告2.0
+desc: 用于视频广告，首页广告，播放页列表广告及贴片广告，不适用允许 UDP 转发的节点及 Premium
+########################################
+#应用名称：  Youtube Block AD
+#脚本作者：  DivineEngine,app2smile,Maasea,ddgksf2013
+#更新时间：  2022-10-19
+#原始仓库：  https://github.com/DivineEngine
+#原始仓库：  https://github.com/Maasea
+#原始仓库：  https://github.com/app2smile
+#脚本地址：  https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf
+########################################
+http:
+  mitm:
+    - "-redirector*.googlevideo.com"
+    - "*.googlevideo.com"
+    - "www.youtube.com"
+    - "s.youtube.com"
+    - "youtubei.googleapis.com"
+# ======= 通用请求 ======= #
+  rewrite:
+    - ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
+    - ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+    - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+    - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontex - reject
+# ======= 视频广告 ======= #
+  script:
+    - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad
+      name: Vads
+      type: response
+      require-body: false
+      timeout: 120
+# ======= 贴片广告 ======= #
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player
+      name: Pads
+      type: response
+      binary-mode: true
+      require-body: true
+      timeout: 120
+# ======= 首页瀑布流及播放页广告 ======= #
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next)\?
+      name: Hads
+      type: response
+      binary-mode: true
+      require-body: true
+      timeout: 120
+
+script-providers:
+  Vads:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js
+    interval: 86400
+  Pads:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-player.js
+    interval: 86400
+  Hads:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/youtube.js
+    interval: 86400
