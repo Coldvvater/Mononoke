@@ -21,6 +21,8 @@ http:
     - "youtubei.googleapis.com"
 # ======= 通用请求 ======= #
   rewrite:
+    - (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
+    - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
     - ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
     - ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
     - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
@@ -48,12 +50,15 @@ http:
       timeout: 120
 
 script-providers:
+# ======= 视频广告 ======= #
   Vads:
     url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js
     interval: 86400
+# ======= 贴片广告 ======= #
   Pads:
     url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-player.js
     interval: 86400
+# ======= 首页瀑布流及播放页广告 ======= #
   Hads:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/youtube.js
     interval: 86400
