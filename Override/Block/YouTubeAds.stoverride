@@ -1,5 +1,8 @@
 name: YouTube去广告2.0
 desc: 用于视频广告，首页广告，播放页列表广告及贴片广告，不适用允许 UDP 转发的节点及 Premium
+
+#⚠️注意：经测试本覆写脚本在Stash上暂不可用，待改进。⚠️
+
 ########################################
 #应用名称：  Youtube Block AD
 #脚本作者：  DivineEngine,app2smile,Maasea,ddgksf2013
