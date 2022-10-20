@@ -29,7 +29,7 @@ http:
     - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontex - reject
 # ======= 视频广告 ======= #
   script:
-    - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad
+    - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
       name: Vads
       type: response
       require-body: false
