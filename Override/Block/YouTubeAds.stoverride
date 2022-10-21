@@ -33,21 +33,21 @@ http:
       name: Vads
       type: response
       require-body: false
-      timeout: 120
+      timeout: 30
 # ======= 贴片广告 ======= #
     - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player
       name: Pads
       type: response
       binary-mode: true
       require-body: true
-      timeout: 120
+      timeout: 30
 # ======= 首页瀑布流及播放页广告 ======= #
     - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next)\?
       name: Hads
       type: response
       binary-mode: true
       require-body: true
-      timeout: 120
+      timeout: 30
 
 script-providers:
 # ======= 视频广告 ======= #
