@@ -21,33 +21,33 @@ http:
     - "youtubei.googleapis.com"
 # ======= 通用请求 ======= #
   rewrite:
-    - (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
-    - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
     - ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
     - ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
     - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
     - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontex - reject
 # ======= 视频广告 ======= #
+    - (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
+    - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
   script:
     - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
       name: Vads
       type: response
       require-body: false
-      timeout: 30
+      timeout: 120
 # ======= 贴片广告 ======= #
     - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player
       name: Pads
       type: response
       binary-mode: true
       require-body: true
-      timeout: 30
+      timeout: 120
 # ======= 首页瀑布流及播放页广告 ======= #
     - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next)\?
       name: Hads
       type: response
       binary-mode: true
       require-body: true
-      timeout: 30
+      timeout: 120
 
 script-providers:
 # ======= 视频广告 ======= #
