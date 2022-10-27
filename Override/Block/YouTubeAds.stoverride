@@ -1,5 +1,5 @@
 name: YouTube去广告
-desc: 用于瀑布流、视频、搜索中出现的广告和Shorts视频广告，不适用允许 UDP 转发的节点及 Premium
+desc: 用于视频、瀑布流、搜索、播放页、短视频及贴片广告，不适用允许 UDP 转发的节点及 Premium
 
 #⚠️注意：经测试本覆写脚本在Stash上暂不可用，待改进。⚠️
 
@@ -17,10 +17,22 @@ desc: 用于瀑布流、视频、搜索中出现的广告和Shorts视频广告�
 
 http:
   mitm:
+    - "-redirector*.googlevideo.com"
     - "*.googlevideo.com"
+    - "www.youtube.com"
+    - "s.youtube.com"
     - "youtubei.googleapis.com"
 
+# ======= 通用请求 ======= #
+  rewrite:
+    - ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
+    - ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject-200
+    - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject-200
+    - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontex - reject-200
+
 # ======= 视频广告 ======= #
+    - (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
+    - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject-200
   script:
     - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
       name: Vads
