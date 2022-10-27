@@ -17,8 +17,6 @@ desc: 用于瀑布流、视频、搜索中出现的广告和Shorts视频广告�
 http:
   mitm:
     - "*.googlevideo.com"
-    - "www.youtube.com"
-    - "s.youtube.com"
     - "youtubei.googleapis.com"
 
 # ======= 视频广告 ======= #
