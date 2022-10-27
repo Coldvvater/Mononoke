@@ -6,7 +6,7 @@ desc: 用于瀑布流、视频、搜索中出现的广告和Shorts视频广告�
 ########################################
 #应用名称：  Youtube Block AD
 #脚本作者：  DivineEngine,Maasea,ddgksf2013
-#更新时间：  2022-10-19
+#更新时间：  2022-10-27
 #原始仓库：  https://github.com/DivineEngine
 #原始仓库：  https://github.com/Maasea
 #脚本地址：  https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf
@@ -20,15 +20,8 @@ http:
     - "www.youtube.com"
     - "s.youtube.com"
     - "youtubei.googleapis.com"
-# ======= 通用请求 ======= #
-  rewrite:
-    - ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
-    - ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
-    - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
-    - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontex - reject
+
 # ======= 视频广告 ======= #
-    - (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
-    - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
   script:
     - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
       name: Vads
