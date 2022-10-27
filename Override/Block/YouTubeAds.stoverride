@@ -1,20 +1,21 @@
-name: YouTube去广告2.0
-desc: 用于视频广告，首页广告，播放页列表广告及贴片广告，不适用允许 UDP 转发的节点及 Premium
+name: YouTube去广告
+desc: 用于瀑布流、视频、搜索中出现的广告和Shorts视频广告，不适用允许 UDP 转发的节点及 Premium
 
 #⚠️注意：经测试本覆写脚本在Stash上暂不可用，待改进。⚠️
 
 ########################################
 #应用名称：  Youtube Block AD
-#脚本作者：  DivineEngine,app2smile,Maasea,ddgksf2013
+#脚本作者：  DivineEngine,Maasea,ddgksf2013
 #更新时间：  2022-10-19
 #原始仓库：  https://github.com/DivineEngine
 #原始仓库：  https://github.com/Maasea
-#原始仓库：  https://github.com/app2smile
 #脚本地址：  https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf
 ########################################
+
+# 广告信息可能有遗漏，可能偶现广告
+
 http:
   mitm:
-    - "-redirector*.googlevideo.com"
     - "*.googlevideo.com"
     - "www.youtube.com"
     - "s.youtube.com"
@@ -34,16 +35,9 @@ http:
       type: response
       require-body: false
       timeout: 120
-# ======= 贴片广告 ======= #
-    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player
-      name: Pads
-      type: response
-      binary-mode: true
-      require-body: true
-      timeout: 120
-# ======= 首页瀑布流及播放页广告 ======= #
-    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next)\?
-      name: Hads
+# ======= 瀑布流、视频、搜索中出现的广告和Shorts视频广告 ======= #
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence)
+      name: Aads
       type: response
       binary-mode: true
       require-body: true
@@ -54,11 +48,7 @@ script-providers:
   Vads:
     url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js
     interval: 86400
-# ======= 贴片广告 ======= #
-  Pads:
-    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-player.js
-    interval: 86400
-# ======= 首页瀑布流及播放页广告 ======= #
-  Hads:
-    url: https://raw.githubusercontent.com/app2smile/rules/master/js/youtube.js
+# ======= 瀑布流、视频、搜索中出现的广告和Shorts视频广告 ======= #
+  Aads:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
     interval: 86400
