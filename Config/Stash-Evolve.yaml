@@ -274,7 +274,7 @@ rule-providers:
   BiliBili: # 哔哩哔哩
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Bilibili.yamll
+    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Bilibili.yaml
     path: ./ruleset/BiliBili.yaml
     interval: 86400
 
