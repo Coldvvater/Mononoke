@@ -341,6 +341,13 @@ rule-providers:
     path: ./ruleset/Lan.yaml
     interval: 86400
 
+  ASN-CN: # IP-ASN规则
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/ASN_China.yaml
+    path: ./ruleset/ASN-CN.yaml
+    interval: 86400
+
 rules:
   # 分流规则引用
   - RULE-SET,Unbreak,DIRECT
