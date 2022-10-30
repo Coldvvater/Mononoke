@@ -26,13 +26,13 @@ http:
 # ======= 通用请求 ======= #
   rewrite:
     - ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
-    - ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject-200
-    - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject-200
-    - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontex - reject-200
+    - ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+    - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+    - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontex - reject
 
 # ======= 视频广告 ======= #
     - (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
-    - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject-200
+    - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
   script:
     - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
       name: Vads
