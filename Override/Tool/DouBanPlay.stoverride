@@ -12,5 +12,5 @@ http:
       timeout: 10
 script-providers:
   DouBan:
-    url: https://raw.githubusercontent.com/I-am-R-E/Surge/main/JavaScript/DouBan.js
+    url: https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js
     interval: 86400
