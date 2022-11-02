@@ -1,0 +1,25 @@
+name: 克拉壁纸
+desc: 克拉壁纸解锁订阅
+
+# 来源：@yqc007
+
+# 使用说明：以下操作步骤仅供参考
+
+# 1. 点右上角的「升级」按钮进入订阅页面
+
+# 2. 点击「购买订阅」按钮，等待响应直到出现付款弹窗后，点右上角「取消」。最后，叉掉订阅页面。「升级」按钮变成「我的权益」即为破解成功。
+
+http:
+  mitm:
+    - "buy.itunes.apple.com"
+  script:
+    - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
+      name: CPPC
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  CPPC:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js
+    interval: 86400
