@@ -6,7 +6,7 @@ desc: 用于视频、瀑布流、搜索、播放页、短视频及贴片广告�
 ########################################
 #应用名称：  Youtube Block AD
 #脚本作者：  DivineEngine,app2smile,Maasea,ddgksf2013
-#更新时间：  2022-10-27
+#更新时间：  2022-11-02
 #原始仓库：  https://github.com/DivineEngine
 #原始仓库：  https://github.com/Maasea
 #原始仓库：  https://github.com/app2smile
@@ -40,7 +40,7 @@ http:
       require-body: false
       timeout: 120
 # ======= 瀑布流、视频、搜索中出现的广告和Shorts视频广告 ======= #
-    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence)
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide)
       name: Aads
       type: response
       binary-mode: true
