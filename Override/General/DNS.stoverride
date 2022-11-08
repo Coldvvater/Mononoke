@@ -27,7 +27,7 @@ dns:
     - '*.battle.net'
   nameserver:
     - https://dns.alidns.com/dns-query
-    - quic://a.vvvglass.com
+    - quic://i.vvvglass.com
   fallback:
     - https://8.8.4.4/dns-query
     - https://1.0.0.1/dns-query
