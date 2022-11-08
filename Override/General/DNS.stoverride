@@ -6,8 +6,9 @@ dns:
   ipv6: true
   listen: 0.0.0.0:53
   default-nameserver:
-    - 114.114.114.114
     - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
@@ -26,7 +27,7 @@ dns:
     - '*.battle.net'
   nameserver:
     - https://dns.alidns.com/dns-query
-    - quic://c.passcloud.xyz:784
+    - quic://b.vvvglass.com
   fallback:
     - https://8.8.4.4/dns-query
     - https://1.0.0.1/dns-query
