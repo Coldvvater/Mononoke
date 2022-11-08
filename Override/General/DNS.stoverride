@@ -1,5 +1,5 @@
 name: DNS
-desc: 国内网站使用IQ与阿里DNS，国外网站使用Cloudflare与谷歌DNS
+desc: 国内网站使用腾讯与阿里DNS，国外网站使用Cloudflare与谷歌DNS
 
 dns:
   enable: true
@@ -27,7 +27,7 @@ dns:
     - '*.battle.net'
   nameserver:
     - https://dns.alidns.com/dns-query
-    - quic://i.vvvglass.com
+    - https://doh.pub/dns-query
   fallback:
     - https://8.8.4.4/dns-query
     - https://1.0.0.1/dns-query
