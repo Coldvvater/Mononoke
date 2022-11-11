@@ -1,11 +1,14 @@
 name: 微博轻享版去广告
 desc: 微博轻享版（原国际版）去广告
-# 原作者@ddgksf2013（Cuttlefish）https://github.com/ddgksf2013
+# 原作者@ddgksf2013（Cuttlefish）https://gitlab.com/ddgksf2013
 http:
   mitm:
     - "*api.weibo*"
     - "sdkapp.uve.weibo.com"
   rewrite:
+    - ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users - reject
+  # ～ WeiboLite_微博国际版_热推荐@ddgksf2013
+    - ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? - reject
   # ～ WeiboLite_微博国际版_sdkad
     - ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php - reject
   # ～ WeiboLite_微博国际版_屏蔽search_suggest
@@ -43,5 +46,5 @@ http:
       timeout: 30
 script-providers:
   weibolite:
-    url: https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/weibo_json.js
+    url: https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/weibo_json.js
     interval: 86400
