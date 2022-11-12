@@ -1,6 +1,6 @@
 name: 微博轻享版去广告
 desc: 微博轻享版（原国际版）去广告
-# 原作者@ddgksf2013（Cuttlefish）https://gitlab.com/ddgksf2013
+# 原作者@ddgksf2013（Cuttlefish）https://codeberg.org/ddgksf2013
 http:
   mitm:
     - "*api.weibo*"
