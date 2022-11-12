@@ -46,5 +46,5 @@ http:
       timeout: 30
 script-providers:
   weibolite:
-    url: https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/weibo_json.js
+    url: https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
     interval: 86400
