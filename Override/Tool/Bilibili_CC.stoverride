@@ -12,5 +12,5 @@ http:
       timeout: 10
 script-providers:
   BiliBili_CC:
-    url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_cc.js
+    url: https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Script/bilibili_cc.js
     interval: 86400
