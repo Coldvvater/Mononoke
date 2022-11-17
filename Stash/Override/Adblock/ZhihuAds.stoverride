@@ -1,0 +1,24 @@
+name: 知乎App去广告
+desc: 开屏页广告,首页右下角悬浮框,推荐列表广告,问题回答列表广告,具体回答下广告
+# 仓库地址 https://github.com/app2smile/rules
+
+rules:
+  - DOMAIN,118.89.204.198,REJECT
+  - IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
+  
+http:
+  mitm:
+    - "api.zhihu.com"
+    - "www.zhihu.com"
+    - "appcloud2.zhihu.com"
+  script:
+    - match: ^https:\/\/(appcloud2\.zhihu\.com\/v3\/config$|www\.zhihu\.com\/api\/v4\/(answers\/\d+\/recommendations|articles\/\d+\/recommendation)|api\.zhihu\.com\/(topstory\/recommend|commercial_api\/(real_time_launch_v2|app_float_layer$)|questions\/\d+\/feeds\?|v4\/questions\/\d+\/answers\?))
+      name: ZhihuAds
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  ZhihuAds:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/zhihu.js
+    interval: 86400
