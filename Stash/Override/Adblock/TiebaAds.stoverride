@@ -1,0 +1,33 @@
+name: 贴吧去广告(>=iOS15)
+desc: 开屏广告;推荐和吧内帖子列表的直播及广告;详情页直播/关联商品/广告;看图模式广告;首页和帖子详情页右下角悬浮广告;部分吧内的置顶/最新中间的广告/head图片广告/head直播
+# 仓库地址 https://github.com/app2smile/rules
+
+rules:
+  - DOMAIN,180.76.76.200,REJECT
+  - IP-CIDR,180.76.76.200/32,REJECT,no-resolve
+http:
+  mitm:
+    - "tiebac.baidu.com"
+  script:
+    # 贴吧去广告
+    - match: ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)$|tiebaads\/commonbatch|c\/s\/sync$)
+      name: tb
+      type: response
+      require-body: true
+      timeout: 10
+    # 贴吧去广告
+    - match: ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)\?cmd
+      name: tb2
+      type: response
+      binary-mode: true
+      require-body: true
+      timeout: 10
+script-providers:
+  # 贴吧去广告
+  tb:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
+    interval: 86400
+  # 贴吧去广告
+  tb2:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
+    interval: 86400
