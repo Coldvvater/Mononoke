@@ -1,0 +1,13 @@
+# > Netflix（奈菲分流）
+domain_suffix_set:
+  - netflix.com
+  - netflix.net
+  - nflxext.com
+  - nflximg.com
+  - nflximg.net
+  - nflxso.net
+  - nflxvideo.net
+domain_keyword_set:
+  - netflixdnstest
+  - apiproxy-device-prod-nlb-
+  - dualstack.apiproxy-

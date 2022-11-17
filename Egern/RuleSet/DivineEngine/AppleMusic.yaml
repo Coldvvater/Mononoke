@@ -1,0 +1,12 @@
+# > Apple Music (苹果音乐分流)
+domain_set:
+  - aod.itunes.apple.com
+  - aod-ssl.itunes.apple.com
+  - audio.itunes.apple.com
+  - audio-ssl.itunes.apple.com
+  - mvod.itunes.apple.com
+  - streamingaudio.itunes.apple.com
+domain_suffix_set:
+  - applemusic.com
+  - music.apple.com
+  - blobstore.apple.com // iCloud Music Library
