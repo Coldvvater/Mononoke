@@ -8,5 +8,5 @@ tiles:
 
 script-providers:
   sub_info-Tile:
-    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/sub_info.js
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/JS/sub_info.js
     interval: 86400
