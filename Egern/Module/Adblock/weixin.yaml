@@ -1,0 +1,13 @@
+#!name=微信公众号去广告
+#!desc=去除微信公众号文章内广告
+
+mitm:
+  hostnames:
+    - mp.weixin.qq.com
+scriptings:
+  - http_response:
+      name: 微信公众号去广告
+      script_url: https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+      match: >-
+        ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad
+      body_required: true
