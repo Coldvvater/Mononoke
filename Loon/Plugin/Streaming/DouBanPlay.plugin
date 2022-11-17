@@ -1,0 +1,11 @@
+#!name=豆瓣影视
+#!desc=Web版豆瓣电影和电视剧添加便捷播放源按钮
+#!author=Coldvvater
+#!homepage=https://github.com/Coldvvater/Loon
+#!icon=https://raw.githubusercontent.com/Coldvvater/Loon/master/IMG/Douban.PNG
+
+[Mitm]
+hostname =m.douban.com
+
+[Script]
+http-response ^https?:\/\/m\.douban\.com\/movie\/subject\/\d+\/ requires-body=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js timeout=10,tag=豆瓣影视
