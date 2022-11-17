@@ -9,7 +9,7 @@
 
 ### 特别感谢各路大佬辛苦成果和分享（排名不分先后）：
 
-* [DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)  * [Tartarus2014](https://github.com/Tartarus2014)  * [nzw9314](https://github.com/nzw9314)  * [Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)  * [Hausd0rff(yqc007)](https://github.com/yqc007/QuantumultX)  * [Semporia](https://github.com/Semporia)  * [fishingworld](https://github.com/fishingworld/something)   
+* [DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)  * [Tartarus2014](https://github.com/Tartarus2014)  * [nzw9314](https://github.com/nzw9314)  * [Cuttlefish](https://ocd0522.tk/ddgksf2013/Cuttlefish)  * [Hausd0rff(yqc007)](https://github.com/yqc007/QuantumultX)  * [Semporia](https://github.com/Semporia)  * [fishingworld](https://github.com/fishingworld/something)   
 
 * [NobyDa](https://github.com/NobyDa)    * [Yichahucha](https://github.com/yichahucha/surge/tree/master)  * [chavyleung](https://github.com/chavyleung)/[gitee](https://gitee.com/chavyleung/scripts) * [mieqq](https://github.com/mieqq/mieqq)   * [Sunert](https://github.com/Sunert/Script)  * [app2smile](https://github.com/app2smile/rules)   * [zZPiglet](https://github.com/zZPiglet/Task/tree/master)  * [VirgilClyne](https://github.com/VirgilClyne) 
 
