@@ -1,0 +1,57 @@
+#!name=微博
+#!desc=微博App去广告
+
+mitm:
+  hostnames:
+    - api.weibo.cn
+    - mapi.weibo.com
+    - sdkapp.uve.weibo.com
+scriptings:
+  - http_response:
+      name: 微博去广告
+      script_url: https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+      match: >-
+        ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
+      body_required: true
+  - http_response:
+      name: 微博去广告2
+      script_url: https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+      match: >-
+        ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info|remind/unread_count)
+      body_required: true
+  - http_response:
+      name: 微博评论广告
+      script_url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_comment.js
+      match: >-
+        ^https://(api\.weibo\.cn|mapi\.weibo\.com)/2/comments/build_comments\?
+      body_required: true
+  - http_response:
+      name: 微博各种广告
+      script_url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_statuses.js
+      match: >-
+        ^https://(api\.weibo\.cn|mapi\.weibo\.com)/2/(statuses/unread_hot_timeline|statuses/friends/timeline|video/tiny_stream_video_list|statuses/unread_friends_timeline)\?
+      body_required: true
+  - http_response:
+      name: 微博搜索等广告
+      script_url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_cardlist.js
+      match: >-
+        ^https://(api\.weibo\.cn|mapi\.weibo\.com)/2/(searchall|page)\?
+      body_required: true
+  - http_response:
+      name: 微博卡片广告
+      script_url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_cardlist_discover.js
+      match: >-
+        ^https://(api\.weibo\.cn|mapi\.weibo\.com)/2/cardlist\?
+      body_required: true
+  - http_response:
+      name: 微博创作者广告
+      script_url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_statuses_extend.js
+      match: >-
+        ^https://(api\.weibo\.cn|mapi\.weibo\.com)/2/statuses/extend\?
+      body_required: true
+  - http_response:
+      name: 微博开屏广告
+      script_url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_sdkad.js
+      match: >-
+        ^https://sdkapp\.uve\.weibo\.com/interface/sdk/sdkad\.php$
+      body_required: true
