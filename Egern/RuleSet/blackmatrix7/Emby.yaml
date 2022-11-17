@@ -1,0 +1,42 @@
+# Emby (Emby分流)
+domain_suffix_set:
+  - agahk1.jmsooo.com
+  - agajp1.jmsooo.com
+  - agasg1.jmsooo.com
+  - aws.jmsooo.com
+  - cf1.jmsooo.com
+  - cristiamo.xyz
+  - emby.cjpc.cc
+  - emby.cjpc.xyz
+  - emby.cristiamo.top
+  - emby.flowercloud.yt
+  - emby.immtel.com
+  - emby.maying.club
+  - emby.mcwy.me
+  - emby.mdss.cloud
+  - emby.neko.edu.rs
+  - emby.nexitally.com
+  - emby.nyancat.net
+  - emby.ok.edu.hk
+  - emby.paoche.ooo
+  - emby.prprcloud.com
+  - emby.wtf
+  - emby.xeton.dev
+  - emby.ytoo.li
+  - embyserver.ga
+  - hinet.jmsooo.com
+  - jellyfin.xeton.dev
+  - line.emby.men
+  - mickeycloud.com
+  - movie.xeton.dev
+  - ntt1.jmsooo.com
+  - plusmedia.site
+  - pornemby.club
+  - servers.xeton.dev
+domain_keyword_set:
+  - emby
+  - jmaooo.com
+  - odysseyplus
+  - xeton.dev
+ip_cidr_set:
+  - 161.97.148.156/24
