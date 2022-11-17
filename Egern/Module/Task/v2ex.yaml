@@ -1,0 +1,9 @@
+#!name=V2EX签到
+#!desc=每日定时签到领货币
+
+scriptings:
+  - schedule:
+      name: V2EX
+      cron: 6 0 * * *
+      script_url: "https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js"
+      body_required: false
