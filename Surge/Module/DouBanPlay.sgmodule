@@ -1,0 +1,8 @@
+#!name=豆瓣影视
+#!desc=Web版豆瓣电影和电视剧添加便捷播放源按钮
+
+[Script]
+豆瓣影视 = type=http-response,pattern=^https://m.douban.com/movie/subject/.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js
+
+[MITM]
+hostname = %APPEND% m.douban.com
