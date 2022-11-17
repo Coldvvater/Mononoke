@@ -1,0 +1,20 @@
+#!name=NoMoCam
+#!desc=NoMoCam解锁Pro滤镜
+
+# ▎使用说明：参考下面步骤来👇
+
+# 1、退出 nomo cam 账号，运行脚本
+# 2、点击恢复购买，直到显示相机🉑️下载
+# 3、重新登陆账号，最后关闭脚本，即可一次性解锁，理论可以卡永久
+
+# ▎温馨提示：
+
+# 若登录成功后提示“账户异常”，说明你的手机号被官方拉黑了，请自行更换账号。
+
+# 不支持商店最新版，解锁成功后，不要更新App，不要退出登录。
+
+[Script]
+NoMoCam=type=http-request,pattern= ^https?:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_verify$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% nomo.dafork.com
