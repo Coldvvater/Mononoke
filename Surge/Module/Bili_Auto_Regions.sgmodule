@@ -1,0 +1,9 @@
+#!name=bilibili自动换区
+#!desc=哔哩哔哩, 港澳台番剧自动切换地区 & 显示豆瓣评分
+
+[MITM]
+hostname = %APPEND% ap?.bilibili.com, ap?.biliapi.net
+
+[Script]
+bilibili搜索 = type=http-request,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js,pattern=^https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,timeout=10,enable=true
+bilibili自动换区 = type=http-response,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js,pattern=https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/(pgc\/view\/v\d\/app\/season|x\/v\d\/search\/defaultwords)\?access_key,max-size=0,requires-body=true,timeout=10,enable=true
