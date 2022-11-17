@@ -1,8 +1,8 @@
 # Egern全局配置 by Coldvvater
 # 作者GitHub：https://github.com/Coldvvater
 # 配置库GitHub：https://github.com/Coldvvater/Mononoke
-# 配置使用方法参阅：https://raw.githubusercontent.com/Coldvvater/Egern/master/Profile/README.md
-# 更新时间：2022.10.25
+# 配置使用方法参阅：https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/Profile/README.md
+# 更新时间：2022.11.17
 ---
 policy_groups:
   - select:
@@ -176,43 +176,43 @@ policy_groups:
       url: "https://xxxx.com"
 rules:
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/DivineEngine/Unbreak.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/DivineEngine/Unbreak.yaml"
       policy: DIRECT
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/DivineEngine/Advertising.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/DivineEngine/Advertising.yaml"
       policy: ADblock
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/DivineEngine/Privacy.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/DivineEngine/Privacy.yaml"
       policy: ADblock
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/DivineEngine/Hijacking.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/DivineEngine/Hijacking.yaml"
       policy: ADblock
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/bilibili.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/NobyDa/bilibili.yaml"
       policy: BiliBili
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/blackmatrix7/Spotify.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/blackmatrix7/Spotify.yaml"
       policy: Spotify
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/TikTok.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/blackmatrix7/TikTok.yaml"
       policy: TikTok
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/ACL4SSR/ProxyMedia.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/ACL4SSR/ProxyMedia.yaml"
       policy: Streaming
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/blackmatrix7/Telegram.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/blackmatrix7/Telegram.yaml"
       policy: Telegram
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/ACL4SSR/ProxyLite.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/ACL4SSR/ProxyLite.yaml"
       policy: Foreign
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/blackmatrix7/Apple.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/blackmatrix7/Apple.yaml"
       policy: Apple
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/blackmatrix7/Microsoft.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/blackmatrix7/Microsoft.yaml"
       policy: Microsoft
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/ACL4SSR/ChinaDomain.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/ACL4SSR/ChinaDomain.yaml"
       policy: Domestic
   - ip_cidr:
       match: 192.168.0.0/16
