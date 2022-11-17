@@ -8,5 +8,5 @@ tiles:
 
 script-providers:
   covid19-Tile:
-    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/covid19.js
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/JS/covid19.js
     interval: 86400
