@@ -1,0 +1,10 @@
+# BiliBiliIntl (bilibili国际分流)
+domain_set:
+  - apm-misaka.biliapi.net
+  - p-bstarstatic.akamaized.net
+  - p.bstarstatic.com
+  - upos-bstar-mirrorakam.akamaized.net
+  - upos-bstar1-mirrorakam.akamaized.net
+domain_suffix_set:
+  - bilibili.tv
+  - biliintl.com
