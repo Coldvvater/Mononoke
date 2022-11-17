@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2022.10.28
+# Update Date: 2022.11.17
 
 subscribe-url: 你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -274,14 +274,14 @@ rule-providers:
   AD-Ban: # 广告拦截
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/AD-Ban.yaml
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/AD-Ban.yaml
     path: ./ruleset/AD-Ban.yaml
     interval: 86400
 
   Privacy: # 隐私保护
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/Privacy.yaml
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Privacy.yaml
     path: ./ruleset/Privacy.yaml
     interval: 86400
 
