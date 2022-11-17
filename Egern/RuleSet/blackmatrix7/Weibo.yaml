@@ -1,0 +1,7 @@
+# Weibo (微博分流)
+domain_suffix_set:
+  - weibo.cn
+  - weibo.com
+  - weibocdn.com
+domain_keyword_set:
+  - weibo

@@ -1,0 +1,25 @@
+# Twitch (Twitch 分流)
+domain_keyword_set:
+  - ttvnw
+domain_suffix_set:
+  - ext-twitch.tv
+  - jtvnw.net
+  - ttvnw.net
+  - twitch-ext.rootonline.de
+  - twitch.tv
+  - twitchcdn.net
+  - twitchsvc.net
+ip_cidr_set:
+  - 103.53.48.0/23,no-resolve
+  - 185.42.204.0/22,no-resolve
+  - 192.108.239.0/24,no-resolve
+  - 192.16.64.0/21,no-resolve
+  - 199.9.248.0/21,no-resolve
+  - 23.160.0.0/24,no-resolve
+  - 45.113.128.0/22,no-resolve
+  - 52.223.192.0/20,no-resolve
+  - 52.223.208.0/21,no-resolve
+  - 52.223.224.0/19,no-resolve
+  - 99.181.64.0/18,no-resolve
+ip_cidr6_set:
+  - 2402:2a80::/32,no-resolve
