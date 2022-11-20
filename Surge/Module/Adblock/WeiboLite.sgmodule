@@ -3,18 +3,18 @@
 # 原作者@ddgksf2013（Cuttlefish）https://ocd0522.tk/ddgksf2013
 
 [URL Rewrite]
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users - reject-dict
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users - reject
 # 热推荐
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? - reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? - reject
 
 # sdkad
-^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php  - reject-dict
+^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php  - reject
 
 # 屏蔽search_suggest
-#^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest - reject-dict
+#^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest - reject
 
 # 屏蔽开屏广告
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*ads - reject-dict
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*ads - reject
 
 # 主页推荐tab|热门tab去广告
 
