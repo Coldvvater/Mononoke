@@ -21,10 +21,10 @@
 
 
 [Script]
-推荐tab热门tab去广告 = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/unread_hot_timeline,requires-body=1,max-size=0,script-path=https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
-关注tab去广告 = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/friends_timeline,requires-body=1,max-size=0,script-path=https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
-趋势tab = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist,requires-body=1,max-size=0,script-path=https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
-趋势tab去广告 = type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends,requires-body=1,max-size=0,script-path=https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
+推荐tab热门tab去广告 = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/unread_hot_timeline,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/JS/weibolite.js
+关注tab去广告 = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/friends_timeline,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/JS/weibolite.js
+趋势tab = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/JS/weibolite.js
+趋势tab去广告 = type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/JS/weibolite.js
 
 [MITM]
 hostname = %APPEND% *api.weibo*,sdkapp.uve.weibo.com
