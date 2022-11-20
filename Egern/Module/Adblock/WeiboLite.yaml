@@ -3,7 +3,8 @@
 #!原作者@ddgksf2013（Cuttlefish）https://ocd0522.tk/ddgksf2013
 
 url_rewrites:
-  - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users
+  - match: >-
+      ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users
     location: http://reject/
     status_code: 307
   - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\?
@@ -12,9 +13,18 @@ url_rewrites:
   - match: ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php
     location: http://reject/
     status_code: 307
+  - match: >-
+      ^ttps?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info
+    location: http://reject/
+    status_code: 307
+  - match: >-
+      ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic
+    location: http://reject/
+    status_code: 307
   - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*ads
     location: http://reject/
     status_code: 307
+
 scriptings:
   - http_response:
       name: 推荐tab热门tab去广告
