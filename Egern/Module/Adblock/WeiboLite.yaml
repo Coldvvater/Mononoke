@@ -18,26 +18,22 @@ url_rewrites:
 scriptings:
   - http_response:
       name: 推荐tab热门tab去广告
-      script_url: >-
-        https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
+      script_url: https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
       match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/unread_hot_timeline
       body_required: true
   - http_response:
       name: 关注tab去广告
-      script_url: >-
-        https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
+      script_url: https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
       match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/friends_timeline
       body_required: true
   - http_response:
       name: 趋势tab
-      script_url: >-
-        https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
+      script_url: https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
       match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist
       body_required: true
   - http_response:
       name: 趋势tab去广告
-      script_url: >-
-        https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
+      script_url: https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
       match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends
       body_required: true
 mitm:
