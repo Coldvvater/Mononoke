@@ -10,6 +10,12 @@
 # sdkad
 ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php  - reject
 
+# 屏蔽searching_info
+^ttps?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info - reject
+
+# 屏蔽search_topic
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic - reject
+
 # ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest - reject
 # ～ WeiboLite_微博国际版_屏蔽searching_info@ddgksf2013
 
