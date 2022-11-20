@@ -12,7 +12,7 @@
 # sdkad
 ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php - reject
 # 屏蔽search_suggest
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest - reject
+#^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest - reject
 # 屏蔽searching_info
 
 ^ttps?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info - reject
