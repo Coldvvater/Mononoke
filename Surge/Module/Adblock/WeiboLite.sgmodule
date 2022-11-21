@@ -36,4 +36,4 @@
 趋势tab去广告 = type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends, requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js
 
 [MITM]
-hostname = %APPEND% *api.weibo*,sdkapp.uve.weibo.com
+hostname = %APPEND% api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
