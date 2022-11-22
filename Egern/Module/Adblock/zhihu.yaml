@@ -4,7 +4,7 @@
 
 rules:
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/zhihu-ad.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/rules/zhihu-ad.yaml"
       policy: REJECT
 mitm:
   hostnames:
