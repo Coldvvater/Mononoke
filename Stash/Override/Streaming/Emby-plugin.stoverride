@@ -1,6 +1,6 @@
 name: Emby Plugin
 desc: Emby 官方客户端内调用外部播放器
-# 应要求将此模块编写成覆写格式，由于本人并不观看Emby，并未实测生效与否，请自行测试，如有问题发issues
+
 http:
   mitm:
     - "mb3admin.com"
