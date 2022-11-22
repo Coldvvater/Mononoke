@@ -4,7 +4,7 @@
 
 rules:
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Egern/master/Rule/tieba-ad.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/rules/tieba-ad.yaml"
       policy: REJECT
 mitm:
   hostnames:
