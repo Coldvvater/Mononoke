@@ -3,8 +3,8 @@
 # 原作者@ddgksf2013（Cuttlefish）https://ocd0522.tk/ddgksf2013
 
 [URL Rewrite]
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users - reject
 # 热推荐
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users - reject
 ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? - reject
 
 # sdkad
@@ -15,9 +15,6 @@
 
 # 屏蔽search_topic
 ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic - reject
-
-# ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest - reject
-# ～ WeiboLite_微博国际版_屏蔽searching_info@ddgksf2013
 
 # 屏蔽search_suggest
 #^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest - reject
