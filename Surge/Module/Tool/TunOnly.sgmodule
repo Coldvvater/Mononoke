@@ -1,5 +1,5 @@
 #!name=Tun Only
-#!desc=Enable tun only and force 80 port http proxy
+#!desc=启用 TUN Only 模式，强制 80 端口的域名请求使用 HTTP 引擎处理并打开解密 TCP 流量
 
 
 [General]
