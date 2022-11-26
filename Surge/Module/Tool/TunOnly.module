@@ -1,0 +1,12 @@
+#!name=Tun Only
+#!desc=Enable tun only and force 80 port http proxy
+
+
+[General]
+compatibility-mode = 3
+# 兼容模式(Only Tun)不能抓包、复写，运行脚本刊，在下面强制加入域名
+# > force-http-engine-hosts = %APPEND% *
+force-http-engine-hosts = %APPEND% *a, *b, *c, *d, *e, *f, *g, *h, *i, *j, *k, *l, *m, *n, *o, *p, *q, *r, *s, *t, *u, *v, *w, *x, *y, *z
+
+[MITM]
+tcp-connection = true
