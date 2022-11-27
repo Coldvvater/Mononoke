@@ -365,5 +365,5 @@ rules:
   #- RULE-SET,Domestic,Domestic
   - RULE-SET,LAN,DIRECT
   - RULE-SET,ASN-CN,DIRECT
-  #- GEOIP,CN,Domestic
+  #- GEOIP,CN,DIRECT
   - MATCH,Final
