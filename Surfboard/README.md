@@ -30,6 +30,6 @@
 ![](https://raw.githubusercontent.com/Coldvvater/Coldvvater/master/img-folder/screenshot/WeChat%20%E5%9C%96%E7%89%87_2022112717150310.jpg)
 ![](https://raw.githubusercontent.com/Coldvvater/Coldvvater/master/img-folder/screenshot/WeChat%20%E5%9C%96%E7%89%87_2022112717150311.jpg)
 
-3. 完成以上操作后我们正式打开Surfboard，点击下面菜单栏的第三个tab，「配置文件」，选择从文件导入，把刚刚修改好的配置文件导入，最后返回下面菜单栏的第一个tab，把开关打开，即大功告成！
+3. 完成以上操作后我们正式打开Surfboard，点击下面菜单栏的第三个tab「配置文件」，选择从文件导入，把刚刚修改好的配置文件导入，最后返回下面菜单栏的第一个tab「仪表盘」，把开关打开，即大功告成！
 ![](https://raw.githubusercontent.com/Coldvvater/Coldvvater/master/img-folder/screenshot/WeChat%20%E5%9C%96%E7%89%87_20221127171503.jpg)
 ![](https://raw.githubusercontent.com/Coldvvater/Coldvvater/master/img-folder/screenshot/WeChat%20%E5%9C%96%E7%89%87_202211271715031.jpg)
