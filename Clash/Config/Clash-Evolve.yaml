@@ -378,5 +378,5 @@ rules:
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Domestic,Domestic
   - RULE-SET,LAN,DIRECT
-  - GEOIP,CN,Domestic
+  - GEOIP,CN,DIRECT
   - MATCH,Final
