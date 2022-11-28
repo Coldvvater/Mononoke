@@ -16,4 +16,4 @@ http-response ^https://m.douban.com/movie/subject/.+ script-path=https://ocd0522
 http-request ^https://m.douban.com/movie/subject/.+\?seen=\d script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/douban.js, requires-body=false, timeout=10, tag=Airtable
 
 [MITM]
-hostname = m.douban.com
+hostname = m.douban.com,api.douban.com
