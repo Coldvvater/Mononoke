@@ -15,13 +15,13 @@ http:
   script:
     # 茶杯狐、Libvio 流媒体
     - match: ^https://m.douban.com/movie/subject/.+
-      name: douban
+      name: Streaming
       type: response
       requires-body: true
       timeout: 30
     # Airtable 收藏
     - match: ^https://m.douban.com/movie/subject/.+\?seen=\d
-      name: douban
+      name: Airtable
       type: request
       requires-body: false
       timeout: 30
@@ -30,6 +30,9 @@ http:
     - "api.douban.com"
 
 script-providers:
-  douban:
+  Streaming:
+    url: https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/douban.js
+    interval: 86400
+  Airtable:
     url: https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/douban.js
     interval: 86400
