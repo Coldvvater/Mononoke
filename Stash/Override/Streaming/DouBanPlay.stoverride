@@ -14,3 +14,4 @@ http:
 script-providers:
   DouBan:
     url: https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js
+    interval: 86400
