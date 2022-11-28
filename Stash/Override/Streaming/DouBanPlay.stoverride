@@ -1,16 +1,35 @@
-name: 豆瓣影视
-desc: Web版豆瓣电影和电视剧添加便捷播放源按钮
+name: 豆瓣
+desc: 豆瓣电影移动端网页版广告净化,影视添加便捷播放源按钮,豆瓣手机App屏蔽开屏广告.
+
+#############################################################################
+# 特别鸣谢：
+# @Neurogram-R https://github.com/Neurogram-R
+# @ddgksf2013 https://ocd0522.tk/ddgksf2013
+#############################################################################
 
 http:
+  rewrite:
+    # 豆瓣App去开屏广告
+    - ^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
+    - ^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* - reject
+  script:
+    # 茶杯狐、Libvio 流媒体
+    - match: ^https://m.douban.com/movie/subject/.+
+      name: douban
+      type: response
+      requires-body: true
+      timeout: 30
+    # Airtable 收藏
+    - match: ^https://m.douban.com/movie/subject/.+\?seen=\d
+      name: douban
+      type: request
+      requires-body: false
+      timeout: 30
   mitm:
     - "m.douban.com"
-  script:
-    - match: ^https?:\/\/m\.douban\.com\/movie\/subject\/\d+\/
-      name: DouBan
-      type: response
-      require-body: true
-      timeout: 10
+    - "api.douban.com"
+
 script-providers:
-  DouBan:
-    url: https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js
+  douban:
+    url: https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/douban.js
     interval: 86400
