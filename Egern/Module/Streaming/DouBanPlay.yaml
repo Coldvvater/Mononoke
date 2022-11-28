@@ -7,26 +7,13 @@
 # @ddgksf2013 https://ocd0522.tk/ddgksf2013
 #############################################################################
 
-url_rewrites:
-  - match: ^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash
-    location: http://reject/
-    status_code: 307
-  - match: ^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.*
-    location: http://reject/
-    status_code: 307
 scriptings:
   - http_response:
-      name: Streaming
-      script_url: >-
-        https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/douban.js
+      name: 豆瓣影视
+      script_url: https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js
       match: ^https://m.douban.com/movie/subject/.+
       body_required: true
-  - http_request:
-      name: Airtable
-      script_url: >-
-        https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/douban.js
-      match: ^https://m.douban.com/movie/subject/.+\?seen=\d
 mitm:
   hostnames:
     - m.douban.com
-    - api.douban.com
+
