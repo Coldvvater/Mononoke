@@ -9,8 +9,7 @@ http:
       name: DouBan
       type: response
       requires-body: true
-      timeout: 30
-
+      timeout: 10
 script-providers:
   DouBan:
     url: https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js
