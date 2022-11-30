@@ -11,9 +11,9 @@
 
 [Script]
 # 茶杯狐、Libvio 流媒体
-http-response ^https://m.douban.com/movie/subject/.+ script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/douban.js, requires-body=true, timeout=10, tag=Streaming
+http-response ^https://m.douban.com/movie/subject/.+ script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/douban.js, requires-body=true, timeout=10, tag=Streaming
 # Airtable 收藏
-http-request ^https://m.douban.com/movie/subject/.+\?seen=\d script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/douban.js, requires-body=false, timeout=10, tag=Airtable
+http-request ^https://m.douban.com/movie/subject/.+\?seen=\d script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/douban.js, requires-body=false, timeout=10, tag=Airtable
 
 [MITM]
 hostname = m.douban.com,api.douban.com
