@@ -5,19 +5,19 @@
 #原始仓库：  https://github.com/DivineEngine
 #原始仓库：  https://github.com/Maasea
 #原始仓库：  https://github.com/app2smile
-#原始仓库：  https://ocd0522.tk/ddgksf2013
+#原始仓库：  https://github.com/ddgksf2013
 ########################################
 
 hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
 
 # ======= 视频广告请求 ======= #
-#^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js
+#^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad url script-echo-response https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/tinygif.gif
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject-200
 
 
 # ======= 瀑布流|搜索|播放页|短视频|贴片 广告 ======= #
-^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide) url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
+^https:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/(browse|search|next|player|reel\/reel_watch_sequence|guide) url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
 
 
 # ======= 通用广告请求 ======= #
