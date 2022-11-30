@@ -3,7 +3,7 @@
 #!author=Coldvvater
 #!homepage=https://github.com/Coldvvater/Loon
 #!icon=https://raw.githubusercontent.com/Coldvvater/Loon/master/IMG/WeiboLite.png
-# 原作者@ddgksf2013（Cuttlefish）https://ocd0522.tk/ddgksf2013
+# 原作者@ddgksf2013（Cuttlefish）https://github.com/ddgksf2013
 
 [URL Rewrite]
 # 热推荐
@@ -27,10 +27,10 @@
 
 [Script]
 # 主页推荐tab|热门tab去广告
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/unread_hot_timeline requires-body=1,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js,tag=推荐tab|热门tab去广告
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/friends_timeline requires-body=1,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js,tag=关注tab去广告
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist requires-body=1,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js,tag=趋势tab
-http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends requires-body=1,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/weibo_json.js,tag=趋势tab去广告
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/unread_hot_timeline requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js,tag=推荐tab|热门tab去广告
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/friends_timeline requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js,tag=关注tab去广告
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js,tag=趋势tab
+http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js,tag=趋势tab去广告
 
 [MITM]
 hostname = *api.weibo*,sdkapp.uve.weibo.com
