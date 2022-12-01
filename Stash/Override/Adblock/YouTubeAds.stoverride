@@ -1,0 +1,35 @@
+name: YouTube去广告
+desc: PS: 这个版本用不了，下个TF版应该就可以用啦！
+# IOS >= 15
+# 删除 瀑布流、视频、搜索中出现的广告和Shorts，
+# 删除 Shorts 内的视频广告
+# 删除 底部 上传 按钮
+# 广告信息会有遗漏，可能偶现广告
+# author by @Maasea inspired by @Choler & @DivineEngine & @app2smile
+
+http:
+  script:
+    # 该模块已合并到 YoutubeAds，可前往 github 仓库获取，以获得更纯粹的 YouTube 体验。
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide)
+      name: youtube
+      type: response
+      require-body: true
+      binary-mode: true
+      max-size: 3145728
+      timeout: 30
+    - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
+      name: youtube-fake
+      type: response
+      require-body: false
+      timeout: 30
+  mitm:
+    - "*.googlevideo.com"
+    - "youtubei.googleapis.com"
+
+script-providers:
+  youtube:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
+    interval: 86400
+  youtube-fake:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js
+    interval: 86400
