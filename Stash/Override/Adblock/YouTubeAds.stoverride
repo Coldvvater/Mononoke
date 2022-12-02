@@ -15,7 +15,7 @@ http:
       type: response
       require-body: true
       binary-mode: true
-      max-size: 3145728 # 3MB
+      max-size: 3145728
       timeout: 30
     - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
       name: youtube-fake
