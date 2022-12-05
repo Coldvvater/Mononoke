@@ -144,3 +144,11 @@ dns:
       - '+.github.com'
       - '+.githubusercontent.com'
       - '+.googlevideo.com'
+  # TUN模式
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+    - 192.18.0.2:53
+  auto-route: true
+  auto-detect-interface: true
