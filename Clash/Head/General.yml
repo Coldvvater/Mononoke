@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2022.06.16
+# Update Date: 2022.12.05
 
 mixed-port: 7890
   # 本地混合代理(http和socks5合并）端口
@@ -24,7 +24,7 @@ external-controller: 127.0.0.1:9090
 dns:
   enable: true
   # DNS开关(false/true)
-  listen: 0.0.0.0:53
+  listen: 0.0.0.0:1053
   # DNS监听地址
   ipv6: false
   # IP6解析开关；如果为false，将返回ip6结果为空
@@ -32,6 +32,7 @@ dns:
   # 解析非IP的dns用的dns服务器,只支持纯IP
     - 223.5.5.5
     - 119.29.29.29
+    - 114.114.114.114
   enhanced-mode: fake-ip
   # DNS模式(redir-host/fake-ip)
   fake-ip-range: 198.18.0.1/16
