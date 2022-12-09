@@ -1,83 +1,83 @@
-# Stash Config Make by Coldvvater
-# TG Channel: https://t.me/Ison_Channel
-# GitHub主页: https://github.com/Coldvvater
-# Update Date: 2022.11.17
+# > Stash Config Make by Coldvvater
+# > TG Channel: https://t.me/Ison_Channel
+# > GitHub主页: https://github.com/Coldvvater
+# > Update Date: 2022.12.09
 ---
 subscribe-url: 你的订阅链接
-# 替换上面文字用于Stash获取机场流量信息并在主页显示
+# > 替换上面文字用于Stash获取机场流量信息并在主页显示
 
 mixed-port: 7890
-  # 本地混合代理(http和socks5合并）端口
+  # > 本地混合代理(http和socks5合并）端口
 allow-lan: true
-  # 允许局域网连接(false/true)
+  # > 允许局域网连接(false/true)
 bind-address:
-  # 监听IP白名单（当allow-lan：true），只允许列表设备
+  # > 监听IP白名单（当allow-lan：true），只允许列表设备
   '*'
-  # 全部设备
+  # > 全部设备
   # 192.168.122.11
-  #单个ip4地址
+  # > 单个ip4地址
   # "[aaaa::a8aa:ff:fe09:57d8]"
-  #单个ip6地址
+  # > 单个ip6地址
 mode: rule
-  # clash工作模式（rule/global/direct）
+  # > clash工作模式（rule/global/direct）
 log-level: debug
-  # 日志等级（info/warning/error/debug/silent）
+  # > 日志等级（info/warning/error/debug/silent）
 external-controller: 127.0.0.1:9090
-  # 控制器监听地址
+  # > 控制器监听地址
 dns:
   enable: true
-  # DNS开关(false/true)
+  # > DNS开关(false/true)
   listen: 0.0.0.0:1053
-  # DNS监听地址
+  # > DNS监听地址
   ipv6: false
-  # IP6解析开关；如果为false，将返回ip6结果为空
+  # > IP6解析开关；如果为false，将返回ip6结果为空
   default-nameserver:
-  # 解析非IP的dns用的dns服务器,只支持纯IP
+  # > 解析非IP的dns用的dns服务器,只支持纯IP
     - 223.5.5.5
     - 119.29.29.29
     - 114.114.114.114
   enhanced-mode: fake-ip
-  # DNS模式(redir-host/fake-ip)
+  # > DNS模式(redir-host/fake-ip)
   fake-ip-range: 198.18.0.1/16
-  # Fake-IP解析地址池
+  # > Fake-IP解析地址池
   fake-ip-filter:
-  # Fake-ip过滤，列表中的域名返回真实ip
-  # Local Area Network
+  # > Fake-ip过滤，列表中的域名返回真实ip
+  # > Local Area Network
     - '*.lan'
-  # Stun Services
+  # > Stun Services
     - '+.stun.*.*'
     - '+.stun.*.*.*'
     - '+.stun.*.*.*.*'
     - '+.stun.*.*.*.*.*'
-  # Google Voices
+  # > Google Voices
     - 'lens.l.google.com'
-  # Nintendo Switch
+  # > Nintendo Switch
     - '*.n.n.srv.nintendo.net'
-  # PlayStation
+  # > PlayStation
     - '+.stun.playstation.net'
-  # XBox
+  # > XBox
     - 'xbox.*.*.microsoft.com'
     - '*.*.xboxlive.com'
-  # Microsoft
+  # > Microsoft
     - '*.msftncsi.com'
     - '*.msftconnecttest.com'
-  # Bilibili CDN
+  # > Bilibili CDN
     - '*.mcdn.bilivideo.cn'
   nameserver:
-  # 默认DNS服务器，支持udp/tcp/dot/doh/doq
+  # > 默认DNS服务器，支持udp/tcp/dot/doh/doq
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 
 proxies:
-  # 本地服务器
+  # > 本地服务器
 
 proxy-providers:
 
   All:
     type: http
     url: ""
-    # 请使用Clash类型订阅链接填入引号""内使用。
-    # 或可使用通用订阅链接通过Sub-Store进行订阅转换。
+    # > 请使用Clash类型订阅链接填入引号""内使用。
+    # > 或可使用通用订阅链接通过Sub-Store进行订阅转换。
     interval: 3600
     path: ./all.yaml
     health-check:
@@ -86,15 +86,15 @@ proxy-providers:
       url: http://cp.cloudflare.com/generate_204
 
 proxy-groups:
-  # 策略组
+  # > 策略组
 
-  - name: Final # 漏网之鱼
+  - name: Final # > 漏网之鱼
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
     proxies:
       - Proxy
 
-  - name: Proxy # 节点选择
+  - name: Proxy # > 节点选择
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png
     proxies:
@@ -102,7 +102,7 @@ proxy-groups:
       - Fallback
       - Others
 
-  - name: Auto # 自动筛选
+  - name: Auto # > 自动筛选
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
     use: 
@@ -110,7 +110,7 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
 
-  - name: Fallback #故障转移
+  - name: Fallback # > 故障转移
     type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available.png
     use:
@@ -118,7 +118,7 @@ proxy-groups:
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
 
-  - name: Foreign # 国外网站
+  - name: Foreign # > 国外网站
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
     proxies: &F
@@ -133,7 +133,7 @@ proxy-groups:
       - Others
       - DIRECT
 
-  - name: Domestic # 国内网站
+  - name: Domestic # > 国内网站
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png
     proxies: &D
@@ -148,91 +148,91 @@ proxy-groups:
       - America
       - Others
 
-  - name: BiliBili # 哔哩哔哩
+  - name: BiliBili # > 哔哩哔哩
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
     proxies:
       *D
 
-  - name: Spotify # 声田音乐
+  - name: Spotify # > 声田音乐
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Spotify.png
     proxies:
       *F
 
-  - name: TikTok # 海外抖音
+  - name: TikTok # > 海外抖音
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png
     proxies:
       *F
 
-  - name: Streaming # 国际媒体
+  - name: Streaming # > 国际媒体
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Streaming.png
     proxies:
       *F
 
-  - name: Telegram # 电报信息
+  - name: Telegram # > 电报信息
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram_X.png
     proxies:
       *F
 
-  - name: Apple # 苹果服务
+  - name: Apple # > 苹果服务
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
     proxies:
       *D
 
-  - name: Microsoft # 微软服务
+  - name: Microsoft # > 微软服务
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Microsoft.png
     proxies:
       *D
 
-  - name: ADblock # 广告拦截
+  - name: ADblock # > 广告拦截
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png
     proxies:
       - REJECT
       - DIRECT
 
-  - name: HongKong # 香港节点
+  - name: HongKong # > 香港节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png
     use:
       - All
     filter: (?=.*(港|🇭🇰|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$
     
-  - name: TaiWan # 台湾节点
+  - name: TaiWan # > 台湾节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png
     use:
       - All
     filter: (?=.*(台|🇨🇳|🇹🇼|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$
          
-  - name: Singapore # 狮城节点
+  - name: Singapore # > 狮城节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Singapore.png
     use:
       - All
     filter: (?=.*(坡|🇸🇬|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$
     
-  - name: Japan # 日本节点
+  - name: Japan # > 日本节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
     use:
       - All
     filter: (?=.*(日|🇯🇵|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$
 
-  - name: America # 美国节点
+  - name: America # > 美国节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png
     use:
       - All
     filter: (?=.*(美|🇺🇸|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$
 
-  - name: Others # 其他节点
+  - name: Others # > 其他节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png
     use: 
@@ -241,107 +241,107 @@ proxy-groups:
       - DIRECT
 
 rule-providers:
-  # 远程规则集
+  # > 远程规则集
 
-  Unbreak: # 规则修正
+  Unbreak: # > 规则修正
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
     path: ./ruleset/Unbreak.yaml
     interval: 86400
 
-  AD-Ban: # 广告拦截
+  AD-Ban: # > 广告拦截
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/AD-Ban.yaml
     path: ./ruleset/AD-Ban.yaml
     interval: 86400
 
-  Privacy: # 隐私保护
+  Privacy: # > 隐私保护
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Privacy.yaml
     path: ./ruleset/Privacy.yaml
     interval: 86400
 
-  Hijacking: # 运营劫持
+  Hijacking: # > 运营劫持
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
     path: ./ruleset/Hijacking.yaml
     interval: 86400
 
-  BiliBili: # 哔哩哔哩
+  BiliBili: # > 哔哩哔哩
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Bilibili.yaml
     path: ./ruleset/BiliBili.yaml
     interval: 86400
 
-  Spotify: # 声田音乐
+  Spotify: # > 声田音乐
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
     path: ./ruleset/Spotify.yaml
     interval: 86400
 
-  TikTok: # 海外抖音
+  TikTok: # > 海外抖音
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
     path: ./ruleset/TikTok.yaml
     interval: 86400
 
-  Streaming: # 国际媒体
+  Streaming: # > 国际媒体
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml
     path: ./ruleset/Streaming.yaml
     interval: 86400
 
-  Telegram: # 电报信息
+  Telegram: # > 电报信息
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/ASN_Telegram.yaml
     path: ./ruleset/Telegram.yaml
     interval: 86400
 
-  Foreign: # 国外网站
+  Foreign: # > 国外网站
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyLite.yaml
     path: ./ruleset/Foreign.yaml
     interval: 86400
 
-  Apple: # 苹果服务
+  Apple: # > 苹果服务
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
     path: ./ruleset/Apple.yaml
     interval: 86400
 
-  Microsoft: # 微软服务
+  Microsoft: # > 微软服务
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
     path: ./ruleset/Microsoft.yaml
     interval: 86400
 
-  Domestic: # 国内网站
+  Domestic: # > 国内网站
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml
     path: ./ruleset/Domestic.yaml
     interval: 86400
 
-  LAN: # 局域网
+  LAN: # > 局域网
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml
     path: ./ruleset/Lan.yaml
     interval: 86400
 
-  ASN-CN: # IP-ASN规则
+  ASN-CN: # > IP-ASN规则
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/ASN_China.yaml
@@ -349,7 +349,7 @@ rule-providers:
     interval: 86400
 
 rules:
-  # 分流规则引用
+  # > 分流规则引用
   - RULE-SET,Unbreak,DIRECT
   - RULE-SET,AD-Ban,ADblock
   - RULE-SET,Privacy,ADblock
