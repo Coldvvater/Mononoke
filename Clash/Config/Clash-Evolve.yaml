@@ -73,7 +73,7 @@ proxies:
 
 proxy-providers:
   # > 全部节点
-  All:
+  All: &All3 # > 建立锚点
     type: http
     url: ""
     # > 请使用Clash类型订阅链接填入引号""内使用。
@@ -87,7 +87,7 @@ proxy-providers:
     
   # > 香港节点
   HK:
-    <<: *All #引用锚点内容
+    <<: *All # > 引用锚点内容
     filter: 港|🇭🇰|HK|(?i)Hong
  
   # > 台湾节点
@@ -284,7 +284,7 @@ rule-providers:
     path: ./ruleset/Privacy.yaml
     interval: 86400
 
-Hijacking: # > 运营劫持
+  Hijacking: # > 运营劫持
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
