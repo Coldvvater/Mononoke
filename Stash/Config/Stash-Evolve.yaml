@@ -36,6 +36,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
     - 114.114.114.114
+    - system
   enhanced-mode: fake-ip
   # > DNS模式(redir-host/fake-ip)
   fake-ip-range: 198.18.0.1/16
@@ -147,13 +148,13 @@ proxies:
 
 proxy-providers:
 
-  All:
+  sub:
     type: http
     url: ""
     # > 请使用Clash类型订阅链接填入引号""内使用。
     # > 或可使用通用订阅链接通过Sub-Store进行订阅转换。
     interval: 3600
-    path: ./all.yaml
+    path: ./sub.yaml
     health-check:
       enable: true
       interval: 600
@@ -180,7 +181,7 @@ proxy-groups:
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
     use: 
-       - All
+       - sub
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
 
@@ -188,7 +189,7 @@ proxy-groups:
     type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available.png
     use:
-      - All
+      - sub
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
 
@@ -275,42 +276,42 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png
     use:
-      - All
+      - sub
     filter: (?=.*(港|🇭🇰|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$
     
   - name: TaiWan # > 台湾节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png
     use:
-      - All
+      - sub
     filter: (?=.*(台|🇨🇳|🇹🇼|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$
          
   - name: Singapore # > 狮城节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Singapore.png
     use:
-      - All
+      - sub
     filter: (?=.*(坡|🇸🇬|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$
     
   - name: Japan # > 日本节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
     use:
-      - All
+      - sub
     filter: (?=.*(日|🇯🇵|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$
 
   - name: America # > 美国节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png
     use:
-      - All
+      - sub
     filter: (?=.*(美|🇺🇸|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$
 
   - name: Others # > 其他节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png
     use: 
-       - All
+       - sub
     proxies:
       - DIRECT
 
