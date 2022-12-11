@@ -149,13 +149,13 @@ proxies:
 proxy-providers:
 
   #全部节点
-  All: &All #建立锚点
+  subs: &subs #建立锚点
     type: http
     url: ""
     # 请使用Clash类型订阅链接填入引号""内使用。
     # 或可使用通用订阅链接通过Sub-Store进行订阅转换。
     interval: 3600
-    path: ./all.yaml
+    path: ./subs.yaml
     health-check:
       enable: true
       interval: 600
@@ -163,27 +163,27 @@ proxy-providers:
     
   #香港节点
   HK:
-    <<: *All #引用锚点内容
+    <<: *subs #引用锚点内容
     filter: 港|🇭🇰|HK|(?i)Hong
  
   #台湾节点
   TW:
-    <<: *All
+    <<: *subs
     filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
    
   #狮城节点
   SG:
-    <<: *All
+    <<: *subs
     filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
     
   #日本节点
   JP:
-    <<: *All
+    <<: *subs
     filter: 日|🇯🇵|东京|JP|(?i)Japan
     
   #美国节点    
   US:
-    <<: *All
+    <<: *subs
     filter: 美|🇺🇲|US|(?i)States|American
 
 proxy-groups:
@@ -207,7 +207,7 @@ proxy-groups:
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
     use: 
-       - All
+       - subs
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
 
@@ -215,7 +215,7 @@ proxy-groups:
     type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available.png
     use:
-      - All
+      - subs
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
 
@@ -332,7 +332,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png
     use: 
-       - All
+       - subs
     proxies:
       - DIRECT
 
