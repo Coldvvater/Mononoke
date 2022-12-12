@@ -23,8 +23,9 @@
 ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*ads - reject
 
 [Script]
-# 主页推荐tab|热门tab去广告
+# 主页推荐tab|热门tab去广告|用户中心
 删除微博开屏广告 = type=http-response,pattern=^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(\/interface\/sdk\/sdkad.php|\/wbapplua\/wbpullad.lua),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_launch.js
+用户中心 = type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center, requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
 推荐tab热门tab去广告 = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/unread_hot_timeline, requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
 关注tab去广告 = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/friends_timeline, requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
 趋势tab = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist, requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
