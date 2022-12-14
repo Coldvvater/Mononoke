@@ -2,6 +2,9 @@
 #!desc=微博&微博轻享版（原国际版）净化
 # 原作者@ddgksf2013（Cuttlefish）https://github.com/ddgksf2013
 
+[Rule]
+DOMAIN,sdkapp.uve.weibo.com,DIRECT
+
 [Script]
 # > 微博_自定义tab皮肤@zmqcherish
 weibo_json = type=http-response,pattern=^https://api.weibo.cn/2/!/client/light_skin,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
