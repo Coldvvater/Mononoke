@@ -4,6 +4,9 @@
 #!author=Coldvvater
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Weibo.png
 
+[Rule]
+DOMAIN,sdkapp.uve.weibo.com,DIRECT
+
 [Rewrite]
 # > 微博国际版_hot_search@ddgksf2013
 ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users reject-dict
