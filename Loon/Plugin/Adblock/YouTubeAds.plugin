@@ -6,7 +6,7 @@
 ########################################
 #应用名称：  Youtube Block AD
 #脚本作者：  DivineEngine,app2smile,Maasea,ddgksf2013
-#更新时间：  2022-11-02
+#更新时间：  2022-12-15
 #原始仓库：  https://github.com/DivineEngine
 #原始仓库：  https://github.com/Maasea
 #原始仓库：  https://github.com/app2smile
@@ -25,6 +25,9 @@ hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.yout
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
 
+# 使用reject-img减少开销
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-img
+
 [Script]
-http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide) script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js, requires-body=true, binary-body-mode=true, timeout=10, tag=youtube-proto
-http-response ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js, requires-body=false, tag=youtube-fake
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide) script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js, requires-body=true, binary-body-mode=true, timeout=10, tag=youtube
+#http-response ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js, requires-body=false, tag=youtube-fake
