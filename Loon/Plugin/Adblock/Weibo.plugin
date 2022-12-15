@@ -1,8 +1,9 @@
 #!name=微博去广告
 #!desc=微博&微博轻享版（原国际版）净化
 #!homepage=https://github.com/Coldvvater/Mononoke/tree/master/Loon
-#!author=Coldvvater
+#!author=Coldvvater dgksf2013
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Weibo.png
+# 原作者@ddgksf2013（Cuttlefish）https://github.com/ddgksf2013
 
 [Rule]
 DOMAIN,sdkapp.uve.weibo.com,DIRECT
