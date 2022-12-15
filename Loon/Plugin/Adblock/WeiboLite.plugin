@@ -34,4 +34,4 @@ http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist requires-body=1,sc
 http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js,tag=趋势tab去广告
 
 [MITM]
-hostname = *api.weibo*,sdkapp.uve.weibo.com
+hostname = *api.weibo*,sdkapp.uve.weibo.com,new.vip.weibo.cn
