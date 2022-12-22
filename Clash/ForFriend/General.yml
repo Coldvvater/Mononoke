@@ -56,16 +56,3 @@ dns:
   # 默认DNS服务器，支持udp/tcp/dot/doh/doq
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
-  fallback:
-  # 回落DNS服务器，支持udp/tcp/dot/doh/doq
-    - https://8.8.4.4/dns-query
-    - https://1.0.0.1/dns-query
-  fallback-filter:
-  # 回落DNS服务器过滤
-    geoip: true
-  # 为真时，不匹配为geoip规则的使用fallback返回结果
-    geoip-code: CN
-  # geoip匹配区域设定
-    ipcidr:
-  # 列表中的ip使用fallback返回解析结果
-      - 240.0.0.0/4
