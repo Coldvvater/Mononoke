@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2022.12.11
+# Update Date: 2022.12.23
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -74,11 +74,11 @@ dns:
   # > 注意: +.foo.com 的效果等同于 .foo.com 和 foo.com
     '*.tw': 1.1.1.1
     'localhost' : 127.0.0.1
-  # IPv6
+  # > IPv6
     'ip6-localhost': '::1'
     'ip6-loopback': '::1'
   nameserver-policy:
-  # 对部分域名使用单独的 DNS 服务器
+  # > 域名指定 DNS 映射
   # > Firebase Cloud Messaging
     'mtalk.google.com' : 108.177.125.188
   # > Google Dl
@@ -87,58 +87,51 @@ dns:
     'update.googleapis.com' : 119.29.29.29
   # > Apple
     'apple.com' : 223.5.5.5
-    '*.appsto.re' : 223.5.5.5
-    '*.aaplimg.com' : 223.5.5.5
-    '*.apple-dns.net' : 223.5.5.5
-    '*.apple.co' : 223.5.5.5
-    '*.applestore.com' : 223.5.5.5
-    '*.apple.com.cn' : 223.5.5.5
-    '*.cdn-apple.com' : 223.5.5.5
-    '*.apple-cloudkit.com' : 223.5.5.5
-    '*.crashlytics.com' : 223.5.5.5
-    '*.icloud.com' : 223.5.5.5
-    '*.icloud.com.cn' : 223.5.5.5
-    '*.icloud-content.com' : 223.5.5.5
-    '*.me.com' : 223.5.5.5
-    '*.mzstatic.com' : 223.5.5.5
-    '*.organicfruitapps.com' : 223.5.5.5
-    '*.apple.com.akadns.net' : 223.5.5.5
-    '*.icloud.com.akadns.net' : 223.5.5.5
-    'testflight.apple.com': 8.8.4.4
+    '*icloud.com' : 223.5.5.5
+    '*icloud.com.cn' : 223.5.5.5
+    '*testflight.apple.com': 8.8.4.4
   # > Alibaba
-    '*.tmall.com': 223.5.5.5
-    '*.taobao.com': 223.5.5.5
-    '*.alicdn.com': 223.5.5.5
-    '*.aliyun.com': 223.5.5.5
     '*.alipay*.com': 223.5.5.5
-  # > Tencent
+    '*.alicdn.com': 223.5.5.5
+    'aliyun.com': 223.5.5.5
+    '*.aliyun.com': 223.5.5.5
+    'taobao.com': 223.5.5.5
+    '*.taobao.com': 223.5.5.5
+    'tmall.com': 223.5.5.5
+    '*.tmall.com': 223.5.5.5
+  # > JD
+    'jd.com': 119.29.29.29
     '*.jd.com': 119.29.29.29
+  # > Tencent
     '*.qq.com': 119.29.29.29
     '*.tencent.com': 119.29.29.29
+    'weixin.com': 119.29.29.29
     '*.weixin.com': 119.29.29.29
+  # > bilibili
+    'bilibili.com': 119.29.29.29
     '*.bilibili.com': 119.29.29.29
     'hdslb.com': 119.29.29.29
   # > NetEase
+    '163.com': 119.29.29.29
     '*.163.com': 119.29.29.29
+    '126.com': 119.29.29.29
     '*.126.com': 119.29.29.29
     '*.126.net': 119.29.29.29
     '*.127.net': 119.29.29.29
     '*.netease.com': 119.29.29.29
   # > xiaomi
+    'mi.com': 119.29.29.29
     '*.mi.com': 119.29.29.29
+    'xiaomi.com': 119.29.29.29
     '*.xiaomi.com': 119.29.29.29
-  # > Others
-    '*.unicompayment.com': 119.29.29.29
-    '*.vercel.app': 119.29.29.29
-    '*.vercel.com': 119.29.29.29
-    '*.ximalaya.com': 119.29.29.29
   # > Baidu
     '*.baidu.com': 119.29.29.29
     '*.bdstatic.com': 119.29.29.29
-  # > Routers
-    'router.asus.com': system # > Asus Router
-    'tplogin.cn': system # > TP-Link Router
-    'tplinklogin.net': system # > TP-Link Router
+  # > Others
+    '*.unicompayment.com': 119.29.29.29
+    '*.ximalaya.com': 119.29.29.29
+    '*.vercel.app': 119.29.29.29
+    '*.vercel.com': 119.29.29.29
   # > Local Area Network
     '*.lan': system
 
