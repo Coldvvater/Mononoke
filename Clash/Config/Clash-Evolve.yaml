@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2022.12.23
+# Update Date: 2022.12.24
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -152,27 +152,27 @@ proxy-providers:
       interval: 600
       url: http://cp.cloudflare.com/generate_204
     
-  #香港节点
+  # 香港节点
   HK:
     <<: *subs #引用锚点内容
     filter: 港|🇭🇰|HK|(?i)Hong
  
-  #台湾节点
+  # 台湾节点
   TW:
     <<: *subs
     filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
    
-  #狮城节点
+  # 狮城节点
   SG:
     <<: *subs
     filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
     
-  #日本节点
+  # 日本节点
   JP:
     <<: *subs
     filter: 日|🇯🇵|东京|JP|(?i)Japan
     
-  #美国节点    
+  # 美国节点    
   US:
     <<: *subs
     filter: 美|🇺🇲|US|(?i)States|American
