@@ -340,14 +340,14 @@ rule-providers:
   AD-Ban: # 广告拦截
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/AD-Ban.yaml
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/AD-Ban.yaml
     path: ./ruleset/AD-Ban.yaml
     interval: 86400
 
   Privacy: # 隐私保护
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/RuleSet/Privacy.yaml
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Privacy.yaml
     path: ./ruleset/Privacy.yaml
     interval: 86400
 
