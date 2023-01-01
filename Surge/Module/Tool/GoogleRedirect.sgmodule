@@ -1,8 +1,0 @@
-#!name==Google重定向
-#!desc阻止google.com 跳转到google.com.hk
-
-[URL Rewrite]
-^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
-
-[MITM]
-hostname = %APPEND% *.google.cn, *.google.com.hk
