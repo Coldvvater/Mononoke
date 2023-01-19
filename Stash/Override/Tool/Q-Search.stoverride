@@ -38,6 +38,12 @@ http:
 
     # gh xxx (GitHub)
     - ^https:\/\/duckduckgo.com\/\?q=gh(\+|%20)([^&]+).+ https://github.com/search?q=$2 302
+    
+    # gu xxx (GitHub User)
+    - ^https:\/\/duckduckgo.com\/\?q=gu\+([^&]+).+ https://github.com/search?q=$1&type=users 302
+    
+    # gc xxx (GitHub Code)
+    - ^https:\/\/duckduckgo.com\/\?q=gc\+([^&]+).+ https://github.com/search?o=desc&q=$1&s=indexed&type=Code 302
 
     # tf xxx (Google 搜索 TestFlight)
     - ^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com 302
