@@ -32,6 +32,12 @@ hostname = duckduckgo.com
 # gh xxx (GitHub)
 ^https:\/\/duckduckgo.com\/\?q=gh(\+|%20)([^&]+).+ url 302 https://github.com/search?q=$2
 
+# gu xxx (GitHub User)
+^https:\/\/duckduckgo.com\/\?q=gu\+([^&]+).+ url 302 https://github.com/search?q=$1&type=users
+
+# gc xxx (GitHub Code)
+^https:\/\/duckduckgo.com\/\?q=gc\+([^&]+).+ url 302 https://github.com/search?o=desc&q=$1&s=indexed&type=Code
+
 # yh  xxx (油猴搜索)
 ^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ url 302 https://greasyfork.org/zh-CN/scripts?q=$1
 
