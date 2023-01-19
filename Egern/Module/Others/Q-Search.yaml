@@ -57,6 +57,12 @@ url_rewrites:
   - match: ^https:\/\/duckduckgo.com\/\?q=gh(\+|%20)([^&]+).+
     location: https://github.com/search?q=$2
     status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=gu\+([^&]+).+
+    location: https://github.com/search?q=$1&type=users
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=gc\+([^&]+).+
+    location: https://github.com/search?o=desc&q=$1&s=indexed&type=Code
+    status_code: 302
   - match: ^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+
     location: https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com
     status_code: 302
@@ -106,8 +112,8 @@ url_rewrites:
   - match: ^https:\/\/duckduckgo.com\/\?q=wa(\+|%20)([^&]+).+
     location: https://www.wolframalpha.com/input/?i=$2
     status_code: 302
-  - match: ^https:\/\/duckduckgo.com\/\?q=db(\+|%20)([^&]+).+
-    location: https://www.douban.com/search?q=$2
+  - match: ^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+
+    location: https://m.douban.com/search/?query=$1
     status_code: 302
   - match: ^https:\/\/duckduckgo.com\/\?q=zh(\+|%20)([^&]+).+
     location: https://www.zhihu.com/search?q=$2
