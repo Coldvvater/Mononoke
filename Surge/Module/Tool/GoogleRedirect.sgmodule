@@ -1,5 +1,5 @@
-#!name==Google重定向
-#!desc阻止google.com 跳转到google.com.hk
+#!name=Google重定向
+#!desc=阻止google.com跳转到google.com.hk
 
 [URL Rewrite]
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
