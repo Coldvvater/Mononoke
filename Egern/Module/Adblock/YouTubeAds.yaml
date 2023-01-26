@@ -4,7 +4,6 @@
 ########################################
 #应用名称：  Youtube Block AD
 #脚本作者：  DivineEngine,app2smile,Maasea,ddgksf2013
-#更新时间：  2022-11-02
 #原始仓库：  https://github.com/DivineEngine
 #原始仓库：  https://github.com/Maasea
 #原始仓库：  https://github.com/app2smile
@@ -38,7 +37,7 @@ scriptings:
       script_url: >-
         https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
       match: >-
-        ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide)
+        ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|log_event)
       body_required: true
   - http_response:
       name: youtube-fake
