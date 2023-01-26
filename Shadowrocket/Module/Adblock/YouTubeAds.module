@@ -21,7 +21,7 @@
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
 
 [Script]
-youtube-proto = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide),requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
+youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|log_event),requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
 youtube-fake = type=http-response,pattern=^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad,requires-body=0,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js
 
 [MITM]
