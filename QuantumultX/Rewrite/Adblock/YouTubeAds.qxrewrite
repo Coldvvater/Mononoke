@@ -7,20 +7,12 @@
 # 增加 画中画(PIP)
 # 广告信息会有遗漏，可能偶现广告
 # author by @Maasea
-# inspired by @Choler & @DivineEngine & @app2smile @ddgksf2013
+# inspired by @Choler & @DivineEngine & @app2smile
 
-hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
+hostname = *.googlevideo.com, youtubei.googleapis.com
 
 # ======= 视频广告请求 ======= #
-(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
-^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject-200
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad url reject-dict
 
-
-# ======= 瀑布流|搜索|播放页|短视频|贴片 广告 ======= #
+# ======= 瀑布流|搜索|播放页|短视频|贴片 广告 等 ======= #
 ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting) url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
-
-
-# ======= 通用广告请求 ======= #
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject-200
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject-200
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject-200
