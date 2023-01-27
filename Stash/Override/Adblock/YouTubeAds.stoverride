@@ -15,7 +15,7 @@ http:
   script:
     # 该模块已足够全面，无需其他规则混用，防止重写规则被破坏。
     - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)
-      name: youtube-proto
+      name: YouTubeAds
       type: response
       require-body: true
       timeout: 30
@@ -26,6 +26,6 @@ http:
     - "youtubei.googleapis.com"
 
 script-providers:
-  youtube-proto:
+  YouTubeAds:
     url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
     interval: 86400
