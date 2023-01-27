@@ -11,8 +11,8 @@
 
 hostname = *.googlevideo.com, youtubei.googleapis.com
 
-# ======= 视频广告请求 ======= #
+# 使用reject-dict减少开销
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad url reject-dict
 
-# ======= 瀑布流|搜索|播放页|短视频|贴片 广告 等 ======= #
+# 该模块已足够全面，无需其他规则混用，防止重写规则被破坏。
 ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting) url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
