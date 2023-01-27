@@ -15,8 +15,9 @@
 hostname = *.googlevideo.com, youtubei.googleapis.com
 
 [Rewrite]
-# 使用reject-img减少开销
-^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-img
+# 使用reject-dict减少开销
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-dict
 
 [Script]
+# 该模块已足够全面，无需其他规则混用，防止重写规则被破坏。
 http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting) script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js, requires-body=1, binary-body-mode=1 ,max-size=3145728, timeout=10, tag=YouTubeAds
