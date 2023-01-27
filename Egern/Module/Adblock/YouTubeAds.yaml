@@ -1,55 +1,30 @@
-#!name=YouTube去广告
-#!desc=用于视频广告，首页广告，播放页列表广告及贴片广告，不适用允许 UDP 转发的节点及 Premium
-
-########################################
-#应用名称：  Youtube Block AD
-#脚本作者：  DivineEngine,app2smile,Maasea,ddgksf2013
-#原始仓库：  https://github.com/DivineEngine
-#原始仓库：  https://github.com/Maasea
-#原始仓库：  https://github.com/app2smile
-#原始仓库：  https://github.com/ddgksf2013
-########################################
+#!name=YouTube去广告 
+#!desc=去除 Youtube 广告（Beta）
+# IOS >= 15
+# 删除 瀑布流、视频、搜索中出现的广告和Shorts，
+# 删除 Shorts 内的视频广告
+# 删除 底部 上传 按钮
+# 增加 画中画(PIP)
+# 广告信息会有遗漏，可能偶现广告
+# author by @Maasea
+# inspired by @Choler & @DivineEngine & @app2smile
 
 url_rewrites:
-  - match: >-
-      (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+)
-    location: $1$2$3
-    status_code: 307
-  - match: >-
-      ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad
+  - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
     location: http://reject/
-    status_code: 307
-  - match: ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break
-    location: http://reject/
-    status_code: 307
-  - match: ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads
-    location: http://reject/
-    status_code: 307
-  - match: ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking)
-    location: http://reject/
-    status_code: 307
-  - match: ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext
-    location: http://reject/
-    status_code: 307
+    status_code: 200
 scriptings:
   - http_response:
-      name: youtube-proto
+      name: youtube
       script_url: >-
         https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
       match: >-
-        ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|log_event)
+        ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)
       body_required: true
-  - http_response:
-      name: youtube-fake
-      script_url: >-
-        https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js
-      match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
+      timeout: 60
 mitm:
   hostnames:
-    - '-redirector*.googlevideo.com'
     - '*.googlevideo.com'
-    - www.youtube.com
-    - s.youtube.com
-    - youtubei.googleapis.com
+    - 'youtubei.googleapis.com'
 
 
