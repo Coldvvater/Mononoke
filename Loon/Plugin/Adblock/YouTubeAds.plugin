@@ -15,8 +15,8 @@
 hostname = *.googlevideo.com, youtubei.googleapis.com
 
 [Rewrite]
-# 使用reject-dict减少开销
-^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-dict
+# 使用reject-img减少开销
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-img
 
 [Script]
 # 该模块已足够全面，无需其他规则混用，防止重写规则被破坏。
