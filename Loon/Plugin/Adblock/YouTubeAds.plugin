@@ -12,12 +12,11 @@
 # inspired by @Choler & @DivineEngine & @app2smile
 
 [Mitm]
-hostname = *.googlevideo.com,youtubei.googleapis.com
+hostname = *.googlevideo.com, youtubei.googleapis.com
 
 [URL Rewrite]
 # 使用reject-img减少开销
-^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-img
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-img
 
 [Script]
 http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|log_event) script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js, requires-body=true, binary-body-mode=true, timeout=10, tag=youtube
-#http-response ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js, requires-body=false, tag=youtube-fake
