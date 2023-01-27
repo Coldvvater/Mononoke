@@ -14,7 +14,7 @@
 [Mitm]
 hostname = *.googlevideo.com, youtubei.googleapis.com
 
-[URL Rewrite]
+[Rewrite]
 # 使用reject-img减少开销
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-img
 
