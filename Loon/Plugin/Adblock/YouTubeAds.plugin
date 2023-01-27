@@ -9,7 +9,7 @@
 # 删除 底部 上传 按钮
 # 增加 画中画(PIP)
 # 广告信息会有遗漏，可能偶现广告
-# inspired by @Choler & @DivineEngine & @app2smile
+# inspired by @Choler & @DivineEngine & @app2smile @lodepuly
 
 [Mitm]
 hostname = *.googlevideo.com, youtubei.googleapis.com
