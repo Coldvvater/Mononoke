@@ -1,19 +1,26 @@
 name: YouTube去广告
-desc: 去除 Youtube 广告（Beta）
-# IOS >= 15
-# 删除 瀑布流、视频、搜索中出现的广告和Shorts，
+desc: 去除 Youtube 广告 (IOS >= 15)
+
+# > Feature
+# 删除 瀑布流、视频、搜索中出现的广告和Shorts
 # 删除 Shorts 内的视频广告
 # 删除 底部 上传 按钮
+# 增加 画中画(PIP), 后台播放 (Beta)
+
+# > Note
 # 广告信息会有遗漏，可能偶现广告
-# author by @Maasea
-# inspired by @Choler & @DivineEngine & @app2smile
+# 该模块已足够全面，无需其他规则混用，防止重写规则被破坏
+# 不支持 Mock 的客户端可以用 reject-200/reject-img 替代
+
+# > author
+# @Maasea
+# > Credit 
+# @Choler & @DivineEngine & @app2smile
 
 http:
   rewrite:
-    # 使用 reject-dict 减少开销
-    - ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-dict
+    - ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-img
   script:
-    # 该模块已足够全面，无需其他规则混用，防止重写规则被破坏。
     - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)
       name: YouTubeAds
       type: response
