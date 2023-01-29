@@ -15,13 +15,13 @@
 # 不支持 Mock 的客户端可以用 reject-200/reject-img 替代
 
 # > Credit 
-# @Choler & @DivineEngine & @app2smile @lodepuly
-
-[Mitm]
-hostname = *.googlevideo.com, youtubei.googleapis.com
+# @Choler & @DivineEngine & @app2smile
 
 [Rewrite]
-^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-img
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-img
 
 [Script]
-http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting) script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads.js, requires-body=1, binary-body-mode=1 ,max-size=3145728, timeout=10, tag=YouTubeAds
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting) script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/YouTube-proto.js, requires-body=true, binary-body-mode=true, tag=youtube
+
+[MITM]
+hostname = *.googlevideo.com,youtubei.googleapis.com
