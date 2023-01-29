@@ -1,23 +1,27 @@
 #!name=YouTube去广告
-#!desc=去除 Youtube 广告（Beta）
+#!desc=去除 Youtube 广告 (IOS >= 15)
 #!author=Maasea Coldvvater
 #!homepage=https://github.com/Coldvvater/Mononoke
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-# IOS >= 15
-# 删除 瀑布流、视频、搜索中出现的广告和Shorts，
+# > Feature
+# 删除 瀑布流、视频、搜索中出现的广告和Shorts
 # 删除 Shorts 内的视频广告
 # 删除 底部 上传 按钮
-# 增加 画中画(PIP)
+# 增加 画中画(PIP), 后台播放 (Beta)
+
+# > Note
 # 广告信息会有遗漏，可能偶现广告
-# inspired by @Choler & @DivineEngine & @app2smile @lodepuly
+# 该模块已足够全面，无需其他规则混用，防止重写规则被破坏
+# 不支持 Mock 的客户端可以用 reject-200/reject-img 替代
+
+# > Credit 
+# @Choler & @DivineEngine & @app2smile @lodepuly
 
 [Mitm]
 hostname = *.googlevideo.com, youtubei.googleapis.com
 
 [Rewrite]
-# 使用reject-img减少开销
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-img
 
 [Script]
-# 该模块已足够全面，无需其他规则混用，防止重写规则被破坏。
 http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting) script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads.js, requires-body=1, binary-body-mode=1 ,max-size=3145728, timeout=10, tag=YouTubeAds
