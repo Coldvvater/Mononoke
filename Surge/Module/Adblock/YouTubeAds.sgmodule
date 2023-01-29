@@ -1,13 +1,21 @@
-#!name=YouTube去广告 
-#!desc=去除 Youtube 广告（Beta）
-# IOS >= 15
-# 删除 瀑布流、视频、搜索中出现的广告和Shorts，
+#!name=去除 Youtube 广告 
+#!desc=去除 Youtube 广告 (IOS >= 15)
+
+# > Feature
+# 删除 瀑布流、视频、搜索中出现的广告和Shorts
 # 删除 Shorts 内的视频广告
 # 删除 底部 上传 按钮
-# 增加 画中画(PIP)
+# 增加 画中画(PIP), 后台播放 (Beta)
+
+# > Note
 # 广告信息会有遗漏，可能偶现广告
-# author by @Maasea
-# inspired by @Choler & @DivineEngine & @app2smile
+# 该模块已足够全面，无需其他规则混用，防止重写规则被破坏
+# 不支持 Mock 的客户端可以用 reject-200/reject-img 替代
+
+# > author
+# @Maasea
+# > Credit 
+# @Choler & @DivineEngine & @app2smile
 
 [Script]
 # 该模块已足够全面，无需其他规则混用，防止重写规则被破坏。
@@ -15,7 +23,7 @@ youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtu
 
 [Map Local]
 # 使用 Mock 减少开销
-^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data="https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/tinygif.gif"
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data="https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/blank.txt" header="Content-Type: application/vnd.yt-ump"
 
 [MITM]
 hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com
