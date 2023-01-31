@@ -1,0 +1,9 @@
+# Google重定向
+# 将google.cn/google.com.hk重定向回google.com
+
+# URL Rewrite
+^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+^https?:\/\/(www.)?(g|google)\.com.hk url 302 https://www.google.com
+
+# MITM
+hostname = *.google.cn, *.google.com.hk
