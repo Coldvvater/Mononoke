@@ -1,0 +1,12 @@
+#!name=Google重定向
+#!desc=将google.cn/google.com.hk重定向回google.com
+#!author=Coldvvater
+#!homepage=https://github.com/Coldvvater/Mononoke
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+
+[URL Rewrite]
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+^https?:\/\/(www.)?(g|google)\.com.hk https://www.google.com 302
+
+[MITM]
+hostname = *.google.cn, *.google.com.hk
