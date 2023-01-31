@@ -1,14 +1,14 @@
-#!name=Google Redirect
-#!desc=Safari 谷歌搜索重定向
+#!name=Google重定向
+#!desc=将google.cn/google.com.hk重定向回google.com
 
 url_rewrites:
-  - match: ^https?://(www.)?g.cn
+  - match: ^https?:\/\/(www.)?(g|google)\.cn
     location: https://www.google.com
     status_code: 302
-  - match: ^https?://(www.)?google.cn
+  - match: ^https?:\/\/(www.)?(g|google)\.com.hk
     location: https://www.google.com
     status_code: 302
 mitm:
   hostnames:
-    - www.google.cn
-    - www.g.cn
+    - '*.google.cn'
+    - '*.google.com.hk'
