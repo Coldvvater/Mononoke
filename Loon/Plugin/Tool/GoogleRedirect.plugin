@@ -3,6 +3,7 @@
 #!author=Coldvvater
 #!homepage=https://github.com/Coldvvater/Mononoke
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+# 注：需关闭当前Google网页并重启浏览器。
 
 [URL Rewrite]
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
