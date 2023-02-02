@@ -1,5 +1,6 @@
 #!name=Google重定向
 #!desc=将google.cn/google.com.hk重定向回google.com
+# 注：需关闭当前Google网页并重启浏览器。
 
 url_rewrites:
   - match: ^https?:\/\/(www.)?(g|google)\.cn
