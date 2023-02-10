@@ -429,8 +429,9 @@ rules:
   - RULE-SET,Foreign,Foreign
   - RULE-SET,Apple,Apple
   - RULE-SET,Microsoft,Microsoft
-  #- RULE-SET,Domestic,Domestic
+  - RULE-SET,Domestic,Domestic
   - RULE-SET,LAN,DIRECT
-  - RULE-SET,ASN-CN,DIRECT
-  #- GEOIP,CN,DIRECT
+  # > ASN China 分流，删除注释启用
+  #- RULE-SET,ASN-CN,DIRECT
+  - GEOIP,CN,DIRECT
   - MATCH,Final
