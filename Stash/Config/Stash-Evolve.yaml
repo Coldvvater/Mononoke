@@ -408,7 +408,7 @@ rule-providers:
     path: ./ruleset/Lan.yaml
     interval: 86400
 
-  ASN-CN: # > IP-ASN规则
+  ASN-CN: # > ASN China
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/ASN_China.yaml
