@@ -1,0 +1,8 @@
+# OpenAI ChatGPT
+
+domain_suffix_set:
+  - ' openai.com'
+  - ' ai.com'
+domain_set:
+  - ' cdn.auth0.com'
+  - ' openaiapi-site.azureedge.net'
