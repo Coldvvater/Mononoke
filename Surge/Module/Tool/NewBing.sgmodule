@@ -1,0 +1,13 @@
+#!name=New Bing
+#!desc=新版必应需要获得内测资格方可使用，请务为此模块分配代理策略。此模块会模拟桌面版Edge浏览器身份访问新版Bing，在网页布局上将会以桌面版网页呈现，望悉知。
+#!author: geekdada、可莉🅥
+#!homepage: https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+
+[Rule]
+DOMAIN-SUFFIX,bing.com
+
+[Script]
+New Bing = type=http-request,pattern=^http(s)?:\/\/(?:.*\.)?bing\.com,requires-body=false,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Bing/NewBing.js
+
+[MITM]
+hostname = %APPEND% bing.com, *.bing.com
