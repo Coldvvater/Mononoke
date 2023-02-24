@@ -7,5 +7,5 @@ tiles:
 
 script-providers:
   stream-Tile:
-    url: https://github.com/Coldvvater/Mononoke/edit/master/Script/stream.js
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/stream.js
     interval: 86400
