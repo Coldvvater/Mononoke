@@ -17,8 +17,11 @@
 # > Credit 
 # @Choler & @DivineEngine & @app2smile
 
+# MITM
 hostname = *.googlevideo.com, youtubei.googleapis.com
 
+# URL Rewrite
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad url reject-200
 
+# Script
 ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting) url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
