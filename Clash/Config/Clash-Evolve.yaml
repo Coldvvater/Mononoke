@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.03.02
+# Update Date: 2023.03.03
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -68,15 +68,6 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 
-  hosts:
-  # host，支持通配符（例如: *.clash.dev, *.foo.*.example.com ）
-  # 不使用通配符的域名优先级高于使用通配符的域名 (例如: foo.example.com > *.example.com > .example.com )
-  # 注意: +.foo.com 的效果等同于 .foo.com 和 foo.com
-    '*.tw': 1.1.1.1
-    'localhost' : 127.0.0.1
-  # IPv6
-    'ip6-localhost': '::1'
-    'ip6-loopback': '::1'
   nameserver-policy:
   # 域名指定 DNS 映射
   # Firebase Cloud Messaging
