@@ -1,7 +1,7 @@
 # > Stash Config Make by Coldvvater
 # > TG Channel: https://t.me/Ison_Channel
 # > GitHub主页: https://github.com/Coldvvater
-# > Update Date: 2023.03.03
+# > Update Date: 2023.03.04
 ---
 subscribe-url: 填上你的订阅链接
 # > 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -67,64 +67,6 @@ dns:
   # > 默认DNS服务器，支持udp/tcp/dot/doh/doq
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
-
-  nameserver-policy:
-  # > 域名指定 DNS 映射
-  # > Firebase Cloud Messaging
-    'mtalk.google.com' : 108.177.125.188
-  # > Google Dl
-    'dl.google.com' : 119.29.29.29
-    'dl.l.google.com' : 119.29.29.29
-    'update.googleapis.com' : 119.29.29.29
-  # > Apple
-    'apple.com' : 223.5.5.5
-    '*icloud.com' : 223.5.5.5
-    '*icloud.com.cn' : 223.5.5.5
-    '*testflight.apple.com': 8.8.4.4
-  # > Alibaba
-    '*.alipay*.com': 223.5.5.5
-    '*.alicdn.com': 223.5.5.5
-    'aliyun.com': 223.5.5.5
-    '*.aliyun.com': 223.5.5.5
-    'taobao.com': 223.5.5.5
-    '*.taobao.com': 223.5.5.5
-    'tmall.com': 223.5.5.5
-    '*.tmall.com': 223.5.5.5
-  # > JD
-    'jd.com': 119.29.29.29
-    '*.jd.com': 119.29.29.29
-  # > Tencent
-    '*.qq.com': 119.29.29.29
-    '*.tencent.com': 119.29.29.29
-    'weixin.com': 119.29.29.29
-    '*.weixin.com': 119.29.29.29
-  # > bilibili
-    'bilibili.com': 119.29.29.29
-    '*.bilibili.com': 119.29.29.29
-    'hdslb.com': 119.29.29.29
-  # > NetEase
-    '163.com': 119.29.29.29
-    '*.163.com': 119.29.29.29
-    '126.com': 119.29.29.29
-    '*.126.com': 119.29.29.29
-    '*.126.net': 119.29.29.29
-    '*.127.net': 119.29.29.29
-    '*.netease.com': 119.29.29.29
-  # > xiaomi
-    'mi.com': 119.29.29.29
-    '*.mi.com': 119.29.29.29
-    'xiaomi.com': 119.29.29.29
-    '*.xiaomi.com': 119.29.29.29
-  # > Baidu
-    '*.baidu.com': 119.29.29.29
-    '*.bdstatic.com': 119.29.29.29
-  # > Others
-    '*.unicompayment.com': 119.29.29.29
-    '*.ximalaya.com': 119.29.29.29
-    '*.vercel.app': 119.29.29.29
-    '*.vercel.com': 119.29.29.29
-  # > Local Area Network
-    '*.lan': system
 
 proxies:
   # > 本地服务器
