@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.03.04
+# Update Date: 2023.03.08
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -329,7 +329,7 @@ rule-providers:
   Foreign: # 国外网站
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyLite.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml"
     path: ./ruleset/Foreign.yaml
     interval: 86400
 
