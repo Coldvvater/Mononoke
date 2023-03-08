@@ -1,8 +1,8 @@
-# Egern全局配置 by Coldvvater
-# 作者GitHub：https://github.com/Coldvvater
-# 配置库GitHub：https://github.com/Coldvvater/Mononoke
+# Egern Config Make by Coldvvater
+# TG Channel: https://t.me/Ison_Channel
+# GitHub主页: https://github.com/Coldvvater
+# Update Date: 2023.03.04
 # 配置使用方法参阅：https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/Profile/README.md
-# 更新时间：2022.11.17
 ---
 policy_groups:
   - select:
@@ -203,7 +203,7 @@ rules:
       match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/blackmatrix7/Telegram.yaml"
       policy: Telegram
   - rule_set:
-      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/ACL4SSR/ProxyLite.yaml"
+      match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/DivineEngine/Global.yaml"
       policy: Foreign
   - rule_set:
       match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/blackmatrix7/Apple.yaml"
