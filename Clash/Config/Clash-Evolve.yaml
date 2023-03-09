@@ -274,7 +274,7 @@ rule-providers:
     type: http
     behavior: classical
     url: "https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Advertising.yaml"
-    path: ./ruleset/AD-Ban.yaml
+    path: ./ruleset/Advertising.yaml
     interval: 86400
 
   Privacy: # 隐私保护
