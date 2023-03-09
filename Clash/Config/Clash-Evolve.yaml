@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.03.08
+# Update Date: 2023.03.09
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -215,7 +215,7 @@ proxy-groups:
     proxies:
       *D
 
-  - name: ADblock # 广告拦截
+  - name: AdBlock # 广告拦截
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png
     proxies:
@@ -270,10 +270,10 @@ rule-providers:
     path: ./ruleset/Unbreak.yaml
     interval: 86400
 
-  AD-Ban: # 广告拦截
+  AdBlock: # 广告拦截
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/AD-Ban.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Advertising.yaml"
     path: ./ruleset/AD-Ban.yaml
     interval: 86400
 
@@ -364,9 +364,9 @@ rule-providers:
 rules:
   # 分流规则引用
   - RULE-SET,Unbreak,DIRECT
-  - RULE-SET,AD-Ban,ADblock
-  - RULE-SET,Privacy,ADblock
-  - RULE-SET,Hijacking,ADblock
+  - RULE-SET,AdBlock,AdBlock
+  - RULE-SET,Privacy,AdBlock
+  - RULE-SET,Hijacking,AdBlock
   - RULE-SET,BiliBili,BiliBili
   - RULE-SET,Spotify,Spotify
   - RULE-SET,TikTok,TikTok
