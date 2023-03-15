@@ -47,7 +47,7 @@ if (resetDayLeft) {
   $done({
     title: `${args.title} | ${hour}:${minutes}`,
     content: content.join(""),
-    icon: args.icon || "https://i.imgtg.com/2022/05/21/hrf6G.png",
+    icon: args.icon || "https://raw.githubusercontent.com/Coldvvater/Coldvvater/master/img-folder/Texon.png",
     "icon-color": args.color || "#007aff",
   });
 })();
