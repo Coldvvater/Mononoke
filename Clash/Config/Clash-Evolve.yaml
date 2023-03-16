@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.03.09
+# Update Date: 2023.03.16
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -270,7 +270,7 @@ rule-providers:
     path: ./ruleset/Unbreak.yaml
     interval: 86400
 
-  AdBlock: # 广告拦截
+  Advertising: # 广告拦截
     type: http
     behavior: classical
     url: "https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Advertising.yaml"
@@ -364,7 +364,7 @@ rule-providers:
 rules:
   # 分流规则引用
   - RULE-SET,Unbreak,DIRECT
-  - RULE-SET,AdBlock,AdBlock
+  - RULE-SET,Advertising,AdBlock
   - RULE-SET,Privacy,AdBlock
   - RULE-SET,Hijacking,AdBlock
   - RULE-SET,BiliBili,BiliBili
