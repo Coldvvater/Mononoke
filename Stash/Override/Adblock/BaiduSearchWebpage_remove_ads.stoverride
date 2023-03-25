@@ -1,0 +1,57 @@
+name: 百度搜索网页去广告
+desc: 移除百度搜索移动端网页的广告
+# author = 毒奶 RuCu6
+# homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+
+http:
+
+  script:
+    # 移除百度知道搜索广告
+    - match: ^https?:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word)
+      name: 移除百度知道搜索广告_1
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    # 移除百度搜索首页广告
+    - match: ^https?:\/\/(www|m)\.baidu\.com(\/$|\/\?(ref|from).*)
+      name: 移除百度搜索首页广告_2
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    # 移除百度搜索结果广告
+    - match: ^https?:\/\/(www|m)\.baidu\.com\/.*word=.*
+      name: 移除百度搜索结果广告_3
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    # 百度防跳转
+    - match: ^https?:\/\/boxer\.baidu\.com\/scheme\?scheme
+      name: 百度防跳转_4
+      type: response
+      timeout: 30
+
+  mitm:
+    - "boxer.baidu.com"
+    - "m.baidu.com"
+    - "www.baidu.com"
+    - "zhidao.baidu.com"
+
+script-providers:
+  移除百度知道搜索广告_1:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/BaiduSearch/BaiduZhidao_remove_ads.js
+    interval: 86400
+  移除百度搜索首页广告_2:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/BaiduSearch/BaiduSearchHomePage_remove_ads.js
+    interval: 86400
+  移除百度搜索结果广告_3:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/BaiduSearch/BaiduSearchResults_remove_ads.js
+    interval: 86400
+  百度防跳转_4:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/BaiduSearch/RemoveBaiduSearchRedirect.js
+    interval: 86400
