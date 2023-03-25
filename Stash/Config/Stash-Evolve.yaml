@@ -1,7 +1,7 @@
 # > Stash Config Make by Coldvvater
 # > TG Channel: https://t.me/Ison_Channel
 # > GitHub主页: https://github.com/Coldvvater
-# > Update Date: 2023.03.16
+# > Update Date: 2023.03.25
 ---
 subscribe-url: 填上你的订阅链接
 # > 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -27,7 +27,7 @@ external-controller: 127.0.0.1:9090
 dns:
   enable: true
   # > DNS开关(false/true)
-  listen: 0.0.0.0:1053
+  listen: 0.0.0.0:53
   # > DNS监听地址
   ipv6: false
   # > IP6解析开关；如果为false，将返回ip6结果为空
