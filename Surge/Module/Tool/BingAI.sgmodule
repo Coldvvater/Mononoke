@@ -4,15 +4,15 @@
 #!homepage: https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
 
 [Rule]
-DOMAIN-SUFFIX,bing.com,Proxy
-DOMAIN-SUFFIX,bing.com.cn,Proxy
-DOMAIN-SUFFIX,bing.net,Proxy
-DOMAIN-SUFFIX,bingads.com,Proxy
-DOMAIN-SUFFIX,bingagencyawards.com,Proxy
-DOMAIN-SUFFIX,bingapistatistics.com,Proxy
-DOMAIN-SUFFIX,bingsandbox.com,Proxy
-DOMAIN-SUFFIX,bingvisualsearch.com,Proxy
-DOMAIN-SUFFIX,bingworld.com,Proxy
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.com.cn
+DOMAIN-SUFFIX,bing.net
+DOMAIN-SUFFIX,bingads.com
+DOMAIN-SUFFIX,bingagencyawards.com
+DOMAIN-SUFFIX,bingapistatistics.com
+DOMAIN-SUFFIX,bingsandbox.com
+DOMAIN-SUFFIX,bingvisualsearch.com
+DOMAIN-SUFFIX,bingworld.com
 
 [Rewrite]
 ^https:\/\/www\.bing\.com\/(search|new) header-add X-Forwarded-For 1.1.1.1
