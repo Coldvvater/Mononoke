@@ -3,17 +3,6 @@
 #!author: LiuYaChen、可莉🅥
 #!homepage: https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
 
-[Rule]
-DOMAIN-SUFFIX,bing.com,Proxy
-DOMAIN-SUFFIX,bing.com.cn,Proxy
-DOMAIN-SUFFIX,bing.net,Proxy
-DOMAIN-SUFFIX,bingads.com,Proxy
-DOMAIN-SUFFIX,bingagencyawards.com,Proxy
-DOMAIN-SUFFIX,bingapistatistics.com,Proxy
-DOMAIN-SUFFIX,bingsandbox.com,Proxy
-DOMAIN-SUFFIX,bingvisualsearch.com,Proxy
-DOMAIN-SUFFIX,bingworld.com,Proxy
-
 [Rewrite]
 ^https:\/\/www\.bing\.com\/(search|new) header-add X-Forwarded-For 1.1.1.1
 
