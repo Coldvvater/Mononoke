@@ -1,0 +1,22 @@
+name: Bing AI
+desc: 将Safari浏览器伪装为Edge浏览器，以便绕过BingAI的使用限制，同时解除IP黑名单限制。
+#!author: LiuYaChen、可莉🅥
+#!homepage: https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+
+http:
+  header-rewrite:
+    - ^https:\/\/www\.bing\.com\/(search|new) request-add X-Forwarded-For 1.1.1.1
+
+  script:
+    - match: ^https:\/\/www\.bing\.com\/(search|new)
+      name: BingAI
+      type: request
+      timeout: 30
+
+  mitm:
+    - "www.bing.com"
+
+script-providers:
+  BingAI:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Bing/BingAI.js
+    interval: 86400
