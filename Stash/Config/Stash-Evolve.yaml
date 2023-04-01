@@ -249,7 +249,7 @@ rule-providers:
     <<: *c
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
 
-  AdBlock: # > 广告拦截
+  Advertising: # > 广告拦截
     <<: *c
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Advertising.yaml
 
