@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.04.01
+# Update Date: 2023.04.02
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -155,14 +155,14 @@ proxy-groups:
   # 策略组
 
   - name: Final # 漏网之鱼
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
+    <<: *fr
     proxies:
       - Proxy
 
   - name: Proxy # 节点选择
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png
+    <<: *fr
     proxies:
       - Auto
       - Fallback
@@ -179,53 +179,44 @@ proxy-groups:
     <<: *u
 
   - name: Foreign # 国外网站
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
     <<: *fr
 
   - name: Domestic # 国内网站
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png
     <<: *dr
 
   - name: BiliBili # 哔哩哔哩
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
     <<: *dr
 
   - name: Spotify # 声田音乐
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Spotify.png
     <<: *fr
 
   - name: TikTok # 海外抖音
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png
     <<: *fr
 
   - name: Streaming # 国际媒体
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Streaming.png
     <<: *fr
 
   - name: Telegram # 电报信息
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram_X.png
     <<: *fr
 
   - name: Apple # 苹果服务
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
     <<: *dr
 
   - name: Microsoft # 微软服务
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Microsoft.png
     <<: *dr
 
   - name: AdBlock # 广告拦截
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png
+    <<: *fr
     proxies:
       - REJECT
       - DIRECT
@@ -261,7 +252,6 @@ proxy-groups:
       - US
 
   - name: Others # 其他节点
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png
     <<: *u
     proxies:
