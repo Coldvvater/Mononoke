@@ -246,10 +246,6 @@ rule-providers:
     <<: *c
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
 
-  OpenAI: # > ChatGPT
-    <<: *c
-    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/OpenAI.yaml
-
   BiliBili: # > 哔哩哔哩
     <<: *c
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Bilibili.yaml
