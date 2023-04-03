@@ -1,7 +1,7 @@
 # Egern Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.03.09
+# Update Date: 2023.04.03
 # 配置使用方法参阅：https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/Profile/README.md
 ---
 policy_groups:
@@ -14,7 +14,7 @@ policy_groups:
       policies:
         - Auto
         - Fallback
-        - "Others "
+        - Others
   - external:
       name: Auto
       type: auto_test
@@ -34,7 +34,7 @@ policy_groups:
         - Singapore
         - Japan
         - America
-        - "Others "
+        - Others
         - DIRECT
   - select:
       name: Domestic
@@ -48,7 +48,7 @@ policy_groups:
         - Singapore
         - Japan
         - America
-        - "Others "
+        - Others
   - select:
       name: BiliBili
       policies:
@@ -61,7 +61,7 @@ policy_groups:
         - Singapore
         - Japan
         - America
-        - "Others "
+        - Others
   - select:
       name: Spotify
       policies:
@@ -73,7 +73,7 @@ policy_groups:
         - Singapore
         - Japan
         - America
-        - "Others "
+        - Others
         - DIRECT
   - select:
       name: TikTok
@@ -86,7 +86,7 @@ policy_groups:
         - Singapore
         - Japan
         - America
-        - "Others "
+        - Others
         - DIRECT
   - select:
       name: Streaming
@@ -99,7 +99,7 @@ policy_groups:
         - Singapore
         - Japan
         - America
-        - "Others "
+        - Others
         - DIRECT
   - select:
       name: Telegram
@@ -112,7 +112,7 @@ policy_groups:
         - Singapore
         - Japan
         - America
-        - "Others "
+        - Others
         - DIRECT
   - select:
       name: Apple
@@ -126,7 +126,7 @@ policy_groups:
         - Singapore
         - Japan
         - America
-        - "Others "
+        - Others
   - select:
       name: Microsoft
       policies:
@@ -139,7 +139,7 @@ policy_groups:
         - Singapore
         - Japan
         - America
-        - "Others "
+        - Others
   - select:
       name: AdBlock
       policies:
@@ -171,7 +171,7 @@ policy_groups:
       url: "https://xxxx.com"
       filter: 美|🇺🇸|US|States|American
   - external:
-      name: "Others "
+      name: Others
       type: select
       url: "https://xxxx.com"
 rules:
