@@ -1,0 +1,34 @@
+name: 网易云音乐去广告
+desc: 过滤网易云音乐广告
+#!author = Keywos RuCu6 kokoryh
+
+http:
+  rewrite:
+    # 开屏广告、首页顶部横幅广告
+    - ^https?:\/\/interface3?\.music\.163.com\/eapi\/ad\/.* - reject-dict
+    # 搜索页、填充词、排行榜
+    - ^https?:\/\/interface3?\.music\.163.com\/eapi\/search\/(chart\/(detail|list)$|default\/keyword\/list\?|rcmd\/keyword\/get\/v2$|specialkeyword\/get\?) - reject-dict
+    # 播放页、多余图标、各种小提示、高品质音乐试用弹窗
+    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(link\/position\/show\/(resource|strategy)|music\/songshare\/text\/recommend\/get)\? - reject-dict
+    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get\? - reject-dict
+    - ^https:\/\/interface3\.music\.163\.com\/eapi\/mlog\/vinyl\/story\/list\? - reject-dict
+    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get)\? - reject-dict
+    - ^https:\/\/interface3\.music\.163\.com\/eapi\/zone\/songplay\/entry\/get\? - reject-dict
+    - ^https?:\/\/interface3\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get\? - reject-dict
+    # 评论页、回复广告、星评馆
+    - ^https?:\/\/interface3\.music\.163\.com\/eapi\/comment\/(hotcomment\/collect\/fetchmodelinfov2|feed\/inserted\/resources|tips\/v2\/get)\? - reject-dict
+    - ^https?:\/\/interface3\.music\.163\.com\/eapi\/v1\/content\/exposure\/comment\/banner\/get\? - reject-dict
+    # 首页、右上角多余图标、会员续费弹窗、侧边栏推广
+    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource)\? - reject-dict
+    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle)\? - reject-dict
+    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver)\? - reject-dict
+    # 我的页面、小部件红点
+    - ^https:\/\/interface3\.music\.163\.com\/eapi\/mine\/applet\/redpoint\? - reject-dict
+    # 播客、弹出广告
+    - ^https:\/\/interface3\.music\.163\.com\/eapi\/voice\/play\/page\/ad\/info\? - reject-dict
+    # 歌单页、横幅广告
+    - ^https:\/\/interface\.music\.163\.com\/weapi\/middle\/clientcfg\/config\/list\? - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config)\? - reject-dict
+
+  mitm:
+    - "interface*.music.163.com"
