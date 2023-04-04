@@ -73,3 +73,6 @@ Coldvvater 对任何本仓库中包含的脚本在使用中可能出现的问题
 * [yjqiang](https://github.com/yjqiang/surge_scripts/tree/main) 
 * [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master) 
 * [STASH NETWORKS LIMITED](https://github.com/STASH-NETWORKS-LIMITED) 
+* [lodepuly](https://gitlab.com/lodepuly/vpn_tool/-/tree/main) 
+* [kokoryh](https://github.com/kokoryh/Script/tree/master/Surge/module) 
+* [RuCu6](https://github.com/RuCu6/QuanX) 
