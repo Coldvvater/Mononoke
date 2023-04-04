@@ -1,0 +1,79 @@
+name: BiliBili优化(白色)
+desc: bilibili去广告及其他优化(白色图标版)
+#!author = kokoryh
+#!homepage = https://github.com/kokoryh/Script/blob/master/Surge/module/bilibili_white.sgmodule
+# 更多设置详情请使用BoxJS订阅：https://raw.githubusercontent.com/kokoryh/Script/master/boxjs.json
+# 注意：由于Stash暂不支持bilibili自动换区脚本，所以该脚本暂不可用，故已注释。
+
+http:
+  rewrite:
+    - ^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords - reject
+    - ^https:\/\/app\.bilibili\.com\/x\/resource\/ip - reject
+
+  script:
+    - match: ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?
+      name: bili-skin
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    - match: ^https:\/\/app\.bilibili\.com\/x\/(v2\/(search\/square|account\/mine)|resource\/show\/tab\/v2)
+      name: bili-json
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    - match: ^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll$
+      name: bili-proto
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: true
+
+    - match: ^https:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom
+      name: bili-live
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    - match: ^https:\/\/api\.bilibili\.com\/pgc\/page\/(bangumi|cinema\/tab\?)
+      name: bili-bangumi
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+#    - match: ^https:\/\/api\.bilibili\.com\/(pgc\/view\/v\d\/app\/season|x\/offline\/version)\?
+#      name: bili-region
+#      type: response
+#      timeout: 30
+#      require-body: true
+#      max-size: 3145728
+
+  mitm:
+    - "grpc.biliapi.net"
+    - "ap*.bilibili.com"
+
+script-providers:
+  bili-skin:
+    url: https://raw.githubusercontent.com/kokoryh/Script/master/js/bili-suit-diy.js
+    interval: 86400
+  bili-json:
+    url: https://raw.githubusercontent.com/kokoryh/Script/master/js/bilibili_json.js
+    interval: 86400
+  bili-proto:
+    url: https://raw.githubusercontent.com/kokoryh/Script/master/js/bilibili-proto.js
+    interval: 86400
+  bili-live:
+    url: https://raw.githubusercontent.com/kokoryh/Script/master/js/bilibili_json.js
+    interval: 86400
+  bili-bangumi:
+    url: https://raw.githubusercontent.com/kokoryh/Script/master/js/bilibili_json.js
+    interval: 86400
+#  bili-region:
+#    url: https://raw.githubusercontent.com/kokoryh/Script/master/js/bili_auto_region.js
+#    interval: 86400
