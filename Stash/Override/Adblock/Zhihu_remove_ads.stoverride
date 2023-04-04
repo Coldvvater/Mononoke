@@ -1,0 +1,156 @@
+name: 知乎去广告增强
+desc: 去除知乎各种广告，建议卸载知乎重新安装。
+#!author = RuCu6 blackmatrix7
+#!homepage = https://github.com/RuCu6/QuanX/tree/main/Rewrites/Cube, https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zheye
+
+http:
+  rewrite:
+    # 首页 - 悬浮图标、顶部横幅、开屏广告、关注页推荐、推荐信息流、热榜信息流、热榜直播、回答底部卡片
+    - ^https:\/\/api\.zhihu\.com\/commercial_api\/(banners_v3\/app_topstory_banner$|launch_v2\?|real_time_launch_v2\?) - reject-dict
+    - ^https:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings$ - reject-dict
+    - ^https:\/\/api\.zhihu\.com\/(moments\/lastread|drama\/hot-drama-list)$ - reject-dict
+    # 我的页面 - 项目列表、会员卡片、更多卡片
+    - ^https:\/\/api\.zhihu\.com\/me\/guides\?? - reject-dict
+    - ^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card$ - reject-200
+    # 搜索页 - 关键词、猜你想搜
+    - ^https:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading$ - reject-dict
+    - ^https:\/\/api\.zhihu\.com\/search\/preset_words\?? - reject-dict
+    - ^https:\/\/www\.zhihu\.com\/api\/v4\/search\/related_queries\/(answer|article)\/\d+ - reject-dict
+    - ^https:\/\/api\.zhihu\.com\/root\/window$ - reject-dict
+    # 其他、服务器推送配置
+    - ^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config$ - reject
+    - ^https:\/\/api\.zhihu\.com\/ad-style-service\/request$ - reject-dict
+    - ^https:\/\/appcloud2\.zhihu\.com\/v3\/resource\?group_name=mp$ - reject-dict
+    # 网页版去广告 //www.zhihu.com、 zhuanlan.zhihu.com
+    - ^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? - reject-dict
+    - ^https:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject
+    - ^https:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject
+    - ^https:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject
+    - ^https:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
+
+  script:
+    # 首页 - 悬浮图标、顶部横幅、开屏广告、关注页推荐、推荐信息流、热榜信息流、热榜直播、回答底部卡片
+    - match: ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer$
+      name: Zhihu_remove_ads_1
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    - match: ^https:\/\/api\.zhihu\.com\/(moments_v3|topstory\/recommend(_v2)?)\?
+      name: Zhihu_remove_ads_2
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    - match: ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?
+      name: Zhihu_remove_ads_3
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    # 我的页面 - 项目列表、会员卡片、更多卡片
+    - match: ^https:\/\/api\.zhihu\.com\/people\/homepage_entry$
+      name: Zhihu_remove_ads_4
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    - match: ^https:\/\/www\.zhihu\.com\/appview\/v3\/zhmore\??
+      name: Zhihu_remove_ads_5
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    # 搜索页 - 关键词、猜你想搜
+    - match: ^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\?
+      name: replaceBody_6
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      argument: |-
+        "recommend_queries":\{.+\}->"recommend_queries":{}
+
+    # 回答详情页、下一个回答
+    - match: ^https:\/\/api\.zhihu\.com\/next-data\?
+      name: Zhihu_remove_ads_7
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    - match: ^https:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+\/(feeds|answers)\?
+      name: Zhihu_remove_ads_8
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    - match: ^https:\/\/www\.zhihu\.com\/api\/v4\/(answers|articles)\/\d+\/recommendations?\?
+      name: Zhihu_remove_ads_9
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    # 其他、服务器推送配置
+    - match: ^https:\/\/appcloud2\.zhihu\.com\/v3\/config$
+      name: Zhihu_remove_ads_10
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    - match: ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
+      name: Zhihu_remove_ads_11
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+  mitm:
+    - "api.zhihu.com"
+    - "appcloud2.zhihu.com"
+    - "m-cloud.zhihu.com"
+    - "www.zhihu.com"
+    - "zhuanlan.zhihu.com"
+
+script-providers:
+  Zhihu_remove_ads_1:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+    interval: 86400
+  Zhihu_remove_ads_2:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+    interval: 86400
+  Zhihu_remove_ads_3:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+    interval: 86400
+  Zhihu_remove_ads_4:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+    interval: 86400
+  Zhihu_remove_ads_5:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+    interval: 86400
+  replaceBody_6:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js
+    interval: 86400
+  Zhihu_remove_ads_7:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+    interval: 86400
+  Zhihu_remove_ads_8:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+    interval: 86400
+  Zhihu_remove_ads_9:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+    interval: 86400
+  Zhihu_remove_ads_10:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+    interval: 86400
+  Zhihu_remove_ads_11:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+    interval: 86400
