@@ -1,0 +1,15 @@
+#!name = 知乎去广告
+#!desc = 去除知乎各种广告，建议卸载知乎重新安装。
+#!author = RuCu6 blackmatrix7
+#!homepage = https://github.com/RuCu6/QuanX/tree/main/Rewrites/Cube, https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zheye
+
+[Rule]
+DOMAIN, appcloud.zhihu.com, REJECT
+DOMAIN, appcloud2.in.zhihu.com, REJECT
+DOMAIN, crash2.zhihu.com, REJECT
+DOMAIN, mqtt.zhihu.com, REJECT
+DOMAIN, sugar.zhihu.com, REJECT
+IP-CIDR, 118.89.204.198/32, REJECT
+IP-CIDR, 103.41.167.237/32, REJECT
+IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
+
