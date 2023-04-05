@@ -1,0 +1,34 @@
+# 开屏广告、首页顶部横幅广告
+^https?:\/\/interface3?\.music\.163.com\/eapi\/ad\/.* data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 搜索页、填充词、排行榜
+^https?:\/\/interface3?\.music\.163.com\/eapi\/search\/(chart\/(detail|list)$|default\/keyword\/list\?|rcmd\/keyword\/get\/v2$|specialkeyword\/get\?) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 播放页、多余图标、各种小提示、高品质音乐试用弹窗
+^https:\/\/interface3\.music\.163\.com\/eapi\/(link\/position\/show\/(resource|strategy)|music\/songshare\/text\/recommend\/get)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/interface3\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/interface3\.music\.163\.com\/eapi\/mlog\/vinyl\/story\/list\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/interface3\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/interface3\.music\.163\.com\/eapi\/zone\/songplay\/entry\/get\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https?:\/\/interface3\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 评论页、回复广告、星评馆
+^https?:\/\/interface3\.music\.163\.com\/eapi\/comment\/(hotcomment\/collect\/fetchmodelinfov2|feed\/inserted\/resources|tips\/v2\/get)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https?:\/\/interface3\.music\.163\.com\/eapi\/v1\/content\/exposure\/comment\/banner\/get\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 首页、右上角多余图标、会员续费弹窗、侧边栏推广
+^https:\/\/interface3\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/interface3\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/interface3\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 我的页面、小部件红点
+^https:\/\/interface3\.music\.163\.com\/eapi\/mine\/applet\/redpoint\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 播客、弹出广告
+^https:\/\/interface3\.music\.163\.com\/eapi\/voice\/play\/page\/ad\/info\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 歌单页、横幅广告
+^https:\/\/interface\.music\.163\.com\/weapi\/middle\/clientcfg\/config\/list\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+hostname = %APPEND% interface*.music.163.com
