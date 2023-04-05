@@ -1,0 +1,10 @@
+#!name = 百度网盘去广告
+#!desc = 过滤百度网盘广告
+#!author = ddgksf2013
+
+
+[Rewrite]
+^https?:\/\/pan\.baidu\.com\/(act\/(api\/activityentry|v2\/(bchannel|welfare)\/list)|rest\/2\.0\/pcs\/ad) - reject
+
+[MITM]
+hostname = %APPEND% pan.baidu.com
