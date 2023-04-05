@@ -1,13 +1,22 @@
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-33A8E3)](https://t.me/Ison_Channel)
 [![](https://img.shields.io/github/followers/Coldvvater?label=follow&style=social)](https://github.com/Coldvvater)
+
+<details>
+   <summary>自用配置</summary>  
+
 #### 本仓库内容为纯粹自用，非懒人配置，只根据本人的使用习惯和喜好来进行修改和更新，未必适合所有人，请知悉。
 > 为避免步骤出错，使用本仓库的内容之前，请仔细阅读每一个文件夹下的README.md说明。
+
 ### 注意：
 
 1. 所有内容均来自互联网，不确保长期可用性。
 2. 只是搬运和同步更新大佬作品，不负责维护。
 
-# 免责声明：
+</details>
+
+<details>
+   <summary>免责声明</summary> 
+
 本仓库中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断。
 
 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, Coldvvater 对于由此引起的任何隐私泄漏或其他后果概不负责。
@@ -22,7 +31,12 @@ Coldvvater 对任何本仓库中包含的脚本在使用中可能出现的问题
 
 任何以任何方式查看此项目的人或直接或间接使用该项目的任何脚本的使用者都应仔细阅读此声明。Coldvvater 保留随时更改或补充此免责声明的权利。一旦使用并复制了任何本仓库相关脚本或其他内容，则视为您已接受此免责声明。
 
-## 特别感谢各路大佬辛苦的成果和分享（排名不分先后）：
+</details>
+
+<details>
+   <summary>特别鸣谢</summary> 
+
+## 特别鸣谢各路大佬辛苦的成果和分享（排名不分先后）：
 
 * [DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)  
 * [Tartarus2014](https://github.com/Tartarus2014)  
@@ -76,3 +90,5 @@ Coldvvater 对任何本仓库中包含的脚本在使用中可能出现的问题
 * [lodepuly](https://gitlab.com/lodepuly/vpn_tool/-/tree/main) 
 * [kokoryh](https://github.com/kokoryh/Script/tree/master/Surge/module) 
 * [RuCu6](https://github.com/RuCu6/QuanX) 
+
+</details>
