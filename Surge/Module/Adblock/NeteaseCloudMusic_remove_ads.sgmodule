@@ -1,3 +1,21 @@
+#!name = 网易云音乐去广告
+#!desc = 过滤网易云音乐广告
+#!author = Keywos RuCu6 kokoryh
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/QuantumultX/Rewrite
+
+[General]
+force-http-engine-hosts = 59.111.*:0
+
+[Rule]
+DOMAIN, iadmusicmat.music.126.net, REJECT
+DOMAIN, iadmat.nosdn.127.net, REJECT
+DOMAIN, iadmatapk.nosdn.127.net, REJECT
+DOMAIN, iadmusicmatvideo.music.126.net, REJECT
+DOMAIN, httpdns.n.netease.com, REJECT
+DOMAIN, gdt.qq.com, REJECT
+DOMAIN-SUFFIX, 163jiasu.com, REJECT
+
+[Map Local]
 # 开屏广告、首页顶部横幅广告
 ^https?:\/\/interface3?\.music\.163.com\/eapi\/ad\/.* data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
@@ -31,4 +49,6 @@
 ^https:\/\/interface\.music\.163\.com\/weapi\/middle\/clientcfg\/config\/list\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
+
+[MITM]
 hostname = %APPEND% interface*.music.163.com
