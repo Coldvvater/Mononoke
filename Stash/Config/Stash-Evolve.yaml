@@ -1,7 +1,7 @@
 # > Stash Config Make by Coldvvater
 # > TG Channel: https://t.me/Ison_Channel
 # > GitHub主页: https://github.com/Coldvvater
-# > Update Date: 2023.04.02
+# > Update Date: 2023.04.05
 ---
 subscribe-url: 填上你的订阅链接
 # > 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -98,7 +98,7 @@ proxy-providers:
     # > 请使用Clash类型订阅链接填入引号""内使用。
     # > 或可使用通用订阅链接通过Sub-Store进行订阅转换。
 
-fr: &fr # 策略组锚点
+f: &f # 策略组锚点
   type: select
   proxies:
     - Proxy
@@ -112,7 +112,7 @@ fr: &fr # 策略组锚点
     - Others
     - DIRECT
 
-dr: &dr
+d: &d
   type: select
   proxies:
     - DIRECT
@@ -131,13 +131,13 @@ proxy-groups:
 
   - name: Final # > 漏网之鱼
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
-    <<: *fr
+    <<: *f
     proxies:
       - Proxy
 
   - name: Proxy # > 节点选择
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png
-    <<: *fr
+    <<: *f
     proxies:
       - Auto
       - Fallback
@@ -155,43 +155,43 @@ proxy-groups:
 
   - name: Foreign # > 国外网站
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
-    <<: *fr
+    <<: *f
 
   - name: Domestic # > 国内网站
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png
-    <<: *dr
+    <<: *d
 
   - name: BiliBili # > 哔哩哔哩
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
-    <<: *dr
+    <<: *d
 
   - name: Spotify # > 声田音乐
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Spotify.png
-    <<: *fr
+    <<: *f
 
   - name: TikTok # > 海外抖音
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png
-    <<: *fr
+    <<: *f
 
   - name: Streaming # > 国际媒体
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Streaming.png
-    <<: *fr
+    <<: *f
 
   - name: Telegram # > 电报信息
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram_X.png
-    <<: *fr
+    <<: *f
 
   - name: Apple # > 苹果服务
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
-    <<: *dr
+    <<: *d
 
   - name: Microsoft # > 微软服务
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Microsoft.png
-    <<: *dr
+    <<: *d
 
   - name: AdBlock # > 广告拦截
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png
-    <<: *fr
+    <<: *f
     proxies:
       - REJECT
       - DIRECT
