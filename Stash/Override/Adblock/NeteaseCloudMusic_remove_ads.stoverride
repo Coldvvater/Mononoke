@@ -4,13 +4,13 @@ desc: 过滤网易云音乐广告
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/QuantumultX/Rewrite
 
 rules:
-  - DOMAIN, iadmusicmat.music.126.net, REJECT
-  - DOMAIN, iadmat.nosdn.127.net, REJECT
-  - DOMAIN, iadmatapk.nosdn.127.net, REJECT
-  - DOMAIN, iadmusicmatvideo.music.126.net, REJECT
-  - DOMAIN, httpdns.n.netease.com, REJECT
-  - DOMAIN, gdt.qq.com, REJECT
-  - DOMAIN-SUFFIX, 163jiasu.com, REJECT
+  - DOMAIN,iadmusicmat.music.126.net,REJECT
+  - DOMAIN,iadmat.nosdn.127.net,REJECT
+  - DOMAIN,iadmatapk.nosdn.127.net,REJECT
+  - DOMAIN,iadmusicmatvideo.music.126.net,REJECT
+  - DOMAIN,httpdns.n.netease.com,REJECT
+  - DOMAIN,gdt.qq.com,REJECT
+  - DOMAIN-SUFFIX,163jiasu.com,REJECT
 
 http:
   rewrite:
@@ -19,7 +19,7 @@ http:
     # 搜索页、填充词、排行榜
     - ^https?:\/\/interface3?\.music\.163.com\/eapi\/search\/(chart\/(detail|list)$|default\/keyword\/list\?|rcmd\/keyword\/get\/v2$|specialkeyword\/get\?) - reject-dict
     # 播放页、多余图标、各种小提示、高品质音乐试用弹窗
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(link\/position\/show\/(resource|strategy)|music\/songshare\/text\/recommend\/get)\? - reject-dict
+    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(link\/position\/show\/(resource|strategy)|music\/songshare\/text\/recommend\/get)\? - reject-dic
     - ^https:\/\/interface3\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get\? - reject-dict
     - ^https:\/\/interface3\.music\.163\.com\/eapi\/mlog\/vinyl\/story\/list\? - reject-dict
     - ^https:\/\/interface3\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get)\? - reject-dict
