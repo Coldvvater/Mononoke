@@ -171,6 +171,7 @@ proxy-groups:
   - name: Auto # 自动筛选
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
+    lazy: true # 在策略组没有被使用时候，不进行延迟测试
     <<: *u
 
   - name: Fallback #故障转移
