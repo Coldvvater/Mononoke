@@ -1,6 +1,16 @@
 name: 网易云音乐去广告
 desc: 过滤网易云音乐广告
 #!author = Keywos RuCu6 kokoryh
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/QuantumultX/Rewrite
+
+rules:
+  - DOMAIN, iadmusicmat.music.126.net, REJECT
+  - DOMAIN, iadmat.nosdn.127.net, REJECT
+  - DOMAIN, iadmatapk.nosdn.127.net, REJECT
+  - DOMAIN, iadmusicmatvideo.music.126.net, REJECT
+  - DOMAIN, httpdns.n.netease.com, REJECT
+  - DOMAIN, gdt.qq.com, REJECT
+  - DOMAIN-SUFFIX, 163jiasu.com, REJECT
 
 http:
   rewrite:
