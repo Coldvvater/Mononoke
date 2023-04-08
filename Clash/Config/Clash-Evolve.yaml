@@ -20,7 +20,7 @@ bind-address:
   #单个ip6地址
 mode: rule
   # clash工作模式（rule/global/direct）
-log-level: debug
+log-level: info
   # 日志等级（info/warning/error/debug/silent）
 external-controller: 127.0.0.1:9090
   # 控制器监听地址
@@ -313,7 +313,7 @@ rule-providers:
 
   Apple: # 苹果服务
     <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml"
     path: ./ruleset/Apple.yaml
 
   Microsoft: # 微软服务
