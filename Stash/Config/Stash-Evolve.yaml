@@ -6,8 +6,7 @@
 # > 2023.04.13更新
 # 1. 全面使用GEOSITE规则，拉取domain-list-community域名列表数据库，相当于全domain规则，
 # 2. GEOIP规则新增Telegram和Netflix IP匹配，要在Stash 设置-更多设置，将GEOIP数据库更换为Loyalsoldier的数据库方能生效，
-# 3. 新增fallback DNS配置参数，请在Stash的网络设置中启用fallback DNS，如不启用则无视该参数并不会生效，
-# 4. 删除了Streaming国际媒体策略组，更换为OpenAI策略组。
+# 3. 删除了Streaming国际媒体策略组，更换为OpenAI策略组。
 
 # > 自选GEOIP库可以使用: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
@@ -75,29 +74,6 @@ dns:
   # > 默认DNS服务器，支持udp/tcp/dot/doh/doq
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
-
-  fallback:
-  # > 回落DNS服务器，支持udp/tcp/dot/doh/doq
-    - https://8.8.4.4/dns-query
-    - https://1.0.0.1/dns-query
-  fallback-filter:
-  # > 回落DNS服务器过滤
-    geoip: true
-  # > 为真时，不匹配为geoip规则的使用fallback返回结果
-    geoip-code: CN
-  # > geoip匹配区域设定
-    ipcidr:
-  # > 列表中的ip使用fallback返回解析结果
-      - 240.0.0.0/4
-    domain:
-  # > 列表中的域名使用fallback返回解析结果
-      - '+.google.com'
-      - '+.twitter.com'
-      - '+.facebook.com'
-      - '+.youtube.com'
-      - '+.github.com'
-      - '+.githubusercontent.com'
-      - '+.googlevideo.com'
 
 proxies:
   # > 本地服务器
