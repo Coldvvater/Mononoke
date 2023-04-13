@@ -1,8 +1,16 @@
 # > Stash Config Make by Coldvvater
 # > TG Channel: https://t.me/Ison_Channel
 # > GitHub: https://github.com/Coldvvater
-# > Update Date: 2023.04.08
+# > Update Date: 2023.04.13
 ---
+# > 2023.04.13更新
+# 1. 全面使用GEOSITE规则，拉取domain-list-community域名列表数据库，相当于全domain规则，
+# 2. GEOIP规则新增Telegram和Netflix IP匹配，要在Stash 设置-更多设置，将GEOIP数据库更换为Loyalsoldier的数据库方能生效，
+# 3. 新增fallback DNS配置参数，请在Stash的网络设置中启用fallback DNS，如不启用则无视该参数并不会生效，
+# 4. 删除了Streaming国际媒体策略组，更换为OpenAI策略组。
+
+# > 自选GEOIP库可以使用: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+
 subscribe-url: 填上你的订阅链接
 # > 替换上面文字用于Stash获取机场流量信息并在主页显示
 
@@ -68,10 +76,28 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 
-c: &c # 规则类型锚点
-  type: http
-  behavior: classical
-  interval: 86400
+  fallback:
+  # > 回落DNS服务器，支持udp/tcp/dot/doh/doq
+    - https://8.8.4.4/dns-query
+    - https://1.0.0.1/dns-query
+  fallback-filter:
+  # > 回落DNS服务器过滤
+    geoip: true
+  # > 为真时，不匹配为geoip规则的使用fallback返回结果
+    geoip-code: CN
+  # > geoip匹配区域设定
+    ipcidr:
+  # > 列表中的ip使用fallback返回解析结果
+      - 240.0.0.0/4
+    domain:
+  # > 列表中的域名使用fallback返回解析结果
+      - '+.google.com'
+      - '+.twitter.com'
+      - '+.facebook.com'
+      - '+.youtube.com'
+      - '+.github.com'
+      - '+.githubusercontent.com'
+      - '+.googlevideo.com'
 
 proxies:
   # > 本地服务器
@@ -174,8 +200,8 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png
     <<: *f
 
-  - name: Streaming # > 国际媒体
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Streaming.png
+  - name: OpenAI # 人工智能
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Bot.png
     <<: *f
 
   - name: Telegram # > 电报信息
@@ -228,86 +254,38 @@ proxy-groups:
     proxies:
       - DIRECT
 
-rule-providers:
-  # > 远程规则集
-
-  Unbreak: # > 规则修正
-    <<: *c
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
-
-  Advertising: # > 广告拦截
-    <<: *c
-    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Advertising.yaml
-
-  Privacy: # > 隐私保护
-    <<: *c
-    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Privacy.yaml
-
-  Hijacking: # > 运营劫持
-    <<: *c
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
-
-  BiliBili: # > 哔哩哔哩
-    <<: *c
-    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Bilibili.yaml
-
-  Spotify: # > 声田音乐
-    <<: *c
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
-
-  TikTok: # > 海外抖音
-    <<: *c
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
-
-  Streaming: # > 国际媒体
-    <<: *c
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml
-
-  Telegram: # > 电报信息
-    <<: *c
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
-
-  Foreign: # > 国外网站
-    <<: *c
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
-
-  Apple: # > 苹果服务
-    <<: *c
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml
-
-  Microsoft: # > 微软服务
-    <<: *c
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
-
-  Domestic: # > 国内网站
-    <<: *c
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml
-
-  LAN: # > 局域网
-    <<: *c
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml
-
-  ASN_China: # > IP-ASN规则
-    <<: *c
-    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/ASN_China.yaml
-
 rules:
   # > 分流规则引用
-  - RULE-SET,Unbreak,DIRECT
-  - RULE-SET,Advertising,AdBlock
-  - RULE-SET,Privacy,AdBlock
-  - RULE-SET,Hijacking,AdBlock
-  - RULE-SET,BiliBili,BiliBili
-  - RULE-SET,Spotify,Spotify
-  - RULE-SET,TikTok,TikTok
-  - RULE-SET,Streaming,Streaming
-  - RULE-SET,Telegram,Telegram
-  - RULE-SET,Foreign,Foreign
-  - RULE-SET,Apple,Apple
-  - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,Domestic,Domestic
-  - RULE-SET,LAN,DIRECT
-  # > ASN China 分流，删除注释启用
-  #- RULE-SET,ASN_China,DIRECT
+  #- GEOSITE,category-ads-all,AdBlock
+  # > 广告规则，疑有误拦，默认关闭，按需启用
+  - GEOSITE,openai,OpenAI
+  # > OpenAI ChatGPT
+  - GEOSITE,github,Proxy
+  # > GitHub
+  - GEOSITE,bilibili,BiliBili
+  # > 哔哩哔哩
+  - GEOSITE,spotify,Spotify
+  # > Spotify
+  - GEOSITE,tiktok,TikTok
+  # > 海外抖音
+  - GEOSITE,telegram,Telegram
+  # > 电报信息
+  - GEOSITE,apple,Apple
+  # > 苹果服务
+  - GEOSITE,microsoft,Microsoft
+  # > 微软服务
+  - GEOSITE,geolocation-!cn,Foreign
+  # > 国外网站
+  - GEOSITE,cn,Domestic
+  # > 国内网站
+
+  # > GeoIP国家地理位置
+  - GEOIP,netflix,Foreign
+  # > Netflix
+  - GEOIP,telegram,Telegram
+  # > Telegram
+  - GEOIP,private,DIRECT
+  # > Local Area Network
   - GEOIP,CN,DIRECT
+  # > China
   - MATCH,Final
