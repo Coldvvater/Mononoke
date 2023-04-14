@@ -1,7 +1,9 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.04.08
+# Update Date: 2023.04.14
+
+# > 自选GEOIP库可以使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -29,7 +31,7 @@ dns:
   # DNS开关(false/true)
   listen: 0.0.0.0:1053
   # DNS监听地址
-  ipv6: false
+  ipv6: true
   # IP6解析开关；如果为false，将返回ip6结果为空
   default-nameserver:
   # 解析非IP的dns用的dns服务器,只支持纯IP
@@ -73,9 +75,6 @@ c: &c # 规则类型锚点
   behavior: classical
   interval: 86400
 
-proxies:
-  # 本地服务器
-
 p: &p # Proxy Providers锚点
   type: http
   interval: 42300
@@ -83,6 +82,37 @@ p: &p # Proxy Providers锚点
     enable: true
     url: http://cp.cloudflare.com/generate_204
     interval: 300
+
+f: &f # 策略组锚点
+  type: select
+  proxies:
+    - Proxy
+    - Auto
+    - Fallback
+    - HongKong
+    - TaiWan
+    - Singapore
+    - Japan
+    - America
+    - Others
+    - DIRECT
+
+d: &d
+  type: select
+  proxies:
+    - DIRECT
+    - Proxy
+    - Auto
+    - Fallback
+    - HongKong
+    - TaiWan
+    - Singapore
+    - Japan
+    - America
+    - Others
+
+proxies:
+  # 本地服务器
 
 u: &u # 订阅引用锚点
   type: select
@@ -122,34 +152,6 @@ proxy-providers:
   US:
     <<: *sub
     filter: 美|🇺🇲|US|(?i)States|American
-
-f: &f # 策略组锚点
-  type: select
-  proxies:
-    - Proxy
-    - Auto
-    - Fallback
-    - HongKong
-    - TaiWan
-    - Singapore
-    - Japan
-    - America
-    - Others
-    - DIRECT
-
-d: &d
-  type: select
-  proxies:
-    - DIRECT
-    - Proxy
-    - Auto
-    - Fallback
-    - HongKong
-    - TaiWan
-    - Singapore
-    - Japan
-    - America
-    - Others
 
 proxy-groups:
   # 策略组
@@ -334,6 +336,7 @@ rule-providers:
 rules:
   # 分流规则引用
   - SCRIPT,quic,REJECT
+  - SCRIPT,BilibiliUdp,REJECT
   - RULE-SET,Unbreak,DIRECT
   - RULE-SET,Advertising,AdBlock
   - RULE-SET,Privacy,AdBlock
@@ -352,4 +355,5 @@ rules:
   - MATCH,Final
 script:
   shortcuts:
-    quic: network == 'udp' and dst_port == 443
+    quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port == 9305)
+    BilibiliUdp: network == "udp" and match_provider("BiliBili")
