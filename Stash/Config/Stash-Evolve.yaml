@@ -1,14 +1,10 @@
 # > Stash Config Make by Coldvvater
 # > TG Channel: https://t.me/Ison_Channel
 # > GitHub: https://github.com/Coldvvater
-# > Update Date: 2023.04.13
+# > Update Date: 2023.04.14
 ---
-# > 2023.04.13更新
-# 1. 全面使用GEOSITE规则，拉取domain-list-community域名列表数据库，相当于全domain规则，
-# 2. GEOIP规则新增Telegram和Netflix IP匹配，要在Stash 设置-更多设置，将GEOIP数据库更换为Loyalsoldier的数据库方能生效，
-# 3. 删除了Streaming国际媒体策略组，更换为OpenAI策略组。
 
-# > 自选GEOIP库可以使用: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+# > 自选GEOIP库可以使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
 subscribe-url: 填上你的订阅链接
 # > 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -75,16 +71,17 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 
+p: &p # > Providers锚点
+  {type: http, interval: 42300, health-check: {enable: true, url: http://cp.cloudflare.com/generate_204, interval: 300}}
+
+f: &f # > 策略组锚点
+  {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
+
+d: &d
+  {type: select, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
+
 proxies:
   # > 本地服务器
-
-p: &p # Proxy Providers锚点
-  type: http
-  interval: 42300
-  health-check:
-    enable: true
-    url: http://cp.cloudflare.com/generate_204
-    interval: 300
 
 u: &u # 订阅引用锚点
   type: select
@@ -96,37 +93,8 @@ proxy-providers:
   subs:
     <<: *p
     url: ""
-    path: ./subs.yaml
     # > 请使用Clash类型订阅链接填入引号""内使用。
     # > 或可使用通用订阅链接通过Sub-Store进行订阅转换。
-
-f: &f # 策略组锚点
-  type: select
-  proxies:
-    - Proxy
-    - Auto
-    - Fallback
-    - HongKong
-    - TaiWan
-    - Singapore
-    - Japan
-    - America
-    - Others
-    - DIRECT
-
-d: &d
-  type: select
-  proxies:
-    - DIRECT
-    - Proxy
-    - Auto
-    - Fallback
-    - HongKong
-    - TaiWan
-    - Singapore
-    - Japan
-    - America
-    - Others
 
 proxy-groups:
   # > 策略组
@@ -234,6 +202,8 @@ rules:
   # > 分流规则引用
   #- GEOSITE,category-ads-all,AdBlock
   # > 广告规则，疑有误拦，默认关闭，按需启用
+  - GEOSITE,private,DIRECT
+  # > Local Area Network
   - GEOSITE,openai,OpenAI
   # > OpenAI ChatGPT
   - GEOSITE,github,Proxy
