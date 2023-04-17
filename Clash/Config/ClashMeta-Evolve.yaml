@@ -79,7 +79,7 @@ proxy-providers:
   MyProxy:
     <<: *p
     url: ""
-    path: ./proxy_providers/MyProxy.yaml
+    path: ./proxy_providers/myproxy.yaml
 
 proxy-groups:
 
