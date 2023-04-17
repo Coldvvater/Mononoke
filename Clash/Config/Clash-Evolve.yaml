@@ -117,40 +117,40 @@ proxies:
 u: &u # 订阅引用锚点
   type: select
   use:
-  - sub
+  - MySubs
 
 proxy-providers:
   # 远程订阅
-  sub: &sub # 建立锚点
+  MySubs: &MySubs # 建立锚点
     <<: *p
     url: ""
-    path: ./proxy_providers.yaml
+    path: ./proxy_providers/mysubs.yaml
     # 请使用Clash类型订阅链接填入引号""内使用。
     # 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
     
   # 香港节点
   HK:
-    <<: *sub # 引用锚点内容
+    <<: *MySubs # 引用锚点内容
     filter: 港|🇭🇰|HK|(?i)Hong
  
   # 台湾节点
   TW:
-    <<: *sub
+    <<: *MySubs
     filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
    
   # 狮城节点
   SG:
-    <<: *sub
+    <<: *MySubs
     filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
     
   # 日本节点
   JP:
-    <<: *sub
+    <<: *MySubs
     filter: 日|🇯🇵|东京|JP|(?i)Japan
     
   # 美国节点    
   US:
-    <<: *sub
+    <<: *MySubs
     filter: 美|🇺🇲|US|(?i)States|American
 
 proxy-groups:
