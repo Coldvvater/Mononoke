@@ -124,7 +124,7 @@ proxy-providers:
   sub: &sub # 建立锚点
     <<: *p
     url: ""
-    path: ./sub.yaml
+    path: ./proxy_providers.yaml
     # 请使用Clash类型订阅链接填入引号""内使用。
     # 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
     
