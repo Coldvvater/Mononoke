@@ -73,13 +73,13 @@ proxies:
 s: &s
   type: select
   use:
-  - MySubs
+  - MyProxy
 
 proxy-providers:
-  MySubs:
+  MyProxy:
     <<: *p
     url: ""
-    path: ./MySubs.yaml
+    path: ./proxy_providers/MyProxy.yaml
 
 proxy-groups:
 
