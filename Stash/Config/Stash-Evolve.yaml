@@ -1,7 +1,7 @@
 # > Stash Config Make by Coldvvater
 # > TG Channel: https://t.me/Ison_Channel
 # > GitHub: https://github.com/Coldvvater
-# > Update Date: 2023.04.14
+# > Update Date: 2023.04.20
 ---
 
 # > 自选GEOIP库可以使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
@@ -25,6 +25,8 @@ mode: rule
   # > clash工作模式（rule/global/direct）
 log-level: info
   # > 日志等级（info/warning/error/debug/silent）
+ipv6: true
+  # IP6解析开关；如果为false，将返回ip6结果为空
 external-controller: 127.0.0.1:9090
   # > 控制器监听地址
 dns:
