@@ -1,9 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
-# GitHub: https://github.com/Coldvvater
-# Update Date: 2023.04.17
-
-# > 自选GEOIP库可以使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
+# GitHub主页: https://github.com/Coldvvater
+# Update Date: 2022.04.20
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -24,6 +22,8 @@ mode: rule
   # clash工作模式（rule/global/direct）
 log-level: info
   # 日志等级（info/warning/error/debug/silent）
+ipv6: true
+  # IP6解析开关；如果为false，将返回ip6结果为空
 external-controller: 127.0.0.1:9090
   # 控制器监听地址
 dns:
@@ -67,21 +67,52 @@ dns:
     - '*.mcdn.bilivideo.cn'
   nameserver:
   # 默认DNS服务器，支持udp/tcp/dot/doh/doq
-    - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+tun:
+  enable: false
+  stack: system
+  dns-hijack:
+    - 192.18.0.2:53
+  auto-route: true
+  auto-detect-interface: true
 
 c: &c # 规则类型锚点
   type: http
   behavior: classical
   interval: 86400
 
+ip: &ip
+  type: http
+  behavior: ipcidr
+  interval: 86400
+
+proxies:
+  # 本地服务器
+
 p: &p # Proxy Providers锚点
   type: http
   interval: 42300
   health-check:
     enable: true
-    url: http://cp.cloudflare.com/generate_204
+    url: http://www.gstatic.com/generate_204
     interval: 300
+
+u: &u # 订阅引用锚点
+  type: select
+  use:
+  - MySubs
+
+proxy-providers:
+
+  #全部节点
+  MySubs: &MySubs # 建立锚点
+    <<: *p
+    url: ""
+    path: ./proxy_providers/mysubs.yaml
+    # 请使用Clash类型订阅链接填入引号""内使用。
+    # 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
 
 f: &f # 策略组锚点
   type: select
@@ -110,48 +141,6 @@ d: &d
     - Japan
     - America
     - Others
-
-proxies:
-  # 本地服务器
-
-u: &u # 订阅引用锚点
-  type: select
-  use:
-  - MySubs
-
-proxy-providers:
-  # 远程订阅
-  MySubs: &MySubs # 建立锚点
-    <<: *p
-    url: ""
-    path: ./proxy_providers/mysubs.yaml
-    # 请使用Clash类型订阅链接填入引号""内使用。
-    # 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
-    
-  # 香港节点
-  HK:
-    <<: *MySubs # 引用锚点内容
-    filter: 港|🇭🇰|HK|(?i)Hong
- 
-  # 台湾节点
-  TW:
-    <<: *MySubs
-    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
-   
-  # 狮城节点
-  SG:
-    <<: *MySubs
-    filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
-    
-  # 日本节点
-  JP:
-    <<: *MySubs
-    filter: 日|🇯🇵|东京|JP|(?i)Japan
-    
-  # 美国节点    
-  US:
-    <<: *MySubs
-    filter: 美|🇺🇲|US|(?i)States|American
 
 proxy-groups:
   # 策略组
@@ -183,7 +172,7 @@ proxy-groups:
 
   - name: Foreign # 国外网站
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
-    <<: *fr
+    <<: *f
 
   - name: Domestic # 国内网站
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png
@@ -203,6 +192,10 @@ proxy-groups:
 
   - name: Streaming # 国际媒体
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Streaming.png
+    <<: *f
+
+  - name: OpenAI # 人工智能
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Bot.png
     <<: *f
 
   - name: Telegram # 电报信息
@@ -225,34 +218,29 @@ proxy-groups:
       - DIRECT
 
   - name: HongKong # 香港节点
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png
-    use:
-      - HK
-    
+    <<: *u
+    filter: 港|🇭🇰|HK|(?i)Hong
+
   - name: TaiWan # 台湾节点
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png
-    use:
-      - TW
-         
+    <<: *u
+    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+  
   - name: Singapore # 狮城节点
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Singapore.png
-    use:
-      - SG
-    
+    <<: *u
+    filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
+
   - name: Japan # 日本节点
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
-    use:
-      - JP
+    <<: *u
+    filter: 日|🇯🇵|东京|JP|(?i)Japan
 
   - name: America # 美国节点
-    type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png
-    use:
-      - US
+    <<: *u
+    filter: 美|🇺🇲|US|(?i)States|American
 
   - name: Others # 其他节点
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png
@@ -263,34 +251,34 @@ proxy-groups:
 rule-providers:
   # 远程规则集
 
-  Unbreak: # 规则修正
+  LAN: # 局域网
     <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml"
-    path: ./ruleset/Unbreak.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
+    path: ./ruleset/Lan.yaml
 
-  Advertising: # 广告拦截
+  UnBan: # 规则修正
     <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Advertising.yaml"
-    path: ./ruleset/Advertising.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml"
+    path: ./ruleset/UnBan.yaml
 
-  Privacy: # 隐私保护
+  BanAD: # 广告拦截
     <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Privacy.yaml"
-    path: ./ruleset/Privacy.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml"
+    path: ./ruleset/BanAD.yaml
 
-  Hijacking: # 运营劫持
+  OpenAI: # > ChatGPT
     <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml"
-    path: ./ruleset/Hijacking.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/OpenAI.yaml"
+    path: ./ruleset/OpenAI.yaml
 
   BiliBili: # 哔哩哔哩
     <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Bilibili.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml"
     path: ./ruleset/BiliBili.yaml
 
   Spotify: # 声田音乐
     <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Spotify.yaml"
     path: ./ruleset/Spotify.yaml
 
   TikTok: # 海外抖音
@@ -298,20 +286,15 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml"
     path: ./ruleset/TikTok.yaml
 
-  Streaming: # 国际媒体
+  ProxyMedia: # 国际媒体
     <<: *c
     url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml"
-    path: ./ruleset/Streaming.yaml
+    path: ./ruleset/ProxyMedia.yaml
 
   Telegram: # 电报信息
     <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml"
     path: ./ruleset/Telegram.yaml
-
-  Foreign: # 国外网站
-    <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml"
-    path: ./ruleset/Foreign.yaml
 
   Apple: # 苹果服务
     <<: *c
@@ -320,38 +303,55 @@ rule-providers:
 
   Microsoft: # 微软服务
     <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml"
     path: ./ruleset/Microsoft.yaml
 
-  Domestic: # 国内网站
+  ChinaDomain: # 国内网站
     <<: *c
     url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml"
-    path: ./ruleset/Domestic.yaml
+    path: ./ruleset/ChinaDomain.yaml
 
-  LAN: # 局域网
+  ChinaMedia: # 国内媒体
     <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
-    path: ./ruleset/Lan.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaMedia.yaml"
+    path: ./ruleset/ChinaMedia.yaml
+
+  ChinaCompanyIp: # 国内服务商IP
+    <<: *ip
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaCompanyIp.yaml"
+    path: ./ruleset/ChinaCompanyIp.yaml
+
+  ChinaIp: # 国内网站IP
+    <<: *ip
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaIp.yaml"
+    path: ./ruleset/ChinaIp.yaml
+
+  ProxyGFWlist: # 国外网站
+    <<: *c
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml"
+    path: ./ruleset/ProxyGFWlist.yaml
 
 rules:
   # 分流规则引用
   - SCRIPT,quic,REJECT
   - SCRIPT,BilibiliUdp,REJECT
-  - RULE-SET,Unbreak,DIRECT
-  - RULE-SET,Advertising,AdBlock
-  - RULE-SET,Privacy,AdBlock
-  - RULE-SET,Hijacking,AdBlock
+  - RULE-SET,LAN,DIRECT
+  - RULE-SET,UnBan,DIRECT
+  - RULE-SET,BanAD,AdBlock
+  - RULE-SET,OpenAI,OpenAI
   - RULE-SET,BiliBili,BiliBili
   - RULE-SET,Spotify,Spotify
   - RULE-SET,TikTok,TikTok
-  - RULE-SET,Streaming,Streaming
+  - RULE-SET,ProxyMedia,Streaming
   - RULE-SET,Telegram,Telegram
-  - RULE-SET,Foreign,Foreign
   - RULE-SET,Apple,Apple
   - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,Domestic,Domestic
-  - RULE-SET,LAN,DIRECT
-  - GEOIP,CN,DIRECT
+  - RULE-SET,ChinaDomain,Domestic
+  - RULE-SET,ChinaMedia,Domestic
+  - RULE-SET,ChinaCompanyIp,Domestic
+  - RULE-SET,ChinaIp,Domestic
+  - RULE-SET,ProxyGFWlist,Foreign
+  - GEOIP,CN,DIRECT,no-resolve
   - MATCH,Final
 script:
   shortcuts:
