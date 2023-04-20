@@ -42,22 +42,35 @@ tun:
 
 dns:
   enable: true
-  #prefer-h3: true
   listen: 0.0.0.0:1053
   ipv6: true
   enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-  - '*.lan'
-  - localhost.ptlogin2.qq.com
+  fake-ip-range: 28.0.0.1/8
   default-nameserver:
-    - 223.5.5.5
+  - 223.5.5.5
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+    - '+.xboxlive.com'
+    - 'msftconnecttest.com'
+    - 'xbox.*.microsoft.com'
+    - '*.battlenet.com.cn'
+    - '*.battlenet.com'
+    - '*.blzstatic.cn'
+    - '*.battle.net'
   nameserver:
-      - https://doh.pub/dns-query
+  - 'tls://8.8.4.4#Proxy'
+  - 'tls://1.0.0.1#Proxy'
+  proxy-server-nameserver:
+  - https://doh.pub/dns-query
   nameserver-policy:
     "geosite:cn,private":
-      - https://dns.alidns.com/dns-query
-      - https://doh.pub/dns-query
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
 
 p: &p
   {type: http, interval: 42300, health-check: {enable: true, url: http://cp.cloudflare.com/generate_204, interval: 300}}
