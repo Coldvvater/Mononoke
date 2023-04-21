@@ -1,149 +1,80 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2022.04.20
+# Update Date: 2022.04.21
 
-subscribe-url: 填上你的订阅链接
-# 替换上面文字用于Stash获取机场流量信息并在主页显示
+subscribe-url: 填上你的订阅链接 # 替换文字用于Stash获取机场流量信息并在主页显示
 
-mixed-port: 7890
-  # 本地混合代理(http和socks5合并）端口
-allow-lan: true
-  # 允许局域网连接(false/true)
-bind-address:
-  # 监听IP白名单（当allow-lan：true），只允许列表设备
-  '*'
-  # 全部设备
-  # 192.168.122.11
-  #单个ip4地址
-  # "[aaaa::a8aa:ff:fe09:57d8]"
-  #单个ip6地址
-mode: rule
-  # clash工作模式（rule/global/direct）
-log-level: info
-  # 日志等级（info/warning/error/debug/silent）
-ipv6: true
-  # IP6解析开关；如果为false，将返回ip6结果为空
-external-controller: 127.0.0.1:9090
-  # 控制器监听地址
-dns:
-  enable: true
-  # DNS开关(false/true)
-  listen: 0.0.0.0:1053
-  # DNS监听地址
-  ipv6: true
-  # IP6解析开关；如果为false，将返回ip6结果为空
-  default-nameserver:
-  # 解析非IP的dns用的dns服务器,只支持纯IP
+mixed-port: 7890 # 本地混合代理(http和socks5合并）端口
+allow-lan: true # 允许局域网连接(false/true)
+bind-address: # 监听IP白名单（当allow-lan：true），只允许列表设备
+  '*' # 全部设备
+# 192.168.122.11 #单个ip4地址
+# "[aaaa::a8aa:ff:fe09:57d8]" #单个ip6地址
+mode: rule # clash工作模式（rule/global/direct）
+log-level: info # 日志等级（info/warning/error/debug/silent）
+ipv6: true # IP6解析开关；如果为false，将返回ip6结果为空
+external-controller: 127.0.0.1:9090 # 控制器监听地址
+dns: # DNS模块设置
+  enable: true # DNS开关(false/true)
+  listen: 0.0.0.0:1053 # DNS监听地址
+  ipv6: true # IP6解析开关；如果为false，将返回ip6结果为空
+  default-nameserver: # 解析非IP的dns用的dns服务器,只支持纯IP
     - 223.5.5.5
     - 119.29.29.29
     - 114.114.114.114
-  enhanced-mode: fake-ip
-  # DNS模式(redir-host/fake-ip)
-  fake-ip-range: 198.18.0.1/16
-  # Fake-IP解析地址池
-  fake-ip-filter:
-  # Fake-ip过滤，列表中的域名返回真实ip
-  # Local Area Network
-    - '*.lan'
-  # Stun Services
-    - '+.stun.*.*'
+  enhanced-mode: fake-ip # DNS模式(redir-host/fake-ip)
+  fake-ip-range: 198.18.0.1/16 # Fake-IP解析地址池
+  fake-ip-filter: # Fake-ip过滤，列表中的域名返回真实ip
+    - '*.lan' # Local Area Network
+    - '+.stun.*.*' # Stun Services
     - '+.stun.*.*.*'
     - '+.stun.*.*.*.*'
     - '+.stun.*.*.*.*.*'
-  # Google Voices
-    - 'lens.l.google.com'
-  # Nintendo Switch
-    - '*.n.n.srv.nintendo.net'
-  # PlayStation
-    - '+.stun.playstation.net'
-  # XBox
-    - 'xbox.*.*.microsoft.com'
-    - '*.*.xboxlive.com'
-  # Microsoft
+    - 'lens.l.google.com' # Google Voices
+    - '*.n.n.srv.nintendo.net' # Nintendo Switch
+    - '+.stun.playstation.net' # PlayStation
+    - 'xbox.*.*.microsoft.com' # XBox
+    - '*.*.xboxlive.com' # Microsoft
     - '*.msftncsi.com'
-    - '*.msftconnecttest.com'
-  # Bilibili CDN
+    - '*.msftconnecttest.com' # Bilibili CDN
     - '*.mcdn.bilivideo.cn'
-  nameserver:
-  # 默认DNS服务器，支持udp/tcp/dot/doh/doq
+  nameserver: # 默认DNS服务器，支持udp/tcp/dot/doh/doq
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 
-tun:
-  enable: false
+tun: # TUN模式
+  enable: true
   stack: system
   dns-hijack:
-    - 192.18.0.2:53
+    - 'any:53'
   auto-route: true
   auto-detect-interface: true
 
-c: &c # 规则类型锚点
-  type: http
-  behavior: classical
-  interval: 86400
+c: &c {type: http, behavior: classical, interval: 86400} # 规则行为锚点
 
-ip: &ip
-  type: http
-  behavior: ipcidr
-  interval: 86400
+ip: &ip {type: http, behavior: ipcidr, interval: 86400}
 
-proxies:
-  # 本地服务器
+p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://cp.cloudflare.com/generate_204, interval: 300} # 代理提供商锚点
 
-p: &p # Proxy Providers锚点
-  type: http
-  interval: 42300
-  health-check:
-    enable: true
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+f: &f {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]} # 策略组锚点
+
+d: &d {type: select, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
+
+proxies: # 本地服务器
 
 u: &u # 订阅引用锚点
   type: select
   use:
   - MySubs
 
-proxy-providers:
-
-  #全部节点
-  MySubs: &MySubs # 建立锚点
+proxy-providers: # 代理提供商
+  MySubs: &MySubs
     <<: *p
     url: ""
-    path: ./proxy_providers/mysubs.yaml
-    # 请使用Clash类型订阅链接填入引号""内使用。
-    # 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
+    path: ./proxy_providers/mysubs.yaml # 1. 请使用Clash类型订阅链接填入引号""内使用, 2. 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
 
-f: &f # 策略组锚点
-  type: select
-  proxies:
-    - Proxy
-    - Auto
-    - Fallback
-    - HongKong
-    - TaiWan
-    - Singapore
-    - Japan
-    - America
-    - Others
-    - DIRECT
-
-d: &d
-  type: select
-  proxies:
-    - DIRECT
-    - Proxy
-    - Auto
-    - Fallback
-    - HongKong
-    - TaiWan
-    - Singapore
-    - Japan
-    - America
-    - Others
-
-proxy-groups:
-  # 策略组
+proxy-groups: # 策略组
 
   - name: Final # 漏网之鱼
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
@@ -192,10 +123,6 @@ proxy-groups:
 
   - name: Streaming # 国际媒体
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Streaming.png
-    <<: *f
-
-  - name: OpenAI # 人工智能
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Bot.png
     <<: *f
 
   - name: Telegram # 电报信息
@@ -248,8 +175,7 @@ proxy-groups:
     proxies:
       - DIRECT
 
-rule-providers:
-  # 远程规则集
+rule-providers: # 远程规则集
 
   LAN: # 局域网
     <<: *c
@@ -331,14 +257,13 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml"
     path: ./ruleset/ProxyGFWlist.yaml
 
-rules:
-  # 分流规则引用
+rules: # 分流规则引用
   - SCRIPT,quic,REJECT
   - SCRIPT,BilibiliUdp,REJECT
   - RULE-SET,LAN,DIRECT
   - RULE-SET,UnBan,DIRECT
   - RULE-SET,BanAD,AdBlock
-  - RULE-SET,OpenAI,OpenAI
+  - RULE-SET,OpenAI,America
   - RULE-SET,BiliBili,BiliBili
   - RULE-SET,Spotify,Spotify
   - RULE-SET,TikTok,TikTok
