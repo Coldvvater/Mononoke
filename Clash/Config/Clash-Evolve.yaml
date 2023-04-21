@@ -261,6 +261,7 @@ rule-providers: # 远程规则集
 rules: # 分流规则引用
   - SCRIPT,quic,REJECT
   - SCRIPT,BilibiliUdp,REJECT
+  - DOMAIN,testflight.apple.com,Proxy
   - RULE-SET,LAN,DIRECT
   - RULE-SET,UnBan,DIRECT
   - RULE-SET,BanAD,AdBlock
