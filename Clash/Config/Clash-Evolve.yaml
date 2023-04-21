@@ -68,7 +68,7 @@ u: &u # 订阅引用锚点
   use:
   - MySubs
 
-proxy-providers: # 代理提供商
+proxy-providers: # 代理提供商(远程订阅)
   MySubs: &MySubs
     <<: *p
     url: ""
