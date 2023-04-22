@@ -4,7 +4,7 @@
 # Update Date: 2023.04.22
 
 subscribe-url: 填上你的订阅链接
-# 替换文字用于Stash获取机场流量信息并在主页显示
+# 替换上面文字用于Stash获取机场流量信息并在主页显示
 
 mixed-port: 7890
 # 本地混合代理(http和socks5合并）端口
