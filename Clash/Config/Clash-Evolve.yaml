@@ -84,7 +84,7 @@ c: &c {type: http, behavior: classical, interval: 86400}
 
 ip: &ip {type: http, behavior: ipcidr, interval: 86400}
 
-p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://cp.cloudflare.com/generate_204, interval: 300}
+p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://cp.cloudflare.com/generate_204, interval: 300}}
 # 代理提供商锚点
 
 f: &f {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
