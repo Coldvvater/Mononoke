@@ -92,7 +92,9 @@ proxy-providers: # > 代理提供商(远程订阅)
   subs:
     <<: *p
     url: ""
-# 1. 请使用Clash类型订阅链接填入引号""内使用, 2. 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
+    path: ./proxy-providers/subs.yaml
+# 1. 请使用Clash类型订阅链接填入引号""内使用, 
+# 2. 使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
 
 proxy-groups: # > 策略组
 
