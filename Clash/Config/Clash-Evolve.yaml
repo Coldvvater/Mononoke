@@ -221,7 +221,7 @@ rule-providers: # 远程规则集
 
   GlobalMedia: # 国际媒体
     <<: *dm
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.txt"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml"
     path: ./ruleset/GlobalMedia.yaml
 
   Telegram: # 电报信息
@@ -251,12 +251,12 @@ rule-providers: # 远程规则集
 
   ChinaMax_Domain: # 国内网站域名
     <<: *dm
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Domain.txt"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Domain.yaml"
     path: ./ruleset/ChinaMax_Domain.yaml
 
   ChinaMax_IP: # 国内网站IP
     <<: *ip
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_IP.txt"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_IP.yaml"
     path: ./ruleset/ChinaMax_IP.yaml
 
   Global_Domain: # 国外网站
