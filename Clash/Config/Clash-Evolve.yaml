@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.04.25
+# Update Date: 2023.04.26
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -107,9 +107,17 @@ proxy-providers: # 代理提供商(远程订阅)
     <<: *p
     url: ""
     path: ./proxy_providers/mysubs.yaml
-# 1. 请使用Clash类型订阅链接填入引号""内使用, 2. 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
+# 1. 请使用Clash类型订阅链接填入引号""内使用,
+# 2. 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
 
 proxy-groups: # 策略组
+
+  - name: Final # > 漏网之鱼
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
+    <<: *f
+    proxies:
+      - Proxy
+      - DIRECT
 
   - name: Proxy # 节点选择
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png
@@ -125,7 +133,7 @@ proxy-groups: # 策略组
     lazy: true # 在策略组没有被使用时候，不进行延迟测试
     <<: *u
 
-  - name: Fallback #故障转移
+  - name: Fallback # 故障转移
     type: fallback
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available.png
     <<: *u
@@ -276,13 +284,13 @@ rules: # 分流规则引用
   - RULE-SET,TikTok,TikTok
   - RULE-SET,GlobalMedia,Streaming
   - RULE-SET,Telegram,Telegram
-  - RULE-SET,TestFlight,Proxy
+  - RULE-SET,TestFlight,Global
   - RULE-SET,Apple,Apple
   - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Global_Domain,Global
   - RULE-SET,ChinaMax,Mainland
   - RULE-SET,ChinaMax_Domain,Mainland
   - RULE-SET,ChinaMax_IP,Mainland
-  - RULE-SET,Global_Domain,Global
   - RULE-SET,LAN,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,Proxy
+  - MATCH,Final
