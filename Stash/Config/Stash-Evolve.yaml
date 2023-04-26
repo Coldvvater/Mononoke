@@ -1,7 +1,7 @@
 # > Stash Config Make by Coldvvater
 # > TG Channel: https://t.me/Ison_Channel
 # > GitHub: https://github.com/Coldvvater
-# > Update Date: 2023.04.23
+# > Update Date: 2023.04.26
 
 # > 自选GEOIP库可以使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -103,6 +103,7 @@ proxy-groups: # > 策略组
     <<: *f
     proxies:
       - Proxy
+      - DIRECT
 
   - name: Proxy # > 节点选择
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png
@@ -123,11 +124,11 @@ proxy-groups: # > 策略组
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available.png
     <<: *u
 
-  - name: Foreign # > 国外网站
+  - name: Global # > 国外网站
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
     <<: *f
 
-  - name: Domestic # > 国内网站
+  - name: Mainland # > 国内网站
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png
     <<: *d
 
@@ -193,40 +194,22 @@ proxy-groups: # > 策略组
     proxies:
       - DIRECT
 
-rules: # > 分流规则引用
-  #- GEOSITE,category-ads-all,AdBlock
-  # > 广告规则，疑有误拦，默认关闭，按需启用
-  - GEOSITE,private,DIRECT
-  # > Local Area Network
-  - GEOSITE,openai,America
-  # > OpenAI ChatGPT
-  - GEOSITE,github,Proxy
-  # > GitHub
-  - GEOSITE,bilibili,BiliBili
-  # > 哔哩哔哩
-  - GEOSITE,spotify,Spotify
-  # > Spotify
-  - GEOSITE,tiktok,TikTok
-  # > 海外抖音
-  - GEOSITE,telegram,Telegram
-  # > 电报信息
-  - GEOSITE,apple,Apple
-  # > 苹果服务
-  - GEOSITE,microsoft,Microsoft
-  # > 微软服务
-  - GEOSITE,geolocation-!cn,Foreign
-  # > 国外网站
-  - GEOSITE,cn,Domestic
-  # > 国内网站
+rules: # >  GeoSite 分流规则引用
+  #- GEOSITE,category-ads-all,AdBlock # > 广告拦截，有误杀，默认关，按需启
+  - GEOSITE,private,DIRECT # LAN
+  - GEOSITE,openai,America # OpenAI
+  - GEOSITE,github,Global # GitHub
+  - GEOSITE,bilibili,BiliBili # 哔哩哔哩
+  - GEOSITE,spotify,Spotify # Spotify
+  - GEOSITE,tiktok,TikTok # 海外抖音
+  - GEOSITE,telegram,Telegram # 电报分流
+  - GEOSITE,apple,Apple # 苹果服务
+  - GEOSITE,microsoft,Microsoft # 微软服务
+  - GEOSITE,geolocation-!cn,Global # 国外网站
+  - GEOSITE,cn,Mainland # 国内网站
 
   # > GeoIP 国家代码规则
-  - GEOIP,netflix,Foreign
-  # > Netflix
-  - GEOIP,telegram,Telegram
-  # > Telegram
-  - GEOIP,private,DIRECT
-  # > Local Area Network
-  - GEOIP,CN,DIRECT
-  # > China
-  - MATCH,Final
-  # > 全匹配
+  - GEOIP,telegram,Telegram, # Telegram
+  - GEOIP,private,DIRECT, # > LAN
+  - GEOIP,CN,DIRECT # China
+  - MATCH,Final # 全匹配
