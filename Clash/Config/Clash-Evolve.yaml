@@ -255,7 +255,7 @@ rule-providers: # 远程规则集
   ChinaMax: # 国内网站
     <<: *c
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.yaml"
-    path: ./ruleset/ChinaDomain.yaml
+    path: ./ruleset/ChinaMax.yaml
 
   ChinaMax_Domain: # 国内网站域名
     <<: *dm
