@@ -1,7 +1,7 @@
 # > Stash Config Make by Coldvvater
 # > TG Channel: https://t.me/Ison_Channel
 # > GitHub: https://github.com/Coldvvater
-# > Update Date: 2023.04.26
+# > Update Date: 2023.04.28
 
 # > 自选GEOIP库可以使用: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
@@ -124,11 +124,11 @@ proxy-groups: # > 策略组
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available.png
     <<: *u
 
-  - name: Global # > 国外网站
+  - name: Foreign # > 国外网站
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
     <<: *f
 
-  - name: Mainland # > 国内网站
+  - name: Domestic # > 国内网站
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png
     <<: *d
 
@@ -195,21 +195,23 @@ proxy-groups: # > 策略组
       - DIRECT
 
 rules: # >  GeoSite 分流规则引用
-  #- GEOSITE,category-ads-all,AdBlock # > 广告拦截，有误杀，默认关，按需启
-  - GEOSITE,private,DIRECT # LAN
-  - GEOSITE,openai,America # OpenAI
-  - GEOSITE,github,Global # GitHub
-  - GEOSITE,bilibili,BiliBili # 哔哩哔哩
-  - GEOSITE,spotify,Spotify # Spotify
-  - GEOSITE,tiktok,TikTok # 海外抖音
-  - GEOSITE,telegram,Telegram # 电报分流
-  - GEOSITE,apple,Apple # 苹果服务
-  - GEOSITE,microsoft,Microsoft # 微软服务
-  - GEOSITE,geolocation-!cn,Global # 国外网站
-  - GEOSITE,cn,Mainland # 国内网站
+  #- GEOSITE,category-ads-all,AdBlock
+  # > 👆广告拦截，有误杀，默认关，按需启
+  - GEOSITE,private,DIRECT
+  - GEOSITE,openai,America
+  - GEOSITE,youtube,Foreign
+  - GEOSITE,bilibili,BiliBili
+  - GEOSITE,spotify,Spotify
+  - GEOSITE,tiktok,TikTok
+  - GEOSITE,telegram,Telegram
+  - GEOSITE,github,Foreign
+  - GEOSITE,apple,Apple
+  - GEOSITE,microsoft,Microsoft
+  - GEOSITE,geolocation-!cn,Foreign
+  - GEOSITE,cn,Domestic
 
   # > GeoIP 国家代码规则
-  - GEOIP,telegram,Telegram, # Telegram
-  - GEOIP,private,DIRECT, # > LAN
-  - GEOIP,CN,DIRECT # China
-  - MATCH,Final # 全匹配
+  - GEOIP,telegram,Telegram
+  - GEOIP,private,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Final
