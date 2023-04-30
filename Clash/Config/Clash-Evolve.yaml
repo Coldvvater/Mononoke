@@ -336,10 +336,10 @@ rule-providers: # 远程规则集
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.yaml"
     path: ./ruleset/TestFlight.yaml
 
-  Apple: # 苹果服务
+  Apple_Domain: # 苹果服务
     <<: *dm
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Domain.yaml"
-    path: ./ruleset/Apple.yaml
+    path: ./ruleset/Apple_Domain.yaml
 
   Google: # 谷歌服务
     <<: *c
@@ -390,7 +390,7 @@ rules: # 分流规则引用
   - RULE-SET,Bing,Global
   - RULE-SET,Twitter,Global
   - RULE-SET,TestFlight,Global
-  - RULE-SET,Apple,Apple
+  - RULE-SET,Apple_Domain,Apple
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Games,Games
