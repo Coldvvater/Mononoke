@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.05.02
+# Update Date: 2023.05.03
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -70,14 +70,6 @@ dns:
 # 默认DNS服务器，支持udp/tcp/dot/doh/doq
     - https://223.5.5.5/dns-query
     - https://1.12.12.12/dns-query
-
-tun: # TUN模式
-  enable: true
-  stack: gvisor
-  dns-hijack:
-    - 'any:53'
-  auto-route: true
-  auto-detect-interface: true
 
 c: &c {type: http, behavior: classical, interval: 86400}
 # 规则行为锚点
