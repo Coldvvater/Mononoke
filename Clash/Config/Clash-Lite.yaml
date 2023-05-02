@@ -201,7 +201,7 @@ rules: # 分流规则引用
   - RULE-SET,Microsoft,DIRECT
   - RULE-SET,Global_Domain,PROXY
   - RULE-SET,ChinaMax_Domain,DIRECT
-  - GEOIP,LAN,DIRECT
+  - GEOIP,Lan,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,FINAL
 
