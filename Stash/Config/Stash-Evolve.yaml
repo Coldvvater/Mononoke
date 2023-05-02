@@ -76,10 +76,10 @@ dns:
 p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://cp.cloudflare.com/generate_204, interval: 300}}
 # > 代理提供商锚点
 
-g: &g {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
+g: &g {type: select, proxies: [Proxy, AutoSelect, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
 # > 策略组锚点
 
-d: &d {type: select, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
+d: &d {type: select, proxies: [DIRECT, Proxy, AutoSelect, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
 
 proxies: # > 本地服务器
 
@@ -124,7 +124,7 @@ proxy-groups: # > 策略组
 - {name: Disney+, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Disney%2B.png, <<: *g}
 
 # > 哔哩哔哩
-- {name: BiliBili, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png, <<: *d}
+- {name: BiliBili, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png, <<: *d, proxies: [DIRECT,HongKong,TaiWan]}
 
 # > 声田音乐
 - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Spotify.png, <<: *g}
