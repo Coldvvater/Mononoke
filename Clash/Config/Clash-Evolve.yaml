@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.05.01
+# Update Date: 2023.05.02
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -96,10 +96,8 @@ d: &d {type: select, proxies: [DIRECT, Proxy, AutoSelect, Fallback, HongKong, Ta
 
 proxies: # 本地服务器
 
-u: &u # 订阅引用锚点
-  type: select
-  use:
-  - MySubs
+u: &u {type: select, use: [MySubs]}
+# > 订阅引用锚点
 
 proxy-providers: # 代理提供商(远程订阅)
   MySubs: &MySubs
@@ -111,138 +109,86 @@ proxy-providers: # 代理提供商(远程订阅)
 
 proxy-groups: # 策略组
 
-  - name: Final # > 漏网之鱼
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
-    <<: *g
-    proxies:
-      - Proxy
-      - DIRECT
+# 漏网之鱼
+- {name: Final, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png, <<: *g, proxies: [Proxy,DIRECT]}
 
-  - name: Proxy # 节点切换
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png
-    <<: *g
-    proxies:
-      - AutoSelect
-      - Fallback
-      - HongKong
-      - TaiWan
-      - Singapore
-      - Japan
-      - America
-      - Others
+# 节点选择
+- {name: Proxy, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png, <<: *g, proxies: [AutoSelect,Fallback,HongKong,TaiWan,Singapore,Japan,America,Others]}
 
-  - name: AutoSelect # 自动选择
-    type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
-    lazy: true # 在策略组没有被使用时候，不进行延迟测试
-    <<: *u
+# 自动筛选
+- {name: AutoSelect, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png, type: url-test, lazy: true, <<: *u}
 
-  - name: Fallback # 故障转移
-    type: fallback
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available.png
-    <<: *u
+# 故障转移
+- {name: Fallback, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available.png, type: fallback, <<: *u}
 
-  - name: Global # 全球加速
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
-    <<: *g
+# 国外网站
+- {name: Global, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png, <<: *g}
 
-  - name: Domestic # 国内直连
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png
-    <<: *d
+# 国内网站
+- {name: Domestic, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png, <<: *d}
 
-  - name: YouTube # 油管视频
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/YouTube.png
-    <<: *g
+# YouTube
+- {name: YouTube, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/YouTube.png, <<: *g}
 
-  - name: NETFLIX # 奈飞视频
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netflix.png
-    <<: *g
+# NETFLIX
+- {name: NETFLIX, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netflix.png, <<: *g}
 
-  - name: Disney+ # 迪士尼+
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Disney%2B.png
-    <<: *g
+# Disney+
+- {name: Disney+, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Disney%2B.png, <<: *g}
 
-  - name: Emby # Emby
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Emby.png
-    <<: *g
+# Emby
+- {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Emby.png, <<: *g}
 
-  - name: BiliBili # 哔哩哔哩
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png
-    <<: *d
+# 哔哩哔哩
+- {name: BiliBili, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png, <<: *d, proxies: [DIRECT,HongKong,TaiWan]}
 
-  - name: Spotify # 声田音乐
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Spotify.png
-    <<: *g
+# 声田音乐
+- {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Spotify.png, <<: *g}
 
-  - name: NetEaseMusic # 网易云音乐
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netease_Music.png
-    <<: *d
+# 网易云音乐
+- {name: NetEaseMusic, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netease_Music.png, <<: *d}
 
-  - name: TikTok # 海外抖音
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png
-    <<: *g
+# 海外抖音
+- {name: TikTok, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png, <<: *g}
 
-  - name: Streaming # 国际媒体
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Streaming.png
-    <<: *g
+# 国际媒体
+- {name: Streaming, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Streaming.png, <<: *g}
 
-  - name: Telegram # 电报信息
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram_X.png
-    <<: *g
+# 电报信息
+- {name: Telegram, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram_X.png, <<: *g}
 
-  - name: Apple # 苹果服务
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
-    <<: *d
+# 苹果服务
+- {name: Apple, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png, <<: *d}
 
-  - name: Google # > 谷歌服务
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Google.png
-    <<: *g
+# 谷歌服务
+- {name: Google, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Google.png, <<: *g}
 
-  - name: Microsoft # 微软服务
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Microsoft.png
-    <<: *d
+# 微软服务
+- {name: Microsoft, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Microsoft.png, <<: *d}
 
-  - name: Games # 游戏平台
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png
-    <<: *d
+# 游戏平台
+- {name: Games, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png, <<: *d}
 
-  - name: AdBlock # > 广告拦截
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png
-    <<: *g
-    proxies:
-      - REJECT
-      - DIRECT
+# 广告拦截
+- {name: AdBlock, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png, <<: *g, proxies: [REJECT,DIRECT]}
 
-  - name: HongKong # 香港节点
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png
-    <<: *u
-    filter: 港|🇭🇰|HK|(?i)Hong
+# 香港节点
+- {name: HongKong, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png, <<: *u, filter: "港|🇭🇰|HK|(?i)Hong"}
 
-  - name: TaiWan # 台湾节点
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png
-    <<: *u
-    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
-  
-  - name: Singapore # 狮城节点
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Singapore.png
-    <<: *u
-    filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
+# 台湾节点
+- {name: TaiWan, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png, <<: *u, filter: "台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan"}
 
-  - name: Japan # 日本节点
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png
-    <<: *u
-    filter: 日|🇯🇵|东京|JP|(?i)Japan
+# 狮城节点
+- {name: Singapore, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Singapore.png, <<: *u, filter: "新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore"}
 
-  - name: America # 美国节点
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png
-    <<: *u
-    filter: 美|🇺🇲|US|(?i)States|American
+# 日本节点
+- {name: Japan, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Japan.png, <<: *u, filter: "日|🇯🇵|东京|JP|(?i)Japan"}
 
-  - name: Others # 其他节点
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png
-    <<: *u
-    proxies:
-      - DIRECT
+# 美国节点
+- {name: America, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png, <<: *u, filter: "美|🇺🇲|US|(?i)States|American"}
+
+# 其他节点
+- {name: Others, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png, <<: *u, proxies: [DIRECT]}
 
 rule-providers: # 远程规则集
 
