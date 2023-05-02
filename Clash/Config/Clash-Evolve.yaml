@@ -312,11 +312,6 @@ rule-providers: # 远程规则集
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.yaml"
     path: ./ruleset/Global_Domain.yaml
 
-  LAN: # 局域网
-    <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
-    path: ./ruleset/Lan.yaml
-
 rules: # 分流规则引用
   - RULE-SET,Unbreak,DIRECT
   - RULE-SET,Advertising,AdBlock
@@ -342,6 +337,6 @@ rules: # 分流规则引用
   - RULE-SET,Games,Games
   - RULE-SET,Global_Domain,Global
   - RULE-SET,ChinaMax_Domain,Domestic
-  - RULE-SET,LAN,DIRECT
+  - GEOIP,Lan,DIRECT
   - GEOIP,CN,Domestic
   - MATCH,Final
