@@ -1,7 +1,7 @@
 # Egern Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.04.03
+# Update Date: 2023.05.03
 # 配置使用方法参阅：https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/Profile/README.md
 ---
 policy_groups:
@@ -24,7 +24,7 @@ policy_groups:
       type: fallback
       url: "https://xxxx.com"
   - select:
-      name: Foreign
+      name: Global
       policies:
         - Proxy
         - Auto
@@ -37,7 +37,7 @@ policy_groups:
         - Others
         - DIRECT
   - select:
-      name: Domestic
+      name: Mainland
       policies:
         - DIRECT
         - Proxy
@@ -204,7 +204,7 @@ rules:
       policy: Telegram
   - rule_set:
       match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/DivineEngine/Global.yaml"
-      policy: Foreign
+      policy: Global
   - rule_set:
       match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/blackmatrix7/Apple.yaml"
       policy: Apple
@@ -213,7 +213,7 @@ rules:
       policy: Microsoft
   - rule_set:
       match: "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Egern/RuleSet/ACL4SSR/ChinaDomain.yaml"
-      policy: Domestic
+      policy: Mainland
   - ip_cidr:
       match: 192.168.0.0/16
       policy: DIRECT
