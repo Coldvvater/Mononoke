@@ -74,9 +74,7 @@ dns:
 c: &c {type: http, behavior: classical, interval: 86400}
 # 规则行为锚点
 
-dm: &dm {type: http, behavior: domain, interval: 86400}
-
-ip: &ip {type: http, behavior: ipcidr, interval: 86400}
+d: &d {type: http, behavior: domain, interval: 86400}
 
 p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://cp.cloudflare.com/generate_204, interval: 300}}
 # 代理提供商锚点
@@ -84,7 +82,7 @@ p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://cp.
 g: &g {type: select, proxies: [Proxy, AutoSelect, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
 # 策略组锚点
 
-d: &d {type: select, proxies: [DIRECT, Proxy, AutoSelect, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
+m: &m {type: select, proxies: [DIRECT, Proxy, AutoSelect, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
 
 proxies: # 本地服务器
 
@@ -117,7 +115,7 @@ proxy-groups: # 策略组
 - {name: Global, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png, <<: *g}
 
 # 国内网站
-- {name: Domestic, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png, <<: *d}
+- {name: Mainland, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png, <<: *m}
 
 # YouTube
 - {name: YouTube, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/YouTube.png, <<: *g}
@@ -150,16 +148,16 @@ proxy-groups: # 策略组
 - {name: Telegram, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram_X.png, <<: *g}
 
 # 苹果服务
-- {name: Apple, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png, <<: *d}
+- {name: Apple, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png, <<: *m}
 
 # 谷歌服务
 - {name: Google, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Google.png, <<: *g}
 
 # 微软服务
-- {name: Microsoft, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Microsoft.png, <<: *d}
+- {name: Microsoft, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Microsoft.png, <<: *m}
 
 # 游戏平台
-- {name: Games, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png, <<: *d}
+- {name: Games, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png, <<: *m}
 
 # 广告拦截
 - {name: AdBlock, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png, <<: *g, proxies: [REJECT,DIRECT]}
@@ -245,7 +243,7 @@ rule-providers: # 远程规则集
     path: ./ruleset/TikTok.yaml
 
   GlobalMedia_Domain: # 国际媒体
-    <<: *dm
+    <<: *d
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml"
     path: ./ruleset/GlobalMedia_Domain.yaml
 
@@ -275,7 +273,7 @@ rule-providers: # 远程规则集
     path: ./ruleset/TestFlight.yaml
 
   Apple_Domain: # 苹果服务
-    <<: *dm
+    <<: *d
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Domain.yaml"
     path: ./ruleset/Apple_Domain.yaml
 
@@ -295,12 +293,12 @@ rule-providers: # 远程规则集
     path: ./ruleset/Games.yaml
 
   ChinaMax_Domain: # 国内网站
-    <<: *dm
+    <<: *d
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Domain.yaml"
     path: ./ruleset/ChinaMax_Domain.yaml
 
   Global_Domain: # 国外网站
-    <<: *dm
+    <<: *d
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.yaml"
     path: ./ruleset/Global_Domain.yaml
 
@@ -328,7 +326,7 @@ rules: # 分流规则引用
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Games,Games
   - RULE-SET,Global_Domain,Global
-  - RULE-SET,ChinaMax_Domain,Domestic
+  - RULE-SET,ChinaMax_Domain,Mainland
   - GEOIP,Lan,DIRECT
-  - GEOIP,CN,Domestic
+  - GEOIP,CN,Mainland
   - MATCH,Final
