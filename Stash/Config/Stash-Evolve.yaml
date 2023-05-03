@@ -1,7 +1,7 @@
 # > Stash Config Make by Coldvvater
 # > TG Channel: https://t.me/Ison_Channel
 # > GitHub: https://github.com/Coldvvater
-# > Update Date: 2023.05.02
+# > Update Date: 2023.05.03
 
 # > 自选GEOIP库可以使用: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
@@ -112,7 +112,7 @@ proxy-groups: # > 策略组
 - {name: Global, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png, <<: *g}
 
 # > 国内网站
-- {name: Domestic, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png, <<: *d}
+- {name: Mainland, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png, <<: *d}
 
 # > YouTube
 - {name: YouTube, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/YouTube.png, <<: *g}
@@ -192,10 +192,10 @@ rules: # >  GeoSite 分流规则引用
   - GEOSITE,steam,Games
   - GEOSITE,nintendo,Games
   - GEOSITE,geolocation-!cn,Global
-  - GEOSITE,cn,Domestic
+  - GEOSITE,cn,Mainland
 
   # > GeoIP 国家代码规则
   - GEOIP,telegram,Telegram
   - GEOIP,private,DIRECT
-  - GEOIP,CN,DIRECT
+  - GEOIP,CN,Mainland
   - MATCH,Final
