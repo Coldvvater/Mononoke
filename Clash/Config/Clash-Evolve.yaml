@@ -130,13 +130,13 @@ proxy-groups: # 策略组
 - {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Emby.png, <<: *g}
 
 # 哔哩哔哩
-- {name: BiliBili, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png, <<: *d, proxies: [DIRECT,HongKong,TaiWan]}
+- {name: BiliBili, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/bilibili.png, <<: *m, proxies: [DIRECT,HongKong,TaiWan]}
 
 # 声田音乐
 - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Spotify.png, <<: *g}
 
 # 网易云音乐
-- {name: NetEaseMusic, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netease_Music.png, <<: *d}
+- {name: NetEaseMusic, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netease_Music.png, <<: *m}
 
 # 海外抖音
 - {name: TikTok, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png, <<: *g}
