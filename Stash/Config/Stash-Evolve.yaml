@@ -1,7 +1,7 @@
 # > Stash Config Make by Coldvvater
 # > TG Channel: https://t.me/Ison_Channel
 # > GitHub: https://github.com/Coldvvater
-# > Update Date: 2023.05.03
+# > Update Date: 2023.05.04
 
 # > 自选GEOIP库可以使用: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
@@ -74,19 +74,19 @@ dns:
     - https://1.12.12.12/dns-query
 
 p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://cp.cloudflare.com/generate_204, interval: 300}}
-# > 代理提供商锚点
+# > 远程订阅相关
 
-g: &g {type: select, proxies: [Proxy, AutoSelect, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
-# > 策略组锚点
+g: &g {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
 
-d: &d {type: select, proxies: [DIRECT, Proxy, AutoSelect, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
+d: &d {type: select, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
+# > 代理组相关
 
 proxies: # > 本地服务器
 
 u: &u {type: select, use: [Subs]}
-# > 订阅引用锚点
+# > 远程订阅引用
 
-proxy-providers: # > 代理提供商(远程订阅)
+proxy-providers: # > 远程订阅
   subs:
     <<: *p
     url: ""
@@ -99,11 +99,11 @@ proxy-groups: # > 策略组
 # > 漏网之鱼
 - {name: Final, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png, <<: *g, proxies: [Proxy,DIRECT]}
 
-# > 节点选择
-- {name: Proxy, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png, <<: *g, proxies: [AutoSelect,Fallback,HongKong,TaiWan,Singapore,Japan,America,Others]}
+# > 节点切换
+- {name: Proxy, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png, <<: *g, proxies: [Auto,Fallback,HongKong,TaiWan,Singapore,Japan,America,Others]}
 
-# > 自动筛选
-- {name: AutoSelect, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png, type: url-test, lazy: true, <<: *u}
+# > 自动选择
+- {name: Auto, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png, type: url-test, lazy: true, <<: *u}
 
 # > 故障转移
 - {name: Fallback, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available.png, type: fallback, <<: *u}
