@@ -132,6 +132,9 @@ proxy-groups: # > 策略组
 # > 海外抖音
 - {name: TikTok, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png, <<: *g}
 
+# > 国际媒体
+- {name: Streaming, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Streaming.png, <<: *g}
+
 # > 电报信息
 - {name: Telegram, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Telegram_X.png, <<: *g}
 
@@ -177,9 +180,11 @@ rules: # >  GeoSite 分流规则引用
   - GEOSITE,youtube,YouTube
   - GEOSITE,netflix,NETFLIX
   - GEOSITE,disney,Disney+
+  - GEOSITE,bahamut,TaiWan
   - GEOSITE,bilibili,BiliBili
   - GEOSITE,spotify,Spotify
   - GEOSITE,tiktok,TikTok
+  - GEOSITE,category-media,Streaming
   - GEOSITE,telegram,Telegram
   - GEOSITE,github,Global
   - GEOSITE,bing,Global
@@ -187,10 +192,7 @@ rules: # >  GeoSite 分流规则引用
   - GEOSITE,apple,Apple
   - GEOSITE,google,Google
   - GEOSITE,microsoft,Microsoft
-  - GEOSITE,epicgames,Games
-  - GEOSITE,sony,Games
-  - GEOSITE,steam,Games
-  - GEOSITE,nintendo,Games
+  - GEOSITE,category-games,Games
   - GEOSITE,geolocation-!cn,Global
   - GEOSITE,cn,Mainland
 
