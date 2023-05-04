@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.05.03
+# Update Date: 2023.05.04
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -72,24 +72,24 @@ dns:
     - https://1.12.12.12/dns-query
 
 c: &c {type: http, behavior: classical, interval: 86400}
-# 规则行为锚点
 
 d: &d {type: http, behavior: domain, interval: 86400}
+# 规则行为相关
 
 p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://cp.cloudflare.com/generate_204, interval: 300}}
-# 代理提供商锚点
+# 远程订阅相关
 
-g: &g {type: select, proxies: [Proxy, AutoSelect, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
-# 策略组锚点
+g: &g {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
 
-m: &m {type: select, proxies: [DIRECT, Proxy, AutoSelect, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
+m: &m {type: select, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
+# 代理组相关
 
 proxies: # 本地服务器
 
 u: &u {type: select, use: [MySubs]}
-# > 订阅引用锚点
+# 订阅引用相关
 
-proxy-providers: # 代理提供商(远程订阅)
+proxy-providers: # 远程订阅
   MySubs: &MySubs
     <<: *p
     url: ""
@@ -102,11 +102,11 @@ proxy-groups: # 策略组
 # 漏网之鱼
 - {name: Final, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png, <<: *g, proxies: [Proxy,DIRECT]}
 
-# 节点选择
-- {name: Proxy, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png, <<: *g, proxies: [AutoSelect,Fallback,HongKong,TaiWan,Singapore,Japan,America,Others]}
+# 节点切换
+- {name: Proxy, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Rocket.png, <<: *g, proxies: [Auto,Fallback,HongKong,TaiWan,Singapore,Japan,America,Others]}
 
-# 自动筛选
-- {name: AutoSelect, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png, type: url-test, lazy: true, <<: *u}
+# 自动选择
+- {name: Auto, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png, type: url-test, lazy: true, <<: *u}
 
 # 故障转移
 - {name: Fallback, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available.png, type: fallback, <<: *u}
@@ -136,7 +136,7 @@ proxy-groups: # 策略组
 - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Spotify.png, <<: *g}
 
 # 网易云音乐
-- {name: NetEaseMusic, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netease_Music.png, <<: *m}
+- {name: NetEaseMusic, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netease_Music.png, <<: *m, proxies: [DIRECT]}
 
 # 海外抖音
 - {name: TikTok, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png, <<: *g}
