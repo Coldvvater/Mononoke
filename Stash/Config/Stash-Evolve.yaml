@@ -87,7 +87,7 @@ u: &u {type: select, use: [Subs]}
 # > 远程订阅引用
 
 proxy-providers: # > 远程订阅
-  subs:
+  Subs:
     <<: *p
     url: ""
     path: ./proxy-providers/subs.yaml
