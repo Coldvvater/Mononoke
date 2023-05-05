@@ -7,6 +7,8 @@ rules:
 
 http:
   rewrite:
+    # > 微博_每日一次的开屏广告请求@ddgksf2013
+    - ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/realtime - reject-200
     # > 微博_去除底部超话栏表层浮icon及tips@ddgksf2013
     - ^https?:\/\/api\.weibo\.cn\/\d\/!\/huati\/discovery_home_bottom_getdotinfo - reject-dict
     # > 微博_屏蔽首页左上角每日的弹窗tips@ddgksf2013
@@ -23,9 +25,33 @@ http:
     - ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? - reject-dict
 
   script:
+    # > 微博_开屏广告预加载处理@ddgksf2013
+    - match: ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/preload
+      name: weibo_json_90
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    # > 微博_未登陆状态下首页信息流处理@ddgksf2013
+    - match: ^https?:\/\/api\.weibo\.cn\/\d\/\w{5}\/(statuses_unread_hot_timeline|timeline)
+      name: weibo_json_92
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+    # > 微博_视频信息处理@ddgksf2013
+    - match: ^https?:\/\/api\.weibo\.cn\/\d\/video\/tiny_stream_mid_detail
+      name: weibo_json_96
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
     # > 微博_屏蔽发现页面搜索框热词@ddgksf2013
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/\w{5}\/cardlist
-      name: weibo_json_76
+      name: weibo_json_102
       type: response
       timeout: 30
       require-body: true
@@ -33,7 +59,7 @@ http:
 
     # > 微博_自定义tab皮肤@zmqcherish
     - match: ^https://api.weibo.cn/2/!/client/light_skin
-      name: weibo_json_84
+      name: weibo_json_110
       type: response
       timeout: 30
       require-body: true
@@ -41,7 +67,7 @@ http:
 
     # > 微博_非会员设置tab皮肤@zmqcherish
     - match: ^https://new.vip.weibo.cn/littleskin/preview
-      name: weibo_json_86
+      name: weibo_json_112
       type: response
       timeout: 30
       require-body: true
@@ -49,79 +75,79 @@ http:
 
     # > 微博_去广告以及去除各部分推广模块@zmqcherish,@ddgksf2013
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|messageflow)
-      name: weibo_json_88
+      name: weibo_json_114
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
 
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(unread_)?friends(/|_)timeline
-      name: weibo_json_89
+      name: weibo_json_115
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
 
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/groups/timeline
-      name: weibo_json_90
+      name: weibo_json_116
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
 
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline)
-      name: weibo_json_91
+      name: weibo_json_117
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
 
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/profile/(me|container_timeline)
-      name: weibo_json_92
+      name: weibo_json_118
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
 
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/video/(community_tab|remind_info|tiny_stream_video_list)
-      name: weibo_json_93
+      name: weibo_json_119
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
 
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/search/(finder|container_timeline|container_discover)
-      name: weibo_json_94
+      name: weibo_json_120
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
 
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item)
-      name: weibo_json_95
+      name: weibo_json_121
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
 
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist
-      name: weibo_json_96
+      name: weibo_json_122
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
 
-    # > 微博国际版_屏蔽searching_info@ddgksf2013
+    # > 微博国际版_屏蔽searching_info@shiro
     - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info
-      name: weibo_search_info_102
+      name: weibo_search_info_128
       type: request
       timeout: 30
       argument: |-
         type=text/json&url=https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_info.json
 
-    # > 微博国际版_屏蔽search_topic@ddgksf2013 
+    # > 微博国际版_屏蔽search_topic@shiro
     - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic
-      name: weibo_search_topic_104
+      name: weibo_search_topic_130
       type: request
       timeout: 30
       argument: |-
@@ -129,7 +155,7 @@ http:
 
     # > 微博国际版_屏蔽开屏广告@ddgksf2013 
     - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*get_coopen_ads
-      name: weibo_json_106
+      name: weibo_json_132
       type: response
       timeout: 30
       require-body: true
@@ -137,7 +163,7 @@ http:
 
     # > 微博国际版_屏蔽sdkad@ddgksf2013
     - match: ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
-      name: weibo_json_108
+      name: weibo_json_134
       type: response
       timeout: 30
       require-body: true
@@ -145,7 +171,7 @@ http:
 
     # > 微博国际版_趋势顶部Card去广告@ddgksf2013
     - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends
-      name: weibo_json_110
+      name: weibo_json_136
       type: response
       timeout: 30
       require-body: true
@@ -153,7 +179,7 @@ http:
 
     # > 微博国际版_屏蔽用户VIP栏@ddgksf2013
     - match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center
-      name: weibo_json_112
+      name: weibo_json_138
       type: response
       timeout: 30
       require-body: true
@@ -161,64 +187,31 @@ http:
 
     # > 微博国际版_热搜处理@ddgksf2013
     - match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic
-      name: weibo_json_114
+      name: weibo_json_140
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
 
   mitm:
-    - "*api.weibo*"
-    - "*uve.weibo.com"
+    - "api.weibo.*"
+    - "*.api.weibo.*"
+    - "mapi.weibo.*"
+    - "*.uve.weibo.com"
     - "new.vip.weibo.cn"
+    - "boot.biz.weibo.com"
 
 script-providers:
-  weibo_json_76:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-    interval: 86400
-  weibo_json_84:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-    interval: 86400
-  weibo_json_86:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-    interval: 86400
-  weibo_json_88:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-    interval: 86400
-  weibo_json_89:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-    interval: 86400
   weibo_json_90:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-    interval: 86400
-  weibo_json_91:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
   weibo_json_92:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  weibo_json_93:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-    interval: 86400
-  weibo_json_94:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-    interval: 86400
-  weibo_json_95:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-    interval: 86400
   weibo_json_96:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  weibo_search_info_102:
-    url: https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js
-    interval: 86400
-  weibo_search_topic_104:
-    url: https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js
-    interval: 86400
-  weibo_json_106:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-    interval: 86400
-  weibo_json_108:
+  weibo_json_102:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
   weibo_json_110:
@@ -228,5 +221,50 @@ script-providers:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
   weibo_json_114:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_115:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_116:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_117:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_118:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_119:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_120:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_121:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_122:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_search_info_128:
+    url: https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js
+    interval: 86400
+  weibo_search_topic_130:
+    url: https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js
+    interval: 86400
+  weibo_json_132:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_134:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_136:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_138:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
+  weibo_json_140:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
