@@ -15,6 +15,7 @@ IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
 
 [Url Rewrite]
 # 其他、服务器推送配置
+^https:\/\/www\.zhihu\.com\/appview\/v2\/zhmore\? - reject
 ^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config$ - reject
 ^https:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject
 ^https:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject
