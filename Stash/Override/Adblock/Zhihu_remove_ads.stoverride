@@ -22,6 +22,7 @@ http:
     # 我的页面 - 项目列表、会员卡片、更多卡片
     - ^https:\/\/api\.zhihu\.com\/me\/guides\?? - reject-dict
     - ^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card$ - reject-200
+    - ^https:\/\/www\.zhihu\.com\/ appview\/v2\/zhmore\? - reject
     # 搜索页 - 关键词、猜你想搜
     - ^https:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading$ - reject-dict
     - ^https:\/\/api\.zhihu\.com\/search\/preset_words\?? - reject-dict
