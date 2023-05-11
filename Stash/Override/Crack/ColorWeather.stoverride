@@ -1,0 +1,24 @@
+name: 彩云天气SVIP
+desc: 彩云天气会员解锁
+#!author= chxm1023
+
+http:
+  rewrite:
+    - ^https:\/\/ad\.caiyunapp\.com\/ - reject
+
+  script:
+    - match: ^https:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)
+      name: cytq
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+
+  mitm:
+    - "*.cyapi.cn"
+    - "*.caiyunapp.com"
+
+script-providers:
+  cytq:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyun.js
+    interval: 86400
