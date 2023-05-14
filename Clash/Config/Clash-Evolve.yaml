@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.05.04
+# Update Date: 2023.05.14
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -157,10 +157,7 @@ proxy-groups: # 策略组
 - {name: Microsoft, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Microsoft.png, <<: *m}
 
 # 游戏平台
-- {name: Games, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png, <<: *m}
-
-# 广告拦截
-- {name: AdBlock, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png, <<: *g, proxies: [REJECT,DIRECT]}
+- {name: Games, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Game.png, <<: *g}
 
 # 香港节点
 - {name: HongKong, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png, <<: *u, filter: "港|🇭🇰|HK|(?i)Hong"}
@@ -181,16 +178,6 @@ proxy-groups: # 策略组
 - {name: Others, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png, <<: *u, proxies: [DIRECT]}
 
 rule-providers: # 远程规则集
-
-  Unbreak: # 规则修正
-    <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml"
-    path: ./ruleset/Unbreak.yaml
-
-  Advertising: # 广告拦截
-    <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/RuleSet/Advertising.yaml"
-    path: ./ruleset/Advertising.yaml
 
   OpenAI: # OpenAI
     <<: *c
@@ -297,19 +284,22 @@ rule-providers: # 远程规则集
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml"
     path: ./ruleset/Games.yaml
 
-  ChinaMax_Domain: # 国内网站
+  China_Domain: # 国内网站
     <<: *d
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Domain.yaml"
-    path: ./ruleset/ChinaMax_Domain.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Domain.yaml"
+    path: ./ruleset/China_Domain.yaml
 
   Global_Domain: # 国外网站
     <<: *d
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.yaml"
     path: ./ruleset/Global_Domain.yaml
 
+  Lan: # 局域网
+    <<: *c
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
+    path: ./ruleset/Lan.yaml
+
 rules: # 分流规则引用
-  - RULE-SET,Unbreak,DIRECT
-  - RULE-SET,Advertising,AdBlock
   - RULE-SET,OpenAI,America
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
@@ -333,6 +323,6 @@ rules: # 分流规则引用
   - RULE-SET,Games,Games
   - RULE-SET,Global_Domain,Global
   - RULE-SET,ChinaMax_Domain,Mainland
-  - GEOIP,Lan,DIRECT
+  - RULE-SET,Lan,DIRECT
   - GEOIP,CN,Mainland
   - MATCH,Final
