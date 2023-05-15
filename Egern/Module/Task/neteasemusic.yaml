@@ -1,9 +1,0 @@
-#!name=网易云音乐签到
-#!desc=每天00:10进行签到
-
-scriptings:
-  - schedule:
-      name: 网易云音乐
-      cron: 10 0 * * *
-      script_url: "https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js"
-      body_required: false

@@ -1,9 +1,0 @@
-# OpenAI ChatGPT
-
-domain_suffix_set:
-  - ' openai.com'
-  - ' ai.com'
-  - ' challenges.cloudflare.com'
-domain_set:
-  - ' cdn.auth0.com'
-  - ' openaiapi-site.azureedge.net'

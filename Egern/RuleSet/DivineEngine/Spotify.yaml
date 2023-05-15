@@ -1,9 +1,0 @@
-# > Spotify (声田分流)
-domain_keyword_set:
-  - spotify.com
-  - '-spotify-com'
-domain_suffix_set:
-  - pscdn.co
-  - scdn.co
-  - spotify.com
-  - spoti.fi
