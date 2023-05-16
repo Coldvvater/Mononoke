@@ -181,125 +181,77 @@ proxy-groups: # 策略组
 
 rule-providers: # 远程规则集
 
-  OpenAI: # OpenAI
-    <<: *d
-    url: "https://rules.kr328.app/openai.yaml"
-    path: ./ruleset/OpenAI.yaml
+# OpenAI
+ OpenAI: {<<: *d, path: ./ruleset/OpenAI.yaml, url: https://rules.kr328.app/openai.yaml}
 
-  YouTube: # 油管视频
-    <<: *d
-    url: "https://rules.kr328.app/youtube.yaml"
-    path: ./ruleset/YouTube.yaml
+# 油管视频
+ YouTube: {<<: *d, path: ./ruleset/YouTube.yaml, url: https://rules.kr328.app/youtube.yaml}
 
-  Netflix: # 奈飞视频
-    <<: *d
-    url: "https://rules.kr328.app/netflix.yaml"
-    path: ./ruleset/Netflix.yaml
+# 奈飞视频
+ Netflix: {<<: *d, path: ./ruleset/Netflix.yaml, url: https://rules.kr328.app/netflix.yaml}
 
-  Disney: # 迪士尼+
-    <<: *d
-    url: "https://rules.kr328.app/disney.yaml"
-    path: ./ruleset/Disney.yaml
+# 迪士尼+
+ Disney: {<<: *d, path: ./ruleset/Disney.yaml, url: https://rules.kr328.app/disney.yaml}
 
-  Emby: # Emby
-    <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.yaml"
-    path: ./ruleset/Emby.yaml
+# Emby
+ Emby: {<<: *c, path: ./ruleset/Emby.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.yaml}
 
-  Bahamut: # 动画疯
-    <<: *d
-    url: "https://rules.kr328.app/bahamut.yaml"
-    path: ./ruleset/Bahamut.yaml
+# 动画疯
+ Bahamut: {<<: *d, path: ./ruleset/Bahamut.yaml, url: https://rules.kr328.app/bahamut.yaml}
 
-  BiliIntl: # 哔哩哔哩东南亚
-    <<: *d
-    url: "https://rules.kr328.app/bilibili@%21cn.yaml"
-    path: ./ruleset/BiliIntl.yaml
+# 哔哩哔哩东南亚
+ BiliIntl: {<<: *d, path: ./ruleset/BiliIntl.yaml, url: https://rules.kr328.app/bilibili@%21cn.yaml}
 
-  BiliBili: # 哔哩哔哩
-    <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml"
-    path: ./ruleset/BiliBili.yaml
+# 哔哩哔哩
+ BiliBili: {<<: *c, path: ./ruleset/BiliBili.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml}
 
-  Spotify: # 声田音乐
-    <<: *d
-    url: "https://rules.kr328.app/spotify.yaml"
-    path: ./ruleset/Spotify.yaml
+# 声田音乐
+ Spotify: {<<: *d, path: ./ruleset/Spotify.yaml, url: https://rules.kr328.app/spotify.yaml}
 
-  NetEaseMusic: # 网易云音乐
-    <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic.yaml"
-    path: ./ruleset/NetEaseMusic.yaml
+# 网易云音乐
+ NetEaseMusic: {<<: *c, path: ./ruleset/NetEaseMusic.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic.yaml}
 
-  TikTok: # 海外抖音
-    <<: *d
-    url: "https://rules.kr328.app/tiktok.yaml"
-    path: ./ruleset/TikTok.yaml
+# 海外抖音
+ TikTok: {<<: *d, path: ./ruleset/TikTok.yaml, url: https://rules.kr328.app/tiktok.yaml}
 
-  GlobalMedia_Domain: # 国际媒体
-    <<: *d
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml"
-    path: ./ruleset/GlobalMedia_Domain.yaml
+# 国际媒体
+ GlobalMedia_Domain: {<<: *d, path: ./ruleset/GlobalMedia_Domain.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml}
 
-  Telegram: # 电报信息
-    <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml"
-    path: ./ruleset/Telegram.yaml
+# 电报信息
+ Telegram: {<<: *c, path: ./ruleset/Telegram.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml}
 
-  GitHub: # GitHub
-    <<: *d
-    url: "https://rules.kr328.app/github.yaml"
-    path: ./ruleset/GitHub.yaml
+# GitHub
+ GitHub: {<<: *d, path: ./ruleset/GitHub.yaml, url: https://rules.kr328.app/github.yaml}
 
-  Bing: # 必应搜索
-    <<: *d
-    url: "https://rules.kr328.app/bing.yaml"
-    path: ./ruleset/Bing.yaml
+# 必应搜索
+ Bing: {<<: *d, path: ./ruleset/Bing.yaml, url: https://rules.kr328.app/bing.yaml}
 
-  Twitter: # Twitter
-    <<: *d
-    url: "https://rules.kr328.app/twitter.yaml"
-    path: ./ruleset/Twitter.yaml
+# Twitter
+ Twitter: {<<: *d, path: ./ruleset/Twitter.yaml, url: https://rules.kr328.app/twitter.yaml}
 
-  TestFlight: # TestFlight
-    <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.yaml"
-    path: ./ruleset/TestFlight.yaml
+# TestFlight
+ TestFlight: {<<: *c, path: ./ruleset/TestFlight.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.yaml}
 
-  Apple: # 苹果服务
-    <<: *d
-    url: "https://rules.kr328.app/apple.yaml"
-    path: ./ruleset/Apple.yaml
+# 苹果服务
+ Apple: {<<: *d, path: ./ruleset/Apple.yaml, url: https://rules.kr328.app/apple.yaml}
 
-  Google: # 谷歌服务
-    <<: *d
-    url: "https://rules.kr328.app/google.yaml"
-    path: ./ruleset/Google.yaml
+# 谷歌服务
+ Google: {<<: *d, path: ./ruleset/Google.yaml, url: https://rules.kr328.app/google.yaml}
 
-  Microsoft: # 微软服务
-    <<: *d
-    url: "https://rules.kr328.app/microsoft.yaml"
-    path: ./ruleset/Microsoft.yaml
+# 微软服务
+ Microsoft: {<<: *d, path: ./ruleset/Microsoft.yaml, url: https://rules.kr328.app/microsoft.yaml}
 
-  Games: # 游戏平台
-    <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml"
-    path: ./ruleset/Games.yaml
+# 游戏平台
+ Games: {<<: *c, path: ./ruleset/Games.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml}
 
-  China_Domain: # 国内网站
-    <<: *d
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Domain.yaml"
-    path: ./ruleset/China_Domain.yaml
+# 国内网站
+ China_Domain: {<<: *d, path: ./ruleset/China_Domain.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Domain.yaml}
 
-  Global_Domain: # 国外网站
-    <<: *d
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.yaml"
-    path: ./ruleset/Global_Domain.yaml
+# 国外网站
+ Global_Domain: {<<: *d, path: ./ruleset/Global_Domain.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.yaml}
 
-  Lan: # 局域网
-    <<: *c
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
-    path: ./ruleset/Lan.yaml
+# 局域网
+ Lan: {<<: *c, path: ./ruleset/Lan.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml}
 
 rules: # 分流规则引用
   - RULE-SET,OpenAI,America
