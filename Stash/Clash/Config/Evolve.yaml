@@ -3,7 +3,7 @@
 # GitHub主页: https://github.com/Coldvvater
 # Update Date: 2023.05.16
 
-
+# > 自选GEOIP库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
