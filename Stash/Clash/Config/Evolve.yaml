@@ -1,7 +1,9 @@
 # Clash/Premium/Meta/Stash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.05.15
+# Update Date: 2023.05.16
+
+
 
 subscribe-url: 填上你的订阅链接
 # 替换上面文字用于Stash获取机场流量信息并在主页显示
@@ -307,12 +309,12 @@ rules: # 分流规则引用
   - RULE-SET,Emby,Emby
   - RULE-SET,Bahamut,TaiWan
   - RULE-SET,BiliIntl,Streaming
-  - RULE-SET,BiliBili,BiliBili
+  - RULE-SET,BiliBili,BiliBili,no-resolve
   - RULE-SET,Spotify,Spotify
-  - RULE-SET,NetEaseMusic,NetEaseMusic
+  - RULE-SET,NetEaseMusic,NetEaseMusic,no-resolve
   - RULE-SET,TikTok,TikTok
   - RULE-SET,GlobalMedia_Domain,Streaming
-  - RULE-SET,Telegram,Telegram
+  - RULE-SET,Telegram,Telegram,no-resolve
   - RULE-SET,GitHub,Global
   - RULE-SET,Bing,Global
   - RULE-SET,Twitter,Global
@@ -320,7 +322,7 @@ rules: # 分流规则引用
   - RULE-SET,Apple,Apple
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,Games,Games
+  - RULE-SET,Games,Games,no-resolve
   - RULE-SET,Global_Domain,Global
   - RULE-SET,China_Domain,Mainland
   - RULE-SET,Lan,DIRECT
