@@ -92,10 +92,7 @@ u: &u {type: select, use: [MySubs]}
 # 订阅引用相关
 
 proxy-providers: # 远程订阅
-  MySubs: &MySubs
-    <<: *p
-    url: ""
-    path: ./proxy_providers/mysubs.yaml
+  MySubs: {<<: *p, path: ./proxy_providers/mysubs.yaml, url: ""
 # 1. 请使用Clash类型订阅链接填入引号""内使用,
 # 2. 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
 
