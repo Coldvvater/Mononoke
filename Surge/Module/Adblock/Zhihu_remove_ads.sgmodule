@@ -15,6 +15,7 @@ IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
 
 [Url Rewrite]
 # 其他、服务器推送配置
+^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card$ - reject
 ^https:\/\/www\.zhihu\.com\/appview\/v2\/zhmore\? - reject
 ^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config$ - reject
 ^https:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject
@@ -52,7 +53,6 @@ Zhihu_remove_ads_11 = type=http-response, pattern=^https:\/\/m-cloud\.zhihu\.com
 
 # 我的页面 - 项目列表、会员卡片、更多卡片
 ^https:\/\/api\.zhihu\.com\/me\/guides\?? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
 
 # 搜索页 - 关键词、猜你想搜
 ^https:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
