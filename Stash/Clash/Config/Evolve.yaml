@@ -1,7 +1,7 @@
 # Clash/Premium/Meta/Stash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.05.18
+# Update Date: 2023.05.19
 
 # 自选GEOIP库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -264,6 +264,6 @@ rules: # 分流规则引用
   - GEOIP,telegram,Telegram
   - GEOIP,netflix,NETFLIX
   - RULE-SET,China_Domain,Mainland
-  - GEOIP,private,DIRECT
+  - GEOIP,LAN,DIRECT
   - GEOIP,CN,Mainland
   - MATCH,Final
