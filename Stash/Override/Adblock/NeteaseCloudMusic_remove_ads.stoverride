@@ -1,44 +1,50 @@
 name: 网易云音乐去广告
 desc: 过滤网易云音乐广告
 #!author = Keywos RuCu6 kokoryh
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/QuantumultX/Rewrite
 
 rules:
   - DOMAIN,iadmusicmat.music.126.net,REJECT
   - DOMAIN,iadmat.nosdn.127.net,REJECT
   - DOMAIN,iadmatapk.nosdn.127.net,REJECT
-  - DOMAIN,iadmusicmatvideo.music.126.net,REJECT
   - DOMAIN,httpdns.n.netease.com,REJECT
   - DOMAIN,gdt.qq.com,REJECT
   - DOMAIN-SUFFIX,163jiasu.com,REJECT
 
 http:
+  force-http-engine:
+    - "59.111.*:0"
+    - "iadmusicmatvideo.music.126.net"
+
+  header-rewrite:
+    #摸鱼你偷呀(
+#    - #^https?:\/\/interface3?\.music\.163\.com\/eapi\/(batch|ad) request-replace-regex cookie os=iPhone\sOS os=osx
+    #^https?:\/\/interface3?\.music\.163\.com\/eapi\/(batch|ad) header-replace-regex cookie os=iPhone\sOS os=osx
+#    - #^https?:\/\/interface3?\.music\.163\.com\/eapi\/(batch|ad) request-replace user-agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) NeteaseMusicDesktop/2.3.14.999
+    #^https?:\/\/interface3?\.music\.163\.com\/eapi\/(batch|ad) header-replace user-agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) NeteaseMusicDesktop/2.3.14.999
+    - ^https?:\/\/interface3?\.music\.163\.com\/eapi\/batch request-replace-regex cookie appver=.+$ appver=2333
+
   rewrite:
-    # 开屏广告、首页顶部横幅广告
-    - ^https?:\/\/interface3?\.music\.163.com\/eapi\/ad\/.* - reject-dict
-    # 搜索页、填充词、排行榜
-    - ^https?:\/\/interface3?\.music\.163.com\/eapi\/search\/(chart\/(detail|list)$|default\/keyword\/list\?|rcmd\/keyword\/get\/v2$|specialkeyword\/get\?) - reject-dict
-    # 播放页、多余图标、各种小提示、高品质音乐试用弹窗
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(link\/position\/show\/(resource|strategy)|music\/songshare\/text\/recommend\/get)\? - reject-dic
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get\? - reject-dict
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/mlog\/vinyl\/story\/list\? - reject-dict
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get)\? - reject-dict
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/zone\/songplay\/entry\/get\? - reject-dict
-    - ^https?:\/\/interface3\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get\? - reject-dict
-    # 评论页、回复广告、星评馆
-    - ^https?:\/\/interface3\.music\.163\.com\/eapi\/comment\/(hotcomment\/collect\/fetchmodelinfov2|feed\/inserted\/resources|tips\/v2\/get)\? - reject-dict
-    - ^https?:\/\/interface3\.music\.163\.com\/eapi\/v1\/content\/exposure\/comment\/banner\/get\? - reject-dict
-    # 首页、右上角多余图标、会员续费弹窗、侧边栏推广
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource)\? - reject-dict
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle)\? - reject-dict
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver)\? - reject-dict
-    # 我的页面、小部件红点
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/mine\/applet\/redpoint\? - reject-dict
-    # 播客、弹出广告
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/voice\/play\/page\/ad\/info\? - reject-dict
-    # 歌单页、横幅广告
-    - ^https:\/\/interface\.music\.163\.com\/weapi\/middle\/clientcfg\/config\/list\? - reject-dict
-    - ^https:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config)\? - reject-dict
+    # surge-host
+    - ^https?:\/\/httpdns.n.netease.com\/ - reject
+
+    - ^http:\/\/iadmusicmatvideo\.music\.126\.net - reject-200
+
+    - ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(community\/friends\/fans-group\/artist\/group\/get|user\/sub\/artist|music\/songshare\/text\/recommend\/get|mine\/applet\/redpoint|resniche\/position\/play\/new\/get) - reject-dict
+    # (评论区｜评论右上角热评馆｜播放页评论)｜回复
+    - ^https?:\/\/interface3?\.music\.163.com\/eapi\/(comment\/(feed\/inserted|hotcomment\/collect|tips\/v2\/get)|v\d\/content\/exposure\/comment\/banner) - reject-dict
+    # 播放页live或直播｜(首页免或vip图标｜小提示)
+    - ^https?:\/\/interface3?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|link\/(position\/show\/(strategy|resource)|scene\/show)) - reject-dict
+    # 黑胶弹窗｜会员试用
+    - ^https?:\/\/interface3?\.music\.163.com\/eapi\/(ad|vipcenter\/tspopup\/get|vipauth\/app\/auth|music-vip-membership\/client\/vip\/info|zone\/songplay\/entry\/get) - reject-dict
+    # 搜索页热搜卡片｜猜你喜欢｜我的应用下方提醒
+    - ^https?:\/\/interface3?\.music\.163.com\/w?e?api\/(search\/(chart|default|rcmd\/keyword|specialkeyword)|(resource-exposure\/|middle\/clientcfg\/config)|activity\/bonus\/playpage\/time\/query) - reject-dict
+    # 侧边栏
+    - ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver) - reject-dict
 
   mitm:
-    - "interface*.music.163.com"
+    - "59.111.*"
+    - "112.13.119.52"
+    - "117.147.199.59"
+    - "interface*.music.163.com:0"
+    - "httpdns.n.netease.com"
+    - "*.163jiasu.com"
