@@ -1,5 +1,6 @@
 name: ChatGPT Plus解锁
 desc: ChatGPT 解锁 Plus 订阅
+# author: @Hausd0rff
 
 http:
   script:
