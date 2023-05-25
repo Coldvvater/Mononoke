@@ -1,7 +1,7 @@
 name: ChatGPT Plus解锁
 desc: ChatGPT 解锁 Plus 订阅
 # author: @Hausd0rff
-
+# PS: 聊以自慰，没实际作用。
 http:
   script:
     - match: ^https?:\/\/ios\.chat\.openai\.com\/backend-api\/(accounts\/check\/|models)
