@@ -1,7 +1,7 @@
 #!name=微信读书
 #!desc=增加微信读书免费时长
-#!作者：@R-E 仓库：https://github.com/I-am-R-E/QuantumultX/tree/main
-#!开MitM能够使用,不开失效是因为没匹配到hostname,这种情况请反馈
+#!author=R-E
+#!仅旧版微信读书有效
 
 [Script]
 微信读书 = type=http-response,pattern=^https?:\/\/i\.weread\.qq\.com\/pay\/memberCardSummary,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/WeRead.js
