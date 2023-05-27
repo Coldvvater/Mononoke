@@ -1,5 +1,6 @@
 #!name=克拉壁纸
 #!desc=克拉壁纸解锁订阅
+#!author=yqc007
 
 [Script]
 克拉壁纸解锁 = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js
