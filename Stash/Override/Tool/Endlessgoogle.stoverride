@@ -1,5 +1,6 @@
 name: Google无缝翻页
 desc: 谷歌网页搜索自动无缝翻页
+# author: tumpio
 
 http:
   mitm:
