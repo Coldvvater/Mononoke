@@ -1,9 +1,9 @@
-# Clash/Premium/Meta/Stash Config Make by Coldvvater
+# Stash/Clash/(Premium/Meta) Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
-# GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.05.25
+# GitHub: https://github.com/Coldvvater
+# Update Date: 2023.05.29
 
-# 自选GEOIP库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
+# 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
 subscribe-url:        # 填上你的订阅链接用于Stash获取机场流量信息并在主页显示
 
