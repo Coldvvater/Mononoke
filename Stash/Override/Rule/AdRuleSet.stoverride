@@ -2,12 +2,12 @@ name: 去广告规则
 desc: 分流去广告
 
 rule-providers:
-  Adblock:
+  anti-AD:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
-    path: ./ruleset/Adblock.yaml
+    path: ./ruleset/anti-ad-clash.yaml
     interval: 86400
 
 rules:
-  - RULE-SET,Adblock,REJECT
+  - RULE-SET,anti-AD,REJECT
