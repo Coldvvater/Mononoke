@@ -4,8 +4,8 @@ desc: 分流去广告
 rule-providers:
   Adblock:
     type: http
-    behavior: domain-text
-    url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
+    behavior: domain
+    url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
     path: ./ruleset/Adblock.yaml
     interval: 86400
 
