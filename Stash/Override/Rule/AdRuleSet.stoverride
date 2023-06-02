@@ -5,7 +5,7 @@ rule-providers:
   Adblock:
     type: http
     behavior: domain-text
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
+    url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
     path: ./ruleset/Adblock.yaml
     interval: 86400
 
