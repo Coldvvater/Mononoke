@@ -1,0 +1,13 @@
+name: 去广告规则
+desc: 分流去广告
+
+rule-providers:
+  Adblock:
+    type: http
+    behavior: domain-text
+    url: "https://anti-ad.net/surge.txt"
+    path: ./ruleset/Adblock.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,Adblock-Domain,REJECT
