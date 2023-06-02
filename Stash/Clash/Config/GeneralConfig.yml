@@ -1,70 +1,51 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub主页: https://github.com/Coldvvater
-# Update Date: 2023.05.15
+# Update Date: 2023.06.02
 
-mixed-port: 7890
-# 本地混合代理(http和socks5合并）端口
-allow-lan: true
-# 允许局域网连接(false/true)
-bind-address:
-# 监听IP白名单（当allow-lan：true），只允许列表设备
-  '*'
-# 全部设备
-# 192.168.122.11
-# 单个ip4地址
-# "[aaaa::a8aa:ff:fe09:57d8]"
-# 单个ip6地址
-mode: rule
-# clash工作模式（rule/global/direct）
-log-level: info
-# 日志等级（info/warning/error/debug/silent）
-ipv6: true
-# IP6解析开关；如果为false，将返回ip6结果为空
-external-controller: 127.0.0.1:9090
-# 控制器监听地址
+mixed-port: 7890      # 混合端口，HTTP和SOCKS5用一个端口
+allow-lan: true       # 允许局域网的连接（共享代理）
+bind-address: "*"     # 监听IP白名单，可绑定单个IPv4和v6地址，"*" 为绑定所有IP地址，仅在将allow-lan设置为true时适用
+                      
+
+ipv6: true            # 开启 IPv6 总开关，关闭阻断所有 IPv6 链接和屏蔽 DNS 请求 AAAA 记录
+mode: rule            # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
+log-level: info       # 设置日志输出级别 (5 个级别：silent / error / warning / info / debug）
+
+external-controller: 127.0.0.1:9090   # 外部控制器监听地址，可以使用 RESTful API 来控制你的 clash 内核
+
 dns:
-# DNS模块设置
-  enable: true
-# DNS开关(false/true)
-  listen: 0.0.0.0:1053
-# DNS监听地址
-  ipv6: true
-# IP6解析开关；如果为false，将返回ip6结果为空
-  default-nameserver:
-# 解析非IP的dns用的dns服务器,只支持纯IP
-    - 223.5.5.5
-    - 119.29.29.29
-    - 114.114.114.114
-  enhanced-mode: fake-ip
-# DNS模式(redir-host/fake-ip)
-  fake-ip-range: 198.18.0.1/16
-# Fake-IP解析地址池
-  fake-ip-filter:
-# Fake-ip过滤，列表中的域名返回真实ip
+  enable: true             # 关闭将使用系统 DNS
+  ipv6: true               # IPV6解析开关；如果为false，将返回ipv6结果为空
+  enhanced-mode: fake-ip   # 模式：redir-host或fake-ip
+  listen: 0.0.0.0:1053     # DNS 监听地址
+  default-nameserver:      # 解析非IP的dns用的dns服务器，只支持纯IP，（可为其加密）
+     - 223.5.5.5
+     - 119.29.29.29
+     - 114.114.114.114
+
+  fake-ip-range: 198.18.0.1/16  # Fake-IP 解析地址池
+  fake-ip-filter:               # Fake-ip 过滤，列表中的域名返回真实IP
     - '+.lan'
-# Local Area Network
-    - '+.stun.*.*'
-# Stun Services
-    - '+.stun.*.*.*'
-    - '+.stun.*.*.*.*'
-    - '+.stun.*.*.*.*.*'
+    - localhost.ptlogin2.qq.com
+    - '*.battle.net'
+    - '*.blzstatic.cn'
+    - '*.battlenet.com'
+    - '*.battlenet.com.cn'
     - 'lens.l.google.com'
-# Google Voices
-    - '*.n.n.srv.nintendo.net'
-# Nintendo Switch
+    - '+.srv.nintendo.net'
     - '+.stun.playstation.net'
-# PlayStation
+    - '+.msftncsi.com'
+    - '+.xboxlive.com'
+    - 'msftconnecttest.com'
     - 'xbox.*.*.microsoft.com'
-# XBox
-    - '*.*.xboxlive.com'
-# Microsoft
+    - 'xbox.*.microsoft.com'         
+    - '+.msftconnecttest.com'
     - '*.msftncsi.com'
     - '*.msftconnecttest.com'
-# Bilibili CDN
     - '*.mcdn.bilivideo.cn'
-  nameserver:
-# 默认DNS服务器，支持udp/tcp/dot/doh/doq
+
+  nameserver:                    # 默认DNS服务器，支持udp/tcp/dot/doh/doq
     - https://223.5.5.5/dns-query
     - https://1.12.12.12/dns-query
 
