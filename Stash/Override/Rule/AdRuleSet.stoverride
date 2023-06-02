@@ -1,5 +1,5 @@
 name: 去广告规则
-desc: 分流去广告
+desc: 分流去广告(或存在误杀，谨慎使用)
 
 rule-providers:
   anti-AD:
