@@ -10,4 +10,4 @@ rule-providers:
     interval: 86400
 
 rules:
-  - RULE-SET,Adblock-Domain,REJECT
+  - RULE-SET,Adblock,REJECT
