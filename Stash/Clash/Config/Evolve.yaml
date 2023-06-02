@@ -1,7 +1,7 @@
 # Stash/Clash/(Premium/Meta) Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.05.29
+# Update Date: 2023.06.02
 
 # 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -53,13 +53,24 @@ dns:
     - https://223.5.5.5/dns-query
     - https://1.12.12.12/dns-query
 
+# 此处为修正 Stash 因从 WiFi 切换至蜂窝网络时 DNS 无法及时更新而导致 fake-ip 失效某些网站无法打开问题
+# 请在 Stash APP 的设置页面 "网络设置" 中开启 "Fallback DNS" 以使用此功能
+  fallback: #!replace
+    - https://dns.alidns.com/dns-query
+
+  fallback-filter: 
+    geoip: false
+    geoip-code: CN
+
+    ipcidr:
+      - '198.18.0.1/16'
+
 ###锚点###
 
 # 规则行为相关
 c: &c {type: http, behavior: classical, interval: 86400}
 
-d: &d {type: http, behavior: domain, interval: 86400}
-
+d: &d {type: http, behavior: domain, interval: 8640
 # 远程订阅相关
 p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://www.apple.com/library/test/success.html, interval: 300}}
 
@@ -234,6 +245,7 @@ rule-providers: # 远程规则集
  Global_Domain: {<<: *d, path: ./ruleset/Global_Domain.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Domain.yaml}
 
 rules: # 分流规则引用
+  - DOMAIN,dns.alidns.com,DIRECT
   - RULE-SET,Private,DIRECT
   - RULE-SET,OpenAI,America
   - RULE-SET,YouTube,YouTube
