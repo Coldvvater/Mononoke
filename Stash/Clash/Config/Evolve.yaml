@@ -64,7 +64,7 @@ dns:
     ipcidr:
       - '198.18.0.1/16'
 
-###锚点###
+###锚点
 
 # 规则行为相关
 c: &c {type: http, behavior: classical, interval: 86400}
