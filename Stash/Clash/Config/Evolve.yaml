@@ -168,7 +168,7 @@ proxy-groups:    # 代理组
  - {name: America, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png, <<: *u, filter: "美|🇺🇲|US|(?i)States|American"}
 
 # 其他节点
- - {name: Others, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png, <<: *u}
+ - {name: Others, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png, <<: *u, filter: "^((?!香港|HK|Hong Kong|台湾|TW|TaiWan|新加坡|SG|Singapore|狮城|日本|JP|Japan|美国|US|States|American|Music).)*$"}
 
 rule-providers: # 远程规则集
 
