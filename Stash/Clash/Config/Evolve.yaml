@@ -5,7 +5,7 @@
 
 # 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
-subscribe-url:        # 填上你的订阅链接用于Stash获取机场流量信息并在主页显示
+# subscribe-url:      # 填上你的订阅链接用于Stash获取机场流量信息并在主页显示
 
 mixed-port: 7890      # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true       # 允许局域网的连接（共享代理）
