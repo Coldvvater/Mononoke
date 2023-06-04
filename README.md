@@ -90,6 +90,7 @@ Coldvvater 对任何本仓库中包含的脚本在使用中可能出现的问题
 * [lodepuly](https://gitlab.com/lodepuly/vpn_tool/-/tree/main) 
 * [kokoryh](https://github.com/kokoryh/Script/tree/master/Surge/module) 
 * [RuCu6](https://github.com/RuCu6/QuanX) 
+* [Repcz](https://github.com/Repcz)
 
 </details>
 
