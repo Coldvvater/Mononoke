@@ -1,5 +1,7 @@
 name: YouTube去广告
 desc: 去除 YouTube 广告 (IOS >= 15)
+# author: Maasea
+# Credit: Choler、DivineEngine、app2smile
 
 # > Feature
 # 删除 瀑布流、视频、搜索中出现的广告和Shorts
@@ -9,31 +11,38 @@ desc: 去除 YouTube 广告 (IOS >= 15)
 # 增加 自动翻译 (Thanks @VirgilClyne)
 
 # > Note
-# 广告信息会有遗漏，可能偶现广告
 # 该模块已足够全面，无需其他规则混用，防止重写规则被破坏
 # 不支持 Mock 的客户端可以用 reject-200/reject-img 替代
-
-# > author
-# @Maasea
-# > Credit 
-# @Choler & @DivineEngine & @app2smile
 
 http:
   rewrite:
     - ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-img
+
   script:
-    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\?
-      name: YouTubeAds
-      type: response
-      require-body: true
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\?
+      name: youtube_request
+      type: request
       timeout: 30
-      binary-mode: true
+      require-body: true
       max-size: 3145728
+      binary-mode: true
+
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\?
+      name: youtube_response
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: true
+
   mitm:
     - "*.googlevideo.com"
     - "youtubei.googleapis.com"
 
 script-providers:
-  YouTubeAds:
-    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
+  youtube_request:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.request.beta.js
+    interval: 86400
+  youtube_response:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.beta.js
     interval: 86400
