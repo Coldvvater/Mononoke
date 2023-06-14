@@ -34,6 +34,7 @@ http:
     - ^https:\/\/appcloud2\.zhihu\.com\/v3\/resource\?group_name=mp$ - reject-dict
     # 网页版去广告 //www.zhihu.com、 zhuanlan.zhihu.com
     - ^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? - reject-dict
+    - ^https:\/\/www\.zhihu\.com\/api\/v4\/mcn\/v2\/linkcards\? - reject
     - ^https:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject
     - ^https:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject
     - ^https:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject
