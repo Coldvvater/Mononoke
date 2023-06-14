@@ -4,7 +4,6 @@ desc: 定时获取最新黑料（NSFW）
 
 cron:
   script:
-    # B站每日等级任务
     - name: hlbdy
       cron: "0 9,15 * * *"
       timeout: 60
