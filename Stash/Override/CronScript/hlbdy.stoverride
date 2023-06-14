@@ -1,0 +1,14 @@
+name: 黑料不打烊
+desc: 定时获取最新黑料（NSFW）
+# author: Yuheng
+
+cron:
+  script:
+    # B站每日等级任务
+    - name: hlbdy
+      cron: "0 9,15 * * *"
+      timeout: 60
+
+script-providers:
+  hlbdy:
+    url: https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js
