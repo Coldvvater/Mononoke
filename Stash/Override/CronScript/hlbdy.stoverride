@@ -12,3 +12,4 @@ cron:
 script-providers:
   hlbdy:
     url: https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js
+    interval: 86400
