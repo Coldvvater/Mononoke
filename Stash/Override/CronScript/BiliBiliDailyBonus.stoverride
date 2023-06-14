@@ -15,13 +15,13 @@ http:
   script:
     # B站Cookie(APP)
     - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?
-      name: BiliBiliDailyBonus_1
+      name: BiliBiliDailyBonus_15
       type: request
       timeout: 30
 
     # B站Cookie(网页)
     - match: ^https?:\/\/m.bilibili.com/$
-      name: BiliBiliDailyBonus_2
+      name: BiliBiliDailyBonus_17
       type: request
       timeout: 30
 
@@ -40,9 +40,9 @@ script-providers:
   BiliBiliDailyBonus:
     url: https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js
     interval: 86400
-  BiliBiliDailyBonus_1:
+  BiliBiliDailyBonus_15:
     url: https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js
     interval: 86400
-  BiliBiliDailyBonus_2
+  BiliBiliDailyBonus_17:
     url: https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js
     interval: 86400
