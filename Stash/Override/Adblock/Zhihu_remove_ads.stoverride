@@ -89,7 +89,7 @@ http:
         "recommend_queries":\{.+\}->"recommend_queries":{}
 
     # 回答详情页、下一个回答
-    - match: ^https:\/\/api\.zhihu\.com\/next-data\?
+    - match: ^https:\/\/api\.zhihu\.com\/next-(bff|data|render)\?
       name: Zhihu_remove_ads_7
       type: response
       timeout: 30
