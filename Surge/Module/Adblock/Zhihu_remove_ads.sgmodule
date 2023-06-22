@@ -38,7 +38,7 @@ Zhihu_remove_ads_5 = type=http-response, pattern=^https:\/\/www\.zhihu\.com\/app
 replaceBody_6 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js, timeout=60, argument=""recommend_queries":\{.+\}->"recommend_queries":{}"
 
 # 回答详情页、下一个回答
-Zhihu_remove_ads_7 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/next-data\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
+Zhihu_remove_ads_7 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/next-(bff|data|render)\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
 Zhihu_remove_ads_8 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+\/(feeds|answers)\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
 Zhihu_remove_ads_9 = type=http-response, pattern=^https:\/\/www\.zhihu\.com\/api\/v4\/(answers|articles)\/\d+\/recommendations?\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
 
