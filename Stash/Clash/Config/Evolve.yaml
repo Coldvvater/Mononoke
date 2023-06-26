@@ -77,7 +77,7 @@ hosts:
   "alt6-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
   "alt7-mtalk.google.com": "74.125.200.188" # Firebase Cloud Messaging
   "alt8-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
-  # > APP Store下载加速
+  # > APP Store Download acceleration
   "token.safebrowsing.apple": "17.253.85.207"
   "proxy.safebrowsing.apple": "17.253.85.208"
   "iosapps.itunes.apple.com": "17.253.85.201"
@@ -106,10 +106,10 @@ m: &m {type: select, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, TaiWan, 
 proxies:   # 本地服务器
 
 # 订阅引用相关
-u: &u {type: select, use: [MySubs]}
+u: &u {type: select, use: [Subscribe]}
 
 proxy-providers: # 远程订阅
-  MySubs: {<<: *p, path: ./proxy_providers/mysubs.yaml, url: ""}
+  Subscribe: {<<: *p, path: ./proxy_providers/subscribe.yaml, url: ""}
 # 1. 请使用Clash类型订阅链接填入引号""内使用,
 # 2. 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
 
