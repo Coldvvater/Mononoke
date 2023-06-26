@@ -268,7 +268,6 @@ rule-providers: # 远程规则集
  Global_Domain: {<<: *d, path: ./ruleset/Global_Domain.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Domain.yaml}
 
 rules: # 分流规则引用
-  - DOMAIN,dns.alidns.com,DIRECT
   - RULE-SET,Private,DIRECT
   - RULE-SET,OpenAI,America
   - RULE-SET,YouTube,YouTube
