@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.06.24
+# Update Date: 2023.06.28
 
 # 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -51,43 +51,6 @@ dns:
     - https://223.5.5.5/dns-query
     - https://1.12.12.12/dns-query
 
-hosts:
-# '*.clash.dev': 127.0.0.1
-# '.dev': 127.0.0.1
-# 'alpha.clash.dev': '::1'
-# test.com: [1.1.1.1, 2.2.2.2]
-# clash.lan: clash # clash 为特别字段，将加入本地所有网卡的地址
-# baidu.com: google.com # 只允许配置一个别名
-  # > IPv6
-  "ip6-localhost": "::1" # IPv6 Localhost
-  "ip6-loopback": "::1" # IPv6 Loopback
-  "ip6-localnet": "fe00::0" # IPv6 Link-Local
-  "ip6-mcastprefix": "ff00::0" # IPv6 Multicast
-  "ip6-allnodes": "ff02::1" # IPv6 All Nodes
-  "ip6-allrouters": "ff02::2" # IPv6 All Routers
-  "ip6-allhosts": "ff02::3" # IPv6 All Hosts
-  # > Firebase Cloud Messaging
-  "talk.google.com": "108.177.125.188" # Firebase Cloud Messaging
-  "mtalk.google.com": "108.177.125.188" # Firebase Cloud Messaging
-  "alt1-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
-  "alt2-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
-  "alt3-mtalk.google.com": "74.125.200.188" # Firebase Cloud Messaging
-  "alt4-mtalk.google.com": "74.125.200.188" # Firebase Cloud Messaging
-  "alt5-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
-  "alt6-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
-  "alt7-mtalk.google.com": "74.125.200.188" # Firebase Cloud Messaging
-  "alt8-mtalk.google.com": "3.3.3.3" # Firebase Cloud Messaging
-  # > APP Store Download acceleration
-  "token.safebrowsing.apple": "17.253.85.207"
-  "proxy.safebrowsing.apple": "17.253.85.208"
-  "iosapps.itunes.apple.com": "17.253.85.201"
-  "iosapps.itunes.g.aaplimg.com": "17.253.85.206"
-  "k128-iosapps-all.gslb.ksyuncdn.com": "17.253.85.201"
-  "iosapps.itunes.apple.com.m.alikunlun.net": "17.253.85.201"
-  "iosapps.itunes.apple.com.download.ks-cdn.com": "17.253.85.201"
-  #"hls.itunes.apple.com.mwcname.com": 17.253.85.201"
-  "iosapps-cn-lb.dl-apple.com.akadns.net": "17.253.85.201"
-
 ###锚点###
 
 # 规则行为相关
@@ -101,7 +64,6 @@ p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://www
 g: &g {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
 
 m: &m {type: select, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
-
 
 proxies:   # 本地服务器
 
