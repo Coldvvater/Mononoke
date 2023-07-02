@@ -1,4 +1,4 @@
-name: 机场流量信息面板
+name: 机场流量信息 Tile 磁贴
 desc: 显示机场剩余流量信息以及套餐到期日期
 # 搭配boxjs使用：BoxJS订阅以下地址: https://raw.githubusercontent.com/smartmimi/conf/master/boxjs/cookie.boxjs.json, 添加"机场流量", 并按提示填写订阅链接等参数
 
