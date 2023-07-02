@@ -1,4 +1,4 @@
-name: 新冠疫情查询 Tile 面板
+name: 新冠疫情查询 Tile 磁贴
 desc: 新冠疫情查询，搭配boxjs使用 (Stash 2.0)
 # 搭配boxjs使用：BoxJS订阅以下地址: https://raw.githubusercontent.com/smartmimi/conf/master/boxjs/cookie.boxjs.json, 添加"疫情查询区域", 输入例如：中国,北京,上海 注意英文逗号
 # 使用阿里健康的api（需自行获取）。地区名称填写标准及api请参照脚本内说明
