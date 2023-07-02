@@ -94,9 +94,4 @@ Coldvvater 对任何本仓库中包含的脚本在使用中可能出现的问题
 
 </details>
 
-<details>
-   <summary>QX、Loon、Shadowrocket、Egern、Surfboard文件备份</summary> 
 
-https://www.aliyundrive.com/s/kRzyPjftgbS
-
-</details>
