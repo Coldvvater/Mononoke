@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.06.28
+# Update Date: 2023.07.03
 
 # 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -182,7 +182,7 @@ rule-providers: # 远程规则集
  BiliIntl: {<<: *d, path: ./ruleset/BiliIntl.yaml, url: https://rules.kr328.app/bilibili@%21cn.yaml}
 
 # 哔哩哔哩
- BiliBili: {<<: *c, path: ./ruleset/BiliBili.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml}
+ BiliBili: {<<: *c, path: ./ruleset/BiliBili.yaml, url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml}
 
 # 声田音乐
  Spotify: {<<: *d, path: ./ruleset/Spotify.yaml, url: https://rules.kr328.app/spotify.yaml}
@@ -238,7 +238,7 @@ rules: # 分流规则引用
   - RULE-SET,Emby,Emby
   - RULE-SET,Bahamut,TaiWan
   - RULE-SET,BiliIntl,Streaming
-  - RULE-SET,BiliBili,BiliBili,no-resolve
+  - RULE-SET,BiliBili,BiliBili
   - RULE-SET,Spotify,Spotify
   - RULE-SET,NetEaseMusic,NetEaseMusic,no-resolve
   - RULE-SET,TikTok,TikTok
