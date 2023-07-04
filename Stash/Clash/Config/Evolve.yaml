@@ -191,7 +191,7 @@ rule-providers: # 远程规则集
  NetEaseMusic: {<<: *c, path: ./ruleset/NetEaseMusic.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/NetEaseMusic/NetEaseMusic.yaml}
 
 # 海外抖音
- TikTok: {<<: *d, path: ./ruleset/TikTok.yaml, url: https://rules.kr328.app/tiktok.yaml}
+ TikTok: {<<: *c, path: ./ruleset/TikTok.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TikTok/TikTok.yaml}
 
 # 国际媒体
  GlobalMedia: {<<: *d, path: ./ruleset/GlobalMedia.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml}
