@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.07.03
+# Update Date: 2023.07.04
 
 # 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -58,7 +58,7 @@ c: &c {type: http, behavior: classical, interval: 86400}
 
 d: &d {type: http, behavior: domain, interval: 86400}
 # 远程订阅相关
-p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://www.gstatic.com/generate_204, interval: 300}}
+p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://www.apple.com/library/test/success.html, interval: 300}}
 
 # 代理组相关
 g: &g {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
@@ -161,7 +161,7 @@ rule-providers: # 远程规则集
  Private: {<<: *d, path: ./ruleset/Private.yaml, url: https://rules.kr328.app/private.yaml}
 
 # OpenAI
- OpenAI: {<<: *d, path: ./ruleset/OpenAI.yaml, url: https://rules.kr328.app/openai.yaml}
+ OpenAI: {<<: *c, path: ./ruleset/OpenAI.yaml, url: https://cdn.jsdelivr.net/gh/Coldvvater/Mononoke@master/Stash/RuleSet/OpenAI.yaml}
 
 # 油管视频
  YouTube: {<<: *d, path: ./ruleset/YouTube.yaml, url: https://rules.kr328.app/youtube.yaml}
@@ -182,7 +182,7 @@ rule-providers: # 远程规则集
  BiliIntl: {<<: *d, path: ./ruleset/BiliIntl.yaml, url: https://rules.kr328.app/bilibili@%21cn.yaml}
 
 # 哔哩哔哩
- BiliBili: {<<: *c, path: ./ruleset/BiliBili.yaml, url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml}
+ BiliBili: {<<: *c, path: ./ruleset/BiliBili.yaml, url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Bilibili.yaml}
 
 # 声田音乐
  Spotify: {<<: *d, path: ./ruleset/Spotify.yaml, url: https://rules.kr328.app/spotify.yaml}
@@ -194,7 +194,7 @@ rule-providers: # 远程规则集
  TikTok: {<<: *d, path: ./ruleset/TikTok.yaml, url: https://rules.kr328.app/tiktok.yaml}
 
 # 国际媒体
- GlobalMedia_Domain: {<<: *d, path: ./ruleset/GlobalMedia_Domain.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml}
+ GlobalMedia: {<<: *d, path: ./ruleset/GlobalMedia.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml}
 
 # 电报信息
  Telegram: {<<: *d, path: ./ruleset/Telegram.yaml, url: https://rules.kr328.app/telegram.yaml}
@@ -224,10 +224,10 @@ rule-providers: # 远程规则集
  Games: {<<: *c, path: ./ruleset/Games.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game.yaml}
 
 # 国内网站
- China_Domain: {<<: *d, path: ./ruleset/China_Domain.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China_Domain.yaml}
+ China: {<<: *d, path: ./ruleset/China.yaml, url: https://rules.kr328.app/cn.yaml}
 
 # 国外网站
- Global_Domain: {<<: *d, path: ./ruleset/Global_Domain.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Domain.yaml}
+ Proxy: {<<: *d, path: ./ruleset/Proxy.yaml, url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt}
 
 rules: # 分流规则引用
   - RULE-SET,Private,DIRECT
@@ -242,7 +242,7 @@ rules: # 分流规则引用
   - RULE-SET,Spotify,Spotify
   - RULE-SET,NetEaseMusic,NetEaseMusic,no-resolve
   - RULE-SET,TikTok,TikTok
-  - RULE-SET,GlobalMedia_Domain,Streaming
+  - RULE-SET,GlobalMedia,Streaming
   - RULE-SET,Telegram,Telegram
   - RULE-SET,GitHub,Global
   - RULE-SET,Bing,Global
@@ -252,11 +252,11 @@ rules: # 分流规则引用
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Games,Games,no-resolve
-  - RULE-SET,Global_Domain,Global
+  - RULE-SET,Proxy,Global
   - GEOIP,google,Google
   - GEOIP,telegram,Telegram
   - GEOIP,netflix,NETFLIX
-  - RULE-SET,China_Domain,Mainland
+  - RULE-SET,China,Mainland
   - GEOIP,private,DIRECT
   - GEOIP,CN,Mainland
   - MATCH,Final
