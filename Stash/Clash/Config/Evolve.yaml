@@ -197,7 +197,7 @@ rule-providers: # 远程规则集
  GlobalMedia: {<<: *d, path: ./ruleset/GlobalMedia.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml}
 
 # 电报信息
- Telegram: {<<: *d, path: ./ruleset/Telegram.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram_No_Resolve.yaml}
+ Telegram: {<<: *c, path: ./ruleset/Telegram.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram_No_Resolve.yaml}
 
 # GitHub
  GitHub: {<<: *d, path: ./ruleset/GitHub.yaml, url: https://rules.kr328.app/github.yaml}
