@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.07.04
+# Update Date: 2023.07.18
 
 # 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -188,7 +188,7 @@ rule-providers: # 远程规则集
  Spotify: {<<: *d, path: ./ruleset/Spotify.yaml, url: https://rules.kr328.app/spotify.yaml}
 
 # 网易云音乐
- NetEaseMusic: {<<: *c, path: ./ruleset/NetEaseMusic.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/NetEaseMusic/NetEaseMusic.yaml}
+ NetEaseMusic: {<<: *c, path: ./ruleset/NetEaseMusic.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/NetEaseMusic/NetEaseMusic_No_Resolve.yaml}
 
 # 海外抖音
  TikTok: {<<: *c, path: ./ruleset/TikTok.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TikTok/TikTok.yaml}
@@ -197,7 +197,7 @@ rule-providers: # 远程规则集
  GlobalMedia: {<<: *d, path: ./ruleset/GlobalMedia.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml}
 
 # 电报信息
- Telegram: {<<: *d, path: ./ruleset/Telegram.yaml, url: https://rules.kr328.app/telegram.yaml}
+ Telegram: {<<: *d, path: ./ruleset/Telegram.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram_No_Resolve.yaml}
 
 # GitHub
  GitHub: {<<: *d, path: ./ruleset/GitHub.yaml, url: https://rules.kr328.app/github.yaml}
@@ -221,7 +221,7 @@ rule-providers: # 远程规则集
  Microsoft: {<<: *d, path: ./ruleset/Microsoft.yaml, url: https://rules.kr328.app/microsoft.yaml}
 
 # 游戏平台
- Games: {<<: *c, path: ./ruleset/Games.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game.yaml}
+ Games: {<<: *c, path: ./ruleset/Games.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game_No_Resolve.yaml}
 
 # 国内网站
  China: {<<: *d, path: ./ruleset/China.yaml, url: https://rules.kr328.app/cn.yaml}
@@ -240,7 +240,7 @@ rules: # 分流规则引用
   - RULE-SET,BiliIntl,Streaming
   - RULE-SET,BiliBili,BiliBili
   - RULE-SET,Spotify,Spotify
-  - RULE-SET,NetEaseMusic,NetEaseMusic,no-resolve
+  - RULE-SET,NetEaseMusic,NetEaseMusic
   - RULE-SET,TikTok,TikTok
   - RULE-SET,GlobalMedia,Streaming
   - RULE-SET,Telegram,Telegram
@@ -251,11 +251,11 @@ rules: # 分流规则引用
   - RULE-SET,Apple,Apple
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,Games,Games,no-resolve
+  - RULE-SET,Games,Games
   - RULE-SET,Proxy,Global
   - GEOIP,google,Google
-  - GEOIP,telegram,Telegram
   - GEOIP,netflix,NETFLIX
+  - GEOIP,twitter,Twitter
   - RULE-SET,China,Mainland
   - GEOIP,private,DIRECT
   - GEOIP,CN,Mainland
