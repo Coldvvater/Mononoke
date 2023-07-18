@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.07.18
+# Update Date: 2023.07.19
 
 # 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -206,7 +206,7 @@ rule-providers: # 远程规则集
  Bing: {<<: *d, path: ./ruleset/Bing.yaml, url: https://rules.kr328.app/bing.yaml}
 
 # Twitter
- Twitter: {<<: *d, path: ./ruleset/Twitter.yaml, url: https://rules.kr328.app/twitter.yaml}
+ Twitter: {<<: *c, path: ./ruleset/Twitter.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Twitter/Twitter_No_Resolve.yaml}
 
 # TestFlight
  TestFlight: {<<: *c, path: ./ruleset/TestFlight.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TestFlight/TestFlight.yaml}
@@ -230,6 +230,7 @@ rule-providers: # 远程规则集
  Proxy: {<<: *d, path: ./ruleset/Proxy.yaml, url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt}
 
 rules: # 分流规则引用
+  - DOMAIN,rules.kr328.app,Proxy
   - RULE-SET,Private,DIRECT
   - RULE-SET,OpenAI,America
   - RULE-SET,YouTube,YouTube
@@ -255,7 +256,6 @@ rules: # 分流规则引用
   - RULE-SET,Proxy,Global
   - GEOIP,google,Google
   - GEOIP,netflix,NETFLIX
-  - GEOIP,twitter,Twitter
   - RULE-SET,China,Mainland
   - GEOIP,private,DIRECT
   - GEOIP,CN,Mainland
