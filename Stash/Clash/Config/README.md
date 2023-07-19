@@ -16,7 +16,7 @@
 
 ![](https://github.com/Coldvvater/Coldvvater/blob/9bbf32e648392ba21302e05f7528eeafe205f3af/img-folder/CFWscreenshot/download.png?raw=true)
 
-3. 选择刚下载的配置文件，右键编辑，根据配置文件里注释内容操作，填入订阅链接即可使用。
+3. 选择刚下载的配置文件，右键选择 **Edit** 或 **Edit externally** 编辑，根据配置文件里注释内容操作，填入订阅链接即可使用。
 
 ![](https://github.com/Coldvvater/Coldvvater/blob/9bbf32e648392ba21302e05f7528eeafe205f3af/img-folder/CFWscreenshot/edit.png?raw=true)
 ![](https://github.com/Coldvvater/Coldvvater/blob/9bbf32e648392ba21302e05f7528eeafe205f3af/img-folder/CFWscreenshot/sub.png?raw=true)
