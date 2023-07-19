@@ -2,7 +2,7 @@
 
 `Evolve.ini`一份自制的Clash自定义在线分流规则策略组配置文件，需要经过 [URL-encode](https://www.urlencoder.org/) 后，再配合订阅转换链接使用。如想更详细地了解ini文件如何使用，这里有一遍 [教程](https://yattazen.com/tutorial/clash-custom-config.html) 非常推荐你参考！
 
-`Evolve.yaml`是一个自用配置，Stash、Clash (Premium及Meta内核）均可使用，只需要填入订阅链接到指定位置即可使用，具体请看以下部分部分说明。
+`Evolve.yaml`是一个自用配置，Stash、Clash (Premium及Meta内核）均可使用，只需要填入订阅链接到指定位置即可使用，具体请看以下部分说明。
 
 #### 电脑端使用步骤
 在电脑使用方面，用 `Clash For Windows` 客户端为例(以下简称 `CFW` )。
