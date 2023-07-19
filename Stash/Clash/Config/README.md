@@ -12,7 +12,7 @@
 ![](https://github.com/Coldvvater/Coldvvater/blob/9bbf32e648392ba21302e05f7528eeafe205f3af/img-folder/CFWscreenshot/raw.png?raw=true)
 ![](https://github.com/Coldvvater/Coldvvater/blob/9bbf32e648392ba21302e05f7528eeafe205f3af/img-folder/CFWscreenshot/addressbar.png?raw=true)
 
-2. 在 CFW 左边列表上点「**Profile**」，在上方输入框粘贴链接点击「**Download**」，即可下载配置文件
+2. 在 CFW 左边列表上点「**Profiles**」，在上方输入框粘贴链接点击「**Download**」，即可下载配置文件
 
 ![](https://github.com/Coldvvater/Coldvvater/blob/9bbf32e648392ba21302e05f7528eeafe205f3af/img-folder/CFWscreenshot/download.png?raw=true)
 
@@ -21,7 +21,7 @@
 ![](https://github.com/Coldvvater/Coldvvater/blob/9bbf32e648392ba21302e05f7528eeafe205f3af/img-folder/CFWscreenshot/edit.png?raw=true)
 ![](https://github.com/Coldvvater/Coldvvater/blob/9bbf32e648392ba21302e05f7528eeafe205f3af/img-folder/CFWscreenshot/sub.png?raw=true)
 
-4. 当然，你也可以将配置文件预先下载到本地，再在「**Profile**」界面点击「**Import**」导入到 CFW 亦可。
+4. 当然，你也可以将配置文件预先下载到本地，再在「**Profiles**」界面点击「**Import**」导入到 CFW 亦可。
 
 #### 手机端使用步骤
 
