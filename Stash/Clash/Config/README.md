@@ -5,7 +5,7 @@
 `Evolve.yaml`是一个自用配置，Stash、Clash (Premium及Meta内核）均可使用，只需要填入订阅链接到指定位置即可使用，具体请看以下部分说明。
 
 #### 电脑端使用步骤
-在电脑使用方面，用 `Clash For Windows` 客户端为例(以下简称 `CFW` )。
+> 电脑使用方面，用 `Clash For Windows` 客户端为例(以下简称 `CFW` )。
 
 1. 首先在仓库里获取配置文件 **raw** 链接，点击配置文件然后再点右边的 **raw** ，跳转后复制地址栏中的链接。
 
@@ -23,9 +23,11 @@
 
 4. 当然，你也可以将配置文件预先下载到本地，再在「**Profiles**」界面点击「**Import**」导入到 CFW 亦可。
 
+
+
 #### 手机端使用步骤
 
-手机端方面以 `Stash` 为例（亲测 `Choc` 以及 `Pharos Pro` 等代理App均可使用）
+> 手机端方面以 `Stash` 为例（亲测 `Choc` 以及 `Pharos Pro` 等代理App均可使用）
 
 1. 同样，先在仓库里获取配置文件 **raw** 链接，手机端浏览器打开GitHub仓库获取配置文件 **raw** 链接方式有点不同，点击配置文件再点击右边的三个点点•••，点击后会看到菜单，这个时候我们长按 **View** ，会弹出菜单选择复制链接，这样就成功获得了配置文件的 **raw** 链接了。
 
@@ -40,7 +42,7 @@
 
 ![](https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Stashscreenshot/copy.PNG?raw=true)
 
-另外，你也可以将配置文件直接下载到本地并保存到系统文件App里，在 Stash 配置列表选择「**从文件导入**」选择刚才下载的文件，这样也是一份纯本地配置文件。
+另外，你也可以将配置文件直接下载到本地并保存到系统文件App里，在 Stash 配置列表选择「**从文件中导入**」选择刚才下载的文件，这样也是一份纯本地配置文件。
 
 ![](https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Stashscreenshot/wenjiandaoru.PNG?raw=true)
 
@@ -53,3 +55,5 @@
 ![](https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Stashscreenshot/wenbenbianji.PNG?raw=true)
 ![](https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Stashscreenshot/wenbentianru.jpg?raw=true)
 
+
+> PS：此配置使用说明只适合本仓库的配置文件使用，其他配置请以其使用操作为准。
