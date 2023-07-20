@@ -56,7 +56,7 @@
 3. 复制配置文件后我们可以通过可视化编辑填入订阅链接，点击「**可视化编辑**」，选择「**远程代理集**」，点击「**Subscribe**」，在空的URL输入框里填上你的订阅链接并储存即可。
 
 <div align="center">
-<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Stashscreenshot/siheyi.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Stashscreenshot/siheyi.PNG?raw=true  />
 </div>
 
 4. 当然，如果你习惯了手搓配置，你仍然可以点击「**编辑**」，通过文本编辑模式填上你的订阅链接。
