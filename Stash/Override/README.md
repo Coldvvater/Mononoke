@@ -1,6 +1,54 @@
 #### 覆写使用步骤
-> 1. Stash 1.0：在首页将「重写」及「MITM」开关打开，安装证书，选择生成新证书并且点击安装证书，在iOS系统设置找到已下载的描述文件并安装，到iOS系统设置找到「关于本机」往下拉到「证书信任列表」里开启信任，返回Stash点击「覆写」粘贴覆写raw链接并安装即可。
 
-> 2. Stash 2.0：在首页将「重写」、「覆写」、「脚本」及「MITM」开关全部打开，并按照上述1.0的步骤安装证书和导入链接安装即可使用。
+1. 在 Stash 首页初始打开「**MitM**」开关，会进入证书安装页面，先点击「**生成新的CA证书**」再点击「**安装证书**」。
+
+<div align="center">
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/mitm.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/zs-sc-az.PNG?raw=true width=60%  />
+</div>
+
+
+2. 跳转到下载证书页面点击**允许**，前往手机的系统设置，会看到**以下载的描述文档**，点击它**安装**证书描述文档，**输入密码**，**确认安装**，点击**完成**。
+
+<div align="center">
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/yunxu.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/yxzmswd.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/azmswd.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/srmm.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/qraz.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/djwc.PNG?raw=true width=60%  />
+</div>
+
+
+3. 继续在手机的系统设置「**关于本机**」下拉，找到「**证书信任列表设置**」，看到刚才安装的 Stash 证书，把信任证书开关**打开**，回到 Stash 的「**MitM**」界面会看到证书**已安装**和**已信任**。
+
+<div align="center">
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/gybj.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/xrzs.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/dkkg.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/hdmitm.PNG?raw=true width=60%  />
+</div>
+
+
+4. 回到 Stash 首页，把「**覆写**」、「**重写**」、「**脚本**」几个开关打开。这里基本准备就绪，然后前往仓库里获取覆写 **raw** 链接，手机端浏览器打开GitHub仓库，选择你需要的覆写，点击右边的三个点点•••，点击后会看到菜单，点击 **View** ，复制覆写链接，回到 Stash 首页，点击「**覆写**」，进入覆写列表，这里是你要安装和显示已安装的覆写的地方，点击右上角 + 号，在输入框粘贴你刚才复制的覆写链接，点击**下载**，点击**安装**，安装成功！
+
+<div align="center">
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/sgkgdk.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/fxraw2.PNG?raw=true  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/djfx.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/tjfx2.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/djxz.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/azfx.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/azcg.PNG?raw=true width=60%  />
+</div>
+
+5. 其实 Stash 自带有一个「**覆写仓库**」，这里收集了各路大佬PR了的覆写作品，我们只需要在覆写列表里点击左上角的**箭头云朵**即可进入，挑选你需要的覆写按刚才的步骤安装即可。
+
+<div align="center">
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/jrfxck.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/fxck.PNG?raw=true width=60%  />
+</div>
+
+
 
 *⚠️注意：引用大佬的脚本所编写的覆写，不保证长期可用，部分覆写需查看注释内容按教程使用，有问题请发issues*
