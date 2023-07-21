@@ -42,7 +42,7 @@
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/azcg.PNG?raw=true width=60%  />
 </div>
 
-5. 其实 Stash 自带有一个「**覆写仓库**」，这里收集了各路大佬PR了的覆写作品，我们只需要在覆写列表里点击左上角的**箭头云朵**即可进入，挑选你需要的覆写按刚才的步骤安装即可。
+5. 其实 Stash 自带有一个「**覆写仓库**」，这里收集了各路大佬PR了的覆写作品，我们只需要在覆写列表里点击左上角的**箭头云朵**即可进入，挑选你需要的覆写直接安装即可。
 
 <div align="center">
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/jrfxck.PNG?raw=true width=60%  />
