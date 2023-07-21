@@ -8,7 +8,7 @@
 </div>
 
 
-2. 跳转到下载证书页面点击**允许**，前往手机的系统设置，会看到**以下载的描述文档**，点击它**安装**证书描述文档，**输入密码**，**确认安装**，点击**完成**。
+2. 跳转到下载证书页面点击**允许**，前往手机的系统设置，会看到**已下载的描述文档**，点击它**安装**证书描述文档，**输入密码**，**确认安装**，点击**完成**。
 
 <div align="center">
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/OverrideCap/yunxu.PNG?raw=true width=60%  />
