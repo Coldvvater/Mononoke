@@ -1,0 +1,9 @@
+#!name=NewBing
+#!desc=将Safari浏览器伪装为Edge浏览器，以便绕过BingAI的使用限制。
+#!author: 小白脸
+
+[Header Rewrite]
+^https:\/\/www\.bing\.com\/search header-replace User-Agent "Mozilla/5.0 (iphone; Intel Mac OS X 10_12_6) AppleWebKit/537.36 Chrome/110.0 Safari/537.36 Edg/110.0"
+
+[MITM]
+hostname = %APPEND% www.bing.com
