@@ -21,10 +21,11 @@
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Surgescreenshot/auto.PNG?raw=true width=60%  />
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Surgescreenshot/sub.PNG?raw=true width=60%  />
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Surgescreenshot/rulestart.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Surgescreenshot/done.PNG?raw=true width=50%  />
 </div>
 
 
 
-*PS: 想了解更多操作，参阅 [Surge for iOS 入门指南](https://exaalices-organization.gitbook.io/surge-ios/)*
+> PS: 想了解更多操作，参阅 [Surge for iOS 入门指南](https://exaalices-organization.gitbook.io/surge-ios/)
 
 > PS 2：此配置使用说明只适合本仓库的配置文件使用，其他配置请以其使用操作为准。
