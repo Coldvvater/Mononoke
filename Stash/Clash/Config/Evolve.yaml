@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Ison_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.07.19
+# Update Date: 2023.07.24
 
 # 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -160,6 +160,9 @@ rule-providers: # 远程规则集
 # 隐私网络
  Private: {<<: *d, path: ./ruleset/Private.yaml, url: https://rules.kr328.app/private.yaml}
 
+# HTTPDNS拦截
+ HTTPDNS: {<<: *d, path: ./ruleset/HTTPDNS.yaml, url: https://cdn.jsdelivr.net/gh/VirgilClyne/GetSomeFries@main/ruleset/HTTPDNS.Block.yaml}
+
 # OpenAI
  OpenAI: {<<: *c, path: ./ruleset/OpenAI.yaml, url: https://cdn.jsdelivr.net/gh/Coldvvater/Mononoke@master/Stash/RuleSet/OpenAI.yaml}
 
@@ -232,6 +235,7 @@ rule-providers: # 远程规则集
 rules: # 分流规则引用
   - DOMAIN,rules.kr328.app,Proxy
   - RULE-SET,Private,DIRECT
+  - RULE-SET,HTTPDNS,REJECT
   - RULE-SET,OpenAI,America
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
