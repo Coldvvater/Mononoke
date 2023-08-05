@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.07.24
+# Update Date: 2023.08.05
 
 # 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -20,36 +20,15 @@ dns:
   enable: true             # 关闭将使用系统 DNS
   ipv6: true               # IPV6解析开关；如果为false，将返回ipv6结果为空
   enhanced-mode: fake-ip   # 模式：redir-host或fake-ip
-  listen: 0.0.0.0:1053     # DNS 监听地址
-  default-nameserver:      # 解析非IP的dns用的dns服务器，只支持纯IP，（可为其加密）
-     - 223.5.5.5
-     - 119.29.29.29
-     - 114.114.114.114
+  listen: 0.0.0.0:53       # DNS 监听地址
+  default-nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114]
+                                  # 解析非IP的dns用的dns服务器，只支持纯IP，（Meta可为其加密）
+  nameserver: [https://223.5.5.5/dns-query, https://1.12.12.12/dns-query]
+                                  # 默认DNS服务器，支持udp/tcp/dot/doh/doq
 
-  fake-ip-range: 198.18.0.1/16  # Fake-IP 解析地址池
-  fake-ip-filter:               # Fake-ip 过滤，列表中的域名返回真实IP
-    - '+.lan'
-    - localhost.ptlogin2.qq.com
-    - '*.battle.net'
-    - '*.blzstatic.cn'
-    - '*.battlenet.com'
-    - '*.battlenet.com.cn'
-    - 'lens.l.google.com'
-    - '+.srv.nintendo.net'
-    - '+.stun.playstation.net'
-    - '+.msftncsi.com'
-    - '+.xboxlive.com'
-    - 'msftconnecttest.com'
-    - 'xbox.*.*.microsoft.com'
-    - 'xbox.*.microsoft.com'         
-    - '+.msftconnecttest.com'
-    - '*.msftncsi.com'
-    - '*.msftconnecttest.com'
-    - '*.mcdn.bilivideo.cn'
-  
-  nameserver:                    # 默认DNS服务器，支持udp/tcp/dot/doh/doq
-    - https://223.5.5.5/dns-query
-    - https://1.12.12.12/dns-query
+  fake-ip-range: 198.18.0.1/16    # Fake-IP 解析地址池
+  fake-ip-filter: ['+.lan', 'localhost.ptlogin2.qq.com', '*.battle.net', '*.blzstatic.cn', '*.battlenet.com', '*.battlenet.com.cn', 'lens.l.google.com', '+.srv.nintendo.net', '+.stun.playstation.net', '+.msftncsi.com', '+.xboxlive.com', 'msftconnecttest.com', 'xbox.*.*.microsoft.com', 'xbox.*.microsoft.com', '+.msftconnecttest.com', '*.msftncsi.com', '*.msftconnecttest.com', '*.mcdn.bilivideo.cn']
+                                  # Fake-ip 过滤，列表中的域名返回真实IP
 
 ###锚点###
 
