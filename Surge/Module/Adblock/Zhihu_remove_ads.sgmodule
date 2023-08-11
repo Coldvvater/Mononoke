@@ -4,67 +4,84 @@
 #!homepage = https://github.com/RuCu6/QuanX/tree/main/Rewrites/Cube, https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zheye
 
 [Rule]
-DOMAIN, appcloud.zhihu.com, REJECT
-DOMAIN, appcloud2.in.zhihu.com, REJECT
-DOMAIN, crash2.zhihu.com, REJECT
-DOMAIN, mqtt.zhihu.com, REJECT
-DOMAIN, sugar.zhihu.com, REJECT
-IP-CIDR, 118.89.204.198/32, REJECT, no-resolve
-IP-CIDR, 103.41.167.237/32, REJECT, no-resolve
-IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT, no-resolve
 
-[Url Rewrite]
+DOMAIN, appcloud.zhihu.com,REJECT
+DOMAIN, appcloud2.in.zhihu.com,REJECT
+DOMAIN, crash2.zhihu.com,REJECT
+DOMAIN, mqtt.zhihu.com,REJECT
+DOMAIN, sugar.zhihu.com,REJECT
+DOMAIN, zxid-m.mobileservice.cn,REJECT
+IP-CIDR, 103.41.167.237/32,REJECT,no-resolve
+IP-CIDR, 118.89.204.198/32,REJECT,no-resolve
+IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
+
+[URL Rewrite]
+
+^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
 # 其他、服务器推送配置
-^https:\/\/www\.zhihu\.com\/api\/v4\/mcn\/v2\/linkcards\? reject
-^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card$ - reject
-^https:\/\/www\.zhihu\.com\/appview\/v2\/zhmore\? - reject
-^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config$ - reject
-^https:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject
+^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
+^https:\/\/link\.zhihu\.com\/\?target=(https?)?(%3A|:)?(\/\/|%2F%2F)?(.*?)(&source.*)?$ http://$4 302
 ^https:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject
+^https:\/\/www\.zhihu\.com\/api\/v4\/mcn\/v2\/linkcards\? - reject
+^https:\/\/www\.zhihu\.com\/api\/v4/(anwsers|questions)\/\d+/related-readings - reject
 ^https:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject
 ^https:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
 
 [Script]
-# 首页 - 悬浮图标、顶部横幅、开屏广告、关注页推荐、推荐信息流、热榜信息流、热榜直播、回答底部卡片
-Zhihu_remove_ads_1 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer$, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
-Zhihu_remove_ads_2 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/(moments_v3|topstory\/recommend(_v2)?)\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
-Zhihu_remove_ads_3 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
 
-# 我的页面 - 项目列表、会员卡片、更多卡片
-Zhihu_remove_ads_4 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/people\/homepage_entry$, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
-Zhihu_remove_ads_5 = type=http-response, pattern=^https:\/\/www\.zhihu\.com\/appview\/v3\/zhmore\??, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
+# 首页 - 悬浮图标、顶部横幅、开屏广告、关注页推荐、推荐信息流、热榜信息流、热榜直播、回答底部卡片
+_46 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, max-size=3145728, timeout=30
+
+Zhihu_remove_ads_47 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/(moments_v3|topstory\/recommend), script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, max-size=3145728, timeout=30
+
+Zhihu_remove_ads_48 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, max-size=3145728, timeout=30
 
 # 搜索页 - 关键词、猜你想搜
-replaceBody_6 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js, timeout=60, argument=""recommend_queries":\{.+\}->"recommend_queries":{}"
+Zhihu_remove_ads_50 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\?, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js, requires-body=true, max-size=3145728, timeout=30, argument=""recommend_queries":\{.+\}->"recommend_queries":{}"
 
 # 回答详情页、下一个回答
-Zhihu_remove_ads_7 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/next-(bff|data|render)\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
-Zhihu_remove_ads_8 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+\/(feeds|answers)\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
-Zhihu_remove_ads_9 = type=http-response, pattern=^https:\/\/www\.zhihu\.com\/api\/v4\/(answers|articles)\/\d+\/recommendations?\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
+replace-body_52 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/next-(bff|data|render)\?, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, max-size=3145728, timeout=30, argument=""recommend_queries":\{.+\}->"recommend_queries":{}"
+
+Zhihu_remove_ads_53 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+\/(answers|feeds)\?, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, max-size=3145728, timeout=30, argument=""recommend_queries":\{.+\}->"recommend_queries":{}"
+
+Zhihu_remove_ads_54 = type=http-response, pattern=^https:\/\/www\.zhihu\.com\/api\/v4\/(articles|answers)\/\d+\/recommendations?, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, max-size=3145728, timeout=30, argument=""recommend_queries":\{.+\}->"recommend_queries":{}"
 
 # 其他、服务器推送配置
-Zhihu_remove_ads_10 = type=http-response, pattern=^https:\/\/appcloud2\.zhihu\.com\/v3\/config$, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
-Zhihu_remove_ads_11 = type=http-response, pattern=^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, timeout=60, script-update-interval=0
+Zhihu_remove_ads_56 = type=http-response, pattern=^https:\/\/appcloud2\.zhihu\.com\/v3\/config, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, max-size=3145728, timeout=30, argument=""recommend_queries":\{.+\}->"recommend_queries":{}"
+
+Zhihu_remove_ads_57 = type=http-response, pattern=^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, max-size=3145728, timeout=30, argument=""recommend_queries":\{.+\}->"recommend_queries":{}"
 
 [Map Local]
-# 首页 - 悬浮图标、顶部横幅、开屏广告、关注页推荐、推荐信息流、热榜信息流、热榜直播、回答底部卡片
-^https:\/\/api\.zhihu\.com\/commercial_api\/(banners_v3\/app_topstory_banner$|launch_v2\?|real_time_launch_v2\?) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https:\/\/api\.zhihu\.com\/(moments\/lastread|drama\/hot-drama-list)$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
-# 我的页面 - 项目列表、会员卡片、更多卡片
-^https:\/\/api\.zhihu\.com\/me\/guides\?? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+# 首页 悬浮图标、顶部横幅、开屏广告、关注页推荐、推荐信息流、热榜信息流、热榜直播、回答底部卡片
+^https:\/\/api\.zhihu\.com\/commercial_api\/(banners_v3\/app_topstory_banner|launch_v2|real_time_launch_v2) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
-# 搜索页 - 关键词、猜你想搜
-^https:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https:\/\/api\.zhihu\.com\/search\/preset_words\?? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https:\/\/www\.zhihu\.com\/api\/v4\/search\/related_queries\/(answer|article)\/\d+ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https:\/\/api\.zhihu\.com\/root\/window$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https:\/\/api\.zhihu\.com\/ad-style-service\/request$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https:\/\/appcloud2\.zhihu\.com\/v3\/resource\?group_name=mp$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
-# 网页版去广告 //www.zhihu.com、 zhuanlan.zhihu.com
+^https:\/\/api\.zhihu\.com\/(moments\/lastread|drama\/hot-drama-list) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/api\.zhihu\.com\/root\/window data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 我的页面 项目列表、会员卡片、更多卡片
+^https:\/\/api\.zhihu\.com\/me\/guides data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 搜索页 关键词、猜你想搜
+^https:\/\/api\.zhihu\.com\/search\/preset_words data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/www\.zhihu\.com\/api\/v4\/search\/related_queries\/(article|answer)\/\d+ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 回答详情页 - 评论区顶部、下一个回答
+^https:\/\/api\.zhihu\.com\/comment_v5\/(articles|answers)\/\d+\/list-headers data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/api\.zhihu\.com\/v5\.1\/topics\/answer\/\d+\/relation data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/api\.zhihu\.com\/ad-style-service\/request data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/appcloud2\.zhihu\.com\/v3\/resource\?group_name=mp data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 网页版去广告 //www.zhihu.com, zhuanlan.zhihu.com
 ^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [MITM]
+
 hostname = %APPEND% api.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,www.zhihu.com,zhuanlan.zhihu.com
