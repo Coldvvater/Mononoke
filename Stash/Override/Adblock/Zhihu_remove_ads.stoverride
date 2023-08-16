@@ -67,7 +67,7 @@ http:
   script:
 
     - match: ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer
-      name: "_46"
+      name: "移除首页推广_46"
       type: response
       timeout: 30
       require-body: true
@@ -75,7 +75,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.zhihu\.com\/(moments_v3|topstory\/recommend)
-      name: "_46"
+      name: "移除首页推广_46"
       type: response
       timeout: 30
       require-body: true
@@ -83,7 +83,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?
-      name: "_46"
+      name: "移除首页推广_46"
       type: response
       timeout: 30
       require-body: true
@@ -91,7 +91,17 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\?
-      name: "Zhihu_remove_ads_50"
+      name: "移除搜索页关键词_50"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+      argument: |-
+        ""recommend_queries":\{.+\}->"recommend_queries":{}"
+
+    - match: ^https:\/\/www\.zhihu\.com\/api\/v4\/(articles|answers)\/\d+\/recommendations\?
+      name: "移除首页推广_46"
       type: response
       timeout: 30
       require-body: true
@@ -101,7 +111,7 @@ http:
         ""recommend_queries":\{.+\}->"recommend_queries":{}"
 
     - match: ^https:\/\/api\.zhihu\.com\/next-(bff|data|render)\?
-      name: "_46"
+      name: "移除首页推广_46"
       type: response
       timeout: 30
       require-body: true
@@ -110,8 +120,8 @@ http:
       argument: |-
         ""recommend_queries":\{.+\}->"recommend_queries":{}"
 
-    - match: ^https:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+\/(answers|feeds)\?
-      name: "_46"
+    - match: ^https:\/\/api\.zhihu\.com\/questions\/\d+\/(answers|feeds)\?
+      name: "移除首页推广_46"
       type: response
       timeout: 30
       require-body: true
@@ -120,8 +130,8 @@ http:
       argument: |-
         ""recommend_queries":\{.+\}->"recommend_queries":{}"
 
-    - match: ^https:\/\/www\.zhihu\.com\/api\/v4\/(articles|answers)\/\d+\/recommendations?
-      name: "_46"
+    - match: ^https:\/\/api\.zhihu\.com\/(questions|v4\/answers)\/\d+\?include=
+      name: "移除首页推广_46"
       type: response
       timeout: 30
       require-body: true
@@ -131,7 +141,7 @@ http:
         ""recommend_queries":\{.+\}->"recommend_queries":{}"
 
     - match: ^https:\/\/appcloud2\.zhihu\.com\/v3\/config
-      name: "_46"
+      name: "移除首页推广_46"
       type: response
       timeout: 30
       require-body: true
@@ -141,7 +151,7 @@ http:
         ""recommend_queries":\{.+\}->"recommend_queries":{}"
 
     - match: ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
-      name: "_46"
+      name: "移除首页推广_46"
       type: response
       timeout: 30
       require-body: true
@@ -158,9 +168,9 @@ http:
     - "zhuanlan.zhihu.com"
 
 script-providers:
-  "_46":
+  "移除首页推广_46":
     url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
     interval: 86400
-  "Zhihu_remove_ads_50":
+  "移除搜索页关键词_50":
     url: https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js
     interval: 86400
