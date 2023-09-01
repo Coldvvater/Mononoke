@@ -1,13 +1,23 @@
 name: "微博"
 desc: "全面净化"
-#!author = RuCu6 zmqcherish
+#!author = RuCu6 zmqcherish Cuttlefish
+
+rules:
+  - DOMAIN,adstrategy.biz.weibo.com,REJECT
+  - DOMAIN,kadmimage.biz.weibo.com,REJECT
+  - DOMAIN,sdkaction.biz.weibo.com,REJECT
+  - DOMAIN,sdkclick.biz.weibo.com,REJECT
+  - DOMAIN,sdkmonitor.biz.weibo.com,REJECT
 
 http:
+
   rewrite:
+    # 首页 - 签到、发布按钮、侧边栏、右上角红包、侧边栏提醒、超话tab悬浮、顶部直播
     - >-
       ^https:\/\/api\.weibo\.cn\/2\/(ug\/checkin\/list|push\/daily)\? - reject-dict
     - >-
       ^https:\/\/api\.weibo\.cn\/2\/!\/live\/media_homelist\? - reject-dict
+    # 详情页 - 超话、评论区、看图界面、个人主页、我的页面、信息流、商品橱窗、视频流、视频号、视频调查、话题卡片
     - >-
       ^https:\/\/api\.weibo\.cn\/2\/comments\/bullet_screens\? - reject-dict
     - >-
@@ -18,7 +28,7 @@ http:
       ^https:\/\/api\.weibo\.cn\/2\/vote\/get_vote_detail\? - reject-dict
     - >-
       ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/(discovery_home_bottom_getdotinfo|mobile_discovery_searchchange)\? - reject-dict
-    # 发现页 热门微博信息流,搜索列表,热搜提醒,猜你想搜,视频流红包
+    # 发现页 - 热门微博信息流、搜索列表、热搜提醒、猜你想搜、视频流红包
     - >-
       ^https:\/\/api\.weibo\.cn\/2\/search\/container_discover\? - reject-dict
     - >-
@@ -29,9 +39,9 @@ http:
       ^https:\/\/api\.weibo\.cn\/!\/sug\/list\/finderchange\? - reject-dict
     # 开屏广告 //*.uve.weibo.com
     - >-
-      ^https:\/\/bootrealtime\.uve\.weibo\.com\/v2\/ad\/realtime$ - reject-dict
+      ^https:\/\/bootrealtime\.uve\.weibo\.com\/v3\/ad\/realtime - reject-dict
     - >-
-      ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(get-lbs-cell-info\.php$|sdkconfig\.php\?) - reject
+      ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(get-lbs-cell-info\.php|sdkconfig\.php) - reject
     # 微博长文章推广
     - >-
       ^https:\/\/card\.weibo\.com\/article\/m\/aj\/(reward|uvead)\? - reject-dict
@@ -40,16 +50,8 @@ http:
 
   script:
 
-    - match: ^https:\/\/api\.weibo\.cn\/2\/(checkin\/show|client\/publisher_list|push\/active)\?
-      name: "weibo_5"
-      type: response
-      timeout: 30
-      require-body: true
-      max-size: 3145728
-      binary-mode: false
-
     - match: ^https:\/\/api\.weibo\.cn\/2\/(cardlist|page)\?
-      name: "weibo_5"
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
@@ -57,7 +59,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\?
-      name: "weibo_5"
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
@@ -65,7 +67,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.weibo\.cn\/2\/(container\/asyn|flowlist)\?
-      name: "weibo_5"
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
@@ -73,15 +75,15 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.weibo\.cn\/2\/profile\/(container_timeline|me)\?
-      name: "weibo_5"
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
       binary-mode: false
 
-    - match: ^https:\/\/api\.weibo\.cn\/2\/statuses\/(container_timeline(_topic|_unread|_hot)?|unread_hot_timeline)\?
-      name: "weibo_5"
+    - match: ^https:\/\/api\.weibo\.cn\/2\/statuses\/(container_timeline(_hot|_topic|_topicpage|_unread)?|unread_hot_timeline)\?
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
@@ -89,7 +91,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.weibo\.cn\/2\/statuses\/(extend|show)\?
-      name: "weibo_5"
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
@@ -97,7 +99,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.weibo\.cn\/2\/video\/tiny_stream_video_list\?
-      name: "weibo_5"
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
@@ -105,7 +107,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_channels\?
-      name: "weibo_5"
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
@@ -113,7 +115,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.weibo\.cn\/2\/direct_messages\/user_list\?
-      name: "weibo_5"
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
@@ -121,7 +123,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.weibo\.cn\/2\/messageflow\/notice\?
-      name: "weibo_5"
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
@@ -129,7 +131,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.weibo\.cn\/2\/search\/(container_timeline|finder)\?
-      name: "weibo_5"
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
@@ -137,31 +139,31 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/api\.weibo\.cn\/2\/searchall\?
-      name: "weibo_5"
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
       binary-mode: false
 
-    - match: ^https:\/\/bootpreload\.uve\.weibo\.com\/v1\/ad\/preload$
-      name: "weibo_5"
+    - match: ^https:\/\/bootpreload\.uve\.weibo\.com\/v1\/ad\/preload
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
       binary-mode: false
 
-    - match: ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$
-      name: "weibo_5"
+    - match: ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
       max-size: 3145728
       binary-mode: false
 
-    - match: ^https:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua\?
-      name: "weibo_5"
+    - match: ^https:\/\/wbapp\.uve\.weibo\.com\/(preload\/get_ad|wbapplua\/wbpullad\.lua)\?
+      name: "移除详情页推广_38"
       type: response
       timeout: 30
       require-body: true
@@ -169,7 +171,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/weibo\.cn\/sinaurl\?(.*&)?(u|toasturl|goto)=
-      name: "noRedirect_42"
+      name: "跳过重定向_57"
       type: request
       timeout: 30
       require-body: false
@@ -177,7 +179,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/shop\.sc\.weibo\.com\/h5\/jump\/error\?(.*&)?url=
-      name: "noRedirect_42"
+      name: "跳过重定向_57"
       type: request
       timeout: 30
       require-body: false
@@ -185,7 +187,7 @@ http:
       binary-mode: false
 
     - match: ^https:\/\/(sinaurl|t)\.cn\/
-      name: "noRedirect_42"
+      name: "跳过重定向_57"
       type: response
       timeout: 30
       require-body: false
@@ -203,9 +205,9 @@ http:
     - "sinaurl.cn"
 
 script-providers:
-  "weibo_5":
-    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+  "移除详情页推广_38":
+    url: https://gitlab.com/lodepuly/vpn_tool/raw/main/Resource/Script/Weibo/Weibo_remove_ads.js
     interval: 86400
-  "noRedirect_42":
-    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js
+  "跳过重定向_57":
+    url: https://gitlab.com/lodepuly/vpn_tool/raw/main/Resource/Script/Weibo/Weibo_remove_redirect.js
     interval: 86400
