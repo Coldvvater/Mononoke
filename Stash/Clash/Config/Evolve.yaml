@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.08.09
+# Update Date: 2023.09.06
 
 # 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -74,13 +74,16 @@ proxy-groups:    # 代理组
 # 国内网站
  - {name: Mainland, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png, <<: *m}
 
-# YouTube
+# 人工智能
+ - {name: OpenAI, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Bot.png, <<: *g, proxies: [America,Japan,Singapore,TaiWan,Others]}
+
+# 油管视频
  - {name: YouTube, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/YouTube.png, <<: *g}
 
-# NETFLIX
+# 奈飞影视
  - {name: NETFLIX, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netflix.png, <<: *g}
 
-# Disney+
+# 迪士尼+
  - {name: Disney+, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Disney%2B.png, <<: *g}
 
 # Emby
@@ -142,7 +145,7 @@ rule-providers: # 远程规则集
 # HTTPDNS拦截
  HTTPDNS: {<<: *d, path: ./ruleset/HTTPDNS.yaml, url: https://cdn.jsdelivr.net/gh/VirgilClyne/GetSomeFries@main/ruleset/HTTPDNS.Block.yaml}
 
-# OpenAI
+# 人工智能
  OpenAI: {<<: *c, path: ./ruleset/OpenAI.yaml, url: https://cdn.jsdelivr.net/gh/Coldvvater/Mononoke@master/Stash/RuleSet/OpenAI.yaml}
 
 # 油管视频
@@ -206,16 +209,16 @@ rule-providers: # 远程规则集
  Games: {<<: *c, path: ./ruleset/Games.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game_No_Resolve.yaml}
 
 # 国内网站
- China: {<<: *d, path: ./ruleset/China.yaml, url: https://rules.kr328.app/cn.yaml}
+ China: {<<: *d, path: ./ruleset/China.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China_Domain.yaml}
 
 # 国外网站
- Proxy: {<<: *d, path: ./ruleset/Proxy.yaml, url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt}
+ Global: {<<: *d, path: ./ruleset/Global.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Domain.yaml}
 
 rules: # 分流规则引用
   - DOMAIN,rules.kr328.app,Proxy
   - RULE-SET,Private,DIRECT
   - RULE-SET,HTTPDNS,REJECT
-  - RULE-SET,OpenAI,America
+  - RULE-SET,OpenAI,OpenAI
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
   - RULE-SET,Disney,Disney+
@@ -236,7 +239,7 @@ rules: # 分流规则引用
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Games,Games
-  - RULE-SET,Proxy,Global
+  - RULE-SET,Global,Global
   - GEOIP,google,Google
   - GEOIP,netflix,NETFLIX
   - RULE-SET,China,Mainland
