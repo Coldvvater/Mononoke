@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.09.06
+# Update Date: 2023.10.15
 
 # 自选GEOIP数据库推荐使用: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
 
@@ -36,6 +36,7 @@ dns:
 c: &c {type: http, behavior: classical, interval: 86400}
 
 d: &d {type: http, behavior: domain, interval: 86400}
+
 # 远程订阅相关
 p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://www.apple.com/library/test/success.html, interval: 300}}
 
@@ -215,6 +216,8 @@ rule-providers: # 远程规则集
  Global: {<<: *d, path: ./ruleset/Global.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Domain.yaml}
 
 rules: # 分流规则引用
+#  - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
+#  - SCRIPT,quic,REJECT
   - DOMAIN,rules.kr328.app,Proxy
   - RULE-SET,Private,DIRECT
   - RULE-SET,HTTPDNS,REJECT
@@ -246,3 +249,7 @@ rules: # 分流规则引用
   - GEOIP,private,DIRECT
   - GEOIP,CN,Mainland
   - MATCH,Final
+
+script:
+  shortcuts:
+    quic: network == 'udp' and dst_port == 443
