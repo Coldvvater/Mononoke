@@ -1,5 +1,0 @@
-#!name = 屏蔽 HTTP3 / QUIC
-#!desc = 让 QUIC 流量回落到 HTTP2，避免 UDP 被 QoS
-
-[Rule]
-AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
