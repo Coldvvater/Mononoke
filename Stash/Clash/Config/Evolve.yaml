@@ -3,9 +3,9 @@
 # GitHub: https://github.com/Coldvvater
 # Update Date: 2023.10.28
 
-mixed-port: 7890                    # 混合端口，HTTP和SOCKS5用一个端口
-allow-lan: true                     # 允许局域网的连接（共享代理）
-bind-address: "*"                   # 监听IP白名单，可绑定单个IPv4和v6地址，"*" 为绑定所有IP地址，仅在将allow-lan设置为true时适用
+mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
+allow-lan: true                      # 允许局域网的连接（共享代理）
+bind-address: "*"                    # 监听IP白名单，可绑定单个IPv4和v6地址，"*" 为绑定所有IP地址，仅在将allow-lan设置为true时适用
                       
 
 ipv6: true                           # 开启 IPv6 总开关，关闭阻断所有 IPv6 链接和屏蔽 DNS 请求 AAAA 记录
@@ -217,6 +217,10 @@ rules: # 分流规则引用
 #  - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
 #  - SCRIPT,quic,REJECT
   - DOMAIN,rules.kr328.app,Proxy
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.metacubex.one,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - DOMAIN,d.metacubex.one,DIRECT
   - RULE-SET,Private,DIRECT
   - RULE-SET,HTTPDNS,REJECT
   - RULE-SET,OpenAI,OpenAI
