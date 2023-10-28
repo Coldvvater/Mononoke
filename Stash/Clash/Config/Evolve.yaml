@@ -43,17 +43,20 @@ g: &g {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapor
 
 m: &m {type: select, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
 
-proxies: null    # 本地服务器
+# 本地服务器
+proxies: null
 
 # 订阅引用相关
 u: &u {type: select, use: [Subscribe]}
 
-proxy-providers: # 远程订阅
+# 远程订阅
+proxy-providers: 
   Subscribe: {<<: *p, path: ./proxy_providers/subscribe.yaml, url: ""}
 # 1. 请使用Clash类型订阅链接填入引号""内使用,
 # 2. 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
 
-proxy-groups:    # 代理组
+# 代理组
+proxy-groups: 
 
 # 漏网之鱼
  - {name: Final, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png, <<: *g, proxies: [Proxy,DIRECT]}
