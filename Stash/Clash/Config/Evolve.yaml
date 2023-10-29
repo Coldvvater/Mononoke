@@ -139,7 +139,8 @@ proxy-groups:
 # 其他节点
  - {name: Others, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Airport.png, <<: *u, filter: "^((?!香港|HK|Hong Kong|台湾|TW|TaiWan|新加坡|SG|Singapore|狮城|日本|JP|Japan|美国|US|States|American|Music)).*$"}
 
-rule-providers: # 远程规则集
+# 远程规则集
+rule-providers:
 
 # 隐私网络
  Private: {<<: *d, path: ./ruleset/Private.yaml, url: https://rules.kr328.app/private.yaml}
@@ -181,7 +182,7 @@ rule-providers: # 远程规则集
  TikTok: {<<: *c, path: ./ruleset/TikTok.yaml, url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/TikTok.yaml}
 
 # 国际媒体
- GlobalMedia: {<<: *d, path: ./ruleset/GlobalMedia.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml}
+ GlobalMedia: {<<: *c, path: ./ruleset/GlobalMedia.yaml, url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ProxyMedia.yaml}
 
 # 电报信息
  Telegram: {<<: *c, path: ./ruleset/Telegram.yaml, url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Telegram.yaml}
@@ -211,12 +212,13 @@ rule-providers: # 远程规则集
  Games: {<<: *c, path: ./ruleset/Games.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game_No_Resolve.yaml}
 
 # 国内网站
- China: {<<: *d, path: ./ruleset/China.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China_Domain.yaml}
+ China: {<<: *d, path: ./ruleset/China.yaml, url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt}
 
 # 国外网站
- Global: {<<: *d, path: ./ruleset/Global.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Domain.yaml}
+ Global: {<<: *d, path: ./ruleset/Global.yaml, url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt}
 
-rules: # 分流规则引用
+# 分流规则引用
+rules:
 #  - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
 #  - SCRIPT,quic,REJECT
   - DOMAIN,rules.kr328.app,Proxy
