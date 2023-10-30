@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.10.29
+# Update Date: 2023.10.30
 
 mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true                      # 允许局域网的连接（共享代理）
@@ -212,7 +212,7 @@ rule-providers:
  Games: {<<: *c, path: ./ruleset/Games.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game_No_Resolve.yaml}
 
 # 国内网站
- China: {<<: *d, path: ./ruleset/China.yaml, url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt}
+ China: {<<: *d, path: ./ruleset/China.yaml, url: https://rules.kr328.app/cn.yaml}
 
 # 国外网站
  Global: {<<: *d, path: ./ruleset/Global.yaml, url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt}
