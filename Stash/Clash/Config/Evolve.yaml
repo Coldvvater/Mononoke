@@ -146,7 +146,7 @@ rule-providers:
  Private: {<<: *d, path: ./ruleset/Private.yaml, url: https://rules.kr328.app/private.yaml}
 
 # HTTPDNS拦截
- HTTPDNS: {<<: *d, path: ./ruleset/HTTPDNS.yaml, url: https://cdn.jsdelivr.net/gh/VirgilClyne/GetSomeFries@main/ruleset/HTTPDNS.Block.yaml}
+ HTTPDNS: {<<: *c, path: ./ruleset/HTTPDNS.yaml, url: https://cdn.jsdelivr.net/gh/VirgilClyne/GetSomeFries@main/ruleset/HTTPDNS.Block.yaml}
 
 # 人工智能
  OpenAI: {<<: *c, path: ./ruleset/OpenAI.yaml, url: https://cdn.jsdelivr.net/gh/Coldvvater/Mononoke@master/Stash/RuleSet/OpenAI.yaml}
@@ -170,13 +170,13 @@ rule-providers:
  BiliIntl: {<<: *d, path: ./ruleset/BiliIntl.yaml, url: https://rules.kr328.app/bilibili@%21cn.yaml}
 
 # 哔哩哔哩
- BiliBili: {<<: *c, path: ./ruleset/BiliBili.yaml, url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Bilibili.yaml}
+ BiliBili: {<<: *d, path: ./ruleset/BiliBili.yaml, url: https://rules.kr328.app/bilibili.yaml}
 
 # 声田音乐
  Spotify: {<<: *d, path: ./ruleset/Spotify.yaml, url: https://rules.kr328.app/spotify.yaml}
 
 # 网易云音乐
- NetEaseMusic: {<<: *c, path: ./ruleset/NetEaseMusic.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/NetEaseMusic/NetEaseMusic_No_Resolve.yaml}
+ NetEaseMusic: {<<: *c, path: ./ruleset/NetEaseMusic.yaml, url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml}
 
 # 海外抖音
  TikTok: {<<: *c, path: ./ruleset/TikTok.yaml, url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/TikTok.yaml}
@@ -203,7 +203,7 @@ rule-providers:
  Apple: {<<: *d, path: ./ruleset/Apple.yaml, url: https://rules.kr328.app/apple.yaml}
 
 # 谷歌服务
- Google: {<<: *c, path: ./ruleset/Google.yaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google_No_Resolve.yaml}
+ Google: {<<: *c, path: ./ruleset/Google.yaml, url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml}
 
 # 微软服务
  Microsoft: {<<: *d, path: ./ruleset/Microsoft.yaml, url: https://rules.kr328.app/microsoft.yaml}
