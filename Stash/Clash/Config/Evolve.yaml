@@ -74,7 +74,7 @@ proxy-groups:
  - {name: Global, icon: https://raw.githubusercontents.com/Koolson/Qure/master/IconSet/mini/Global.png, <<: *g}
 
 # 国内网站
- - {name: Mainland, icon: https://raw.githubusercontents.com/Koolson/Qure/master/IconSet/mini/China_Map.png, <<: *m}
+ - {name: Mainland, icon: https://raw.githubusercontents.com/Koolson/Qure/master/IconSet/mini/China_Map.png, <<: *m, proxies: [DIRECT,Proxy,Auto]}
 
 # 人工智能
  - {name: OpenAI, icon: https://raw.githubusercontents.com/Koolson/Qure/master/IconSet/mini/Bot.png, <<: *g, proxies: [America,Japan,Singapore,TaiWan,Others]}
@@ -98,7 +98,7 @@ proxy-groups:
  - {name: Spotify, icon: https://raw.githubusercontents.com/Koolson/Qure/master/IconSet/mini/Spotify.png, <<: *g}
 
 # 网易云音乐
- - {name: NetEaseMusic, icon: https://raw.githubusercontents.com/Koolson/Qure/master/IconSet/mini/Netease_Music.png, <<: *m, proxies: [DIRECT]}
+ - {name: NetEaseMusic, icon: https://raw.githubusercontents.com/Koolson/Qure/master/IconSet/mini/Netease_Music.png, <<: *m, proxies: [DIRECT,Proxy]}
 
 # 海外抖音
  - {name: TikTok, icon: https://raw.githubusercontents.com/Koolson/Qure/master/IconSet/mini/TikTok.png, <<: *g}
@@ -249,7 +249,7 @@ rules:
   - RULE-SET,streamingmedia,Streaming
   - RULE-SET,telegram,Telegram
   - RULE-SET,gitHub,Global
-  - RULE-SET,bing,Global
+  - RULE-SET,bing,OpenAI
   - RULE-SET,twitter,Global
   - RULE-SET,testflight,Global
   - RULE-SET,apple,Apple
