@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.11.01
+# Update Date: 2023.11.10
 
 mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true                      # 允许局域网的连接（共享代理）
@@ -155,7 +155,7 @@ rule-providers:
  speedtest: {<<: *c, path: ./rules/speedtest.yaml, url: https://raw.githubusercontents.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml}
 
 # 人工智能
- openai: {<<: *c, path: ./rules/openai.yaml, url: https://raw.githubusercontents.com/Coldvvater/Mononoke/master/Stash/RuleSet/OpenAI.yaml}
+ openai: {<<: *c, path: ./rules/openai.yaml, url: https://raw.githubusercontents.com/Coldvvater/Mononoke/master/Stash/RuleSet/AI.yaml}
 
 # 油管视频
  youtube: {<<: *c, path: ./rules/youtube.yaml, url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml}
@@ -195,9 +195,6 @@ rule-providers:
 
 # GitHub
  gitHub: {<<: *c, path: ./rules/gitHub.yaml, url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Github.yaml}
-
-# 必应搜索
- bing: {<<: *c, path: ./rules/bing.yaml, url: https://raw.githubusercontents.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.yaml}
 
 # Twitter
  twitter: {<<: *c, path: ./rules/twitter.yaml, url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Twitter.yaml}
@@ -249,7 +246,6 @@ rules:
   - RULE-SET,streamingmedia,Streaming
   - RULE-SET,telegram,Telegram
   - RULE-SET,gitHub,Global
-  - RULE-SET,bing,OpenAI
   - RULE-SET,twitter,Global
   - RULE-SET,testflight,Global
   - RULE-SET,apple,Apple
