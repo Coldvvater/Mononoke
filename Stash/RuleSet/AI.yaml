@@ -4,6 +4,8 @@ payload:
   - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,poe.com
