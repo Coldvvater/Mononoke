@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.11.19
+# Update Date: 2023.11.25
 
 mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true                      # 允许局域网的连接（共享代理）
@@ -200,7 +200,7 @@ rule-providers:
  testflight: {<<: *c, path: ./rules/testflight.yaml, url: https://raw.githubusercontents.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.yaml}
 
 # 苹果服务
- apple: {<<: *c, path: ./rules/apple.yaml, url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml}
+ apple: {<<: *d, path: ./rules/apple.yaml, url: https://raw.githubusercontents.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Domain.yaml}
 
 # 谷歌服务
  google: {<<: *c, path: ./rules/google.yaml, url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml}
