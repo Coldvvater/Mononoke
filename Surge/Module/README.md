@@ -1,6 +1,6 @@
 #### 模块使用步骤
 
-1. 在 Surge 首页点击「**修改**」点击「**配置根证书**」，先点击「**生成新的CA证书**」再点击「**安装证书**」跳转到下载证书页面点击**允许**。
+1. 在 Surge 首页点击「**修改**」(新版本MitM位置已调整)点击「**配置根证书**」，先点击「**生成新的CA证书**」再点击「**安装证书**」跳转到下载证书页面点击**允许**。
 
 <div align="center">
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/ModuleCap/modify.PNG?raw=true width=60%  />
