@@ -1,6 +1,0 @@
-#!name=兼容模式3
-#!desc=部分应用在该模式下会认为 VPN 未开启以解决特殊兼容性问题
-#!system=ios
-
-[General]
-compatibility-mode = 3
