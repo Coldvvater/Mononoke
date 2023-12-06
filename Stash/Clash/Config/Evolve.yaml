@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.11.25
+# Update Date: 2023.12.06
 
 mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true                      # 允许局域网的连接（共享代理）
@@ -140,7 +140,7 @@ proxy-groups:
  - {name: America, icon: https://raw.githubusercontents.com/Koolson/Qure/master/IconSet/mini/United_States.png, <<: *u, filter: "美|🇺🇲|US|(?i)States|American"}
 
 # 其他节点
- - {name: Others, icon: https://raw.githubusercontents.com/Koolson/Qure/master/IconSet/mini/Airport.png, <<: *u, filter: "^((?!香港|HK|Hong Kong|台湾|TW|TaiWan|新加坡|SG|Singapore|狮城|日本|JP|Japan|美国|US|States|American|Music)).*$"}
+ - {name: Others, icon: https://raw.githubusercontents.com/Koolson/Qure/master/IconSet/mini/Airport.png, <<: *u, filter: "^((?!香港|HK|Hong Kong|台湾|TW|TaiWan|新加坡|SG|Singapore|狮城|日本|JP|Japan|美国|US|States|American)).*$"}
 
 # 远程规则集
 rule-providers:
