@@ -39,9 +39,9 @@ d: &d {type: http, behavior: domain, interval: 86400}
 p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://www.apple.com/library/test/success.html, interval: 300}}
 
 # 代理组相关
-g: &g {type: select, proxies: [Proxy, Auto, Fallback, HongKong, Singapore, Others, DIRECT]}
+g: &g {type: select, proxies: [Proxy, Auto, Fallback, HongKong, Singapore, DIRECT]}
 
-m: &m {type: select, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, Singapore, Others]}
+m: &m {type: select, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, Singapore]}
 
 # 本地服务器
 proxies: null
