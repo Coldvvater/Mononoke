@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.12.17
+# Update Date: 2023.12.18
 
 mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true                      # 允许局域网的连接（共享代理）
@@ -21,7 +21,7 @@ dns:
   listen: 0.0.0.0:53                 # DNS 监听地址
   default-nameserver: [223.5.5.5, 119.29.29.29]
                                      # 解析非IP的dns用的dns服务器，只支持纯IP，（Meta可为其加密）
-  nameserver: [https://dns.alidns.com/dns-query, https://doh.pub/dns-query]
+  nameserver: [https://223.5.5.5/dns-query, https://1.12.12.12/dns-query]
                                      # 默认DNS服务器，支持udp/tcp/dot/doh/doq
 
   fake-ip-range: 198.18.0.1/16       # Fake-IP 解析地址池
