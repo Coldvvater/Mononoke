@@ -62,13 +62,13 @@ payload:
 
   # DC5-V6
   - IP-CIDR6,2001:b28:f23f::/48,no-resolve
-  - # DC4-V6
+  # DC4-V6
   - IP-CIDR6,2001:67c:4e8::/48,no-resolve
-  - # DC1-V6
+  # DC1-V6
   - IP-CIDR6,2001:b28:f23d::/48,no-resolve
-  - # DC2-V6
+  # DC2-V6
   - IP-CIDR6,2001:b28:f23c::/48,no-resolve
-  - # DC3-V6
+  # DC3-V6
   - IP-CIDR6,2a0a:f280:203::/48,no-resolve
 
   - PROCESS-NAME,nekox.messenger
