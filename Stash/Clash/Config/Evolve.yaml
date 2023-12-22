@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.12.18
+# Update Date: 2023.12.22
 
 mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true                      # 允许局域网的连接（共享代理）
@@ -188,7 +188,7 @@ rule-providers:
  streamingmedia: {<<: *c, path: ./rules/streamingmedia.yaml, url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml}
 
 # 电报信息
- telegram: {<<: *c, path: ./rules/telegram.yaml, url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml}
+ telegram: {<<: *c, path: ./rules/telegram.yaml, url: https://raw.githubusercontents.com/Coldvvater/Mononoke/master/Stash/RuleSet/Telegram.yaml}
 
 # GitHub
  gitHub: {<<: *c, path: ./rules/gitHub.yaml, url: https://raw.githubusercontents.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Github.yaml}
@@ -221,6 +221,7 @@ rule-providers:
 rules:
 #  - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
 #  - SCRIPT,quic,REJECT
+  - DOMAIN,raw.gitmirror.com,Global
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.metacubex.one,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
