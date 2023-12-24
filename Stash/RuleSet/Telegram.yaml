@@ -25,6 +25,8 @@ payload:
   - DOMAIN-KEYWORD,telegram
 
   # Nicegram
+  - DOMAIN-SUFFIX,applovin.com
+  - DOMAIN-SUFFIX,mbrx.app
   - DOMAIN-KEYWORD,nicegram
 
   # iMe
@@ -59,6 +61,9 @@ payload:
   # DC3
   - IP-CIDR,91.105.192.0/23,no-resolve
   - IP-CIDR,185.76.151.0/24,no-resolve
+
+  # Other
+  - IP-CIDR,5.28.192.0/18,no-resolve
 
   # DC5-V6
   - IP-CIDR6,2001:b28:f23f::/48,no-resolve
