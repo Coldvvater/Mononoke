@@ -34,6 +34,18 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openaicom-api
 
+# > New Bing
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bingapis.com
+
+# > Claude
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+# > Bard
+DOMAIN-SUFFIX,bard.google.com
+
 # ChatGPT Voice
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,host.livekit.cloud
@@ -59,15 +71,3 @@ IP-CIDR6,2001:19f0:7001:8e6:5400:4ff:feab:b953/128,no-resolve
 IP-CIDR6,2401:c080:1000:47c5:5400:4ff:feab:f724/128,no-resolve
 IP-ASN,14061,no-resolve
 IP-ASN,20473,no-resolve
-
-# > New Bing
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bingapis.com
-
-# > Claude
-DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-
-# > Bard
-DOMAIN-SUFFIX,bard.google.com
