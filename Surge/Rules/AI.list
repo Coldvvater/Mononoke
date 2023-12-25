@@ -34,6 +34,9 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openaicom-api
 
+# Arc浏览器 Ask on page
+DOMAIN,open-ai-chat-omega.vercel.app
+
 # > New Bing
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
