@@ -37,11 +37,11 @@ d: &d {type: http, behavior: domain, interval: 86400}
 
 i: &i {type: http, behavior: ipcidr, interval: 86400}
 
-# 远程订阅相关
-p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://www.apple.com/library/test/success.html, interval: 600}}
-
 # 代理组相关
 g: &g {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
+
+# 远程订阅相关
+p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://www.apple.com/library/test/success.html, interval: 600}}
 
 # 订阅引用相关
 u: &u {type: select, use: [Subscribe]}
