@@ -159,7 +159,7 @@ rule-providers:
  openai-classical: {<<: *c, path: ./ruleset/openai-classical.yaml, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Stash/RuleSet/AI.yaml}
 
 # 油管视频
- youtube_domain: {<<: *d, path: ./ruleset/youtube-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.yaml}
+ youtube-domain: {<<: *d, path: ./ruleset/youtube-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.yaml}
 
 # 奈飞影视
  netflix-domain: {<<: *d, path: ./ruleset/netflix-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml}
