@@ -187,13 +187,13 @@ rule-providers:
  spotify-domain: {<<: *d, path: ./ruleset/spotify-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml}
 
 # 网易云音乐
- neteasemusic-classical: {<<: *c, path: ./ruleset/neteasemusics-classical.yaml, url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml}
+ neteasemusic-classical: {<<: *c, path: ./ruleset/neteasemusic-classical.yaml, url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml}
 
 # 海外抖音
  tiktok-domain: {<<: *d, path: ./ruleset/tiktok-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.yaml}
 
 # 国际媒体
- streamingmedia-classical: {<<: *c, path: ./ruleset/streamingmedias-classical.yaml, url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml}
+ streamingmedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.yaml, url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml}
 
 # 电报信息
  telegram-domain: {<<: *d, path: ./ruleset/telegram-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.yaml}
@@ -209,7 +209,7 @@ rule-providers:
  twitter-ip: {<<: *i, path: ./ruleset/twitter-ip.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/twitter.yaml}
 
 # TestFlight
- testflight-classical: {<<: *c, path: ./ruleset/testflights-classical.yaml, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.yaml}
+ testflight-classical: {<<: *c, path: ./ruleset/testflight-classical.yaml, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.yaml}
 
 # 苹果服务
  apple-domain: {<<: *d, path: ./ruleset/apple-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml}
