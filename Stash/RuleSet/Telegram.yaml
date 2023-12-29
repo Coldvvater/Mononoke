@@ -76,6 +76,17 @@ payload:
   # DC3-V6
   - IP-CIDR6,2a0a:f280:203::/48,no-resolve
 
+  # DC5-ASN
+  #- IP-ASN,62014,no-resolve
+  # DC4-ASN
+  #- IP-ASN,62041,no-resolve
+  # DC1-ASN
+  #- IP-ASN,59930,no-resolve
+  # DC2-ASN
+  #- IP-ASN,44907,no-resolve
+  # DC3-ASN
+  #- IP-ASN,211157,no-resolve
+
   - PROCESS-NAME,nekox.messenger
   - PROCESS-NAME,org.telegram.messenger
   - PROCESS-NAME,telegram-desktop
