@@ -73,3 +73,5 @@ payload:
   - IP-CIDR6,2001:19f0:7001:1149:5400:4ff:feac:a0b3/128,no-resolve
   - IP-CIDR6,2001:19f0:7001:8e6:5400:4ff:feab:b953/128,no-resolve
   - IP-CIDR6,2401:c080:1000:47c5:5400:4ff:feab:f724/128,no-resolve
+  #- IP-ASN,14061,no-resolve
+  #- IP-ASN,20473,no-resolve
