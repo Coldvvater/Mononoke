@@ -45,7 +45,7 @@ DOMAIN-SUFFIX,bingapis.com
 DOMAIN,api.msn.com
 DOMAIN,assets.msn.com
 DOMAIN,dealczars.bing-shopping.microsoft-falcon.io
-DOMAIN,eas.outlook.com
+#DOMAIN,eas.outlook.com
 DOMAIN,gateway.bingviz.microsoftapp.net
 DOMAIN,in.appcenter.ms
 DOMAIN,location.microsoft.com
