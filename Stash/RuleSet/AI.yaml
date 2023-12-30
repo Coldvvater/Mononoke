@@ -35,12 +35,28 @@ payload:
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-KEYWORD,openaicom-api
 
-  # Arc 浏览器 Ask on page
+  # > Arc 浏览器 Ask on page
   - DOMAIN,open-ai-chat-omega.vercel.app
 
   # > New Bing
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,bingapis.com
+
+  # > Microsoft Copilot App 
+  - DOMAIN,api.msn.com
+  - DOMAIN,assets.msn.com
+  - DOMAIN,dealczars.bing-shopping.microsoft-falcon.io
+  - DOMAIN,gateway.bingviz.microsoftapp.net
+  - DOMAIN,in.appcenter.ms
+  - DOMAIN,location.microsoft.com
+  - DOMAIN,login.microsoftonline.com
+  - DOMAIN,self.events.data.microsoft.com
+  - DOMAIN,services.bingapis.com
+  - DOMAIN,shopping.bing-shopping.microsoft-falcon.io
+  - DOMAIN,sapphire.api.microsoftapp.net
+  - DOMAIN,sr.bing.com
+  - DOMAIN,sydney.bing.com
+  - DOMAIN,ssl.bing.com
 
   # > Claude
   - DOMAIN,cdn.usefathom.com
@@ -50,7 +66,7 @@ payload:
   # > Bard
   - DOMAIN,bard.google.com
 
-  # ChatGPT Voice
+  # > ChatGPT Voice
   - DOMAIN-SUFFIX,chatgpt.livekit.cloud
   - DOMAIN-SUFFIX,host.livekit.cloud
   - DOMAIN-SUFFIX,turn.livekit.cloud
