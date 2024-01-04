@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,bingapis.com
 # > Microsoft Copilot App
 DOMAIN,api.msn.com
 DOMAIN,assets.msn.com
+DOMAIN,copilot.microsoft.com
 DOMAIN,dealczars.bing-shopping.microsoft-falcon.io
 #DOMAIN,eas.outlook.com
 DOMAIN,gateway.bingviz.microsoftapp.net
