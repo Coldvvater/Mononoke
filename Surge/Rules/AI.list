@@ -1,3 +1,22 @@
+# > Microsoft Copilot App
+DOMAIN,api.msn.com
+DOMAIN,assets.msn.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,dealczars.bing-shopping.microsoft-falcon.io
+#DOMAIN,eas.outlook.com
+DOMAIN,edgeservices.bing.com
+DOMAIN,functional.events.data.microsoft.com
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,in.appcenter.ms
+DOMAIN,location.microsoft.com
+DOMAIN,login.microsoftonline.com
+DOMAIN,proteus-assetstore.azurewebsites.net
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,services.bingapis.com
+DOMAIN,shopping.bing-shopping.microsoft-falcon.io
+DOMAIN,sapphire.api.microsoftapp.net
+DOMAIN-SUFFIX,edge.microsoft.com
+
 # > OpenAI ChatGPT
 DOMAIN,api.statsig.com
 DOMAIN,browser-intake-datadoghq.com
@@ -37,32 +56,14 @@ DOMAIN-KEYWORD,openaicom-api
 # > Arc浏览器 Ask on page
 DOMAIN,open-ai-chat-omega.vercel.app
 
-# > New Bing
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bingapis.com
-
-# > Microsoft Copilot App
-DOMAIN,api.msn.com
-DOMAIN,assets.msn.com
-DOMAIN,copilot.microsoft.com
-DOMAIN,dealczars.bing-shopping.microsoft-falcon.io
-#DOMAIN,eas.outlook.com
-DOMAIN,gateway.bingviz.microsoftapp.net
-DOMAIN,in.appcenter.ms
-DOMAIN,location.microsoft.com
-DOMAIN,login.microsoftonline.com
-DOMAIN,self.events.data.microsoft.com
-DOMAIN,services.bingapis.com
-DOMAIN,shopping.bing-shopping.microsoft-falcon.io
-DOMAIN,sapphire.api.microsoftapp.net
-DOMAIN,sr.bing.com
-DOMAIN,sydney.bing.com
-DOMAIN,ssl.bing.com
-
 # > Claude
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+
+# > New Bing
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bingapis.com
 
 # > Bard
 DOMAIN-SUFFIX,bard.google.com
