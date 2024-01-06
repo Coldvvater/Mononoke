@@ -20,7 +20,7 @@ dns:
   enhanced-mode: fake-ip             # 模式：redir-host或fake-ip
   listen: 0.0.0.0:53                 # DNS 监听地址
   default-nameserver: [223.5.5.5, 119.29.29.29]
-                                     # 解析非IP的dns用的dns服务器，只支持纯IP，（Meta可为其加密）
+                                     # 解析非IP的dns用的dns服务器，只支持纯IP
   nameserver: [https://223.5.5.5/dns-query, https://1.12.12.12/dns-query]
                                      # 默认DNS服务器，支持udp/tcp/dot/doh/doq
 
