@@ -23,9 +23,11 @@ DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,usercontent.dev
 DOMAIN-KEYWORD,telegram
 
+DOMAIN,events-gateway.ncdev.site
+DOMAIN-SUFFIX,walletbot.me
+
 # Nicegram
 DOMAIN-SUFFIX,applovin.com
-DOMAIN-SUFFIX,mbrx.app
 DOMAIN-KEYWORD,nicegram
 
 # iMe
