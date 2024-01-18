@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.01.06
+# Update Date: 2023.01.18
 
 mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true                      # 允许局域网的连接（共享代理）
@@ -31,11 +31,11 @@ dns:
 ######### 锚点 start #########
 
 # 规则行为相关
-c: &c {type: http, behavior: classical, interval: 86400, format: text}
+c: &c {type: http, behavior: classical, interval: 86400}
 
-d: &d {type: http, behavior: domain, interval: 86400, format: text}
+d: &d {type: http, behavior: domain, interval: 86400}
 
-i: &i {type: http, behavior: ipcidr, interval: 86400, format: text}
+i: &i {type: http, behavior: ipcidr, interval: 86400}
 
 # 代理组相关
 g: &g {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others, DIRECT]}
@@ -148,90 +148,90 @@ proxy-groups:
 rule-providers:
 
 # 隐私网络
- private-domain: {<<: *d, path: ./ruleset/private-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.list}
+ private-domain: {<<: *d, path: ./ruleset/private-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.yaml}
  
- private-ip: {<<: *i, path: ./ruleset/private-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.list}
+ private-ip: {<<: *i, path: ./ruleset/private-ip.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.yaml}
 
 # 网络测试
- speedtest-domain: {<<: *d, path: ./ruleset/speedtest-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/speedtest.list}
+ speedtest-domain: {<<: *d, path: ./ruleset/speedtest-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/speedtest.yaml}
 
 # 人工智能
- openai-classical: {<<: *c, path: ./ruleset/openai-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Stash/RuleSet/AI.list}
+ openai-classical: {<<: *c, path: ./ruleset/openai-classical.yaml, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Stash/RuleSet/AI.yaml}
 
 # 油管视频
- youtube-domain: {<<: *d, path: ./ruleset/youtube-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.list}
+ youtube-domain: {<<: *d, path: ./ruleset/youtube-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.yaml}
 
 # 奈飞影视
- netflix-domain: {<<: *d, path: ./ruleset/netflix-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.list}
+ netflix-domain: {<<: *d, path: ./ruleset/netflix-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml}
  
- netflix-ip: {<<: *i, path: ./ruleset/netflix-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.list}
+ netflix-ip: {<<: *i, path: ./ruleset/netflix-ip.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.yaml}
 
 # 迪士尼+
- disney-domain: {<<: *d, path: ./ruleset/disney-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.list}
+ disney-domain: {<<: *d, path: ./ruleset/disney-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.yaml}
 
 # Emby
- emby-classical: {<<: *c, path: ./ruleset/emby-classical.list, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.list}
+ emby-classical: {<<: *c, path: ./ruleset/emby-classical.yaml, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.yaml}
 
 # 动画疯
- bahamut-domain: {<<: *d, path: ./ruleset/bahamut-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.list}
+ bahamut-domain: {<<: *d, path: ./ruleset/bahamut-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.yaml}
 
 # 哔哩哔哩东南亚
- biliintl-domain: {<<: *d, path: ./ruleset/biliintl-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/biliintl.list}
+ biliintl-domain: {<<: *d, path: ./ruleset/biliintl-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/biliintl.yaml}
 
 # 哔哩哔哩
- bilibili-domain: {<<: *d, path: ./ruleset/bilibili-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bilibili.list}
+ bilibili-domain: {<<: *d, path: ./ruleset/bilibili-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bilibili.yaml}
  
- bilibili-ip: {<<: *i, path: ./ruleset/bilibili-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/bilibili.list}
+ bilibili-ip: {<<: *i, path: ./ruleset/bilibili-ip.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/bilibili.yaml}
 
 # 声田音乐
- spotify-domain: {<<: *d, path: ./ruleset/spotify-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.list}
+ spotify-domain: {<<: *d, path: ./ruleset/spotify-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.yaml}
 
 # 网易云音乐
- neteasemusic-classical: {<<: *c, path: ./ruleset/neteasemusic-classical.list, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic.list}
+ neteasemusic-classical: {<<: *c, path: ./ruleset/neteasemusic-classical.yaml, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic_No_Resolve.yaml}
 
 # 海外抖音
- tiktok-domain: {<<: *d, path: ./ruleset/tiktok-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.list}
+ tiktok-domain: {<<: *d, path: ./ruleset/tiktok-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.yaml}
 
 # 国际媒体
- streamingmedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.list, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list}
+ streamingmedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.yaml, url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml}
 
 # 电报信息
- telegram-domain: {<<: *d, path: ./ruleset/telegram-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.list}
+ telegram-domain: {<<: *d, path: ./ruleset/telegram-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.yaml}
 
- telegram-ip: {<<: *i, path: ./ruleset/telegram-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.list}
+ telegram-ip: {<<: *i, path: ./ruleset/telegram-ip.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.yaml}
 
 # GitHub
- github-domain: {<<: *d, path: ./ruleset/github-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.list}
+ github-domain: {<<: *d, path: ./ruleset/github-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.yaml}
 
 # Twitter
- twitter-domain: {<<: *d, path: ./ruleset/twitter-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitter.list}
+ twitter-domain: {<<: *d, path: ./ruleset/twitter-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitter.yaml}
  
- twitter-ip: {<<: *i, path: ./ruleset/twitter-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/twitter.list}
+ twitter-ip: {<<: *i, path: ./ruleset/twitter-ip.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/twitter.yaml}
 
 # TestFlight
- testflight-classical: {<<: *c, path: ./ruleset/testflight-classical.list, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.list}
+ testflight-classical: {<<: *c, path: ./ruleset/testflight-classical.yaml, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.yaml}
 
 # 苹果服务
- apple-domain: {<<: *d, path: ./ruleset/apple-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.list}
+ apple-domain: {<<: *d, path: ./ruleset/apple-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml}
  
- apple-ip: {<<: *i, path: ./ruleset/apple-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/apple.list}
+ apple-ip: {<<: *i, path: ./ruleset/apple-ip.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/apple.yaml}
 
 # 谷歌服务
- google-domain: {<<: *d, path: ./ruleset/google-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.list}
+ google-domain: {<<: *d, path: ./ruleset/google-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.yaml}
 
- google-ip: {<<: *i, path: ./ruleset/google-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.list}
+ google-ip: {<<: *i, path: ./ruleset/google-ip.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.yaml}
 
 # 微软服务
- microsoft-domain: {<<: *d, path: ./ruleset/microsoft-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.list}
+ microsoft-domain: {<<: *d, path: ./ruleset/microsoft-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.yaml}
 
 # 游戏平台
- games-classical: {<<: *c, path: ./ruleset/games-classical.list, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list}
+ games-classical: {<<: *c, path: ./ruleset/games-classical.yaml, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game_No_Resolve.yaml}
 
 # 国内网站
- cn-domain: {<<: *d, path: ./ruleset/cn-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geosite/cn.list}
+ cn-domain: {<<: *d, path: ./ruleset/cn-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geosite/cn.yaml}
 
 # 国外网站
- proxy-domain: {<<: *d, path: ./ruleset/proxy-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.list}
+ proxy-domain: {<<: *d, path: ./ruleset/proxy-domain.yaml, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml}
 
 # 分流规则引用
 rules:
@@ -242,7 +242,6 @@ rules:
   - DOMAIN,yacd.haishan.me,DIRECT
   - DOMAIN,d.metacubex.one,DIRECT
   - DOMAIN-SUFFIX,gitmirror.com,Global
-  - DOMAIN-SUFFIX,ziffstatic.com,Speedtest
 
   - RULE-SET,private-domain,DIRECT
   - RULE-SET,speedtest-domain,Speedtest
