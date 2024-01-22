@@ -7,4 +7,4 @@
 SUB_INFO = script-name=sub_info,content="Loading…",update-interval=“{{{interval}}}”,timeout={{{timeout}}},reset_day={{{reset_day}}},title={{{title}}},icon={{{icon}}},color={{{color}}}
 
 [Script]
-sub_info = type=generic,script-update-interval=86400,timeout=60,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/sub_info_panel.js,argument=url={{{api-key}}}
+sub_info = type=generic,script-update-interval=86400,timeout=60,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/sub_info_panel.js,argument=url={{{订阅链接}}}
