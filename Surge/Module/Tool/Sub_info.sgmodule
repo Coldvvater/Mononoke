@@ -17,6 +17,6 @@ Sub_info = script-name=Sub_info,update-interval=3600
 Sub_info = script-name=Sub_info1,update-interval=3600
 
 [Script]
-Sub_info = type=generic,timeout=15,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info_panel.js,script-update-interval=3600,argument=url=encode后的机场订阅链接&reset_day=你的流量重置日期&title=你的机场名字&icon=airplane.departure&color=#157EFB
+Sub_info = type=generic,script-update-interval=“{{{interval}}}”,timeout={{{timeout}}},script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info_panel.js,argument={{{link}}},reset_day={{{reset_day}}},title={{{title}}},icon={{{icon}}},color={{{color}}}
 
-Sub_info1 = type=generic,timeout=15,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info_panel.js,script-update-interval=3600,argument=url=encode后的机场订阅链接&reset_day=你的流量重置日期&title=你的机场名字&icon=airplane.departure&color=#00BC12
+Sub_info1 = type=generic,script-update-interval=“{{{interval}}}”,timeout={{{timeout}}},script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info_panel.js,argument={{{link}}},reset_day={{{reset_day}}},title={{{title}}},icon={{{icon}}},color={{{color}}}
