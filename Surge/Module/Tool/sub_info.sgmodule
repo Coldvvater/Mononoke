@@ -14,10 +14,9 @@
 # BoxJS订阅地址：https://raw.githubusercontent.com/smartmimi/conf/master/boxjs/cookie.boxjs.json
 
 [Panel]
-Sub_infoA = script-name=Sub_info1,content="Loading…",update-interval=“{{{interval}}}”,timeout={{{timeout}}},reset_day={{{reset_day}}},title={{{title}}},icon={{{icon}}},color={{{color}}}
-Sub_infoB = script-name=Sub_info2,content="Loading…",update-interval=“{{{interval}}}”,timeout={{{timeout}}},reset_day={{{reset_day}}},title={{{title}}},icon={{{icon}}},color={{{color}}}
+SUB_INFO = script-name=sub_info,content="Loading…",update-interval=“{{{interval}}}”,timeout={{{timeout}}},reset_day={{{reset_day}}},title={{{title}}},icon={{{icon}}},color={{{color}}}
 
 [Script]
-Sub_info1 = type=generic,script-update-interval=86400,timeout=30,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info_panel.js,argument={{{api-key}}}
+sub_info = type=generic,script-update-interval=86400,timeout=30,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info_panel.js,argument={{{api-key}}}
 
-Sub_info2 = type=generic,script-update-interval=86400,timeout=30,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info_panel.js,argument={{{api-key}}}
+
