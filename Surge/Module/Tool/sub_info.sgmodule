@@ -1,10 +1,10 @@
 #!name=机场流量信息
 #!desc=显示机场剩余流量信息以及套餐到期日期
 #!category=Panels
-#!arguments=interval:"3600",timeout:120,reset_day:1,title:airport,icon:airplane.departure,color:#157EFB,api-key:sub_link
+#!arguments=面板更新时间:"3600",超时:120,重置日期:1,机场名称:airport,图标:airplane.departure,颜色:#157EFB,订阅链接:sub_link
 
 [Panel]
 SUB_INFO = script-name=sub_info,content="Loading…",update-interval=“{{{interval}}}”,timeout={{{timeout}}},reset_day={{{reset_day}}},title={{{title}}},icon={{{icon}}},color={{{color}}}
 
 [Script]
-sub_info = type=generic,script-update-interval=86400,timeout=60,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/sub_info_panel.js,argument={{{api-key}}}
+sub_info = type=generic,script-update-interval=86400,timeout=60,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/sub_info_panel.js,argument=url={{{api-key}}}
