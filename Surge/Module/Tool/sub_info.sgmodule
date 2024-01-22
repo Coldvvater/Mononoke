@@ -4,6 +4,6 @@
 #!arguments=interval:"3600",timeout:120,reset_day:1,title:airport,icon:airplane.departure,color:#157EFB,sub_link:sub_link
 
 [Panel]
-SUB_INFO = script-name=sub_info,content="Loading…"
+SUB_INFO = script-name=sub_info,content="Loading…",update-interval=“{{{interval}}}”
 [Script]
-sub_info = type=generic,script-update-interval=86400,timeout=60,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/sub_info_panel.js,argument=url={{{sub_link}}}&update-interval=“{{{interval}}}”&reset_day={{{reset_day}}}&title={{{title}}}&icon={{{icon}}}&color={{{color}}}
+sub_info = type=generic,script-update-interval=86400,timeout=60,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/sub_info_panel.js,argument=url={{{sub_link}}}&reset_day={{{reset_day}}}&title={{{title}}}&icon={{{icon}}}&color={{{color}}}
