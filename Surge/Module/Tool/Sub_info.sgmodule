@@ -1,7 +1,7 @@
 #!name=机场流量信息
 #!desc=显示机场剩余流量信息以及套餐到期日期
 #!category=Panels
-#!arguments=reset_day:1,title:airport,icon:airplane.departure,color:#157EFB,link
+#!arguments=interval:"886400",timeout:120,reset_day:1,title:airport,icon:airplane.departure,color:#157EFB,api-key
 
 # 先将带有流量信息的节点订阅链接encode，用encode后的链接替换"url="后面的[encode后的机场订阅链接]
 # 可选参数 &reset_day，后面的数字替换成流量每月重置的日期，如1号就写1，8号就写8。如"&reset_day=8",不加该参数不显示流量重置信息。
@@ -14,10 +14,10 @@
 # BoxJS订阅地址：https://raw.githubusercontent.com/smartmimi/conf/master/boxjs/cookie.boxjs.json
 
 [Panel]
-Sub_info = script-name=Sub_info,update-interval=3600
-Sub_info = script-name=Sub_info1,update-interval=3600
+Sub_infoA = script-name=Sub_info1,update-interval=“{{{interval}}}”,timeout={{{timeout}}},reset_day={{{reset_day}}},title={{{title}}},icon={{{icon}}},color={{{color}}}
+Sub_infoB = script-name=Sub_info2,update-interval=“{{{interval}}}”,timeout={{{timeout}}},reset_day={{{reset_day}}},title={{{title}}},icon={{{icon}}},color={{{color}}}
 
 [Script]
-Sub_info = type=generic,script-update-interval=86400,timeout=30,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info_panel.js,argument={{{link}}},reset_day={{{reset_day}}},title={{{title}}},icon={{{icon}}},color={{{color}}}
+Sub_info1 = type=generic,script-update-interval=86400,timeout=30,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info_panel.js,argument={{{api-key}}}
 
-Sub_info1 = type=generic,script-update-interval=86400,timeout=30,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info_panel.js,argument={{{link}}},reset_day={{{reset_day}}},title={{{title}}},icon={{{icon}}},color={{{color}}}
+Sub_info2 = type=generic,script-update-interval=86400,timeout=30,script-path=https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info_panel.js,argument={{{api-key}}}
