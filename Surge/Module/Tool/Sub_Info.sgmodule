@@ -1,0 +1,11 @@
+#!name=机场订阅信息
+#!desc=显示机场剩余流量、流量重置日期、以及套餐到期时间
+#!category=Panels
+#!arguments=机场名称:airport,图标:airplane.departure,颜色:#157EFB,流量重置日期:1,套餐到期时间(可选):2024-01-01,订阅链接:sub_link
+# 适配最新版Surge（TF 5.21.0 (3026)）及以上，的模块功能，安装模块后只需要长按模块，在弹出的"Edit Arguments"点击进入然后填写相关参数即可使用。
+
+[Panel]
+SUB_INFO = script-name=sub_info,content="Loading…"
+
+[Script]
+sub_info = type=generic,script-update-interval=3600,timeout=30,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/sub_info_panel.js,argument=url={{{订阅链接}}}&reset_day={{{流量重置日期}}}&title={{{机场名称}}}&icon={{{图标}}}&color={{{颜色}}}&expire={{{套餐到期时间(可选)}}}
