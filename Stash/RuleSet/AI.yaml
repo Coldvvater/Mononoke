@@ -90,5 +90,8 @@ payload:
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
 
+  # > Gemini
+  - DOMAIN, generativelanguage.googleapis.com
+
   # > Bard
   - DOMAIN,bard.google.com
