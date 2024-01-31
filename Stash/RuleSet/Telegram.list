@@ -37,6 +37,9 @@ DOMAIN-SUFFIX,imem.app
 # Swiftgram
 DOMAIN-SUFFIX,swiftgram.app
 
+# Turrit
+DOMAIN-SUFFIX,iturrit.com
+
 # DC5
 IP-CIDR,91.108.16.0/22,no-resolve
 IP-CIDR,91.108.56.0/23,no-resolve
