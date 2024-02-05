@@ -1,6 +1,9 @@
 name: Q-Search
 desc: 快捷切换聚合搜索引擎
-# author: Neurogram-R、zZPiglet、ddgksf2013
+author: Neurogram-R、zZPiglet、ddgksf2013
+homepage: "https://github.com/Coldvvater/Mononoke/tree/master/Stash/Override/Tool"
+icon: "https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Q.png?raw=true"
+category: "Coldvvater"
 ###########################################################
 # - Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索
 # - 注：请先进入设置更改 Safari 默认搜索为 DuckDuckGO
@@ -78,8 +81,8 @@ http:
     # ph  xxx (PornHub)
     - ^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
     
-    # ys  xxx (cupfox)
-    - ^https:\/\/duckduckgo.com\/\?q=ys\+([^&]+).+ https://cupfox.app/search?key=$1 302
+    # ys  xxx (搜片)
+    - ^https:\/\/duckduckgo.com\/\?q=ys\+([^&]+).+ https://soupian.icu/search?key=$1 302
 
     # so xxx (Stack Overflow)
     - ^https:\/\/duckduckgo.com\/\?q=so(\+|%20)([^&]+).+ https://stackoverflow.com/search?q=$2 302
