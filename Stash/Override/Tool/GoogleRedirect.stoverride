@@ -1,5 +1,9 @@
 name: Google重定向
 desc: 将google.cn/google.com.hk重定向回google.com
+author: VirgilClyne
+homepage: "https://github.com/Coldvvater/Mononoke/tree/master/Stash/Override/Tool"
+icon: "https://github.com/Koolson/Qure/blob/master/IconSet/Color/Google_Search.png?raw=true"
+category: "Coldvvater"
 # 注：需关闭当前Google网页并重启浏览器。
 
 http:
