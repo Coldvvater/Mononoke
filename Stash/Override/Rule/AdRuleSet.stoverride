@@ -1,5 +1,9 @@
-name: 去广告规则
+name: 去广告规则覆写
 desc: 分流去广告(或存在误杀，谨慎使用)
+author: anti-AD
+homepage: "https://github.com/Coldvvater/Mononoke/tree/master/Stash/Override/Rule"
+icon: "https://github.com/Koolson/Qure/blob/master/IconSet/Color/Bypass.png?raw=true"
+category: "Coldvvater"
 
 rule-providers:
   anti-AD:
