@@ -1,8 +1,9 @@
 name: BiliBili每日等级任务
 desc: 定时任务及Cookie获取
-# author: MartinsKing（@ClydeTime）
-# homepage: https://github.com/ClydeTime/BiliBili/tree/master
-# icon: https://raw.githubusercontent.com/ClydeTime/BiliBili/main/database/icon_Avatar.png
+author: MartinsKing（@ClydeTime）
+homepage: https://github.com/ClydeTime/BiliBili/tree/master
+icon: https://github.com/Koolson/Qure/blob/master/IconSet/Color/bilibili_4.png?raw=true
+category: "Coldvvater"
 # 现将获取cookie与定时任务合并为一个模块
 # 保持开启,如检测到cookie变更会自动更新,解决cookie经常过期的问题(cookie仍有效不提醒更新)
 # 任务奖励：经验值/硬币/大会员积分/年度会员领取B币等
