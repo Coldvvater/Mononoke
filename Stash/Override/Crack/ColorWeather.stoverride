@@ -1,13 +1,15 @@
 name: 彩云天气SVIP
-desc: 彩云天气会员解锁
-#!author= chxm1023
+desc: 彩云天气-净化/SVIP
+author= chxm1023
+icon: "https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/colorweather.png?raw=true"
+category: "Coldvvater"
 
 http:
   rewrite:
-    - ^https:\/\/ad\.caiyunapp\.com\/ - reject
+    - ^http:\/\/adx\.sogaha\.cn\/sdk\/ad\/get - reject-200
 
   script:
-    - match: ^https:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)
+    - match: ^https?:\/\/(biz|wrapper)\.cyapi\.cn\/(.+\/(user.+|visitors|activity)|p\/v\d\/vip_info)
       name: cytq
       type: response
       timeout: 30
@@ -16,7 +18,7 @@ http:
 
   mitm:
     - "*.cyapi.cn"
-    - "*.caiyunapp.com"
+    - "adx.sogaha.cn"
 
 script-providers:
   cytq:
