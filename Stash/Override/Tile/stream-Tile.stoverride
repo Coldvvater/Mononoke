@@ -1,6 +1,10 @@
 name: 流媒体信息 Tile 磁贴
 desc: 用于显示流媒体信息的面板
-# 来自@StevenKwan，稍微修改了检测文案
+author: Coldvvater
+homepage: "https://github.com/Coldvvater/Mononoke/tree/master/Stash/Override/Tile"
+icon: "https://github.com/Koolson/Qure/blob/master/IconSet/Color/Streaming.png?raw=true"
+category: "Coldvvater"
+
 tiles:
   - name: stream-Tile
     interval: 7200
