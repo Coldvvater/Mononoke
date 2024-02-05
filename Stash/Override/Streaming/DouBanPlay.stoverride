@@ -1,6 +1,10 @@
 name: 豆瓣影视
 desc: Web版豆瓣电影和电视剧添加便捷播放源按钮
-# author: githubdulong
+author: githubdulong
+homepage: "https://github.com/Coldvvater/Mononoke/tree/master/Stash/Override/Streaming"
+icon: "https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Douban.PNG?raw=true"
+category: "Coldvvater"
+
 http:
   mitm:
     - "m.douban.com"
