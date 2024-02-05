@@ -1,6 +1,8 @@
 name: Google无缝翻页
 desc: 谷歌网页搜索自动无缝翻页
-# author: tumpio
+author: tumpio
+icon: "https://github.com/Koolson/Qure/blob/master/IconSet/Color/Google.png?raw=true"
+category: "Coldvvater"
 
 http:
   mitm:
