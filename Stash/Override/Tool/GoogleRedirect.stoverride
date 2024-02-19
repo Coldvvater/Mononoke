@@ -8,6 +8,7 @@ category: "Coldvvater"
 
 http:
   mitm:
+    - g.cn
     - "*.google.cn"
     - "*.google.com.hk"
   url-rewrite:
