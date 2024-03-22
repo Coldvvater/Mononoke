@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2023.03.07
+# Update Date: 2023.03.22
 
 mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true                      # 允许局域网的连接（共享代理）
@@ -61,88 +61,88 @@ proxy-providers:
 proxy-groups: 
 
 # 漏网之鱼
- - {name: Final, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Final.png, <<: *g, proxies: [Proxy,DIRECT]}
+ - {name: Final, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Final.png, <<: *g, proxies: [Proxy,DIRECT]}
 
 # 节点切换
- - {name: Proxy, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Rocket.png, <<: *g, proxies: [Auto,Fallback,HongKong,TaiWan,Singapore,Japan,America,Others]}
+ - {name: Proxy, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Rocket.png, <<: *g, proxies: [Auto,Fallback,HongKong,TaiWan,Singapore,Japan,America,Others]}
 
 # 自动选择
- - {name: Auto, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Auto.png, type: url-test, lazy: true, <<: *u}
+ - {name: Auto, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Auto.png, type: url-test, lazy: true, <<: *u}
 
 # 故障转移
- - {name: Fallback, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Available.png, type: fallback, <<: *u}
+ - {name: Fallback, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Available.png, type: fallback, <<: *u}
 
 # 国外网站
- - {name: Global, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Global.png, <<: *g}
+ - {name: Global, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Global.png, <<: *g}
 
 # 国内网站
- - {name: Mainland, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/China_Map.png, <<: *g, proxies: [DIRECT,Proxy,Auto]}
+ - {name: Mainland, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/China_Map.png, <<: *g, proxies: [DIRECT,Proxy,Auto]}
 
 # 人工智能
- - {name: OpenAI, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Bot.png, <<: *g, proxies: [America,Japan,Singapore,TaiWan,Others]}
+ - {name: OpenAI, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Bot.png, <<: *g, proxies: [America,Japan,Singapore,TaiWan,Others]}
 
 # 油管视频
- - {name: YouTube, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/YouTube.png, <<: *g}
+ - {name: YouTube, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/YouTube.png, <<: *g}
 
 # 奈飞影视
- - {name: NETFLIX, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Netflix.png, <<: *g}
+ - {name: NETFLIX, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Netflix.png, <<: *g}
 
 # 迪士尼+
- - {name: Disney+, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Disney%2B.png, <<: *g}
+ - {name: Disney+, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Disney.png, <<: *g}
 
 # Emby
- - {name: Emby, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Emby.png, <<: *g}
+ - {name: Emby, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Emby.png, <<: *g}
 
 # 哔哩哔哩
- - {name: BiliBili, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/bilibili.png, <<: *g, proxies: [DIRECT,HongKong,TaiWan]}
+ - {name: BiliBili, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png, <<: *g, proxies: [DIRECT,HongKong,TaiWan]}
 
 # 声田音乐
- - {name: Spotify, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Spotify.png, <<: *g}
+ - {name: Spotify, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Spotify.png, <<: *g}
 
 # 网易云音乐
- - {name: NetEaseMusic, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Netease_Music.png, <<: *g, proxies: [DIRECT,Proxy]}
+ - {name: NetEaseMusic, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png, <<: *g, proxies: [DIRECT,Proxy]}
 
 # 海外抖音
- - {name: TikTok, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/TikTok.png, <<: *g}
+ - {name: TikTok, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/TikTok.png, <<: *g}
 
 # 国际媒体
- - {name: Streaming, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Streaming.png, <<: *g}
+ - {name: Streaming, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Streaming.png, <<: *g}
 
 # 电报信息
- - {name: Telegram, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Telegram_X.png, <<: *g}
+ - {name: Telegram, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Telegram_X.png, <<: *g}
 
 # 苹果服务
- - {name: Apple, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Apple.png, <<: *g, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
+ - {name: Apple, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Apple_1.png, <<: *g, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
 
 # 谷歌服务
- - {name: Google, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Google.png, <<: *g}
+ - {name: Google, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Google_Search.png, <<: *g}
 
 # 微软服务
- - {name: Microsoft, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Microsoft.png, <<: *g}
+ - {name: Microsoft, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Windows_11.png, <<: *g}
 
 # 游戏平台
- - {name: Games, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Game.png, <<: *g}
+ - {name: Games, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Game.png, <<: *g}
 
 # 网络测试
- - {name: Speedtest, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Speedtest.png, <<: *g, proxies: [Proxy,DIRECT]}
+ - {name: Speedtest, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Speedtest.png, <<: *g, proxies: [Proxy,DIRECT]}
 
 # 香港节点
- - {name: HongKong, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Hong_Kong.png, <<: *u, filter: "港|🇭🇰|HK|(?i)Hong"}
+ - {name: HongKong, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png, <<: *u, filter: "港|🇭🇰|HK|(?i)Hong"}
 
 # 台湾节点
- - {name: TaiWan, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/China.png, <<: *u, filter: "台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan"}
+ - {name: TaiWan, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/China.png, <<: *u, filter: "台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan"}
 
 # 狮城节点
- - {name: Singapore, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Singapore.png, <<: *u, filter: "新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore"}
+ - {name: Singapore, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Singapore.png, <<: *u, filter: "新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore"}
 
 # 日本节点
- - {name: Japan, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Japan.png, <<: *u, filter: "日|🇯🇵|东京|JP|(?i)Japan"}
+ - {name: Japan, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Japan.png, <<: *u, filter: "日|🇯🇵|东京|JP|(?i)Japan"}
 
 # 美国节点
- - {name: America, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/United_States.png, <<: *u, filter: "美|🇺🇲|US|(?i)States|American"}
+ - {name: America, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_States.png, <<: *u, filter: "美|🇺🇲|US|(?i)States|American"}
 
 # 其他节点
- - {name: Others, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/mini/Airport.png, <<: *u, filter: "^((?!香港|HK|Hong Kong|台湾|TW|TaiWan|新加坡|SG|Singapore|狮城|日本|JP|Japan|美国|US|States|American)).*$"}
+ - {name: Others, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Airport.png, <<: *u, filter: "^((?!香港|HK|Hong Kong|台湾|TW|TaiWan|新加坡|SG|Singapore|狮城|日本|JP|Japan|美国|US|States|American)).*$"}
 
 # 远程规则集
 rule-providers:
