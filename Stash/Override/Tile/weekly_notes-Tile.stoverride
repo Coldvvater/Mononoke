@@ -12,5 +12,5 @@ tiles:
 
 script-providers:
   weekly_notes-Tile:
-    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/weekly_notes.js
+    url: https://raw.githubusercontent.com/smartmimi/conf/master/surge/weekly_notes.js
     interval: 86400
