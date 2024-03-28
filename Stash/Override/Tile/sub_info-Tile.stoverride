@@ -16,5 +16,5 @@ tiles:
     argument: ''
 script-providers:
   sub_info-Tile:
-    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Script/sub_info.js
+    url: https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js
     interval: 86400
