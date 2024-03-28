@@ -9,4 +9,4 @@
 SUB_INFO = script-name=sub_info,content="Loading…",update-interval={{{面板刷新时间}}}
 
 [Script]
-sub_info = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/sub_info_panel.js,argument=url={{{订阅链接}}}&reset_day={{{流量重置日期}}}&title={{{机场名称}}}&icon={{{面板图标}}}&color={{{图标颜色}}}&expire={{{套餐到期日子}}}
+sub_info = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,argument=url={{{订阅链接}}}&reset_day={{{流量重置日期}}}&title={{{机场名称}}}&icon={{{面板图标}}}&color={{{图标颜色}}}&expire={{{套餐到期日子}}}
