@@ -66,7 +66,7 @@ IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,185.76.151.0/24,no-resolve
 
 # Other
-IP-CIDR,95.161.76.101,no-resolve
+IP-CIDR,95.161.76.0/18,no-resolve
 IP-CIDR,5.28.192.0/18,no-resolve
 
 # DC5-V6
