@@ -57,8 +57,9 @@ payload:
   # > JetBrains AI
   - DOMAIN-SUFFIX,grazie.ai
 
-  # > Facebook Meta
+  # > Meta
   - DOMAIN,imagine.meta.com
+  - DOMAIN-SUFFIX,meta.ai
 
   # > Groq
   - DOMAIN-SUFFIX,groq.com
