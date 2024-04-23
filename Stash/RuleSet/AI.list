@@ -56,8 +56,9 @@ IP-CIDR6,2607:6bc0::/48,no-resolve
 # > JetBrains AI
 DOMAIN-SUFFIX,grazie.ai
 
-# > Facebook Meta
+# > Meta
 DOMAIN,imagine.meta.com
+DOMAIN-SUFFIX,meta.ai
 
 # > Groq
 DOMAIN-SUFFIX,groq.com
