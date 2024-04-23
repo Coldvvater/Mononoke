@@ -1,101 +1,42 @@
-# > OpenAI ChatGPT & ChatGPT Voice
+# > OpenAI ChatGPT
 DOMAIN,api.statsig.com
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,cdn.openai.com
+DOMAIN,api-iam.intercom.io
+DOMAIN,chatgpt.livekit.cloud
 DOMAIN,chat.openai.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,ios.chat.openai.com
 DOMAIN,o33249.ingest.sentry.io
-DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,static.cloudflareinsights.com
-DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,auth0.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,sfo3.turn.livekit.cloud
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,openaicom.imgix.net
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-KEYWORD,openaicom-api
-
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,turn.livekit.cloud
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,45.32.12.145/32,no-resolve
-IP-CIDR,45.55.196.68/32,no-resolve
-IP-CIDR,45.76.214.191/32,no-resolve
-IP-CIDR,45.32.12.145/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-CIDR,104.238.150.13/32,no-resolve
-IP-CIDR,143.198.200.27/32,no-resolve
-IP-CIDR,143.110.232.239/32,no-resolve
-IP-CIDR,159.89.204.203/32,no-resolve
-IP-CIDR,164.92.71.155/32,no-resolve
-IP-CIDR,164.92.115.213/32,no-resolve
-IP-CIDR,198.13.38.242/32,no-resolve
-IP-CIDR,207.148.108.93/32,no-resolve
-IP-CIDR6,2001:19f0:7001:55b3:5400:4ff:feab:ba8f/128,no-resolve
-IP-CIDR6,2001:19f0:7001:8e6:5400:4ff:feab:b953/128,no-resolve
-IP-CIDR6,2001:19f0:7001:1149:5400:4ff:feac:a0b3/128,no-resolve
-IP-CIDR6,2001:19f0:7001:8e6:5400:4ff:feab:b953/128,no-resolve
-IP-CIDR6,2401:c080:1000:47c5:5400:4ff:feab:f724/128,no-resolve
-#IP-ASN,14061,no-resolve
-#IP-ASN,20473,no-resolve
+DOMAIN-KEYWORD,openaicom
 
 # > Copilot
 DOMAIN,api.githubcopilot.com
 DOMAIN,bat.bing.com
-DOMAIN,browser.events.data.microsoft.com
-DOMAIN,config.edge.skype.com
-DOMAIN,content.lifecycle.office.net
+DOMAIN,c.bing.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,copilot.microsoft.com
-DOMAIN,edge.microsoft.com
-DOMAIN,edgeservices.bing.com
-DOMAIN,functional.events.data.microsoft.com
-DOMAIN,login.live.com
-DOMAIN,services.bingapis.com
-DOMAIN,storage.live.com
-DOMAIN,strict.bing.com
 DOMAIN,sydney.bing.com
-DOMAIN,www.bing.com
 DOMAIN,www.bingapis.com
-DOMAIN-SUFFIX,bing.com
-
-# > Bing AI
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bing.com.cn
-DOMAIN-SUFFIX,bing.net
-DOMAIN-SUFFIX,bingagencyawards.com
-DOMAIN-SUFFIX,bingapistatistics.com
-DOMAIN-SUFFIX,bingsandbox.com
-DOMAIN-SUFFIX,bingvisualsearch.com
-DOMAIN-SUFFIX,bingworld.com
+DOMAIN-SUFFIX,clarity.ms
 
 # > Gemini
-DOMAIN,aistudio.google.com
 DOMAIN,bard.google.com
 DOMAIN,gemini.google.com
-DOMAIN,generativelanguage.googleapis.com
 
 # > Claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 IP-CIDR,160.79.104.0/23,no-resolve
 IP-CIDR6,2607:6bc0::/48,no-resolve
+
+# > JetBrains AI
+DOMAIN-SUFFIX,grazie.ai
+
+# > Facebook Meta
+DOMAIN,imagine.meta.com
+
+# > Groq
+DOMAIN-SUFFIX,groq.com
