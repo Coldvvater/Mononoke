@@ -2,7 +2,7 @@
 # > Apple URL Shortener
 DOMAIN-SUFFIX,appsto.re
 # > Spotlight
-DOMAIN-SUFFIX,smoot.apple.com
+#DOMAIN-SUFFIX,smoot.apple.com
 # > Podcasts
 DOMAIN,amp-api.podcasts.apple.com
 # > Apple Music Web
