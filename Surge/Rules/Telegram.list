@@ -1,6 +1,7 @@
 # Telegram List
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,fragment.com
 DOMAIN-SUFFIX,graph.org
 DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,mbrx.app
@@ -26,7 +27,7 @@ DOMAIN,events-gateway.ncdev.site
 DOMAIN-SUFFIX,walletbot.me
 
 # Nicegram
-DOMAIN-KEYWORD,nicegram
+DOMAIN-SUFFIX,nicegram.app
 
 # iMe
 DOMAIN,api.mixpanel.com
