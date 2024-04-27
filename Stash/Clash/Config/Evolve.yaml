@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.04.17
+# Update Date: 2024.04.27
 
 mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true                      # 允许局域网的连接（共享代理）
@@ -153,7 +153,7 @@ rule-providers:
  private-ip: {<<: *i, path: ./ruleset/private-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.list}
 
 # 网络测试
- speedtest-domain: {<<: *d, path: ./ruleset/speedtest-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/speedtest.list}
+ speedtest-domain: {<<: *d, path: ./ruleset/speedtest-domain.list, url: https://ruleset.skk.moe/List/domainset/speedtest.conf}
 
 # 人工智能
  openai-classical: {<<: *c, path: ./ruleset/openai-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Stash/RuleSet/AI.list}
@@ -170,7 +170,7 @@ rule-providers:
  disney-domain: {<<: *d, path: ./ruleset/disney-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.list}
 
 # Emby
- emby-classical: {<<: *c, path: ./ruleset/emby-classical.list, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.list}
+ emby-classical: {<<: *c, path: ./ruleset/emby-classical.list, url: https://raw.gitmirror.com/Repcz/Tool/X/Surge/Rules/Emby.list}
 
 # 动画疯
  bahamut-domain: {<<: *d, path: ./ruleset/bahamut-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.list}
@@ -193,7 +193,7 @@ rule-providers:
  tiktok-domain: {<<: *d, path: ./ruleset/tiktok-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.list}
 
 # 国际媒体
- streamingmedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.list, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list}
+ streamingmedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.list, url: https://raw.gitmirror.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/!CN.list}
 
 # 电报信息
  telegram-domain: {<<: *d, path: ./ruleset/telegram-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.list}
@@ -241,6 +241,8 @@ rules:
   - DOMAIN,yacd.metacubex.one,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - DOMAIN,d.metacubex.one,DIRECT
+  - DOMAIN,raw.gitmirror.com,Proxy
+  - DOMAIN,ruleset.skk.moe,Proxy
 
   - RULE-SET,private-domain,DIRECT
   - RULE-SET,speedtest-domain,Speedtest
