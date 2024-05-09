@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.05.05
+# Update Date: 2024.05.09
 
 mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true                      # 允许局域网的连接（共享代理）
@@ -87,7 +87,7 @@ proxy-groups:
 # 奈飞影视
  - {name: NETFLIX, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Netflix.png, <<: *g}
 
-# 迪士尼+
+# Disney+
  - {name: Disney+, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Disney.png, <<: *g}
 
 # Emby
@@ -96,13 +96,13 @@ proxy-groups:
 # 哔哩哔哩
  - {name: BiliBili, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png, <<: *g, proxies: [DIRECT,HongKong,TaiWan]}
 
-# 声田音乐
+# Spotify
  - {name: Spotify, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Spotify.png, <<: *g}
 
 # 网易云音乐
  - {name: NetEaseMusic, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png, <<: *g, proxies: [DIRECT]}
 
-# 海外抖音
+# TikTok
  - {name: TikTok, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/TikTok.png, <<: *g}
 
 # 国际媒体
@@ -110,6 +110,9 @@ proxy-groups:
 
 # 电报信息
  - {name: Telegram, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Telegram_X.png, <<: *g}
+
+# Twitter(X)
+ - {name: Twitter, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Twitter.png, <<: *g}
 
 # 苹果服务
  - {name: Apple, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Apple_1.png, <<: *g, proxies: [DIRECT, Proxy, Auto, Fallback, HongKong, TaiWan, Singapore, Japan, America, Others]}
@@ -122,9 +125,6 @@ proxy-groups:
 
 # 游戏平台
  - {name: Games, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Game.png, <<: *g}
-
-# 网络测试
- - {name: Speedtest, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Speedtest.png, <<: *g, proxies: [Proxy,DIRECT]}
 
 # 香港节点
  - {name: HongKong, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png, <<: *u, filter: "港|🇭🇰|HK|(?i)Hong"}
@@ -147,13 +147,10 @@ proxy-groups:
 # 远程规则集
 rule-providers:
 
-# 隐私网络
+# 隐私网络/局域网
  private-domain: {<<: *d, path: ./ruleset/private-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.list}
  
  private-ip: {<<: *i, path: ./ruleset/private-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.list}
-
-# 网络测试
- speedtest-domain: {<<: *d, path: ./ruleset/speedtest-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/speedtest.list}
 
 # 人工智能
  openai-classical: {<<: *c, path: ./ruleset/openai-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Stash/RuleSet/AI.list}
@@ -244,8 +241,7 @@ rules:
   - DOMAIN,raw.gitmirror.com,Proxy
 
   - RULE-SET,private-domain,DIRECT
-  - RULE-SET,speedtest-domain,Speedtest
-  - RULE-SET,openai-classical,OpenAI
+  - RULE-SET,openai-classical,AI
   - RULE-SET,youtube-domain,YouTube
   - RULE-SET,netflix-domain,NETFLIX
   - RULE-SET,disney-domain,Disney+
@@ -259,7 +255,7 @@ rules:
   - RULE-SET,streamingmedia-classical,Streaming
   - RULE-SET,telegram-domain,Telegram
   - RULE-SET,github-domain,Global
-  - RULE-SET,twitter-domain,Global
+  - RULE-SET,twitter-domain,Twitter
   - RULE-SET,apple-classical,Global
   - RULE-SET,apple-domain,Apple
   - RULE-SET,google-domain,Google
@@ -270,7 +266,7 @@ rules:
   - RULE-SET,google-ip,Google
   - RULE-SET,netflix-ip,NETFLIX
   - RULE-SET,telegram-ip,Telegram
-  - RULE-SET,twitter-ip,Global
+  - RULE-SET,twitter-ip,Twitter
   - RULE-SET,cn-domain,Mainland
   - RULE-SET,bilibili-ip,BiliBili
   - RULE-SET,apple-ip,Apple
