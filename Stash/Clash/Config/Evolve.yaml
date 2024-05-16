@@ -1,7 +1,7 @@
 # Stash/Clash/Premium/Meta Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.05.09
+# Update Date: 2024.05.16
 
 mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
 allow-lan: true                      # 允许局域网的连接（共享代理）
@@ -79,7 +79,7 @@ proxy-groups:
  - {name: Mainland, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/China_Map.png, <<: *g, proxies: [DIRECT,Proxy,Auto]}
 
 # 人工智能
- - {name: OpenAI, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Bot.png, <<: *g, proxies: [America,Japan,Singapore,TaiWan,Others]}
+ - {name: AI, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Bot.png, <<: *g, proxies: [America,Japan,Singapore,TaiWan,Others]}
 
 # 油管视频
  - {name: YouTube, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/YouTube.png, <<: *g}
@@ -153,7 +153,7 @@ rule-providers:
  private-ip: {<<: *i, path: ./ruleset/private-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.list}
 
 # 人工智能
- openai-classical: {<<: *c, path: ./ruleset/openai-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Stash/RuleSet/AI.list}
+ ai-classical: {<<: *c, path: ./ruleset/openai-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Stash/RuleSet/AI.list}
 
 # 油管视频
  youtube-domain: {<<: *d, path: ./ruleset/youtube-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.list}
@@ -241,7 +241,7 @@ rules:
   - DOMAIN,raw.gitmirror.com,Proxy
 
   - RULE-SET,private-domain,DIRECT
-  - RULE-SET,openai-classical,AI
+  - RULE-SET,ai-classical,AI
   - RULE-SET,youtube-domain,YouTube
   - RULE-SET,netflix-domain,NETFLIX
   - RULE-SET,disney-domain,Disney+
