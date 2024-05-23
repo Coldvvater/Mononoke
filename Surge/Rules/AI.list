@@ -44,8 +44,13 @@ DOMAIN,www.bingapis.com
 DOMAIN-SUFFIX,clarity.ms
 
 # > Gemini
+DOMAIN,ai.google.dev
+DOMAIN,aistudio.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,bard.google.com
 DOMAIN,gemini.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,makersuite.google.com
 
 # > Claude
 DOMAIN-SUFFIX,anthropic.com
