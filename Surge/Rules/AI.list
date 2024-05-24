@@ -60,6 +60,7 @@ IP-CIDR6,2607:6bc0::/48,no-resolve
 
 # > JetBrains AI
 DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
 
 # > Meta
 DOMAIN,imagine.meta.com
