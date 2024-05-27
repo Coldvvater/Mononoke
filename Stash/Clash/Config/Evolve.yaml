@@ -43,8 +43,11 @@ g: &g {type: select, proxies: [Proxy, Auto, Fallback, HongKong, TaiWan, Singapor
 # 远程订阅相关
 p: &p {type: http, interval: 86400, benchmark-timeout: 5, health-check: {enable: true, url: http://www.apple.com/library/test/success.html, interval: 600}}
 
+# 远程订阅相关
+p: &p {type: http, interval: 86400, benchmark-timeout: 5, health-check: {enable: true, url: http://www.apple.com/library/test/success.html, interval: 600}}
+
 # 订阅引用相关
-u: &u {type: select, use: [Subscribe]}
+u: &u {type: select, use: [Subscribe1, Subscribe2]}
 
 ######### 锚点 end #########
 
@@ -53,9 +56,11 @@ proxies: null
 
 # 远程订阅
 proxy-providers: 
-  Subscribe: {<<: *p, path: ./proxy_providers/subscribe.yaml, url: ""}
+  Subscribe1: {<<: *p, path: ./proxy_providers/subscribe1.yaml, url: "订阅链接1"}
+  Subscribe2: {<<: *p, path: ./proxy_providers/subscribe2.yaml, url: "订阅链接2"}
 # 1. 请使用Clash类型订阅链接填入引号""内使用,
 # 2. 或可使用通用订阅链接通过Sub-Store进行订阅转换(用于Stash)。
+
 
 # 代理组
 proxy-groups: 
