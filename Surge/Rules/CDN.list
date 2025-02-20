@@ -71,13 +71,16 @@ DOMAIN,asset-cdn.uscardforum.com
 DOMAIN,asset.booth.pm
 DOMAIN,asset.chase.com
 DOMAIN,asset.mansionglobal.com
+DOMAIN,assets-app.circleci.com
 DOMAIN,assets-cdn.123rf.com
 DOMAIN,assets-cdn.abcnews.com
 DOMAIN,assets-cdn.abcotvs.net
 DOMAIN,assets-cdn.jable.tv
 DOMAIN,assets-cdn.watchdisneyfe.com
 DOMAIN,assets-cms.kraken.com
+DOMAIN,assets-docs.circleci.com
 DOMAIN,assets-fe.change.org
+DOMAIN,assets-growth-common.circleci.com
 DOMAIN,assets-next.matters.news
 DOMAIN,assets-next.mattersprotocol.io
 DOMAIN,assets-production.packagecloud.io
@@ -2307,7 +2310,6 @@ DOMAIN-SUFFIX,bitbucket.io
 DOMAIN-SUFFIX,bitgetimg.com
 DOMAIN-SUFFIX,blackbaudcdn.net
 DOMAIN-SUFFIX,bleepstatic.com
-DOMAIN-SUFFIX,blob.core.windows.net
 DOMAIN-SUFFIX,blobcdn.com
 DOMAIN-SUFFIX,blogblog.com
 DOMAIN-SUFFIX,bmp.ovh
@@ -2500,7 +2502,6 @@ DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,ffzy888.com
-DOMAIN-SUFFIX,file.core.windows.net
 DOMAIN-SUFFIX,filecunhua.top
 DOMAIN-SUFFIX,files.bbci.co.uk
 DOMAIN-SUFFIX,files.gitbook.io
