@@ -1,0 +1,17 @@
+name: Google重定向
+desc: 将google.cn/google.com.hk重定向回google.com
+author: Coldvvater
+homepage: "https://github.com/Coldvvater/Mononoke/tree/master/Clash/StashOverride/Tool"
+icon: "https://github.com/Koolson/Qure/blob/master/IconSet/Color/Google_Search.png?raw=true"
+category: "Coldvvater"
+# 注：需关闭当前Google网页并重启浏览器。
+
+http:
+  mitm:
+    - g.cn
+    - '*.google.cn'
+    - '*.google.com.hk'
+  url-rewrite:
+    - ^http://g\.cn https://www.google.com transparent
+    - ^https?://www\.google\.cn https://www.google.com 302
+    - ^https?:\/\/(www.)?(google)\.com.hk https://www.google.com 302

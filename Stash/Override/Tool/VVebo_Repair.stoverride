@@ -1,0 +1,37 @@
+name: VVebo主页时间线修复
+desc: 修复失效的用户主页时间线显示和粉丝列表
+author: suiyuran
+homepage: "https://github.com/suiyuran/stash/tree/main/override"
+icon: "https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/VVebo.png"
+category: "Coldvvater"
+
+http:
+  mitm:
+    - api.weibo.cn
+  script:
+    - match: ^https:\/\/api\.weibo\.cn\/2\/remind\/unread_count\?
+      name: fix-vvebo-user-timeline
+      type: request
+      timeout: 10
+    - match: ^https:\/\/api\.weibo\.cn\/2\/statuses\/user_timeline\?
+      name: fix-vvebo-user-timeline
+      type: request
+      timeout: 10
+    - match: ^https:\/\/api\.weibo\.cn\/2\/profile\/statuses\/tab\?
+      name: fix-vvebo-user-timeline
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https:\/\/api\.weibo\.cn\/2\/cardlist\?
+      name: fix-vvebo-fans
+      type: response
+      require-body: true
+      timeout: 10
+
+script-providers:
+  fix-vvebo-user-timeline:
+    url: https://raw.githubusercontent.com/suiyuran/stash/main/scripts/fix-vvebo-user-timeline.js
+    interval: 86400
+  fix-vvebo-fans:
+    url: https://raw.githubusercontent.com/suiyuran/stash/main/scripts/fix-vvebo-fans.js
+    interval: 86400

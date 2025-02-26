@@ -1,0 +1,20 @@
+name: 豆瓣影视
+desc: Web版豆瓣电影和电视剧添加便捷播放源按钮
+author: githubdulong
+homepage: "https://github.com/Coldvvater/Mononoke/tree/master/Clash/StashOverride/Tool"
+icon: "https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Douban.PNG?raw=true"
+category: "Coldvvater"
+
+http:
+  mitm:
+    - "m.douban.com"
+  script:
+    - match: ^https?:\/\/m\.douban\.com\/movie\/subject\/\d+\/
+      name: DouBan
+      type: response
+      requires-body: true
+      timeout: 10
+script-providers:
+  DouBan:
+    url: https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js
+    interval: 86400

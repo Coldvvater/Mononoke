@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "mobilefuse.com",
+        "talkatone.com",
+        "tktn.be"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "205.164.56.0/24",
+        "50.117.27.0/24",
+        "69.46.75.0/24"
+      ]
+    }
+  ]
+}

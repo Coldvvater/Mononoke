@@ -1,0 +1,18 @@
+#!name=豆瓣
+#!desc=豆瓣电影移动端网页版广告净化，影视添加便捷播放源按钮，豆瓣手机App屏蔽开屏广告。
+#!category=Coldvvater
+#!author=Neurogram-R、ddgksf2013
+
+[URL Rewrite]
+# 豆瓣App去开屏广告
+^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
+^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* - reject
+
+[Script]
+# 茶杯狐、Libvio 流媒体
+Streaming = type=http-response,pattern=^https://m.douban.com/movie/subject/.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/douban.js
+# Airtable 收藏
+Airtable = type=http-request,pattern=^https://m.douban.com/movie/subject/.+\?seen=\d,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/douban.js
+
+[MITM]
+hostname = %APPEND% m.douban.com,api.douban.com
