@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3236
+# 规则统计: 3238
 
 domain_set:
   - 0x0.st
@@ -419,6 +419,7 @@ domain_set:
   - cdn.db-ip.com
   - cdn.decrypt.co
   - cdn.delight-vr.com
+  - cdn.designsystem.arm.com
   - cdn.deta.space
   - cdn.devolutions.net
   - cdn.dnsimple.com
@@ -1066,6 +1067,7 @@ domain_set:
   - images-ext-1.discordapp.net
   - images-ext-2.discordapp.net
   - images.991.com
+  - images.anandtech.com
   - images.arigatotravel.com
   - images.axios.com
   - images.bfmtv.com

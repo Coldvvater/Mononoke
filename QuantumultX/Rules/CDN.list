@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3236
+# 规则统计: 3238
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -418,6 +418,7 @@ HOST,cdn.datdota.com,CDN
 HOST,cdn.db-ip.com,CDN
 HOST,cdn.decrypt.co,CDN
 HOST,cdn.delight-vr.com,CDN
+HOST,cdn.designsystem.arm.com,CDN
 HOST,cdn.deta.space,CDN
 HOST,cdn.devolutions.net,CDN
 HOST,cdn.dnsimple.com,CDN
@@ -1065,6 +1066,7 @@ HOST,images-eds-ssl.xboxlive.com,CDN
 HOST,images-ext-1.discordapp.net,CDN
 HOST,images-ext-2.discordapp.net,CDN
 HOST,images.991.com,CDN
+HOST,images.anandtech.com,CDN
 HOST,images.arigatotravel.com,CDN
 HOST,images.axios.com,CDN
 HOST,images.bfmtv.com,CDN
