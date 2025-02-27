@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4825
+# 规则统计: 4833
 
 domain_suffix_set:
   - 002777.xyz
@@ -1338,11 +1338,13 @@ domain_suffix_set:
   - dhl.135320.com
   - dhnnbfok.icu
   - dhukul.com
+  - dhulzehgk.com
   - dhuquxqy.com
   - dian.brecm.xyz
   - dian500.com
   - dianassb.com
   - dianxin.com
+  - diav.cn
   - diendh.xyz
   - difhil.icu
   - dingbu.bj.bcebos.com
@@ -1480,6 +1482,7 @@ domain_suffix_set:
   - dydab.com
   - dyegif.icu
   - dytkgl.icu
+  - dyyygyg.top
   - dyzgdp.xyz
   - dzdnffs.xyz
   - dzjzg.com
@@ -1648,6 +1651,7 @@ domain_suffix_set:
   - fanzhuang.net.cn
   - farm-cn.plista.com
   - fbqrt.cn
+  - fbvbrb.icu
   - fca6f.icu
   - fcbdpock.icu
   - fczunn.xyz
@@ -3045,6 +3049,7 @@ domain_suffix_set:
   - o02220aokk.com
   - o02231aokk.com
   - o02251aokk.com
+  - o02260aokk.com
   - o1.jyjyj.cn
   - o1b04.cyou
   - o3t.icu
@@ -3230,6 +3235,7 @@ domain_suffix_set:
   - piksrie.icu
   - pincai.com
   - pinjzp.icu
+  - pisb.cn
   - pixoctopus.pixnet.net
   - pjaihds.icu
   - pjb9gv9.xyz
@@ -3471,6 +3477,7 @@ domain_suffix_set:
   - rcyzsh.icu
   - rczudr.xyz
   - rdbd.xsread.com
+  - rdllzz.icu
   - rdsgick.icu
   - rdxqbp.xyz
   - re.taotaosou.com
@@ -3638,6 +3645,7 @@ domain_suffix_set:
   - shaotgs.cn
   - shaquevip.oss-cn-zhangjiakou.aliyuncs.com
   - share.gzdsw.com
+  - shatielsu.com
   - shbxugs.cn
   - shbxukj.cn
   - shbzdkj.cn

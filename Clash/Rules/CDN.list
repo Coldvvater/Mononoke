@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3236
+# 规则统计: 3247
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -246,7 +246,6 @@ DOMAIN,at.cbsi.com
 DOMAIN,atn.hitomi.la
 DOMAIN,attachments.office.net
 DOMAIN,auth.split.io
-DOMAIN,autoupdate.termius.com
 DOMAIN,avatar.freepik.com
 DOMAIN,avatar.stefanjudis.com
 DOMAIN,avatar2.bahamut.com.tw
@@ -645,8 +644,10 @@ DOMAIN,cdn.ywxi.net
 DOMAIN,cdn.zapier.com
 DOMAIN,cdn.zeabur.com
 DOMAIN,cdn.zhujiwiki.com
+DOMAIN,cdn0-i.techbang.com
 DOMAIN,cdn0.dan.com
 DOMAIN,cdn0.iconfinder.com
+DOMAIN,cdn0.techbang.com
 DOMAIN,cdn01.jotfor.ms
 DOMAIN,cdn02.jotfor.ms
 DOMAIN,cdn03.jotfor.ms
@@ -661,6 +662,7 @@ DOMAIN,cdn1.identitymind.com
 DOMAIN,cdn1.plesk.com
 DOMAIN,cdn1.stamped.io
 DOMAIN,cdn1.sysgears.com
+DOMAIN,cdn1.techbang.com
 DOMAIN,cdn1.unrealengine.com
 DOMAIN,cdn10.bigcommerce.com
 DOMAIN,cdn11.bigcommerce.com
@@ -681,6 +683,7 @@ DOMAIN,cdn2.macpaw.com
 DOMAIN,cdn2.onlyfans.com
 DOMAIN,cdn2.stamped.io
 DOMAIN,cdn2.sysgears.com
+DOMAIN,cdn2.techbang.com
 DOMAIN,cdn2.ttloli.com
 DOMAIN,cdn2.turboviplay.cc
 DOMAIN,cdn2.unrealengine.com
@@ -742,6 +745,8 @@ DOMAIN,checkout.stripe.com
 DOMAIN,ci.testling.com
 DOMAIN,claritystatic.azureedge.net
 DOMAIN,clickup.marketlinc.com
+DOMAIN,clientsdk.launchdarkly.com
+DOMAIN,clientstream.launchdarkly.com
 DOMAIN,clips-media-assets2.twitch.tv
 DOMAIN,cloud.redhat.com
 DOMAIN,cloud.typenetwork.com
@@ -892,6 +897,8 @@ DOMAIN,euc-widget.freshworks.com
 DOMAIN,event.ithome.com.tw
 DOMAIN,events-delivery.apple.com
 DOMAIN,events-live.apple.com
+DOMAIN,events.launchdarkly.com
+DOMAIN,events.ld.catamorphic.com
 DOMAIN,events.split.io
 DOMAIN,events.tableplus.com
 DOMAIN,experience-ap.piano.io
@@ -918,6 +925,7 @@ DOMAIN,fiddle.fastly.dev
 DOMAIN,fiddle.jshell.net
 DOMAIN,file.izanmei.net
 DOMAIN,files.armorgames.com
+DOMAIN,files.buildwithfern.com
 DOMAIN,files.jotform.com
 DOMAIN,files.mastodon.ktachibana.party
 DOMAIN,files.mastodon.online
@@ -1024,6 +1032,7 @@ DOMAIN,ias.r10s.jp
 DOMAIN,ichef.bbci.co.uk
 DOMAIN,icons.buffer.com
 DOMAIN,icons.duckduckgo.com
+DOMAIN,icons.ferndocs.com
 DOMAIN,icons.leavemealone.com
 DOMAIN,icons.llamao.fi
 DOMAIN,icons.ly
@@ -1660,6 +1669,7 @@ DOMAIN,s2.coinmarketcap.com
 DOMAIN,s2.qwant.com
 DOMAIN,s3-alpha-sig.figma.com
 DOMAIN,s3-alpha.figma.com
+DOMAIN,s3-figma-force-client-reloads-production.figma.com
 DOMAIN,s3-figma-plugin-images-production-sig.figma.com
 DOMAIN,s3-symbol-logo.tradingview.com
 DOMAIN,s3.2233778.xyz
@@ -3221,6 +3231,7 @@ DOMAIN-WILDCARD,object-storage-*.vexxhost.net
 DOMAIN-WILDCARD,ocsp.*.amazontrust.com
 DOMAIN-WILDCARD,proxy-*.dailymotion.com
 DOMAIN-WILDCARD,rr?---??.ouo.si
+DOMAIN-WILDCARD,s3-*.figma.com
 DOMAIN-WILDCARD,s3.*.wasabisys.com
 DOMAIN-WILDCARD,s?.maxstream.org
 DOMAIN-WILDCARD,s??.maxstream.org

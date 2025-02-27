@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3238
+# 规则统计: 3249
 
 domain_set:
   - 0x0.st
@@ -247,7 +247,6 @@ domain_set:
   - atn.hitomi.la
   - attachments.office.net
   - auth.split.io
-  - autoupdate.termius.com
   - avatar.freepik.com
   - avatar.stefanjudis.com
   - avatar2.bahamut.com.tw
@@ -646,8 +645,10 @@ domain_set:
   - cdn.zapier.com
   - cdn.zeabur.com
   - cdn.zhujiwiki.com
+  - cdn0-i.techbang.com
   - cdn0.dan.com
   - cdn0.iconfinder.com
+  - cdn0.techbang.com
   - cdn01.jotfor.ms
   - cdn02.jotfor.ms
   - cdn03.jotfor.ms
@@ -662,6 +663,7 @@ domain_set:
   - cdn1.plesk.com
   - cdn1.stamped.io
   - cdn1.sysgears.com
+  - cdn1.techbang.com
   - cdn1.unrealengine.com
   - cdn10.bigcommerce.com
   - cdn11.bigcommerce.com
@@ -682,6 +684,7 @@ domain_set:
   - cdn2.onlyfans.com
   - cdn2.stamped.io
   - cdn2.sysgears.com
+  - cdn2.techbang.com
   - cdn2.ttloli.com
   - cdn2.turboviplay.cc
   - cdn2.unrealengine.com
@@ -743,6 +746,8 @@ domain_set:
   - ci.testling.com
   - claritystatic.azureedge.net
   - clickup.marketlinc.com
+  - clientsdk.launchdarkly.com
+  - clientstream.launchdarkly.com
   - clips-media-assets2.twitch.tv
   - cloud.redhat.com
   - cloud.typenetwork.com
@@ -893,6 +898,8 @@ domain_set:
   - event.ithome.com.tw
   - events-delivery.apple.com
   - events-live.apple.com
+  - events.launchdarkly.com
+  - events.ld.catamorphic.com
   - events.split.io
   - events.tableplus.com
   - experience-ap.piano.io
@@ -919,6 +926,7 @@ domain_set:
   - fiddle.jshell.net
   - file.izanmei.net
   - files.armorgames.com
+  - files.buildwithfern.com
   - files.jotform.com
   - files.mastodon.ktachibana.party
   - files.mastodon.online
@@ -1025,6 +1033,7 @@ domain_set:
   - ichef.bbci.co.uk
   - icons.buffer.com
   - icons.duckduckgo.com
+  - icons.ferndocs.com
   - icons.leavemealone.com
   - icons.llamao.fi
   - icons.ly
@@ -1661,6 +1670,7 @@ domain_set:
   - s2.qwant.com
   - s3-alpha-sig.figma.com
   - s3-alpha.figma.com
+  - s3-figma-force-client-reloads-production.figma.com
   - s3-figma-plugin-images-production-sig.figma.com
   - s3-symbol-logo.tradingview.com
   - s3.2233778.xyz
@@ -3225,6 +3235,7 @@ domain_wildcard_set:
   - ocsp.*.amazontrust.com
   - proxy-*.dailymotion.com
   - rr?---??.ouo.si
+  - s3-*.figma.com
   - s3.*.wasabisys.com
   - s?.maxstream.org
   - s??.maxstream.org
