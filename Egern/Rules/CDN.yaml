@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3249
+# 规则统计: 3253
 
 domain_set:
   - 0x0.st
@@ -1246,6 +1246,7 @@ domain_set:
   - ip-ranges.amazonaws.com
   - ipfs.d.tube
   - irp-cdn.multiscreensite.com
+  - isitmaintained.com
   - j.udn.com.tw
   - jac.yahoosandbox.com
   - jaws.pbs.org
@@ -1691,6 +1692,7 @@ domain_set:
   - s3.masto.ai
   - s3.picacomic.com
   - s3.producthunt.com
+  - s3.sitepoint.com
   - s3.stackabuse.com
   - s3.toot.io
   - s3.tradingview.com
@@ -2181,6 +2183,7 @@ domain_set:
   - vpncdn.protonweb.com
   - vscode-sync-insiders.trafficmanager.net
   - vscode-sync.trafficmanager.net
+  - vsmarketplacebadge.apphb.com
   - vuejs.org
   - vz-2222604c-50b.b-cdn.net
   - vz-c0fe498e-5ab.b-cdn.net
@@ -2739,6 +2742,7 @@ domain_suffix_set:
   - jwpcdn.com
   - jwpsrv.com
   - k8s.io
+  - kakaocdn.net
   - kc-usercontent.com
   - kinja-img.com
   - kinja-static.com

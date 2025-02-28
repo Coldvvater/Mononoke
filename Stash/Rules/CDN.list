@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3247
+# 规则统计: 3251
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1245,6 +1245,7 @@ DOMAIN,interactive.guim.co.uk
 DOMAIN,ip-ranges.amazonaws.com
 DOMAIN,ipfs.d.tube
 DOMAIN,irp-cdn.multiscreensite.com
+DOMAIN,isitmaintained.com
 DOMAIN,j.udn.com.tw
 DOMAIN,jac.yahoosandbox.com
 DOMAIN,jaws.pbs.org
@@ -1690,6 +1691,7 @@ DOMAIN,s3.m.0x.mk
 DOMAIN,s3.masto.ai
 DOMAIN,s3.picacomic.com
 DOMAIN,s3.producthunt.com
+DOMAIN,s3.sitepoint.com
 DOMAIN,s3.stackabuse.com
 DOMAIN,s3.toot.io
 DOMAIN,s3.tradingview.com
@@ -2180,6 +2182,7 @@ DOMAIN,vod.jfly.xyz
 DOMAIN,vpncdn.protonweb.com
 DOMAIN,vscode-sync-insiders.trafficmanager.net
 DOMAIN,vscode-sync.trafficmanager.net
+DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN,vuejs.org
 DOMAIN,vz-2222604c-50b.b-cdn.net
 DOMAIN,vz-c0fe498e-5ab.b-cdn.net
@@ -2737,6 +2740,7 @@ DOMAIN-SUFFIX,jw-cdn.org
 DOMAIN-SUFFIX,jwpcdn.com
 DOMAIN-SUFFIX,jwpsrv.com
 DOMAIN-SUFFIX,k8s.io
+DOMAIN-SUFFIX,kakaocdn.net
 DOMAIN-SUFFIX,kc-usercontent.com
 DOMAIN-SUFFIX,kinja-img.com
 DOMAIN-SUFFIX,kinja-static.com

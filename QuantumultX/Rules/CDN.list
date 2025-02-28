@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3249
+# 规则统计: 3253
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1245,6 +1245,7 @@ HOST,interactive.guim.co.uk,CDN
 HOST,ip-ranges.amazonaws.com,CDN
 HOST,ipfs.d.tube,CDN
 HOST,irp-cdn.multiscreensite.com,CDN
+HOST,isitmaintained.com,CDN
 HOST,j.udn.com.tw,CDN
 HOST,jac.yahoosandbox.com,CDN
 HOST,jaws.pbs.org,CDN
@@ -1690,6 +1691,7 @@ HOST,s3.m.0x.mk,CDN
 HOST,s3.masto.ai,CDN
 HOST,s3.picacomic.com,CDN
 HOST,s3.producthunt.com,CDN
+HOST,s3.sitepoint.com,CDN
 HOST,s3.stackabuse.com,CDN
 HOST,s3.toot.io,CDN
 HOST,s3.tradingview.com,CDN
@@ -2180,6 +2182,7 @@ HOST,vod.jfly.xyz,CDN
 HOST,vpncdn.protonweb.com,CDN
 HOST,vscode-sync-insiders.trafficmanager.net,CDN
 HOST,vscode-sync.trafficmanager.net,CDN
+HOST,vsmarketplacebadge.apphb.com,CDN
 HOST,vuejs.org,CDN
 HOST,vz-2222604c-50b.b-cdn.net,CDN
 HOST,vz-c0fe498e-5ab.b-cdn.net,CDN
@@ -2737,6 +2740,7 @@ HOST-SUFFIX,jw-cdn.org,CDN
 HOST-SUFFIX,jwpcdn.com,CDN
 HOST-SUFFIX,jwpsrv.com,CDN
 HOST-SUFFIX,k8s.io,CDN
+HOST-SUFFIX,kakaocdn.net,CDN
 HOST-SUFFIX,kc-usercontent.com,CDN
 HOST-SUFFIX,kinja-img.com,CDN
 HOST-SUFFIX,kinja-static.com,CDN
