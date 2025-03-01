@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41479
+# 规则统计: 41480
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -7480,6 +7480,7 @@ HOST-SUFFIX,bi.irisdating.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bi.medscape.com,Ads_EasyListPrivacy
 HOST-SUFFIX,biberukalap.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bibglj.timberland.fr,Ads_EasyListPrivacy
+HOST-SUFFIX,bicp-analytics.postscript.io,Ads_EasyListPrivacy
 HOST-SUFFIX,bidder.mediams.mb.softbank.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,bidgx.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bidswitch.net,Ads_EasyListPrivacy
@@ -15403,6 +15404,7 @@ HOST-SUFFIX,iconnode.com,Ads_EasyListPrivacy
 HOST-SUFFIX,icslearn.actonsoftware.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ictrjw.barcastores.com,Ads_EasyListPrivacy
 HOST-SUFFIX,id-ward.com,Ads_EasyListPrivacy
+HOST-SUFFIX,id.a-mx.com,Ads_EasyListPrivacy
 HOST-SUFFIX,idbkfy.kango-roo.com,Ads_EasyListPrivacy
 HOST-SUFFIX,iddu1vvb7sk8-a.akamaihd.net,Ads_EasyListPrivacy
 HOST-SUFFIX,ideadevice.actonservice.com,Ads_EasyListPrivacy
@@ -23270,7 +23272,6 @@ HOST-SUFFIX,money.clerkie.io,Ads_EasyListPrivacy
 HOST-SUFFIX,monicaatron.com,Ads_EasyListPrivacy
 HOST-SUFFIX,monitor-api.blackcrow.ai,Ads_EasyListPrivacy
 HOST-SUFFIX,monitor-frontend-collector.a.bybit-aws.com,Ads_EasyListPrivacy
-HOST-SUFFIX,monitor.azure.com,Ads_EasyListPrivacy
 HOST-SUFFIX,monitor.channel4.com,Ads_EasyListPrivacy
 HOST-SUFFIX,monitor.music.qq.com,Ads_EasyListPrivacy
 HOST-SUFFIX,monitoring.iraiser.eu,Ads_EasyListPrivacy

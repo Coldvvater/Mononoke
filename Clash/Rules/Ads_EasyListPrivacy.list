@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41479
+# 规则统计: 41480
 
 DOMAIN-SUFFIX,0.0.0.1
 DOMAIN-SUFFIX,0.myikas.com
@@ -7480,6 +7480,7 @@ DOMAIN-SUFFIX,bi.irisdating.com
 DOMAIN-SUFFIX,bi.medscape.com
 DOMAIN-SUFFIX,biberukalap.com
 DOMAIN-SUFFIX,bibglj.timberland.fr
+DOMAIN-SUFFIX,bicp-analytics.postscript.io
 DOMAIN-SUFFIX,bidder.mediams.mb.softbank.jp
 DOMAIN-SUFFIX,bidgx.com
 DOMAIN-SUFFIX,bidswitch.net
@@ -15403,6 +15404,7 @@ DOMAIN-SUFFIX,iconnode.com
 DOMAIN-SUFFIX,icslearn.actonsoftware.com
 DOMAIN-SUFFIX,ictrjw.barcastores.com
 DOMAIN-SUFFIX,id-ward.com
+DOMAIN-SUFFIX,id.a-mx.com
 DOMAIN-SUFFIX,idbkfy.kango-roo.com
 DOMAIN-SUFFIX,iddu1vvb7sk8-a.akamaihd.net
 DOMAIN-SUFFIX,ideadevice.actonservice.com
@@ -23270,7 +23272,6 @@ DOMAIN-SUFFIX,money.clerkie.io
 DOMAIN-SUFFIX,monicaatron.com
 DOMAIN-SUFFIX,monitor-api.blackcrow.ai
 DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com
-DOMAIN-SUFFIX,monitor.azure.com
 DOMAIN-SUFFIX,monitor.channel4.com
 DOMAIN-SUFFIX,monitor.music.qq.com
 DOMAIN-SUFFIX,monitoring.iraiser.eu

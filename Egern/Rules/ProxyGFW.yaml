@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 6917
+# 规则统计: 6918
 
 no_resolve: true
 domain_set:
@@ -841,6 +841,7 @@ domain_suffix_set:
   - brucewang.net
   - brutaltgp.com
   - bsky.app
+  - bsky.network
   - bsky.social
   - bt2mag.com
   - bt95.com
