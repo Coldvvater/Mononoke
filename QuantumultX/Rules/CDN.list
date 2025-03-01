@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3253
+# 规则统计: 3256
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -989,6 +989,7 @@ HOST,hawk.tomsguide.com,CDN
 HOST,headway-widget.net,CDN
 HOST,hentaiworldtv.b-cdn.net,CDN
 HOST,hhhhhhome86227170.wordpress.com,CDN
+HOST,hips.hearstapps.com,CDN
 HOST,hls.hentaicity.com,CDN
 HOST,home.integrate.com,CDN
 HOST,hp.foxnews.com,CDN
@@ -1375,6 +1376,7 @@ HOST,media.mas.to,CDN
 HOST,media.masto.nu,CDN
 HOST,media.mstdn.io,CDN
 HOST,media.nationwide.com,CDN
+HOST,media.newyorker.com,CDN
 HOST,media.nownews.com,CDN
 HOST,media.npr.org,CDN
 HOST,media.orz.uno,CDN
@@ -2896,6 +2898,7 @@ HOST-SUFFIX,placehold.jp,CDN
 HOST-SUFFIX,placekitten.com,CDN
 HOST-SUFFIX,placewaifu.com,CDN
 HOST-SUFFIX,pnpm.io,CDN
+HOST-SUFFIX,pocket-image-cache.com,CDN
 HOST-SUFFIX,poecdn.net,CDN
 HOST-SUFFIX,polyfill-fastly.io,CDN
 HOST-SUFFIX,porn-d.xyz,CDN

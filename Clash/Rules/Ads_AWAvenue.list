@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 737
+# 规则统计: 740
 
 DOMAIN-SUFFIX,1010pic.com
 DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
@@ -252,6 +252,7 @@ DOMAIN-SUFFIX,ck.ads.oppomobile.com
 DOMAIN-SUFFIX,click.googleanalytics.com
 DOMAIN-SUFFIX,click.oneplus.cn
 DOMAIN-SUFFIX,clog.miguvideo.com
+DOMAIN-SUFFIX,cn-api.anythinktech.com
 DOMAIN-SUFFIX,cnlogs.umeng.com
 DOMAIN-SUFFIX,cnlogs.umengcloud.com
 DOMAIN-SUFFIX,cnzz.com
@@ -270,6 +271,7 @@ DOMAIN-SUFFIX,data.chsmarttv.com
 DOMAIN-SUFFIX,data.mistat.india.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.xiaomi.com
+DOMAIN-SUFFIX,datk.anythinktech.com
 DOMAIN-SUFFIX,dc.sigmob.cn
 DOMAIN-SUFFIX,de.tynt.com
 DOMAIN-SUFFIX,diagnosis.ad.xiaomi.com
@@ -715,6 +717,7 @@ DOMAIN-SUFFIX,win.gdt.qq.com
 DOMAIN-SUFFIX,wn.x.jd.com
 DOMAIN-SUFFIX,ws-keyboard.shouji.sogou.com
 DOMAIN-SUFFIX,ws.sj.qq.com
+DOMAIN-SUFFIX,wwads.cn
 DOMAIN-SUFFIX,www42.zskwai.com
 DOMAIN-SUFFIX,wxa.wxs.qq.com
 DOMAIN-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn

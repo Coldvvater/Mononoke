@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 737
+# 规则统计: 740
 
 HOST-SUFFIX,1010pic.com,Ads_AWAvenue
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -252,6 +252,7 @@ HOST-SUFFIX,ck.ads.oppomobile.com,Ads_AWAvenue
 HOST-SUFFIX,click.googleanalytics.com,Ads_AWAvenue
 HOST-SUFFIX,click.oneplus.cn,Ads_AWAvenue
 HOST-SUFFIX,clog.miguvideo.com,Ads_AWAvenue
+HOST-SUFFIX,cn-api.anythinktech.com,Ads_AWAvenue
 HOST-SUFFIX,cnlogs.umeng.com,Ads_AWAvenue
 HOST-SUFFIX,cnlogs.umengcloud.com,Ads_AWAvenue
 HOST-SUFFIX,cnzz.com,Ads_AWAvenue
@@ -270,6 +271,7 @@ HOST-SUFFIX,data.chsmarttv.com,Ads_AWAvenue
 HOST-SUFFIX,data.mistat.india.xiaomi.com,Ads_AWAvenue
 HOST-SUFFIX,data.mistat.rus.xiaomi.com,Ads_AWAvenue
 HOST-SUFFIX,data.mistat.xiaomi.com,Ads_AWAvenue
+HOST-SUFFIX,datk.anythinktech.com,Ads_AWAvenue
 HOST-SUFFIX,dc.sigmob.cn,Ads_AWAvenue
 HOST-SUFFIX,de.tynt.com,Ads_AWAvenue
 HOST-SUFFIX,diagnosis.ad.xiaomi.com,Ads_AWAvenue
@@ -715,6 +717,7 @@ HOST-SUFFIX,win.gdt.qq.com,Ads_AWAvenue
 HOST-SUFFIX,wn.x.jd.com,Ads_AWAvenue
 HOST-SUFFIX,ws-keyboard.shouji.sogou.com,Ads_AWAvenue
 HOST-SUFFIX,ws.sj.qq.com,Ads_AWAvenue
+HOST-SUFFIX,wwads.cn,Ads_AWAvenue
 HOST-SUFFIX,www42.zskwai.com,Ads_AWAvenue
 HOST-SUFFIX,wxa.wxs.qq.com,Ads_AWAvenue
 HOST-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn,Ads_AWAvenue
