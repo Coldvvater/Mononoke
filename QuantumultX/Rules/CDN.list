@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3256
+# 规则统计: 3257
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2319,6 +2319,7 @@ HOST-SUFFIX,b2c-contenthub.com,CDN
 HOST-SUFFIX,badgen.net,CDN
 HOST-SUFFIX,badoocdn.com,CDN
 HOST-SUFFIX,balley.top,CDN
+HOST-SUFFIX,bblcdn.com,CDN
 HOST-SUFFIX,bdzybf7.com,CDN
 HOST-SUFFIX,bestjavcdn.com,CDN
 HOST-SUFFIX,bftuvip.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3256
+# 规则统计: 3257
 
 domain_set:
   - 0x0.st
@@ -2321,6 +2321,7 @@ domain_suffix_set:
   - badgen.net
   - badoocdn.com
   - balley.top
+  - bblcdn.com
   - bdzybf7.com
   - bestjavcdn.com
   - bftuvip.com

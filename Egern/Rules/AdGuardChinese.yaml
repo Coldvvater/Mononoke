@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4848
+# 规则统计: 4856
 
 domain_suffix_set:
   - 002777.xyz
@@ -477,6 +477,7 @@ domain_suffix_set:
   - a7c.icu
   - aa.gushiwen.org
   - aa.xiangxiangmf.com
+  - aa03010iiko.com
   - aaa.tumanyi.com
   - aafns.xyz
   - aafuck.xyz
@@ -855,6 +856,7 @@ domain_suffix_set:
   - bhegilut.com
   - bhelzun.com
   - bhohreatz.com
+  - bhoscopop.com
   - bhovrath.com
   - bhukkeks.com
   - biancitiao.com
@@ -867,6 +869,7 @@ domain_suffix_set:
   - bildrat.com
   - bilec.xyz
   - bilibilitool.site
+  - bimnodstz.com
   - bing001.shop
   - bing003.shop
   - bing005.shop
@@ -1682,6 +1685,7 @@ domain_suffix_set:
   - ff.qichetansuo.com
   - ffbdbx.xyz
   - ffdafx.xyz
+  - ffjevt.icu
   - fgadsqdma.top
   - fgdkfr.xyz
   - fghghh.cn
@@ -2312,6 +2316,7 @@ domain_suffix_set:
   - iy.com.cn
   - iyisloo.top
   - iyjqgpo.top
+  - iyqbsst.top
   - iyuedu.cn.com
   - iyuwkbo.top
   - izalflh.cn
@@ -2671,6 +2676,7 @@ domain_suffix_set:
   - leabd.douguo.com
   - leagsmk.icu
   - ledollull.com
+  - ledwtz.icu
   - leeleo.top
   - lekfez.icu
   - leryt111.fun
@@ -3077,6 +3083,7 @@ domain_suffix_set:
   - odamcsk.top
   - odinmak.top
   - odipsumk.top
+  - odxh.cn
   - oeryt111.fun
   - oewrutk.top
   - ofd.meng-an.cn
@@ -4759,6 +4766,7 @@ domain_suffix_set:
   - zca31.com
   - zcck60eqyw.world
   - zcfhi.cn.com
+  - zcnmjb.icu
   - zcrddj.icu
   - zcypmsp.icu
   - zdscdkc.icu
