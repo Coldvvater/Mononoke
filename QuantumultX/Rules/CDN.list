@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3257
+# 规则统计: 3259
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -360,6 +360,7 @@ HOST,cdn.amcharts.com,CDN
 HOST,cdn.announcekit.app,CDN
 HOST,cdn.answeroverflow.com,CDN
 HOST,cdn.apkmonk.com,CDN
+HOST,cdn.app.neononepay.com,CDN
 HOST,cdn.apponic.com,CDN
 HOST,cdn.arcade.software,CDN
 HOST,cdn.arduino.cc,CDN
@@ -2129,6 +2130,7 @@ HOST,ubistatic-a.ubisoft.com,CDN
 HOST,ubistatic2-a.akamaihd.net,CDN
 HOST,ubistatic2-a.ubisoft.com,CDN
 HOST,udata.namespace.so,CDN
+HOST,uhf.microsoft.com,CDN
 HOST,ui-cdn.digitalocean.com,CDN
 HOST,ui.contentstack.com,CDN
 HOST,ui.trailhead.com,CDN

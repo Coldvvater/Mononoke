@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3257
+# 规则统计: 3259
 
 domain_set:
   - 0x0.st
@@ -361,6 +361,7 @@ domain_set:
   - cdn.announcekit.app
   - cdn.answeroverflow.com
   - cdn.apkmonk.com
+  - cdn.app.neononepay.com
   - cdn.apponic.com
   - cdn.arcade.software
   - cdn.arduino.cc
@@ -2130,6 +2131,7 @@ domain_set:
   - ubistatic2-a.akamaihd.net
   - ubistatic2-a.ubisoft.com
   - udata.namespace.so
+  - uhf.microsoft.com
   - ui-cdn.digitalocean.com
   - ui.contentstack.com
   - ui.trailhead.com

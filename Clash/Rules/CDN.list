@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3255
+# 规则统计: 3257
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -360,6 +360,7 @@ DOMAIN,cdn.amcharts.com
 DOMAIN,cdn.announcekit.app
 DOMAIN,cdn.answeroverflow.com
 DOMAIN,cdn.apkmonk.com
+DOMAIN,cdn.app.neononepay.com
 DOMAIN,cdn.apponic.com
 DOMAIN,cdn.arcade.software
 DOMAIN,cdn.arduino.cc
@@ -2129,6 +2130,7 @@ DOMAIN,ubistatic-a.ubisoft.com
 DOMAIN,ubistatic2-a.akamaihd.net
 DOMAIN,ubistatic2-a.ubisoft.com
 DOMAIN,udata.namespace.so
+DOMAIN,uhf.microsoft.com
 DOMAIN,ui-cdn.digitalocean.com
 DOMAIN,ui.contentstack.com
 DOMAIN,ui.trailhead.com
