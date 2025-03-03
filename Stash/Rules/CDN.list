@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3257
+# 规则统计: 3258
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -592,6 +592,7 @@ DOMAIN,cdn.smooch.io
 DOMAIN,cdn.softswiss.net
 DOMAIN,cdn.split.io
 DOMAIN,cdn.sprig.com
+DOMAIN,cdn.sso.mozilla.com
 DOMAIN,cdn.st-note.com
 DOMAIN,cdn.starapps.studio
 DOMAIN,cdn.stash.com

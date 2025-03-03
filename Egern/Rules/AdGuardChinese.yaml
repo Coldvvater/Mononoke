@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4856
+# 规则统计: 4863
 
 domain_suffix_set:
   - 002777.xyz
@@ -608,6 +608,7 @@ domain_suffix_set:
   - aikkits.com
   - aiknx.cn
   - aili.com
+  - aillaeuyn.com
   - aiqks.top
   - airakgyl.com
   - aiwanma99.com
@@ -1354,6 +1355,7 @@ domain_suffix_set:
   - diav.cn
   - diendh.xyz
   - difhil.icu
+  - difzhd.icu
   - dingbu.bj.bcebos.com
   - display.itmemo.cn
   - displink.com
@@ -1888,6 +1890,7 @@ domain_suffix_set:
   - gmso12251oka.top
   - gmso12261oka.top
   - gmso12271oka.top
+  - gmwqpgq.top
   - gmxysb.icu
   - gnyuhzd.icu
   - go.hangzhou.com.cn
@@ -3257,8 +3260,10 @@ domain_suffix_set:
   - pjcijbv.icu
   - pjcn.org
   - pjdthz.xyz
+  - pjwk.cn
   - pkk1.zuimeiniwo.com
   - pklujb.xyz
+  - pkvjrb.icu
   - pkyjuc.cn
   - pl520.com
   - plecnyz.icu
@@ -3515,6 +3520,7 @@ domain_suffix_set:
   - rghbvp.xyz
   - rgmmeff.icu
   - rhndvagz.icu
+  - rhzofr.icu
   - rhzvlcu.xyz
   - richh.cn
   - ridirre.com
@@ -4430,6 +4436,7 @@ domain_suffix_set:
   - wuliao.chzsport.cn
   - wuliao.epro.sogou.com
   - wuliao.juqingba.cn
+  - wumd.cn
   - wuresde.top
   - wusfa.xyz
   - wvwqywz.cn

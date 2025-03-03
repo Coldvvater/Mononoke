@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4856
+# 规则统计: 4863
 
 HOST-SUFFIX,002777.xyz,AdGuardChinese
 HOST-SUFFIX,003store.com,AdGuardChinese
@@ -607,6 +607,7 @@ HOST-SUFFIX,aigfednd.icu,AdGuardChinese
 HOST-SUFFIX,aikkits.com,AdGuardChinese
 HOST-SUFFIX,aiknx.cn,AdGuardChinese
 HOST-SUFFIX,aili.com,AdGuardChinese
+HOST-SUFFIX,aillaeuyn.com,AdGuardChinese
 HOST-SUFFIX,aiqks.top,AdGuardChinese
 HOST-SUFFIX,airakgyl.com,AdGuardChinese
 HOST-SUFFIX,aiwanma99.com,AdGuardChinese
@@ -1353,6 +1354,7 @@ HOST-SUFFIX,dianxin.com,AdGuardChinese
 HOST-SUFFIX,diav.cn,AdGuardChinese
 HOST-SUFFIX,diendh.xyz,AdGuardChinese
 HOST-SUFFIX,difhil.icu,AdGuardChinese
+HOST-SUFFIX,difzhd.icu,AdGuardChinese
 HOST-SUFFIX,dingbu.bj.bcebos.com,AdGuardChinese
 HOST-SUFFIX,display.itmemo.cn,AdGuardChinese
 HOST-SUFFIX,displink.com,AdGuardChinese
@@ -1887,6 +1889,7 @@ HOST-SUFFIX,gmso01010oka.top,AdGuardChinese
 HOST-SUFFIX,gmso12251oka.top,AdGuardChinese
 HOST-SUFFIX,gmso12261oka.top,AdGuardChinese
 HOST-SUFFIX,gmso12271oka.top,AdGuardChinese
+HOST-SUFFIX,gmwqpgq.top,AdGuardChinese
 HOST-SUFFIX,gmxysb.icu,AdGuardChinese
 HOST-SUFFIX,gnyuhzd.icu,AdGuardChinese
 HOST-SUFFIX,go.hangzhou.com.cn,AdGuardChinese
@@ -3256,8 +3259,10 @@ HOST-SUFFIX,pjb9gv9.xyz,AdGuardChinese
 HOST-SUFFIX,pjcijbv.icu,AdGuardChinese
 HOST-SUFFIX,pjcn.org,AdGuardChinese
 HOST-SUFFIX,pjdthz.xyz,AdGuardChinese
+HOST-SUFFIX,pjwk.cn,AdGuardChinese
 HOST-SUFFIX,pkk1.zuimeiniwo.com,AdGuardChinese
 HOST-SUFFIX,pklujb.xyz,AdGuardChinese
+HOST-SUFFIX,pkvjrb.icu,AdGuardChinese
 HOST-SUFFIX,pkyjuc.cn,AdGuardChinese
 HOST-SUFFIX,pl520.com,AdGuardChinese
 HOST-SUFFIX,plecnyz.icu,AdGuardChinese
@@ -3514,6 +3519,7 @@ HOST-SUFFIX,rewrwrt4.fun,AdGuardChinese
 HOST-SUFFIX,rghbvp.xyz,AdGuardChinese
 HOST-SUFFIX,rgmmeff.icu,AdGuardChinese
 HOST-SUFFIX,rhndvagz.icu,AdGuardChinese
+HOST-SUFFIX,rhzofr.icu,AdGuardChinese
 HOST-SUFFIX,rhzvlcu.xyz,AdGuardChinese
 HOST-SUFFIX,richh.cn,AdGuardChinese
 HOST-SUFFIX,ridirre.com,AdGuardChinese
@@ -4429,6 +4435,7 @@ HOST-SUFFIX,wuisaq.top,AdGuardChinese
 HOST-SUFFIX,wuliao.chzsport.cn,AdGuardChinese
 HOST-SUFFIX,wuliao.epro.sogou.com,AdGuardChinese
 HOST-SUFFIX,wuliao.juqingba.cn,AdGuardChinese
+HOST-SUFFIX,wumd.cn,AdGuardChinese
 HOST-SUFFIX,wuresde.top,AdGuardChinese
 HOST-SUFFIX,wusfa.xyz,AdGuardChinese
 HOST-SUFFIX,wvwqywz.cn,AdGuardChinese
