@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3260
+# 规则统计: 3266
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -555,6 +555,7 @@ HOST,cdn.privacy-mgmt.com,CDN
 HOST,cdn.privacy.paramount.com,CDN
 HOST,cdn.prod.ext.web.purview.azure.com,CDN
 HOST,cdn.prod.www.spiegel.de,CDN
+HOST,cdn.promotekit.com,CDN
 HOST,cdn.prowritingaid.com,CDN
 HOST,cdn.quadpay.com,CDN
 HOST,cdn.quickemailverification.com,CDN
@@ -742,6 +743,7 @@ HOST,cf.shopee.tw,CDN
 HOST,cfvod.kaltura.com,CDN
 HOST,chart.googleapis.com,CDN
 HOST,chat-content.beanfun.com,CDN
+HOST,chatwidgetmetrics-proxy.usepylon.com,CDN
 HOST,checkout-sdk.bigcommerce.com,CDN
 HOST,checkout.stripe.com,CDN
 HOST,ci.testling.com,CDN
@@ -1838,6 +1840,7 @@ HOST,static-staging.scroll.com,CDN
 HOST,static-sv.fc2.com,CDN
 HOST,static-web-prod.skillshare.com,CDN
 HOST,static-web.grammarly.com,CDN
+HOST,static-www.onlyoffice.com,CDN
 HOST,static.4shared.com,CDN
 HOST,static.ada.support,CDN
 HOST,static.addtoany.com,CDN
@@ -2218,6 +2221,7 @@ HOST,webcdn.17app.co,CDN
 HOST,webfonts.zoho.com,CDN
 HOST,webp.frostming.com,CDN
 HOST,website-cdn.ipinfo.io,CDN
+HOST,website-prod.cache.wpscdn.com,CDN
 HOST,webstatic.chargebee.com,CDN
 HOST,widget.docsbot.ai,CDN
 HOST,widget.freshworks.com,CDN
@@ -2488,6 +2492,7 @@ HOST-SUFFIX,dummyjson.com,CDN
 HOST-SUFFIX,dwcdn.net,CDN
 HOST-SUFFIX,dweb.eu.org,CDN
 HOST-SUFFIX,dweb.link,CDN
+HOST-SUFFIX,dynamic-static-assets.com,CDN
 HOST-SUFFIX,e.crashlytics.com,CDN
 HOST-SUFFIX,easylist.to,CDN
 HOST-SUFFIX,ebayimg.com,CDN
@@ -2885,6 +2890,7 @@ HOST-SUFFIX,phncdn.com,CDN
 HOST-SUFFIX,photobucket.com,CDN
 HOST-SUFFIX,phprcdn.com,CDN
 HOST-SUFFIX,pichost.top,CDN
+HOST-SUFFIX,picjs.xyz,CDN
 HOST-SUFFIX,picsum.photos,CDN
 HOST-SUFFIX,pimg.tw,CDN
 HOST-SUFFIX,pinimg.com,CDN
