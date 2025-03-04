@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3266
+# 规则统计: 3267
 
 domain_set:
   - 0x0.st
@@ -410,6 +410,7 @@ domain_set:
   - cdn.conveythis.com
   - cdn.credible.com
   - cdn.css.net
+  - cdn.cuty.io
   - cdn.cxense.com
   - cdn.daily.dev
   - cdn.dap.dmm.co.jp

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3266
+# 规则统计: 3267
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -409,6 +409,7 @@ HOST,cdn.contentful.com,CDN
 HOST,cdn.conveythis.com,CDN
 HOST,cdn.credible.com,CDN
 HOST,cdn.css.net,CDN
+HOST,cdn.cuty.io,CDN
 HOST,cdn.cxense.com,CDN
 HOST,cdn.daily.dev,CDN
 HOST,cdn.dap.dmm.co.jp,CDN
