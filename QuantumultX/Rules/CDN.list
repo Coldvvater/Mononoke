@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3267
+# 规则统计: 3271
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -97,6 +97,7 @@ HOST,assets.apnews.com,CDN
 HOST,assets.atlasobscura.com,CDN
 HOST,assets.auth.magic.link,CDN
 HOST,assets.awwwards.com,CDN
+HOST,assets.basehub.com,CDN
 HOST,assets.bbhub.io,CDN
 HOST,assets.bitstamp.net,CDN
 HOST,assets.bnidx.com,CDN
@@ -2357,6 +2358,7 @@ HOST-SUFFIX,bunnycdn.com,CDN
 HOST-SUFFIX,bytebucket.org,CDN
 HOST-SUFFIX,bytedapm.com,CDN
 HOST-SUFFIX,c-dn.net,CDN
+HOST-SUFFIX,cartocdn.com,CDN
 HOST-SUFFIX,cbsnewsstatic.com,CDN
 HOST-SUFFIX,cdn-centaurus.com,CDN
 HOST-SUFFIX,cdn-cookieyes.com,CDN
@@ -2462,6 +2464,7 @@ HOST-SUFFIX,ctfassets.net,CDN
 HOST-SUFFIX,cthd.icu,CDN
 HOST-SUFFIX,cwwcdn.com,CDN
 HOST-SUFFIX,data.debugbear.com,CDN
+HOST-SUFFIX,dataplane.rudderstack.com,CDN
 HOST-SUFFIX,datocms-assets.com,CDN
 HOST-SUFFIX,daumcdn.net,CDN
 HOST-SUFFIX,dditscdn.com,CDN
@@ -2959,6 +2962,7 @@ HOST-SUFFIX,react.dev,CDN
 HOST-SUFFIX,reactjs.org,CDN
 HOST-SUFFIX,readthedocs.io,CDN
 HOST-SUFFIX,reasoningtheory.net,CDN
+HOST-SUFFIX,recharts.org,CDN
 HOST-SUFFIX,redd.it,CDN
 HOST-SUFFIX,redditmedia.com,CDN
 HOST-SUFFIX,redditstatic.com,CDN

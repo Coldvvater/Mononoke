@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3265
+# 规则统计: 3269
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -97,6 +97,7 @@ DOMAIN,assets.apnews.com
 DOMAIN,assets.atlasobscura.com
 DOMAIN,assets.auth.magic.link
 DOMAIN,assets.awwwards.com
+DOMAIN,assets.basehub.com
 DOMAIN,assets.bbhub.io
 DOMAIN,assets.bitstamp.net
 DOMAIN,assets.bnidx.com
@@ -2357,6 +2358,7 @@ DOMAIN-SUFFIX,bunnycdn.com
 DOMAIN-SUFFIX,bytebucket.org
 DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,c-dn.net
+DOMAIN-SUFFIX,cartocdn.com
 DOMAIN-SUFFIX,cbsnewsstatic.com
 DOMAIN-SUFFIX,cdn-centaurus.com
 DOMAIN-SUFFIX,cdn-cookieyes.com
@@ -2462,6 +2464,7 @@ DOMAIN-SUFFIX,ctfassets.net
 DOMAIN-SUFFIX,cthd.icu
 DOMAIN-SUFFIX,cwwcdn.com
 DOMAIN-SUFFIX,data.debugbear.com
+DOMAIN-SUFFIX,dataplane.rudderstack.com
 DOMAIN-SUFFIX,datocms-assets.com
 DOMAIN-SUFFIX,daumcdn.net
 DOMAIN-SUFFIX,dditscdn.com
@@ -2959,6 +2962,7 @@ DOMAIN-SUFFIX,react.dev
 DOMAIN-SUFFIX,reactjs.org
 DOMAIN-SUFFIX,readthedocs.io
 DOMAIN-SUFFIX,reasoningtheory.net
+DOMAIN-SUFFIX,recharts.org
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com

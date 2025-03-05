@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 740
+# 规则统计: 741
 
 domain_suffix_set:
   - 1010pic.com
@@ -252,6 +252,7 @@ domain_suffix_set:
   - ck.ads.oppomobile.com
   - click.googleanalytics.com
   - click.oneplus.cn
+  - client.app.coc.10086.cn
   - clog.miguvideo.com
   - cn-api.anythinktech.com
   - cnlogs.umeng.com
