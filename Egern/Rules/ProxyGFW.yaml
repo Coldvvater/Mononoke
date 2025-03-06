@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7054
+# 规则统计: 7098
 
 no_resolve: true
 domain_set:
@@ -62,6 +62,7 @@ domain_suffix_set:
   - 2017.hk
   - 2021hkcharter.com
   - 2047.name
+  - 2049bbs.xyz
   - 21andy.com
   - 21join.com
   - 21pron.com
@@ -263,6 +264,7 @@ domain_suffix_set:
   - alicejapan.co.jp
   - aliengu.com
   - alive.bar
+  - aljazeera.com
   - alkasir.com
   - all4mom.org
   - allcoin.com
@@ -717,6 +719,7 @@ domain_suffix_set:
   - blogdns.org
   - blogger.com
   - blogimg.jp
+  - blogjav.net
   - bloglines.com
   - bloglovin.com
   - blogs.com
@@ -868,6 +871,8 @@ domain_suffix_set:
   - btaia.com
   - btbit.net
   - btbtav.com
+  - btbtt.co
+  - btbtt.me
   - btc.com
   - btc98.com
   - btcbank.bank
@@ -941,6 +946,7 @@ domain_suffix_set:
   - cam4.jp
   - cam4.sg
   - camfrog.com
+  - campaign-archive.com
   - campaignforuyghurs.org
   - cams.com
   - cams.org.sg
@@ -1127,6 +1133,7 @@ domain_suffix_set:
   - chinatopsex.com
   - chinatown.com.au
   - chinatweeps.com
+  - chinauncensored.tv
   - chinaview.wordpress.com
   - chinaway.org
   - chinaworker.info
@@ -1196,6 +1203,7 @@ domain_suffix_set:
   - civilmedia.tw
   - civisec.org
   - civitai.com
+  - cixiaoya.club
   - ck101.com
   - cl.d0z.net
   - clarionproject.org
@@ -1235,7 +1243,6 @@ domain_suffix_set:
   - cmule.org
   - cmx.im
   - cn-proxy.com
-  - cn.etherscan.com
   - cn.fmnnow.com
   - cn.freeones.com
   - cn.giganews.com
@@ -1462,6 +1469,7 @@ domain_suffix_set:
   - dcard.tw
   - dcmilitary.com
   - ddc.com.tw
+  - ddex.io
   - ddhw.info
   - dditscdn.com
   - ddns.info
@@ -1477,6 +1485,7 @@ domain_suffix_set:
   - deaftone.com
   - debug.com
   - deck.ly
+  - deck.new
   - decodet.co
   - deepai.org
   - deepmind.com
@@ -1566,6 +1575,7 @@ domain_suffix_set:
   - dnsrd.com
   - dnssec.net
   - dnvod.tv
+  - doc.new
   - docker.com
   - docker.io
   - docs.new
@@ -1719,6 +1729,7 @@ domain_suffix_set:
   - edoors.com
   - edubridge.com
   - edupro.org
+  - edx-cdn.org
   - eeas.europa.eu
   - eesti.ee
   - eevpn.com
@@ -1811,6 +1822,7 @@ domain_suffix_set:
   - etaiwannews.com
   - etherdelta.com
   - ethermine.org
+  - etherscan.com
   - etherscan.io
   - etizer.org
   - etokki.com
@@ -1828,6 +1840,7 @@ domain_suffix_set:
   - euronews.com
   - europa.eu
   - evchk.wikia.com
+  - everipedia.org
   - evozi.com
   - evschool.net
   - exam.gov.tw
@@ -2052,6 +2065,8 @@ domain_suffix_set:
   - fooooo.com
   - foreignaffairs.com
   - foreignpolicy.com
+  - form.new
+  - forms.new
   - forum.baby-kingdom.com
   - forum.cyberctm.com
   - forum.idsam.com
@@ -2176,6 +2191,7 @@ domain_suffix_set:
   - ftvnews.com.tw
   - ftx.com
   - fucd.com
+  - fuchsia.dev
   - fuckcnnic.net
   - fuckgfw.org
   - fuckgfw233.org
@@ -3171,6 +3187,7 @@ domain_suffix_set:
   - internetpopculture.com
   - inthenameofconfuciusmovie.com
   - investigating.wordpress.com
+  - invidio.us
   - inxian.com
   - iownyour.biz
   - iownyour.org
@@ -3372,6 +3389,7 @@ domain_suffix_set:
   - justicefortenzin.org
   - justmysocks.net
   - justmysocks1.net
+  - justmysockscn.com
   - justpaste.it
   - justtristan.com
   - juyuange.org
@@ -3435,6 +3453,7 @@ domain_suffix_set:
   - kineox.free.fr
   - kingdomsalvation.org
   - kinghost.com
+  - kingkong.com.tw
   - kingstone.com.tw
   - kink.com
   - kinmen.org.tw
@@ -3716,6 +3735,7 @@ domain_suffix_set:
   - manta.com
   - manyvoices.news
   - maplew.com
+  - maps.googleapis.com
   - marc.info
   - marguerite.su
   - martau.com
@@ -3791,6 +3811,7 @@ domain_suffix_set:
   - mercatox.com
   - mercdn.net
   - mercyprophet.org
+  - mergersandinquisitions.com
   - mergersandinquisitions.org
   - meridian-trust.org
   - meripet.biz
@@ -4186,6 +4207,7 @@ domain_suffix_set:
   - nicovideo.jp
   - nighost.org
   - nightlife141.com
+  - nightswatch.top
   - nike.com
   - nikkei.com
   - ninecommentaries.com
@@ -4361,6 +4383,7 @@ domain_suffix_set:
   - onedrive.live.com
   - onedumb.com
   - onejav.com
+  - onevps.com
   - onion.city
   - onion.ly
   - online.recoveryversion.org
@@ -4460,6 +4483,7 @@ domain_suffix_set:
   - palmislife.com
   - paltalk.com
   - panamapapers.sueddeutsche.de
+  - pandafan.pub
   - pandapow.co
   - pandapow.net
   - pandavpn-jp.com
@@ -4490,6 +4514,7 @@ domain_suffix_set:
   - patreonusercontent.com
   - pawoo.net
   - paxful.com
+  - payments-jp.amazon.com
   - pbs.org
   - pbwiki.com
   - pbworks.com
@@ -4680,6 +4705,7 @@ domain_suffix_set:
   - prayforchina.net
   - premeforwindows7.com
   - premproxy.com
+  - presentation.new
   - presentationzen.com
   - presidentlee.tw
   - prestige-av.com
@@ -4713,6 +4739,7 @@ domain_suffix_set:
   - proxypy.net
   - proxyroad.com
   - proxytunnel.net
+  - proxz.com
   - proyectoclubes.com
   - prozz.net
   - psblog.name
@@ -4767,6 +4794,7 @@ domain_suffix_set:
   - qianglie.com
   - qiangwaikan.com
   - qiangyou.org
+  - qianmo.tw
   - qidian.ca
   - qienkuen.org
   - qiwen.lu
@@ -4871,6 +4899,7 @@ domain_suffix_set:
   - reddit.com
   - redditlist.com
   - redditmedia.com
+  - redditspace.com
   - redditstatic.com
   - redhat.com
   - redhotlabs.com
@@ -5041,6 +5070,7 @@ domain_suffix_set:
   - secure.hustler.com
   - secure.logmein.com
   - secure.raxcdn.com
+  - secure.shadowsocks.nu
   - secureservercdn.net
   - securetunnel.com
   - securityinabox.org
@@ -5104,7 +5134,6 @@ domain_suffix_set:
   - shapeservices.com
   - share-videos.se
   - share.america.gov
-  - share.dmhy.org
   - share.ovi.com
   - share.youthwant.com.tw
   - sharebee.com
@@ -5114,6 +5143,7 @@ domain_suffix_set:
   - sharpdaily.tw
   - shat-tibet.com
   - shattered.io
+  - sheet.new
   - sheets.new
   - sheikyermami.com
   - shellfire.de
@@ -5140,6 +5170,7 @@ domain_suffix_set:
   - shop2000.com.tw
   - shopee.tw
   - shopping.com
+  - shopping.yahoo.co.jp
   - showbiz.omy.sg
   - showhaotu.com
   - showtime.jp
@@ -5156,7 +5187,9 @@ domain_suffix_set:
   - sijihuisuo.club
   - sijihuisuo.com
   - silkbook.com
+  - silvergatebank.com
   - simbolostwitter.com
+  - simplecd.me
   - simplecd.org
   - simpleproductivityblog.com
   - simpleswap.io
@@ -5184,12 +5217,14 @@ domain_suffix_set:
   - sis.xxx
   - sis001.com
   - sis001.us
+  - site.new
   - site2unblock.com
   - site90.net
   - sitebro.tw
   - sitekreator.com
   - siteks.uk.to
   - sitemaps.org
+  - sites.new
   - six-degrees.io
   - sixth.biz
   - sjrt.org
@@ -5300,6 +5335,7 @@ domain_suffix_set:
   - sourceforge.net
   - sourcegraph.com
   - sourcewadio.com
+  - south-plus.net
   - south-plus.org
   - southmongolia.org
   - southnews.com.tw
@@ -5330,6 +5366,7 @@ domain_suffix_set:
   - sports.williamhill.com
   - spotflux.com
   - spotify.com
+  - spreadsheet.new
   - spreadshirt.es
   - spreaker.com
   - spring.io
@@ -5359,6 +5396,7 @@ domain_suffix_set:
   - ssr.tools
   - ssrshare.com
   - ssrshare.us
+  - ssrtool.com
   - sss.camp
   - sstm.moe
   - sstmlt.moe
@@ -5478,6 +5516,7 @@ domain_suffix_set:
   - sydney.bing.com
   - sydneytoday.com
   - sylfoundation.org
+  - synapse.org
   - syncback.com
   - synergyse.com
   - syosetu.com
@@ -5863,6 +5902,7 @@ domain_suffix_set:
   - torvpn.com
   - tosh.comedycentral.com
   - totalvpn.com
+  - tou.tv
   - toutiaoabc.com
   - towngain.com
   - toypark.in
@@ -5927,6 +5967,7 @@ domain_suffix_set:
   - tumutanzi.com
   - tumview.com
   - tunein.com
+  - tunein.streamguys1.com
   - tunnelbear.com
   - tunnelblick.net
   - tunnelr.com
@@ -6230,6 +6271,7 @@ domain_suffix_set:
   - versavpn.com
   - verybs.com
   - vevo.com
+  - vewas.net
   - vft.com.tw
   - viber.com
   - vica.info
@@ -6252,6 +6294,7 @@ domain_suffix_set:
   - vietdaikynguyen.com
   - vijayatemple.org
   - vikacg.com
+  - vilanet.me
   - vilavpn.com
   - vimeo.com
   - vimperator.org
@@ -6422,6 +6465,7 @@ domain_suffix_set:
   - webrush.net
   - webs-tv.net
   - website.informer.com
+  - website.new
   - websitepulse.com
   - websnapr.com
   - webwarper.net
