@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3271
+# 规则统计: 3283
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -814,6 +814,7 @@ DOMAIN,crl.usertrust.com
 DOMAIN,crl.verisign.com
 DOMAIN,crt.comodoca.com
 DOMAIN,crt.usertrust.com
+DOMAIN,csp.microsoft.com
 DOMAIN,css-1-cdn.airdroid.com
 DOMAIN,css.blackmagicdesign.com
 DOMAIN,css.createsend1.com
@@ -1223,12 +1224,22 @@ DOMAIN,img.windy.com
 DOMAIN,img.xhacgn.com
 DOMAIN,img.xjh.me
 DOMAIN,img.youtube.com
+DOMAIN,img0.yna.co.kr
 DOMAIN,img1.ak.crunchyroll.com
+DOMAIN,img1.yna.co.kr
 DOMAIN,img2.tnaflix.com
 DOMAIN,img2.xiangbinjun.com
+DOMAIN,img2.yna.co.kr
 DOMAIN,img3.airdroid.com
+DOMAIN,img3.yna.co.kr
 DOMAIN,img4.airdroid.com
+DOMAIN,img4.yna.co.kr
+DOMAIN,img5.yna.co.kr
 DOMAIN,img6.airdroid.com
+DOMAIN,img6.yna.co.kr
+DOMAIN,img7.yna.co.kr
+DOMAIN,img8.yna.co.kr
+DOMAIN,img9.yna.co.kr
 DOMAIN,imgcdn.cna.com.tw
 DOMAIN,imgix.setapp.com
 DOMAIN,imgopt.infoq.com
@@ -1968,6 +1979,7 @@ DOMAIN,static.oracle.com
 DOMAIN,static.osdn.net
 DOMAIN,static.parallels.com
 DOMAIN,static.peatio.com
+DOMAIN,static.pfrt.yna.co.kr
 DOMAIN,static.pingcap.com
 DOMAIN,static.playstation.com
 DOMAIN,static.plus.net

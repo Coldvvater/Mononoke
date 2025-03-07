@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3273
+# 规则统计: 3285
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -814,6 +814,7 @@ HOST,crl.usertrust.com,CDN
 HOST,crl.verisign.com,CDN
 HOST,crt.comodoca.com,CDN
 HOST,crt.usertrust.com,CDN
+HOST,csp.microsoft.com,CDN
 HOST,css-1-cdn.airdroid.com,CDN
 HOST,css.blackmagicdesign.com,CDN
 HOST,css.createsend1.com,CDN
@@ -1223,12 +1224,22 @@ HOST,img.windy.com,CDN
 HOST,img.xhacgn.com,CDN
 HOST,img.xjh.me,CDN
 HOST,img.youtube.com,CDN
+HOST,img0.yna.co.kr,CDN
 HOST,img1.ak.crunchyroll.com,CDN
+HOST,img1.yna.co.kr,CDN
 HOST,img2.tnaflix.com,CDN
 HOST,img2.xiangbinjun.com,CDN
+HOST,img2.yna.co.kr,CDN
 HOST,img3.airdroid.com,CDN
+HOST,img3.yna.co.kr,CDN
 HOST,img4.airdroid.com,CDN
+HOST,img4.yna.co.kr,CDN
+HOST,img5.yna.co.kr,CDN
 HOST,img6.airdroid.com,CDN
+HOST,img6.yna.co.kr,CDN
+HOST,img7.yna.co.kr,CDN
+HOST,img8.yna.co.kr,CDN
+HOST,img9.yna.co.kr,CDN
 HOST,imgcdn.cna.com.tw,CDN
 HOST,imgix.setapp.com,CDN
 HOST,imgopt.infoq.com,CDN
@@ -1968,6 +1979,7 @@ HOST,static.oracle.com,CDN
 HOST,static.osdn.net,CDN
 HOST,static.parallels.com,CDN
 HOST,static.peatio.com,CDN
+HOST,static.pfrt.yna.co.kr,CDN
 HOST,static.pingcap.com,CDN
 HOST,static.playstation.com,CDN
 HOST,static.plus.net,CDN
