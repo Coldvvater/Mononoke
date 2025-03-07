@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3271
+# 规则统计: 3273
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2256,6 +2256,7 @@ HOST,www-static.ripe.net,CDN
 HOST,www.10086.win,CDN
 HOST,www.bbthat.com,CDN
 HOST,www.pngmart.com,CDN
+HOST,www.tbstat.com,CDN
 HOST,www.typescriptlang.org,CDN
 HOST,wwwimages2.adobe.com,CDN
 HOST,xpaywalletcdn.azureedge.net,CDN
@@ -2333,6 +2334,7 @@ HOST-SUFFIX,bdzybf7.com,CDN
 HOST-SUFFIX,bestjavcdn.com,CDN
 HOST-SUFFIX,bftuvip.com,CDN
 HOST-SUFFIX,bfzypic.com,CDN
+HOST-SUFFIX,bgstatic.com,CDN
 HOST-SUFFIX,biccam.com,CDN
 HOST-SUFFIX,bigcdn.cc,CDN
 HOST-SUFFIX,bigcontent.io,CDN

@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 741
+# 规则统计: 742
 
 domain_suffix_set:
   - 1010pic.com
@@ -82,6 +82,7 @@ domain_suffix_set:
   - ads.tiktok.com
   - ads.v3mh.com
   - ads.youtube.com
+  - ads.zhinengxiyifang.cn
   - ads3-normal-hl.zijieapi.com
   - ads3-normal-lf.zijieapi.com
   - ads3-normal-lq.zijieapi.com
@@ -190,6 +191,7 @@ domain_suffix_set:
   - api.kingdata.ksyun.com
   - api.statsig.com
   - api.touch-moblie.com
+  - api.yfanads.com
   - api5-normal-quic-lf.ixigua.com
   - apiyd.my91app.com
   - apks.webxiaobai.top
@@ -252,7 +254,6 @@ domain_suffix_set:
   - ck.ads.oppomobile.com
   - click.googleanalytics.com
   - click.oneplus.cn
-  - client.app.coc.10086.cn
   - clog.miguvideo.com
   - cn-api.anythinktech.com
   - cnlogs.umeng.com

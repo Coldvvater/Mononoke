@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3271
+# 规则统计: 3273
 
 domain_set:
   - 0x0.st
@@ -2257,6 +2257,7 @@ domain_set:
   - www.10086.win
   - www.bbthat.com
   - www.pngmart.com
+  - www.tbstat.com
   - www.typescriptlang.org
   - wwwimages2.adobe.com
   - xpaywalletcdn.azureedge.net
@@ -2335,6 +2336,7 @@ domain_suffix_set:
   - bestjavcdn.com
   - bftuvip.com
   - bfzypic.com
+  - bgstatic.com
   - biccam.com
   - bigcdn.cc
   - bigcontent.io

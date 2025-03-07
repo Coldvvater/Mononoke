@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 741
+# 规则统计: 742
 
 HOST-SUFFIX,1010pic.com,Ads_AWAvenue
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -81,6 +81,7 @@ HOST-SUFFIX,ads.service.kugou.com,Ads_AWAvenue
 HOST-SUFFIX,ads.tiktok.com,Ads_AWAvenue
 HOST-SUFFIX,ads.v3mh.com,Ads_AWAvenue
 HOST-SUFFIX,ads.youtube.com,Ads_AWAvenue
+HOST-SUFFIX,ads.zhinengxiyifang.cn,Ads_AWAvenue
 HOST-SUFFIX,ads3-normal-hl.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,ads3-normal-lf.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,ads3-normal-lq.zijieapi.com,Ads_AWAvenue
@@ -189,6 +190,7 @@ HOST-SUFFIX,api.jietuhb.com,Ads_AWAvenue
 HOST-SUFFIX,api.kingdata.ksyun.com,Ads_AWAvenue
 HOST-SUFFIX,api.statsig.com,Ads_AWAvenue
 HOST-SUFFIX,api.touch-moblie.com,Ads_AWAvenue
+HOST-SUFFIX,api.yfanads.com,Ads_AWAvenue
 HOST-SUFFIX,api5-normal-quic-lf.ixigua.com,Ads_AWAvenue
 HOST-SUFFIX,apiyd.my91app.com,Ads_AWAvenue
 HOST-SUFFIX,apks.webxiaobai.top,Ads_AWAvenue
@@ -251,7 +253,6 @@ HOST-SUFFIX,cj.qidian.com,Ads_AWAvenue
 HOST-SUFFIX,ck.ads.oppomobile.com,Ads_AWAvenue
 HOST-SUFFIX,click.googleanalytics.com,Ads_AWAvenue
 HOST-SUFFIX,click.oneplus.cn,Ads_AWAvenue
-HOST-SUFFIX,client.app.coc.10086.cn,Ads_AWAvenue
 HOST-SUFFIX,clog.miguvideo.com,Ads_AWAvenue
 HOST-SUFFIX,cn-api.anythinktech.com,Ads_AWAvenue
 HOST-SUFFIX,cnlogs.umeng.com,Ads_AWAvenue
