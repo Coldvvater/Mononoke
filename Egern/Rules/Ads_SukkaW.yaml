@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 64198
+# 规则统计: 64207
 
 no_resolve: true
 domain_set:
@@ -17701,6 +17701,7 @@ domain_suffix_set:
   - duplonborak.shop
   - dupsyduckom.com
   - dupy-hsjctyn.icu
+  - dupzbh.icu
   - duqfec.aosom.pt
   - duqqrl.jefchaussures.com
   - duqwsh.merongshop.com
@@ -19995,6 +19996,7 @@ domain_suffix_set:
   - exmeqy.smartbuyglasses.de
   - exnesstrack.com
   - exnzlk.knittingroom.se
+  - exocoed.top
   - exodus.arhythmically.uno
   - exomonyf.com
   - exonymneavil.com
@@ -27913,6 +27915,7 @@ domain_suffix_set:
   - jivsfr.drogarianovaesperanca.com.br
   - jivvjl.xyz
   - jiwire.com
+  - jixurt.icu
   - jizpyy.bett1.ch
   - jizxnr.xyz
   - jizzads.com
@@ -29781,7 +29784,6 @@ domain_suffix_set:
   - links.qumu.com
   - links.riverview.org
   - links.voyeurweb.com
-  - linksprf.com
   - linkt.ausfuellhilfe.com
   - linktech.cn
   - linsaicki.net
@@ -31499,6 +31501,7 @@ domain_suffix_set:
   - logs.juspay.in
   - logs.mezmo.com
   - logs.naukri.com
+  - logs.nebulahoroscope.com
   - logs.netflix.com
   - logs.ntvplus.tv
   - logs.openbank.com
@@ -43035,6 +43038,7 @@ domain_suffix_set:
   - qo2.fun
   - qoaaa.com
   - qobuz.surveysparrow.com
+  - qogonsuqq.com
   - qogrux.com
   - qohlsl.drawer.fr
   - qolhpm.iparts.pl
@@ -54203,6 +54207,7 @@ domain_suffix_set:
   - thunnqyo.com
   - thuoccultive.com
   - thursejokers.top
+  - thustilpn.com
   - thuthoock.net
   - thvaqe.kunooz.com
   - thwgtm.sporilek.cz
@@ -63805,6 +63810,7 @@ domain_suffix_set:
   - ziwewm.tecovas.com
   - zjbfke.centerparcs.be
   - zjejua.portmans.com.au
+  - zjen.cn
   - zjfvpv.serengeticatalog.com
   - zjhlsx.exxpozed.de
   - zjhswy.comeup.com.tr
@@ -64099,11 +64105,14 @@ domain_suffix_set:
   - zztxfj.xyz
   - zzz.nafnaf.com
 domain_keyword_set:
+  - -adrevenue.appsflyersdk.com
   - -attr.appsflyersdk.com
   - -launches.appsflyersdk.com
   - -logging.nextmedia.com
+  - -pia.appsflyersdk.com
   - -rtb.gravite.net
   - -s2s.sensic.net
+  - -skadsdkless.appsflyersdk.com
   - -spiky.clevertap-prod.com
   - -tracker.biliapi.net
   - -txtagstore

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3285
+# 规则统计: 3287
 
 domain_set:
   - 0x0.st
@@ -1749,6 +1749,7 @@ domain_set:
   - sdk.split.io
   - seal-newyork.bbb.org
   - searchanise-ef84.kxcdn.com
+  - searchg2-assets.crownpeak.net
   - searchserverapi.com
   - seccdn.libravatar.org
   - secure-res.craft.do
@@ -2908,6 +2909,7 @@ domain_suffix_set:
   - pgl.yoyo.org
   - phncdn.com
   - photobucket.com
+  - photocdn.stream
   - phprcdn.com
   - pichost.top
   - picjs.xyz

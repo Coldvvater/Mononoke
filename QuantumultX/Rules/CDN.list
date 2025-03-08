@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3285
+# 规则统计: 3287
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1748,6 +1748,7 @@ HOST,sdk.snapkit.com,CDN
 HOST,sdk.split.io,CDN
 HOST,seal-newyork.bbb.org,CDN
 HOST,searchanise-ef84.kxcdn.com,CDN
+HOST,searchg2-assets.crownpeak.net,CDN
 HOST,searchserverapi.com,CDN
 HOST,seccdn.libravatar.org,CDN
 HOST,secure-res.craft.do,CDN
@@ -2906,6 +2907,7 @@ HOST-SUFFIX,permaweb.io,CDN
 HOST-SUFFIX,pgl.yoyo.org,CDN
 HOST-SUFFIX,phncdn.com,CDN
 HOST-SUFFIX,photobucket.com,CDN
+HOST-SUFFIX,photocdn.stream,CDN
 HOST-SUFFIX,phprcdn.com,CDN
 HOST-SUFFIX,pichost.top,CDN
 HOST-SUFFIX,picjs.xyz,CDN
