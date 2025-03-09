@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 742
+# 规则统计: 741
 
 DOMAIN-SUFFIX,1010pic.com
 DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
@@ -628,7 +628,6 @@ DOMAIN-SUFFIX,tdc.qq.com
 DOMAIN-SUFFIX,tdsdk.cpatrk.net
 DOMAIN-SUFFIX,tdsdk.xdrig.com
 DOMAIN-SUFFIX,tencent-dtv.m.cn.miaozhen.com
-DOMAIN-SUFFIX,terms-drcn.platform.dbankcloud.cn
 DOMAIN-SUFFIX,test.ad.xiaomi.com
 DOMAIN-SUFFIX,test.e.ad.xiaomi.com
 DOMAIN-SUFFIX,tj.b.qq.com

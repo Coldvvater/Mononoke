@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 742
+# 规则统计: 741
 
 domain_suffix_set:
   - 1010pic.com
@@ -629,7 +629,6 @@ domain_suffix_set:
   - tdsdk.cpatrk.net
   - tdsdk.xdrig.com
   - tencent-dtv.m.cn.miaozhen.com
-  - terms-drcn.platform.dbankcloud.cn
   - test.ad.xiaomi.com
   - test.e.ad.xiaomi.com
   - tj.b.qq.com
