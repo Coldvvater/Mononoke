@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 775
+# 规则统计: 776
 
 domain_set:
   - acg.tv
@@ -430,6 +430,7 @@ domain_suffix_set:
   - keepcdn.com
   - kingsoft-office-service.com
   - kkmh.com
+  - klook.com
   - koubei.com
   - ks-cdn.com
   - ksapisrv.com
