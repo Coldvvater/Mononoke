@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3285
+# 规则统计: 3283
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -196,7 +196,6 @@ DOMAIN,assets.salesmartly.com
 DOMAIN,assets.scaleflex.com
 DOMAIN,assets.scaleway.com
 DOMAIN,assets.science.nasa.gov
-DOMAIN,assets.scroll.com
 DOMAIN,assets.sendinblue.com
 DOMAIN,assets.shazam.com
 DOMAIN,assets.sololearn.com
@@ -895,6 +894,7 @@ DOMAIN,encrypted-vtbn2.gstatic.com
 DOMAIN,encrypted-vtbn3.gstatic.com
 DOMAIN,epic-social-social-modules-prod.ol.epicgames.com
 DOMAIN,error.rakuten.co.jp
+DOMAIN,eslint.org
 DOMAIN,eslint.style
 DOMAIN,eu-images.contentstack.com
 DOMAIN,eu.cdnbye.com
@@ -1850,7 +1850,6 @@ DOMAIN,static-redesign.cnbcfm.com
 DOMAIN,static-resource.np.community.playstation.net
 DOMAIN,static-secure-uploads.ui.com
 DOMAIN,static-sg-cdn.eporner.com
-DOMAIN,static-staging.scroll.com
 DOMAIN,static-sv.fc2.com
 DOMAIN,static-web-prod.skillshare.com
 DOMAIN,static-web.grammarly.com
@@ -1993,7 +1992,6 @@ DOMAIN,static.reo.dev
 DOMAIN,static.replay.io
 DOMAIN,static.rust-lang.org
 DOMAIN,static.scarf.sh
-DOMAIN,static.scroll.com
 DOMAIN,static.seel.com
 DOMAIN,static.skyassets.com
 DOMAIN,static.snapchat.com

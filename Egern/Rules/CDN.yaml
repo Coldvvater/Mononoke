@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3287
+# 规则统计: 3285
 
 domain_set:
   - 0x0.st
@@ -197,7 +197,6 @@ domain_set:
   - assets.scaleflex.com
   - assets.scaleway.com
   - assets.science.nasa.gov
-  - assets.scroll.com
   - assets.sendinblue.com
   - assets.shazam.com
   - assets.sololearn.com
@@ -896,6 +895,7 @@ domain_set:
   - encrypted-vtbn3.gstatic.com
   - epic-social-social-modules-prod.ol.epicgames.com
   - error.rakuten.co.jp
+  - eslint.org
   - eslint.style
   - eu-images.contentstack.com
   - eu.cdnbye.com
@@ -1851,7 +1851,6 @@ domain_set:
   - static-resource.np.community.playstation.net
   - static-secure-uploads.ui.com
   - static-sg-cdn.eporner.com
-  - static-staging.scroll.com
   - static-sv.fc2.com
   - static-web-prod.skillshare.com
   - static-web.grammarly.com
@@ -1994,7 +1993,6 @@ domain_set:
   - static.replay.io
   - static.rust-lang.org
   - static.scarf.sh
-  - static.scroll.com
   - static.seel.com
   - static.skyassets.com
   - static.snapchat.com

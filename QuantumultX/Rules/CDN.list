@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3287
+# 规则统计: 3285
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -196,7 +196,6 @@ HOST,assets.salesmartly.com,CDN
 HOST,assets.scaleflex.com,CDN
 HOST,assets.scaleway.com,CDN
 HOST,assets.science.nasa.gov,CDN
-HOST,assets.scroll.com,CDN
 HOST,assets.sendinblue.com,CDN
 HOST,assets.shazam.com,CDN
 HOST,assets.sololearn.com,CDN
@@ -895,6 +894,7 @@ HOST,encrypted-vtbn2.gstatic.com,CDN
 HOST,encrypted-vtbn3.gstatic.com,CDN
 HOST,epic-social-social-modules-prod.ol.epicgames.com,CDN
 HOST,error.rakuten.co.jp,CDN
+HOST,eslint.org,CDN
 HOST,eslint.style,CDN
 HOST,eu-images.contentstack.com,CDN
 HOST,eu.cdnbye.com,CDN
@@ -1850,7 +1850,6 @@ HOST,static-redesign.cnbcfm.com,CDN
 HOST,static-resource.np.community.playstation.net,CDN
 HOST,static-secure-uploads.ui.com,CDN
 HOST,static-sg-cdn.eporner.com,CDN
-HOST,static-staging.scroll.com,CDN
 HOST,static-sv.fc2.com,CDN
 HOST,static-web-prod.skillshare.com,CDN
 HOST,static-web.grammarly.com,CDN
@@ -1993,7 +1992,6 @@ HOST,static.reo.dev,CDN
 HOST,static.replay.io,CDN
 HOST,static.rust-lang.org,CDN
 HOST,static.scarf.sh,CDN
-HOST,static.scroll.com,CDN
 HOST,static.seel.com,CDN
 HOST,static.skyassets.com,CDN
 HOST,static.snapchat.com,CDN
