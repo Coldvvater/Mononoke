@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3285
+# 规则统计: 3288
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -821,6 +821,7 @@ HOST,curl.se,CDN
 HOST,cw-image-resizer.cwg.tw,CDN
 HOST,d4.alternativeto.net,CDN
 HOST,dam.freshworks.com,CDN
+HOST,dassets.shimano.com,CDN
 HOST,data.jsdelivr.com,CDN
 HOST,data.web.clickup.com,CDN
 HOST,david-dm.org,CDN
@@ -2108,6 +2109,7 @@ HOST,telemetry.business.githubcopilot.com,CDN
 HOST,telemetry.individual.githubcopilot.com,CDN
 HOST,telemetry.nextjs.org,CDN
 HOST,telemetry.split.io,CDN
+HOST,telemetry.stepsecurity.io,CDN
 HOST,telemetry.vercel.com,CDN
 HOST,telemetry2.devolutions.net,CDN
 HOST,th.bing.com,CDN
@@ -2129,6 +2131,7 @@ HOST,tn.vjav.com,CDN
 HOST,todoist.b-cdn.net,CDN
 HOST,ton.local.twitter.com,CDN
 HOST,tools-static.wmflabs.org,CDN
+HOST,tools.refokus.com,CDN
 HOST,topbar-static.piano.io,CDN
 HOST,torrindex.net,CDN
 HOST,touchgal-image.moyu.moe,CDN

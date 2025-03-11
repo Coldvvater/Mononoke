@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3285
+# 规则统计: 3288
 
 domain_set:
   - 0x0.st
@@ -822,6 +822,7 @@ domain_set:
   - cw-image-resizer.cwg.tw
   - d4.alternativeto.net
   - dam.freshworks.com
+  - dassets.shimano.com
   - data.jsdelivr.com
   - data.web.clickup.com
   - david-dm.org
@@ -2109,6 +2110,7 @@ domain_set:
   - telemetry.individual.githubcopilot.com
   - telemetry.nextjs.org
   - telemetry.split.io
+  - telemetry.stepsecurity.io
   - telemetry.vercel.com
   - telemetry2.devolutions.net
   - th.bing.com
@@ -2130,6 +2132,7 @@ domain_set:
   - todoist.b-cdn.net
   - ton.local.twitter.com
   - tools-static.wmflabs.org
+  - tools.refokus.com
   - topbar-static.piano.io
   - torrindex.net
   - touchgal-image.moyu.moe

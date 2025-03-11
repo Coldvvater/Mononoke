@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7100
+# 规则统计: 7101
 
 no_resolve: true
 domain_set:
@@ -4404,6 +4404,7 @@ domain_suffix_set:
   - oopsforum.com
   - open.com.hk
   - open.firstory.me
+  - open.spotify.com
   - openai.com
   - openallweb.com
   - opendemocracy.net
