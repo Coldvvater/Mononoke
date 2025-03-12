@@ -1,8 +1,9 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 742
+# 规则统计: 743
 
 HOST-SUFFIX,1010pic.com,Ads_AWAvenue
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
+HOST-SUFFIX,1500026601.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,8le8le.com,Ads_AWAvenue
 HOST-SUFFIX,a0.app.xiaomi.com,Ads_AWAvenue
 HOST-SUFFIX,aaid.umeng.com,Ads_AWAvenue
