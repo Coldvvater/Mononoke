@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3288
+# 规则统计: 3289
 
 domain_set:
   - 0x0.st
@@ -854,6 +854,7 @@ domain_set:
   - drop.ndtv.com
   - drscdn.500px.org
   - dynamic-assets.coinbase.com
+  - dz2cdn1.dzone.com
   - e.deviantart.net
   - e.linear.app
   - e3.365dm.com

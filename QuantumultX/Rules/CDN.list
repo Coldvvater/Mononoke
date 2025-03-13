@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3288
+# 规则统计: 3289
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -853,6 +853,7 @@ HOST,downloads.coindesk.com,CDN
 HOST,drop.ndtv.com,CDN
 HOST,drscdn.500px.org,CDN
 HOST,dynamic-assets.coinbase.com,CDN
+HOST,dz2cdn1.dzone.com,CDN
 HOST,e.deviantart.net,CDN
 HOST,e.linear.app,CDN
 HOST,e3.365dm.com,CDN
