@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7101
+# 规则统计: 7113
 
 no_resolve: true
 domain_set:
@@ -62,6 +62,7 @@ domain_suffix_set:
   - 2017.hk
   - 2021hkcharter.com
   - 2047.name
+  - 2047.one
   - 2049bbs.xyz
   - 21andy.com
   - 21join.com
@@ -583,6 +584,7 @@ domain_suffix_set:
   - bcvcdn.com
   - bdsmvideos.net
   - beaconevents.com
+  - bearteach.com
   - bebo.com
   - beeg.com
   - beepool.com
@@ -929,6 +931,8 @@ domain_suffix_set:
   - ca
   - cableav.tv
   - cablegatesearch.net
+  - cachefly.com
+  - cachefly.net
   - cachinese.com
   - cacnw.com
   - cactusvpn.com
@@ -1384,6 +1388,7 @@ domain_suffix_set:
   - curvefish.com
   - cusp.hk
   - cusu.hk
+  - cutout.pro
   - cutscenes.net
   - cw.com.tw
   - cwb.gov.tw
@@ -1887,6 +1892,7 @@ domain_suffix_set:
   - faceless.me
   - facesofnyfw.com
   - facesoftibetanselfimmolators.info
+  - factchecklab.org
   - factpedia.org
   - fail.hk
   - faith100.org
@@ -1981,7 +1987,6 @@ domain_suffix_set:
   - feedburner.com
   - feeder.co
   - feedly.com
-  - feedly.comfastgpt.run
   - feeds.fileforum.com
   - feedx.net
   - feelssh.com
@@ -2185,6 +2190,7 @@ domain_suffix_set:
   - froth.zone
   - fscked.org
   - fsurf.com
+  - ft.com
   - ftchinese.com
   - ftp1.biz
   - ftpserver.biz
@@ -2274,6 +2280,7 @@ domain_suffix_set:
   - gcmasia.com
   - gcpnews.com
   - gcr.io
+  - gdaily.org
   - gdbt.net
   - gdzf.org
   - geek-art.net
@@ -2305,6 +2312,7 @@ domain_suffix_set:
   - getmalus.com
   - getmdl.io
   - getoutline.org
+  - getsession.org
   - getsocialscope.com
   - getsync.com
   - gettr.com
@@ -4127,6 +4135,7 @@ domain_suffix_set:
   - netflav.com
   - netflix.com
   - netflix.net
+  - netlify.app
   - netme.cc
   - netsarang.com
   - netsneak.com
@@ -5333,6 +5342,7 @@ domain_suffix_set:
   - soundcloud.com
   - soundofhope.kr
   - soundofhope.org
+  - soundon.fm
   - soup.io
   - soupofmedia.com
   - sourceforge.net
@@ -5658,6 +5668,7 @@ domain_suffix_set:
   - tfc-taiwan.org.tw
   - tfhub.dev
   - tfiflve.com
+  - tg-me.com
   - th.hao123.com
   - thaicn.com
   - thb.gov.tw
@@ -6695,6 +6706,7 @@ domain_suffix_set:
   - x-art.com
   - x-berry.com
   - x-wall.org
+  - x.ai
   - x.co
   - x.com
   - x.company

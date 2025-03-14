@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7101
+# 规则统计: 7113
 
 DOMAIN,cloud.oracle.com
 DOMAIN,steambroadcast.akamaized.net
@@ -59,6 +59,7 @@ DOMAIN-SUFFIX,2008xianzhang.info
 DOMAIN-SUFFIX,2017.hk
 DOMAIN-SUFFIX,2021hkcharter.com
 DOMAIN-SUFFIX,2047.name
+DOMAIN-SUFFIX,2047.one
 DOMAIN-SUFFIX,2049bbs.xyz
 DOMAIN-SUFFIX,21andy.com
 DOMAIN-SUFFIX,21join.com
@@ -580,6 +581,7 @@ DOMAIN-SUFFIX,bcmorning.com
 DOMAIN-SUFFIX,bcvcdn.com
 DOMAIN-SUFFIX,bdsmvideos.net
 DOMAIN-SUFFIX,beaconevents.com
+DOMAIN-SUFFIX,bearteach.com
 DOMAIN-SUFFIX,bebo.com
 DOMAIN-SUFFIX,beeg.com
 DOMAIN-SUFFIX,beepool.com
@@ -926,6 +928,8 @@ DOMAIN-SUFFIX,c3pool.com
 DOMAIN-SUFFIX,ca
 DOMAIN-SUFFIX,cableav.tv
 DOMAIN-SUFFIX,cablegatesearch.net
+DOMAIN-SUFFIX,cachefly.com
+DOMAIN-SUFFIX,cachefly.net
 DOMAIN-SUFFIX,cachinese.com
 DOMAIN-SUFFIX,cacnw.com
 DOMAIN-SUFFIX,cactusvpn.com
@@ -1381,6 +1385,7 @@ DOMAIN-SUFFIX,cumlouder.com
 DOMAIN-SUFFIX,curvefish.com
 DOMAIN-SUFFIX,cusp.hk
 DOMAIN-SUFFIX,cusu.hk
+DOMAIN-SUFFIX,cutout.pro
 DOMAIN-SUFFIX,cutscenes.net
 DOMAIN-SUFFIX,cw.com.tw
 DOMAIN-SUFFIX,cwb.gov.tw
@@ -1884,6 +1889,7 @@ DOMAIN-SUFFIX,facebookquotes4u.com
 DOMAIN-SUFFIX,faceless.me
 DOMAIN-SUFFIX,facesofnyfw.com
 DOMAIN-SUFFIX,facesoftibetanselfimmolators.info
+DOMAIN-SUFFIX,factchecklab.org
 DOMAIN-SUFFIX,factpedia.org
 DOMAIN-SUFFIX,fail.hk
 DOMAIN-SUFFIX,faith100.org
@@ -1978,7 +1984,6 @@ DOMAIN-SUFFIX,fdc89.jp
 DOMAIN-SUFFIX,feedburner.com
 DOMAIN-SUFFIX,feeder.co
 DOMAIN-SUFFIX,feedly.com
-DOMAIN-SUFFIX,feedly.comfastgpt.run
 DOMAIN-SUFFIX,feeds.fileforum.com
 DOMAIN-SUFFIX,feedx.net
 DOMAIN-SUFFIX,feelssh.com
@@ -2182,6 +2187,7 @@ DOMAIN-SUFFIX,frootvpn.com
 DOMAIN-SUFFIX,froth.zone
 DOMAIN-SUFFIX,fscked.org
 DOMAIN-SUFFIX,fsurf.com
+DOMAIN-SUFFIX,ft.com
 DOMAIN-SUFFIX,ftchinese.com
 DOMAIN-SUFFIX,ftp1.biz
 DOMAIN-SUFFIX,ftpserver.biz
@@ -2271,6 +2277,7 @@ DOMAIN-SUFFIX,gclubs.com
 DOMAIN-SUFFIX,gcmasia.com
 DOMAIN-SUFFIX,gcpnews.com
 DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,gdaily.org
 DOMAIN-SUFFIX,gdbt.net
 DOMAIN-SUFFIX,gdzf.org
 DOMAIN-SUFFIX,geek-art.net
@@ -2302,6 +2309,7 @@ DOMAIN-SUFFIX,getlantern.org
 DOMAIN-SUFFIX,getmalus.com
 DOMAIN-SUFFIX,getmdl.io
 DOMAIN-SUFFIX,getoutline.org
+DOMAIN-SUFFIX,getsession.org
 DOMAIN-SUFFIX,getsocialscope.com
 DOMAIN-SUFFIX,getsync.com
 DOMAIN-SUFFIX,gettr.com
@@ -4124,6 +4132,7 @@ DOMAIN-SUFFIX,netfirms.com
 DOMAIN-SUFFIX,netflav.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,netlify.app
 DOMAIN-SUFFIX,netme.cc
 DOMAIN-SUFFIX,netsarang.com
 DOMAIN-SUFFIX,netsneak.com
@@ -5330,6 +5339,7 @@ DOMAIN-SUFFIX,soumo.info
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,soundofhope.kr
 DOMAIN-SUFFIX,soundofhope.org
+DOMAIN-SUFFIX,soundon.fm
 DOMAIN-SUFFIX,soup.io
 DOMAIN-SUFFIX,soupofmedia.com
 DOMAIN-SUFFIX,sourceforge.net
@@ -5655,6 +5665,7 @@ DOMAIN-SUFFIX,textnow.me
 DOMAIN-SUFFIX,tfc-taiwan.org.tw
 DOMAIN-SUFFIX,tfhub.dev
 DOMAIN-SUFFIX,tfiflve.com
+DOMAIN-SUFFIX,tg-me.com
 DOMAIN-SUFFIX,th.hao123.com
 DOMAIN-SUFFIX,thaicn.com
 DOMAIN-SUFFIX,thb.gov.tw
@@ -6692,6 +6703,7 @@ DOMAIN-SUFFIX,wzyboy.im
 DOMAIN-SUFFIX,x-art.com
 DOMAIN-SUFFIX,x-berry.com
 DOMAIN-SUFFIX,x-wall.org
+DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.co
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,x.company
