@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3289
+# 规则统计: 3312
 
 domain_set:
   - 0x0.st
@@ -9,6 +9,7 @@ domain_set:
   - a.fireside.fm
   - a.gawby.com
   - a.kickstarter.com
+  - a.klaviyo.com
   - a5.behance.net
   - a57.foxnews.com
   - academy-public.coinmarketcap.com
@@ -348,6 +349,7 @@ domain_set:
   - cdn-uicons.flaticon.com
   - cdn-web.fydeos.io
   - cdn-web.orbstack.dev
+  - cdn-widgetsrepository.yotpo.com
   - cdn-www.bluestacks.com
   - cdn-yotpo-images-production.yotpo.com
   - cdn.17app.co
@@ -387,6 +389,7 @@ domain_set:
   - cdn.c1.amplience.net
   - cdn.calibermind.com
   - cdn.cameo.com
+  - cdn.camweara.com
   - cdn.cbd.int
   - cdn.changelog.com
   - cdn.channel.io
@@ -467,6 +470,7 @@ domain_set:
   - cdn.hashnode.com
   - cdn.headwayapp.co
   - cdn.hellofresh.com
+  - cdn.hextom.com
   - cdn.hiive.space
   - cdn.hinative.com
   - cdn.hk01.com
@@ -527,6 +531,7 @@ domain_set:
   - cdn.nolt.io
   - cdn.now.gg
   - cdn.nperf.com
+  - cdn.one.store
   - cdn.onesignal.com
   - cdn.onetime.dog
   - cdn.onlyhentaistuff.com
@@ -535,6 +540,7 @@ domain_set:
   - cdn.paddle.com
   - cdn.pagefly.io
   - cdn.pagic.org
+  - cdn.paidy.com
   - cdn.parsely.com
   - cdn.pathfactory.com
   - cdn.pendo.io
@@ -649,6 +655,7 @@ domain_set:
   - cdn.zapier.com
   - cdn.zeabur.com
   - cdn.zhujiwiki.com
+  - cdn.zigpoll.com
   - cdn0-i.techbang.com
   - cdn0.dan.com
   - cdn0.iconfinder.com
@@ -745,6 +752,7 @@ domain_set:
   - cfvod.kaltura.com
   - chart.googleapis.com
   - chat-content.beanfun.com
+  - chat.digitalgenius.com
   - chatwidgetmetrics-proxy.usepylon.com
   - checkout-sdk.bigcommerce.com
   - checkout.stripe.com
@@ -775,6 +783,7 @@ domain_set:
   - compass-ssl.xbox.com
   - components.clever-cloud.com
   - components.justanswer.com
+  - components.trynow.net
   - config.extension.grammarly.com
   - connect-js.stripe.com
   - connect.facebook.net
@@ -1322,12 +1331,14 @@ domain_set:
   - libraries.hund.io
   - libs.quillbot.com
   - lift-ai-js.marketlinc.com
+  - limitless.cmax.ai
   - link.storjshare.io
   - linkstorage.linkfire.com
   - linuxiac.b-cdn.net
   - listing-thumbnail.live.nicovideo.jp
   - live-storage.fc2.com
   - live.fanmingming.com
+  - live.visually-io.com
   - livedoor.blogimg.jp
   - livemap-tiles1.waze.com
   - load.csell.co
@@ -1448,6 +1459,7 @@ domain_set:
   - mosaic.fxtwitter.com
   - mparticle.weather.com
   - mstdn-s3.o3o.studio
+  - mta.newfold.com
   - mui.com
   - mwcm.nyt.com
   - mwf-service.akamaized.net
@@ -1461,6 +1473,7 @@ domain_set:
   - net-fe-static-assets.network-controller.svc.ui.com
   - netlify.apollo.io
   - newassets.hcaptcha.com
+  - newfold.scene7.com
   - news-assets.apple.com
   - newsletter.postmarkapp.com
   - next-images.opencollective.com
@@ -1749,6 +1762,7 @@ domain_set:
   - sdk.qikify.com
   - sdk.snapkit.com
   - sdk.split.io
+  - sdks.automizely.com
   - seal-newyork.bbb.org
   - searchanise-ef84.kxcdn.com
   - searchg2-assets.crownpeak.net
@@ -1854,6 +1868,7 @@ domain_set:
   - static-secure-uploads.ui.com
   - static-sg-cdn.eporner.com
   - static-sv.fc2.com
+  - static-us.afterpay.com
   - static-web-prod.skillshare.com
   - static-web.grammarly.com
   - static-www.onlyoffice.com
@@ -1861,6 +1876,7 @@ domain_set:
   - static.ada.support
   - static.addtoany.com
   - static.adguardvpn.com
+  - static.afterpay.com
   - static.agilebits.com
   - static.ahrefs.com
   - static.aizanmei.org
@@ -1876,6 +1892,7 @@ domain_set:
   - static.bitfinex.com
   - static.bravoporn.com
   - static.buffer.com
+  - static.buydomains.com
   - static.bytepan.com
   - static.canva.com
   - static.captcha-delivery.com
@@ -1991,6 +2008,7 @@ domain_set:
   - static.queue-it.net
   - static.rakuten.com
   - static.redhat.com
+  - static.registration.bluehost.com
   - static.reo.dev
   - static.replay.io
   - static.rust-lang.org
@@ -2064,6 +2082,8 @@ domain_set:
   - stats.setapp.com
   - stats.setapp.macpaw.dev
   - status.ui.com
+  - stbff.newfold.com
+  - stbff.scene7.com
   - steamcdn-a.akamaihd.net
   - steamusercontent-a.akamaihd.net
   - steamuserimages-a.akamaihd.net
@@ -2241,6 +2261,7 @@ domain_set:
   - website-cdn.ipinfo.io
   - website-prod.cache.wpscdn.com
   - webstatic.chargebee.com
+  - widget.automizely.com
   - widget.docsbot.ai
   - widget.freshworks.com
   - widget.gotolstoy.com
@@ -2506,6 +2527,7 @@ domain_suffix_set:
   - doppiocdn.live
   - doppiocdn.net
   - doppiocdn.org
+  - dreamscape.cloud
   - drivecdn.com
   - dropboxstatic.com
   - dsc.cloud
@@ -2787,6 +2809,7 @@ domain_suffix_set:
   - lbpicpic.com
   - lbpictupian.com
   - lencr.org
+  - li-cdn.com
   - liangzipic.com
   - licensebuttons.net
   - line-cdn.net

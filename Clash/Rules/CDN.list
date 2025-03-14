@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3287
+# 规则统计: 3310
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -8,6 +8,7 @@ DOMAIN,a.deviantart.net
 DOMAIN,a.fireside.fm
 DOMAIN,a.gawby.com
 DOMAIN,a.kickstarter.com
+DOMAIN,a.klaviyo.com
 DOMAIN,a5.behance.net
 DOMAIN,a57.foxnews.com
 DOMAIN,academy-public.coinmarketcap.com
@@ -347,6 +348,7 @@ DOMAIN,cdn-static.talent.com
 DOMAIN,cdn-uicons.flaticon.com
 DOMAIN,cdn-web.fydeos.io
 DOMAIN,cdn-web.orbstack.dev
+DOMAIN,cdn-widgetsrepository.yotpo.com
 DOMAIN,cdn-www.bluestacks.com
 DOMAIN,cdn-yotpo-images-production.yotpo.com
 DOMAIN,cdn.17app.co
@@ -386,6 +388,7 @@ DOMAIN,cdn.buymeacoffee.com
 DOMAIN,cdn.c1.amplience.net
 DOMAIN,cdn.calibermind.com
 DOMAIN,cdn.cameo.com
+DOMAIN,cdn.camweara.com
 DOMAIN,cdn.cbd.int
 DOMAIN,cdn.changelog.com
 DOMAIN,cdn.channel.io
@@ -466,6 +469,7 @@ DOMAIN,cdn.hackernoon.com
 DOMAIN,cdn.hashnode.com
 DOMAIN,cdn.headwayapp.co
 DOMAIN,cdn.hellofresh.com
+DOMAIN,cdn.hextom.com
 DOMAIN,cdn.hiive.space
 DOMAIN,cdn.hinative.com
 DOMAIN,cdn.hk01.com
@@ -526,6 +530,7 @@ DOMAIN,cdn.neverbounce.com
 DOMAIN,cdn.nolt.io
 DOMAIN,cdn.now.gg
 DOMAIN,cdn.nperf.com
+DOMAIN,cdn.one.store
 DOMAIN,cdn.onesignal.com
 DOMAIN,cdn.onetime.dog
 DOMAIN,cdn.onlyhentaistuff.com
@@ -534,6 +539,7 @@ DOMAIN,cdn.osxdaily.com
 DOMAIN,cdn.paddle.com
 DOMAIN,cdn.pagefly.io
 DOMAIN,cdn.pagic.org
+DOMAIN,cdn.paidy.com
 DOMAIN,cdn.parsely.com
 DOMAIN,cdn.pathfactory.com
 DOMAIN,cdn.pendo.io
@@ -648,6 +654,7 @@ DOMAIN,cdn.ywxi.net
 DOMAIN,cdn.zapier.com
 DOMAIN,cdn.zeabur.com
 DOMAIN,cdn.zhujiwiki.com
+DOMAIN,cdn.zigpoll.com
 DOMAIN,cdn0-i.techbang.com
 DOMAIN,cdn0.dan.com
 DOMAIN,cdn0.iconfinder.com
@@ -744,6 +751,7 @@ DOMAIN,cf.shopee.tw
 DOMAIN,cfvod.kaltura.com
 DOMAIN,chart.googleapis.com
 DOMAIN,chat-content.beanfun.com
+DOMAIN,chat.digitalgenius.com
 DOMAIN,chatwidgetmetrics-proxy.usepylon.com
 DOMAIN,checkout-sdk.bigcommerce.com
 DOMAIN,checkout.stripe.com
@@ -774,6 +782,7 @@ DOMAIN,common-header.nimg.jp
 DOMAIN,compass-ssl.xbox.com
 DOMAIN,components.clever-cloud.com
 DOMAIN,components.justanswer.com
+DOMAIN,components.trynow.net
 DOMAIN,config.extension.grammarly.com
 DOMAIN,connect-js.stripe.com
 DOMAIN,connect.facebook.net
@@ -1321,12 +1330,14 @@ DOMAIN,lib.arvancloud.ir
 DOMAIN,libraries.hund.io
 DOMAIN,libs.quillbot.com
 DOMAIN,lift-ai-js.marketlinc.com
+DOMAIN,limitless.cmax.ai
 DOMAIN,link.storjshare.io
 DOMAIN,linkstorage.linkfire.com
 DOMAIN,linuxiac.b-cdn.net
 DOMAIN,listing-thumbnail.live.nicovideo.jp
 DOMAIN,live-storage.fc2.com
 DOMAIN,live.fanmingming.com
+DOMAIN,live.visually-io.com
 DOMAIN,livedoor.blogimg.jp
 DOMAIN,livemap-tiles1.waze.com
 DOMAIN,load.csell.co
@@ -1447,6 +1458,7 @@ DOMAIN,mosaic-blender.fxtwitter.com
 DOMAIN,mosaic.fxtwitter.com
 DOMAIN,mparticle.weather.com
 DOMAIN,mstdn-s3.o3o.studio
+DOMAIN,mta.newfold.com
 DOMAIN,mui.com
 DOMAIN,mwcm.nyt.com
 DOMAIN,mwf-service.akamaized.net
@@ -1460,6 +1472,7 @@ DOMAIN,nbcnewsdigital-static.nbcuni.com
 DOMAIN,net-fe-static-assets.network-controller.svc.ui.com
 DOMAIN,netlify.apollo.io
 DOMAIN,newassets.hcaptcha.com
+DOMAIN,newfold.scene7.com
 DOMAIN,news-assets.apple.com
 DOMAIN,newsletter.postmarkapp.com
 DOMAIN,next-images.opencollective.com
@@ -1748,6 +1761,7 @@ DOMAIN,sdk.listenlive.co
 DOMAIN,sdk.qikify.com
 DOMAIN,sdk.snapkit.com
 DOMAIN,sdk.split.io
+DOMAIN,sdks.automizely.com
 DOMAIN,seal-newyork.bbb.org
 DOMAIN,searchanise-ef84.kxcdn.com
 DOMAIN,searchg2-assets.crownpeak.net
@@ -1853,6 +1867,7 @@ DOMAIN,static-resource.np.community.playstation.net
 DOMAIN,static-secure-uploads.ui.com
 DOMAIN,static-sg-cdn.eporner.com
 DOMAIN,static-sv.fc2.com
+DOMAIN,static-us.afterpay.com
 DOMAIN,static-web-prod.skillshare.com
 DOMAIN,static-web.grammarly.com
 DOMAIN,static-www.onlyoffice.com
@@ -1860,6 +1875,7 @@ DOMAIN,static.4shared.com
 DOMAIN,static.ada.support
 DOMAIN,static.addtoany.com
 DOMAIN,static.adguardvpn.com
+DOMAIN,static.afterpay.com
 DOMAIN,static.agilebits.com
 DOMAIN,static.ahrefs.com
 DOMAIN,static.aizanmei.org
@@ -1875,6 +1891,7 @@ DOMAIN,static.bit.dev
 DOMAIN,static.bitfinex.com
 DOMAIN,static.bravoporn.com
 DOMAIN,static.buffer.com
+DOMAIN,static.buydomains.com
 DOMAIN,static.bytepan.com
 DOMAIN,static.canva.com
 DOMAIN,static.captcha-delivery.com
@@ -1990,6 +2007,7 @@ DOMAIN,static.probit.com
 DOMAIN,static.queue-it.net
 DOMAIN,static.rakuten.com
 DOMAIN,static.redhat.com
+DOMAIN,static.registration.bluehost.com
 DOMAIN,static.reo.dev
 DOMAIN,static.replay.io
 DOMAIN,static.rust-lang.org
@@ -2063,6 +2081,8 @@ DOMAIN,stats.codesandbox.io
 DOMAIN,stats.setapp.com
 DOMAIN,stats.setapp.macpaw.dev
 DOMAIN,status.ui.com
+DOMAIN,stbff.newfold.com
+DOMAIN,stbff.scene7.com
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
@@ -2240,6 +2260,7 @@ DOMAIN,webp.frostming.com
 DOMAIN,website-cdn.ipinfo.io
 DOMAIN,website-prod.cache.wpscdn.com
 DOMAIN,webstatic.chargebee.com
+DOMAIN,widget.automizely.com
 DOMAIN,widget.docsbot.ai
 DOMAIN,widget.freshworks.com
 DOMAIN,widget.gotolstoy.com
@@ -2504,6 +2525,7 @@ DOMAIN-SUFFIX,doppiocdn.com
 DOMAIN-SUFFIX,doppiocdn.live
 DOMAIN-SUFFIX,doppiocdn.net
 DOMAIN-SUFFIX,doppiocdn.org
+DOMAIN-SUFFIX,dreamscape.cloud
 DOMAIN-SUFFIX,drivecdn.com
 DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,dsc.cloud
@@ -2785,6 +2807,7 @@ DOMAIN-SUFFIX,larksuitecdn.com
 DOMAIN-SUFFIX,lbpicpic.com
 DOMAIN-SUFFIX,lbpictupian.com
 DOMAIN-SUFFIX,lencr.org
+DOMAIN-SUFFIX,li-cdn.com
 DOMAIN-SUFFIX,liangzipic.com
 DOMAIN-SUFFIX,licensebuttons.net
 DOMAIN-SUFFIX,line-cdn.net
