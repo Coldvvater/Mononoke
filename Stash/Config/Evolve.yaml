@@ -1,7 +1,7 @@
 # Stash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.12.13
+# Update Date: 2025.03.15
 
 # 通用设置
 mode: rule
@@ -40,10 +40,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
       - DIRECT
   - name: AI
@@ -54,10 +52,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
   - name: YouTube
     type: select
@@ -67,10 +63,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
   - name: NETFLIX
     type: select
@@ -80,10 +74,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
   - name: Emby
     type: select
@@ -93,10 +85,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
       - DIRECT
   - name: TikTok
@@ -107,10 +97,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
   - name: bilibili
     type: select
@@ -127,10 +115,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
       - DIRECT
   - name: NetEaseMusic
@@ -146,10 +132,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
   - name: Telegram
     type: select
@@ -159,10 +143,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
   - name: X
     type: select
@@ -172,10 +154,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
   - name: Apple
     type: select
@@ -186,10 +166,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
   - name: Google
     type: select
@@ -199,10 +177,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
       - DIRECT
   - name: Microsoft
@@ -214,10 +190,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
   - name: Games
     type: select
@@ -227,10 +201,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - America
-      - UnitedKingdom
       - AllServer
       - DIRECT
   # 基于地区分组
@@ -264,16 +236,6 @@ proxy-groups:
     filter: 日|🇯🇵|东京|JP|(?i)Japan
     use:
       - Subscribe
-  - name: Korea
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
-    proxies:
-      - KR-Auto
-      - KR-FallBack
-      - KR-LoadBalance
-    filter: 韓|🇰🇷|韩国|KR|Korea
-    use:
-      - Subscribe
   - name: Singapore
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
@@ -294,19 +256,11 @@ proxy-groups:
     filter: 美|🇺🇲|US|(?i)States|American
     use:
       - Subscribe
-  - name: UnitedKingdom
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
-    proxies:
-      - UK-Auto
-      - UK-FallBack
-      - UK-LoadBalance
-    filter: 英|🇬🇧|英国|UK|United Kingdom
-    use:
-      - Subscribe
   - name: AllServer
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png
+    proxies:
+      - All-Auto
     include-all: true
     filter: ^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|(\b(USE|USED|TOTAL|Traffic|Expire|EMAIL|Panel|Channel|Author)\b|(\d{4}-\d{2}-\d{2}|\d+G)))).*$
   - name: HK-Auto
@@ -330,13 +284,6 @@ proxy-groups:
     filter: 日|🇯🇵|东京|JP|(?i)Japan
     interval: 300
     lazy: true
-  - name: KR-Auto
-    type: url-test
-    hidden: true
-    include-all: true
-    filter: 韓|🇰🇷|韩国|KR|Korea
-    interval: 300
-    lazy: true
   - name: SG-Auto
     type: url-test
     hidden: true
@@ -349,13 +296,6 @@ proxy-groups:
     hidden: true
     include-all: true
     filter: 美|🇺🇲|US|(?i)States|American
-    interval: 300
-    lazy: true
-  - name: UK-Auto
-    type: url-test
-    hidden: true
-    include-all: true
-    filter: 英|🇬🇧|英国|UK|United Kingdom
     interval: 300
     lazy: true
   - name: HK-FallBack
@@ -379,13 +319,6 @@ proxy-groups:
     filter: 日|🇯🇵|东京|JP|(?i)Japan
     interval: 300
     lazy: true
-  - name: KR-FallBack
-    type: fallback
-    hidden: true
-    include-all: true
-    filter: 韓|🇰🇷|韩国|KR|Korea
-    interval: 300
-    lazy: true
   - name: SG-FallBack
     type: fallback
     hidden: true
@@ -398,13 +331,6 @@ proxy-groups:
     hidden: true
     include-all: true
     filter: 美|🇺🇲|US|(?i)States|American
-    interval: 300
-    lazy: true
-  - name: UK-FallBack
-    type: fallback
-    hidden: true
-    include-all: true
-    filter: 英|🇬🇧|英国|UK|United Kingdom
     interval: 300
     lazy: true
   - name: HK-LoadBalance
@@ -431,14 +357,6 @@ proxy-groups:
     strategy: consistent-hashing
     interval: 300
     lazy: true
-  - name: KR-LoadBalance
-    type: load-balance
-    hidden: true
-    include-all: true
-    filter: 韓|🇰🇷|韩国|KR|Korea
-    strategy: consistent-hashing
-    interval: 300
-    lazy: true
   - name: SG-LoadBalance
     type: load-balance
     hidden: true
@@ -455,12 +373,11 @@ proxy-groups:
     strategy: consistent-hashing
     interval: 300
     lazy: true
-  - name: UK-LoadBalance
-    type: load-balance
+  - name: All-Auto
+    type: url-test
     hidden: true
     include-all: true
-    filter: 英|🇬🇧|英国|UK|United Kingdom
-    strategy: consistent-hashing
+    filter: ^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|(\b(USE|USED|TOTAL|Traffic|Expire|EMAIL|Panel|Channel|Author)\b|(\d{4}-\d{2}-\d{2}|\d+G)))).*$
     interval: 300
     lazy: true
     # 规则引用
