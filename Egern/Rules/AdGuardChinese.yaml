@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4639
+# 规则统计: 4643
 
 domain_suffix_set:
   - 002777.xyz
@@ -1086,6 +1086,7 @@ domain_suffix_set:
   - cod.southmoney.com
   - code.ditiezu.net
   - code.wenbanzhu.com
+  - cokudsvit.com
   - commonwealthproficient.com
   - cooann.top
   - cos1999.top
@@ -3096,6 +3097,7 @@ domain_suffix_set:
   - pcxnrd.xyz
   - pdnhcks.xyz
   - pdnwbwyf.icu
+  - pdochgl.top
   - peclevnl.icu
   - pefufv.xyz
   - penxiangge.com
@@ -3806,6 +3808,7 @@ domain_suffix_set:
   - tp.sgcn.com
   - tp1902abd.com
   - tp4sul.jwzd.com.cn
+  - tpjw.cn
   - tpkv.cn
   - tqanmatx.icu
   - tqbrnd.xyz
@@ -4304,6 +4307,7 @@ domain_suffix_set:
   - xamssp.icu
   - xbbhwggj.icu
   - xbfebqya.icu
+  - xbfk.cn
   - xbtw.com
   - xc.macd.cn
   - xc.mydrivers.com

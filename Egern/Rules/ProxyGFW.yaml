@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7113
+# 规则统计: 7112
 
 no_resolve: true
 domain_set:
@@ -1956,7 +1956,6 @@ domain_suffix_set:
   - farwestchina.com
   - fast.wistia.com
   - fastestvpn.com
-  - fastgpt.run
   - fastpic.ru
   - fastssh.com
   - faststone.org

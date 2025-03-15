@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7113
+# 规则统计: 7112
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1953,7 +1953,6 @@ HOST-SUFFIX,fartit.com,ProxyGFW
 HOST-SUFFIX,farwestchina.com,ProxyGFW
 HOST-SUFFIX,fast.wistia.com,ProxyGFW
 HOST-SUFFIX,fastestvpn.com,ProxyGFW
-HOST-SUFFIX,fastgpt.run,ProxyGFW
 HOST-SUFFIX,fastpic.ru,ProxyGFW
 HOST-SUFFIX,fastssh.com,ProxyGFW
 HOST-SUFFIX,faststone.org,ProxyGFW

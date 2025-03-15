@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4639
+# 规则统计: 4643
 
 HOST-SUFFIX,002777.xyz,AdGuardChinese
 HOST-SUFFIX,003store.com,AdGuardChinese
@@ -1085,6 +1085,7 @@ HOST-SUFFIX,cnzz.yifenghuyu.com,AdGuardChinese
 HOST-SUFFIX,cod.southmoney.com,AdGuardChinese
 HOST-SUFFIX,code.ditiezu.net,AdGuardChinese
 HOST-SUFFIX,code.wenbanzhu.com,AdGuardChinese
+HOST-SUFFIX,cokudsvit.com,AdGuardChinese
 HOST-SUFFIX,commonwealthproficient.com,AdGuardChinese
 HOST-SUFFIX,cooann.top,AdGuardChinese
 HOST-SUFFIX,cos1999.top,AdGuardChinese
@@ -3095,6 +3096,7 @@ HOST-SUFFIX,pcqhe.cn,AdGuardChinese
 HOST-SUFFIX,pcxnrd.xyz,AdGuardChinese
 HOST-SUFFIX,pdnhcks.xyz,AdGuardChinese
 HOST-SUFFIX,pdnwbwyf.icu,AdGuardChinese
+HOST-SUFFIX,pdochgl.top,AdGuardChinese
 HOST-SUFFIX,peclevnl.icu,AdGuardChinese
 HOST-SUFFIX,pefufv.xyz,AdGuardChinese
 HOST-SUFFIX,penxiangge.com,AdGuardChinese
@@ -3805,6 +3807,7 @@ HOST-SUFFIX,towmfs.com,AdGuardChinese
 HOST-SUFFIX,tp.sgcn.com,AdGuardChinese
 HOST-SUFFIX,tp1902abd.com,AdGuardChinese
 HOST-SUFFIX,tp4sul.jwzd.com.cn,AdGuardChinese
+HOST-SUFFIX,tpjw.cn,AdGuardChinese
 HOST-SUFFIX,tpkv.cn,AdGuardChinese
 HOST-SUFFIX,tqanmatx.icu,AdGuardChinese
 HOST-SUFFIX,tqbrnd.xyz,AdGuardChinese
@@ -4303,6 +4306,7 @@ HOST-SUFFIX,xamniksq.com,AdGuardChinese
 HOST-SUFFIX,xamssp.icu,AdGuardChinese
 HOST-SUFFIX,xbbhwggj.icu,AdGuardChinese
 HOST-SUFFIX,xbfebqya.icu,AdGuardChinese
+HOST-SUFFIX,xbfk.cn,AdGuardChinese
 HOST-SUFFIX,xbtw.com,AdGuardChinese
 HOST-SUFFIX,xc.macd.cn,AdGuardChinese
 HOST-SUFFIX,xc.mydrivers.com,AdGuardChinese
