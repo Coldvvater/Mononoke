@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3312
+# 规则统计: 3314
 
 domain_set:
   - 0x0.st
@@ -2306,6 +2306,7 @@ domain_suffix_set:
   - 2mdn.net
   - 4cdn.org
   - 4everland.io
+  - 666565.xyz
   - 7mmtv.tv
   - 91pic.org
   - 98avcdn.xyz
@@ -3151,6 +3152,7 @@ domain_suffix_set:
   - trackerslist.com
   - trafficdeposit.com
   - transcend-cdn.com
+  - tripcdn.com
   - trustless-gateway.link
   - ttcache.com
   - ttl.sh
