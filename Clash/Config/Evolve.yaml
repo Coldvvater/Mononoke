@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2025.02.24
+# Update Date: 2025.03.16
 
 #port: 7891                          # HTTP(S) 代理服务器端口
 #socks-port: 7892                    # SOCKS5 代理端口
@@ -102,14 +102,12 @@ i: &i {type: http, behavior: ipcidr, interval: 86400, format: mrs}
 HK: &HK '^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
 TW: &TW '^(?=.*((?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
 JP: &JP '^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
-KR: &KR '^(?=.*((?i)🇰🇷|韩国|韓|首尔|(\b(KR|Korea)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
 SG: &SG '^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
 US: &US '^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
-UK: &UK '^(?=.*((?i)🇬🇧|英国|伦敦|(\b(UK|United Kingdom)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
 All: &All '^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|(\b(USE|USED|TOTAL|Traffic|Expire|EMAIL|Panel|Channel|Author)\b|(\d{4}-\d{2}-\d{2}|\d+G)))).*$'
 
 # 代理组相关
-Select: &Select {type: select, proxies: [Proxy, HongKong, TaiWan, Japan, Korea, Singapore, America, UnitedKingdom, AllServer, DIRECT]}
+Select: &Select {type: select, proxies: [Proxy, HongKong, TaiWan, Japan, Singapore, America, AllServer, DIRECT]}
 
 UrlTest: &UrlTest {type: url-test, interval: 300, tolerance: 20, lazy: true, url: 'http://cp.cloudflare.com', disable-udp: false, timeout: 2000, max-failed-times: 3, hidden: true, include-all-providers: true}
 
@@ -138,7 +136,7 @@ proxy-groups:
  - {name: Final, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png, <<: *Select, proxies: [Proxy,DIRECT]}
 
 # 节点切换
- - {name: Proxy, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png, <<: *Select, proxies: [HongKong,TaiWan,Japan,Korea,Singapore,America,UnitedKingdom,AllServer,DIRECT]}
+ - {name: Proxy, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png, <<: *Select, proxies: [HongKong,TaiWan,Japan,Singapore,America,AllServer,DIRECT]}
 
 # AI平台
  - {name: AI, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png, <<: *Select}
@@ -189,40 +187,35 @@ proxy-groups:
  - {name: HongKong, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png, type: select, proxies: [HK-Auto, HK-FallBack, HK-LoadBalance], include-all-providers: true, filter: *HK}
  - {name: TaiWan, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png, type: select, proxies: [TW-Auto, TW-FallBack, TW-LoadBalance], include-all-providers: true, filter: *TW}
  - {name: Japan, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png, type: select, proxies: [JP-Auto, JP-FallBack, JP-LoadBalance], include-all-providers: true, filter: *JP}
- - {name: Korea, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png, type: select, proxies: [KR-Auto, KR-FallBack, KR-LoadBalance], include-all-providers: true, filter: *KR}
  - {name: Singapore, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png, type: select, proxies: [SG-Auto, SG-FallBack, SG-LoadBalance], include-all-providers: true, filter: *SG}
  - {name: America, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png, type: select, proxies: [US-Auto, US-FallBack, US-LoadBalance], include-all-providers: true, filter: *US}
- - {name: UnitedKingdom, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png, type: select, proxies: [UK-Auto, UK-FallBack, UK-LoadBalance], include-all-providers: true, filter: *UK}
 
 # 全部节点
- - {name: AllServer, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, include-all-providers: true, filter: *All}
+ - {name: AllServer, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, proxies: [All-Auto], include-all-providers: true, filter: *All}
 
 # 延时优选代理组
  - {name: HK-Auto, <<: *UrlTest, filter: *HK}
  - {name: TW-Auto, <<: *UrlTest, filter: *TW}
  - {name: JP-Auto, <<: *UrlTest, filter: *JP}
- - {name: KR-Auto, <<: *UrlTest, filter: *KR}
  - {name: SG-Auto, <<: *UrlTest, filter: *SG}
  - {name: US-Auto, <<: *UrlTest, filter: *US}
- - {name: UK-Auto, <<: *UrlTest, filter: *UK}
 
 # 故障转移代理组
  - {name: HK-FallBack, <<: *FallBack, filter: *HK}
  - {name: TW-FallBack, <<: *FallBack, filter: *TW}
  - {name: JP-FallBack, <<: *FallBack, filter: *JP}
- - {name: KR-FallBack, <<: *FallBack, filter: *KR}
  - {name: SG-FallBack, <<: *FallBack, filter: *SG}
  - {name: US-FallBack, <<: *FallBack, filter: *US}
- - {name: UK-FallBack, <<: *FallBack, filter: *UK}
 
 # 负载均衡代理组
  - {name: HK-LoadBalance, <<: *LoadBalance, filter: *HK}
  - {name: TW-LoadBalance, <<: *LoadBalance, filter: *TW}
  - {name: JP-LoadBalance, <<: *LoadBalance, filter: *JP}
- - {name: KR-LoadBalance, <<: *LoadBalance, filter: *KR}
  - {name: SG-LoadBalance, <<: *LoadBalance, filter: *SG}
  - {name: US-LoadBalance, <<: *LoadBalance, filter: *US}
- - {name: UK-LoadBalance, <<: *LoadBalance, filter: *UK}
+
+# 全部节点延时优选
+ - {name: All-Auto, <<: *UrlTest, filter: *All}
 
 # 远程规则集
 rule-providers:
