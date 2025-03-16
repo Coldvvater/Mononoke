@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3312
+# 规则统计: 3315
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -143,6 +143,7 @@ DOMAIN,assets.foxdcg.com
 DOMAIN,assets.frontegg.com
 DOMAIN,assets.garr.it
 DOMAIN,assets.gcore.pro
+DOMAIN,assets.geeksforgeeks.org
 DOMAIN,assets.genius.com
 DOMAIN,assets.getkirby.com
 DOMAIN,assets.github.dev
@@ -832,6 +833,7 @@ DOMAIN,d4.alternativeto.net
 DOMAIN,dam.freshworks.com
 DOMAIN,dassets.shimano.com
 DOMAIN,data.jsdelivr.com
+DOMAIN,data.pendo.io
 DOMAIN,data.web.clickup.com
 DOMAIN,david-dm.org
 DOMAIN,db.onlinewebfonts.com
@@ -1389,6 +1391,7 @@ DOMAIN,media.evolv.ai
 DOMAIN,media.fc2.com
 DOMAIN,media.flaticon.com
 DOMAIN,media.fs.com
+DOMAIN,media.geeksforgeeks.org
 DOMAIN,media.gettr.com
 DOMAIN,media.gettyimages.com
 DOMAIN,media.giphy.com

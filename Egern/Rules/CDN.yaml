@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3314
+# 规则统计: 3317
 
 domain_set:
   - 0x0.st
@@ -144,6 +144,7 @@ domain_set:
   - assets.frontegg.com
   - assets.garr.it
   - assets.gcore.pro
+  - assets.geeksforgeeks.org
   - assets.genius.com
   - assets.getkirby.com
   - assets.github.dev
@@ -833,6 +834,7 @@ domain_set:
   - dam.freshworks.com
   - dassets.shimano.com
   - data.jsdelivr.com
+  - data.pendo.io
   - data.web.clickup.com
   - david-dm.org
   - db.onlinewebfonts.com
@@ -1390,6 +1392,7 @@ domain_set:
   - media.fc2.com
   - media.flaticon.com
   - media.fs.com
+  - media.geeksforgeeks.org
   - media.gettr.com
   - media.gettyimages.com
   - media.giphy.com

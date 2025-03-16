@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 777
+# 规则统计: 778
 
 domain_set:
   - acg.tv
@@ -302,6 +302,7 @@ domain_suffix_set:
   - edu.cn
   - ele.me
   - elemecdn.com
+  - elseviercdn.cn
   - email.cn
   - etao.com
   - eudic.net

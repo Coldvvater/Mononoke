@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 780
+# 规则统计: 781
 
 DOMAIN,acg.tv
 DOMAIN,assets1.xboxlive.cn
@@ -300,6 +300,7 @@ DOMAIN-SUFFIX,edge-byted.com
 DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,ele.me
 DOMAIN-SUFFIX,elemecdn.com
+DOMAIN-SUFFIX,elseviercdn.cn
 DOMAIN-SUFFIX,email.cn
 DOMAIN-SUFFIX,etao.com
 DOMAIN-SUFFIX,eudic.net

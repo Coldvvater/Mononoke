@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3314
+# 规则统计: 3317
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -143,6 +143,7 @@ HOST,assets.foxdcg.com,CDN
 HOST,assets.frontegg.com,CDN
 HOST,assets.garr.it,CDN
 HOST,assets.gcore.pro,CDN
+HOST,assets.geeksforgeeks.org,CDN
 HOST,assets.genius.com,CDN
 HOST,assets.getkirby.com,CDN
 HOST,assets.github.dev,CDN
@@ -832,6 +833,7 @@ HOST,d4.alternativeto.net,CDN
 HOST,dam.freshworks.com,CDN
 HOST,dassets.shimano.com,CDN
 HOST,data.jsdelivr.com,CDN
+HOST,data.pendo.io,CDN
 HOST,data.web.clickup.com,CDN
 HOST,david-dm.org,CDN
 HOST,db.onlinewebfonts.com,CDN
@@ -1389,6 +1391,7 @@ HOST,media.evolv.ai,CDN
 HOST,media.fc2.com,CDN
 HOST,media.flaticon.com,CDN
 HOST,media.fs.com,CDN
+HOST,media.geeksforgeeks.org,CDN
 HOST,media.gettr.com,CDN
 HOST,media.gettyimages.com,CDN
 HOST,media.giphy.com,CDN

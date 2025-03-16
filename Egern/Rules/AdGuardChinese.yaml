@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4643
+# 规则统计: 4649
 
 domain_suffix_set:
   - 002777.xyz
@@ -607,6 +607,7 @@ domain_suffix_set:
   - ajockk.xyz
   - ajoqu.cn
   - ajybgc.xyz
+  - ak03150hou.com
   - al.newxue.com
   - alimama.alicdn.com
   - alime-pic.oss-cn-hangzhou.aliyuncs.com
@@ -1781,6 +1782,7 @@ domain_suffix_set:
   - ggw.watertu.com
   - ggxwb.miguvideo.com
   - ghairqin.com
+  - ghegaintp.com
   - gheqien.com
   - gherkax.com
   - gheslosy.com
@@ -1862,6 +1864,7 @@ domain_suffix_set:
   - gumnus.com
   - gunmi.cn
   - guqoinly.com
+  - guqransoq.com
   - guwohvw.icu
   - guyhok.xyz
   - gvvedashb6.fun
@@ -2582,6 +2585,7 @@ domain_suffix_set:
   - lewrutl.top
   - lfjslil.top
   - lfrdskwj.icu
+  - lftcph.icu
   - lftpvh.xyz
   - lfxozd.xyz
   - lgidskil.top
@@ -2821,6 +2825,7 @@ domain_suffix_set:
   - mvirkw.xyz
   - mvmqos.xyz
   - mvwitz.xyz
+  - mvxh.cn
   - mwerilxx.top
   - mweriox.top
   - mwilmix.top
@@ -4111,6 +4116,7 @@ domain_suffix_set:
   - vkdgdt.xyz
   - vlion.cn
   - vmcnl.xyz
+  - vmjr.cn
   - vmxvcjuf.icu
   - vnuuh.icu
   - vokzqgjp.icu
