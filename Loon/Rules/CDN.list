@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3321
+# 规则统计: 3327
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -262,6 +262,7 @@ DOMAIN,axiecdn.axieinfinity.com
 DOMAIN,az700632.vo.msecnd.net
 DOMAIN,b.peatio.com
 DOMAIN,b.sf-syn.com
+DOMAIN,b5x-sentry.1passwordservices.com
 DOMAIN,badbits.dwebops.pub
 DOMAIN,badge.buildkite.com
 DOMAIN,badge.fury.io
@@ -628,6 +629,7 @@ DOMAIN,cdn.tuk.dev
 DOMAIN,cdn.unrealengine.com
 DOMAIN,cdn.unwire.hk
 DOMAIN,cdn.up-timely.com
+DOMAIN,cdn.uptimia.com
 DOMAIN,cdn.usd.fan
 DOMAIN,cdn.userreport.com
 DOMAIN,cdn.v2ex.com
@@ -1815,6 +1817,7 @@ DOMAIN,sp.replit.com
 DOMAIN,spcdn.incartupsell.com
 DOMAIN,spoprod-a.akamaihd.net
 DOMAIN,sprig.figma.com
+DOMAIN,ssl.gstatic.com
 DOMAIN,st-eu.dynamicyield.com
 DOMAIN,st.agrd.eu
 DOMAIN,st.deviantart.net
@@ -2040,6 +2043,7 @@ DOMAIN,static.twitchcdn.net
 DOMAIN,static.typingclub.com
 DOMAIN,static.ui.com
 DOMAIN,static.underhentai.net
+DOMAIN,static.uptimia.com
 DOMAIN,static.v2ex.com
 DOMAIN,static.vinted.com
 DOMAIN,static.vocadb.net
@@ -2294,6 +2298,7 @@ DOMAIN,ww2.justanswer.com
 DOMAIN,www-static.ripe.net
 DOMAIN,www.10086.win
 DOMAIN,www.bbthat.com
+DOMAIN,www.gstatic.com
 DOMAIN,www.pngmart.com
 DOMAIN,www.tbstat.com
 DOMAIN,www.typescriptlang.org
@@ -3292,6 +3297,7 @@ DOMAIN-WILDCARD,cdn?-dl.pornhost.com
 DOMAIN-WILDCARD,cdn?.18girlssex.com
 DOMAIN-WILDCARD,cdn?.mikuclub.fun
 DOMAIN-WILDCARD,cdns.*.gigya.com
+DOMAIN-WILDCARD,chunk-*.mux.com
 DOMAIN-WILDCARD,file?.mikuclub.fun
 DOMAIN-WILDCARD,i?.nhentai.net
 DOMAIN-WILDCARD,image*.cloudokyo.cloud

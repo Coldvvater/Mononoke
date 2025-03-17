@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3321
+# 规则统计: 3327
 
 domain_set:
   - 0x0.st
@@ -263,6 +263,7 @@ domain_set:
   - az700632.vo.msecnd.net
   - b.peatio.com
   - b.sf-syn.com
+  - b5x-sentry.1passwordservices.com
   - badbits.dwebops.pub
   - badge.buildkite.com
   - badge.fury.io
@@ -629,6 +630,7 @@ domain_set:
   - cdn.unrealengine.com
   - cdn.unwire.hk
   - cdn.up-timely.com
+  - cdn.uptimia.com
   - cdn.usd.fan
   - cdn.userreport.com
   - cdn.v2ex.com
@@ -1816,6 +1818,7 @@ domain_set:
   - spcdn.incartupsell.com
   - spoprod-a.akamaihd.net
   - sprig.figma.com
+  - ssl.gstatic.com
   - st-eu.dynamicyield.com
   - st.agrd.eu
   - st.deviantart.net
@@ -2041,6 +2044,7 @@ domain_set:
   - static.typingclub.com
   - static.ui.com
   - static.underhentai.net
+  - static.uptimia.com
   - static.v2ex.com
   - static.vinted.com
   - static.vocadb.net
@@ -2295,6 +2299,7 @@ domain_set:
   - www-static.ripe.net
   - www.10086.win
   - www.bbthat.com
+  - www.gstatic.com
   - www.pngmart.com
   - www.tbstat.com
   - www.typescriptlang.org
@@ -3296,6 +3301,7 @@ domain_wildcard_set:
   - cdn?.18girlssex.com
   - cdn?.mikuclub.fun
   - cdns.*.gigya.com
+  - chunk-*.mux.com
   - file?.mikuclub.fun
   - i?.nhentai.net
   - image*.cloudokyo.cloud

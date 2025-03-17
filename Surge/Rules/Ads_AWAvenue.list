@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 743
+# 规则统计: 748
 
 DOMAIN-SUFFIX,1010pic.com
 DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
@@ -8,7 +8,6 @@ DOMAIN-SUFFIX,8le8le.com
 DOMAIN-SUFFIX,a0.app.xiaomi.com
 DOMAIN-SUFFIX,aaid.umeng.com
 DOMAIN-SUFFIX,abtest-ch.snssdk.com
-DOMAIN-SUFFIX,ad-cache.dopool.com
 DOMAIN-SUFFIX,ad-cdn.qingting.fm
 DOMAIN-SUFFIX,ad-cmp.hismarttv.com
 DOMAIN-SUFFIX,ad-download.hismarttv.com
@@ -23,6 +22,7 @@ DOMAIN-SUFFIX,ad.bwton.com
 DOMAIN-SUFFIX,ad.cctv.com
 DOMAIN-SUFFIX,ad.cyapi.cn
 DOMAIN-SUFFIX,ad.doubleclick.net
+DOMAIN-SUFFIX,ad.hpplay.cn
 DOMAIN-SUFFIX,ad.partner.gifshow.com
 DOMAIN-SUFFIX,ad.qingting.fm
 DOMAIN-SUFFIX,ad.qq.com
@@ -31,7 +31,6 @@ DOMAIN-SUFFIX,ad.tencentmusic.com
 DOMAIN-SUFFIX,ad.toutiao.com
 DOMAIN-SUFFIX,ad.v3mh.com
 DOMAIN-SUFFIX,ad.winrar.com.cn
-DOMAIN-SUFFIX,ad.xelements.cn
 DOMAIN-SUFFIX,ad.xiaomi.com
 DOMAIN-SUFFIX,ad.ximalaya.com
 DOMAIN-SUFFIX,ad.zijieapi.com
@@ -46,6 +45,7 @@ DOMAIN-SUFFIX,adclick.g.doubleclick.net
 DOMAIN-SUFFIX,adclick.tencentmusic.com
 DOMAIN-SUFFIX,adcolony.com
 DOMAIN-SUFFIX,addata.jd.com
+DOMAIN-SUFFIX,adeng.hpplay.cn
 DOMAIN-SUFFIX,adexpo.tencentmusic.com
 DOMAIN-SUFFIX,adfilter.imtt.qq.com
 DOMAIN-SUFFIX,adfstat.yandex.ru
@@ -68,13 +68,11 @@ DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
 DOMAIN-SUFFIX,ads.95516.com
 DOMAIN-SUFFIX,ads.flurry.com
 DOMAIN-SUFFIX,ads.google.cn
-DOMAIN-SUFFIX,ads.heytapmobi.com
 DOMAIN-SUFFIX,ads.huan.tv
 DOMAIN-SUFFIX,ads.huantest.com
 DOMAIN-SUFFIX,ads.icloseli.cn
 DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN-SUFFIX,ads.music.126.net
-DOMAIN-SUFFIX,ads.oppomobile.com
 DOMAIN-SUFFIX,ads.pinterest.com
 DOMAIN-SUFFIX,ads.pubmatic.com
 DOMAIN-SUFFIX,ads.servebom.com
@@ -124,7 +122,6 @@ DOMAIN-SUFFIX,adukwai.com
 DOMAIN-SUFFIX,adv.fjtv.net
 DOMAIN-SUFFIX,adv.sec.intl.miui.com
 DOMAIN-SUFFIX,adv.sec.miui.com
-DOMAIN-SUFFIX,advertiseonbing.azureedge.net
 DOMAIN-SUFFIX,advertising-api-eu.amazon.com
 DOMAIN-SUFFIX,advertising-api-fe.amazon.com
 DOMAIN-SUFFIX,advertising-api.amazon.com
@@ -142,7 +139,6 @@ DOMAIN-SUFFIX,adx-os.anythinktech.com
 DOMAIN-SUFFIX,adx.ads.heytapmobi.com
 DOMAIN-SUFFIX,adx.ads.oppomobile.com
 DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn
-DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn
 DOMAIN-SUFFIX,adxserver.ad.cmvideo.cn
 DOMAIN-SUFFIX,aegis.qq.com
 DOMAIN-SUFFIX,afs.googlesyndication.com
@@ -152,11 +148,9 @@ DOMAIN-SUFFIX,alog.umeng.com
 DOMAIN-SUFFIX,alogus.umeng.com
 DOMAIN-SUFFIX,als.baidu.com
 DOMAIN-SUFFIX,amdcopen.m.taobao.com
-DOMAIN-SUFFIX,amdcopen.m.umeng.com
 DOMAIN-SUFFIX,an.facebook.com
 DOMAIN-SUFFIX,analysis.yozocloud.cn
 DOMAIN-SUFFIX,analytics-api.samsunghealthcn.com
-DOMAIN-SUFFIX,analytics.126.net
 DOMAIN-SUFFIX,analytics.google.com
 DOMAIN-SUFFIX,analytics.pinterest.com
 DOMAIN-SUFFIX,analytics.pointdrive.linkedin.com
@@ -167,6 +161,7 @@ DOMAIN-SUFFIX,analytics.tiktok.com
 DOMAIN-SUFFIX,analytics.woozooo.com
 DOMAIN-SUFFIX,analyticsengine.s3.amazonaws.com
 DOMAIN-SUFFIX,analyze.lemurbrowser.com
+DOMAIN-SUFFIX,android.bugly.qq.com
 DOMAIN-SUFFIX,andrqd.play.aiseet.atianqi.com
 DOMAIN-SUFFIX,ap.dongqiudi.com
 DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net
@@ -194,7 +189,6 @@ DOMAIN-SUFFIX,api.touch-moblie.com
 DOMAIN-SUFFIX,api.yfanads.com
 DOMAIN-SUFFIX,api5-normal-quic-lf.ixigua.com
 DOMAIN-SUFFIX,apiyd.my91app.com
-DOMAIN-SUFFIX,apks.webxiaobai.top
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appcfg.v.qq.com
 DOMAIN-SUFFIX,appcloud2.in.zhihu.com
@@ -206,7 +200,6 @@ DOMAIN-SUFFIX,ata-sdk-uuid-report.dreport.meituan.net
 DOMAIN-SUFFIX,auction.unityads.unity3d.com
 DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,audid.umeng.com
-DOMAIN-SUFFIX,azr.footprintdns.com
 DOMAIN-SUFFIX,b1-data.ads.heytapmobi.com
 DOMAIN-SUFFIX,baichuan-sdk.alicdn.com
 DOMAIN-SUFFIX,baichuan-sdk.taobao.com
@@ -246,6 +239,7 @@ DOMAIN-SUFFIX,cdn-ads.oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com
 DOMAIN-SUFFIX,cdn.ad.xiaomi.com
 DOMAIN-SUFFIX,cdn.aiclk.com
+DOMAIN-SUFFIX,cdn.hpplay.com.cn
 DOMAIN-SUFFIX,cdn.ynuf.aliapp.org
 DOMAIN-SUFFIX,cfg.imtt.qq.com
 DOMAIN-SUFFIX,chat1.jd.com
@@ -261,6 +255,7 @@ DOMAIN-SUFFIX,cnlogs.umengcloud.com
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,collect.kugou.com
 DOMAIN-SUFFIX,commdata.v.qq.com
+DOMAIN-SUFFIX,conf.hpplay.cn
 DOMAIN-SUFFIX,config.chsmarttv.com
 DOMAIN-SUFFIX,config.unityads.unity3d.com
 DOMAIN-SUFFIX,cpc-service-square.aiclk.com
@@ -312,6 +307,7 @@ DOMAIN-SUFFIX,frontend-perf-service.e.kuaishou.com
 DOMAIN-SUFFIX,fxgate.baidu.com
 DOMAIN-SUFFIX,g-adnet.hiaiabc.com
 DOMAIN-SUFFIX,g-staic.ganjingworld.com
+DOMAIN-SUFFIX,g.dtv.cn.miaozhen.com
 DOMAIN-SUFFIX,g2.ganjing.world
 DOMAIN-SUFFIX,game.loveota.com
 DOMAIN-SUFFIX,gdfp.gifshow.com
@@ -335,17 +331,20 @@ DOMAIN-SUFFIX,gromore.pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,grs.dbankcloud.com
 DOMAIN-SUFFIX,grs.hicloud.com
 DOMAIN-SUFFIX,grs.platform.dbankcloud.ru
+DOMAIN-SUFFIX,gslb.hpplay.cn
 DOMAIN-SUFFIX,gvideo.qpic.cn
 DOMAIN-SUFFIX,h-adashx.ut.taobao.com
 DOMAIN-SUFFIX,h.trace.qq.com
+DOMAIN-SUFFIX,h5.hpplay.com.cn
 DOMAIN-SUFFIX,hanlanad.com
 DOMAIN-SUFFIX,heads-ak.spotify.com.edgesuite.net
 DOMAIN-SUFFIX,heads-fa.spotify.com
 DOMAIN-SUFFIX,hexagon-analytics.com
 DOMAIN-SUFFIX,hm.baidu.com
 DOMAIN-SUFFIX,hmma.baidu.com
+DOMAIN-SUFFIX,hotupgrade.hpplay.cn
 DOMAIN-SUFFIX,houyi.kkmh.com
-DOMAIN-SUFFIX,hpplay.cn
+DOMAIN-SUFFIX,hpplay.cdn.cibn.cc
 DOMAIN-SUFFIX,httpdns.bcelive.com
 DOMAIN-SUFFIX,httpdns.ocloud.oppomobile.com
 DOMAIN-SUFFIX,hugelog.fcbox.com
@@ -367,14 +366,15 @@ DOMAIN-SUFFIX,ii.gdt.qq.com
 DOMAIN-SUFFIX,imag8.pubmatic.com
 DOMAIN-SUFFIX,imag86.pubmatic.com
 DOMAIN-SUFFIX,image-ad.sm.cn
+DOMAIN-SUFFIX,image.hpplay.cn
 DOMAIN-SUFFIX,imageplus.baidu.com
 DOMAIN-SUFFIX,images.outbrainimg.com
 DOMAIN-SUFFIX,images.pinduoduo.com
+DOMAIN-SUFFIX,imdns.hpplay.cn
 DOMAIN-SUFFIX,img-c.heytapimage.com
 DOMAIN-SUFFIX,img-x.jd.com
 DOMAIN-SUFFIX,img.adnyg.com
 DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com
-DOMAIN-SUFFIX,imtmp.net
 DOMAIN-SUFFIX,in.treasuredata.com
 DOMAIN-SUFFIX,iot-eu-logser.realme.com
 DOMAIN-SUFFIX,iot-logser.realme.com
@@ -526,6 +526,7 @@ DOMAIN-SUFFIX,pgdt.gtimg.cn
 DOMAIN-SUFFIX,pgdt.ugdtimg.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,pig.pupuapi.com
+DOMAIN-SUFFIX,pin.hpplay.cn
 DOMAIN-SUFFIX,pixon.ads-pixiv.net
 DOMAIN-SUFFIX,pkoplink.com
 DOMAIN-SUFFIX,plbslog.umeng.com
@@ -550,6 +551,7 @@ DOMAIN-SUFFIX,review.gdtimg.com
 DOMAIN-SUFFIX,rlog.popin.cc
 DOMAIN-SUFFIX,rms-drcn.platform.dbankcloud.cn
 DOMAIN-SUFFIX,roi.soulapp.cn
+DOMAIN-SUFFIX,rp.hpplay.cn
 DOMAIN-SUFFIX,rpt.gdt.qq.com
 DOMAIN-SUFFIX,rtb.voiceads.cn
 DOMAIN-SUFFIX,s.amazon-adsystem.com
@@ -572,6 +574,7 @@ DOMAIN-SUFFIX,sdk.e.qq.com
 DOMAIN-SUFFIX,sdk.hzsanjiaomao.com
 DOMAIN-SUFFIX,sdk.markmedia.com.cn
 DOMAIN-SUFFIX,sdk.mobads.adwangmai.com
+DOMAIN-SUFFIX,sdkauth.hpplay.cn
 DOMAIN-SUFFIX,sdkconf.avlyun.com
 DOMAIN-SUFFIX,sdkconfig.ad.intl.xiaomi.com
 DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com
@@ -595,6 +598,7 @@ DOMAIN-SUFFIX,shouji.sogou.com
 DOMAIN-SUFFIX,sigmob.cn
 DOMAIN-SUFFIX,sigmob.com
 DOMAIN-SUFFIX,skdisplay.jd.com
+DOMAIN-SUFFIX,sl.hpplay.cn
 DOMAIN-SUFFIX,slb-p2p.vcloud.ks-live.com
 DOMAIN-SUFFIX,smad.ms.zhangyue.net
 DOMAIN-SUFFIX,smart-tv.cn
@@ -606,7 +610,6 @@ DOMAIN-SUFFIX,snowflake.qq.com
 DOMAIN-SUFFIX,stat.dongqiudi.com
 DOMAIN-SUFFIX,stat.y.qq.com
 DOMAIN-SUFFIX,static.ads-twitter.com
-DOMAIN-SUFFIX,static.wxqcloud.qq.com.cn
 DOMAIN-SUFFIX,statics.woozooo.com
 DOMAIN-SUFFIX,stats.qiumibao.com
 DOMAIN-SUFFIX,stats.wp.com
@@ -660,6 +663,7 @@ DOMAIN-SUFFIX,tracker.gitee.com
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,tracking.rus.miui.com
 DOMAIN-SUFFIX,tsvrv.com
+DOMAIN-SUFFIX,tvapp.hpplay.cn
 DOMAIN-SUFFIX,tvuser-ch.cedock.com
 DOMAIN-SUFFIX,tx-ad.a.yximgs.com
 DOMAIN-SUFFIX,tx-kmpaudio.pull.yximgs.com
@@ -698,6 +702,7 @@ DOMAIN-SUFFIX,v3.gdt.qq.com
 DOMAIN-SUFFIX,video-ad.sm.cn
 DOMAIN-SUFFIX,video-dsp.pddpic.com
 DOMAIN-SUFFIX,video.dispatch.tc.qq.com
+DOMAIN-SUFFIX,vipauth.hpplay.cn
 DOMAIN-SUFFIX,virusinfo-cloudscan-cn.heytapmobi.com
 DOMAIN-SUFFIX,vlive.qqvideo.tc.qq.com
 DOMAIN-SUFFIX,volc.bj.ad.track.66mobi.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3321
+# 规则统计: 3327
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -262,6 +262,7 @@ HOST,axiecdn.axieinfinity.com,CDN
 HOST,az700632.vo.msecnd.net,CDN
 HOST,b.peatio.com,CDN
 HOST,b.sf-syn.com,CDN
+HOST,b5x-sentry.1passwordservices.com,CDN
 HOST,badbits.dwebops.pub,CDN
 HOST,badge.buildkite.com,CDN
 HOST,badge.fury.io,CDN
@@ -628,6 +629,7 @@ HOST,cdn.tuk.dev,CDN
 HOST,cdn.unrealengine.com,CDN
 HOST,cdn.unwire.hk,CDN
 HOST,cdn.up-timely.com,CDN
+HOST,cdn.uptimia.com,CDN
 HOST,cdn.usd.fan,CDN
 HOST,cdn.userreport.com,CDN
 HOST,cdn.v2ex.com,CDN
@@ -1815,6 +1817,7 @@ HOST,sp.replit.com,CDN
 HOST,spcdn.incartupsell.com,CDN
 HOST,spoprod-a.akamaihd.net,CDN
 HOST,sprig.figma.com,CDN
+HOST,ssl.gstatic.com,CDN
 HOST,st-eu.dynamicyield.com,CDN
 HOST,st.agrd.eu,CDN
 HOST,st.deviantart.net,CDN
@@ -2040,6 +2043,7 @@ HOST,static.twitchcdn.net,CDN
 HOST,static.typingclub.com,CDN
 HOST,static.ui.com,CDN
 HOST,static.underhentai.net,CDN
+HOST,static.uptimia.com,CDN
 HOST,static.v2ex.com,CDN
 HOST,static.vinted.com,CDN
 HOST,static.vocadb.net,CDN
@@ -2294,6 +2298,7 @@ HOST,ww2.justanswer.com,CDN
 HOST,www-static.ripe.net,CDN
 HOST,www.10086.win,CDN
 HOST,www.bbthat.com,CDN
+HOST,www.gstatic.com,CDN
 HOST,www.pngmart.com,CDN
 HOST,www.tbstat.com,CDN
 HOST,www.typescriptlang.org,CDN
@@ -3292,6 +3297,7 @@ HOST-WILDCARD,cdn?-dl.pornhost.com,CDN
 HOST-WILDCARD,cdn?.18girlssex.com,CDN
 HOST-WILDCARD,cdn?.mikuclub.fun,CDN
 HOST-WILDCARD,cdns.*.gigya.com,CDN
+HOST-WILDCARD,chunk-*.mux.com,CDN
 HOST-WILDCARD,file?.mikuclub.fun,CDN
 HOST-WILDCARD,i?.nhentai.net,CDN
 HOST-WILDCARD,image*.cloudokyo.cloud,CDN
