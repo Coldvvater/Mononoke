@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7112
+# 规则统计: 7114
 
 DOMAIN,cloud.oracle.com
 DOMAIN,steambroadcast.akamaized.net
@@ -359,6 +359,7 @@ DOMAIN-SUFFIX,aol.co.uk
 DOMAIN-SUFFIX,aol.com
 DOMAIN-SUFFIX,aolchannels.aol.com
 DOMAIN-SUFFIX,aolnews.com
+DOMAIN-SUFFIX,aomedia.org
 DOMAIN-SUFFIX,aomiwang.com
 DOMAIN-SUFFIX,ap.org
 DOMAIN-SUFFIX,apache.org
@@ -4711,6 +4712,7 @@ DOMAIN-SUFFIX,powerpointninja.com
 DOMAIN-SUFFIX,pp.ru
 DOMAIN-SUFFIX,ppy.sh
 DOMAIN-SUFFIX,prayforchina.net
+DOMAIN-SUFFIX,prcleader.org
 DOMAIN-SUFFIX,premeforwindows7.com
 DOMAIN-SUFFIX,premproxy.com
 DOMAIN-SUFFIX,presentation.new

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3317
+# 规则统计: 3321
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2311,6 +2311,9 @@ HOST-SUFFIX,666565.xyz,CDN
 HOST-SUFFIX,7mmtv.tv,CDN
 HOST-SUFFIX,91pic.org,CDN
 HOST-SUFFIX,98avcdn.xyz,CDN
+HOST-SUFFIX,99avcdn.com,CDN
+HOST-SUFFIX,99avcdn.net,CDN
+HOST-SUFFIX,99avcdn.org,CDN
 HOST-SUFFIX,9cache.com,CDN
 HOST-SUFFIX,a.storyblok.com,CDN
 HOST-SUFFIX,a1tb.com,CDN
@@ -3268,6 +3271,7 @@ HOST-KEYWORD,-files.gitbook.io,CDN
 HOST-KEYWORD,-res.cloudinary.com,CDN
 HOST-KEYWORD,-thumbs.pornhost.com,CDN
 HOST-KEYWORD,-thumbs.worldsex.com,CDN
+HOST-KEYWORD,99avcdn,CDN
 HOST-KEYWORD,cdn.adultempire.com,CDN
 HOST-KEYWORD,dsn.algolia.net,CDN
 HOST-KEYWORD,vod-adaptive.akamaized.net,CDN

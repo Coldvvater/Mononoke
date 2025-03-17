@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7112
+# 规则统计: 7114
 
 no_resolve: true
 domain_set:
@@ -362,6 +362,7 @@ domain_suffix_set:
   - aol.com
   - aolchannels.aol.com
   - aolnews.com
+  - aomedia.org
   - aomiwang.com
   - ap.org
   - apache.org
@@ -4714,6 +4715,7 @@ domain_suffix_set:
   - pp.ru
   - ppy.sh
   - prayforchina.net
+  - prcleader.org
   - premeforwindows7.com
   - premproxy.com
   - presentation.new
