@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 778
+# 规则统计: 782
 
 domain_set:
   - acg.tv
@@ -133,6 +133,7 @@ domain_suffix_set:
   - authing.cn
   - authing.co
   - autonavi.com
+  - awtmt.com
   - baidu.cn
   - baidu.com
   - baidubce.com
@@ -344,6 +345,7 @@ domain_suffix_set:
   - gov.cn
   - gtimg.cn
   - gtimg.com
+  - guancha.cn
   - guoguo-app.com
   - h2os.com
   - hao123.com
@@ -696,6 +698,7 @@ domain_suffix_set:
   - volccdn.com
   - volces.com
   - volcvideo.com
+  - wallstreetcn.com
   - wandoujia.com
   - wangsu.com
   - weathercn.com
@@ -717,6 +720,7 @@ domain_suffix_set:
   - wps.cn
   - wpscdn.cn
   - wpscdn.com
+  - wscn.net
   - x3322.net
   - xhscdn.com
   - xiachufang.com

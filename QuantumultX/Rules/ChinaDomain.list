@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 781
+# 规则统计: 785
 
 HOST,acg.tv,ChinaDomain
 HOST,assets1.xboxlive.cn,ChinaDomain
@@ -131,6 +131,7 @@ HOST-SUFFIX,assets.msn.cn,ChinaDomain
 HOST-SUFFIX,authing.cn,ChinaDomain
 HOST-SUFFIX,authing.co,ChinaDomain
 HOST-SUFFIX,autonavi.com,ChinaDomain
+HOST-SUFFIX,awtmt.com,ChinaDomain
 HOST-SUFFIX,baidu.cn,ChinaDomain
 HOST-SUFFIX,baidu.com,ChinaDomain
 HOST-SUFFIX,baidubce.com,ChinaDomain
@@ -342,6 +343,7 @@ HOST-SUFFIX,gotokeep.com,ChinaDomain
 HOST-SUFFIX,gov.cn,ChinaDomain
 HOST-SUFFIX,gtimg.cn,ChinaDomain
 HOST-SUFFIX,gtimg.com,ChinaDomain
+HOST-SUFFIX,guancha.cn,ChinaDomain
 HOST-SUFFIX,guoguo-app.com,ChinaDomain
 HOST-SUFFIX,h2os.com,ChinaDomain
 HOST-SUFFIX,hao123.com,ChinaDomain
@@ -694,6 +696,7 @@ HOST-SUFFIX,vmallres.com,ChinaDomain
 HOST-SUFFIX,volccdn.com,ChinaDomain
 HOST-SUFFIX,volces.com,ChinaDomain
 HOST-SUFFIX,volcvideo.com,ChinaDomain
+HOST-SUFFIX,wallstreetcn.com,ChinaDomain
 HOST-SUFFIX,wandoujia.com,ChinaDomain
 HOST-SUFFIX,wangsu.com,ChinaDomain
 HOST-SUFFIX,weathercn.com,ChinaDomain
@@ -715,6 +718,7 @@ HOST-SUFFIX,wo.cn,ChinaDomain
 HOST-SUFFIX,wps.cn,ChinaDomain
 HOST-SUFFIX,wpscdn.cn,ChinaDomain
 HOST-SUFFIX,wpscdn.com,ChinaDomain
+HOST-SUFFIX,wscn.net,ChinaDomain
 HOST-SUFFIX,x3322.net,ChinaDomain
 HOST-SUFFIX,xhscdn.com,ChinaDomain
 HOST-SUFFIX,xiachufang.com,ChinaDomain

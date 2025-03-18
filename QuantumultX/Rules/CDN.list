@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3334
+# 规则统计: 3337
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -314,6 +314,7 @@ HOST,cacerts.digicert.com,CDN
 HOST,cache-05.filehippo.net,CDN
 HOST,cache.armorgames.com,CDN
 HOST,cache.hackedfreegames.com,CDN
+HOST,cassette.sphdigital.com.sg,CDN
 HOST,cc.boyfriendtv.com,CDN
 HOST,cdn-1.ggjav.com,CDN
 HOST,cdn-a.sonyentertainmentnetwork.com,CDN
@@ -600,6 +601,7 @@ HOST,cdn.sketch.com,CDN
 HOST,cdn.skymavis.com,CDN
 HOST,cdn.smooch.io,CDN
 HOST,cdn.softswiss.net,CDN
+HOST,cdn.sphlabs.com,CDN
 HOST,cdn.split.io,CDN
 HOST,cdn.sprig.com,CDN
 HOST,cdn.sso.mozilla.com,CDN
@@ -741,6 +743,7 @@ HOST,cdnstatic.w1mp.com,CDN
 HOST,cdnstatic.w4nkr.com,CDN
 HOST,cdntranscend.eventbrite.com,CDN
 HOST,cdnweb.devolutions.net,CDN
+HOST,cdp.sph.com.sg,CDN
 HOST,cds.connatix.com,CDN
 HOST,certificates.godaddy.com,CDN
 HOST,certona.gap.com,CDN

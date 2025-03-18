@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3334
+# 规则统计: 3337
 
 domain_set:
   - 0x0.st
@@ -315,6 +315,7 @@ domain_set:
   - cache-05.filehippo.net
   - cache.armorgames.com
   - cache.hackedfreegames.com
+  - cassette.sphdigital.com.sg
   - cc.boyfriendtv.com
   - cdn-1.ggjav.com
   - cdn-a.sonyentertainmentnetwork.com
@@ -601,6 +602,7 @@ domain_set:
   - cdn.skymavis.com
   - cdn.smooch.io
   - cdn.softswiss.net
+  - cdn.sphlabs.com
   - cdn.split.io
   - cdn.sprig.com
   - cdn.sso.mozilla.com
@@ -742,6 +744,7 @@ domain_set:
   - cdnstatic.w4nkr.com
   - cdntranscend.eventbrite.com
   - cdnweb.devolutions.net
+  - cdp.sph.com.sg
   - cds.connatix.com
   - certificates.godaddy.com
   - certona.gap.com
