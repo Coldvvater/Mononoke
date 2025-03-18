@@ -83,6 +83,7 @@ jobs:
             urls=(
                 "https://ruleset.skk.moe/List/non_ip/ai.conf"
                 "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/xAI.list"
+                "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/AI.list"
             )
             > Mononoke-repo/Ruleset/AI.list
             for url in "${urls[@]}"; do
