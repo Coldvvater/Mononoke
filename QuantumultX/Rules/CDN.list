@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3327
+# 规则统计: 3334
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1009,6 +1009,7 @@ HOST,gt1.onlyhentaistuff.com,CDN
 HOST,gtranslate.io,CDN
 HOST,hawk.tomsguide.com,CDN
 HOST,headway-widget.net,CDN
+HOST,heatmap-external-a.strava.com,CDN
 HOST,hentaiworldtv.b-cdn.net,CDN
 HOST,hhhhhhome86227170.wordpress.com,CDN
 HOST,hips.hearstapps.com,CDN
@@ -1753,6 +1754,7 @@ HOST,sandpack-cdn-staging.blazingly.io,CDN
 HOST,sandpack-cdn-v2.codesandbox.io,CDN
 HOST,sbl.onfastspring.com,CDN
 HOST,scdn.clerk.com,CDN
+HOST,scdn.line-apps.com,CDN
 HOST,scontent.whatsapp.net,CDN
 HOST,screenshots.codesandbox.io,CDN
 HOST,screenshots.debian.net,CDN
@@ -2160,6 +2162,7 @@ HOST,todoist.b-cdn.net,CDN
 HOST,ton.local.twitter.com,CDN
 HOST,tools-static.wmflabs.org,CDN
 HOST,tools.refokus.com,CDN
+HOST,top1cdn.top1health.com,CDN
 HOST,topbar-static.piano.io,CDN
 HOST,torrindex.net,CDN
 HOST,touchgal-image.moyu.moe,CDN
@@ -2902,6 +2905,7 @@ HOST-SUFFIX,nincontent.com,CDN
 HOST-SUFFIX,nineyu.com,CDN
 HOST-SUFFIX,ninjastream.to,CDN
 HOST-SUFFIX,nitrocdn.com,CDN
+HOST-SUFFIX,nodecdn.net,CDN
 HOST-SUFFIX,nodejs.org,CDN
 HOST-SUFFIX,nordcdn.com,CDN
 HOST-SUFFIX,notify.bugsnag.com,CDN
@@ -3051,6 +3055,7 @@ HOST-SUFFIX,senja.io,CDN
 HOST-SUFFIX,sentry-cdn.com,CDN
 HOST-SUFFIX,sessions.bugsnag.com,CDN
 HOST-SUFFIX,settings.crashlytics.com,CDN
+HOST-SUFFIX,sfbassets.com,CDN
 HOST-SUFFIX,sfdcstatic.com,CDN
 HOST-SUFFIX,sftcdn.net,CDN
 HOST-SUFFIX,shgcdn.com,CDN
@@ -3131,6 +3136,7 @@ HOST-SUFFIX,superfiliate-cdn.com,CDN
 HOST-SUFFIX,surge.sh,CDN
 HOST-SUFFIX,surrit.com,CDN
 HOST-SUFFIX,susercontent.com,CDN
+HOST-SUFFIX,sway-cdn.com,CDN
 HOST-SUFFIX,swiftypecdn.com,CDN
 HOST-SUFFIX,sxccdn.com,CDN
 HOST-SUFFIX,szjal.cn,CDN
@@ -3237,6 +3243,7 @@ HOST-SUFFIX,wp.com,CDN
 HOST-SUFFIX,wpcomstaging.com,CDN
 HOST-SUFFIX,wpmucdn.com,CDN
 HOST-SUFFIX,wsimg.com,CDN
+HOST-SUFFIX,wsrv.nl,CDN
 HOST-SUFFIX,www.s81c.com,CDN
 HOST-SUFFIX,xda-cdn.com,CDN
 HOST-SUFFIX,xdaimages.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3327
+# 规则统计: 3334
 
 domain_set:
   - 0x0.st
@@ -1010,6 +1010,7 @@ domain_set:
   - gtranslate.io
   - hawk.tomsguide.com
   - headway-widget.net
+  - heatmap-external-a.strava.com
   - hentaiworldtv.b-cdn.net
   - hhhhhhome86227170.wordpress.com
   - hips.hearstapps.com
@@ -1754,6 +1755,7 @@ domain_set:
   - sandpack-cdn-v2.codesandbox.io
   - sbl.onfastspring.com
   - scdn.clerk.com
+  - scdn.line-apps.com
   - scontent.whatsapp.net
   - screenshots.codesandbox.io
   - screenshots.debian.net
@@ -2161,6 +2163,7 @@ domain_set:
   - ton.local.twitter.com
   - tools-static.wmflabs.org
   - tools.refokus.com
+  - top1cdn.top1health.com
   - topbar-static.piano.io
   - torrindex.net
   - touchgal-image.moyu.moe
@@ -2904,6 +2907,7 @@ domain_suffix_set:
   - nineyu.com
   - ninjastream.to
   - nitrocdn.com
+  - nodecdn.net
   - nodejs.org
   - nordcdn.com
   - notify.bugsnag.com
@@ -3053,6 +3057,7 @@ domain_suffix_set:
   - sentry-cdn.com
   - sessions.bugsnag.com
   - settings.crashlytics.com
+  - sfbassets.com
   - sfdcstatic.com
   - sftcdn.net
   - shgcdn.com
@@ -3133,6 +3138,7 @@ domain_suffix_set:
   - surge.sh
   - surrit.com
   - susercontent.com
+  - sway-cdn.com
   - swiftypecdn.com
   - sxccdn.com
   - szjal.cn
@@ -3239,6 +3245,7 @@ domain_suffix_set:
   - wpcomstaging.com
   - wpmucdn.com
   - wsimg.com
+  - wsrv.nl
   - www.s81c.com
   - xda-cdn.com
   - xdaimages.com
