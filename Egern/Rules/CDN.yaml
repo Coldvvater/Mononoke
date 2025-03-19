@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3337
+# 规则统计: 3341
 
 domain_set:
   - 0x0.st
@@ -434,6 +434,7 @@ domain_set:
   - cdn.donmai.us
   - cdn.dotaoutpost.com
   - cdn.download.it
+  - cdn.drata.com
   - cdn.dribbble.com
   - cdn.dynamicyield.com
   - cdn.ecomm.ui.com
@@ -578,6 +579,7 @@ domain_set:
   - cdn.redoc.ly
   - cdn.registerdisney.go.com
   - cdn.reimu.net
+  - cdn.report-uri.com
   - cdn.rex.contents.rakuten.co.jp
   - cdn.rive.app
   - cdn.robinpro.gallery
@@ -1113,6 +1115,7 @@ domain_set:
   - images.crunchbase.com
   - images.design-editor.com
   - images.dmca.com
+  - images.drata.com
   - images.ecomm.microsoft.com
   - images.emojiterra.com
   - images.en.aptoide.com
@@ -1717,6 +1720,7 @@ domain_set:
   - s3-figma-force-client-reloads-production.figma.com
   - s3-figma-plugin-images-production-sig.figma.com
   - s3-symbol-logo.tradingview.com
+  - s3-zen.mds.yandex.net
   - s3.2233778.xyz
   - s3.aaaaa.io
   - s3.acg.mn

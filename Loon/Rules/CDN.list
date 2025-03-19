@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3337
+# 规则统计: 3341
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -433,6 +433,7 @@ DOMAIN,cdn.document360.io
 DOMAIN,cdn.donmai.us
 DOMAIN,cdn.dotaoutpost.com
 DOMAIN,cdn.download.it
+DOMAIN,cdn.drata.com
 DOMAIN,cdn.dribbble.com
 DOMAIN,cdn.dynamicyield.com
 DOMAIN,cdn.ecomm.ui.com
@@ -577,6 +578,7 @@ DOMAIN,cdn.redhat.com
 DOMAIN,cdn.redoc.ly
 DOMAIN,cdn.registerdisney.go.com
 DOMAIN,cdn.reimu.net
+DOMAIN,cdn.report-uri.com
 DOMAIN,cdn.rex.contents.rakuten.co.jp
 DOMAIN,cdn.rive.app
 DOMAIN,cdn.robinpro.gallery
@@ -1112,6 +1114,7 @@ DOMAIN,images.contentstack.io
 DOMAIN,images.crunchbase.com
 DOMAIN,images.design-editor.com
 DOMAIN,images.dmca.com
+DOMAIN,images.drata.com
 DOMAIN,images.ecomm.microsoft.com
 DOMAIN,images.emojiterra.com
 DOMAIN,images.en.aptoide.com
@@ -1716,6 +1719,7 @@ DOMAIN,s3-alpha.figma.com
 DOMAIN,s3-figma-force-client-reloads-production.figma.com
 DOMAIN,s3-figma-plugin-images-production-sig.figma.com
 DOMAIN,s3-symbol-logo.tradingview.com
+DOMAIN,s3-zen.mds.yandex.net
 DOMAIN,s3.2233778.xyz
 DOMAIN,s3.aaaaa.io
 DOMAIN,s3.acg.mn
