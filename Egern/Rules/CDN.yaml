@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3341
+# 规则统计: 3344
 
 domain_set:
   - 0x0.st
@@ -2207,6 +2207,7 @@ domain_set:
   - us-js.zonka.co
   - us.hamreus.com
   - us01ccistatic.zoom.us
+  - us1-prod-images.disco-api.com
   - use.fortawesome.com
   - use.typekit.com
   - use.typekit.net
@@ -3090,6 +3091,7 @@ domain_suffix_set:
   - smmallcdn.net
   - smushcdn.com
   - sndcdn.com
+  - sndimg.com
   - sny.monosnap.com
   - snzypic.com
   - someonewhocares.org
@@ -3290,6 +3292,7 @@ domain_keyword_set:
   - -assets.worldsex.com
   - -cdn.eporner.com
   - -files.gitbook.io
+  - -images.disco-api.com
   - -res.cloudinary.com
   - -thumbs.pornhost.com
   - -thumbs.worldsex.com

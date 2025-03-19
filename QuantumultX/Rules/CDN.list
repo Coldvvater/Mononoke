@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3341
+# 规则统计: 3344
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2206,6 +2206,7 @@ HOST,upos-sz-mirrorcosbstar1.bilivideo.com,CDN
 HOST,us-js.zonka.co,CDN
 HOST,us.hamreus.com,CDN
 HOST,us01ccistatic.zoom.us,CDN
+HOST,us1-prod-images.disco-api.com,CDN
 HOST,use.fortawesome.com,CDN
 HOST,use.typekit.com,CDN
 HOST,use.typekit.net,CDN
@@ -3088,6 +3089,7 @@ HOST-SUFFIX,smilecdn.co,CDN
 HOST-SUFFIX,smmallcdn.net,CDN
 HOST-SUFFIX,smushcdn.com,CDN
 HOST-SUFFIX,sndcdn.com,CDN
+HOST-SUFFIX,sndimg.com,CDN
 HOST-SUFFIX,sny.monosnap.com,CDN
 HOST-SUFFIX,snzypic.com,CDN
 HOST-SUFFIX,someonewhocares.org,CDN
@@ -3287,6 +3289,7 @@ HOST-SUFFIX,zorocdn.xyz,CDN
 HOST-KEYWORD,-assets.worldsex.com,CDN
 HOST-KEYWORD,-cdn.eporner.com,CDN
 HOST-KEYWORD,-files.gitbook.io,CDN
+HOST-KEYWORD,-images.disco-api.com,CDN
 HOST-KEYWORD,-res.cloudinary.com,CDN
 HOST-KEYWORD,-thumbs.pornhost.com,CDN
 HOST-KEYWORD,-thumbs.worldsex.com,CDN
