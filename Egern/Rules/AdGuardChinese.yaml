@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4681
+# 规则统计: 4689
 
 domain_suffix_set:
   - 002777.xyz
@@ -2234,6 +2234,7 @@ domain_suffix_set:
   - iy.com.cn
   - iyisloo.top
   - iyjqgpo.top
+  - iyof.cn
   - iyqbsst.top
   - iyuedu.cn.com
   - iyuwkbo.top
@@ -2368,6 +2369,7 @@ domain_suffix_set:
   - jsgapai.icu
   - jshilr.icu
   - jsinfo.net
+  - jslxzx.icu
   - jsqygwl.top
   - jsx.luyouwang.com
   - jsxwfb.xyz
@@ -2586,6 +2588,7 @@ domain_suffix_set:
   - le4le.com
   - leabd.douguo.com
   - leagsmk.icu
+  - ledfjl.icu
   - ledollull.com
   - ledwtz.icu
   - leeleo.top
@@ -2932,6 +2935,7 @@ domain_suffix_set:
   - nnfbxz.icu
   - nnvjbb.xyz
   - noafoaji.xyz
+  - nogogey.top
   - nois5gj.xyz
   - nonguds.com
   - norse.mingxiaow.com
@@ -3066,6 +3070,7 @@ domain_suffix_set:
   - osujcq.xyz
   - osusjsga.com
   - osyliek.top
+  - otfy.cn
   - otimiyk.top
   - ouiokaq.top
   - oumnxiek.top
@@ -4128,6 +4133,7 @@ domain_suffix_set:
   - vhzivz.xyz
   - video231.oss-cn-beijing.aliyuncs.com
   - vihqpr.xyz
+  - vinoinqih.com
   - vinsgcs.com
   - vip.ludu319.com
   - vip.min1319.com
@@ -4351,6 +4357,7 @@ domain_suffix_set:
   - xcwdcynb.icu
   - xdh0808.com
   - xdyjt.com
+  - xeccotftw.com
   - xedlxeuz.icu
   - xehodv.xyz
   - xehyjx.icu
@@ -4408,6 +4415,7 @@ domain_suffix_set:
   - xpjcg.oss-accelerate.aliyuncs.com
   - xplbxx.icu
   - xqrydt.icu
+  - xrlzhk.top
   - xrrxodz.xyz
   - xs.houyi.baofeng.net
   - xs6po.icu
