@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3344
+# 规则统计: 3345
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -646,6 +646,7 @@ HOST,cdn.vuukle.com,CDN
 HOST,cdn.wccftech.com,CDN
 HOST,cdn.webclicks24.com,CDN
 HOST,cdn.weglot.com,CDN
+HOST,cdn.wikimg.net,CDN
 HOST,cdn.wikiwand.com,CDN
 HOST,cdn.wikiwiki.jp,CDN
 HOST,cdn.windowsreport.com,CDN
