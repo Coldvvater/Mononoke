@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3345
+# 规则统计: 3346
 
 domain_set:
   - 0x0.st
@@ -1696,6 +1696,7 @@ domain_set:
   - s.gishan.cc
   - s.imgflip.com
   - s.imgur.com
+  - s.midishow.net
   - s.namemc.com
   - s.plurk.com
   - s.rfi.fr

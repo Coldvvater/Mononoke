@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3345
+# 规则统计: 3346
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1695,6 +1695,7 @@ HOST,s.abcnews.com,CDN
 HOST,s.gishan.cc,CDN
 HOST,s.imgflip.com,CDN
 HOST,s.imgur.com,CDN
+HOST,s.midishow.net,CDN
 HOST,s.namemc.com,CDN
 HOST,s.plurk.com,CDN
 HOST,s.rfi.fr,CDN

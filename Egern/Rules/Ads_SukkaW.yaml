@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 69755
+# 规则统计: 69756
 
 no_resolve: true
 domain_set:
@@ -42727,6 +42727,7 @@ domain_suffix_set:
   - ofvosb.jumbo.com.tr
   - ofwdvh.suntransfers.com
   - ogads-pa.googleapis.com
+  - ogaku.site
   - ogb2.biopur-leanature.fr
   - ogb2.biovie.com
   - ogb2.eauthermalejonzac.com
