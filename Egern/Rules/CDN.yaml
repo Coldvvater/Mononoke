@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3346
+# 规则统计: 3354
 
 domain_set:
   - 0x0.st
@@ -25,6 +25,7 @@ domain_set:
   - ajax.googleapis.com
   - ajax.microsoft.com
   - ak.sail-horizon.com
+  - akamai-assets.squarespace.com
   - alt.idgesg.net
   - amp.azure.net
   - analytics.twitter.com
@@ -468,6 +469,7 @@ domain_set:
   - cdn.glitch.global
   - cdn.glitch.me
   - cdn.gofundme.com
+  - cdn.googlesource.com
   - cdn.graph.office.net
   - cdn.growthbook.io
   - cdn.hackernoon.com
@@ -780,6 +782,8 @@ domain_set:
   - cms-assets.webediamovies.pro
   - cms-assets.xboxservices.com
   - cms-cdn.now.gg
+  - cms.recordedfuture.com
+  - cms.therecord.media
   - cms.typenetwork.com
   - code.benco.io
   - code.highcharts.com
@@ -1822,6 +1826,7 @@ domain_set:
   - social-cdn.vivaldi.net
   - solve-widget.forethought.ai
   - source.domaintools.com
+  - sourcemaps.squarespace.net
   - sourcepoint.theguardian.com
   - sp-spiegel-de.spiegel.de
   - sp.nba.com
@@ -2444,6 +2449,7 @@ domain_suffix_set:
   - cdn.discordapp.com
   - cdn.getfeedback.com
   - cdn.greenhouse.io
+  - cdn.icann.org
   - cdn.ifixit.com
   - cdn.imgeng.in
   - cdn.imghaste.com
@@ -2583,6 +2589,7 @@ domain_suffix_set:
   - esm.run
   - esm.sh
   - espncdn.com
+  - etsystatic.com
   - eu-browse.startpage.com
   - eu-proxy.startpage.com
   - events.backtrace.io
@@ -3040,6 +3047,7 @@ domain_suffix_set:
   - repo.anaconda.com
   - res.office365.com
   - rescript-lang.org
+  - rlcdn.com
   - rocketcdn.me
   - rollupjs.org
   - roseimgs.com

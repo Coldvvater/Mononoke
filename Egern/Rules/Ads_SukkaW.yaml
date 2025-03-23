@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 69743
+# 规则统计: 69745
 
 no_resolve: true
 domain_set:
@@ -216,6 +216,7 @@ domain_set:
   - cdn.cr-relay.com
   - cdn.fds-ssl.api.xiaomi.com
   - cdn.getkoala.com
+  - cdn.matomo.cloud
   - cdn.pocoiq.cn
   - charlestownwyllie.oaklawnnonantum.com
   - choice.microsoft.com
@@ -42635,6 +42636,7 @@ domain_suffix_set:
   - oeiqfl.kiralikvilladatatil.com
   - oek7.april-moto.com
   - oeko.immergruen-energie.de
+  - oelj.cn
   - oeryt111.fun
   - oesfco.glamira.pl
   - oesonx.10000recipe.com

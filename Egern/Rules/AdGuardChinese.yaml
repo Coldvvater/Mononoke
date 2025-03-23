@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4704
+# 规则统计: 4708
 
 domain_suffix_set:
   - 002777.xyz
@@ -681,6 +681,7 @@ domain_suffix_set:
   - ausfyk.xyz
   - aushaq.top
   - avivid.likr.tw
+  - avkd.cn
   - avqdhss.icu
   - avspda.xyz
   - avxonsp.icu
@@ -1514,6 +1515,7 @@ domain_suffix_set:
   - ekltes.xyz
   - ekykse.xyz
   - ekzmk.icu
+  - eldaridpr.com
   - elloisny.com
   - elphhrj.xyz
   - elsbfby.com
@@ -3007,6 +3009,7 @@ domain_suffix_set:
   - odinmak.top
   - odipsumk.top
   - odxh.cn
+  - oelj.cn
   - oeryt111.fun
   - oewrutk.top
   - ofd.meng-an.cn
@@ -4588,6 +4591,7 @@ domain_suffix_set:
   - yxgfcj.com
   - yxjcyxy.icu
   - yxkbgg.xyz
+  - yxqmryq.top
   - yxrmbjw.icu
   - yxvyqyy.icu
   - yy17173.dtime.com

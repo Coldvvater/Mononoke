@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3346
+# 规则统计: 3354
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -24,6 +24,7 @@ HOST,ajax.cloudflare.com,CDN
 HOST,ajax.googleapis.com,CDN
 HOST,ajax.microsoft.com,CDN
 HOST,ak.sail-horizon.com,CDN
+HOST,akamai-assets.squarespace.com,CDN
 HOST,alt.idgesg.net,CDN
 HOST,amp.azure.net,CDN
 HOST,analytics.twitter.com,CDN
@@ -467,6 +468,7 @@ HOST,cdn.glitch.com,CDN
 HOST,cdn.glitch.global,CDN
 HOST,cdn.glitch.me,CDN
 HOST,cdn.gofundme.com,CDN
+HOST,cdn.googlesource.com,CDN
 HOST,cdn.graph.office.net,CDN
 HOST,cdn.growthbook.io,CDN
 HOST,cdn.hackernoon.com,CDN
@@ -779,6 +781,8 @@ HOST,cms-assets.nodecraft.com,CDN
 HOST,cms-assets.webediamovies.pro,CDN
 HOST,cms-assets.xboxservices.com,CDN
 HOST,cms-cdn.now.gg,CDN
+HOST,cms.recordedfuture.com,CDN
+HOST,cms.therecord.media,CDN
 HOST,cms.typenetwork.com,CDN
 HOST,code.benco.io,CDN
 HOST,code.highcharts.com,CDN
@@ -1821,6 +1825,7 @@ HOST,snyk-widget.herokuapp.com,CDN
 HOST,social-cdn.vivaldi.net,CDN
 HOST,solve-widget.forethought.ai,CDN
 HOST,source.domaintools.com,CDN
+HOST,sourcemaps.squarespace.net,CDN
 HOST,sourcepoint.theguardian.com,CDN
 HOST,sp-spiegel-de.spiegel.de,CDN
 HOST,sp.nba.com,CDN
@@ -2442,6 +2447,7 @@ HOST-SUFFIX,cdn.cwinfo.net,CDN
 HOST-SUFFIX,cdn.discordapp.com,CDN
 HOST-SUFFIX,cdn.getfeedback.com,CDN
 HOST-SUFFIX,cdn.greenhouse.io,CDN
+HOST-SUFFIX,cdn.icann.org,CDN
 HOST-SUFFIX,cdn.ifixit.com,CDN
 HOST-SUFFIX,cdn.imgeng.in,CDN
 HOST-SUFFIX,cdn.imghaste.com,CDN
@@ -2581,6 +2587,7 @@ HOST-SUFFIX,eroimg.net,CDN
 HOST-SUFFIX,esm.run,CDN
 HOST-SUFFIX,esm.sh,CDN
 HOST-SUFFIX,espncdn.com,CDN
+HOST-SUFFIX,etsystatic.com,CDN
 HOST-SUFFIX,eu-browse.startpage.com,CDN
 HOST-SUFFIX,eu-proxy.startpage.com,CDN
 HOST-SUFFIX,events.backtrace.io,CDN
@@ -3038,6 +3045,7 @@ HOST-SUFFIX,replicate.delivery,CDN
 HOST-SUFFIX,repo.anaconda.com,CDN
 HOST-SUFFIX,res.office365.com,CDN
 HOST-SUFFIX,rescript-lang.org,CDN
+HOST-SUFFIX,rlcdn.com,CDN
 HOST-SUFFIX,rocketcdn.me,CDN
 HOST-SUFFIX,rollupjs.org,CDN
 HOST-SUFFIX,roseimgs.com,CDN
