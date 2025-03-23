@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3354
+# 规则统计: 3356
 
 domain_set:
   - 0x0.st
@@ -356,6 +356,7 @@ domain_set:
   - cdn-widgetsrepository.yotpo.com
   - cdn-www.bluestacks.com
   - cdn-yotpo-images-production.yotpo.com
+  - cdn.123av.me
   - cdn.17app.co
   - cdn.18jav.tv
   - cdn.7tv.app
@@ -3090,6 +3091,7 @@ domain_suffix_set:
   - siteintercept.qualtrics.com
   - sitescdn.net
   - sixyik.com
+  - skyearth8.xyz
   - skypack.dev
   - skypeassets.com
   - slack-edge.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3354
+# 规则统计: 3356
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -355,6 +355,7 @@ DOMAIN,cdn-web.orbstack.dev
 DOMAIN,cdn-widgetsrepository.yotpo.com
 DOMAIN,cdn-www.bluestacks.com
 DOMAIN,cdn-yotpo-images-production.yotpo.com
+DOMAIN,cdn.123av.me
 DOMAIN,cdn.17app.co
 DOMAIN,cdn.18jav.tv
 DOMAIN,cdn.7tv.app
@@ -3088,6 +3089,7 @@ DOMAIN-SUFFIX,sirv.com
 DOMAIN-SUFFIX,siteintercept.qualtrics.com
 DOMAIN-SUFFIX,sitescdn.net
 DOMAIN-SUFFIX,sixyik.com
+DOMAIN-SUFFIX,skyearth8.xyz
 DOMAIN-SUFFIX,skypack.dev
 DOMAIN-SUFFIX,skypeassets.com
 DOMAIN-SUFFIX,slack-edge.com

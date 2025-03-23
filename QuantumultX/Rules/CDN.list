@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3354
+# 规则统计: 3356
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -355,6 +355,7 @@ HOST,cdn-web.orbstack.dev,CDN
 HOST,cdn-widgetsrepository.yotpo.com,CDN
 HOST,cdn-www.bluestacks.com,CDN
 HOST,cdn-yotpo-images-production.yotpo.com,CDN
+HOST,cdn.123av.me,CDN
 HOST,cdn.17app.co,CDN
 HOST,cdn.18jav.tv,CDN
 HOST,cdn.7tv.app,CDN
@@ -3088,6 +3089,7 @@ HOST-SUFFIX,sirv.com,CDN
 HOST-SUFFIX,siteintercept.qualtrics.com,CDN
 HOST-SUFFIX,sitescdn.net,CDN
 HOST-SUFFIX,sixyik.com,CDN
+HOST-SUFFIX,skyearth8.xyz,CDN
 HOST-SUFFIX,skypack.dev,CDN
 HOST-SUFFIX,skypeassets.com,CDN
 HOST-SUFFIX,slack-edge.com,CDN
