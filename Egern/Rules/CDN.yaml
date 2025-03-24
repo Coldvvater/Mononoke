@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3356
+# 规则统计: 3359
 
 domain_set:
   - 0x0.st
@@ -2027,6 +2027,7 @@ domain_set:
   - static.playstation.com
   - static.plus.net
   - static.politico.com
+  - static.polldaddy.com
   - static.probit.com
   - static.queue-it.net
   - static.rakuten.com
@@ -2182,6 +2183,7 @@ domain_set:
   - topbar-static.piano.io
   - torrindex.net
   - touchgal-image.moyu.moe
+  - townsquare.media
   - tracking.inflection.io
   - truth.bahamut.com.tw
   - tuf-repo-cdn.sigstore.dev
@@ -3317,6 +3319,7 @@ domain_wildcard_set:
   - *.fsvod?.com
   - *.img.*.sendibm?.com
   - *.kuaikan-cdn?.com
+  - *.skyearth?.xyz
   - appcenter-filemanagement-*.cloudapp.net
   - assets*.freshdesk.com
   - blog-imgs-??.2nt.com

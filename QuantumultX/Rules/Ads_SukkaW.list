@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 69729
+# 规则统计: 69771
 
 HOST,2016.sina.cn,Ads_SukkaW
 HOST,9ibbcq2d.sina.cn,Ads_SukkaW
@@ -9696,6 +9696,7 @@ HOST-SUFFIX,bn.voyage-prive.com,Ads_SukkaW
 HOST-SUFFIX,bn5x.net,Ads_SukkaW
 HOST-SUFFIX,bnaezl.hair-gallery.fr,Ads_SukkaW
 HOST-SUFFIX,bnalzlv.top,Ads_SukkaW
+HOST-SUFFIX,bnbwvp.top,Ads_SukkaW
 HOST-SUFFIX,bncloudfl.com,Ads_SukkaW
 HOST-SUFFIX,bndxrr.xyz,Ads_SukkaW
 HOST-SUFFIX,bnfectkp.icu,Ads_SukkaW
@@ -18216,6 +18217,7 @@ HOST-SUFFIX,dcv4p460uqa46.cloudfront.net,Ads_SukkaW
 HOST-SUFFIX,dcxusu.lacuracao.pe,Ads_SukkaW
 HOST-SUFFIX,dd.auspost.com.au,Ads_SukkaW
 HOST-SUFFIX,dd.control4.com,Ads_SukkaW
+HOST-SUFFIX,dd.g2.com,Ads_SukkaW
 HOST-SUFFIX,dd.leboncoin.fr,Ads_SukkaW
 HOST-SUFFIX,dd.nytimes.com,Ads_SukkaW
 HOST-SUFFIX,dd0122893e.com,Ads_SukkaW
@@ -31543,6 +31545,7 @@ HOST-SUFFIX,khawzx.kirmizisepet.com,Ads_SukkaW
 HOST-SUFFIX,khcdhu.saraschool.net,Ads_SukkaW
 HOST-SUFFIX,khcsvdc.icu,Ads_SukkaW
 HOST-SUFFIX,khedastrilium.com,Ads_SukkaW
+HOST-SUFFIX,khegritww.com,Ads_SukkaW
 HOST-SUFFIX,khengrull.com,Ads_SukkaW
 HOST-SUFFIX,khesuts.com,Ads_SukkaW
 HOST-SUFFIX,khfiwx.sephora.com.br,Ads_SukkaW
@@ -31764,6 +31767,7 @@ HOST-SUFFIX,knownwarn.com,Ads_SukkaW
 HOST-SUFFIX,knpudr.jardin-concept.com,Ads_SukkaW
 HOST-SUFFIX,knuakd.capsuljewelry.com,Ads_SukkaW
 HOST-SUFFIX,knuinws.icu,Ads_SukkaW
+HOST-SUFFIX,knul.cn,Ads_SukkaW
 HOST-SUFFIX,knutenegros.pro,Ads_SukkaW
 HOST-SUFFIX,knvyzx.h201shift.com,Ads_SukkaW
 HOST-SUFFIX,knymhv.ariat.com,Ads_SukkaW
@@ -32095,16 +32099,31 @@ HOST-SUFFIX,l-iw.de,Ads_SukkaW
 HOST-SUFFIX,l.365blog.jp,Ads_SukkaW
 HOST-SUFFIX,l.amamin.jp,Ads_SukkaW
 HOST-SUFFIX,l.ashita-sanuki.jp,Ads_SukkaW
+HOST-SUFFIX,l.aufeminin.com,Ads_SukkaW
+HOST-SUFFIX,l.autojournal.fr,Ads_SukkaW
+HOST-SUFFIX,l.autoplus.fr,Ads_SukkaW
+HOST-SUFFIX,l.beaute-test.com,Ads_SukkaW
+HOST-SUFFIX,l.bibamagazine.fr,Ads_SukkaW
 HOST-SUFFIX,l.boo-log.com,Ads_SukkaW
 HOST-SUFFIX,l.chesuto.jp,Ads_SukkaW
+HOST-SUFFIX,l.closermag.fr,Ads_SukkaW
+HOST-SUFFIX,l.cnetfrance.fr,Ads_SukkaW
 HOST-SUFFIX,l.da-te.jp,Ads_SukkaW
 HOST-SUFFIX,l.dev-ajo.caixabank.com,Ads_SukkaW
+HOST-SUFFIX,l.diapasonmag.fr,Ads_SukkaW
 HOST-SUFFIX,l.dm.casio.info,Ads_SukkaW
+HOST-SUFFIX,l.doctissimo.fr,Ads_SukkaW
 HOST-SUFFIX,l.dosugoi.net,Ads_SukkaW
+HOST-SUFFIX,l.dzfoot.com,Ads_SukkaW
+HOST-SUFFIX,l.entrenous.fr,Ads_SukkaW
 HOST-SUFFIX,l.eshizuoka.jp,Ads_SukkaW
 HOST-SUFFIX,l.ffsagami.com,Ads_SukkaW
 HOST-SUFFIX,l.ffx.io,Ads_SukkaW
+HOST-SUFFIX,l.football.fr,Ads_SukkaW
+HOST-SUFFIX,l.football365.fr,Ads_SukkaW
 HOST-SUFFIX,l.francetvinfo.fr,Ads_SukkaW
+HOST-SUFFIX,l.gamekult.com,Ads_SukkaW
+HOST-SUFFIX,l.grazia.fr,Ads_SukkaW
 HOST-SUFFIX,l.gunmablog.net,Ads_SukkaW
 HOST-SUFFIX,l.hama1.jp,Ads_SukkaW
 HOST-SUFFIX,l.hamazo.tv,Ads_SukkaW
@@ -32116,32 +32135,51 @@ HOST-SUFFIX,l.kataranna.com,Ads_SukkaW
 HOST-SUFFIX,l.kitemi.net,Ads_SukkaW
 HOST-SUFFIX,l.ko-co.jp,Ads_SukkaW
 HOST-SUFFIX,l.kyo2.jp,Ads_SukkaW
+HOST-SUFFIX,l.lacremedugaming.fr,Ads_SukkaW
+HOST-SUFFIX,l.lechasseurfrancais.com,Ads_SukkaW
+HOST-SUFFIX,l.lejournaldelamaison.fr,Ads_SukkaW
+HOST-SUFFIX,l.lesnumeriques.com,Ads_SukkaW
 HOST-SUFFIX,l.lilyzhou.com,Ads_SukkaW
 HOST-SUFFIX,l.locmariage.fr,Ads_SukkaW
 HOST-SUFFIX,l.m.naver.com,Ads_SukkaW
+HOST-SUFFIX,l.maison-travaux.fr,Ads_SukkaW
+HOST-SUFFIX,l.mariefrance.fr,Ads_SukkaW
+HOST-SUFFIX,l.melty.fr,Ads_SukkaW
 HOST-SUFFIX,l.militaryblog.jp,Ads_SukkaW
 HOST-SUFFIX,l.miyachan.cc,Ads_SukkaW
+HOST-SUFFIX,l.modesettravaux.fr,Ads_SukkaW
 HOST-SUFFIX,l.msdl.naver.com,Ads_SukkaW
 HOST-SUFFIX,l.n-da.jp,Ads_SukkaW
 HOST-SUFFIX,l.naganoblog.jp,Ads_SukkaW
 HOST-SUFFIX,l.namjai.cc,Ads_SukkaW
 HOST-SUFFIX,l.naturum.ne.jp,Ads_SukkaW
+HOST-SUFFIX,l.netmums.com,Ads_SukkaW
+HOST-SUFFIX,l.nextplz.fr,Ads_SukkaW
+HOST-SUFFIX,l.nicematin.com,Ads_SukkaW
 HOST-SUFFIX,l.niiblo.jp,Ads_SukkaW
 HOST-SUFFIX,l.ooyala.com,Ads_SukkaW
 HOST-SUFFIX,l.osakazine.net,Ads_SukkaW
 HOST-SUFFIX,l.otemo-yan.net,Ads_SukkaW
 HOST-SUFFIX,l.ouest-france.fr,Ads_SukkaW
 HOST-SUFFIX,l.page.worldvision.ca,Ads_SukkaW
+HOST-SUFFIX,l.paroledemamans.com,Ads_SukkaW
 HOST-SUFFIX,l.player.ooyala.com,Ads_SukkaW
+HOST-SUFFIX,l.pleinevie.fr,Ads_SukkaW
 HOST-SUFFIX,l.premium.naver.com,Ads_SukkaW
+HOST-SUFFIX,l.psychologies.com,Ads_SukkaW
 HOST-SUFFIX,l.sagafan.jp,Ads_SukkaW
 HOST-SUFFIX,l.sapolog.com,Ads_SukkaW
+HOST-SUFFIX,l.science-et-vie.com,Ads_SukkaW
 HOST-SUFFIX,l.shiga-saku.net,Ads_SukkaW
+HOST-SUFFIX,l.sportauto.fr,Ads_SukkaW
+HOST-SUFFIX,l.sports.fr,Ads_SukkaW
 HOST-SUFFIX,l.tamaliver.jp,Ads_SukkaW
 HOST-SUFFIX,l.tec29.com,Ads_SukkaW
+HOST-SUFFIX,l.telestar.fr,Ads_SukkaW
 HOST-SUFFIX,l.tenkomori.tv,Ads_SukkaW
 HOST-SUFFIX,l.thd-web.jp,Ads_SukkaW
 HOST-SUFFIX,l.ti-da.net,Ads_SukkaW
+HOST-SUFFIX,l.topsante.com,Ads_SukkaW
 HOST-SUFFIX,l.training-page.worldvision.ca,Ads_SukkaW
 HOST-SUFFIX,l.traxmag.com,Ads_SukkaW
 HOST-SUFFIX,l.tsukuba.ch,Ads_SukkaW
@@ -32152,6 +32190,7 @@ HOST-SUFFIX,l.www.naver.com,Ads_SukkaW
 HOST-SUFFIX,l.ykimg.com,Ads_SukkaW
 HOST-SUFFIX,l.yoka-yoka.jp,Ads_SukkaW
 HOST-SUFFIX,l.youku.com,Ads_SukkaW
+HOST-SUFFIX,l.zdnet.fr,Ads_SukkaW
 HOST-SUFFIX,l0-secure.videohub.tv,Ads_SukkaW
 HOST-SUFFIX,l029.recordpatriot.com,Ads_SukkaW
 HOST-SUFFIX,l1native.com,Ads_SukkaW
@@ -47569,6 +47608,7 @@ HOST-SUFFIX,r66net.net,Ads_SukkaW
 HOST-SUFFIX,r932o.com,Ads_SukkaW
 HOST-SUFFIX,r973.timesheraldonline.com,Ads_SukkaW
 HOST-SUFFIX,ra1.xyz,Ads_SukkaW
+HOST-SUFFIX,ra10.xyz,Ads_SukkaW
 HOST-SUFFIX,ra5.xyz,Ads_SukkaW
 HOST-SUFFIX,rabbit.kilowatt.media,Ads_SukkaW
 HOST-SUFFIX,rabbit.radicalxchange.org,Ads_SukkaW
@@ -50431,6 +50471,7 @@ HOST-SUFFIX,screenshot.best,Ads_SukkaW
 HOST-SUFFIX,screenshots.goguardian.com,Ads_SukkaW
 HOST-SUFFIX,screensnaps.top,Ads_SukkaW
 HOST-SUFFIX,screenstudio.vip,Ads_SukkaW
+HOST-SUFFIX,screiltol.com,Ads_SukkaW
 HOST-SUFFIX,screspoy.com,Ads_SukkaW
 HOST-SUFFIX,scribe.wongnai.com,Ads_SukkaW
 HOST-SUFFIX,scrippscookingchannel.cookingchanneltv.com,Ads_SukkaW
@@ -64754,6 +64795,7 @@ HOST-SUFFIX,urigagxnji.com,Ads_SukkaW
 HOST-SUFFIX,urimnugocfr.com,Ads_SukkaW
 HOST-SUFFIX,urinousbiriba.com,Ads_SukkaW
 HOST-SUFFIX,uriokr.bauhaus.es,Ads_SukkaW
+HOST-SUFFIX,urkt.cn,Ads_SukkaW
 HOST-SUFFIX,urkywn.martinshotels.com,Ads_SukkaW
 HOST-SUFFIX,urldelivery.com,Ads_SukkaW
 HOST-SUFFIX,urlhausa.com,Ads_SukkaW

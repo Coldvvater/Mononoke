@@ -3,11 +3,15 @@
   "rules": [
     {
       "domain": [
-        "195.201.86.86",
+        "2pfdml.mobaiemby.site",
         "cc.coemn.com",
+        "cf-cdn1.nebula-media.org",
         "cminf.sfcat.link",
         "cuinf.sfcat.link",
-        "notnetflix.cos.cat"
+        "emby.nebula-media.org",
+        "notnetflix.cos.cat",
+        "starharn-cf.nebula-media.org",
+        "starharn.nebula-media.org"
       ]
     },
     {
@@ -50,9 +54,11 @@
         "cinema.facmata.net",
         "deja-vu.beauty",
         "dicarerhome.com",
+        "e.degyax.one",
         "ednovas.org",
         "em.ssky.me",
         "emby-cf.plusmedia.site",
+        "emby-myg-de.vfing.de",
         "emby-sg.plusmedia.site",
         "emby.aiyowei.ml",
         "emby.bid",
@@ -125,7 +131,6 @@
         "movie.xeton.dev",
         "mulgore.net",
         "nanflix.net",
-        "nebula-media.org",
         "newpppp.com",
         "newwan.top",
         "nijigem.by",
@@ -162,6 +167,7 @@
         "tanhuatv.site",
         "texon.fans",
         "tkremby.xyz",
+        "tv.worldline.space",
         "uuuoo.cc",
         "wiri.tk",
         "xiaoyi.one",
@@ -173,7 +179,12 @@
     {
       "ip_cidr": [
         "152.53.67.239/32",
+        "168.119.137.205/32",
         "188.172.228.49/32",
+        "195.128.100.146/32",
+        "195.128.102.208/32",
+        "195.201.86.86/32",
+        "202.61.247.129/32",
         "202.61.255.248/32",
         "212.90.120.164/32"
       ]

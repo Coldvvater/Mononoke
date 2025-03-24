@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7114
+# 规则统计: 7115
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1288,6 +1288,7 @@ HOST-SUFFIX,cofacts.tw,ProxyGFW
 HOST-SUFFIX,coin2co.in,ProxyGFW
 HOST-SUFFIX,coinbase.com,ProxyGFW
 HOST-SUFFIX,coinbene.com,ProxyGFW
+HOST-SUFFIX,coincarp.com,ProxyGFW
 HOST-SUFFIX,coinegg.com,ProxyGFW
 HOST-SUFFIX,coinex.com,ProxyGFW
 HOST-SUFFIX,coingecko.com,ProxyGFW
@@ -1761,7 +1762,6 @@ HOST-SUFFIX,empfil.com,ProxyGFW
 HOST-SUFFIX,emule-ed2k.com,ProxyGFW
 HOST-SUFFIX,emulefans.com,ProxyGFW
 HOST-SUFFIX,emuparadise.me,ProxyGFW
-HOST-SUFFIX,en.favotter.net,ProxyGFW
 HOST-SUFFIX,en.hao123.com,ProxyGFW
 HOST-SUFFIX,enanyang.my,ProxyGFW
 HOST-SUFFIX,encrypt.me,ProxyGFW
@@ -1930,6 +1930,7 @@ HOST-SUFFIX,fanbox.cc,ProxyGFW
 HOST-SUFFIX,fandom.com,ProxyGFW
 HOST-SUFFIX,fangbinxing.com,ProxyGFW
 HOST-SUFFIX,fangeming.com,ProxyGFW
+HOST-SUFFIX,fangeming.comffvpn.com,ProxyGFW
 HOST-SUFFIX,fangeqiang.com,ProxyGFW
 HOST-SUFFIX,fanglizhi.info,ProxyGFW
 HOST-SUFFIX,fangmincn.org,ProxyGFW
@@ -1952,7 +1953,6 @@ HOST-SUFFIX,faproxy.com,ProxyGFW
 HOST-SUFFIX,faqserv.com,ProxyGFW
 HOST-SUFFIX,fartit.com,ProxyGFW
 HOST-SUFFIX,farwestchina.com,ProxyGFW
-HOST-SUFFIX,fast.wistia.com,ProxyGFW
 HOST-SUFFIX,fastestvpn.com,ProxyGFW
 HOST-SUFFIX,fastpic.ru,ProxyGFW
 HOST-SUFFIX,fastssh.com,ProxyGFW
@@ -2285,6 +2285,7 @@ HOST-SUFFIX,geekerhome.com,ProxyGFW
 HOST-SUFFIX,geekheart.info,ProxyGFW
 HOST-SUFFIX,gekikame.com,ProxyGFW
 HOST-SUFFIX,gelbooru.com,ProxyGFW
+HOST-SUFFIX,gemini.com,ProxyGFW
 HOST-SUFFIX,generated.photos,ProxyGFW
 HOST-SUFFIX,genius.com,ProxyGFW
 HOST-SUFFIX,geocities.co.jp,ProxyGFW
@@ -4385,6 +4386,7 @@ HOST-SUFFIX,omy.sg,ProxyGFW
 HOST-SUFFIX,on.cc,ProxyGFW
 HOST-SUFFIX,on2.com,ProxyGFW
 HOST-SUFFIX,onapp.com,ProxyGFW
+HOST-SUFFIX,one.one.one.one,ProxyGFW
 HOST-SUFFIX,oneclient.sfx.ms,ProxyGFW
 HOST-SUFFIX,onedrive.com,ProxyGFW
 HOST-SUFFIX,onedrive.live.com,ProxyGFW
@@ -6294,7 +6296,6 @@ HOST-SUFFIX,video.aol.ca,ProxyGFW
 HOST-SUFFIX,video.aol.co.uk,ProxyGFW
 HOST-SUFFIX,video.aol.com,ProxyGFW
 HOST-SUFFIX,video.ap.org,ProxyGFW
-HOST-SUFFIX,video.fdbox.com,ProxyGFW
 HOST-SUFFIX,video.foxbusiness.com,ProxyGFW
 HOST-SUFFIX,videobam.com,ProxyGFW
 HOST-SUFFIX,videodetective.com,ProxyGFW

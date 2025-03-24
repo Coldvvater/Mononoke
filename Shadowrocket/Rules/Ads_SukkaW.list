@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 69729
+# 规则统计: 69771
 
 DOMAIN,2016.sina.cn
 DOMAIN,9ibbcq2d.sina.cn
@@ -9696,6 +9696,7 @@ DOMAIN-SUFFIX,bn.voyage-prive.com
 DOMAIN-SUFFIX,bn5x.net
 DOMAIN-SUFFIX,bnaezl.hair-gallery.fr
 DOMAIN-SUFFIX,bnalzlv.top
+DOMAIN-SUFFIX,bnbwvp.top
 DOMAIN-SUFFIX,bncloudfl.com
 DOMAIN-SUFFIX,bndxrr.xyz
 DOMAIN-SUFFIX,bnfectkp.icu
@@ -18216,6 +18217,7 @@ DOMAIN-SUFFIX,dcv4p460uqa46.cloudfront.net
 DOMAIN-SUFFIX,dcxusu.lacuracao.pe
 DOMAIN-SUFFIX,dd.auspost.com.au
 DOMAIN-SUFFIX,dd.control4.com
+DOMAIN-SUFFIX,dd.g2.com
 DOMAIN-SUFFIX,dd.leboncoin.fr
 DOMAIN-SUFFIX,dd.nytimes.com
 DOMAIN-SUFFIX,dd0122893e.com
@@ -31543,6 +31545,7 @@ DOMAIN-SUFFIX,khawzx.kirmizisepet.com
 DOMAIN-SUFFIX,khcdhu.saraschool.net
 DOMAIN-SUFFIX,khcsvdc.icu
 DOMAIN-SUFFIX,khedastrilium.com
+DOMAIN-SUFFIX,khegritww.com
 DOMAIN-SUFFIX,khengrull.com
 DOMAIN-SUFFIX,khesuts.com
 DOMAIN-SUFFIX,khfiwx.sephora.com.br
@@ -31764,6 +31767,7 @@ DOMAIN-SUFFIX,knownwarn.com
 DOMAIN-SUFFIX,knpudr.jardin-concept.com
 DOMAIN-SUFFIX,knuakd.capsuljewelry.com
 DOMAIN-SUFFIX,knuinws.icu
+DOMAIN-SUFFIX,knul.cn
 DOMAIN-SUFFIX,knutenegros.pro
 DOMAIN-SUFFIX,knvyzx.h201shift.com
 DOMAIN-SUFFIX,knymhv.ariat.com
@@ -32095,16 +32099,31 @@ DOMAIN-SUFFIX,l-iw.de
 DOMAIN-SUFFIX,l.365blog.jp
 DOMAIN-SUFFIX,l.amamin.jp
 DOMAIN-SUFFIX,l.ashita-sanuki.jp
+DOMAIN-SUFFIX,l.aufeminin.com
+DOMAIN-SUFFIX,l.autojournal.fr
+DOMAIN-SUFFIX,l.autoplus.fr
+DOMAIN-SUFFIX,l.beaute-test.com
+DOMAIN-SUFFIX,l.bibamagazine.fr
 DOMAIN-SUFFIX,l.boo-log.com
 DOMAIN-SUFFIX,l.chesuto.jp
+DOMAIN-SUFFIX,l.closermag.fr
+DOMAIN-SUFFIX,l.cnetfrance.fr
 DOMAIN-SUFFIX,l.da-te.jp
 DOMAIN-SUFFIX,l.dev-ajo.caixabank.com
+DOMAIN-SUFFIX,l.diapasonmag.fr
 DOMAIN-SUFFIX,l.dm.casio.info
+DOMAIN-SUFFIX,l.doctissimo.fr
 DOMAIN-SUFFIX,l.dosugoi.net
+DOMAIN-SUFFIX,l.dzfoot.com
+DOMAIN-SUFFIX,l.entrenous.fr
 DOMAIN-SUFFIX,l.eshizuoka.jp
 DOMAIN-SUFFIX,l.ffsagami.com
 DOMAIN-SUFFIX,l.ffx.io
+DOMAIN-SUFFIX,l.football.fr
+DOMAIN-SUFFIX,l.football365.fr
 DOMAIN-SUFFIX,l.francetvinfo.fr
+DOMAIN-SUFFIX,l.gamekult.com
+DOMAIN-SUFFIX,l.grazia.fr
 DOMAIN-SUFFIX,l.gunmablog.net
 DOMAIN-SUFFIX,l.hama1.jp
 DOMAIN-SUFFIX,l.hamazo.tv
@@ -32116,32 +32135,51 @@ DOMAIN-SUFFIX,l.kataranna.com
 DOMAIN-SUFFIX,l.kitemi.net
 DOMAIN-SUFFIX,l.ko-co.jp
 DOMAIN-SUFFIX,l.kyo2.jp
+DOMAIN-SUFFIX,l.lacremedugaming.fr
+DOMAIN-SUFFIX,l.lechasseurfrancais.com
+DOMAIN-SUFFIX,l.lejournaldelamaison.fr
+DOMAIN-SUFFIX,l.lesnumeriques.com
 DOMAIN-SUFFIX,l.lilyzhou.com
 DOMAIN-SUFFIX,l.locmariage.fr
 DOMAIN-SUFFIX,l.m.naver.com
+DOMAIN-SUFFIX,l.maison-travaux.fr
+DOMAIN-SUFFIX,l.mariefrance.fr
+DOMAIN-SUFFIX,l.melty.fr
 DOMAIN-SUFFIX,l.militaryblog.jp
 DOMAIN-SUFFIX,l.miyachan.cc
+DOMAIN-SUFFIX,l.modesettravaux.fr
 DOMAIN-SUFFIX,l.msdl.naver.com
 DOMAIN-SUFFIX,l.n-da.jp
 DOMAIN-SUFFIX,l.naganoblog.jp
 DOMAIN-SUFFIX,l.namjai.cc
 DOMAIN-SUFFIX,l.naturum.ne.jp
+DOMAIN-SUFFIX,l.netmums.com
+DOMAIN-SUFFIX,l.nextplz.fr
+DOMAIN-SUFFIX,l.nicematin.com
 DOMAIN-SUFFIX,l.niiblo.jp
 DOMAIN-SUFFIX,l.ooyala.com
 DOMAIN-SUFFIX,l.osakazine.net
 DOMAIN-SUFFIX,l.otemo-yan.net
 DOMAIN-SUFFIX,l.ouest-france.fr
 DOMAIN-SUFFIX,l.page.worldvision.ca
+DOMAIN-SUFFIX,l.paroledemamans.com
 DOMAIN-SUFFIX,l.player.ooyala.com
+DOMAIN-SUFFIX,l.pleinevie.fr
 DOMAIN-SUFFIX,l.premium.naver.com
+DOMAIN-SUFFIX,l.psychologies.com
 DOMAIN-SUFFIX,l.sagafan.jp
 DOMAIN-SUFFIX,l.sapolog.com
+DOMAIN-SUFFIX,l.science-et-vie.com
 DOMAIN-SUFFIX,l.shiga-saku.net
+DOMAIN-SUFFIX,l.sportauto.fr
+DOMAIN-SUFFIX,l.sports.fr
 DOMAIN-SUFFIX,l.tamaliver.jp
 DOMAIN-SUFFIX,l.tec29.com
+DOMAIN-SUFFIX,l.telestar.fr
 DOMAIN-SUFFIX,l.tenkomori.tv
 DOMAIN-SUFFIX,l.thd-web.jp
 DOMAIN-SUFFIX,l.ti-da.net
+DOMAIN-SUFFIX,l.topsante.com
 DOMAIN-SUFFIX,l.training-page.worldvision.ca
 DOMAIN-SUFFIX,l.traxmag.com
 DOMAIN-SUFFIX,l.tsukuba.ch
@@ -32152,6 +32190,7 @@ DOMAIN-SUFFIX,l.www.naver.com
 DOMAIN-SUFFIX,l.ykimg.com
 DOMAIN-SUFFIX,l.yoka-yoka.jp
 DOMAIN-SUFFIX,l.youku.com
+DOMAIN-SUFFIX,l.zdnet.fr
 DOMAIN-SUFFIX,l0-secure.videohub.tv
 DOMAIN-SUFFIX,l029.recordpatriot.com
 DOMAIN-SUFFIX,l1native.com
@@ -47569,6 +47608,7 @@ DOMAIN-SUFFIX,r66net.net
 DOMAIN-SUFFIX,r932o.com
 DOMAIN-SUFFIX,r973.timesheraldonline.com
 DOMAIN-SUFFIX,ra1.xyz
+DOMAIN-SUFFIX,ra10.xyz
 DOMAIN-SUFFIX,ra5.xyz
 DOMAIN-SUFFIX,rabbit.kilowatt.media
 DOMAIN-SUFFIX,rabbit.radicalxchange.org
@@ -50431,6 +50471,7 @@ DOMAIN-SUFFIX,screenshot.best
 DOMAIN-SUFFIX,screenshots.goguardian.com
 DOMAIN-SUFFIX,screensnaps.top
 DOMAIN-SUFFIX,screenstudio.vip
+DOMAIN-SUFFIX,screiltol.com
 DOMAIN-SUFFIX,screspoy.com
 DOMAIN-SUFFIX,scribe.wongnai.com
 DOMAIN-SUFFIX,scrippscookingchannel.cookingchanneltv.com
@@ -64754,6 +64795,7 @@ DOMAIN-SUFFIX,urigagxnji.com
 DOMAIN-SUFFIX,urimnugocfr.com
 DOMAIN-SUFFIX,urinousbiriba.com
 DOMAIN-SUFFIX,uriokr.bauhaus.es
+DOMAIN-SUFFIX,urkt.cn
 DOMAIN-SUFFIX,urkywn.martinshotels.com
 DOMAIN-SUFFIX,urldelivery.com
 DOMAIN-SUFFIX,urlhausa.com

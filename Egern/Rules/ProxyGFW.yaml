@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7114
+# 规则统计: 7115
 
 no_resolve: true
 domain_set:
@@ -1291,6 +1291,7 @@ domain_suffix_set:
   - coin2co.in
   - coinbase.com
   - coinbene.com
+  - coincarp.com
   - coinegg.com
   - coinex.com
   - coingecko.com
@@ -1764,7 +1765,6 @@ domain_suffix_set:
   - emule-ed2k.com
   - emulefans.com
   - emuparadise.me
-  - en.favotter.net
   - en.hao123.com
   - enanyang.my
   - encrypt.me
@@ -1933,6 +1933,7 @@ domain_suffix_set:
   - fandom.com
   - fangbinxing.com
   - fangeming.com
+  - fangeming.comffvpn.com
   - fangeqiang.com
   - fanglizhi.info
   - fangmincn.org
@@ -1955,7 +1956,6 @@ domain_suffix_set:
   - faqserv.com
   - fartit.com
   - farwestchina.com
-  - fast.wistia.com
   - fastestvpn.com
   - fastpic.ru
   - fastssh.com
@@ -2288,6 +2288,7 @@ domain_suffix_set:
   - geekheart.info
   - gekikame.com
   - gelbooru.com
+  - gemini.com
   - generated.photos
   - genius.com
   - geocities.co.jp
@@ -4388,6 +4389,7 @@ domain_suffix_set:
   - on.cc
   - on2.com
   - onapp.com
+  - one.one.one.one
   - oneclient.sfx.ms
   - onedrive.com
   - onedrive.live.com
@@ -6297,7 +6299,6 @@ domain_suffix_set:
   - video.aol.co.uk
   - video.aol.com
   - video.ap.org
-  - video.fdbox.com
   - video.foxbusiness.com
   - videobam.com
   - videodetective.com

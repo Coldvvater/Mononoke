@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3354
+# 规则统计: 3357
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2026,6 +2026,7 @@ DOMAIN,static.pingcap.com
 DOMAIN,static.playstation.com
 DOMAIN,static.plus.net
 DOMAIN,static.politico.com
+DOMAIN,static.polldaddy.com
 DOMAIN,static.probit.com
 DOMAIN,static.queue-it.net
 DOMAIN,static.rakuten.com
@@ -2181,6 +2182,7 @@ DOMAIN,top1cdn.top1health.com
 DOMAIN,topbar-static.piano.io
 DOMAIN,torrindex.net
 DOMAIN,touchgal-image.moyu.moe
+DOMAIN,townsquare.media
 DOMAIN,tracking.inflection.io
 DOMAIN,truth.bahamut.com.tw
 DOMAIN,tuf-repo-cdn.sigstore.dev
@@ -3313,6 +3315,7 @@ DOMAIN-KEYWORD,web-assets.zendesk
 DOMAIN-WILDCARD,*.fsvod?.com
 DOMAIN-WILDCARD,*.img.*.sendibm?.com
 DOMAIN-WILDCARD,*.kuaikan-cdn?.com
+DOMAIN-WILDCARD,*.skyearth?.xyz
 DOMAIN-WILDCARD,appcenter-filemanagement-*.cloudapp.net
 DOMAIN-WILDCARD,assets*.freshdesk.com
 DOMAIN-WILDCARD,blog-imgs-??.2nt.com

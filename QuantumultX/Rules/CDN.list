@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3356
+# 规则统计: 3359
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2026,6 +2026,7 @@ HOST,static.pingcap.com,CDN
 HOST,static.playstation.com,CDN
 HOST,static.plus.net,CDN
 HOST,static.politico.com,CDN
+HOST,static.polldaddy.com,CDN
 HOST,static.probit.com,CDN
 HOST,static.queue-it.net,CDN
 HOST,static.rakuten.com,CDN
@@ -2181,6 +2182,7 @@ HOST,top1cdn.top1health.com,CDN
 HOST,topbar-static.piano.io,CDN
 HOST,torrindex.net,CDN
 HOST,touchgal-image.moyu.moe,CDN
+HOST,townsquare.media,CDN
 HOST,tracking.inflection.io,CDN
 HOST,truth.bahamut.com.tw,CDN
 HOST,tuf-repo-cdn.sigstore.dev,CDN
@@ -3313,6 +3315,7 @@ HOST-KEYWORD,web-assets.zendesk,CDN
 HOST-WILDCARD,*.fsvod?.com,CDN
 HOST-WILDCARD,*.img.*.sendibm?.com,CDN
 HOST-WILDCARD,*.kuaikan-cdn?.com,CDN
+HOST-WILDCARD,*.skyearth?.xyz,CDN
 HOST-WILDCARD,appcenter-filemanagement-*.cloudapp.net,CDN
 HOST-WILDCARD,assets*.freshdesk.com,CDN
 HOST-WILDCARD,blog-imgs-??.2nt.com,CDN
