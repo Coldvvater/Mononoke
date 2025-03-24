@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 687
+# 规则统计: 688
 
 HOST-SUFFIX,1010pic.com,Ads_AWAvenue
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -191,6 +191,7 @@ HOST-SUFFIX,auction.unityads.unity3d.com,Ads_AWAvenue
 HOST-SUFFIX,audid-api.taobao.com,Ads_AWAvenue
 HOST-SUFFIX,audid.umeng.com,Ads_AWAvenue
 HOST-SUFFIX,b1-data.ads.heytapmobi.com,Ads_AWAvenue
+HOST-SUFFIX,badjs.weixinbridge.com,Ads_AWAvenue
 HOST-SUFFIX,baichuan-sdk.alicdn.com,Ads_AWAvenue
 HOST-SUFFIX,baichuan-sdk.taobao.com,Ads_AWAvenue
 HOST-SUFFIX,bdad.123pan.cn,Ads_AWAvenue
@@ -224,7 +225,6 @@ HOST-SUFFIX,cbjs.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,ccc-x.jd.com,Ads_AWAvenue
 HOST-SUFFIX,ccs.umeng.com,Ads_AWAvenue
 HOST-SUFFIX,cctv.adsunion.com,Ads_AWAvenue
-HOST-SUFFIX,cdn-ad.wtzw.com,Ads_AWAvenue
 HOST-SUFFIX,cdn-ads.oss-cn-shanghai.aliyuncs.com,Ads_AWAvenue
 HOST-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com,Ads_AWAvenue
 HOST-SUFFIX,cdn.aiclk.com,Ads_AWAvenue
@@ -326,6 +326,7 @@ HOST-SUFFIX,hm.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,hmma.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,hotupgrade.hpplay.cn,Ads_AWAvenue
 HOST-SUFFIX,houyi.kkmh.com,Ads_AWAvenue
+HOST-SUFFIX,hpplay.cdn.cibn.cc,Ads_AWAvenue
 HOST-SUFFIX,httpdns.bcelive.com,Ads_AWAvenue
 HOST-SUFFIX,httpdns.ocloud.oppomobile.com,Ads_AWAvenue
 HOST-SUFFIX,hugelog.fcbox.com,Ads_AWAvenue

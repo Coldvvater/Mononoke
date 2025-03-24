@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 687
+# 规则统计: 688
 
 DOMAIN-SUFFIX,1010pic.com
 DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
@@ -191,6 +191,7 @@ DOMAIN-SUFFIX,auction.unityads.unity3d.com
 DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,audid.umeng.com
 DOMAIN-SUFFIX,b1-data.ads.heytapmobi.com
+DOMAIN-SUFFIX,badjs.weixinbridge.com
 DOMAIN-SUFFIX,baichuan-sdk.alicdn.com
 DOMAIN-SUFFIX,baichuan-sdk.taobao.com
 DOMAIN-SUFFIX,bdad.123pan.cn
@@ -224,7 +225,6 @@ DOMAIN-SUFFIX,cbjs.baidu.com
 DOMAIN-SUFFIX,ccc-x.jd.com
 DOMAIN-SUFFIX,ccs.umeng.com
 DOMAIN-SUFFIX,cctv.adsunion.com
-DOMAIN-SUFFIX,cdn-ad.wtzw.com
 DOMAIN-SUFFIX,cdn-ads.oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com
 DOMAIN-SUFFIX,cdn.aiclk.com
@@ -326,6 +326,7 @@ DOMAIN-SUFFIX,hm.baidu.com
 DOMAIN-SUFFIX,hmma.baidu.com
 DOMAIN-SUFFIX,hotupgrade.hpplay.cn
 DOMAIN-SUFFIX,houyi.kkmh.com
+DOMAIN-SUFFIX,hpplay.cdn.cibn.cc
 DOMAIN-SUFFIX,httpdns.bcelive.com
 DOMAIN-SUFFIX,httpdns.ocloud.oppomobile.com
 DOMAIN-SUFFIX,hugelog.fcbox.com
