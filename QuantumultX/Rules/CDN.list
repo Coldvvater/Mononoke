@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3365
+# 规则统计: 3366
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -978,6 +978,7 @@ HOST,files.yande.re,CDN
 HOST,filestore.community.support.microsoft.com,CDN
 HOST,filestore.fortinet.com,CDN
 HOST,firebase-settings.crashlytics.com,CDN
+HOST,firebaseinstallations.googleapis.com,CDN
 HOST,firebaselogging-pa.googleapis.com,CDN
 HOST,firebaselogging.googleapis.com,CDN
 HOST,firefox.settings.services.mozilla.com,CDN

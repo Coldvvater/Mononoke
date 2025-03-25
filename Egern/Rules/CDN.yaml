@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3365
+# 规则统计: 3366
 
 domain_set:
   - 0x0.st
@@ -979,6 +979,7 @@ domain_set:
   - filestore.community.support.microsoft.com
   - filestore.fortinet.com
   - firebase-settings.crashlytics.com
+  - firebaseinstallations.googleapis.com
   - firebaselogging-pa.googleapis.com
   - firebaselogging.googleapis.com
   - firefox.settings.services.mozilla.com

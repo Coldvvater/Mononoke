@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3365
+# 规则统计: 3366
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -978,6 +978,7 @@ DOMAIN,files.yande.re
 DOMAIN,filestore.community.support.microsoft.com
 DOMAIN,filestore.fortinet.com
 DOMAIN,firebase-settings.crashlytics.com
+DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN,firebaselogging-pa.googleapis.com
 DOMAIN,firebaselogging.googleapis.com
 DOMAIN,firefox.settings.services.mozilla.com
