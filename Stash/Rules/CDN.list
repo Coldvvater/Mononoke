@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3357
+# 规则统计: 3363
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -118,6 +118,7 @@ DOMAIN,assets.chess24.com
 DOMAIN,assets.clever-cloud.com
 DOMAIN,assets.clickfunnels.com
 DOMAIN,assets.cloudpilot.ai
+DOMAIN,assets.cmcmarkets.com
 DOMAIN,assets.codepen.io
 DOMAIN,assets.coinbase.com
 DOMAIN,assets.coingecko.com
@@ -148,6 +149,7 @@ DOMAIN,assets.geeksforgeeks.org
 DOMAIN,assets.genius.com
 DOMAIN,assets.getkirby.com
 DOMAIN,assets.github.dev
+DOMAIN,assets.goat.com
 DOMAIN,assets.grammarly.com
 DOMAIN,assets.grooveapps.com
 DOMAIN,assets.guim.co.uk
@@ -321,6 +323,7 @@ DOMAIN,cdn-1.ggjav.com
 DOMAIN,cdn-a.sonyentertainmentnetwork.com
 DOMAIN,cdn-app.pathfactory.com
 DOMAIN,cdn-assets.circleci.com
+DOMAIN,cdn-avatars.huggingface.co
 DOMAIN,cdn-bundler.nice-team.net
 DOMAIN,cdn-c.leavemealone.com
 DOMAIN,cdn-client.medium.com
@@ -402,6 +405,7 @@ DOMAIN,cdn.circle.so
 DOMAIN,cdn.clever-cloud.com
 DOMAIN,cdn.cliqz.com
 DOMAIN,cdn.cloudcraft.co
+DOMAIN,cdn.cmcmarkets.com
 DOMAIN,cdn.cms-twdigitalassets.com
 DOMAIN,cdn.cnn.com
 DOMAIN,cdn.cnx-software.com
@@ -781,6 +785,7 @@ DOMAIN,cloudinary-res.cloudinary.com
 DOMAIN,cms-assets.nodecraft.com
 DOMAIN,cms-assets.webediamovies.pro
 DOMAIN,cms-assets.xboxservices.com
+DOMAIN,cms-cdn.goat.com
 DOMAIN,cms-cdn.now.gg
 DOMAIN,cms.recordedfuture.com
 DOMAIN,cms.therecord.media
@@ -1082,6 +1087,7 @@ DOMAIN,image.crisp.chat
 DOMAIN,image.dooo.ng
 DOMAIN,image.email.microsoftemail.com
 DOMAIN,image.freepik.com
+DOMAIN,image.goat.com
 DOMAIN,image.gyutto.com
 DOMAIN,image.gyutto.jp
 DOMAIN,image.hkhl.hk

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3359
+# 规则统计: 3365
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -118,6 +118,7 @@ HOST,assets.chess24.com,CDN
 HOST,assets.clever-cloud.com,CDN
 HOST,assets.clickfunnels.com,CDN
 HOST,assets.cloudpilot.ai,CDN
+HOST,assets.cmcmarkets.com,CDN
 HOST,assets.codepen.io,CDN
 HOST,assets.coinbase.com,CDN
 HOST,assets.coingecko.com,CDN
@@ -148,6 +149,7 @@ HOST,assets.geeksforgeeks.org,CDN
 HOST,assets.genius.com,CDN
 HOST,assets.getkirby.com,CDN
 HOST,assets.github.dev,CDN
+HOST,assets.goat.com,CDN
 HOST,assets.grammarly.com,CDN
 HOST,assets.grooveapps.com,CDN
 HOST,assets.guim.co.uk,CDN
@@ -321,6 +323,7 @@ HOST,cdn-1.ggjav.com,CDN
 HOST,cdn-a.sonyentertainmentnetwork.com,CDN
 HOST,cdn-app.pathfactory.com,CDN
 HOST,cdn-assets.circleci.com,CDN
+HOST,cdn-avatars.huggingface.co,CDN
 HOST,cdn-bundler.nice-team.net,CDN
 HOST,cdn-c.leavemealone.com,CDN
 HOST,cdn-client.medium.com,CDN
@@ -402,6 +405,7 @@ HOST,cdn.circle.so,CDN
 HOST,cdn.clever-cloud.com,CDN
 HOST,cdn.cliqz.com,CDN
 HOST,cdn.cloudcraft.co,CDN
+HOST,cdn.cmcmarkets.com,CDN
 HOST,cdn.cms-twdigitalassets.com,CDN
 HOST,cdn.cnn.com,CDN
 HOST,cdn.cnx-software.com,CDN
@@ -781,6 +785,7 @@ HOST,cloudinary-res.cloudinary.com,CDN
 HOST,cms-assets.nodecraft.com,CDN
 HOST,cms-assets.webediamovies.pro,CDN
 HOST,cms-assets.xboxservices.com,CDN
+HOST,cms-cdn.goat.com,CDN
 HOST,cms-cdn.now.gg,CDN
 HOST,cms.recordedfuture.com,CDN
 HOST,cms.therecord.media,CDN
@@ -1082,6 +1087,7 @@ HOST,image.crisp.chat,CDN
 HOST,image.dooo.ng,CDN
 HOST,image.email.microsoftemail.com,CDN
 HOST,image.freepik.com,CDN
+HOST,image.goat.com,CDN
 HOST,image.gyutto.com,CDN
 HOST,image.gyutto.jp,CDN
 HOST,image.hkhl.hk,CDN
