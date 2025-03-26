@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2025.03.16
+# Update Date: 2025.03.26
 
 #port: 7891                          # HTTP(S) 代理服务器端口
 #socks-port: 7892                    # SOCKS5 代理端口
@@ -109,14 +109,14 @@ All: &All '^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网
 # 代理组相关
 Select: &Select {type: select, proxies: [Proxy, HongKong, TaiWan, Japan, Singapore, America, AllServer, DIRECT]}
 
-UrlTest: &UrlTest {type: url-test, interval: 300, tolerance: 20, lazy: true, url: 'http://cp.cloudflare.com', disable-udp: false, timeout: 2000, max-failed-times: 3, hidden: true, include-all-providers: true}
+UrlTest: &UrlTest {type: url-test, interval: 300, tolerance: 20, lazy: true, url: 'https://www.gstatic.com/generate_204', disable-udp: false, timeout: 2000, max-failed-times: 3, hidden: true, include-all-providers: true}
 
-FallBack: &FallBack {type: fallback, interval: 300, lazy: true, url: 'http://cp.cloudflare.com', disable-udp: false, timeout: 2000, max-failed-times: 3, hidden: true, include-all-providers: true}
+FallBack: &FallBack {type: fallback, interval: 300, lazy: true, url: 'https://www.gstatic.com/generate_204', disable-udp: false, timeout: 2000, max-failed-times: 3, hidden: true, include-all-providers: true}
 
-LoadBalance: &LoadBalance {type: load-balance, interval: 300, lazy: true, url: 'http://cp.cloudflare.com', disable-udp: false, strategy: consistent-hashing, timeout: 2000, max-failed-times: 3, hidden: true, include-all-providers: true}
+LoadBalance: &LoadBalance {type: load-balance, interval: 300, lazy: true, url: 'https://www.gstatic.com/generate_204', disable-udp: false, strategy: consistent-hashing, timeout: 2000, max-failed-times: 3, hidden: true, include-all-providers: true}
 
 # 远程订阅相关
-p: &p {type: http, interval: 42300, health-check: {enable: true, url: http://cp.cloudflare.com, interval: 300}}
+p: &p {type: http, interval: 42300, health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 300}}
 
 ######### 锚点 end #########
 
