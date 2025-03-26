@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 176
+# 规则统计: 178
 
 no_resolve: true
 domain_set:
@@ -12,6 +12,8 @@ domain_set:
   - notnetflix.cos.cat
   - starharn-cf.nebula-media.org
   - starharn.nebula-media.org
+  - web-starharn.nebula-media.org
+  - web.nebula-media.org
 domain_suffix_set:
   - 123456.al
   - 16bit.cfd

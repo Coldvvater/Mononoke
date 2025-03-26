@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3366
+# 规则统计: 3365
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -248,7 +248,6 @@ DOMAIN,assets9.lottiefiles.com
 DOMAIN,assetscdn-wchat.eu.freshchat.com
 DOMAIN,assetscdn.jable.tv
 DOMAIN,at.cbsi.com
-DOMAIN,atn.hitomi.la
 DOMAIN,attachments.office.net
 DOMAIN,auth.split.io
 DOMAIN,avatar.freepik.com
@@ -284,7 +283,6 @@ DOMAIN,bot.ivy.ai
 DOMAIN,brick.a.ssl.fastly.net
 DOMAIN,brick.freetls.fastly.net
 DOMAIN,bst.icons8.com
-DOMAIN,btn.hitomi.la
 DOMAIN,bundle.dyn-rev.app
 DOMAIN,bundle.trysavvy.com
 DOMAIN,bundlephobia.com
@@ -442,6 +440,7 @@ DOMAIN,cdn.download.it
 DOMAIN,cdn.drata.com
 DOMAIN,cdn.dribbble.com
 DOMAIN,cdn.dynamicyield.com
+DOMAIN,cdn.earthroulette.com
 DOMAIN,cdn.ecomm.ui.com
 DOMAIN,cdn.embed.ly
 DOMAIN,cdn.embedly.com
@@ -594,6 +593,7 @@ DOMAIN,cdn.royaleapi.com
 DOMAIN,cdn.safecharge.com
 DOMAIN,cdn.sanity.io
 DOMAIN,cdn.sc.gl
+DOMAIN,cdn.scaleflex.it
 DOMAIN,cdn.schemaapp.com
 DOMAIN,cdn.sciencecast.org
 DOMAIN,cdn.scripts.wtwhmedia.com
@@ -1016,6 +1016,7 @@ DOMAIN,global.divhunt.com
 DOMAIN,glyph.medium.com
 DOMAIN,gmedia.playstation.com
 DOMAIN,gn-web-assets.api.bbc.com
+DOMAIN,go.imperva.com
 DOMAIN,go.vercel.com
 DOMAIN,godoc.org
 DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
@@ -1079,6 +1080,7 @@ DOMAIN,icons.llamao.fi
 DOMAIN,icons.ly
 DOMAIN,icons.zeabur.com
 DOMAIN,iframe.nbcnews.com
+DOMAIN,ik.imagekit.net
 DOMAIN,imag.malavida.com
 DOMAIN,image-forwarder.notaku.so
 DOMAIN,image.ap-mail.org
@@ -1291,7 +1293,6 @@ DOMAIN,ims.windy.com
 DOMAIN,info.cloudflare.com
 DOMAIN,info.knak.com
 DOMAIN,int.mwbbiz.com
-DOMAIN,int.qiniuyun15.xyz
 DOMAIN,integrations.gitbook.com
 DOMAIN,interactive-examples.mdn.mozilla.net
 DOMAIN,interactive.guim.co.uk
@@ -1371,7 +1372,6 @@ DOMAIN,logo.clearbit.com
 DOMAIN,logos.kiwibrowser.com
 DOMAIN,logos.speedtestcustom.com
 DOMAIN,loutre.blockchair.io
-DOMAIN,ltn.hitomi.la
 DOMAIN,lumiere-a.akamaihd.net
 DOMAIN,m-cdn.phonearena.com
 DOMAIN,m.porn3dx.com
@@ -1527,7 +1527,6 @@ DOMAIN,open-vsx.org
 DOMAIN,openapi.vercel.sh
 DOMAIN,openseauserdata.com
 DOMAIN,opensignal.cdnbye.com
-DOMAIN,opt.moovweb.net
 DOMAIN,optimizationguide-pa.googleapis.com
 DOMAIN,optimizely.com
 DOMAIN,organizer.bizzabo.com
@@ -1984,7 +1983,6 @@ DOMAIN,static.institution.grammarly.com
 DOMAIN,static.iris.informa.com
 DOMAIN,static.itch.io
 DOMAIN,static.j51.net
-DOMAIN,static.javatpoint.com
 DOMAIN,static.javcdn.info
 DOMAIN,static.javhd.com
 DOMAIN,static.jsbin.com
@@ -2114,7 +2112,6 @@ DOMAIN,stats.setapp.com
 DOMAIN,stats.setapp.macpaw.dev
 DOMAIN,status.ui.com
 DOMAIN,stbff.newfold.com
-DOMAIN,stbff.scene7.com
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
@@ -2541,6 +2538,7 @@ DOMAIN-SUFFIX,csp-reporting.cloudflare.com
 DOMAIN-SUFFIX,csp.withgoogle.com
 DOMAIN-SUFFIX,ctfassets.net
 DOMAIN-SUFFIX,cthd.icu
+DOMAIN-SUFFIX,customerioforms.com
 DOMAIN-SUFFIX,cwwcdn.com
 DOMAIN-SUFFIX,data.debugbear.com
 DOMAIN-SUFFIX,dataplane.rudderstack.com
@@ -2672,6 +2670,7 @@ DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,gitpage.si
 DOMAIN-SUFFIX,glass.adidas.com
 DOMAIN-SUFFIX,glbimg.com
+DOMAIN-SUFFIX,gold-usergeneratedcontent.net
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,gravatar.com

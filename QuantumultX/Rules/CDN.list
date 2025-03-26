@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3366
+# 规则统计: 3365
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -248,7 +248,6 @@ HOST,assets9.lottiefiles.com,CDN
 HOST,assetscdn-wchat.eu.freshchat.com,CDN
 HOST,assetscdn.jable.tv,CDN
 HOST,at.cbsi.com,CDN
-HOST,atn.hitomi.la,CDN
 HOST,attachments.office.net,CDN
 HOST,auth.split.io,CDN
 HOST,avatar.freepik.com,CDN
@@ -284,7 +283,6 @@ HOST,bot.ivy.ai,CDN
 HOST,brick.a.ssl.fastly.net,CDN
 HOST,brick.freetls.fastly.net,CDN
 HOST,bst.icons8.com,CDN
-HOST,btn.hitomi.la,CDN
 HOST,bundle.dyn-rev.app,CDN
 HOST,bundle.trysavvy.com,CDN
 HOST,bundlephobia.com,CDN
@@ -442,6 +440,7 @@ HOST,cdn.download.it,CDN
 HOST,cdn.drata.com,CDN
 HOST,cdn.dribbble.com,CDN
 HOST,cdn.dynamicyield.com,CDN
+HOST,cdn.earthroulette.com,CDN
 HOST,cdn.ecomm.ui.com,CDN
 HOST,cdn.embed.ly,CDN
 HOST,cdn.embedly.com,CDN
@@ -594,6 +593,7 @@ HOST,cdn.royaleapi.com,CDN
 HOST,cdn.safecharge.com,CDN
 HOST,cdn.sanity.io,CDN
 HOST,cdn.sc.gl,CDN
+HOST,cdn.scaleflex.it,CDN
 HOST,cdn.schemaapp.com,CDN
 HOST,cdn.sciencecast.org,CDN
 HOST,cdn.scripts.wtwhmedia.com,CDN
@@ -1016,6 +1016,7 @@ HOST,global.divhunt.com,CDN
 HOST,glyph.medium.com,CDN
 HOST,gmedia.playstation.com,CDN
 HOST,gn-web-assets.api.bbc.com,CDN
+HOST,go.imperva.com,CDN
 HOST,go.vercel.com,CDN
 HOST,godoc.org,CDN
 HOST,google-ohttp-relay-safebrowsing.fastly-edge.com,CDN
@@ -1079,6 +1080,7 @@ HOST,icons.llamao.fi,CDN
 HOST,icons.ly,CDN
 HOST,icons.zeabur.com,CDN
 HOST,iframe.nbcnews.com,CDN
+HOST,ik.imagekit.net,CDN
 HOST,imag.malavida.com,CDN
 HOST,image-forwarder.notaku.so,CDN
 HOST,image.ap-mail.org,CDN
@@ -1291,7 +1293,6 @@ HOST,ims.windy.com,CDN
 HOST,info.cloudflare.com,CDN
 HOST,info.knak.com,CDN
 HOST,int.mwbbiz.com,CDN
-HOST,int.qiniuyun15.xyz,CDN
 HOST,integrations.gitbook.com,CDN
 HOST,interactive-examples.mdn.mozilla.net,CDN
 HOST,interactive.guim.co.uk,CDN
@@ -1371,7 +1372,6 @@ HOST,logo.clearbit.com,CDN
 HOST,logos.kiwibrowser.com,CDN
 HOST,logos.speedtestcustom.com,CDN
 HOST,loutre.blockchair.io,CDN
-HOST,ltn.hitomi.la,CDN
 HOST,lumiere-a.akamaihd.net,CDN
 HOST,m-cdn.phonearena.com,CDN
 HOST,m.porn3dx.com,CDN
@@ -1527,7 +1527,6 @@ HOST,open-vsx.org,CDN
 HOST,openapi.vercel.sh,CDN
 HOST,openseauserdata.com,CDN
 HOST,opensignal.cdnbye.com,CDN
-HOST,opt.moovweb.net,CDN
 HOST,optimizationguide-pa.googleapis.com,CDN
 HOST,optimizely.com,CDN
 HOST,organizer.bizzabo.com,CDN
@@ -1984,7 +1983,6 @@ HOST,static.institution.grammarly.com,CDN
 HOST,static.iris.informa.com,CDN
 HOST,static.itch.io,CDN
 HOST,static.j51.net,CDN
-HOST,static.javatpoint.com,CDN
 HOST,static.javcdn.info,CDN
 HOST,static.javhd.com,CDN
 HOST,static.jsbin.com,CDN
@@ -2114,7 +2112,6 @@ HOST,stats.setapp.com,CDN
 HOST,stats.setapp.macpaw.dev,CDN
 HOST,status.ui.com,CDN
 HOST,stbff.newfold.com,CDN
-HOST,stbff.scene7.com,CDN
 HOST,steamcdn-a.akamaihd.net,CDN
 HOST,steamusercontent-a.akamaihd.net,CDN
 HOST,steamuserimages-a.akamaihd.net,CDN
@@ -2541,6 +2538,7 @@ HOST-SUFFIX,csp-reporting.cloudflare.com,CDN
 HOST-SUFFIX,csp.withgoogle.com,CDN
 HOST-SUFFIX,ctfassets.net,CDN
 HOST-SUFFIX,cthd.icu,CDN
+HOST-SUFFIX,customerioforms.com,CDN
 HOST-SUFFIX,cwwcdn.com,CDN
 HOST-SUFFIX,data.debugbear.com,CDN
 HOST-SUFFIX,dataplane.rudderstack.com,CDN
@@ -2672,6 +2670,7 @@ HOST-SUFFIX,gitlab.io,CDN
 HOST-SUFFIX,gitpage.si,CDN
 HOST-SUFFIX,glass.adidas.com,CDN
 HOST-SUFFIX,glbimg.com,CDN
+HOST-SUFFIX,gold-usergeneratedcontent.net,CDN
 HOST-SUFFIX,googleadservices.com,CDN
 HOST-SUFFIX,googleusercontent.com,CDN
 HOST-SUFFIX,gravatar.com,CDN

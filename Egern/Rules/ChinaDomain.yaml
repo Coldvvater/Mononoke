@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 782
+# 规则统计: 784
 
 domain_set:
   - acg.tv
@@ -691,6 +691,8 @@ domain_suffix_set:
   - upaiyun.com
   - upyun.com
   - v-56.com
+  - variflight.com
+  - veryzhun.com
   - vip.com
   - vivo.com
   - vmall.com

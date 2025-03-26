@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 785
+# 规则统计: 787
 
 HOST,acg.tv,ChinaDomain
 HOST,assets1.xboxlive.cn,ChinaDomain
@@ -689,6 +689,8 @@ HOST-SUFFIX,unionpay.com,ChinaDomain
 HOST-SUFFIX,upaiyun.com,ChinaDomain
 HOST-SUFFIX,upyun.com,ChinaDomain
 HOST-SUFFIX,v-56.com,ChinaDomain
+HOST-SUFFIX,variflight.com,ChinaDomain
+HOST-SUFFIX,veryzhun.com,ChinaDomain
 HOST-SUFFIX,vip.com,ChinaDomain
 HOST-SUFFIX,vivo.com,ChinaDomain
 HOST-SUFFIX,vmall.com,ChinaDomain
