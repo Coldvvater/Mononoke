@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3365
+# 规则统计: 3371
 
 domain_set:
   - 0x0.st
@@ -284,6 +284,7 @@ domain_set:
   - brick.a.ssl.fastly.net
   - brick.freetls.fastly.net
   - bst.icons8.com
+  - bucket1.notaku.so
   - bundle.dyn-rev.app
   - bundle.trysavvy.com
   - bundlephobia.com
@@ -778,6 +779,7 @@ domain_set:
   - clientsdk.launchdarkly.com
   - clientstream.launchdarkly.com
   - clips-media-assets2.twitch.tv
+  - clips.kick.com
   - cloud.redhat.com
   - cloud.typenetwork.com
   - cloudflare.tv
@@ -966,6 +968,7 @@ domain_set:
   - files.armorgames.com
   - files.buildwithfern.com
   - files.jotform.com
+  - files.kick.com
   - files.mastodon.ktachibana.party
   - files.mastodon.online
   - files.mastodon.social
@@ -1024,6 +1027,7 @@ domain_set:
   - gopkg.in
   - graph.facebook.com
   - gravatar.cat.net
+  - gstatic.com
   - gt1.onlyhentaistuff.com
   - gtranslate.io
   - hawk.tomsguide.com
@@ -1081,7 +1085,7 @@ domain_set:
   - icons.ly
   - icons.zeabur.com
   - iframe.nbcnews.com
-  - ik.imagekit.net
+  - ik.imgkit.net
   - imag.malavida.com
   - image-forwarder.notaku.so
   - image.ap-mail.org
@@ -1141,6 +1145,7 @@ domain_set:
   - images.freeimages.com
   - images.g2crowd.com
   - images.idgesg.net
+  - images.kick.com
   - images.macrumors.com
   - images.mattel.net
   - images.microcms-assets.io
@@ -2069,6 +2074,7 @@ domain_set:
   - static.underhentai.net
   - static.uptimia.com
   - static.v2ex.com
+  - static.vanta.com
   - static.vinted.com
   - static.vocadb.net
   - static.webclicks24.com

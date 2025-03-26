@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3365
+# 规则统计: 3371
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -283,6 +283,7 @@ HOST,bot.ivy.ai,CDN
 HOST,brick.a.ssl.fastly.net,CDN
 HOST,brick.freetls.fastly.net,CDN
 HOST,bst.icons8.com,CDN
+HOST,bucket1.notaku.so,CDN
 HOST,bundle.dyn-rev.app,CDN
 HOST,bundle.trysavvy.com,CDN
 HOST,bundlephobia.com,CDN
@@ -777,6 +778,7 @@ HOST,clickup.marketlinc.com,CDN
 HOST,clientsdk.launchdarkly.com,CDN
 HOST,clientstream.launchdarkly.com,CDN
 HOST,clips-media-assets2.twitch.tv,CDN
+HOST,clips.kick.com,CDN
 HOST,cloud.redhat.com,CDN
 HOST,cloud.typenetwork.com,CDN
 HOST,cloudflare.tv,CDN
@@ -965,6 +967,7 @@ HOST,file.izanmei.net,CDN
 HOST,files.armorgames.com,CDN
 HOST,files.buildwithfern.com,CDN
 HOST,files.jotform.com,CDN
+HOST,files.kick.com,CDN
 HOST,files.mastodon.ktachibana.party,CDN
 HOST,files.mastodon.online,CDN
 HOST,files.mastodon.social,CDN
@@ -1023,6 +1026,7 @@ HOST,google-ohttp-relay-safebrowsing.fastly-edge.com,CDN
 HOST,gopkg.in,CDN
 HOST,graph.facebook.com,CDN
 HOST,gravatar.cat.net,CDN
+HOST,gstatic.com,CDN
 HOST,gt1.onlyhentaistuff.com,CDN
 HOST,gtranslate.io,CDN
 HOST,hawk.tomsguide.com,CDN
@@ -1080,7 +1084,7 @@ HOST,icons.llamao.fi,CDN
 HOST,icons.ly,CDN
 HOST,icons.zeabur.com,CDN
 HOST,iframe.nbcnews.com,CDN
-HOST,ik.imagekit.net,CDN
+HOST,ik.imgkit.net,CDN
 HOST,imag.malavida.com,CDN
 HOST,image-forwarder.notaku.so,CDN
 HOST,image.ap-mail.org,CDN
@@ -1140,6 +1144,7 @@ HOST,images.flightradar24.com,CDN
 HOST,images.freeimages.com,CDN
 HOST,images.g2crowd.com,CDN
 HOST,images.idgesg.net,CDN
+HOST,images.kick.com,CDN
 HOST,images.macrumors.com,CDN
 HOST,images.mattel.net,CDN
 HOST,images.microcms-assets.io,CDN
@@ -2068,6 +2073,7 @@ HOST,static.ui.com,CDN
 HOST,static.underhentai.net,CDN
 HOST,static.uptimia.com,CDN
 HOST,static.v2ex.com,CDN
+HOST,static.vanta.com,CDN
 HOST,static.vinted.com,CDN
 HOST,static.vocadb.net,CDN
 HOST,static.webclicks24.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3363
+# 规则统计: 3369
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -283,6 +283,7 @@ DOMAIN,bot.ivy.ai
 DOMAIN,brick.a.ssl.fastly.net
 DOMAIN,brick.freetls.fastly.net
 DOMAIN,bst.icons8.com
+DOMAIN,bucket1.notaku.so
 DOMAIN,bundle.dyn-rev.app
 DOMAIN,bundle.trysavvy.com
 DOMAIN,bundlephobia.com
@@ -777,6 +778,7 @@ DOMAIN,clickup.marketlinc.com
 DOMAIN,clientsdk.launchdarkly.com
 DOMAIN,clientstream.launchdarkly.com
 DOMAIN,clips-media-assets2.twitch.tv
+DOMAIN,clips.kick.com
 DOMAIN,cloud.redhat.com
 DOMAIN,cloud.typenetwork.com
 DOMAIN,cloudflare.tv
@@ -965,6 +967,7 @@ DOMAIN,file.izanmei.net
 DOMAIN,files.armorgames.com
 DOMAIN,files.buildwithfern.com
 DOMAIN,files.jotform.com
+DOMAIN,files.kick.com
 DOMAIN,files.mastodon.ktachibana.party
 DOMAIN,files.mastodon.online
 DOMAIN,files.mastodon.social
@@ -1023,6 +1026,7 @@ DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
 DOMAIN,gopkg.in
 DOMAIN,graph.facebook.com
 DOMAIN,gravatar.cat.net
+DOMAIN,gstatic.com
 DOMAIN,gt1.onlyhentaistuff.com
 DOMAIN,gtranslate.io
 DOMAIN,hawk.tomsguide.com
@@ -1080,7 +1084,7 @@ DOMAIN,icons.llamao.fi
 DOMAIN,icons.ly
 DOMAIN,icons.zeabur.com
 DOMAIN,iframe.nbcnews.com
-DOMAIN,ik.imagekit.net
+DOMAIN,ik.imgkit.net
 DOMAIN,imag.malavida.com
 DOMAIN,image-forwarder.notaku.so
 DOMAIN,image.ap-mail.org
@@ -1140,6 +1144,7 @@ DOMAIN,images.flightradar24.com
 DOMAIN,images.freeimages.com
 DOMAIN,images.g2crowd.com
 DOMAIN,images.idgesg.net
+DOMAIN,images.kick.com
 DOMAIN,images.macrumors.com
 DOMAIN,images.mattel.net
 DOMAIN,images.microcms-assets.io
@@ -2068,6 +2073,7 @@ DOMAIN,static.ui.com
 DOMAIN,static.underhentai.net
 DOMAIN,static.uptimia.com
 DOMAIN,static.v2ex.com
+DOMAIN,static.vanta.com
 DOMAIN,static.vinted.com
 DOMAIN,static.vocadb.net
 DOMAIN,static.webclicks24.com
