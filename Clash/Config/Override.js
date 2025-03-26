@@ -2,7 +2,7 @@
 //
 // Clash Verge Rev (Version ≥ 17.2) & Mihomo-Party (Version ≥ 1.5.10)
 //
-// 最后更新时间: 2025-03-24 14:15
+// 最后更新时间: 2025-03-26 14:23
 
 // 规则集通用配置
 const ruleProviderCommon = {
@@ -11,7 +11,7 @@ const ruleProviderCommon = {
 // 策略组通用配置
 const groupBaseOption = {
   "interval": 300,
-  "url": "http://cp.cloudflare.com",
+  "url": "https://www.gstatic.com/generate_204",
   "max-failed-times": 3,
 };
 
