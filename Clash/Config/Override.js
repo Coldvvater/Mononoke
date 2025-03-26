@@ -11,7 +11,7 @@ const ruleProviderCommon = {
 // 策略组通用配置
 const groupBaseOption = {
   "interval": 300,
-  "url": "https://www.gstatic.com/generate_204",
+  "url": "http://www.gstatic.com/generate_204",
   "max-failed-times": 3,
 };
 
