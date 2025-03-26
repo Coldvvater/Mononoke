@@ -1,7 +1,7 @@
 # Stash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2025.03.15
+# Update Date: 2025.03.26
 
 # 通用设置
 mode: rule
@@ -23,7 +23,7 @@ proxy-providers:
   Subscribe:
     url: http://your-service-provider # 用你的订阅链接替换
     interval: 86400
-    benchmark-url: http://cp.cloudflare.com
+    benchmark-url: https://www.gstatic.com/generate_204
     benchmark-timeout: 5
     # 功能分组
 proxy-groups:
