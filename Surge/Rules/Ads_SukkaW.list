@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 70767
+# 规则统计: 70768
 
 DOMAIN,03.lzzncm.com
 DOMAIN,04.lzzncm.com
@@ -383,6 +383,7 @@ DOMAIN,cps.360buy.com
 DOMAIN,crab.baidu.com
 DOMAIN,crash.163.com
 DOMAIN,crashlytics.163.com
+DOMAIN,crashstats-collector-2.opera.com
 DOMAIN,cre-dp.sina.cn
 DOMAIN,cre.dp.sina.cn
 DOMAIN,cre.mix.sina.com.cn

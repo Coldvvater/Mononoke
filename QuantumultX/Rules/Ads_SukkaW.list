@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 70767
+# 规则统计: 70768
 
 HOST,03.lzzncm.com,Ads_SukkaW
 HOST,04.lzzncm.com,Ads_SukkaW
@@ -383,6 +383,7 @@ HOST,cps.360buy.com,Ads_SukkaW
 HOST,crab.baidu.com,Ads_SukkaW
 HOST,crash.163.com,Ads_SukkaW
 HOST,crashlytics.163.com,Ads_SukkaW
+HOST,crashstats-collector-2.opera.com,Ads_SukkaW
 HOST,cre-dp.sina.cn,Ads_SukkaW
 HOST,cre.dp.sina.cn,Ads_SukkaW
 HOST,cre.mix.sina.com.cn,Ads_SukkaW
