@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3371
+# 规则统计: 3376
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -493,6 +493,7 @@ HOST,cdn.infoq.com,CDN
 HOST,cdn.ionos.de,CDN
 HOST,cdn.ip2location.io,CDN
 HOST,cdn.ipregistry.co,CDN
+HOST,cdn.javmg.com,CDN
 HOST,cdn.javsts.com,CDN
 HOST,cdn.jetboost.io,CDN
 HOST,cdn.jetphotos.com,CDN
@@ -1013,6 +1014,7 @@ HOST,g1.nyt.com,CDN
 HOST,gearbox.imgix.com,CDN
 HOST,genesis-cdn.ff.com,CDN
 HOST,geoip-js.com,CDN
+HOST,geojson.io,CDN
 HOST,gfx-data.news-engineering.aws.wapo.pub,CDN
 HOST,gitpkg-fork.vercel.sh,CDN
 HOST,global.divhunt.com,CDN
@@ -1022,6 +1024,7 @@ HOST,gn-web-assets.api.bbc.com,CDN
 HOST,go.imperva.com,CDN
 HOST,go.vercel.com,CDN
 HOST,godoc.org,CDN
+HOST,gohugo.io,CDN
 HOST,google-ohttp-relay-safebrowsing.fastly-edge.com,CDN
 HOST,gopkg.in,CDN
 HOST,graph.facebook.com,CDN
@@ -1434,6 +1437,7 @@ HOST,media.licdn.com,CDN
 HOST,media.loom-app.com,CDN
 HOST,media.mas.to,CDN
 HOST,media.masto.nu,CDN
+HOST,media.minecraftforum.net,CDN
 HOST,media.mstdn.io,CDN
 HOST,media.nationwide.com,CDN
 HOST,media.newyorker.com,CDN
@@ -2875,6 +2879,7 @@ HOST-SUFFIX,lzzyimg.com,CDN
 HOST-SUFFIX,lzzypic.com,CDN
 HOST-SUFFIX,makeuseofimages.com,CDN
 HOST-SUFFIX,mangadex.network,CDN
+HOST-SUFFIX,mangguo-youku.com,CDN
 HOST-SUFFIX,mapi.4kvm.net,CDN
 HOST-SUFFIX,marketing.aws.dev,CDN
 HOST-SUFFIX,mcusercontent.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3371
+# 规则统计: 3376
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -493,6 +493,7 @@ DOMAIN,cdn.infoq.com
 DOMAIN,cdn.ionos.de
 DOMAIN,cdn.ip2location.io
 DOMAIN,cdn.ipregistry.co
+DOMAIN,cdn.javmg.com
 DOMAIN,cdn.javsts.com
 DOMAIN,cdn.jetboost.io
 DOMAIN,cdn.jetphotos.com
@@ -1013,6 +1014,7 @@ DOMAIN,g1.nyt.com
 DOMAIN,gearbox.imgix.com
 DOMAIN,genesis-cdn.ff.com
 DOMAIN,geoip-js.com
+DOMAIN,geojson.io
 DOMAIN,gfx-data.news-engineering.aws.wapo.pub
 DOMAIN,gitpkg-fork.vercel.sh
 DOMAIN,global.divhunt.com
@@ -1022,6 +1024,7 @@ DOMAIN,gn-web-assets.api.bbc.com
 DOMAIN,go.imperva.com
 DOMAIN,go.vercel.com
 DOMAIN,godoc.org
+DOMAIN,gohugo.io
 DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
 DOMAIN,gopkg.in
 DOMAIN,graph.facebook.com
@@ -1434,6 +1437,7 @@ DOMAIN,media.licdn.com
 DOMAIN,media.loom-app.com
 DOMAIN,media.mas.to
 DOMAIN,media.masto.nu
+DOMAIN,media.minecraftforum.net
 DOMAIN,media.mstdn.io
 DOMAIN,media.nationwide.com
 DOMAIN,media.newyorker.com
@@ -2875,6 +2879,7 @@ DOMAIN-SUFFIX,lzzyimg.com
 DOMAIN-SUFFIX,lzzypic.com
 DOMAIN-SUFFIX,makeuseofimages.com
 DOMAIN-SUFFIX,mangadex.network
+DOMAIN-SUFFIX,mangguo-youku.com
 DOMAIN-SUFFIX,mapi.4kvm.net
 DOMAIN-SUFFIX,marketing.aws.dev
 DOMAIN-SUFFIX,mcusercontent.com

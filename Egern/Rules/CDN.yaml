@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3371
+# 规则统计: 3376
 
 domain_set:
   - 0x0.st
@@ -494,6 +494,7 @@ domain_set:
   - cdn.ionos.de
   - cdn.ip2location.io
   - cdn.ipregistry.co
+  - cdn.javmg.com
   - cdn.javsts.com
   - cdn.jetboost.io
   - cdn.jetphotos.com
@@ -1014,6 +1015,7 @@ domain_set:
   - gearbox.imgix.com
   - genesis-cdn.ff.com
   - geoip-js.com
+  - geojson.io
   - gfx-data.news-engineering.aws.wapo.pub
   - gitpkg-fork.vercel.sh
   - global.divhunt.com
@@ -1023,6 +1025,7 @@ domain_set:
   - go.imperva.com
   - go.vercel.com
   - godoc.org
+  - gohugo.io
   - google-ohttp-relay-safebrowsing.fastly-edge.com
   - gopkg.in
   - graph.facebook.com
@@ -1435,6 +1438,7 @@ domain_set:
   - media.loom-app.com
   - media.mas.to
   - media.masto.nu
+  - media.minecraftforum.net
   - media.mstdn.io
   - media.nationwide.com
   - media.newyorker.com
@@ -2877,6 +2881,7 @@ domain_suffix_set:
   - lzzypic.com
   - makeuseofimages.com
   - mangadex.network
+  - mangguo-youku.com
   - mapi.4kvm.net
   - marketing.aws.dev
   - mcusercontent.com
