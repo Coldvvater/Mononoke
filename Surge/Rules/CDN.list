@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3376
+# 规则统计: 3377
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2770,6 +2770,7 @@ DOMAIN-SUFFIX,ingest.us.sentry.io
 DOMAIN-SUFFIX,instant.page
 DOMAIN-SUFFIX,intercomassets.com
 DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,intercomcdn.io
 DOMAIN-SUFFIX,intuitcdn.net
 DOMAIN-SUFFIX,invisionapp-cdn.com
 DOMAIN-SUFFIX,ipfs-gateway.cloud

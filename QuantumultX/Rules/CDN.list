@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3376
+# 规则统计: 3377
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2770,6 +2770,7 @@ HOST-SUFFIX,ingest.us.sentry.io,CDN
 HOST-SUFFIX,instant.page,CDN
 HOST-SUFFIX,intercomassets.com,CDN
 HOST-SUFFIX,intercomcdn.com,CDN
+HOST-SUFFIX,intercomcdn.io,CDN
 HOST-SUFFIX,intuitcdn.net,CDN
 HOST-SUFFIX,invisionapp-cdn.com,CDN
 HOST-SUFFIX,ipfs-gateway.cloud,CDN

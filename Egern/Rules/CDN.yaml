@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3376
+# 规则统计: 3377
 
 domain_set:
   - 0x0.st
@@ -2772,6 +2772,7 @@ domain_suffix_set:
   - instant.page
   - intercomassets.com
   - intercomcdn.com
+  - intercomcdn.io
   - intuitcdn.net
   - invisionapp-cdn.com
   - ipfs-gateway.cloud
