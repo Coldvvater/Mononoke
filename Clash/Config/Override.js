@@ -2,7 +2,7 @@
 //
 // Clash Verge Rev (Version ≥ 17.2) & Mihomo-Party (Version ≥ 1.5.10)
 //
-// 最后更新时间: 2025-03-26 14:23
+// 最后更新时间: 2025-03-28 13:23
 
 // 规则集通用配置
 const ruleProviderCommon = {
@@ -445,7 +445,7 @@ function main(config) {
     "ai-domain": {
       ...ruleProviderCommon,
       "behavior": "domain",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-chat-!cn.mrs",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs",
       "path": "./rules/ai-domain.mrs",
       "type": "http",
       "format": "mrs",
