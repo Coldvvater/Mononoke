@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2025.03.26
+# Update Date: 2025.03.28
 
 #port: 7891                          # HTTP(S) 代理服务器端口
 #socks-port: 7892                    # SOCKS5 代理端口
@@ -226,7 +226,7 @@ rule-providers:
  private-ip: {<<: *i, path: ./ruleset/private-ip.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs}
 
 # AI平台
- ai-domain: {<<: *d, path: ./ruleset/ai-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-chat-!cn.mrs}
+ ai-domain: {<<: *d, path: ./ruleset/ai-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs}
 
 # YouTube
  youtube-domain: {<<: *d, path: ./ruleset/youtube-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs}
