@@ -1,20 +1,27 @@
 # 规则名称: ProxyMedia
-# 规则统计: 320
+# 规则统计: 346
 
 no_resolve: true
 domain_set:
   - 44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+  - ai.google.dev
   - aod-dash-uk-live.akamaized.net
   - aod-hls-uk-live.akamaized.net
+  - api.githubcopilot.com
+  - api.groq.com
+  - api.together.xyz
   - api.viu.now.com
   - atv-ps.amazon.com
   - avodmp4s3ww-a.akamaihd.net
   - bahamut.akamaized.net
+  - bard.google.com
   - bcbolt446c5271-a.akamaihd.net
   - bcbolthboa-a.akamaihd.net
   - cdn.registerdisney.go.com
   - cf-images.ap-southeast-1.prod.boltdns.net
+  - console.groq.com
   - content.jwplatform.com
+  - copilot-proxy.githubusercontent.com
   - d151l6v8er5bdm.cloudfront.net
   - d1k2us671qcoau.cloudfront.net
   - d1v5ir2lpwr8os.cloudfront.net
@@ -32,6 +39,8 @@ domain_set:
   - edge.api.brightcove.com
   - gamer-cds.cdn.hinet.net
   - gamer2-cds.cdn.hinet.net
+  - gemini.google.com
+  - generativelanguage.googleapis.com
   - gspe1-ssl.ls.apple.com
   - hamifans.emome.net
   - hboasia1-i.akamaihd.net
@@ -55,6 +64,7 @@ domain_set:
   - play-edge.itunes.apple.com
   - players.brightcove.net
   - s3-ap-southeast-1.amazonaws.com
+  - sydney.bing.com
   - theater-kktv.cdn.hinet.net
   - videos-f.jwpsrv.com
   - vod-dash-uk-live.akamaized.net
@@ -67,6 +77,7 @@ domain_suffix_set:
   - abema.tv
   - aboutamazon.com
   - adobedtm.com
+  - ai.azure.com
   - aiv-cdn.net
   - aiv-delivery.net
   - amazon.jobs
@@ -75,10 +86,12 @@ domain_suffix_set:
   - amazonuniversity.jobs
   - amazonvideo.com
   - ameba.jp
+  - anthropic.com
   - auth0.com
   - bahamut.com.tw
   - bam.nr-data.net
   - bamgrid.com
+  - bard.google.com
   - bbc.co
   - bbc.co.uk
   - bbc.com
@@ -97,8 +110,11 @@ domain_suffix_set:
   - channel4.com
   - channel5.com
   - chatgpt.com
+  - claude.ai
   - client-api.arkoselabs.com
   - cognito-identity.us-east-1.amazonaws.com
+  - copilot.cloud.microsoft
+  - copilot.microsoft.com
   - cws-hulu.conviva.com
   - cws.conviva.com
   - d151l6v8er5bdm.cloudfront.net
@@ -136,8 +152,11 @@ domain_suffix_set:
   - fox.com
   - foxdcg.com
   - gamer.com.tw
+  - gemini.google.com
   - go.com
   - googlevideo.com
+  - grazie.ai
+  - grazie.aws.intellij.net
   - gvt2.com
   - haiwaikan.com
   - happyon.jp
@@ -187,7 +206,10 @@ domain_suffix_set:
   - kktv.me
   - linetv.tw
   - litv.tv
+  - makersuite.google.com
   - media-amazon.com
+  - meta.ai
+  - mistral.ai
   - mobileanalytics.us-east-1.amazonaws.com
   - mudvod.tv
   - muscdn.com
@@ -234,6 +256,7 @@ domain_suffix_set:
   - p-cdn.us
   - pandora.com
   - pbs.org
+  - perplexity.ai
   - phncdn.com
   - phprcdn.com
   - pornhub.com
@@ -248,6 +271,7 @@ domain_suffix_set:
   - sentry.io
   - skyking.com.tw
   - sndcdn.com
+  - sora.com
   - soundcloud.com
   - spoti.fi
   - spotify.com
@@ -286,9 +310,11 @@ domain_suffix_set:
 domain_keyword_set:
   - -spotify-
   - abematv.akamaized.net
+  - anthropic
   - apiproxy-device-prod-nlb-
   - avoddashs
   - bbcfmt
+  - claude
   - dualstack.apiproxy-
   - hbogoasia
   - japonx
