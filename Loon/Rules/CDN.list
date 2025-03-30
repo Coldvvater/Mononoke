@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3377
+# 规则统计: 3381
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -434,6 +434,7 @@ DOMAIN,cdn.designsystem.arm.com
 DOMAIN,cdn.deta.space
 DOMAIN,cdn.devolutions.net
 DOMAIN,cdn.dnsimple.com
+DOMAIN,cdn.docsbot.com
 DOMAIN,cdn.document360.io
 DOMAIN,cdn.donmai.us
 DOMAIN,cdn.dotaoutpost.com
@@ -952,6 +953,7 @@ DOMAIN,f001.backblazeb2.com
 DOMAIN,f002.backblazeb2.com
 DOMAIN,f003.backblazeb2.com
 DOMAIN,f004.backblazeb2.com
+DOMAIN,fast.appcues.com
 DOMAIN,fast.wistia.com
 DOMAIN,fast.wistia.net
 DOMAIN,fastly-cloud.typenetwork.com
@@ -1478,6 +1480,7 @@ DOMAIN,media8.kissjav.com
 DOMAIN,media9.kissjav.com
 DOMAIN,medias.meow.social
 DOMAIN,megapx-assets.dcard.tw
+DOMAIN,meta.prismlauncher.org
 DOMAIN,metrics.kapa.ai
 DOMAIN,micro.rubiconproject.com
 DOMAIN,minotar.net
@@ -2303,6 +2306,7 @@ DOMAIN,website-cdn.ipinfo.io
 DOMAIN,website-prod.cache.wpscdn.com
 DOMAIN,webstatic.chargebee.com
 DOMAIN,widget.automizely.com
+DOMAIN,widget.datablocks.se
 DOMAIN,widget.docsbot.ai
 DOMAIN,widget.freshworks.com
 DOMAIN,widget.gotolstoy.com

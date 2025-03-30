@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3377
+# 规则统计: 3381
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -434,6 +434,7 @@ HOST,cdn.designsystem.arm.com,CDN
 HOST,cdn.deta.space,CDN
 HOST,cdn.devolutions.net,CDN
 HOST,cdn.dnsimple.com,CDN
+HOST,cdn.docsbot.com,CDN
 HOST,cdn.document360.io,CDN
 HOST,cdn.donmai.us,CDN
 HOST,cdn.dotaoutpost.com,CDN
@@ -952,6 +953,7 @@ HOST,f001.backblazeb2.com,CDN
 HOST,f002.backblazeb2.com,CDN
 HOST,f003.backblazeb2.com,CDN
 HOST,f004.backblazeb2.com,CDN
+HOST,fast.appcues.com,CDN
 HOST,fast.wistia.com,CDN
 HOST,fast.wistia.net,CDN
 HOST,fastly-cloud.typenetwork.com,CDN
@@ -1478,6 +1480,7 @@ HOST,media8.kissjav.com,CDN
 HOST,media9.kissjav.com,CDN
 HOST,medias.meow.social,CDN
 HOST,megapx-assets.dcard.tw,CDN
+HOST,meta.prismlauncher.org,CDN
 HOST,metrics.kapa.ai,CDN
 HOST,micro.rubiconproject.com,CDN
 HOST,minotar.net,CDN
@@ -2303,6 +2306,7 @@ HOST,website-cdn.ipinfo.io,CDN
 HOST,website-prod.cache.wpscdn.com,CDN
 HOST,webstatic.chargebee.com,CDN
 HOST,widget.automizely.com,CDN
+HOST,widget.datablocks.se,CDN
 HOST,widget.docsbot.ai,CDN
 HOST,widget.freshworks.com,CDN
 HOST,widget.gotolstoy.com,CDN
