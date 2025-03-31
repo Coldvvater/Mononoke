@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3381
+# 规则统计: 3384
 
 domain_set:
   - 0x0.st
@@ -370,6 +370,7 @@ domain_set:
   - cdn.announcekit.app
   - cdn.answeroverflow.com
   - cdn.apkmonk.com
+  - cdn.app.fossa.com
   - cdn.app.neononepay.com
   - cdn.apponic.com
   - cdn.arcade.software
@@ -1130,6 +1131,7 @@ domain_set:
   - images-ext-2.discordapp.net
   - images.991.com
   - images.anandtech.com
+  - images.applegamingwiki.com
   - images.arigatotravel.com
   - images.axios.com
   - images.bfmtv.com
@@ -2181,6 +2183,7 @@ domain_set:
   - thingproxy.freeboard.io
   - thumbnail.missav.com
   - thumbnailer.mixcloud.com
+  - thumbnails.applegamingwiki.com
   - thumbnails.cbsig.net
   - thumbor.forbes.com
   - thumbs.onlyfans.com

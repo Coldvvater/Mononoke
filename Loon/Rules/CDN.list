@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3381
+# 规则统计: 3384
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -369,6 +369,7 @@ DOMAIN,cdn.amcharts.com
 DOMAIN,cdn.announcekit.app
 DOMAIN,cdn.answeroverflow.com
 DOMAIN,cdn.apkmonk.com
+DOMAIN,cdn.app.fossa.com
 DOMAIN,cdn.app.neononepay.com
 DOMAIN,cdn.apponic.com
 DOMAIN,cdn.arcade.software
@@ -1129,6 +1130,7 @@ DOMAIN,images-ext-1.discordapp.net
 DOMAIN,images-ext-2.discordapp.net
 DOMAIN,images.991.com
 DOMAIN,images.anandtech.com
+DOMAIN,images.applegamingwiki.com
 DOMAIN,images.arigatotravel.com
 DOMAIN,images.axios.com
 DOMAIN,images.bfmtv.com
@@ -2180,6 +2182,7 @@ DOMAIN,themes.fourthwall.com
 DOMAIN,thingproxy.freeboard.io
 DOMAIN,thumbnail.missav.com
 DOMAIN,thumbnailer.mixcloud.com
+DOMAIN,thumbnails.applegamingwiki.com
 DOMAIN,thumbnails.cbsig.net
 DOMAIN,thumbor.forbes.com
 DOMAIN,thumbs.onlyfans.com

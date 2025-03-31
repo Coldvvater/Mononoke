@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3381
+# 规则统计: 3384
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -369,6 +369,7 @@ HOST,cdn.amcharts.com,CDN
 HOST,cdn.announcekit.app,CDN
 HOST,cdn.answeroverflow.com,CDN
 HOST,cdn.apkmonk.com,CDN
+HOST,cdn.app.fossa.com,CDN
 HOST,cdn.app.neononepay.com,CDN
 HOST,cdn.apponic.com,CDN
 HOST,cdn.arcade.software,CDN
@@ -1129,6 +1130,7 @@ HOST,images-ext-1.discordapp.net,CDN
 HOST,images-ext-2.discordapp.net,CDN
 HOST,images.991.com,CDN
 HOST,images.anandtech.com,CDN
+HOST,images.applegamingwiki.com,CDN
 HOST,images.arigatotravel.com,CDN
 HOST,images.axios.com,CDN
 HOST,images.bfmtv.com,CDN
@@ -2180,6 +2182,7 @@ HOST,themes.fourthwall.com,CDN
 HOST,thingproxy.freeboard.io,CDN
 HOST,thumbnail.missav.com,CDN
 HOST,thumbnailer.mixcloud.com,CDN
+HOST,thumbnails.applegamingwiki.com,CDN
 HOST,thumbnails.cbsig.net,CDN
 HOST,thumbor.forbes.com,CDN
 HOST,thumbs.onlyfans.com,CDN
