@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3384
+# 规则统计: 3385
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1088,6 +1088,7 @@ HOST,icons.ferndocs.com,CDN
 HOST,icons.leavemealone.com,CDN
 HOST,icons.llamao.fi,CDN
 HOST,icons.ly,CDN
+HOST,icons.veryicon.com,CDN
 HOST,icons.zeabur.com,CDN
 HOST,iframe.nbcnews.com,CDN
 HOST,ik.imgkit.net,CDN
