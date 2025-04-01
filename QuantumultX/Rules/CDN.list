@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3385
+# 规则统计: 3390
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -212,6 +212,7 @@ HOST,assets.stickpng.com,CDN
 HOST,assets.swoogo.com,CDN
 HOST,assets.the-independent.com,CDN
 HOST,assets.time.com,CDN
+HOST,assets.toiimg.com,CDN
 HOST,assets.tokopedia.net,CDN
 HOST,assets.toot.cafe,CDN
 HOST,assets.twitch.tv,CDN
@@ -554,6 +555,7 @@ HOST,cdn.paddle.com,CDN
 HOST,cdn.pagefly.io,CDN
 HOST,cdn.pagic.org,CDN
 HOST,cdn.paidy.com,CDN
+HOST,cdn.paritydeals.com,CDN
 HOST,cdn.parsely.com,CDN
 HOST,cdn.pathfactory.com,CDN
 HOST,cdn.pendo.io,CDN
@@ -1350,6 +1352,7 @@ HOST,jsdelivr.ioiox.net,CDN
 HOST,jslibs.blackmagicdesign.com,CDN
 HOST,jsonplaceholder.typicode.com,CDN
 HOST,jssdk.opin.media,CDN
+HOST,jssocdn.indiatimes.com,CDN
 HOST,k-cdn.depot.dev,CDN
 HOST,kdata1.com,CDN
 HOST,keyframe-cdn.abcnews.com,CDN
@@ -1487,6 +1490,7 @@ HOST,meta.prismlauncher.org,CDN
 HOST,metrics.kapa.ai,CDN
 HOST,micro.rubiconproject.com,CDN
 HOST,minotar.net,CDN
+HOST,mintlify.b-cdn.net,CDN
 HOST,mir-s3-cdn-cf.behance.net,CDN
 HOST,miro.medium.com,CDN
 HOST,mixin-images.zeromesh.net,CDN
@@ -2071,6 +2075,7 @@ HOST,static.telegraph.co.uk,CDN
 HOST,static.tenki.jp,CDN
 HOST,static.test-beta.com,CDN
 HOST,static.theguardian.com,CDN
+HOST,static.toiimg.com,CDN
 HOST,static.tokenview.io,CDN
 HOST,static.toss.im,CDN
 HOST,static.tp-link.com,CDN

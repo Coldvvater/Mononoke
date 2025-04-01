@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3385
+# 规则统计: 3390
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -212,6 +212,7 @@ DOMAIN,assets.stickpng.com
 DOMAIN,assets.swoogo.com
 DOMAIN,assets.the-independent.com
 DOMAIN,assets.time.com
+DOMAIN,assets.toiimg.com
 DOMAIN,assets.tokopedia.net
 DOMAIN,assets.toot.cafe
 DOMAIN,assets.twitch.tv
@@ -554,6 +555,7 @@ DOMAIN,cdn.paddle.com
 DOMAIN,cdn.pagefly.io
 DOMAIN,cdn.pagic.org
 DOMAIN,cdn.paidy.com
+DOMAIN,cdn.paritydeals.com
 DOMAIN,cdn.parsely.com
 DOMAIN,cdn.pathfactory.com
 DOMAIN,cdn.pendo.io
@@ -1350,6 +1352,7 @@ DOMAIN,jsdelivr.ioiox.net
 DOMAIN,jslibs.blackmagicdesign.com
 DOMAIN,jsonplaceholder.typicode.com
 DOMAIN,jssdk.opin.media
+DOMAIN,jssocdn.indiatimes.com
 DOMAIN,k-cdn.depot.dev
 DOMAIN,kdata1.com
 DOMAIN,keyframe-cdn.abcnews.com
@@ -1487,6 +1490,7 @@ DOMAIN,meta.prismlauncher.org
 DOMAIN,metrics.kapa.ai
 DOMAIN,micro.rubiconproject.com
 DOMAIN,minotar.net
+DOMAIN,mintlify.b-cdn.net
 DOMAIN,mir-s3-cdn-cf.behance.net
 DOMAIN,miro.medium.com
 DOMAIN,mixin-images.zeromesh.net
@@ -2071,6 +2075,7 @@ DOMAIN,static.telegraph.co.uk
 DOMAIN,static.tenki.jp
 DOMAIN,static.test-beta.com
 DOMAIN,static.theguardian.com
+DOMAIN,static.toiimg.com
 DOMAIN,static.tokenview.io
 DOMAIN,static.toss.im
 DOMAIN,static.tp-link.com

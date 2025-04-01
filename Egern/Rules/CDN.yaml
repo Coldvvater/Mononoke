@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3385
+# 规则统计: 3390
 
 domain_set:
   - 0x0.st
@@ -213,6 +213,7 @@ domain_set:
   - assets.swoogo.com
   - assets.the-independent.com
   - assets.time.com
+  - assets.toiimg.com
   - assets.tokopedia.net
   - assets.toot.cafe
   - assets.twitch.tv
@@ -555,6 +556,7 @@ domain_set:
   - cdn.pagefly.io
   - cdn.pagic.org
   - cdn.paidy.com
+  - cdn.paritydeals.com
   - cdn.parsely.com
   - cdn.pathfactory.com
   - cdn.pendo.io
@@ -1351,6 +1353,7 @@ domain_set:
   - jslibs.blackmagicdesign.com
   - jsonplaceholder.typicode.com
   - jssdk.opin.media
+  - jssocdn.indiatimes.com
   - k-cdn.depot.dev
   - kdata1.com
   - keyframe-cdn.abcnews.com
@@ -1488,6 +1491,7 @@ domain_set:
   - metrics.kapa.ai
   - micro.rubiconproject.com
   - minotar.net
+  - mintlify.b-cdn.net
   - mir-s3-cdn-cf.behance.net
   - miro.medium.com
   - mixin-images.zeromesh.net
@@ -2072,6 +2076,7 @@ domain_set:
   - static.tenki.jp
   - static.test-beta.com
   - static.theguardian.com
+  - static.toiimg.com
   - static.tokenview.io
   - static.toss.im
   - static.tp-link.com

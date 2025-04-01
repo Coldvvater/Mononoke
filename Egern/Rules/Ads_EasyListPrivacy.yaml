@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41536
+# 规则统计: 41592
 
 domain_suffix_set:
   - 0.0.0.1
@@ -4960,6 +4960,7 @@ domain_suffix_set:
   - alluringbucket.com
   - allvideometrika.com
   - almalasers.actonservice.com
+  - alohamiles.com
   - aloofmetal.com
   - aloofvest.com
   - alp1.drimki.fr
@@ -6659,6 +6660,7 @@ domain_suffix_set:
   - applog.yiche.com
   - apply.bluetrustloans.com
   - apply.maxlend.com
+  - applyless.com
   - appointments.covenanthealth.org
   - appointments.providence.org
   - appointments.swedish.org
@@ -8365,7 +8367,6 @@ domain_suffix_set:
   - cdns.brsrvr.com
   - cdnwidget.com
   - cdp.cifinancial.com
-  - cdp.yna.co.kr
   - cdrive.compellent.com
   - cdtm.cdiscount.com
   - ceciliavenus.com
@@ -10644,6 +10645,7 @@ domain_suffix_set:
   - dd.auspost.com.au
   - dd.betano.com
   - dd.control4.com
+  - dd.g2.com
   - dd.leboncoin.fr
   - dd.nytimes.com
   - dd6zx4ibq538k.cloudfront.net
@@ -10679,6 +10681,7 @@ domain_suffix_set:
   - decisivebase.com
   - decisivedrawer.com
   - decisiveducks.com
+  - decklibrary.com
   - decoroustitle.com
   - decoycreation.com
   - decvsm.xlmoto.se
@@ -11645,6 +11648,7 @@ domain_suffix_set:
   - eakwza.bipicar.com
   - earnbaht.com
   - earthquakescarf.com
+  - earthups.com
   - earthycopy.com
   - earthyfarm.com
   - eastern2.secureforms.mcafee.com
@@ -12720,6 +12724,7 @@ domain_suffix_set:
   - esqjac.costakreuzfahrten.de
   - esqxrp.bonprix-fl.be
   - esri.nl.actonservice.com
+  - essayspin.com
   - essmnx.edreams.ch
   - estadisticas.lanacion.com.ar
   - estadonline.publiguias.cl
@@ -17636,6 +17641,7 @@ domain_suffix_set:
   - kampanja.bhtelecom.ba
   - kampanjat.atea.fi
   - kampanjer.yxvisa.no
+  - kape.dataplane.rudderstack.com
   - kaputquill.com
   - kartik.devishetty.com
   - kartik.devishetty.net
@@ -17834,26 +17840,42 @@ domain_suffix_set:
   - l-test.guesthug.com
   - l.apna.co
   - l.audibook.si
+  - l.aufeminin.com
+  - l.autojournal.fr
+  - l.autoplus.fr
   - l.azarlive.com
+  - l.beaute-test.com
   - l.bhaibandhu.com
+  - l.bibamagazine.fr
   - l.bigbasket.com
   - l.biglion.ru
   - l.brightside.com
   - l.bspace.io
   - l.civic.com
   - l.claphere.com
+  - l.closermag.fr
+  - l.cnetfrance.fr
   - l.coastapp.com
   - l.create.canva.com
   - l.cultgear.com
   - l.dev-ajo.caixabank.com
   - l.dev.audibook.si
+  - l.diapasonmag.fr
   - l.dm.casio.info
+  - l.doctissimo.fr
   - l.du.coach
+  - l.dzfoot.com
   - l.e.domain.com.au
   - l.engage.canva.com
+  - l.entrenous.fr
+  - l.football.fr
+  - l.football365.fr
+  - l.francetvinfo.fr
+  - l.gamekult.com
   - l.getpyfl.com
   - l.gocement.com
   - l.gpay.to
+  - l.grazia.fr
   - l.guesthug.com
   - l.ialoc.app
   - l.iamfy.co
@@ -17861,28 +17883,47 @@ domain_suffix_set:
   - l.itribe.in
   - l.jayshetty.me
   - l.kodika.io
+  - l.lacremedugaming.fr
+  - l.lechasseurfrancais.com
+  - l.lejournaldelamaison.fr
+  - l.lesnumeriques.com
   - l.lilyzhou.com
   - l.lyfshort.com
   - l.m.naver.com
   - l.m.tradiecore.com.au
+  - l.maison-travaux.fr
+  - l.mariefrance.fr
+  - l.melty.fr
+  - l.modesettravaux.fr
   - l.mydoki.app
   - l.myvoleo.com
   - l.navx.co
+  - l.netmums.com
   - l.newnew.co
+  - l.nextplz.fr
   - l.nflo.at
+  - l.nicematin.com
   - l.ooyala.com
+  - l.paroledemamans.com
   - l.player.ooyala.com
+  - l.pleinevie.fr
   - l.post2b.com
   - l.prk.bz
+  - l.psychologies.com
   - l.redcross.or.ke
   - l.rovo.co
+  - l.science-et-vie.com
   - l.sharethis.com
   - l.siply.in
+  - l.sportauto.fr
+  - l.sports.fr
   - l.sqrrl.in
   - l.support.canva.com
   - l.supremapoker.net
   - l.t.domain.com.au
+  - l.telestar.fr
   - l.thumbtack.com
+  - l.topsante.com
   - l.topya.com
   - l.training-page.worldvision.ca
   - l.typesquare.com
@@ -17896,6 +17937,7 @@ domain_suffix_set:
   - l.whizzl.com
   - l.workoutparty.co
   - l.your.md
+  - l.zdnet.fr
   - l2k30jsa.theochu.com
   - l936.expressnews.com
   - la.idgenterprise.com
@@ -19036,6 +19078,7 @@ domain_suffix_set:
   - lkluoz.saraceniwines.com
   - lknqfn.furla.com
   - lkvkgk.levis.com.tr
+  - llamavoice.com
   - llkdiu.chacos.com
   - llntrack.messe-duesseldorf.de
   - llqutk.skechers.com.au
@@ -19429,6 +19472,7 @@ domain_suffix_set:
   - luumhi.whatonearthcatalog.com
   - luuonz.motoblouz.com
   - luwzem.skala.nl
+  - luxformula.com
   - luzfpa.dltviaggi.it
   - lv6od3a4sz12.www.logology.co
   - lvidqa.unisportstore.de
@@ -23324,6 +23368,7 @@ domain_suffix_set:
   - monthlyhat.com
   - montpalatin.handicap.fr
   - moodlerooms.blackboard.com
+  - mooncrustpizza.com
   - moorshoes.com
   - more.groups.be
   - more.socialflow.com
@@ -23793,6 +23838,7 @@ domain_suffix_set:
   - njtwub.schneider.de
   - njxnsb.paodeacucar.com
   - nkarmh.jmbullion.com
+  - nkdyzf.com
   - nkothz.duskin.jp
   - nkqxyn.misterspex.co.uk
   - nkwvwb.fluevog.com
@@ -24399,6 +24445,7 @@ domain_suffix_set:
   - one.godigit.com
   - one2.onestep.fr
   - onecloud.avaya.com
+  - onedropocean.com
   - oneid.mmstat.com
   - onelink.taptalk.io
   - onem.marketing.onemarketinguxp.com
@@ -25279,6 +25326,7 @@ domain_suffix_set:
   - plausible.ionicelements.dev
   - plausible.jeroenvandenboorn.nl
   - plausible.joinself.com
+  - plausible.k-words.io
   - plausible.k6sbw.net
   - plausible.kabaret.no
   - plausible.kdojang.com
@@ -25401,6 +25449,7 @@ domain_suffix_set:
   - podbooth.martela.no
   - podbooth.martela.se
   - podiumpresto.com
+  - podname.com
   - poemprompt.com
   - poeticpackage.com
   - pointdigestion.com
@@ -25946,7 +25995,6 @@ domain_suffix_set:
   - quaintcan.com
   - quaintlake.com
   - qualitas-app.hotdoc.com.au
-  - quantserve.com
   - quantumlagoon.com
   - quantumshine.com
   - quarterbean.com
@@ -27602,6 +27650,7 @@ domain_suffix_set:
   - scout.bergfreunde.no
   - scout.bergfreunde.se
   - scp.deltadentalwa.com
+  - scrapcranes.com
   - scrapesleep.com
   - scratchsofa.com
   - screechingfurniture.com
@@ -28584,6 +28633,7 @@ domain_suffix_set:
   - shtptt.cupshe.com
   - shutseashore.com
   - shydinosaurs.com
+  - shylibrary.com
   - shyseed.com
   - siazlw.cetroloja.com.br
   - sicas.ikea.com
@@ -31868,6 +31918,7 @@ domain_suffix_set:
   - sniffer.nitro-test-extern.otto.boreus.de
   - sno1.snowrental.com
   - snoresmile.com
+  - snowflake.qq.com
   - snowman.odencat.com
   - snowmentor.com
   - snowplow.swm.digital
@@ -35840,6 +35891,7 @@ domain_suffix_set:
   - tipstats.onepagelove.com
   - tirandoalmedio.net.anwalt.de
   - tiredthroat.com
+  - tireinside.com
   - tiresomethunder.com
   - titomacia.net.anwalt.de
   - tittendestages.net.anwalt.de
@@ -36107,6 +36159,7 @@ domain_suffix_set:
   - top.skyzone.ro
   - top.wn.com
   - top3.inhaabit.com
+  - topcrazypress.com
   - topichawaii.com
   - topspin.npo.nl
   - toronto-content.cresa.com
@@ -40054,10 +40107,12 @@ domain_suffix_set:
   - whitepapers.blackboard.com
   - whitepapers.rockwellautomation.com
   - whoami.akamai.net.iberostar.com
+  - whoogled.com
   - whqkyq.leasingmarkt.de
   - whwiab.pamono.it
   - why.hdvest.com
   - why3.inseec.education
+  - whymaze.com
   - wiar9wff0ma9.ping.t3.gg
   - widget-pixels.outbrain.com
   - widget.educationdynamics.com
@@ -40079,6 +40134,7 @@ domain_suffix_set:
   - wittypopcorn.com
   - wiz.empowerhearing.com
   - wiz.sncf-connect.com
+  - wizardbuck.com
   - wjssvg.descentekorea.co.kr
   - wjtekf.vidaxl.bg
   - wjzyrk.magiclife.com
