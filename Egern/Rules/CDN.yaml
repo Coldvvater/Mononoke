@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3390
+# 规则统计: 3391
 
 domain_set:
   - 0x0.st
@@ -1608,6 +1608,7 @@ domain_set:
   - pl.ea.com
   - platform-assets.typekit.net
   - platform.instagram.com
+  - platform.theverge.com
   - platform.twitter.com
   - platforms.makemytrip.com
   - play.gotolstoy.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3390
+# 规则统计: 3391
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1607,6 +1607,7 @@ HOST,pkgs.dev.azure.com,CDN
 HOST,pl.ea.com,CDN
 HOST,platform-assets.typekit.net,CDN
 HOST,platform.instagram.com,CDN
+HOST,platform.theverge.com,CDN
 HOST,platform.twitter.com,CDN
 HOST,platforms.makemytrip.com,CDN
 HOST,play.gotolstoy.com,CDN
