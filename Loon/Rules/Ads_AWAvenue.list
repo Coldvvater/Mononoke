@@ -113,7 +113,6 @@ DOMAIN-SUFFIX,adstudio.spotify.com
 DOMAIN-SUFFIX,adtago.s3.amazonaws.com
 DOMAIN-SUFFIX,adtech.yahooinc.com
 DOMAIN-SUFFIX,adtrack.quark.cn
-DOMAIN-SUFFIX,adv.fjtv.net
 DOMAIN-SUFFIX,adv.sec.intl.miui.com
 DOMAIN-SUFFIX,adv.sec.miui.com
 DOMAIN-SUFFIX,advertising-api-eu.amazon.com
@@ -175,6 +174,7 @@ DOMAIN-SUFFIX,api.e.kuaishou.com
 DOMAIN-SUFFIX,api.htp.hubcloud.com.cn
 DOMAIN-SUFFIX,api.hzsanjiaomao.com
 DOMAIN-SUFFIX,api.installer.xiaomi.com
+DOMAIN-SUFFIX,api.jietuhb.com
 DOMAIN-SUFFIX,api.kingdata.ksyun.com
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,api.touch-moblie.com
@@ -225,6 +225,7 @@ DOMAIN-SUFFIX,cbjs.baidu.com
 DOMAIN-SUFFIX,ccc-x.jd.com
 DOMAIN-SUFFIX,ccs.umeng.com
 DOMAIN-SUFFIX,cctv.adsunion.com
+DOMAIN-SUFFIX,cdn-ad.wtzw.com
 DOMAIN-SUFFIX,cdn-ads.oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com
 DOMAIN-SUFFIX,cdn.aiclk.com
@@ -459,7 +460,6 @@ DOMAIN-SUFFIX,nmetrics.samsung.com
 DOMAIN-SUFFIX,notes-analytics-events.apple.com
 DOMAIN-SUFFIX,nsclick.baidu.com
 DOMAIN-SUFFIX,o2o.api.xiaomi.com
-DOMAIN-SUFFIX,oauth-login-drcn.platform.dbankcloud.com
 DOMAIN-SUFFIX,offerwall.yandex.net
 DOMAIN-SUFFIX,omgmta.play.aiseet.atianqi.com
 DOMAIN-SUFFIX,open.e.kuaishou.cn
