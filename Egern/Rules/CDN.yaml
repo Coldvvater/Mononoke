@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3391
+# 规则统计: 3396
 
 domain_set:
   - 0x0.st
@@ -189,6 +189,7 @@ domain_set:
   - assets.orz.uno
   - assets.peatio.com
   - assets.pixlee.com
+  - assets.play.xbox.com
   - assets.plurk.com
   - assets.poool.fr
   - assets.positional-bucket.com
@@ -467,6 +468,7 @@ domain_set:
   - cdn.freecodecamp.org
   - cdn.freshdesk.com
   - cdn.gamemonkey.org
+  - cdn.gatherings.franchise.minecraft-services.net
   - cdn.gdl.gg
   - cdn.geekzone.co.nz
   - cdn.getkoala.com
@@ -562,6 +564,7 @@ domain_set:
   - cdn.pendo.io
   - cdn.perfops.net
   - cdn.permutive.com
+  - cdn.pgvt.io
   - cdn.piano.io
   - cdn.pickystory.com
   - cdn.picrew.me
@@ -881,6 +884,7 @@ domain_set:
   - dl.airdroid.com
   - dl.nwjs.io
   - dl2.nwjs.io
+  - dlassets-ssl.xboxlive.com
   - do.featurebase.app
   - docker.cloudsmith.io
   - docs.rs
@@ -900,6 +904,7 @@ domain_set:
   - ecommplugins-scripts.trustpilot.com
   - ecommplugins-trustboxsettings.trustpilot.com
   - edata.ndtv.com
+  - edge-cloud-resource-static.azureedge.net
   - edge-consumer-static.azureedge.net
   - edge-mobile-static.azureedge.net
   - edge.marker.io
@@ -1936,6 +1941,7 @@ domain_set:
   - static.bangumi.moe
   - static.bbc.co.uk
   - static.bbci.co.uk
+  - static.beebom.com
   - static.bit.cloud
   - static.bit.dev
   - static.bitfinex.com
@@ -2252,9 +2258,6 @@ domain_set:
   - user-uploads.perchance.org
   - usercontent.flodesk.com
   - userfiles.uptimerobot.com
-  - userimg-assets.customeriomail.com
-  - userimg-bee.customeriomail.com
-  - userimg.customeriomail.com
   - userpic.redgifs.com
   - useruploads.visualwebsiteoptimizer.com
   - utteranc.es
@@ -2490,6 +2493,7 @@ domain_suffix_set:
   - cdn.mozilla.net
   - cdn.nimg.jp
   - cdn.nintendo.net
+  - cdn.optimizely.com
   - cdn.pbs.org
   - cdn.printfriendly.com
   - cdn.prismic.io
@@ -2565,6 +2569,7 @@ domain_suffix_set:
   - ctfassets.net
   - cthd.icu
   - customerioforms.com
+  - customeriomail.com
   - cwwcdn.com
   - data.debugbear.com
   - dataplane.rudderstack.com

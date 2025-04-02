@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3391
+# 规则统计: 3396
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -188,6 +188,7 @@ HOST,assets.openshift.net,CDN
 HOST,assets.orz.uno,CDN
 HOST,assets.peatio.com,CDN
 HOST,assets.pixlee.com,CDN
+HOST,assets.play.xbox.com,CDN
 HOST,assets.plurk.com,CDN
 HOST,assets.poool.fr,CDN
 HOST,assets.positional-bucket.com,CDN
@@ -466,6 +467,7 @@ HOST,cdn.freebiesupply.com,CDN
 HOST,cdn.freecodecamp.org,CDN
 HOST,cdn.freshdesk.com,CDN
 HOST,cdn.gamemonkey.org,CDN
+HOST,cdn.gatherings.franchise.minecraft-services.net,CDN
 HOST,cdn.gdl.gg,CDN
 HOST,cdn.geekzone.co.nz,CDN
 HOST,cdn.getkoala.com,CDN
@@ -561,6 +563,7 @@ HOST,cdn.pathfactory.com,CDN
 HOST,cdn.pendo.io,CDN
 HOST,cdn.perfops.net,CDN
 HOST,cdn.permutive.com,CDN
+HOST,cdn.pgvt.io,CDN
 HOST,cdn.piano.io,CDN
 HOST,cdn.pickystory.com,CDN
 HOST,cdn.picrew.me,CDN
@@ -880,6 +883,7 @@ HOST,divhunt.b-cdn.net,CDN
 HOST,dl.airdroid.com,CDN
 HOST,dl.nwjs.io,CDN
 HOST,dl2.nwjs.io,CDN
+HOST,dlassets-ssl.xboxlive.com,CDN
 HOST,do.featurebase.app,CDN
 HOST,docker.cloudsmith.io,CDN
 HOST,docs.rs,CDN
@@ -899,6 +903,7 @@ HOST,ec-prod.scene7.com,CDN
 HOST,ecommplugins-scripts.trustpilot.com,CDN
 HOST,ecommplugins-trustboxsettings.trustpilot.com,CDN
 HOST,edata.ndtv.com,CDN
+HOST,edge-cloud-resource-static.azureedge.net,CDN
 HOST,edge-consumer-static.azureedge.net,CDN
 HOST,edge-mobile-static.azureedge.net,CDN
 HOST,edge.marker.io,CDN
@@ -1935,6 +1940,7 @@ HOST,static.axios.com,CDN
 HOST,static.bangumi.moe,CDN
 HOST,static.bbc.co.uk,CDN
 HOST,static.bbci.co.uk,CDN
+HOST,static.beebom.com,CDN
 HOST,static.bit.cloud,CDN
 HOST,static.bit.dev,CDN
 HOST,static.bitfinex.com,CDN
@@ -2251,9 +2257,6 @@ HOST,user-images.trustpilot.com,CDN
 HOST,user-uploads.perchance.org,CDN
 HOST,usercontent.flodesk.com,CDN
 HOST,userfiles.uptimerobot.com,CDN
-HOST,userimg-assets.customeriomail.com,CDN
-HOST,userimg-bee.customeriomail.com,CDN
-HOST,userimg.customeriomail.com,CDN
 HOST,userpic.redgifs.com,CDN
 HOST,useruploads.visualwebsiteoptimizer.com,CDN
 HOST,utteranc.es,CDN
@@ -2488,6 +2491,7 @@ HOST-SUFFIX,cdn.medallia.com,CDN
 HOST-SUFFIX,cdn.mozilla.net,CDN
 HOST-SUFFIX,cdn.nimg.jp,CDN
 HOST-SUFFIX,cdn.nintendo.net,CDN
+HOST-SUFFIX,cdn.optimizely.com,CDN
 HOST-SUFFIX,cdn.pbs.org,CDN
 HOST-SUFFIX,cdn.printfriendly.com,CDN
 HOST-SUFFIX,cdn.prismic.io,CDN
@@ -2563,6 +2567,7 @@ HOST-SUFFIX,csp.withgoogle.com,CDN
 HOST-SUFFIX,ctfassets.net,CDN
 HOST-SUFFIX,cthd.icu,CDN
 HOST-SUFFIX,customerioforms.com,CDN
+HOST-SUFFIX,customeriomail.com,CDN
 HOST-SUFFIX,cwwcdn.com,CDN
 HOST-SUFFIX,data.debugbear.com,CDN
 HOST-SUFFIX,dataplane.rudderstack.com,CDN
