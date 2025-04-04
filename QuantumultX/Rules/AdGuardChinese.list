@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4786
+# 规则统计: 4793
 
 HOST-SUFFIX,002777.xyz,AdGuardChinese
 HOST-SUFFIX,003store.com,AdGuardChinese
@@ -522,6 +522,7 @@ HOST-SUFFIX,ad.fx168api.com,AdGuardChinese
 HOST-SUFFIX,ad.gmw.cn,AdGuardChinese
 HOST-SUFFIX,ad.hot-mob.com,AdGuardChinese
 HOST-SUFFIX,ad.juksy.com,AdGuardChinese
+HOST-SUFFIX,ad.parkvv.com,AdGuardChinese
 HOST-SUFFIX,ad.szhsx.net,AdGuardChinese
 HOST-SUFFIX,ad.u-car.com.tw,AdGuardChinese
 HOST-SUFFIX,ad.walkgame.com,AdGuardChinese
@@ -1396,6 +1397,7 @@ HOST-SUFFIX,dr.mlcuzee.cn,AdGuardChinese
 HOST-SUFFIX,draktash.com,AdGuardChinese
 HOST-SUFFIX,drandoxo.com,AdGuardChinese
 HOST-SUFFIX,drauvea.com,AdGuardChinese
+HOST-SUFFIX,dreiquksz.com,AdGuardChinese
 HOST-SUFFIX,drenqils.com,AdGuardChinese
 HOST-SUFFIX,dreuaxk.icu,AdGuardChinese
 HOST-SUFFIX,drihmae.com,AdGuardChinese
@@ -3200,6 +3202,7 @@ HOST-SUFFIX,phjtxx.xyz,AdGuardChinese
 HOST-SUFFIX,phk.nmkstcrt.xyz,AdGuardChinese
 HOST-SUFFIX,phorralut.com,AdGuardChinese
 HOST-SUFFIX,photo07.xyz,AdGuardChinese
+HOST-SUFFIX,phozeksr.com,AdGuardChinese
 HOST-SUFFIX,phpad.cqnews.net,AdGuardChinese
 HOST-SUFFIX,phtivr.xyz,AdGuardChinese
 HOST-SUFFIX,phuustikd.com,AdGuardChinese
@@ -3263,6 +3266,7 @@ HOST-SUFFIX,pplkrh.xyz,AdGuardChinese
 HOST-SUFFIX,ppxndfgf.icu,AdGuardChinese
 HOST-SUFFIX,pqav.cn,AdGuardChinese
 HOST-SUFFIX,pqfpvb.icu,AdGuardChinese
+HOST-SUFFIX,pqnonh.top,AdGuardChinese
 HOST-SUFFIX,pqzjki.cn,AdGuardChinese
 HOST-SUFFIX,prhfziq.xyz,AdGuardChinese
 HOST-SUFFIX,pro.cn,AdGuardChinese
@@ -3484,6 +3488,7 @@ HOST-SUFFIX,rhzvlcu.xyz,AdGuardChinese
 HOST-SUFFIX,richh.cn,AdGuardChinese
 HOST-SUFFIX,ridirre.com,AdGuardChinese
 HOST-SUFFIX,riemutmh.com,AdGuardChinese
+HOST-SUFFIX,rinl.cn,AdGuardChinese
 HOST-SUFFIX,riscats.com,AdGuardChinese
 HOST-SUFFIX,riym.cn,AdGuardChinese
 HOST-SUFFIX,rjwpwod.icu,AdGuardChinese
@@ -3696,6 +3701,7 @@ HOST-SUFFIX,snzfj.net,AdGuardChinese
 HOST-SUFFIX,so.auto999.cn,AdGuardChinese
 HOST-SUFFIX,so03311koaq.com,AdGuardChinese
 HOST-SUFFIX,so04010koaq.com,AdGuardChinese
+HOST-SUFFIX,so04030koaq.com,AdGuardChinese
 HOST-SUFFIX,sodenneyg.com,AdGuardChinese
 HOST-SUFFIX,sodhef.com,AdGuardChinese
 HOST-SUFFIX,sofseo.cn,AdGuardChinese
@@ -4774,6 +4780,7 @@ HOST-SUFFIX,zutevd.xyz,AdGuardChinese
 HOST-SUFFIX,zvhlzb.xyz,AdGuardChinese
 HOST-SUFFIX,zvvlbf.xyz,AdGuardChinese
 HOST-SUFFIX,zwdtvx.xyz,AdGuardChinese
+HOST-SUFFIX,zwgqzgo.icu,AdGuardChinese
 HOST-SUFFIX,zwlxnj.xyz,AdGuardChinese
 HOST-SUFFIX,zwzdjb.xyz,AdGuardChinese
 HOST-SUFFIX,zx.docin.com,AdGuardChinese

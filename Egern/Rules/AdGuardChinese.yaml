@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4786
+# 规则统计: 4793
 
 domain_suffix_set:
   - 002777.xyz
@@ -523,6 +523,7 @@ domain_suffix_set:
   - ad.gmw.cn
   - ad.hot-mob.com
   - ad.juksy.com
+  - ad.parkvv.com
   - ad.szhsx.net
   - ad.u-car.com.tw
   - ad.walkgame.com
@@ -1397,6 +1398,7 @@ domain_suffix_set:
   - draktash.com
   - drandoxo.com
   - drauvea.com
+  - dreiquksz.com
   - drenqils.com
   - dreuaxk.icu
   - drihmae.com
@@ -3201,6 +3203,7 @@ domain_suffix_set:
   - phk.nmkstcrt.xyz
   - phorralut.com
   - photo07.xyz
+  - phozeksr.com
   - phpad.cqnews.net
   - phtivr.xyz
   - phuustikd.com
@@ -3264,6 +3267,7 @@ domain_suffix_set:
   - ppxndfgf.icu
   - pqav.cn
   - pqfpvb.icu
+  - pqnonh.top
   - pqzjki.cn
   - prhfziq.xyz
   - pro.cn
@@ -3485,6 +3489,7 @@ domain_suffix_set:
   - richh.cn
   - ridirre.com
   - riemutmh.com
+  - rinl.cn
   - riscats.com
   - riym.cn
   - rjwpwod.icu
@@ -3697,6 +3702,7 @@ domain_suffix_set:
   - so.auto999.cn
   - so03311koaq.com
   - so04010koaq.com
+  - so04030koaq.com
   - sodenneyg.com
   - sodhef.com
   - sofseo.cn
@@ -4775,6 +4781,7 @@ domain_suffix_set:
   - zvhlzb.xyz
   - zvvlbf.xyz
   - zwdtvx.xyz
+  - zwgqzgo.icu
   - zwlxnj.xyz
   - zwzdjb.xyz
   - zx.docin.com
