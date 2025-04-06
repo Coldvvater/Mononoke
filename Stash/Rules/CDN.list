@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3396
+# 规则统计: 3402
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -69,6 +69,7 @@ DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apps.bazaarvoice.com
 DOMAIN,apps.profitihub.com
+DOMAIN,apps.sophi.io
 DOMAIN,archive.mozilla.org
 DOMAIN,artworks.thetvdb.com
 DOMAIN,asset-cdn.uscardforum.com
@@ -758,6 +759,7 @@ DOMAIN,cdnjs.cloudflare.com
 DOMAIN,cdnl.tnaflix.com
 DOMAIN,cdns.gigya.com
 DOMAIN,cdnstatic.porno-cum.com
+DOMAIN,cdnstatic.tencentcs.com
 DOMAIN,cdnstatic.w1mp.com
 DOMAIN,cdnstatic.w4nkr.com
 DOMAIN,cdntranscend.eventbrite.com
@@ -846,6 +848,7 @@ DOMAIN,cpwebassets.codepen.io
 DOMAIN,craftassets.unraid.net
 DOMAIN,cravatar.eu
 DOMAIN,creativajs.altervista.org
+DOMAIN,creative.eizzih.com
 DOMAIN,creator-image.javhd.com
 DOMAIN,crl.usertrust.com
 DOMAIN,crl.verisign.com
@@ -1713,6 +1716,7 @@ DOMAIN,resource.video.nimg.jp
 DOMAIN,resources-cache.prod.sketch.com
 DOMAIN,resources-live.sketch.cloud
 DOMAIN,resources.help.salesforce.com
+DOMAIN,resources.whatwg.org
 DOMAIN,rest.happierleads.com
 DOMAIN,rsi.grafana.com
 DOMAIN,rsms.me
@@ -2132,6 +2136,7 @@ DOMAIN,static7.lottiefiles.com
 DOMAIN,static8.lottiefiles.com
 DOMAIN,static9.lottiefiles.com
 DOMAIN,staticctf.ubisoft.com
+DOMAIN,staticintl.cloudcachetci.com
 DOMAIN,statics-marketingsites-eas-ms-com.akamaized.net
 DOMAIN,statics.erothots.co
 DOMAIN,statics.goorm.io
@@ -2611,6 +2616,7 @@ DOMAIN-SUFFIX,easylist.to
 DOMAIN-SUFFIX,ebayimg.com
 DOMAIN-SUFFIX,ebaystatic.com
 DOMAIN-SUFFIX,edge.storage-yahoo.jp
+DOMAIN-SUFFIX,edgeone.app
 DOMAIN-SUFFIX,edgestorewebcdn.azureedge.net
 DOMAIN-SUFFIX,eggjs.org
 DOMAIN-SUFFIX,ehgt.org

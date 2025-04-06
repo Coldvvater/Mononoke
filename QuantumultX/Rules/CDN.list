@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3398
+# 规则统计: 3404
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -69,6 +69,7 @@ HOST,apple-relay.cloudflare.com,CDN
 HOST,apple-relay.fastly-edge.com,CDN
 HOST,apps.bazaarvoice.com,CDN
 HOST,apps.profitihub.com,CDN
+HOST,apps.sophi.io,CDN
 HOST,archive.mozilla.org,CDN
 HOST,artworks.thetvdb.com,CDN
 HOST,asset-cdn.uscardforum.com,CDN
@@ -758,6 +759,7 @@ HOST,cdnjs.cloudflare.com,CDN
 HOST,cdnl.tnaflix.com,CDN
 HOST,cdns.gigya.com,CDN
 HOST,cdnstatic.porno-cum.com,CDN
+HOST,cdnstatic.tencentcs.com,CDN
 HOST,cdnstatic.w1mp.com,CDN
 HOST,cdnstatic.w4nkr.com,CDN
 HOST,cdntranscend.eventbrite.com,CDN
@@ -846,6 +848,7 @@ HOST,cpwebassets.codepen.io,CDN
 HOST,craftassets.unraid.net,CDN
 HOST,cravatar.eu,CDN
 HOST,creativajs.altervista.org,CDN
+HOST,creative.eizzih.com,CDN
 HOST,creator-image.javhd.com,CDN
 HOST,crl.usertrust.com,CDN
 HOST,crl.verisign.com,CDN
@@ -1713,6 +1716,7 @@ HOST,resource.video.nimg.jp,CDN
 HOST,resources-cache.prod.sketch.com,CDN
 HOST,resources-live.sketch.cloud,CDN
 HOST,resources.help.salesforce.com,CDN
+HOST,resources.whatwg.org,CDN
 HOST,rest.happierleads.com,CDN
 HOST,rsi.grafana.com,CDN
 HOST,rsms.me,CDN
@@ -2132,6 +2136,7 @@ HOST,static7.lottiefiles.com,CDN
 HOST,static8.lottiefiles.com,CDN
 HOST,static9.lottiefiles.com,CDN
 HOST,staticctf.ubisoft.com,CDN
+HOST,staticintl.cloudcachetci.com,CDN
 HOST,statics-marketingsites-eas-ms-com.akamaized.net,CDN
 HOST,statics.erothots.co,CDN
 HOST,statics.goorm.io,CDN
@@ -2611,6 +2616,7 @@ HOST-SUFFIX,easylist.to,CDN
 HOST-SUFFIX,ebayimg.com,CDN
 HOST-SUFFIX,ebaystatic.com,CDN
 HOST-SUFFIX,edge.storage-yahoo.jp,CDN
+HOST-SUFFIX,edgeone.app,CDN
 HOST-SUFFIX,edgestorewebcdn.azureedge.net,CDN
 HOST-SUFFIX,eggjs.org,CDN
 HOST-SUFFIX,ehgt.org,CDN

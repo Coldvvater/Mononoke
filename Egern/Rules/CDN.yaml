@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3398
+# 规则统计: 3404
 
 domain_set:
   - 0x0.st
@@ -70,6 +70,7 @@ domain_set:
   - apple-relay.fastly-edge.com
   - apps.bazaarvoice.com
   - apps.profitihub.com
+  - apps.sophi.io
   - archive.mozilla.org
   - artworks.thetvdb.com
   - asset-cdn.uscardforum.com
@@ -759,6 +760,7 @@ domain_set:
   - cdnl.tnaflix.com
   - cdns.gigya.com
   - cdnstatic.porno-cum.com
+  - cdnstatic.tencentcs.com
   - cdnstatic.w1mp.com
   - cdnstatic.w4nkr.com
   - cdntranscend.eventbrite.com
@@ -847,6 +849,7 @@ domain_set:
   - craftassets.unraid.net
   - cravatar.eu
   - creativajs.altervista.org
+  - creative.eizzih.com
   - creator-image.javhd.com
   - crl.usertrust.com
   - crl.verisign.com
@@ -1714,6 +1717,7 @@ domain_set:
   - resources-cache.prod.sketch.com
   - resources-live.sketch.cloud
   - resources.help.salesforce.com
+  - resources.whatwg.org
   - rest.happierleads.com
   - rsi.grafana.com
   - rsms.me
@@ -2133,6 +2137,7 @@ domain_set:
   - static8.lottiefiles.com
   - static9.lottiefiles.com
   - staticctf.ubisoft.com
+  - staticintl.cloudcachetci.com
   - statics-marketingsites-eas-ms-com.akamaized.net
   - statics.erothots.co
   - statics.goorm.io
@@ -2613,6 +2618,7 @@ domain_suffix_set:
   - ebayimg.com
   - ebaystatic.com
   - edge.storage-yahoo.jp
+  - edgeone.app
   - edgestorewebcdn.azureedge.net
   - eggjs.org
   - ehgt.org

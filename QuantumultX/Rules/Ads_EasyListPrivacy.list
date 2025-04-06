@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41592
+# 规则统计: 41593
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -34716,6 +34716,7 @@ HOST-SUFFIX,sxjfhh.vcstar.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sxmxpm.nectarsleep.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sxp.allianz.de,Ads_EasyListPrivacy
 HOST-SUFFIX,sxwxswg8z1xe.www.arnowebtv.com,Ads_EasyListPrivacy
+HOST-SUFFIX,sy.ameba.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,sy.amebame.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sy.ameblo.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,sy57d8wi.com,Ads_EasyListPrivacy
