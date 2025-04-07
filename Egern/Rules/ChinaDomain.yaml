@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 784
+# 规则统计: 786
 
 domain_set:
   - acg.tv
@@ -143,6 +143,8 @@ domain_suffix_set:
   - baidustatic.com
   - baike.com
   - baishancdnx.cn
+  - baixing.com
+  - baixing.net
   - baomitu.com
   - battle.net
   - bcebos.com

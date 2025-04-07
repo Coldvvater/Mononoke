@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 787
+# 规则统计: 789
 
 HOST,acg.tv,ChinaDomain
 HOST,assets1.xboxlive.cn,ChinaDomain
@@ -141,6 +141,8 @@ HOST-SUFFIX,baidupcs.com,ChinaDomain
 HOST-SUFFIX,baidustatic.com,ChinaDomain
 HOST-SUFFIX,baike.com,ChinaDomain
 HOST-SUFFIX,baishancdnx.cn,ChinaDomain
+HOST-SUFFIX,baixing.com,ChinaDomain
+HOST-SUFFIX,baixing.net,ChinaDomain
 HOST-SUFFIX,baomitu.com,ChinaDomain
 HOST-SUFFIX,battle.net,ChinaDomain
 HOST-SUFFIX,bcebos.com,ChinaDomain

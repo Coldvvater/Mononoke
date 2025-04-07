@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3404
+# 规则统计: 3405
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -191,6 +191,7 @@ HOST,assets.peatio.com,CDN
 HOST,assets.pixlee.com,CDN
 HOST,assets.play.xbox.com,CDN
 HOST,assets.plurk.com,CDN
+HOST,assets.polarbyte.com,CDN
 HOST,assets.poool.fr,CDN
 HOST,assets.positional-bucket.com,CDN
 HOST,assets.prowritingaid.com,CDN
