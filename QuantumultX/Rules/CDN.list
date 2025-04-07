@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3405
+# 规则统计: 3412
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -164,6 +164,7 @@ HOST,assets.ipstack.com,CDN
 HOST,assets.jable.tv,CDN
 HOST,assets.jolipage.co,CDN
 HOST,assets.kagi.com,CDN
+HOST,assets.keysquare.io,CDN
 HOST,assets.kraken.com,CDN
 HOST,assets.leetcode.com,CDN
 HOST,assets.lemonsqueezy.com,CDN
@@ -942,6 +943,7 @@ HOST,encrypted-vtbn2.gstatic.com,CDN
 HOST,encrypted-vtbn3.gstatic.com,CDN
 HOST,epic-social-social-modules-prod.ol.epicgames.com,CDN
 HOST,error.rakuten.co.jp,CDN
+HOST,eslint-react.xyz,CDN
 HOST,eslint.org,CDN
 HOST,eslint.style,CDN
 HOST,eu-images.contentstack.com,CDN
@@ -1051,6 +1053,7 @@ HOST,hawk.tomsguide.com,CDN
 HOST,headway-widget.net,CDN
 HOST,heatmap-external-a.strava.com,CDN
 HOST,hentaiworldtv.b-cdn.net,CDN
+HOST,heroicons.com,CDN
 HOST,hhhhhhome86227170.wordpress.com,CDN
 HOST,hips.hearstapps.com,CDN
 HOST,hls.hentaicity.com,CDN
@@ -1716,6 +1719,7 @@ HOST,resource.fs.com,CDN
 HOST,resource.video.nimg.jp,CDN
 HOST,resources-cache.prod.sketch.com,CDN
 HOST,resources-live.sketch.cloud,CDN
+HOST,resources.chessbase.com,CDN
 HOST,resources.help.salesforce.com,CDN
 HOST,resources.whatwg.org,CDN
 HOST,rest.happierleads.com,CDN
@@ -1959,6 +1963,7 @@ HOST,static.canva.com,CDN
 HOST,static.captcha-delivery.com,CDN
 HOST,static.chaika.moe,CDN
 HOST,static.change.org,CDN
+HOST,static.chessarena.com,CDN
 HOST,static.cloud.coveo.com,CDN
 HOST,static.cloudcachetci.com,CDN
 HOST,static.cnbeta.com.tw,CDN
@@ -2306,6 +2311,7 @@ HOST,wac-cdn.atlassian.com,CDN
 HOST,waitlisted.co,CDN
 HOST,wandi-6402.kxcdn.com,CDN
 HOST,wcpstatic.microsoft.com,CDN
+HOST,wctour-images.worldchess.com,CDN
 HOST,weather.istatmenus.app,CDN
 HOST,web-assets.esetstatic.com,CDN
 HOST,web-assets.ifttt.com,CDN
@@ -2397,6 +2403,7 @@ HOST-SUFFIX,airio3.live,CDN
 HOST-SUFFIX,akamai-content-network.com,CDN
 HOST-SUFFIX,akidoo.top,CDN
 HOST-SUFFIX,alexdav.id,CDN
+HOST-SUFFIX,algolianet.com,CDN
 HOST-SUFFIX,alonestreaming.com,CDN
 HOST-SUFFIX,alphafish.top,CDN
 HOST-SUFFIX,amaicdn.com,CDN

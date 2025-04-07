@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3403
+# 规则统计: 3410
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -164,6 +164,7 @@ DOMAIN,assets.ipstack.com
 DOMAIN,assets.jable.tv
 DOMAIN,assets.jolipage.co
 DOMAIN,assets.kagi.com
+DOMAIN,assets.keysquare.io
 DOMAIN,assets.kraken.com
 DOMAIN,assets.leetcode.com
 DOMAIN,assets.lemonsqueezy.com
@@ -942,6 +943,7 @@ DOMAIN,encrypted-vtbn2.gstatic.com
 DOMAIN,encrypted-vtbn3.gstatic.com
 DOMAIN,epic-social-social-modules-prod.ol.epicgames.com
 DOMAIN,error.rakuten.co.jp
+DOMAIN,eslint-react.xyz
 DOMAIN,eslint.org
 DOMAIN,eslint.style
 DOMAIN,eu-images.contentstack.com
@@ -1051,6 +1053,7 @@ DOMAIN,hawk.tomsguide.com
 DOMAIN,headway-widget.net
 DOMAIN,heatmap-external-a.strava.com
 DOMAIN,hentaiworldtv.b-cdn.net
+DOMAIN,heroicons.com
 DOMAIN,hhhhhhome86227170.wordpress.com
 DOMAIN,hips.hearstapps.com
 DOMAIN,hls.hentaicity.com
@@ -1716,6 +1719,7 @@ DOMAIN,resource.fs.com
 DOMAIN,resource.video.nimg.jp
 DOMAIN,resources-cache.prod.sketch.com
 DOMAIN,resources-live.sketch.cloud
+DOMAIN,resources.chessbase.com
 DOMAIN,resources.help.salesforce.com
 DOMAIN,resources.whatwg.org
 DOMAIN,rest.happierleads.com
@@ -1959,6 +1963,7 @@ DOMAIN,static.canva.com
 DOMAIN,static.captcha-delivery.com
 DOMAIN,static.chaika.moe
 DOMAIN,static.change.org
+DOMAIN,static.chessarena.com
 DOMAIN,static.cloud.coveo.com
 DOMAIN,static.cloudcachetci.com
 DOMAIN,static.cnbeta.com.tw
@@ -2306,6 +2311,7 @@ DOMAIN,wac-cdn.atlassian.com
 DOMAIN,waitlisted.co
 DOMAIN,wandi-6402.kxcdn.com
 DOMAIN,wcpstatic.microsoft.com
+DOMAIN,wctour-images.worldchess.com
 DOMAIN,weather.istatmenus.app
 DOMAIN,web-assets.esetstatic.com
 DOMAIN,web-assets.ifttt.com
@@ -2397,6 +2403,7 @@ DOMAIN-SUFFIX,airio3.live
 DOMAIN-SUFFIX,akamai-content-network.com
 DOMAIN-SUFFIX,akidoo.top
 DOMAIN-SUFFIX,alexdav.id
+DOMAIN-SUFFIX,algolianet.com
 DOMAIN-SUFFIX,alonestreaming.com
 DOMAIN-SUFFIX,alphafish.top
 DOMAIN-SUFFIX,amaicdn.com

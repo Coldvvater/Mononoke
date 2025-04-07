@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3405
+# 规则统计: 3412
 
 domain_set:
   - 0x0.st
@@ -165,6 +165,7 @@ domain_set:
   - assets.jable.tv
   - assets.jolipage.co
   - assets.kagi.com
+  - assets.keysquare.io
   - assets.kraken.com
   - assets.leetcode.com
   - assets.lemonsqueezy.com
@@ -943,6 +944,7 @@ domain_set:
   - encrypted-vtbn3.gstatic.com
   - epic-social-social-modules-prod.ol.epicgames.com
   - error.rakuten.co.jp
+  - eslint-react.xyz
   - eslint.org
   - eslint.style
   - eu-images.contentstack.com
@@ -1052,6 +1054,7 @@ domain_set:
   - headway-widget.net
   - heatmap-external-a.strava.com
   - hentaiworldtv.b-cdn.net
+  - heroicons.com
   - hhhhhhome86227170.wordpress.com
   - hips.hearstapps.com
   - hls.hentaicity.com
@@ -1717,6 +1720,7 @@ domain_set:
   - resource.video.nimg.jp
   - resources-cache.prod.sketch.com
   - resources-live.sketch.cloud
+  - resources.chessbase.com
   - resources.help.salesforce.com
   - resources.whatwg.org
   - rest.happierleads.com
@@ -1960,6 +1964,7 @@ domain_set:
   - static.captcha-delivery.com
   - static.chaika.moe
   - static.change.org
+  - static.chessarena.com
   - static.cloud.coveo.com
   - static.cloudcachetci.com
   - static.cnbeta.com.tw
@@ -2307,6 +2312,7 @@ domain_set:
   - waitlisted.co
   - wandi-6402.kxcdn.com
   - wcpstatic.microsoft.com
+  - wctour-images.worldchess.com
   - weather.istatmenus.app
   - web-assets.esetstatic.com
   - web-assets.ifttt.com
@@ -2399,6 +2405,7 @@ domain_suffix_set:
   - akamai-content-network.com
   - akidoo.top
   - alexdav.id
+  - algolianet.com
   - alonestreaming.com
   - alphafish.top
   - amaicdn.com
