@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3414
+# 规则统计: 3428
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -26,6 +26,7 @@ HOST,ajax.microsoft.com,CDN
 HOST,ak.sail-horizon.com,CDN
 HOST,akamai-assets.squarespace.com,CDN
 HOST,alt.idgesg.net,CDN
+HOST,amazon-omni-cdn.com,CDN
 HOST,amp.azure.net,CDN
 HOST,analytics.twitter.com,CDN
 HOST,analytics.welcomesoftware.com,CDN
@@ -40,6 +41,7 @@ HOST,api.bintray.com,CDN
 HOST,api.crashguard.me,CDN
 HOST,api.dicebear.com,CDN
 HOST,api.iconify.design,CDN
+HOST,api.indexnow.org,CDN
 HOST,api.instantly.ai,CDN
 HOST,api.mintlify.com,CDN
 HOST,api.mixpanel.com,CDN
@@ -295,6 +297,7 @@ HOST,bundlephobia.com,CDN
 HOST,bundler.nice-team.net,CDN
 HOST,bundler.wix-code.com,CDN
 HOST,bundles.npr.org,CDN
+HOST,businessunitprofile-cdn.trustpilot.net,CDN
 HOST,busuanzi.ibruce.info,CDN
 HOST,c.1password.com,CDN
 HOST,c.fantia.jp,CDN
@@ -322,6 +325,7 @@ HOST,cache-05.filehippo.net,CDN
 HOST,cache.armorgames.com,CDN
 HOST,cache.hackedfreegames.com,CDN
 HOST,cassette.sphdigital.com.sg,CDN
+HOST,cc-embed.adobe.com,CDN
 HOST,cc.boyfriendtv.com,CDN
 HOST,cdn-1.ggjav.com,CDN
 HOST,cdn-a.sonyentertainmentnetwork.com,CDN
@@ -392,6 +396,7 @@ HOST,cdn.bigcloud.click,CDN
 HOST,cdn.birdie.so,CDN
 HOST,cdn.botframework.com,CDN
 HOST,cdn.branch.io,CDN
+HOST,cdn.brandfetch.io,CDN
 HOST,cdn.britannica.com,CDN
 HOST,cdn.bsky.social,CDN
 HOST,cdn.builder.io,CDN
@@ -653,6 +658,7 @@ HOST,cdn.unrealengine.com,CDN
 HOST,cdn.unwire.hk,CDN
 HOST,cdn.up-timely.com,CDN
 HOST,cdn.uptimia.com,CDN
+HOST,cdn.us-east-1.prod.moon.dubai.aws.dev,CDN
 HOST,cdn.usd.fan,CDN
 HOST,cdn.userreport.com,CDN
 HOST,cdn.v2ex.com,CDN
@@ -805,6 +811,7 @@ HOST,cms.recordedfuture.com,CDN
 HOST,cms.therecord.media,CDN
 HOST,cms.typenetwork.com,CDN
 HOST,code.benco.io,CDN
+HOST,code.buywithprime.amazon.com,CDN
 HOST,code.highcharts.com,CDN
 HOST,code.iconify.design,CDN
 HOST,code.ionicframework.com,CDN
@@ -827,6 +834,7 @@ HOST,consent-notice.ft.com,CDN
 HOST,consent.dw.com,CDN
 HOST,consentdeliveryfd.azurefd.net,CDN
 HOST,consumersite-assets.trustpilot.net,CDN
+HOST,consumersiteimages.trustpilot.net,CDN
 HOST,content-management-files.canva.com,CDN
 HOST,content-prod-live.cert.starbucks.com,CDN
 HOST,content.any.run,CDN
@@ -1012,6 +1020,7 @@ HOST,fonts.codeberg.org,CDN
 HOST,fonts.gishan.cc,CDN
 HOST,fonts.googleapis.com,CDN
 HOST,fonts.gstatic.com,CDN
+HOST,fonts.loox.io,CDN
 HOST,fonts.mailerlite.com,CDN
 HOST,fonts.sony.net,CDN
 HOST,fonts.svc.ui.com,CDN
@@ -1144,6 +1153,7 @@ HOST,images-assets.nasa.gov,CDN
 HOST,images-eds-ssl.xboxlive.com,CDN
 HOST,images-ext-1.discordapp.net,CDN
 HOST,images-ext-2.discordapp.net,CDN
+HOST,images-static.trustpilot.com,CDN
 HOST,images.991.com,CDN
 HOST,images.anandtech.com,CDN
 HOST,images.applegamingwiki.com,CDN
@@ -1168,6 +1178,7 @@ HOST,images.freeimages.com,CDN
 HOST,images.g2crowd.com,CDN
 HOST,images.idgesg.net,CDN
 HOST,images.kick.com,CDN
+HOST,images.loox.io,CDN
 HOST,images.macrumors.com,CDN
 HOST,images.mattel.net,CDN
 HOST,images.microcms-assets.io,CDN
@@ -1543,6 +1554,7 @@ HOST,nodei.co,CDN
 HOST,npm.antfu.dev,CDN
 HOST,npm.im,CDN
 HOST,npm.jsr.io,CDN
+HOST,ntp.api.bz,CDN
 HOST,ntp.msn.com,CDN
 HOST,null.jsbin.com,CDN
 HOST,o.n1mp.org,CDN
@@ -1974,6 +1986,7 @@ HOST,static.cohere.so,CDN
 HOST,static.coinall.ltd,CDN
 HOST,static.coingecko.com,CDN
 HOST,static.community.workday.com,CDN
+HOST,static.convertio.co,CDN
 HOST,static.corp.google.com,CDN
 HOST,static.cracked.io,CDN
 HOST,static.cracked.to,CDN
@@ -3047,6 +3060,7 @@ HOST-SUFFIX,pnpm.io,CDN
 HOST-SUFFIX,pocket-image-cache.com,CDN
 HOST-SUFFIX,poecdn.net,CDN
 HOST-SUFFIX,polyfill-fastly.io,CDN
+HOST-SUFFIX,pool.ntp.org,CDN
 HOST-SUFFIX,porn-d.xyz,CDN
 HOST-SUFFIX,porn5.asia,CDN
 HOST-SUFFIX,porndudecdn.com,CDN

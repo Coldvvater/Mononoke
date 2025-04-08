@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3414
+# 规则统计: 3428
 
 domain_set:
   - 0x0.st
@@ -27,6 +27,7 @@ domain_set:
   - ak.sail-horizon.com
   - akamai-assets.squarespace.com
   - alt.idgesg.net
+  - amazon-omni-cdn.com
   - amp.azure.net
   - analytics.twitter.com
   - analytics.welcomesoftware.com
@@ -41,6 +42,7 @@ domain_set:
   - api.crashguard.me
   - api.dicebear.com
   - api.iconify.design
+  - api.indexnow.org
   - api.instantly.ai
   - api.mintlify.com
   - api.mixpanel.com
@@ -296,6 +298,7 @@ domain_set:
   - bundler.nice-team.net
   - bundler.wix-code.com
   - bundles.npr.org
+  - businessunitprofile-cdn.trustpilot.net
   - busuanzi.ibruce.info
   - c.1password.com
   - c.fantia.jp
@@ -323,6 +326,7 @@ domain_set:
   - cache.armorgames.com
   - cache.hackedfreegames.com
   - cassette.sphdigital.com.sg
+  - cc-embed.adobe.com
   - cc.boyfriendtv.com
   - cdn-1.ggjav.com
   - cdn-a.sonyentertainmentnetwork.com
@@ -393,6 +397,7 @@ domain_set:
   - cdn.birdie.so
   - cdn.botframework.com
   - cdn.branch.io
+  - cdn.brandfetch.io
   - cdn.britannica.com
   - cdn.bsky.social
   - cdn.builder.io
@@ -654,6 +659,7 @@ domain_set:
   - cdn.unwire.hk
   - cdn.up-timely.com
   - cdn.uptimia.com
+  - cdn.us-east-1.prod.moon.dubai.aws.dev
   - cdn.usd.fan
   - cdn.userreport.com
   - cdn.v2ex.com
@@ -806,6 +812,7 @@ domain_set:
   - cms.therecord.media
   - cms.typenetwork.com
   - code.benco.io
+  - code.buywithprime.amazon.com
   - code.highcharts.com
   - code.iconify.design
   - code.ionicframework.com
@@ -828,6 +835,7 @@ domain_set:
   - consent.dw.com
   - consentdeliveryfd.azurefd.net
   - consumersite-assets.trustpilot.net
+  - consumersiteimages.trustpilot.net
   - content-management-files.canva.com
   - content-prod-live.cert.starbucks.com
   - content.any.run
@@ -1013,6 +1021,7 @@ domain_set:
   - fonts.gishan.cc
   - fonts.googleapis.com
   - fonts.gstatic.com
+  - fonts.loox.io
   - fonts.mailerlite.com
   - fonts.sony.net
   - fonts.svc.ui.com
@@ -1145,6 +1154,7 @@ domain_set:
   - images-eds-ssl.xboxlive.com
   - images-ext-1.discordapp.net
   - images-ext-2.discordapp.net
+  - images-static.trustpilot.com
   - images.991.com
   - images.anandtech.com
   - images.applegamingwiki.com
@@ -1169,6 +1179,7 @@ domain_set:
   - images.g2crowd.com
   - images.idgesg.net
   - images.kick.com
+  - images.loox.io
   - images.macrumors.com
   - images.mattel.net
   - images.microcms-assets.io
@@ -1544,6 +1555,7 @@ domain_set:
   - npm.antfu.dev
   - npm.im
   - npm.jsr.io
+  - ntp.api.bz
   - ntp.msn.com
   - null.jsbin.com
   - o.n1mp.org
@@ -1975,6 +1987,7 @@ domain_set:
   - static.coinall.ltd
   - static.coingecko.com
   - static.community.workday.com
+  - static.convertio.co
   - static.corp.google.com
   - static.cracked.io
   - static.cracked.to
@@ -3049,6 +3062,7 @@ domain_suffix_set:
   - pocket-image-cache.com
   - poecdn.net
   - polyfill-fastly.io
+  - pool.ntp.org
   - porn-d.xyz
   - porn5.asia
   - porndudecdn.com
