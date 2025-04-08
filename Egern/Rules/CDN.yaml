@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3412
+# 规则统计: 3414
 
 domain_set:
   - 0x0.st
@@ -1179,6 +1179,7 @@ domain_set:
   - images.nvidia.com
   - images.opencollective.com
   - images.pexels.com
+  - images.pling.com
   - images.plurk.com
   - images.pluto.tv
   - images.prismic.io
@@ -1890,6 +1891,7 @@ domain_set:
   - start-page.buffer.com
   - static-00.iconduck.com
   - static-act.imoim.net
+  - static-assets-1.truthsocial.com
   - static-assets-prod.epicgames.com
   - static-assets-web.flixcart.com
   - static-assets.clubhouseapi.com

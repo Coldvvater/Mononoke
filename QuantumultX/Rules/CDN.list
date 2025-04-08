@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3412
+# 规则统计: 3414
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1178,6 +1178,7 @@ HOST,images.now-tv.com,CDN
 HOST,images.nvidia.com,CDN
 HOST,images.opencollective.com,CDN
 HOST,images.pexels.com,CDN
+HOST,images.pling.com,CDN
 HOST,images.plurk.com,CDN
 HOST,images.pluto.tv,CDN
 HOST,images.prismic.io,CDN
@@ -1889,6 +1890,7 @@ HOST,staging-pubfeed.linkby.com,CDN
 HOST,start-page.buffer.com,CDN
 HOST,static-00.iconduck.com,CDN
 HOST,static-act.imoim.net,CDN
+HOST,static-assets-1.truthsocial.com,CDN
 HOST,static-assets-prod.epicgames.com,CDN
 HOST,static-assets-web.flixcart.com,CDN
 HOST,static-assets.clubhouseapi.com,CDN

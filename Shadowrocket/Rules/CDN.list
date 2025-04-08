@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3412
+# 规则统计: 3414
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1178,6 +1178,7 @@ DOMAIN,images.now-tv.com
 DOMAIN,images.nvidia.com
 DOMAIN,images.opencollective.com
 DOMAIN,images.pexels.com
+DOMAIN,images.pling.com
 DOMAIN,images.plurk.com
 DOMAIN,images.pluto.tv
 DOMAIN,images.prismic.io
@@ -1889,6 +1890,7 @@ DOMAIN,staging-pubfeed.linkby.com
 DOMAIN,start-page.buffer.com
 DOMAIN,static-00.iconduck.com
 DOMAIN,static-act.imoim.net
+DOMAIN,static-assets-1.truthsocial.com
 DOMAIN,static-assets-prod.epicgames.com
 DOMAIN,static-assets-web.flixcart.com
 DOMAIN,static-assets.clubhouseapi.com
