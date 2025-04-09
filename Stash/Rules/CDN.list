@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3426
+# 规则统计: 3427
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1131,7 +1131,6 @@ DOMAIN,image.gyutto.jp
 DOMAIN,image.hkhl.hk
 DOMAIN,image.ibb.co
 DOMAIN,image.jnislniv.xyz
-DOMAIN,image.lichess1.org
 DOMAIN,image.mgstage.com
 DOMAIN,image.mux.com
 DOMAIN,image.nmb.best
@@ -1789,6 +1788,7 @@ DOMAIN,s3.c.im
 DOMAIN,s3.coinmarketcap.com
 DOMAIN,s3.cointelegraph.com
 DOMAIN,s3.documentcloud.org
+DOMAIN,s3.doujin.sh
 DOMAIN,s3.dzeninfra.ru
 DOMAIN,s3.envato.com
 DOMAIN,s3.eu-central-003.backblazeb2.com
@@ -2912,6 +2912,7 @@ DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,li-cdn.com
 DOMAIN-SUFFIX,liangzipic.com
 DOMAIN-SUFFIX,licensebuttons.net
+DOMAIN-SUFFIX,lichess1.org
 DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,local.webcontainer.io

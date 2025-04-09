@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3428
+# 规则统计: 3429
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1131,7 +1131,6 @@ HOST,image.gyutto.jp,CDN
 HOST,image.hkhl.hk,CDN
 HOST,image.ibb.co,CDN
 HOST,image.jnislniv.xyz,CDN
-HOST,image.lichess1.org,CDN
 HOST,image.mgstage.com,CDN
 HOST,image.mux.com,CDN
 HOST,image.nmb.best,CDN
@@ -1789,6 +1788,7 @@ HOST,s3.c.im,CDN
 HOST,s3.coinmarketcap.com,CDN
 HOST,s3.cointelegraph.com,CDN
 HOST,s3.documentcloud.org,CDN
+HOST,s3.doujin.sh,CDN
 HOST,s3.dzeninfra.ru,CDN
 HOST,s3.envato.com,CDN
 HOST,s3.eu-central-003.backblazeb2.com,CDN
@@ -2912,6 +2912,7 @@ HOST-SUFFIX,lencr.org,CDN
 HOST-SUFFIX,li-cdn.com,CDN
 HOST-SUFFIX,liangzipic.com,CDN
 HOST-SUFFIX,licensebuttons.net,CDN
+HOST-SUFFIX,lichess1.org,CDN
 HOST-SUFFIX,line-cdn.net,CDN
 HOST-SUFFIX,line-scdn.net,CDN
 HOST-SUFFIX,local.webcontainer.io,CDN
