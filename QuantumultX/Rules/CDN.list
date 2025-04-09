@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3429
+# 规则统计: 3430
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -981,6 +981,7 @@ HOST,fast.wistia.com,CDN
 HOST,fast.wistia.net,CDN
 HOST,fastly-cloud.typenetwork.com,CDN
 HOST,fastporndelivery.hqporner.com,CDN
+HOST,favicon.pirsch.io,CDN
 HOST,favicon.yandex.net,CDN
 HOST,favicons.nextdns.io,CDN
 HOST,favicons.teams.cloudflare.com,CDN

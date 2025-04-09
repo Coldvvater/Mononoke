@@ -1,7 +1,6 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 688
+# 规则统计: 701
 
-DOMAIN-SUFFIX,1010pic.com
 DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,1500026601.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,8le8le.com
@@ -45,6 +44,8 @@ DOMAIN-SUFFIX,adclick.tencentmusic.com
 DOMAIN-SUFFIX,adcolony.com
 DOMAIN-SUFFIX,addata.jd.com
 DOMAIN-SUFFIX,adeng.hpplay.cn
+DOMAIN-SUFFIX,adexp.chinaliftoff.io
+DOMAIN-SUFFIX,adexp.liftoff.io
 DOMAIN-SUFFIX,adexpo.tencentmusic.com
 DOMAIN-SUFFIX,adfilter.imtt.qq.com
 DOMAIN-SUFFIX,adfstat.yandex.ru
@@ -113,6 +114,7 @@ DOMAIN-SUFFIX,adstudio.spotify.com
 DOMAIN-SUFFIX,adtago.s3.amazonaws.com
 DOMAIN-SUFFIX,adtech.yahooinc.com
 DOMAIN-SUFFIX,adtrack.quark.cn
+DOMAIN-SUFFIX,adv.fjtv.net
 DOMAIN-SUFFIX,adv.sec.intl.miui.com
 DOMAIN-SUFFIX,adv.sec.miui.com
 DOMAIN-SUFFIX,advertising-api-eu.amazon.com
@@ -229,15 +231,20 @@ DOMAIN-SUFFIX,cdn-ad.wtzw.com
 DOMAIN-SUFFIX,cdn-ads.oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com
 DOMAIN-SUFFIX,cdn.aiclk.com
+DOMAIN-SUFFIX,cdn.chinaliftoff-creatives.io
 DOMAIN-SUFFIX,cdn.hpplay.com.cn
+DOMAIN-SUFFIX,cdn.liftoff-creatives.io
 DOMAIN-SUFFIX,cdn.ynuf.aliapp.org
 DOMAIN-SUFFIX,cfg.imtt.qq.com
 DOMAIN-SUFFIX,chat1.jd.com
 DOMAIN-SUFFIX,chiq-cloud.com
 DOMAIN-SUFFIX,cj.qidian.com
 DOMAIN-SUFFIX,ck.ads.oppomobile.com
+DOMAIN-SUFFIX,click.chinaliftoff.io
 DOMAIN-SUFFIX,click.googleanalytics.com
+DOMAIN-SUFFIX,click.liftoff.io
 DOMAIN-SUFFIX,click.oneplus.cn
+DOMAIN-SUFFIX,click4.chinaliftoff.io
 DOMAIN-SUFFIX,clog.miguvideo.com
 DOMAIN-SUFFIX,cn-api.anythinktech.com
 DOMAIN-SUFFIX,cnlogs.umeng.com
@@ -250,7 +257,6 @@ DOMAIN-SUFFIX,config.chsmarttv.com
 DOMAIN-SUFFIX,config.unityads.unity3d.com
 DOMAIN-SUFFIX,cpc-service-square.aiclk.com
 DOMAIN-SUFFIX,cpro.baidustatic.com
-DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 DOMAIN-SUFFIX,csjplatform.com
 DOMAIN-SUFFIX,cws-cctv.conviva.com
@@ -293,6 +299,7 @@ DOMAIN-SUFFIX,file.daihuo.qq.com
 DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
 DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,frontend-perf-service.e.kuaishou.com
+DOMAIN-SUFFIX,fundingchoicesmessages.google.com
 DOMAIN-SUFFIX,fxgate.baidu.com
 DOMAIN-SUFFIX,g.dtv.cn.miaozhen.com
 DOMAIN-SUFFIX,g2.ganjing.world
@@ -306,6 +313,7 @@ DOMAIN-SUFFIX,ggx.cmvideo.cn
 DOMAIN-SUFFIX,ggx01.miguvideo.com
 DOMAIN-SUFFIX,ggx03.miguvideo.com
 DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleads.g.doubleclick-cn.net
 DOMAIN-SUFFIX,googleads.g.doubleclick.net
 DOMAIN-SUFFIX,googleadservices-cn.com
 DOMAIN-SUFFIX,googleadservices.com
@@ -352,6 +360,8 @@ DOMAIN-SUFFIX,imdns.hpplay.cn
 DOMAIN-SUFFIX,img-c.heytapimage.com
 DOMAIN-SUFFIX,img-x.jd.com
 DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com
+DOMAIN-SUFFIX,impression-asia.chinaliftoff.io
+DOMAIN-SUFFIX,impression-asia.liftoff.io
 DOMAIN-SUFFIX,in.treasuredata.com
 DOMAIN-SUFFIX,iot-eu-logser.realme.com
 DOMAIN-SUFFIX,iot-logser.realme.com
@@ -376,6 +386,7 @@ DOMAIN-SUFFIX,launcher.smart-tv.cn
 DOMAIN-SUFFIX,launcherimg.smart-tv.cn
 DOMAIN-SUFFIX,lf3-ad-union-sdk.pglstatp-toutiao.com
 DOMAIN-SUFFIX,lf6-ad-union-sdk.pglstatp-toutiao.com
+DOMAIN-SUFFIX,lh3.googleadsserving.cn
 DOMAIN-SUFFIX,litchiads.com
 DOMAIN-SUFFIX,liveats-vod.video.ptqy.gitv.tv
 DOMAIN-SUFFIX,livemonitor.huan.tv
@@ -461,6 +472,7 @@ DOMAIN-SUFFIX,notes-analytics-events.apple.com
 DOMAIN-SUFFIX,nsclick.baidu.com
 DOMAIN-SUFFIX,o2o.api.xiaomi.com
 DOMAIN-SUFFIX,offerwall.yandex.net
+DOMAIN-SUFFIX,ogads-pa.clients6.google.com
 DOMAIN-SUFFIX,omgmta.play.aiseet.atianqi.com
 DOMAIN-SUFFIX,open.e.kuaishou.cn
 DOMAIN-SUFFIX,open.e.kuaishou.com
@@ -598,6 +610,8 @@ DOMAIN-SUFFIX,tnc3-bjlgy.bytedance.com
 DOMAIN-SUFFIX,tnc3-bjlgy.toutiaoapi.com
 DOMAIN-SUFFIX,tnc3-bjlgy.zijieapi.com
 DOMAIN-SUFFIX,toblog.ctobsnssdk.com
+DOMAIN-SUFFIX,tpc.googlesyndication-cn.com
+DOMAIN-SUFFIX,tpc.googlesyndication.com
 DOMAIN-SUFFIX,trace.qq.com
 DOMAIN-SUFFIX,tracelog-debug.aiclk.com
 DOMAIN-SUFFIX,tracelog-debug.qquanquan.com
@@ -607,7 +621,6 @@ DOMAIN-SUFFIX,tracker.ai.xiaomi.com
 DOMAIN-SUFFIX,tracker.gitee.com
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,tracking.rus.miui.com
-DOMAIN-SUFFIX,tsvrv.com
 DOMAIN-SUFFIX,tvapp.hpplay.cn
 DOMAIN-SUFFIX,tvuser-ch.cedock.com
 DOMAIN-SUFFIX,tx-ad.a.yximgs.com

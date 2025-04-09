@@ -1,8 +1,7 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 688
+# 规则统计: 701
 
 domain_suffix_set:
-  - 1010pic.com
   - 1500020991.vodplayer.wxamedia.com
   - 1500026601.vodplayer.wxamedia.com
   - 8le8le.com
@@ -46,6 +45,8 @@ domain_suffix_set:
   - adcolony.com
   - addata.jd.com
   - adeng.hpplay.cn
+  - adexp.chinaliftoff.io
+  - adexp.liftoff.io
   - adexpo.tencentmusic.com
   - adfilter.imtt.qq.com
   - adfstat.yandex.ru
@@ -114,6 +115,7 @@ domain_suffix_set:
   - adtago.s3.amazonaws.com
   - adtech.yahooinc.com
   - adtrack.quark.cn
+  - adv.fjtv.net
   - adv.sec.intl.miui.com
   - adv.sec.miui.com
   - advertising-api-eu.amazon.com
@@ -230,15 +232,20 @@ domain_suffix_set:
   - cdn-ads.oss-cn-shanghai.aliyuncs.com
   - cdn-plugin-sync-upgrade-juui.hismarttv.com
   - cdn.aiclk.com
+  - cdn.chinaliftoff-creatives.io
   - cdn.hpplay.com.cn
+  - cdn.liftoff-creatives.io
   - cdn.ynuf.aliapp.org
   - cfg.imtt.qq.com
   - chat1.jd.com
   - chiq-cloud.com
   - cj.qidian.com
   - ck.ads.oppomobile.com
+  - click.chinaliftoff.io
   - click.googleanalytics.com
+  - click.liftoff.io
   - click.oneplus.cn
+  - click4.chinaliftoff.io
   - clog.miguvideo.com
   - cn-api.anythinktech.com
   - cnlogs.umeng.com
@@ -251,7 +258,6 @@ domain_suffix_set:
   - config.unityads.unity3d.com
   - cpc-service-square.aiclk.com
   - cpro.baidustatic.com
-  - crashlytics.com
   - crashlyticsreports-pa.googleapis.com
   - csjplatform.com
   - cws-cctv.conviva.com
@@ -294,6 +300,7 @@ domain_suffix_set:
   - firebaselogging-pa.googleapis.com
   - flurry.com
   - frontend-perf-service.e.kuaishou.com
+  - fundingchoicesmessages.google.com
   - fxgate.baidu.com
   - g.dtv.cn.miaozhen.com
   - g2.ganjing.world
@@ -307,6 +314,7 @@ domain_suffix_set:
   - ggx01.miguvideo.com
   - ggx03.miguvideo.com
   - google-analytics.com
+  - googleads.g.doubleclick-cn.net
   - googleads.g.doubleclick.net
   - googleadservices-cn.com
   - googleadservices.com
@@ -353,6 +361,8 @@ domain_suffix_set:
   - img-c.heytapimage.com
   - img-x.jd.com
   - img.adnyg.com.w.kunlungr.com
+  - impression-asia.chinaliftoff.io
+  - impression-asia.liftoff.io
   - in.treasuredata.com
   - iot-eu-logser.realme.com
   - iot-logser.realme.com
@@ -377,6 +387,7 @@ domain_suffix_set:
   - launcherimg.smart-tv.cn
   - lf3-ad-union-sdk.pglstatp-toutiao.com
   - lf6-ad-union-sdk.pglstatp-toutiao.com
+  - lh3.googleadsserving.cn
   - litchiads.com
   - liveats-vod.video.ptqy.gitv.tv
   - livemonitor.huan.tv
@@ -462,6 +473,7 @@ domain_suffix_set:
   - nsclick.baidu.com
   - o2o.api.xiaomi.com
   - offerwall.yandex.net
+  - ogads-pa.clients6.google.com
   - omgmta.play.aiseet.atianqi.com
   - open.e.kuaishou.cn
   - open.e.kuaishou.com
@@ -599,6 +611,8 @@ domain_suffix_set:
   - tnc3-bjlgy.toutiaoapi.com
   - tnc3-bjlgy.zijieapi.com
   - toblog.ctobsnssdk.com
+  - tpc.googlesyndication-cn.com
+  - tpc.googlesyndication.com
   - trace.qq.com
   - tracelog-debug.aiclk.com
   - tracelog-debug.qquanquan.com
@@ -608,7 +622,6 @@ domain_suffix_set:
   - tracker.gitee.com
   - tracking.miui.com
   - tracking.rus.miui.com
-  - tsvrv.com
   - tvapp.hpplay.cn
   - tvuser-ch.cedock.com
   - tx-ad.a.yximgs.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3429
+# 规则统计: 3430
 
 domain_set:
   - 0x0.st
@@ -982,6 +982,7 @@ domain_set:
   - fast.wistia.net
   - fastly-cloud.typenetwork.com
   - fastporndelivery.hqporner.com
+  - favicon.pirsch.io
   - favicon.yandex.net
   - favicons.nextdns.io
   - favicons.teams.cloudflare.com
