@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3430
+# 规则统计: 3433
 
 domain_set:
   - 0x0.st
@@ -811,6 +811,7 @@ domain_set:
   - cms.recordedfuture.com
   - cms.therecord.media
   - cms.typenetwork.com
+  - cmtycdn.powerpages.microsoft.com
   - code.benco.io
   - code.buywithprime.amazon.com
   - code.highcharts.com
@@ -1004,6 +1005,7 @@ domain_set:
   - files.reg.ru
   - files.slack.com
   - files.smashing.media
+  - files.svc.ui.com
   - files.writefreely.org
   - files.yande.re
   - filestore.community.support.microsoft.com
@@ -1397,6 +1399,7 @@ domain_set:
   - libraries.hund.io
   - libs.quillbot.com
   - lift-ai-js.marketlinc.com
+  - lightning.cnn.com
   - limitless.cmax.ai
   - link.storjshare.io
   - linkstorage.linkfire.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3430
+# 规则统计: 3433
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -810,6 +810,7 @@ HOST,cms-cdn.now.gg,CDN
 HOST,cms.recordedfuture.com,CDN
 HOST,cms.therecord.media,CDN
 HOST,cms.typenetwork.com,CDN
+HOST,cmtycdn.powerpages.microsoft.com,CDN
 HOST,code.benco.io,CDN
 HOST,code.buywithprime.amazon.com,CDN
 HOST,code.highcharts.com,CDN
@@ -1003,6 +1004,7 @@ HOST,files.readme.io,CDN
 HOST,files.reg.ru,CDN
 HOST,files.slack.com,CDN
 HOST,files.smashing.media,CDN
+HOST,files.svc.ui.com,CDN
 HOST,files.writefreely.org,CDN
 HOST,files.yande.re,CDN
 HOST,filestore.community.support.microsoft.com,CDN
@@ -1396,6 +1398,7 @@ HOST,lib.arvancloud.ir,CDN
 HOST,libraries.hund.io,CDN
 HOST,libs.quillbot.com,CDN
 HOST,lift-ai-js.marketlinc.com,CDN
+HOST,lightning.cnn.com,CDN
 HOST,limitless.cmax.ai,CDN
 HOST,link.storjshare.io,CDN
 HOST,linkstorage.linkfire.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3428
+# 规则统计: 3431
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -810,6 +810,7 @@ DOMAIN,cms-cdn.now.gg
 DOMAIN,cms.recordedfuture.com
 DOMAIN,cms.therecord.media
 DOMAIN,cms.typenetwork.com
+DOMAIN,cmtycdn.powerpages.microsoft.com
 DOMAIN,code.benco.io
 DOMAIN,code.buywithprime.amazon.com
 DOMAIN,code.highcharts.com
@@ -1003,6 +1004,7 @@ DOMAIN,files.readme.io
 DOMAIN,files.reg.ru
 DOMAIN,files.slack.com
 DOMAIN,files.smashing.media
+DOMAIN,files.svc.ui.com
 DOMAIN,files.writefreely.org
 DOMAIN,files.yande.re
 DOMAIN,filestore.community.support.microsoft.com
@@ -1396,6 +1398,7 @@ DOMAIN,lib.arvancloud.ir
 DOMAIN,libraries.hund.io
 DOMAIN,libs.quillbot.com
 DOMAIN,lift-ai-js.marketlinc.com
+DOMAIN,lightning.cnn.com
 DOMAIN,limitless.cmax.ai
 DOMAIN,link.storjshare.io
 DOMAIN,linkstorage.linkfire.com
