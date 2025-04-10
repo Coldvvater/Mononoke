@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3433
+# 规则统计: 3438
 
 domain_set:
   - 0x0.st
@@ -288,6 +288,7 @@ domain_set:
   - boards.greenhouse.io
   - bookface-static.ycombinator.com
   - bot.ivy.ai
+  - brand-sdk.kmsmep.com
   - brick.a.ssl.fastly.net
   - brick.freetls.fastly.net
   - bst.icons8.com
@@ -1258,6 +1259,7 @@ domain_set:
   - img.decrypt.co
   - img.dlsite.jp
   - img.domaintools.com
+  - img.etimg.com
   - img.foresightnews.pro
   - img.fortawesome.com
   - img.freepik.com
@@ -1458,6 +1460,7 @@ domain_set:
   - media.fc2.com
   - media.flaticon.com
   - media.fs.com
+  - media.gamestop.com
   - media.geeksforgeeks.org
   - media.gettr.com
   - media.gettyimages.com
@@ -1514,6 +1517,7 @@ domain_set:
   - media8.kissjav.com
   - media9.kissjav.com
   - medias.meow.social
+  - medium-media.vgm.io
   - megapx-assets.dcard.tw
   - meta.prismlauncher.org
   - metrics.kapa.ai
@@ -2671,6 +2675,7 @@ domain_suffix_set:
   - f-droid.org
   - f.hubspotemail.net
   - f.hubspotfree.net
+  - faceit-cdn.net
   - fakeimg.pl
   - fakestoreapi.com
   - fastly.docker.com

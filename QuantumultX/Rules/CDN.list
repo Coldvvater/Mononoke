@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3433
+# 规则统计: 3438
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -287,6 +287,7 @@ HOST,blob.sololearn.com,CDN
 HOST,boards.greenhouse.io,CDN
 HOST,bookface-static.ycombinator.com,CDN
 HOST,bot.ivy.ai,CDN
+HOST,brand-sdk.kmsmep.com,CDN
 HOST,brick.a.ssl.fastly.net,CDN
 HOST,brick.freetls.fastly.net,CDN
 HOST,bst.icons8.com,CDN
@@ -1257,6 +1258,7 @@ HOST,img.coomer.su,CDN
 HOST,img.decrypt.co,CDN
 HOST,img.dlsite.jp,CDN
 HOST,img.domaintools.com,CDN
+HOST,img.etimg.com,CDN
 HOST,img.foresightnews.pro,CDN
 HOST,img.fortawesome.com,CDN
 HOST,img.freepik.com,CDN
@@ -1457,6 +1459,7 @@ HOST,media.evolv.ai,CDN
 HOST,media.fc2.com,CDN
 HOST,media.flaticon.com,CDN
 HOST,media.fs.com,CDN
+HOST,media.gamestop.com,CDN
 HOST,media.geeksforgeeks.org,CDN
 HOST,media.gettr.com,CDN
 HOST,media.gettyimages.com,CDN
@@ -1513,6 +1516,7 @@ HOST,media7.kissjav.com,CDN
 HOST,media8.kissjav.com,CDN
 HOST,media9.kissjav.com,CDN
 HOST,medias.meow.social,CDN
+HOST,medium-media.vgm.io,CDN
 HOST,megapx-assets.dcard.tw,CDN
 HOST,meta.prismlauncher.org,CDN
 HOST,metrics.kapa.ai,CDN
@@ -2669,6 +2673,7 @@ HOST-SUFFIX,ezocdn.com,CDN
 HOST-SUFFIX,f-droid.org,CDN
 HOST-SUFFIX,f.hubspotemail.net,CDN
 HOST-SUFFIX,f.hubspotfree.net,CDN
+HOST-SUFFIX,faceit-cdn.net,CDN
 HOST-SUFFIX,fakeimg.pl,CDN
 HOST-SUFFIX,fakestoreapi.com,CDN
 HOST-SUFFIX,fastly.docker.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3433
+# 规则统计: 3438
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -287,6 +287,7 @@ DOMAIN,blob.sololearn.com
 DOMAIN,boards.greenhouse.io
 DOMAIN,bookface-static.ycombinator.com
 DOMAIN,bot.ivy.ai
+DOMAIN,brand-sdk.kmsmep.com
 DOMAIN,brick.a.ssl.fastly.net
 DOMAIN,brick.freetls.fastly.net
 DOMAIN,bst.icons8.com
@@ -1257,6 +1258,7 @@ DOMAIN,img.coomer.su
 DOMAIN,img.decrypt.co
 DOMAIN,img.dlsite.jp
 DOMAIN,img.domaintools.com
+DOMAIN,img.etimg.com
 DOMAIN,img.foresightnews.pro
 DOMAIN,img.fortawesome.com
 DOMAIN,img.freepik.com
@@ -1457,6 +1459,7 @@ DOMAIN,media.evolv.ai
 DOMAIN,media.fc2.com
 DOMAIN,media.flaticon.com
 DOMAIN,media.fs.com
+DOMAIN,media.gamestop.com
 DOMAIN,media.geeksforgeeks.org
 DOMAIN,media.gettr.com
 DOMAIN,media.gettyimages.com
@@ -1513,6 +1516,7 @@ DOMAIN,media7.kissjav.com
 DOMAIN,media8.kissjav.com
 DOMAIN,media9.kissjav.com
 DOMAIN,medias.meow.social
+DOMAIN,medium-media.vgm.io
 DOMAIN,megapx-assets.dcard.tw
 DOMAIN,meta.prismlauncher.org
 DOMAIN,metrics.kapa.ai
@@ -2669,6 +2673,7 @@ DOMAIN-SUFFIX,ezocdn.com
 DOMAIN-SUFFIX,f-droid.org
 DOMAIN-SUFFIX,f.hubspotemail.net
 DOMAIN-SUFFIX,f.hubspotfree.net
+DOMAIN-SUFFIX,faceit-cdn.net
 DOMAIN-SUFFIX,fakeimg.pl
 DOMAIN-SUFFIX,fakestoreapi.com
 DOMAIN-SUFFIX,fastly.docker.com
