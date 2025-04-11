@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3439
+# 规则统计: 3440
 
 domain_set:
   - 0x0.st
@@ -1522,7 +1522,6 @@ domain_set:
   - meta.prismlauncher.org
   - metrics.kapa.ai
   - micro.rubiconproject.com
-  - minotar.net
   - mintlify.b-cdn.net
   - mir-s3-cdn-cf.behance.net
   - miro.medium.com
@@ -2959,6 +2958,7 @@ domain_suffix_set:
   - mercdn.net
   - metric.gstatic.com
   - mfcimg.com
+  - minotar.net
   - mirror-media.xyz
   - mirrors.utermux.dev
   - misskeyusercontent.com
@@ -3435,6 +3435,7 @@ domain_wildcard_set:
   - static??.tgstat.ru
   - t?.nhentai.net
   - th-*.pornone.com
+  - uploads-*.insided.com
   - v.rn???.xyz
   - video*.cloudokyo.cloud
   - video-thumbnail2.fc2.com

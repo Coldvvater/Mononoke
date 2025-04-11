@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3437
+# 规则统计: 3438
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1521,7 +1521,6 @@ DOMAIN,megapx-assets.dcard.tw
 DOMAIN,meta.prismlauncher.org
 DOMAIN,metrics.kapa.ai
 DOMAIN,micro.rubiconproject.com
-DOMAIN,minotar.net
 DOMAIN,mintlify.b-cdn.net
 DOMAIN,mir-s3-cdn-cf.behance.net
 DOMAIN,miro.medium.com
@@ -2957,6 +2956,7 @@ DOMAIN-SUFFIX,meetupstatic.com
 DOMAIN-SUFFIX,mercdn.net
 DOMAIN-SUFFIX,metric.gstatic.com
 DOMAIN-SUFFIX,mfcimg.com
+DOMAIN-SUFFIX,minotar.net
 DOMAIN-SUFFIX,mirror-media.xyz
 DOMAIN-SUFFIX,mirrors.utermux.dev
 DOMAIN-SUFFIX,misskeyusercontent.com
@@ -3431,6 +3431,7 @@ DOMAIN-WILDCARD,static?.tgstat.ru
 DOMAIN-WILDCARD,static??.tgstat.ru
 DOMAIN-WILDCARD,t?.nhentai.net
 DOMAIN-WILDCARD,th-*.pornone.com
+DOMAIN-WILDCARD,uploads-*.insided.com
 DOMAIN-WILDCARD,v.rn???.xyz
 DOMAIN-WILDCARD,video*.cloudokyo.cloud
 DOMAIN-WILDCARD,video-thumbnail2.fc2.com

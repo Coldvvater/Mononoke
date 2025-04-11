@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3439
+# 规则统计: 3440
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1521,7 +1521,6 @@ HOST,megapx-assets.dcard.tw,CDN
 HOST,meta.prismlauncher.org,CDN
 HOST,metrics.kapa.ai,CDN
 HOST,micro.rubiconproject.com,CDN
-HOST,minotar.net,CDN
 HOST,mintlify.b-cdn.net,CDN
 HOST,mir-s3-cdn-cf.behance.net,CDN
 HOST,miro.medium.com,CDN
@@ -2957,6 +2956,7 @@ HOST-SUFFIX,meetupstatic.com,CDN
 HOST-SUFFIX,mercdn.net,CDN
 HOST-SUFFIX,metric.gstatic.com,CDN
 HOST-SUFFIX,mfcimg.com,CDN
+HOST-SUFFIX,minotar.net,CDN
 HOST-SUFFIX,mirror-media.xyz,CDN
 HOST-SUFFIX,mirrors.utermux.dev,CDN
 HOST-SUFFIX,misskeyusercontent.com,CDN
@@ -3431,6 +3431,7 @@ HOST-WILDCARD,static?.tgstat.ru,CDN
 HOST-WILDCARD,static??.tgstat.ru,CDN
 HOST-WILDCARD,t?.nhentai.net,CDN
 HOST-WILDCARD,th-*.pornone.com,CDN
+HOST-WILDCARD,uploads-*.insided.com,CDN
 HOST-WILDCARD,v.rn???.xyz,CDN
 HOST-WILDCARD,video*.cloudokyo.cloud,CDN
 HOST-WILDCARD,video-thumbnail2.fc2.com,CDN
