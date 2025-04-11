@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 786
+# 规则统计: 788
 
 domain_set:
   - acg.tv
@@ -759,6 +759,7 @@ domain_suffix_set:
   - ykimg.com
   - youdao.com
   - youku.com
+  - youzanyun.com
   - yqkk.link
   - ys7.com
   - yuanshen.com
@@ -772,6 +773,7 @@ domain_suffix_set:
   - yuque.com
   - yximgs.com
   - yy.com
+  - yzcdn.cn
   - zdic.net
   - zdmimg.com
   - zhangzs.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3438
+# 规则统计: 3439
 
 domain_set:
   - 0x0.st
@@ -2183,6 +2183,7 @@ domain_set:
   - steamvideo-a.akamaihd.net
   - storage-b.picacomic.com
   - storage.crisp.chat
+  - storage.deepin.org
   - storage.gra.cloud.ovh.net
   - storage.ko-fi.com
   - storage.moegirl.tw

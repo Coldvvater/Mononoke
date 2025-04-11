@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3438
+# 规则统计: 3439
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2182,6 +2182,7 @@ HOST,steamuserimages-a.akamaihd.net,CDN
 HOST,steamvideo-a.akamaihd.net,CDN
 HOST,storage-b.picacomic.com,CDN
 HOST,storage.crisp.chat,CDN
+HOST,storage.deepin.org,CDN
 HOST,storage.gra.cloud.ovh.net,CDN
 HOST,storage.ko-fi.com,CDN
 HOST,storage.moegirl.tw,CDN
