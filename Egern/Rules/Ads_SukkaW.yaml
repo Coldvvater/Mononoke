@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 78612
+# 规则统计: 78638
 
 no_resolve: true
 domain_set:
@@ -346,6 +346,7 @@ domain_set:
   - cdn-new-ad.wtzw.com
   - cdn.1rtb.com
   - cdn.cr-relay.com
+  - cdn.exp.xiaomi.com
   - cdn.fds-ssl.api.xiaomi.com
   - cdn.getkoala.com
   - cdn.matomo.cloud
@@ -1110,6 +1111,8 @@ domain_set:
   - vapi.tiandi.com
   - vcardsdkservice.vivo.com.cn
   - vd.l.qq.com
+  - vd0.market.xiaomi.com
+  - vd1.market.xiaomi.com
   - veim.lrswl.com
   - video-ad.sm.cn
   - video.market.xiaomi.com
@@ -1508,6 +1511,7 @@ domain_suffix_set:
   - 21wiz.com
   - 22-trk-srv.com
   - 222aa333bb.com
+  - 22b664d9ce.com
   - 22c29c62b3.com
   - 22cbbac9cd.com
   - 2325fdrf.fun
@@ -2026,6 +2030,7 @@ domain_suffix_set:
   - 8147563.your-way.bk.com
   - 8162f6c343.com
   - 8208tp.com
+  - 8231e5c33a.com
   - 835images1.com
   - 84302764.xyz
   - 847h7f51.de
@@ -2977,6 +2982,7 @@ domain_suffix_set:
   - a8wristcut.ike-sunshine.co.jp
   - a8x.piece-kaitori.jp
   - a91e9c75f8.com
+  - a9684972c2.com
   - a9d8e7b6i5s.andgino.jp
   - aa-aem.hamamatsu.com
   - aa-metrics.aircard.jp
@@ -5662,6 +5668,7 @@ domain_suffix_set:
   - agma-analytics.de
   - agmtrk.com
   - agnes.waz.de
+  - agnqolfmjebpk.icu
   - agooxouy.net
   - agoqaa.stockmann.com
   - agqoshfujku.com
@@ -7828,6 +7835,7 @@ domain_suffix_set:
   - apihorizon.nnmtools.com
   - apiiksn.top
   - apilog-web.acfun.cn
+  - apiosstocked.top
   - apis.4bn.xyz
   - apis.appnxt.net
   - apis301.com
@@ -13236,6 +13244,7 @@ domain_suffix_set:
   - chat.compassshield.com
   - chat.forddirectdealers.com
   - chat.lifeprotectionchoices.com
+  - chatsuptocachee.net
   - chauckee.net
   - chaugroo.net
   - chaupheebe.net
@@ -13833,6 +13842,7 @@ domain_suffix_set:
   - clientservice.alphasimplex.com
   - clientservices.grassrootsunwired.com
   - clifads.com
+  - cliffgown.com
   - climatedetaindes.com
   - climbproducingdozen.com
   - clipperroutesevere.com
@@ -21808,6 +21818,7 @@ domain_suffix_set:
   - dojy0dg181308.cloudfront.net
   - dokengt.jidtlon.uno
   - dokondigit.quest
+  - dokpzhzmqhyqx.com
   - dolatiaschan.com
   - dolatiosom.com
   - doll8tune.com
@@ -23875,6 +23886,7 @@ domain_suffix_set:
   - emeu0circ.com
   - emfxux.batinea.com
   - emiciststrk.com
+  - emifkodfq.com
   - emigrantbeasts.com
   - eminencedarker.com
   - emizkno.cn
@@ -26502,6 +26514,7 @@ domain_suffix_set:
   - fujnrh.xyz
   - fujukograhoard.net
   - fuksaighetchy.net
+  - fulahfencers.top
   - fulcraldongs.shop
   - fulheaddedfea.com
   - fullerton-app.hotdoc.com.au
@@ -29954,6 +29967,7 @@ domain_suffix_set:
   - hamulustueiron.com
   - hancockhealth.hancockregional.org
   - handbagwishesliver.com
+  - handcoves.org
   - handtub.com
   - handy-tab.com
   - hangoverknock.com
@@ -30215,6 +30229,7 @@ domain_suffix_set:
   - heemphaers.com
   - heflewrounda.org
   - hefral.pierimport.fr
+  - hehadstoppedto.org
   - heimishcresyl.shop
   - heiressplane.com
   - heiviek.com
@@ -31006,6 +31021,7 @@ domain_suffix_set:
   - hueadsxml.com
   - huechl.paige.com
   - hugfromoctopus.com
+  - hugobsqkulab.com
   - hugregregy.pro
   - hugupq.selency.fr
   - huishenghuiying.com.cn
@@ -31392,6 +31408,7 @@ domain_suffix_set:
   - idgbgl.sloggi.com
   - idgdmgroup.com.cn
   - idgptg.esm-computer.de
+  - idhaiafq.com
   - idhtm.bb.com.br
   - idiafix.com
   - idianw.warmteservice.nl
@@ -35190,6 +35207,7 @@ domain_suffix_set:
   - jzokkejvjrvwj.top
   - jzoxch.menswearhouse.com
   - jzprtb.1stdibs.com
+  - jzqbyykjorqkq.top
   - jzqfac.bestsecret.ch
   - jzqscvqlgasxh.buzz
   - jzvutm.cosicomodo.it
@@ -35724,6 +35742,7 @@ domain_suffix_set:
   - knowledgeable-tree.com
   - knownwarn.com
   - knpudr.jardin-concept.com
+  - knpxyreredpaam.com
   - knuakd.capsuljewelry.com
   - knuinws.icu
   - knul.cn
@@ -49314,6 +49333,7 @@ domain_suffix_set:
   - opchikoritar.com
   - opclauncheran.com
   - opclumbcuqze.com
+  - opdh.cn
   - open-test.wynk.in
   - open.ailo.app
   - open.airtelxstream.in
@@ -51801,6 +51821,7 @@ domain_suffix_set:
   - pmptk.xyz
   - pmrdnt.tuincentrum.nl
   - pmrzoo.fruttaebacche.it
+  - pmvwuxdlp.com
   - pmwofrq.icu
   - pmzer.com
   - pmzfri.fitnessboutique.fr
@@ -55557,6 +55578,7 @@ domain_suffix_set:
   - rvv.emol.com
   - rvvpbf.xcom-shop.ru
   - rvxmlj.icu
+  - rvxo.cn
   - rvxsvwqf.icu
   - rvz9.destinia.co.ro
   - rw.marchex.io
@@ -57010,6 +57032,7 @@ domain_suffix_set:
   - sdfsdvc.com
   - sdg.desihamster.pro
   - sdhfbvd.com
+  - sdhmvkxf.com
   - sdickeb.top
   - sdipsumb.top
   - sdj.saudedasjuntas.online
@@ -64032,6 +64055,7 @@ domain_suffix_set:
   - strettechoco.com
   - strictmode.idbbn.fi
   - strideovertakelargest.com
+  - stridesbile.com
   - strikebreaker3x.fun
   - strikeclient.usnursing.com
   - strikenurse.usnursing.com
@@ -67707,6 +67731,7 @@ domain_suffix_set:
   - tqjpxf.jddutstyr.no
   - tqkspo.neobyte.es
   - tqlkg.com
+  - tqlqfhmvainmn.one
   - tqnmqq.closetsbydesign.com
   - tqpmza.roughcountry.com
   - tqqxrg.shopandshow.ru
@@ -73670,6 +73695,7 @@ domain_suffix_set:
   - vasstycom.com
   - vast.holmesmind.com
   - vasteeds.net
+  - vastilymoid.com
   - vastroll.ru
   - vastserved.com
   - vastsneezevirtually.com
