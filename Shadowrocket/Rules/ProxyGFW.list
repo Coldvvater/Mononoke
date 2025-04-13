@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7352
+# 规则统计: 7354
 
 DOMAIN,cloud.oracle.com
 DOMAIN,steambroadcast.akamaized.net
@@ -476,6 +476,7 @@ DOMAIN-SUFFIX,atlaspost.com
 DOMAIN-SUFFIX,atnext.com
 DOMAIN-SUFFIX,auctions.yahoo.co.jp
 DOMAIN-SUFFIX,audacy.com
+DOMAIN-SUFFIX,audiomack.com
 DOMAIN-SUFFIX,audionow.com
 DOMAIN-SUFFIX,auntology.fandom.com
 DOMAIN-SUFFIX,auth.openai.com
@@ -5184,6 +5185,7 @@ DOMAIN-SUFFIX,s1s1s1.com
 DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
 DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com
 DOMAIN-SUFFIX,s3.amazonaws.com
+DOMAIN-SUFFIX,s3.eu-central-1.amazonaws.com
 DOMAIN-SUFFIX,s4miniarchive.com
 DOMAIN-SUFFIX,s8forum.com
 DOMAIN-SUFFIX,sa.hao123.com

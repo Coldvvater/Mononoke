@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7352
+# 规则统计: 7354
 
 no_resolve: true
 domain_set:
@@ -479,6 +479,7 @@ domain_suffix_set:
   - atnext.com
   - auctions.yahoo.co.jp
   - audacy.com
+  - audiomack.com
   - audionow.com
   - auntology.fandom.com
   - auth.openai.com
@@ -5187,6 +5188,7 @@ domain_suffix_set:
   - s3-ap-southeast-1.amazonaws.com
   - s3-ap-southeast-2.amazonaws.com
   - s3.amazonaws.com
+  - s3.eu-central-1.amazonaws.com
   - s4miniarchive.com
   - s8forum.com
   - sa.hao123.com
