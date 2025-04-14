@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3438
+# 规则统计: 3440
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2298,6 +2298,7 @@ DOMAIN,useruploads.visualwebsiteoptimizer.com
 DOMAIN,utteranc.es
 DOMAIN,v.w-x.co
 DOMAIN,v2.listenloop.com
+DOMAIN,v2uploads.zopim.io
 DOMAIN,vanilla-extract.style
 DOMAIN,versionbadg.es
 DOMAIN,vetted.ai
@@ -2924,6 +2925,7 @@ DOMAIN-SUFFIX,licensebuttons.net
 DOMAIN-SUFFIX,lichess1.org
 DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,live-video.net
 DOMAIN-SUFFIX,local.webcontainer.io
 DOMAIN-SUFFIX,localizecdn.com
 DOMAIN-SUFFIX,lodash.com

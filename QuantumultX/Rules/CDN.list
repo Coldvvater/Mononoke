@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3440
+# 规则统计: 3442
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2298,6 +2298,7 @@ HOST,useruploads.visualwebsiteoptimizer.com,CDN
 HOST,utteranc.es,CDN
 HOST,v.w-x.co,CDN
 HOST,v2.listenloop.com,CDN
+HOST,v2uploads.zopim.io,CDN
 HOST,vanilla-extract.style,CDN
 HOST,versionbadg.es,CDN
 HOST,vetted.ai,CDN
@@ -2924,6 +2925,7 @@ HOST-SUFFIX,licensebuttons.net,CDN
 HOST-SUFFIX,lichess1.org,CDN
 HOST-SUFFIX,line-cdn.net,CDN
 HOST-SUFFIX,line-scdn.net,CDN
+HOST-SUFFIX,live-video.net,CDN
 HOST-SUFFIX,local.webcontainer.io,CDN
 HOST-SUFFIX,localizecdn.com,CDN
 HOST-SUFFIX,lodash.com,CDN

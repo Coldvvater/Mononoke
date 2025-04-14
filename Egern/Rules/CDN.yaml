@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3440
+# 规则统计: 3442
 
 domain_set:
   - 0x0.st
@@ -2299,6 +2299,7 @@ domain_set:
   - utteranc.es
   - v.w-x.co
   - v2.listenloop.com
+  - v2uploads.zopim.io
   - vanilla-extract.style
   - versionbadg.es
   - vetted.ai
@@ -2926,6 +2927,7 @@ domain_suffix_set:
   - lichess1.org
   - line-cdn.net
   - line-scdn.net
+  - live-video.net
   - local.webcontainer.io
   - localizecdn.com
   - lodash.com
