@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3442
+# 规则统计: 3443
 
 domain_set:
   - 0x0.st
@@ -470,6 +470,7 @@ domain_set:
   - cdn.filen.io
   - cdn.firebase.com
   - cdn.fluidplayer.com
+  - cdn.fontshare.com
   - cdn.forms.office.net
   - cdn.fosstodon.org
   - cdn.fourthwall.com

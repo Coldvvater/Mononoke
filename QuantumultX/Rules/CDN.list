@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3442
+# 规则统计: 3443
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -469,6 +469,7 @@ HOST,cdn.fastcomments.com,CDN
 HOST,cdn.filen.io,CDN
 HOST,cdn.firebase.com,CDN
 HOST,cdn.fluidplayer.com,CDN
+HOST,cdn.fontshare.com,CDN
 HOST,cdn.forms.office.net,CDN
 HOST,cdn.fosstodon.org,CDN
 HOST,cdn.fourthwall.com,CDN

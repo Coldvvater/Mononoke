@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 725
+# 规则统计: 724
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -592,7 +592,6 @@ domain_suffix_set:
   - stat.y.qq.com
   - static.ads-twitter.com
   - statics.woozooo.com
-  - stats.qiumibao.com
   - stats.wp.com
   - statsigapi.net
   - stg-data.ads.heytapmobi.com
