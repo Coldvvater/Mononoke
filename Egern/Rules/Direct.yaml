@@ -1,5 +1,5 @@
 # 规则名称: Direct
-# 规则统计: 36
+# 规则统计: 37
 
 domain_set:
   - alt1-mtalk.google.com
@@ -32,6 +32,7 @@ domain_set:
   - vi.l.qq.com
 domain_suffix_set:
   - blog.google
+  - cnspeedtest.cn
   - fileball.app
   - goodnotesapp.com.cn
   - googletraveladservices.com

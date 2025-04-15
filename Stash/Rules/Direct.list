@@ -1,5 +1,5 @@
 # 规则名称: Direct
-# 规则统计: 36
+# 规则统计: 37
 
 DOMAIN,alt1-mtalk.google.com
 DOMAIN,alt2-mtalk.google.com
@@ -30,6 +30,7 @@ DOMAIN,update.googleapis.com
 DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
 DOMAIN-SUFFIX,blog.google
+DOMAIN-SUFFIX,cnspeedtest.cn
 DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,goodnotesapp.com.cn
 DOMAIN-SUFFIX,googletraveladservices.com

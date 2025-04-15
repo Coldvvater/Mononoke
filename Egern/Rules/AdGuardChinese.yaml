@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4716
+# 规则统计: 4722
 
 domain_suffix_set:
   - 002777.xyz
@@ -2213,6 +2213,7 @@ domain_suffix_set:
   - iwursero.top
   - ix4.icu
   - ixbua.xyz
+  - ixlv.cn
   - ixoe.cn
   - ixstng.cn
   - ixtu.cn
@@ -2664,6 +2665,7 @@ domain_suffix_set:
   - luunels.com
   - luyarvx.icu
   - lv.myapks.com
+  - lvcnmtl.top
   - lveodaz.icu
   - lvnr.cn
   - lvnzrh.xyz
@@ -3058,6 +3060,7 @@ domain_suffix_set:
   - ouplc.icu
   - ouresdk.top
   - ov8ct.icu
+  - ovcnmtk.top
   - oveakmqk.com
   - ovejqw.xyz
   - oweeiyw.icu
@@ -3329,6 +3332,7 @@ domain_suffix_set:
   - quwkke.xyz
   - quyr.cn
   - quyuancn.com
+  - qvcnmty.top
   - qvir.cn
   - qvonje.cn
   - qvxtzi.xyz
@@ -4167,6 +4171,7 @@ domain_suffix_set:
   - vrdfxioe.icu
   - vrelai.com
   - vreqnait.com
+  - vrevvaids.com
   - vriesziy.com
   - vrinqop.icu
   - vrulqil.com
@@ -4692,6 +4697,7 @@ domain_suffix_set:
   - zsjxwj.com
   - zsyk91.cn
   - zt2088.com
+  - ztdbfz.top
   - ztgha.xyz
   - zthxobgk.icu
   - ztlkngyj.icu

@@ -1,5 +1,5 @@
 # 规则名称: Direct
-# 规则统计: 35
+# 规则统计: 36
 
 HOST,alt1-mtalk.google.com,Direct
 HOST,alt2-mtalk.google.com,Direct
@@ -30,6 +30,7 @@ HOST,update.googleapis.com,Direct
 HOST,vd.l.qq.com,Direct
 HOST,vi.l.qq.com,Direct
 HOST-SUFFIX,blog.google,Direct
+HOST-SUFFIX,cnspeedtest.cn,Direct
 HOST-SUFFIX,fileball.app,Direct
 HOST-SUFFIX,goodnotesapp.com.cn,Direct
 HOST-SUFFIX,googletraveladservices.com,Direct
