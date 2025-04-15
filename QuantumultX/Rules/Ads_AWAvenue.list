@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 724
+# 规则统计: 721
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -9,9 +9,6 @@ HOST-SUFFIX,a0.app.xiaomi.com,Ads_AWAvenue
 HOST-SUFFIX,aaid.umeng.com,Ads_AWAvenue
 HOST-SUFFIX,abtest-ch.snssdk.com,Ads_AWAvenue
 HOST-SUFFIX,ad-cdn.qingting.fm,Ads_AWAvenue
-HOST-SUFFIX,ad-cmp.hismarttv.com,Ads_AWAvenue
-HOST-SUFFIX,ad-download.hismarttv.com,Ads_AWAvenue
-HOST-SUFFIX,ad-imp.hismarttv.com,Ads_AWAvenue
 HOST-SUFFIX,ad-scope.com,Ads_AWAvenue
 HOST-SUFFIX,ad-scope.com.cn,Ads_AWAvenue
 HOST-SUFFIX,ad-sdk-config.youdao.com,Ads_AWAvenue
@@ -335,7 +332,6 @@ HOST-SUFFIX,hanlanad.com,Ads_AWAvenue
 HOST-SUFFIX,heads-ak.spotify.com.edgesuite.net,Ads_AWAvenue
 HOST-SUFFIX,heads-fa.spotify.com,Ads_AWAvenue
 HOST-SUFFIX,hexagon-analytics.com,Ads_AWAvenue
-HOST-SUFFIX,hismarttv.com,Ads_AWAvenue
 HOST-SUFFIX,hm.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,hmma.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,hotupgrade.hpplay.cn,Ads_AWAvenue
@@ -455,6 +451,7 @@ HOST-SUFFIX,metrics2.data.hicloud.com,Ads_AWAvenue
 HOST-SUFFIX,metrika.yandex.ru,Ads_AWAvenue
 HOST-SUFFIX,mi.gdt.qq.com,Ads_AWAvenue
 HOST-SUFFIX,miav-cse.avlyun.com,Ads_AWAvenue
+HOST-SUFFIX,micro-xdb.com,Ads_AWAvenue
 HOST-SUFFIX,mime.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,mini-prog-drm.vodplayvideo.net,Ads_AWAvenue
 HOST-SUFFIX,mission-pub.smart-tv.cn,Ads_AWAvenue

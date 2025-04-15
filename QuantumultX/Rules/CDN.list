@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3443
+# 规则统计: 3457
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -371,6 +371,7 @@ HOST,cdn.123av.me,CDN
 HOST,cdn.17app.co,CDN
 HOST,cdn.18jav.tv,CDN
 HOST,cdn.7tv.app,CDN
+HOST,cdn.accounts.autodesk.com,CDN
 HOST,cdn.accounts.nintendo.com,CDN
 HOST,cdn.adguard.com,CDN
 HOST,cdn.adguard.info,CDN
@@ -876,6 +877,7 @@ HOST,cw-image-resizer.cwg.tw,CDN
 HOST,d2c.aws.amazon.com,CDN
 HOST,d4.alternativeto.net,CDN
 HOST,dam.freshworks.com,CDN
+HOST,damassets.autodesk.net,CDN
 HOST,dassets.shimano.com,CDN
 HOST,data.jsdelivr.com,CDN
 HOST,data.pendo.io,CDN
@@ -940,6 +942,7 @@ HOST,embed.savvycal.com,CDN
 HOST,embed.tawk.to,CDN
 HOST,embed.ted.com,CDN
 HOST,embed.typeform.com,CDN
+HOST,embedr.flickr.com,CDN
 HOST,embedwistia-a.akamaihd.net,CDN
 HOST,emoji-css.afeld.me,CDN
 HOST,emos.plurk.com,CDN
@@ -990,6 +993,7 @@ HOST,favicons.nextdns.io,CDN
 HOST,favicons.teams.cloudflare.com,CDN
 HOST,fdn.gsmarena.com,CDN
 HOST,fdn2.gsmarena.com,CDN
+HOST,featureflags.netlify.com,CDN
 HOST,fesdk.nexon.com,CDN
 HOST,fiddle.fastly.dev,CDN
 HOST,fiddle.jshell.net,CDN
@@ -1097,6 +1101,7 @@ HOST,i.iwara.tv,CDN
 HOST,i.jpg.dog,CDN
 HOST,i.kickstarter.com,CDN
 HOST,i.loli.best,CDN
+HOST,i.mediatek.com,CDN
 HOST,i.mt.lv,CDN
 HOST,i.mydramalist.com,CDN
 HOST,i.nhentai.net,CDN
@@ -1197,6 +1202,7 @@ HOST,images.pling.com,CDN
 HOST,images.plurk.com,CDN
 HOST,images.pluto.tv,CDN
 HOST,images.prismic.io,CDN
+HOST,images.profile.autodesk.com,CDN
 HOST,images.ptt.cc,CDN
 HOST,images.purevpn-tools.com,CDN
 HOST,images.scalero.io,CDN
@@ -1528,6 +1534,7 @@ HOST,miro.medium.com,CDN
 HOST,mixin-images.zeromesh.net,CDN
 HOST,mkt-site-asset.crypto.com,CDN
 HOST,mobilecenter.azureedge.net,CDN
+HOST,moderate.cleantalk.org,CDN
 HOST,momentjs.com,CDN
 HOST,moodular.jotform.com,CDN
 HOST,mosaic-blender.fxtwitter.com,CDN
@@ -1889,6 +1896,7 @@ HOST,snyk-widget.herokuapp.com,CDN
 HOST,social-cdn.vivaldi.net,CDN
 HOST,solve-widget.forethought.ai,CDN
 HOST,source.domaintools.com,CDN
+HOST,source.unsplash.com,CDN
 HOST,sourcemaps.squarespace.net,CDN
 HOST,sourcepoint.theguardian.com,CDN
 HOST,sp-spiegel-de.spiegel.de,CDN
@@ -2022,6 +2030,7 @@ HOST,static.filehorse.com,CDN
 HOST,static.filestackapi.com,CDN
 HOST,static.foxbusiness.com,CDN
 HOST,static.foxnews.com,CDN
+HOST,static.freedownloadmanager.org,CDN
 HOST,static.freeimages.com,CDN
 HOST,static.getbutton.io,CDN
 HOST,static.gettyimages.com,CDN
@@ -2370,6 +2379,7 @@ HOST,widget.user.com,CDN
 HOST,widget.usersnap.com,CDN
 HOST,widget.uservoice.com,CDN
 HOST,widgets-red.media.weather.com,CDN
+HOST,widgets.flickr.com,CDN
 HOST,widgets.listenlive.co,CDN
 HOST,widgets.media.weather.com,CDN
 HOST,widgets.outbrain.com,CDN
@@ -2627,6 +2637,7 @@ HOST-SUFFIX,divio-media.net,CDN
 HOST-SUFFIX,dlunar.net,CDN
 HOST-SUFFIX,dmcdn.net,CDN
 HOST-SUFFIX,docker.io,CDN
+HOST-SUFFIX,dockerstatic.com,CDN
 HOST-SUFFIX,dogehls.xyz,CDN
 HOST-SUFFIX,doodcdn.co,CDN
 HOST-SUFFIX,doppiocdn.com,CDN
@@ -3393,6 +3404,8 @@ HOST-KEYWORD,-thumbs.worldsex.com,CDN
 HOST-KEYWORD,99avcdn,CDN
 HOST-KEYWORD,cdn.adultempire.com,CDN
 HOST-KEYWORD,dsn.algolia.net,CDN
+HOST-KEYWORD,fonts.hanime1,CDN
+HOST-KEYWORD,vdownload.hanime1,CDN
 HOST-KEYWORD,vod-adaptive.akamaized.net,CDN
 HOST-KEYWORD,web-assets.zendesk,CDN
 HOST-WILDCARD,*.fsvod?.com,CDN
@@ -3424,6 +3437,7 @@ HOST-WILDCARD,object-storage-*.vexxhost.net,CDN
 HOST-WILDCARD,ocsp.*.amazontrust.com,CDN
 HOST-WILDCARD,proxy-*.dailymotion.com,CDN
 HOST-WILDCARD,rr?---??.ouo.si,CDN
+HOST-WILDCARD,s*.hanime1,CDN
 HOST-WILDCARD,s3-*.figma.com,CDN
 HOST-WILDCARD,s3.*.wasabisys.com,CDN
 HOST-WILDCARD,s?.maxstream.org,CDN

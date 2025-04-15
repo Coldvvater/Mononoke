@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3443
+# 规则统计: 3457
 
 domain_set:
   - 0x0.st
@@ -372,6 +372,7 @@ domain_set:
   - cdn.17app.co
   - cdn.18jav.tv
   - cdn.7tv.app
+  - cdn.accounts.autodesk.com
   - cdn.accounts.nintendo.com
   - cdn.adguard.com
   - cdn.adguard.info
@@ -877,6 +878,7 @@ domain_set:
   - d2c.aws.amazon.com
   - d4.alternativeto.net
   - dam.freshworks.com
+  - damassets.autodesk.net
   - dassets.shimano.com
   - data.jsdelivr.com
   - data.pendo.io
@@ -941,6 +943,7 @@ domain_set:
   - embed.tawk.to
   - embed.ted.com
   - embed.typeform.com
+  - embedr.flickr.com
   - embedwistia-a.akamaihd.net
   - emoji-css.afeld.me
   - emos.plurk.com
@@ -991,6 +994,7 @@ domain_set:
   - favicons.teams.cloudflare.com
   - fdn.gsmarena.com
   - fdn2.gsmarena.com
+  - featureflags.netlify.com
   - fesdk.nexon.com
   - fiddle.fastly.dev
   - fiddle.jshell.net
@@ -1098,6 +1102,7 @@ domain_set:
   - i.jpg.dog
   - i.kickstarter.com
   - i.loli.best
+  - i.mediatek.com
   - i.mt.lv
   - i.mydramalist.com
   - i.nhentai.net
@@ -1198,6 +1203,7 @@ domain_set:
   - images.plurk.com
   - images.pluto.tv
   - images.prismic.io
+  - images.profile.autodesk.com
   - images.ptt.cc
   - images.purevpn-tools.com
   - images.scalero.io
@@ -1529,6 +1535,7 @@ domain_set:
   - mixin-images.zeromesh.net
   - mkt-site-asset.crypto.com
   - mobilecenter.azureedge.net
+  - moderate.cleantalk.org
   - momentjs.com
   - moodular.jotform.com
   - mosaic-blender.fxtwitter.com
@@ -1890,6 +1897,7 @@ domain_set:
   - social-cdn.vivaldi.net
   - solve-widget.forethought.ai
   - source.domaintools.com
+  - source.unsplash.com
   - sourcemaps.squarespace.net
   - sourcepoint.theguardian.com
   - sp-spiegel-de.spiegel.de
@@ -2023,6 +2031,7 @@ domain_set:
   - static.filestackapi.com
   - static.foxbusiness.com
   - static.foxnews.com
+  - static.freedownloadmanager.org
   - static.freeimages.com
   - static.getbutton.io
   - static.gettyimages.com
@@ -2371,6 +2380,7 @@ domain_set:
   - widget.usersnap.com
   - widget.uservoice.com
   - widgets-red.media.weather.com
+  - widgets.flickr.com
   - widgets.listenlive.co
   - widgets.media.weather.com
   - widgets.outbrain.com
@@ -2629,6 +2639,7 @@ domain_suffix_set:
   - dlunar.net
   - dmcdn.net
   - docker.io
+  - dockerstatic.com
   - dogehls.xyz
   - doodcdn.co
   - doppiocdn.com
@@ -3396,6 +3407,8 @@ domain_keyword_set:
   - 99avcdn
   - cdn.adultempire.com
   - dsn.algolia.net
+  - fonts.hanime1
+  - vdownload.hanime1
   - vod-adaptive.akamaized.net
   - web-assets.zendesk
 domain_wildcard_set:
@@ -3428,6 +3441,7 @@ domain_wildcard_set:
   - ocsp.*.amazontrust.com
   - proxy-*.dailymotion.com
   - rr?---??.ouo.si
+  - s*.hanime1
   - s3-*.figma.com
   - s3.*.wasabisys.com
   - s?.maxstream.org

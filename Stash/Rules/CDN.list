@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3441
+# 规则统计: 3455
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -371,6 +371,7 @@ DOMAIN,cdn.123av.me
 DOMAIN,cdn.17app.co
 DOMAIN,cdn.18jav.tv
 DOMAIN,cdn.7tv.app
+DOMAIN,cdn.accounts.autodesk.com
 DOMAIN,cdn.accounts.nintendo.com
 DOMAIN,cdn.adguard.com
 DOMAIN,cdn.adguard.info
@@ -876,6 +877,7 @@ DOMAIN,cw-image-resizer.cwg.tw
 DOMAIN,d2c.aws.amazon.com
 DOMAIN,d4.alternativeto.net
 DOMAIN,dam.freshworks.com
+DOMAIN,damassets.autodesk.net
 DOMAIN,dassets.shimano.com
 DOMAIN,data.jsdelivr.com
 DOMAIN,data.pendo.io
@@ -940,6 +942,7 @@ DOMAIN,embed.savvycal.com
 DOMAIN,embed.tawk.to
 DOMAIN,embed.ted.com
 DOMAIN,embed.typeform.com
+DOMAIN,embedr.flickr.com
 DOMAIN,embedwistia-a.akamaihd.net
 DOMAIN,emoji-css.afeld.me
 DOMAIN,emos.plurk.com
@@ -990,6 +993,7 @@ DOMAIN,favicons.nextdns.io
 DOMAIN,favicons.teams.cloudflare.com
 DOMAIN,fdn.gsmarena.com
 DOMAIN,fdn2.gsmarena.com
+DOMAIN,featureflags.netlify.com
 DOMAIN,fesdk.nexon.com
 DOMAIN,fiddle.fastly.dev
 DOMAIN,fiddle.jshell.net
@@ -1097,6 +1101,7 @@ DOMAIN,i.iwara.tv
 DOMAIN,i.jpg.dog
 DOMAIN,i.kickstarter.com
 DOMAIN,i.loli.best
+DOMAIN,i.mediatek.com
 DOMAIN,i.mt.lv
 DOMAIN,i.mydramalist.com
 DOMAIN,i.nhentai.net
@@ -1197,6 +1202,7 @@ DOMAIN,images.pling.com
 DOMAIN,images.plurk.com
 DOMAIN,images.pluto.tv
 DOMAIN,images.prismic.io
+DOMAIN,images.profile.autodesk.com
 DOMAIN,images.ptt.cc
 DOMAIN,images.purevpn-tools.com
 DOMAIN,images.scalero.io
@@ -1528,6 +1534,7 @@ DOMAIN,miro.medium.com
 DOMAIN,mixin-images.zeromesh.net
 DOMAIN,mkt-site-asset.crypto.com
 DOMAIN,mobilecenter.azureedge.net
+DOMAIN,moderate.cleantalk.org
 DOMAIN,momentjs.com
 DOMAIN,moodular.jotform.com
 DOMAIN,mosaic-blender.fxtwitter.com
@@ -1889,6 +1896,7 @@ DOMAIN,snyk-widget.herokuapp.com
 DOMAIN,social-cdn.vivaldi.net
 DOMAIN,solve-widget.forethought.ai
 DOMAIN,source.domaintools.com
+DOMAIN,source.unsplash.com
 DOMAIN,sourcemaps.squarespace.net
 DOMAIN,sourcepoint.theguardian.com
 DOMAIN,sp-spiegel-de.spiegel.de
@@ -2022,6 +2030,7 @@ DOMAIN,static.filehorse.com
 DOMAIN,static.filestackapi.com
 DOMAIN,static.foxbusiness.com
 DOMAIN,static.foxnews.com
+DOMAIN,static.freedownloadmanager.org
 DOMAIN,static.freeimages.com
 DOMAIN,static.getbutton.io
 DOMAIN,static.gettyimages.com
@@ -2370,6 +2379,7 @@ DOMAIN,widget.user.com
 DOMAIN,widget.usersnap.com
 DOMAIN,widget.uservoice.com
 DOMAIN,widgets-red.media.weather.com
+DOMAIN,widgets.flickr.com
 DOMAIN,widgets.listenlive.co
 DOMAIN,widgets.media.weather.com
 DOMAIN,widgets.outbrain.com
@@ -2627,6 +2637,7 @@ DOMAIN-SUFFIX,divio-media.net
 DOMAIN-SUFFIX,dlunar.net
 DOMAIN-SUFFIX,dmcdn.net
 DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,dockerstatic.com
 DOMAIN-SUFFIX,dogehls.xyz
 DOMAIN-SUFFIX,doodcdn.co
 DOMAIN-SUFFIX,doppiocdn.com
@@ -3393,6 +3404,8 @@ DOMAIN-KEYWORD,-thumbs.worldsex.com
 DOMAIN-KEYWORD,99avcdn
 DOMAIN-KEYWORD,cdn.adultempire.com
 DOMAIN-KEYWORD,dsn.algolia.net
+DOMAIN-KEYWORD,fonts.hanime1
+DOMAIN-KEYWORD,vdownload.hanime1
 DOMAIN-KEYWORD,vod-adaptive.akamaized.net
 DOMAIN-KEYWORD,web-assets.zendesk
 DOMAIN-WILDCARD,*.fsvod?.com
@@ -3424,6 +3437,7 @@ DOMAIN-WILDCARD,object-storage-*.vexxhost.net
 DOMAIN-WILDCARD,ocsp.*.amazontrust.com
 DOMAIN-WILDCARD,proxy-*.dailymotion.com
 DOMAIN-WILDCARD,rr?---??.ouo.si
+DOMAIN-WILDCARD,s*.hanime1
 DOMAIN-WILDCARD,s3-*.figma.com
 DOMAIN-WILDCARD,s3.*.wasabisys.com
 DOMAIN-WILDCARD,s?.maxstream.org

@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 724
+# 规则统计: 721
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -10,9 +10,6 @@ domain_suffix_set:
   - aaid.umeng.com
   - abtest-ch.snssdk.com
   - ad-cdn.qingting.fm
-  - ad-cmp.hismarttv.com
-  - ad-download.hismarttv.com
-  - ad-imp.hismarttv.com
   - ad-scope.com
   - ad-scope.com.cn
   - ad-sdk-config.youdao.com
@@ -336,7 +333,6 @@ domain_suffix_set:
   - heads-ak.spotify.com.edgesuite.net
   - heads-fa.spotify.com
   - hexagon-analytics.com
-  - hismarttv.com
   - hm.baidu.com
   - hmma.baidu.com
   - hotupgrade.hpplay.cn
@@ -456,6 +452,7 @@ domain_suffix_set:
   - metrika.yandex.ru
   - mi.gdt.qq.com
   - miav-cse.avlyun.com
+  - micro-xdb.com
   - mime.baidu.com
   - mini-prog-drm.vodplayvideo.net
   - mission-pub.smart-tv.cn
