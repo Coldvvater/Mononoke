@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3457
+# 规则统计: 3459
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -175,7 +175,6 @@ HOST,assets.mastercard.com,CDN
 HOST,assets.matters.news,CDN
 HOST,assets.mayoclinic.org,CDN
 HOST,assets.media-platform.com,CDN
-HOST,assets.mediadelivery.net,CDN
 HOST,assets.monei.com,CDN
 HOST,assets.monica.im,CDN
 HOST,assets.mozilla.social,CDN
@@ -298,6 +297,7 @@ HOST,bundlephobia.com,CDN
 HOST,bundler.nice-team.net,CDN
 HOST,bundler.wix-code.com,CDN
 HOST,bundles.npr.org,CDN
+HOST,bunnycdn-video-assets.b-cdn.net,CDN
 HOST,businessunitprofile-cdn.trustpilot.net,CDN
 HOST,busuanzi.ibruce.info,CDN
 HOST,c.1password.com,CDN
@@ -2966,6 +2966,7 @@ HOST-SUFFIX,media.ci-en.jp,CDN
 HOST-SUFFIX,media.strapiapp.com,CDN
 HOST-SUFFIX,media.tumblr.com,CDN
 HOST-SUFFIX,media.zestyio.com,CDN
+HOST-SUFFIX,mediadelivery.net,CDN
 HOST-SUFFIX,meetupstatic.com,CDN
 HOST-SUFFIX,mercdn.net,CDN
 HOST-SUFFIX,metric.gstatic.com,CDN
@@ -3051,6 +3052,7 @@ HOST-SUFFIX,packd.liuxingbaoyu.xyz,CDN
 HOST-SUFFIX,pagecdn.io,CDN
 HOST-SUFFIX,pages.dev,CDN
 HOST-SUFFIX,parastorage.com,CDN
+HOST-SUFFIX,parceljs.org,CDN
 HOST-SUFFIX,pastebin.com,CDN
 HOST-SUFFIX,patientpop.com,CDN
 HOST-SUFFIX,patreonusercontent.com,CDN

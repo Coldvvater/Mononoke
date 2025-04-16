@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3457
+# 规则统计: 3459
 
 domain_set:
   - 0x0.st
@@ -176,7 +176,6 @@ domain_set:
   - assets.matters.news
   - assets.mayoclinic.org
   - assets.media-platform.com
-  - assets.mediadelivery.net
   - assets.monei.com
   - assets.monica.im
   - assets.mozilla.social
@@ -299,6 +298,7 @@ domain_set:
   - bundler.nice-team.net
   - bundler.wix-code.com
   - bundles.npr.org
+  - bunnycdn-video-assets.b-cdn.net
   - businessunitprofile-cdn.trustpilot.net
   - busuanzi.ibruce.info
   - c.1password.com
@@ -2968,6 +2968,7 @@ domain_suffix_set:
   - media.strapiapp.com
   - media.tumblr.com
   - media.zestyio.com
+  - mediadelivery.net
   - meetupstatic.com
   - mercdn.net
   - metric.gstatic.com
@@ -3053,6 +3054,7 @@ domain_suffix_set:
   - pagecdn.io
   - pages.dev
   - parastorage.com
+  - parceljs.org
   - pastebin.com
   - patientpop.com
   - patreonusercontent.com

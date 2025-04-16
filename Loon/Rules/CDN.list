@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3457
+# 规则统计: 3459
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -175,7 +175,6 @@ DOMAIN,assets.mastercard.com
 DOMAIN,assets.matters.news
 DOMAIN,assets.mayoclinic.org
 DOMAIN,assets.media-platform.com
-DOMAIN,assets.mediadelivery.net
 DOMAIN,assets.monei.com
 DOMAIN,assets.monica.im
 DOMAIN,assets.mozilla.social
@@ -298,6 +297,7 @@ DOMAIN,bundlephobia.com
 DOMAIN,bundler.nice-team.net
 DOMAIN,bundler.wix-code.com
 DOMAIN,bundles.npr.org
+DOMAIN,bunnycdn-video-assets.b-cdn.net
 DOMAIN,businessunitprofile-cdn.trustpilot.net
 DOMAIN,busuanzi.ibruce.info
 DOMAIN,c.1password.com
@@ -2966,6 +2966,7 @@ DOMAIN-SUFFIX,media.ci-en.jp
 DOMAIN-SUFFIX,media.strapiapp.com
 DOMAIN-SUFFIX,media.tumblr.com
 DOMAIN-SUFFIX,media.zestyio.com
+DOMAIN-SUFFIX,mediadelivery.net
 DOMAIN-SUFFIX,meetupstatic.com
 DOMAIN-SUFFIX,mercdn.net
 DOMAIN-SUFFIX,metric.gstatic.com
@@ -3051,6 +3052,7 @@ DOMAIN-SUFFIX,packd.liuxingbaoyu.xyz
 DOMAIN-SUFFIX,pagecdn.io
 DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,parastorage.com
+DOMAIN-SUFFIX,parceljs.org
 DOMAIN-SUFFIX,pastebin.com
 DOMAIN-SUFFIX,patientpop.com
 DOMAIN-SUFFIX,patreonusercontent.com
