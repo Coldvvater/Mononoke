@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3459
+# 规则统计: 3463
 
 domain_set:
   - 0x0.st
@@ -57,6 +57,7 @@ domain_set:
   - app-spm.com
   - app-static.eu.posthog.com
   - app-static.turtl.co
+  - app.1password.com
   - app.backinstock.org
   - app.brightback.com
   - app.chatwoot.com
@@ -646,6 +647,7 @@ domain_set:
   - cdn.tailwindcss.com
   - cdn.termius.com
   - cdn.thenewstack.io
+  - cdn.thingiverse.com
   - cdn.tinypass.com
   - cdn.tolt.io
   - cdn.tracxn.com
@@ -824,7 +826,6 @@ domain_set:
   - code.piano.io
   - code.upscope.io
   - common-header.nimg.jp
-  - compass-ssl.xbox.com
   - components.clever-cloud.com
   - components.justanswer.com
   - components.trynow.net
@@ -1292,7 +1293,6 @@ domain_set:
   - img.pawoo.net
   - img.perfops.net
   - img.picacomic.com
-  - img.ra7.xyz
   - img.reg.ru
   - img.reimu.net
   - img.represent.com
@@ -1304,6 +1304,7 @@ domain_set:
   - img.sparknotes.com
   - img.supjav.com
   - img.telemetr.io
+  - img.thingiverse.com
   - img.timero.xyz
   - img.urlnode.com
   - img.utdstc.com
@@ -1439,6 +1440,7 @@ domain_set:
   - maps.geoapify.com
   - maps.gstatic.com
   - marketing.figma.com
+  - marketing.thingiverse.com
   - marketplace-web-assets.vinted.com
   - mastodon-static.miao.dev
   - maven.google.com
@@ -1569,7 +1571,6 @@ domain_set:
   - npm.antfu.dev
   - npm.im
   - npm.jsr.io
-  - ntp.api.bz
   - ntp.msn.com
   - null.jsbin.com
   - o.n1mp.org
@@ -1606,7 +1607,6 @@ domain_set:
   - pacdn.500px.org
   - package-assets.oomol.com
   - packages-cf.termux.dev
-  - packages.argotunnel.com
   - packages.httpie.io
   - packages.jetbrains.team
   - packages.termux.dev
@@ -1642,6 +1642,7 @@ domain_set:
   - pics.x-n-x-x.pro
   - pkg-cdn.jetbrains.team
   - pkg-size.dev
+  - pkg.cloudflare.com
   - pkg.cloudflareclient.com
   - pkg.csb.dev
   - pkgs.dev.azure.com
@@ -1972,7 +1973,6 @@ domain_set:
   - static.addtoany.com
   - static.adguardvpn.com
   - static.afterpay.com
-  - static.agilebits.com
   - static.ahrefs.com
   - static.aizanmei.org
   - static.apkpure.com
@@ -2086,6 +2086,7 @@ domain_set:
   - static.nicehash.com
   - static.npmjs.com
   - static.nrk.no
+  - static.observablehq.com
   - static.oklink.com
   - static.okx.com
   - static.olelive.com
@@ -3035,6 +3036,7 @@ domain_suffix_set:
   - nxedge.io
   - oaistatic.com
   - oaiusercontent.com
+  - observableusercontent.com
   - oculuscdn.com
   - odycdn.com
   - ogads-pa.clients6.google.com
@@ -3218,6 +3220,7 @@ domain_suffix_set:
   - stackblitz.io
   - stapecdn.com
   - static-prod-web.miniclip.com
+  - static.amplience.net
   - static.chaosgroup.com
   - static.domains
   - static.flickr.com
@@ -3257,6 +3260,7 @@ domain_suffix_set:
   - surge.sh
   - surrit.com
   - susercontent.com
+  - svbtleusercontent.com
   - sway-cdn.com
   - swiftypecdn.com
   - sxccdn.com

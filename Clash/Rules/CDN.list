@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3457
+# 规则统计: 3461
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -56,6 +56,7 @@ DOMAIN,app-api.vidjet.io
 DOMAIN,app-spm.com
 DOMAIN,app-static.eu.posthog.com
 DOMAIN,app-static.turtl.co
+DOMAIN,app.1password.com
 DOMAIN,app.backinstock.org
 DOMAIN,app.brightback.com
 DOMAIN,app.chatwoot.com
@@ -645,6 +646,7 @@ DOMAIN,cdn.svgator.com
 DOMAIN,cdn.tailwindcss.com
 DOMAIN,cdn.termius.com
 DOMAIN,cdn.thenewstack.io
+DOMAIN,cdn.thingiverse.com
 DOMAIN,cdn.tinypass.com
 DOMAIN,cdn.tolt.io
 DOMAIN,cdn.tracxn.com
@@ -823,7 +825,6 @@ DOMAIN,code.jquery.com
 DOMAIN,code.piano.io
 DOMAIN,code.upscope.io
 DOMAIN,common-header.nimg.jp
-DOMAIN,compass-ssl.xbox.com
 DOMAIN,components.clever-cloud.com
 DOMAIN,components.justanswer.com
 DOMAIN,components.trynow.net
@@ -1291,7 +1292,6 @@ DOMAIN,img.openshop.com.hk
 DOMAIN,img.pawoo.net
 DOMAIN,img.perfops.net
 DOMAIN,img.picacomic.com
-DOMAIN,img.ra7.xyz
 DOMAIN,img.reg.ru
 DOMAIN,img.reimu.net
 DOMAIN,img.represent.com
@@ -1303,6 +1303,7 @@ DOMAIN,img.sparemin.com
 DOMAIN,img.sparknotes.com
 DOMAIN,img.supjav.com
 DOMAIN,img.telemetr.io
+DOMAIN,img.thingiverse.com
 DOMAIN,img.timero.xyz
 DOMAIN,img.urlnode.com
 DOMAIN,img.utdstc.com
@@ -1438,6 +1439,7 @@ DOMAIN,mantisloader.mantis-awx.com
 DOMAIN,maps.geoapify.com
 DOMAIN,maps.gstatic.com
 DOMAIN,marketing.figma.com
+DOMAIN,marketing.thingiverse.com
 DOMAIN,marketplace-web-assets.vinted.com
 DOMAIN,mastodon-static.miao.dev
 DOMAIN,maven.google.com
@@ -1568,7 +1570,6 @@ DOMAIN,nodei.co
 DOMAIN,npm.antfu.dev
 DOMAIN,npm.im
 DOMAIN,npm.jsr.io
-DOMAIN,ntp.api.bz
 DOMAIN,ntp.msn.com
 DOMAIN,null.jsbin.com
 DOMAIN,o.n1mp.org
@@ -1605,7 +1606,6 @@ DOMAIN,p2.bahamut.com.tw
 DOMAIN,pacdn.500px.org
 DOMAIN,package-assets.oomol.com
 DOMAIN,packages-cf.termux.dev
-DOMAIN,packages.argotunnel.com
 DOMAIN,packages.httpie.io
 DOMAIN,packages.jetbrains.team
 DOMAIN,packages.termux.dev
@@ -1641,6 +1641,7 @@ DOMAIN,pics.vpdmm.cc
 DOMAIN,pics.x-n-x-x.pro
 DOMAIN,pkg-cdn.jetbrains.team
 DOMAIN,pkg-size.dev
+DOMAIN,pkg.cloudflare.com
 DOMAIN,pkg.cloudflareclient.com
 DOMAIN,pkg.csb.dev
 DOMAIN,pkgs.dev.azure.com
@@ -1971,7 +1972,6 @@ DOMAIN,static.ada.support
 DOMAIN,static.addtoany.com
 DOMAIN,static.adguardvpn.com
 DOMAIN,static.afterpay.com
-DOMAIN,static.agilebits.com
 DOMAIN,static.ahrefs.com
 DOMAIN,static.aizanmei.org
 DOMAIN,static.apkpure.com
@@ -2085,6 +2085,7 @@ DOMAIN,static.nhentai.net
 DOMAIN,static.nicehash.com
 DOMAIN,static.npmjs.com
 DOMAIN,static.nrk.no
+DOMAIN,static.observablehq.com
 DOMAIN,static.oklink.com
 DOMAIN,static.okx.com
 DOMAIN,static.olelive.com
@@ -3033,6 +3034,7 @@ DOMAIN-SUFFIX,nxcli.io
 DOMAIN-SUFFIX,nxedge.io
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,observableusercontent.com
 DOMAIN-SUFFIX,oculuscdn.com
 DOMAIN-SUFFIX,odycdn.com
 DOMAIN-SUFFIX,ogads-pa.clients6.google.com
@@ -3216,6 +3218,7 @@ DOMAIN-SUFFIX,stack.imgur.com
 DOMAIN-SUFFIX,stackblitz.io
 DOMAIN-SUFFIX,stapecdn.com
 DOMAIN-SUFFIX,static-prod-web.miniclip.com
+DOMAIN-SUFFIX,static.amplience.net
 DOMAIN-SUFFIX,static.chaosgroup.com
 DOMAIN-SUFFIX,static.domains
 DOMAIN-SUFFIX,static.flickr.com
@@ -3255,6 +3258,7 @@ DOMAIN-SUFFIX,superfiliate-cdn.com
 DOMAIN-SUFFIX,surge.sh
 DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,susercontent.com
+DOMAIN-SUFFIX,svbtleusercontent.com
 DOMAIN-SUFFIX,sway-cdn.com
 DOMAIN-SUFFIX,swiftypecdn.com
 DOMAIN-SUFFIX,sxccdn.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3459
+# 规则统计: 3463
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -56,6 +56,7 @@ HOST,app-api.vidjet.io,CDN
 HOST,app-spm.com,CDN
 HOST,app-static.eu.posthog.com,CDN
 HOST,app-static.turtl.co,CDN
+HOST,app.1password.com,CDN
 HOST,app.backinstock.org,CDN
 HOST,app.brightback.com,CDN
 HOST,app.chatwoot.com,CDN
@@ -645,6 +646,7 @@ HOST,cdn.svgator.com,CDN
 HOST,cdn.tailwindcss.com,CDN
 HOST,cdn.termius.com,CDN
 HOST,cdn.thenewstack.io,CDN
+HOST,cdn.thingiverse.com,CDN
 HOST,cdn.tinypass.com,CDN
 HOST,cdn.tolt.io,CDN
 HOST,cdn.tracxn.com,CDN
@@ -823,7 +825,6 @@ HOST,code.jquery.com,CDN
 HOST,code.piano.io,CDN
 HOST,code.upscope.io,CDN
 HOST,common-header.nimg.jp,CDN
-HOST,compass-ssl.xbox.com,CDN
 HOST,components.clever-cloud.com,CDN
 HOST,components.justanswer.com,CDN
 HOST,components.trynow.net,CDN
@@ -1291,7 +1292,6 @@ HOST,img.openshop.com.hk,CDN
 HOST,img.pawoo.net,CDN
 HOST,img.perfops.net,CDN
 HOST,img.picacomic.com,CDN
-HOST,img.ra7.xyz,CDN
 HOST,img.reg.ru,CDN
 HOST,img.reimu.net,CDN
 HOST,img.represent.com,CDN
@@ -1303,6 +1303,7 @@ HOST,img.sparemin.com,CDN
 HOST,img.sparknotes.com,CDN
 HOST,img.supjav.com,CDN
 HOST,img.telemetr.io,CDN
+HOST,img.thingiverse.com,CDN
 HOST,img.timero.xyz,CDN
 HOST,img.urlnode.com,CDN
 HOST,img.utdstc.com,CDN
@@ -1438,6 +1439,7 @@ HOST,mantisloader.mantis-awx.com,CDN
 HOST,maps.geoapify.com,CDN
 HOST,maps.gstatic.com,CDN
 HOST,marketing.figma.com,CDN
+HOST,marketing.thingiverse.com,CDN
 HOST,marketplace-web-assets.vinted.com,CDN
 HOST,mastodon-static.miao.dev,CDN
 HOST,maven.google.com,CDN
@@ -1568,7 +1570,6 @@ HOST,nodei.co,CDN
 HOST,npm.antfu.dev,CDN
 HOST,npm.im,CDN
 HOST,npm.jsr.io,CDN
-HOST,ntp.api.bz,CDN
 HOST,ntp.msn.com,CDN
 HOST,null.jsbin.com,CDN
 HOST,o.n1mp.org,CDN
@@ -1605,7 +1606,6 @@ HOST,p2.bahamut.com.tw,CDN
 HOST,pacdn.500px.org,CDN
 HOST,package-assets.oomol.com,CDN
 HOST,packages-cf.termux.dev,CDN
-HOST,packages.argotunnel.com,CDN
 HOST,packages.httpie.io,CDN
 HOST,packages.jetbrains.team,CDN
 HOST,packages.termux.dev,CDN
@@ -1641,6 +1641,7 @@ HOST,pics.vpdmm.cc,CDN
 HOST,pics.x-n-x-x.pro,CDN
 HOST,pkg-cdn.jetbrains.team,CDN
 HOST,pkg-size.dev,CDN
+HOST,pkg.cloudflare.com,CDN
 HOST,pkg.cloudflareclient.com,CDN
 HOST,pkg.csb.dev,CDN
 HOST,pkgs.dev.azure.com,CDN
@@ -1971,7 +1972,6 @@ HOST,static.ada.support,CDN
 HOST,static.addtoany.com,CDN
 HOST,static.adguardvpn.com,CDN
 HOST,static.afterpay.com,CDN
-HOST,static.agilebits.com,CDN
 HOST,static.ahrefs.com,CDN
 HOST,static.aizanmei.org,CDN
 HOST,static.apkpure.com,CDN
@@ -2085,6 +2085,7 @@ HOST,static.nhentai.net,CDN
 HOST,static.nicehash.com,CDN
 HOST,static.npmjs.com,CDN
 HOST,static.nrk.no,CDN
+HOST,static.observablehq.com,CDN
 HOST,static.oklink.com,CDN
 HOST,static.okx.com,CDN
 HOST,static.olelive.com,CDN
@@ -3033,6 +3034,7 @@ HOST-SUFFIX,nxcli.io,CDN
 HOST-SUFFIX,nxedge.io,CDN
 HOST-SUFFIX,oaistatic.com,CDN
 HOST-SUFFIX,oaiusercontent.com,CDN
+HOST-SUFFIX,observableusercontent.com,CDN
 HOST-SUFFIX,oculuscdn.com,CDN
 HOST-SUFFIX,odycdn.com,CDN
 HOST-SUFFIX,ogads-pa.clients6.google.com,CDN
@@ -3216,6 +3218,7 @@ HOST-SUFFIX,stack.imgur.com,CDN
 HOST-SUFFIX,stackblitz.io,CDN
 HOST-SUFFIX,stapecdn.com,CDN
 HOST-SUFFIX,static-prod-web.miniclip.com,CDN
+HOST-SUFFIX,static.amplience.net,CDN
 HOST-SUFFIX,static.chaosgroup.com,CDN
 HOST-SUFFIX,static.domains,CDN
 HOST-SUFFIX,static.flickr.com,CDN
@@ -3255,6 +3258,7 @@ HOST-SUFFIX,superfiliate-cdn.com,CDN
 HOST-SUFFIX,surge.sh,CDN
 HOST-SUFFIX,surrit.com,CDN
 HOST-SUFFIX,susercontent.com,CDN
+HOST-SUFFIX,svbtleusercontent.com,CDN
 HOST-SUFFIX,sway-cdn.com,CDN
 HOST-SUFFIX,swiftypecdn.com,CDN
 HOST-SUFFIX,sxccdn.com,CDN
