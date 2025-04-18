@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3467
+# 规则统计: 3471
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -327,6 +327,7 @@ HOST,cacerts.digicert.com,CDN
 HOST,cache-05.filehippo.net,CDN
 HOST,cache.armorgames.com,CDN
 HOST,cache.hackedfreegames.com,CDN
+HOST,canny-assets.io,CDN
 HOST,cassette.sphdigital.com.sg,CDN
 HOST,cc-embed.adobe.com,CDN
 HOST,cc.boyfriendtv.com,CDN
@@ -883,6 +884,7 @@ HOST,damassets.autodesk.net,CDN
 HOST,dassets.shimano.com,CDN
 HOST,data.jsdelivr.com,CDN
 HOST,data.pendo.io,CDN
+HOST,data.schemaapp.com,CDN
 HOST,data.web.clickup.com,CDN
 HOST,david-dm.org,CDN
 HOST,db.onlinewebfonts.com,CDN
@@ -2153,6 +2155,7 @@ HOST,static.xns.one,CDN
 HOST,static.xxxshake.com,CDN
 HOST,static.zaobao.com,CDN
 HOST,static.zaobao.com.sg,CDN
+HOST,static.zuora.com,CDN
 HOST,static01.nyt.com,CDN
 HOST,static02.nyt.com,CDN
 HOST,static1.lottiefiles.com,CDN
@@ -2691,6 +2694,7 @@ HOST-SUFFIX,ezocdn.com,CDN
 HOST-SUFFIX,f-droid.org,CDN
 HOST-SUFFIX,f.hubspotemail.net,CDN
 HOST-SUFFIX,f.hubspotfree.net,CDN
+HOST-SUFFIX,f.hubspotstarter.net,CDN
 HOST-SUFFIX,faceit-cdn.net,CDN
 HOST-SUFFIX,fakeimg.pl,CDN
 HOST-SUFFIX,fakestoreapi.com,CDN

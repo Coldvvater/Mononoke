@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3467
+# 规则统计: 3471
 
 domain_set:
   - 0x0.st
@@ -328,6 +328,7 @@ domain_set:
   - cache-05.filehippo.net
   - cache.armorgames.com
   - cache.hackedfreegames.com
+  - canny-assets.io
   - cassette.sphdigital.com.sg
   - cc-embed.adobe.com
   - cc.boyfriendtv.com
@@ -884,6 +885,7 @@ domain_set:
   - dassets.shimano.com
   - data.jsdelivr.com
   - data.pendo.io
+  - data.schemaapp.com
   - data.web.clickup.com
   - david-dm.org
   - db.onlinewebfonts.com
@@ -2154,6 +2156,7 @@ domain_set:
   - static.xxxshake.com
   - static.zaobao.com
   - static.zaobao.com.sg
+  - static.zuora.com
   - static01.nyt.com
   - static02.nyt.com
   - static1.lottiefiles.com
@@ -2693,6 +2696,7 @@ domain_suffix_set:
   - f-droid.org
   - f.hubspotemail.net
   - f.hubspotfree.net
+  - f.hubspotstarter.net
   - faceit-cdn.net
   - fakeimg.pl
   - fakestoreapi.com
