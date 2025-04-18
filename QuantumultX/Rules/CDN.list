@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3463
+# 规则统计: 3467
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -28,6 +28,7 @@ HOST,akamai-assets.squarespace.com,CDN
 HOST,alt.idgesg.net,CDN
 HOST,amazon-omni-cdn.com,CDN
 HOST,amp.azure.net,CDN
+HOST,analytics.canarymail.io,CDN
 HOST,analytics.twitter.com,CDN
 HOST,analytics.welcomesoftware.com,CDN
 HOST,anchor.digitalocean.com,CDN
@@ -1020,6 +1021,7 @@ HOST,firebase-settings.crashlytics.com,CDN
 HOST,firebaseinstallations.googleapis.com,CDN
 HOST,firebaselogging-pa.googleapis.com,CDN
 HOST,firebaselogging.googleapis.com,CDN
+HOST,firebaseremoteconfig.googleapis.com,CDN
 HOST,firefox.settings.services.mozilla.com,CDN
 HOST,fiverr-res.cloudinary.com,CDN
 HOST,flo.uri.sh,CDN
@@ -2184,6 +2186,7 @@ HOST,staticw2.yotpo.com,CDN
 HOST,stats.codesandbox.io,CDN
 HOST,stats.setapp.com,CDN
 HOST,stats.setapp.macpaw.dev,CDN
+HOST,status.canarymail.io,CDN
 HOST,status.ui.com,CDN
 HOST,stbff.newfold.com,CDN
 HOST,steamcdn-a.akamaihd.net,CDN
@@ -2251,6 +2254,7 @@ HOST,thumbsnap.com,CDN
 HOST,tiles.stadiamaps.com,CDN
 HOST,tiles.windy.com,CDN
 HOST,time.cloudflare.com,CDN
+HOST,time.google.com,CDN
 HOST,time.windows.com,CDN
 HOST,tn.txxx.tube,CDN
 HOST,tn.vjav.com,CDN

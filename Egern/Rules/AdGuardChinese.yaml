@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4744
+# 规则统计: 4755
 
 domain_suffix_set:
   - 002777.xyz
@@ -1048,6 +1048,7 @@ domain_suffix_set:
   - chaqraex.com
   - checbox.cc
   - chidir.com
+  - chienzul.com
   - chinagcdxyjng.cn
   - chinesean.com
   - chitshuqh.com
@@ -1293,6 +1294,7 @@ domain_suffix_set:
   - diav.cn
   - diendh.xyz
   - difzhd.icu
+  - dighavrap.com
   - dingbu.bj.bcebos.com
   - display.itmemo.cn
   - displink.com
@@ -1555,6 +1557,7 @@ domain_suffix_set:
   - evkzqs.xyz
   - evreiks.com
   - ewaterw.top
+  - ewdk.cn
   - eweisiw.top
   - eweizaw.top
   - ewerilxw.top
@@ -1617,6 +1620,7 @@ domain_suffix_set:
   - ffbdbx.xyz
   - ffdafx.xyz
   - ffjevt.icu
+  - fflbpi.top
   - fgadsqdma.top
   - fgdkfr.xyz
   - fghghh.cn
@@ -1908,6 +1912,7 @@ domain_suffix_set:
   - hauqoa.com
   - hauqou.top
   - hbbynt.xyz
+  - hbeafcac.top
   - hbnygj.com
   - hbxmdf.icu
   - hbzjht.com
@@ -2211,6 +2216,7 @@ domain_suffix_set:
   - iwanad.baidu.com
   - iwanshang8.asia
   - iwatero.top
+  - iwcnmto.top
   - iweisio.top
   - iweizao.top
   - iwerilxo.top
@@ -2624,6 +2630,7 @@ domain_suffix_set:
   - ljzcawea.icu
   - lkdyft.xyz
   - lkiterl.top
+  - lkmgjfkhfh.top
   - lkqaq.icu
   - ll.gxsky.com
   - lm.ijq.tv
@@ -3065,6 +3072,7 @@ domain_suffix_set:
   - osyliek.top
   - otfy.cn
   - otimiyk.top
+  - oucnmtk.top
   - ouiokaq.top
   - oumnxiek.top
   - ouplc.icu
@@ -3299,6 +3307,7 @@ domain_suffix_set:
   - qiyegongqiu1.qiyegongqiu.com
   - qjimtyy.top
   - qjoges.xyz
+  - qjuy.cn
   - qjwvwu.xyz
   - qkax.cn
   - qkgllif.icu
@@ -3686,6 +3695,7 @@ domain_suffix_set:
   - stgowan.com
   - stigzeal.com
   - stildell.com
+  - stildreans.com
   - stimiyb.top
   - stnew.xyz
   - stogmos.com
@@ -4081,6 +4091,7 @@ domain_suffix_set:
   - uuaisp.com
   - uuajq.top
   - uucatiqnd.com
+  - uucnmtt.top
   - uuiaoq.top
   - uumnxiet.top
   - uuqrisuy.com

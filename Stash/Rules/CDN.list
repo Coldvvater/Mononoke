@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3461
+# 规则统计: 3465
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -28,6 +28,7 @@ DOMAIN,akamai-assets.squarespace.com
 DOMAIN,alt.idgesg.net
 DOMAIN,amazon-omni-cdn.com
 DOMAIN,amp.azure.net
+DOMAIN,analytics.canarymail.io
 DOMAIN,analytics.twitter.com
 DOMAIN,analytics.welcomesoftware.com
 DOMAIN,anchor.digitalocean.com
@@ -1020,6 +1021,7 @@ DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN,firebaselogging-pa.googleapis.com
 DOMAIN,firebaselogging.googleapis.com
+DOMAIN,firebaseremoteconfig.googleapis.com
 DOMAIN,firefox.settings.services.mozilla.com
 DOMAIN,fiverr-res.cloudinary.com
 DOMAIN,flo.uri.sh
@@ -2184,6 +2186,7 @@ DOMAIN,staticw2.yotpo.com
 DOMAIN,stats.codesandbox.io
 DOMAIN,stats.setapp.com
 DOMAIN,stats.setapp.macpaw.dev
+DOMAIN,status.canarymail.io
 DOMAIN,status.ui.com
 DOMAIN,stbff.newfold.com
 DOMAIN,steamcdn-a.akamaihd.net
@@ -2251,6 +2254,7 @@ DOMAIN,thumbsnap.com
 DOMAIN,tiles.stadiamaps.com
 DOMAIN,tiles.windy.com
 DOMAIN,time.cloudflare.com
+DOMAIN,time.google.com
 DOMAIN,time.windows.com
 DOMAIN,tn.txxx.tube
 DOMAIN,tn.vjav.com
