@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7412
+# 规则统计: 7414
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -3193,6 +3193,7 @@ HOST-SUFFIX,hybrid-analysis.com,ProxyGFW
 HOST-SUFFIX,hyperrate.com,ProxyGFW
 HOST-SUFFIX,hypothes.is,ProxyGFW
 HOST-SUFFIX,hyread.com.tw,ProxyGFW
+HOST-SUFFIX,hysteria.network,ProxyGFW
 HOST-SUFFIX,i-cable.com,ProxyGFW
 HOST-SUFFIX,i-part.com.tw,ProxyGFW
 HOST-SUFFIX,i-scmp.com,ProxyGFW
@@ -5238,6 +5239,7 @@ HOST-SUFFIX,safechat.com,ProxyGFW
 HOST-SUFFIX,safeguarddefenders.com,ProxyGFW
 HOST-SUFFIX,safervpn.com,ProxyGFW
 HOST-SUFFIX,safety.google,ProxyGFW
+HOST-SUFFIX,sagernet.org,ProxyGFW
 HOST-SUFFIX,saintyculture.com,ProxyGFW
 HOST-SUFFIX,saiq.me,ProxyGFW
 HOST-SUFFIX,sakuralive.com,ProxyGFW

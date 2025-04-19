@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7412
+# 规则统计: 7414
 
 DOMAIN,cloud.oracle.com
 DOMAIN,steambroadcast.akamaized.net
@@ -3193,6 +3193,7 @@ DOMAIN-SUFFIX,hybrid-analysis.com
 DOMAIN-SUFFIX,hyperrate.com
 DOMAIN-SUFFIX,hypothes.is
 DOMAIN-SUFFIX,hyread.com.tw
+DOMAIN-SUFFIX,hysteria.network
 DOMAIN-SUFFIX,i-cable.com
 DOMAIN-SUFFIX,i-part.com.tw
 DOMAIN-SUFFIX,i-scmp.com
@@ -5238,6 +5239,7 @@ DOMAIN-SUFFIX,safechat.com
 DOMAIN-SUFFIX,safeguarddefenders.com
 DOMAIN-SUFFIX,safervpn.com
 DOMAIN-SUFFIX,safety.google
+DOMAIN-SUFFIX,sagernet.org
 DOMAIN-SUFFIX,saintyculture.com
 DOMAIN-SUFFIX,saiq.me
 DOMAIN-SUFFIX,sakuralive.com

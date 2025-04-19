@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3469
+# 规则统计: 3474
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1047,6 +1047,7 @@ DOMAIN,frames-commandbar-prod.commandbar.com
 DOMAIN,freeshippingbar.herokuapp.com
 DOMAIN,front-resource.fs.com
 DOMAIN,frontend-apps.workos.com
+DOMAIN,frontend.floatplane.com
 DOMAIN,fs2.onlyhentaistuff.com
 DOMAIN,fscdn.eppo.cloud
 DOMAIN,g-static.ap4r.com
@@ -1600,6 +1601,7 @@ DOMAIN,oss.1p3a.com
 DOMAIN,oss.moe.cat
 DOMAIN,ovo.wxw.moe
 DOMAIN,ovp.itv.com
+DOMAIN,p-cdnstatic.svc.litv.tv
 DOMAIN,p-smith.com
 DOMAIN,p.depot.dev
 DOMAIN,p.inari.site
@@ -1620,6 +1622,7 @@ DOMAIN,patterns.hiive.cloud
 DOMAIN,pba.apple.com
 DOMAIN,pbc.nypost.com
 DOMAIN,pbc.wsj.com
+DOMAIN,pbs.floatplane.com
 DOMAIN,pcdn-my.pcloud.com
 DOMAIN,pcdn-www.pcloud.com
 DOMAIN,pcz.javidol.org
@@ -1643,6 +1646,7 @@ DOMAIN,pics.mf8.biz
 DOMAIN,pics.paypal.com
 DOMAIN,pics.vpdmm.cc
 DOMAIN,pics.x-n-x-x.pro
+DOMAIN,pim-media.intel.com
 DOMAIN,pkg-cdn.jetbrains.team
 DOMAIN,pkg-size.dev
 DOMAIN,pkg.cloudflare.com
@@ -1769,6 +1773,7 @@ DOMAIN,runkit-packages-static.com
 DOMAIN,rv-assets.softonic.com
 DOMAIN,s-cdn.anthropic.com
 DOMAIN,s-cdn.phonearena.com
+DOMAIN,s-cdnstatic.svc.litv.tv
 DOMAIN,s.abcnews.com
 DOMAIN,s.gishan.cc
 DOMAIN,s.imgflip.com

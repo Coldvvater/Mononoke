@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3471
+# 规则统计: 3476
 
 domain_set:
   - 0x0.st
@@ -1048,6 +1048,7 @@ domain_set:
   - freeshippingbar.herokuapp.com
   - front-resource.fs.com
   - frontend-apps.workos.com
+  - frontend.floatplane.com
   - fs2.onlyhentaistuff.com
   - fscdn.eppo.cloud
   - g-static.ap4r.com
@@ -1601,6 +1602,7 @@ domain_set:
   - oss.moe.cat
   - ovo.wxw.moe
   - ovp.itv.com
+  - p-cdnstatic.svc.litv.tv
   - p-smith.com
   - p.depot.dev
   - p.inari.site
@@ -1621,6 +1623,7 @@ domain_set:
   - pba.apple.com
   - pbc.nypost.com
   - pbc.wsj.com
+  - pbs.floatplane.com
   - pcdn-my.pcloud.com
   - pcdn-www.pcloud.com
   - pcz.javidol.org
@@ -1644,6 +1647,7 @@ domain_set:
   - pics.paypal.com
   - pics.vpdmm.cc
   - pics.x-n-x-x.pro
+  - pim-media.intel.com
   - pkg-cdn.jetbrains.team
   - pkg-size.dev
   - pkg.cloudflare.com
@@ -1770,6 +1774,7 @@ domain_set:
   - rv-assets.softonic.com
   - s-cdn.anthropic.com
   - s-cdn.phonearena.com
+  - s-cdnstatic.svc.litv.tv
   - s.abcnews.com
   - s.gishan.cc
   - s.imgflip.com

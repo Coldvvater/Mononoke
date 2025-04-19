@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3471
+# 规则统计: 3476
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1047,6 +1047,7 @@ HOST,frames-commandbar-prod.commandbar.com,CDN
 HOST,freeshippingbar.herokuapp.com,CDN
 HOST,front-resource.fs.com,CDN
 HOST,frontend-apps.workos.com,CDN
+HOST,frontend.floatplane.com,CDN
 HOST,fs2.onlyhentaistuff.com,CDN
 HOST,fscdn.eppo.cloud,CDN
 HOST,g-static.ap4r.com,CDN
@@ -1600,6 +1601,7 @@ HOST,oss.1p3a.com,CDN
 HOST,oss.moe.cat,CDN
 HOST,ovo.wxw.moe,CDN
 HOST,ovp.itv.com,CDN
+HOST,p-cdnstatic.svc.litv.tv,CDN
 HOST,p-smith.com,CDN
 HOST,p.depot.dev,CDN
 HOST,p.inari.site,CDN
@@ -1620,6 +1622,7 @@ HOST,patterns.hiive.cloud,CDN
 HOST,pba.apple.com,CDN
 HOST,pbc.nypost.com,CDN
 HOST,pbc.wsj.com,CDN
+HOST,pbs.floatplane.com,CDN
 HOST,pcdn-my.pcloud.com,CDN
 HOST,pcdn-www.pcloud.com,CDN
 HOST,pcz.javidol.org,CDN
@@ -1643,6 +1646,7 @@ HOST,pics.mf8.biz,CDN
 HOST,pics.paypal.com,CDN
 HOST,pics.vpdmm.cc,CDN
 HOST,pics.x-n-x-x.pro,CDN
+HOST,pim-media.intel.com,CDN
 HOST,pkg-cdn.jetbrains.team,CDN
 HOST,pkg-size.dev,CDN
 HOST,pkg.cloudflare.com,CDN
@@ -1769,6 +1773,7 @@ HOST,runkit-packages-static.com,CDN
 HOST,rv-assets.softonic.com,CDN
 HOST,s-cdn.anthropic.com,CDN
 HOST,s-cdn.phonearena.com,CDN
+HOST,s-cdnstatic.svc.litv.tv,CDN
 HOST,s.abcnews.com,CDN
 HOST,s.gishan.cc,CDN
 HOST,s.imgflip.com,CDN
