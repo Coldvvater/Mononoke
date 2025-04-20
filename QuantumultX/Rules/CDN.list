@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3476
+# 规则统计: 3470
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1310,7 +1310,6 @@ HOST,img.supjav.com,CDN
 HOST,img.telemetr.io,CDN
 HOST,img.thingiverse.com,CDN
 HOST,img.timero.xyz,CDN
-HOST,img.urlnode.com,CDN
 HOST,img.utdstc.com,CDN
 HOST,img.vim-cn.com,CDN
 HOST,img.washingtonpost.com,CDN
@@ -1395,7 +1394,6 @@ HOST,jslibs.blackmagicdesign.com,CDN
 HOST,jsonplaceholder.typicode.com,CDN
 HOST,jssdk.opin.media,CDN
 HOST,jssocdn.indiatimes.com,CDN
-HOST,k-cdn.depot.dev,CDN
 HOST,kdata1.com,CDN
 HOST,keyframe-cdn.abcnews.com,CDN
 HOST,lain.bgm.tv,CDN
@@ -1692,7 +1690,6 @@ HOST,prod-packager-packages.codesandbox.io,CDN
 HOST,prod-streaming-video-msn-com.akamaized.net,CDN
 HOST,prod-video-cms-amp-microsoft-com.akamaized.net,CDN
 HOST,prod.addictinggames.com,CDN
-HOST,prod.msocdn.com,CDN
 HOST,prodamdnewsencoding.akamaized.net,CDN
 HOST,production-cmp.isgprivacy.cbsi.com,CDN
 HOST,profile-images.xing.com,CDN
@@ -2267,7 +2264,6 @@ HOST,time.windows.com,CDN
 HOST,tn.txxx.tube,CDN
 HOST,tn.vjav.com,CDN
 HOST,todoist.b-cdn.net,CDN
-HOST,ton.local.twitter.com,CDN
 HOST,tools-static.wmflabs.org,CDN
 HOST,tools.refokus.com,CDN
 HOST,top1cdn.top1health.com,CDN
@@ -2945,7 +2941,6 @@ HOST-SUFFIX,larksuitecdn.com,CDN
 HOST-SUFFIX,lbpicpic.com,CDN
 HOST-SUFFIX,lbpictupian.com,CDN
 HOST-SUFFIX,lencr.org,CDN
-HOST-SUFFIX,li-cdn.com,CDN
 HOST-SUFFIX,liangzipic.com,CDN
 HOST-SUFFIX,licensebuttons.net,CDN
 HOST-SUFFIX,lichess1.org,CDN
@@ -3181,7 +3176,6 @@ HOST-SUFFIX,sciencedirectassets.com,CDN
 HOST-SUFFIX,scorecardresearch.com,CDN
 HOST-SUFFIX,scribdassets.com,CDN
 HOST-SUFFIX,seadn.io,CDN
-HOST-SUFFIX,search.ipfsgate.com,CDN
 HOST-SUFFIX,sendspace.com,CDN
 HOST-SUFFIX,senja.io,CDN
 HOST-SUFFIX,sentry-cdn.com,CDN

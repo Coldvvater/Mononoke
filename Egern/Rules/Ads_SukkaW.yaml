@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 67670
+# 规则统计: 67697
 
 no_resolve: true
 domain_set:
@@ -177,7 +177,6 @@ domain_set:
   - adsqqclick.qq.com
   - adsrich.qq.com
   - adstat.izuiyou.com
-  - adstats.mgc-games.com
   - adstextview.qq.com
   - adstore-1252524079.file.myqcloud.com
   - adstore-index-1252524079.file.myqcloud.com
@@ -329,7 +328,6 @@ domain_set:
   - c.id.mi.com
   - c.kuaiduizuoye.com
   - c.l.qq.com
-  - c.medialytics.com
   - c.mse.360.cn
   - c.msn.com.cn
   - c.uaa.iqiyi.com
@@ -957,7 +955,6 @@ domain_set:
   - sdkconf.avlyun.com
   - sdkconfig.video.qq.com
   - sdkinit.taobao.com
-  - search.mgc-games.com
   - sec-cdn.static.xiaomi.net
   - sec.resource.xiaomi.net
   - secode2.hd.xiaomi.com
@@ -1900,6 +1897,7 @@ domain_suffix_set:
   - 8ail6.icu
   - 8cp.icu
   - 8digits.com
+  - 8ea1272194.com
   - 8ecc2aee4f.com
   - 8ehhtsv9bo7i.monkeylearn.com
   - 8et.icu
@@ -5497,6 +5495,7 @@ domain_suffix_set:
   - amazon-adsystem.amazon.com
   - amazon-adsystem.com
   - amazon-cornerstone.com
+  - amazonaws.com
   - amazonclix.com
   - ambaab.com
   - ambasador.montessorikurz.cz
@@ -10323,6 +10322,7 @@ domain_suffix_set:
   - ca.transhero.com
   - ca.video-cdn.net
   - ca.yangshengtv.com
+  - ca06ef821c.com
   - ca2686564a.com
   - ca4psell23a4bur.com
   - caahwq.com
@@ -11190,6 +11190,7 @@ domain_suffix_set:
   - chourdain.com
   - chouthep.net
   - choymp.pooldawg.com
+  - choyoga.com
   - chpspb.bubbleroom.fi
   - chr.conservativehealthreport.org
   - chrczt.vite-envogue.de
@@ -12753,6 +12754,7 @@ domain_suffix_set:
   - coverdistilltile.com
   - covertcourse.com
   - covettunica.com
+  - covidvcfund.com
   - covivado.club
   - coviyr.modafurnishings.co.uk
   - covtk.medtronic.com
@@ -19577,6 +19579,7 @@ domain_suffix_set:
   - egret.legislative.tech
   - egswvw.hanrousa.com
   - egvemw.aboutyou.ee
+  - egxtaxsqf.com
   - ehauzf.jewlr.ca
   - ehavol.consul.com.br
   - ehdkzm.ottoversand.at
@@ -20648,6 +20651,7 @@ domain_suffix_set:
   - etherart.online
   - ethhbl.dom-rafinad.ru
   - ethnic1266.fun
+  - ethugloodu.com
   - etjui.cn
   - etkaiz.paprika.fr
   - etl.springbot.com
@@ -21602,6 +21606,7 @@ domain_suffix_set:
   - fesnaed.com
   - fespzx.sfr.fr
   - festfive.online
+  - feturequalms.shop
   - feuageepitoke.com
   - feubgzfx.icu
   - feuqzl.woolrich.com
@@ -24019,7 +24024,6 @@ domain_suffix_set:
   - googlehm.cc
   - googleoptimize-cn.com
   - googleoptimize.com
-  - googleplay.pro
   - googlesyndication-cn.com
   - googlesyndication.com
   - googletagmanager-cn.com
@@ -25174,6 +25178,7 @@ domain_suffix_set:
   - h8ne.com
   - ha-api.pushwoosh.com
   - habsoowhaum.net
+  - hacx60.com
   - haddock.affilimate.com
   - haddock.jeffreyknox.dev
   - haddock.simgenie.app
@@ -25394,6 +25399,7 @@ domain_suffix_set:
   - headacheaim.com
   - headphones.xn--clinicadentalcariena-k7b.com
   - headshot.monster
+  - healfultwifold.com
   - health-metrics-api.setapp.com
   - health.atlanticgeneral.org
   - health.becomehealthytogether.com
@@ -25948,6 +25954,7 @@ domain_suffix_set:
   - hostadsmarkets.com
   - hostave4.net
   - hostcontent.live
+  - hoster-test.ru
   - hostolhg.com
   - hot-mob.com
   - hot.justpornflix.com
@@ -26183,6 +26190,7 @@ domain_suffix_set:
   - husky.sogou.com
   - huskypartydance.com
   - husoxn.investors.com
+  - hut1.ru
   - hutjfl.pennyblack.com
   - hutkse.wecandoo.fr
   - hutoumseet.com
@@ -28373,6 +28381,7 @@ domain_suffix_set:
   - innity.net
   - innovads-server.poster.appsinnova.com
   - innovate.bionix.com
+  - innovatedating.com
   - innovation.agam.nl
   - innovation.bloomsoutofthebox.com
   - innovation.boxrstore.com
@@ -29792,6 +29801,7 @@ domain_suffix_set:
   - jynwlg.veromoda.com
   - jyozavobzrlkz.top
   - jypvzd.xyz
+  - jyqekzzlmymzy.top
   - jyqkijp.icu
   - jyuicr.codemonkey.com
   - jyumzv.dcshoes.com.br
@@ -29883,6 +29893,7 @@ domain_suffix_set:
   - kangaroohiccups.com
   - kanndr.badkamerdepot.be
   - kantiwl.com
+  - kanuassociates.com
   - kaocko.swaglift.com
   - kaolinoleous.com
   - kaosts.com
@@ -29937,6 +29948,7 @@ domain_suffix_set:
   - kbx.weardala.com
   - kbzjmu.helvetictours.ch
   - kcaactpkyp.com
+  - kcadxjoxkggcui.com
   - kcaodbdtyobr.com
   - kcecv.doctork.jp
   - kcfdom.com
@@ -33809,6 +33821,7 @@ domain_suffix_set:
   - luxupcdnb.com
   - luxupcdnc.com
   - luxury.discoverylandco.com
+  - luxxeeu.com
   - luyarvx.icu
   - luyten-98c.com
   - luzfpa.dltviaggi.it
@@ -40067,6 +40080,7 @@ domain_suffix_set:
   - newt.masonwear.co
   - newtest.wunderman-email.cjm.adobe.com
   - newton.pw
+  - newzgames.com
   - nex.163.com
   - nex8.space
   - nexac.com
@@ -42039,6 +42053,7 @@ domain_suffix_set:
   - ounwut.thehappyplanner.com
   - oupheerdodoomt.net
   - ouphouch.com
+  - ouphushoomauh.net
   - ouplc.icu
   - oupusoma.net
   - our.sunshinecoast.qld.gov.au
@@ -44214,6 +44229,7 @@ domain_suffix_set:
   - pressize.com
   - pressyour.com
   - prestoris.com
+  - pretenddyker.com
   - pretrackings.com
   - pretty-fly4.com
   - pretty-sluts-nearby.com
@@ -44445,6 +44461,7 @@ domain_suffix_set:
   - prossit.prostavive.site
   - prosumsit.com
   - prosvive.prostavive.online
+  - prosystemorgo.com
   - protagcdn.com
   - protawe.com
   - proteinfrivolousfertilised.com
@@ -44497,6 +44514,7 @@ domain_suffix_set:
   - prugrr.sens-original.com
   - prugskh.com
   - prugskh.net
+  - pruningcomping.top
   - prutosom.com
   - prvc.io
   - prvizg.shurgard.be
@@ -44770,6 +44788,7 @@ domain_suffix_set:
   - pushazam.com
   - pushbizapi.com
   - pushclk.com
+  - pushd.netky.tech
   - pushdelone.com
   - pushdom.co
   - pushdrop.club
@@ -45827,6 +45846,7 @@ domain_suffix_set:
   - receiver.eigene.io
   - receiver.habby.mobi
   - receptivereaction.com
+  - receptivity.io
   - rechenschieber.soccerdonna.de
   - rechenschieber.transfermarkt.at
   - rechenschieber.transfermarkt.be
@@ -49622,6 +49642,7 @@ domain_suffix_set:
   - shelluiqy.com
   - shelourdoals.net
   - shemsoalto.net
+  - shengen.ru
   - sheoil.newyorkandcompany.com
   - shepeekr.net
   - sherlock.mediaddress.com
@@ -54663,6 +54684,7 @@ domain_suffix_set:
   - sugar.zhihu.com
   - sugilip.cn
   - sugs.m.sm.cn
+  - suitedeatercrutch.com
   - sukspcwrnqpbs.life
   - sulkycook.com
   - sumatoad.com
@@ -56455,6 +56477,7 @@ domain_suffix_set:
   - tauzo.xyz
   - tawmbg.tower-london.com
   - taxfvo.mamaloesbabysjop.nl
+  - taxility.com
   - taxissunroom.com
   - taxkob.equestrianstockholm.com
   - taxrsiwlggms.com
@@ -57055,6 +57078,7 @@ domain_suffix_set:
   - thidraimistah.com
   - thiltoocmom.com
   - thind-gke-euw.prd.data.corp.unity3d.com
+  - thinideemissie.com
   - think.phdinc.com
   - thinksclingingentertainment.com
   - thinksuggest.org
@@ -63754,6 +63778,7 @@ domain_suffix_set:
   - vortex.hulu.com
   - vortix.prismaticshop.store
   - vothongeey.net
+  - votookrogn.net
   - votruiiuefzwd.today
   - voucoapoo.com
   - vougaipte.net
@@ -66861,6 +66886,7 @@ domain_suffix_set:
   - yummycdn.com
   - yun-hl.3g.qq.com
   - yunshipei.com
+  - yuntodifrz.com
   - yuoyan.finanzen.de
   - yuqmok.xyz
   - yuqnyudug.com
@@ -67068,6 +67094,7 @@ domain_suffix_set:
   - zampdsp.com
   - zamxcn.dmall.co.kr
   - zantainet.com
+  - zapotasmoot.com
   - zarkph.lacotto.jp
   - zarpop.com
   - zarvsr.carredartistes.com
