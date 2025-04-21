@@ -259,6 +259,7 @@ jobs:
           if [ -f "$file" ]; then
             sed -i -e '/^USER-AGENT/d' "$file"
             sed -i -e '/^URL-REGEX/d' "$file"
+            sed -i 's/DOMAIN-WILDCARD/DOMAIN-REGEX/g' "$file"
             file_names=$(basename "$file" .list)
             line_count=$(wc -l < "$file")
             awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
