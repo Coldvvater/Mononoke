@@ -257,6 +257,8 @@ domain_set:
   - assetscdn-wchat.eu.freshchat.com
   - assetscdn.jable.tv
   - at.cbsi.com
+  - attach.mobile01.com
+  - attach2.mobile01.com
   - attachments.office.net
   - auth.split.io
   - avatar.freepik.com
@@ -923,7 +925,6 @@ domain_set:
   - e3.365dm.com
   - eaassets-a.akamaihd.net
   - easylist-downloads.adblockplus.org
-  - ec-prod.scene7.com
   - ecommplugins-scripts.trustpilot.com
   - ecommplugins-trustboxsettings.trustpilot.com
   - edata.ndtv.com
@@ -1561,7 +1562,6 @@ domain_set:
   - net-fe-static-assets.network-controller.svc.ui.com
   - netlify.apollo.io
   - newassets.hcaptcha.com
-  - newfold.scene7.com
   - news-assets.apple.com
   - newsletter.postmarkapp.com
   - next-images.opencollective.com
@@ -1836,7 +1836,6 @@ domain_set:
   - s5.maxstream.org
   - s6.maxstream.org
   - s7.maxstream.org
-  - s7d1.scene7.com
   - s8.maxstream.org
   - s9.maxstream.org
   - safebrowsing.brave.com
@@ -3173,6 +3172,7 @@ domain_suffix_set:
   - sb-cd.com
   - sbcdnvideo.com
   - sc-cdn.com
+  - scene7.com
   - schemastore.org
   - sciencedirectassets.com
   - scorecardresearch.com

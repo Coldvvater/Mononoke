@@ -256,6 +256,8 @@ DOMAIN,assets9.lottiefiles.com
 DOMAIN,assetscdn-wchat.eu.freshchat.com
 DOMAIN,assetscdn.jable.tv
 DOMAIN,at.cbsi.com
+DOMAIN,attach.mobile01.com
+DOMAIN,attach2.mobile01.com
 DOMAIN,attachments.office.net
 DOMAIN,auth.split.io
 DOMAIN,avatar.freepik.com
@@ -922,7 +924,6 @@ DOMAIN,e.linear.app
 DOMAIN,e3.365dm.com
 DOMAIN,eaassets-a.akamaihd.net
 DOMAIN,easylist-downloads.adblockplus.org
-DOMAIN,ec-prod.scene7.com
 DOMAIN,ecommplugins-scripts.trustpilot.com
 DOMAIN,ecommplugins-trustboxsettings.trustpilot.com
 DOMAIN,edata.ndtv.com
@@ -1560,7 +1561,6 @@ DOMAIN,nbcnewsdigital-static.nbcuni.com
 DOMAIN,net-fe-static-assets.network-controller.svc.ui.com
 DOMAIN,netlify.apollo.io
 DOMAIN,newassets.hcaptcha.com
-DOMAIN,newfold.scene7.com
 DOMAIN,news-assets.apple.com
 DOMAIN,newsletter.postmarkapp.com
 DOMAIN,next-images.opencollective.com
@@ -1835,7 +1835,6 @@ DOMAIN,s4.maxstream.org
 DOMAIN,s5.maxstream.org
 DOMAIN,s6.maxstream.org
 DOMAIN,s7.maxstream.org
-DOMAIN,s7d1.scene7.com
 DOMAIN,s8.maxstream.org
 DOMAIN,s9.maxstream.org
 DOMAIN,safebrowsing.brave.com
@@ -3171,6 +3170,7 @@ DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN-SUFFIX,sb-cd.com
 DOMAIN-SUFFIX,sbcdnvideo.com
 DOMAIN-SUFFIX,sc-cdn.com
+DOMAIN-SUFFIX,scene7.com
 DOMAIN-SUFFIX,schemastore.org
 DOMAIN-SUFFIX,sciencedirectassets.com
 DOMAIN-SUFFIX,scorecardresearch.com

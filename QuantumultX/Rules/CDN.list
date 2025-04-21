@@ -256,6 +256,8 @@ HOST,assets9.lottiefiles.com,CDN
 HOST,assetscdn-wchat.eu.freshchat.com,CDN
 HOST,assetscdn.jable.tv,CDN
 HOST,at.cbsi.com,CDN
+HOST,attach.mobile01.com,CDN
+HOST,attach2.mobile01.com,CDN
 HOST,attachments.office.net,CDN
 HOST,auth.split.io,CDN
 HOST,avatar.freepik.com,CDN
@@ -922,7 +924,6 @@ HOST,e.linear.app,CDN
 HOST,e3.365dm.com,CDN
 HOST,eaassets-a.akamaihd.net,CDN
 HOST,easylist-downloads.adblockplus.org,CDN
-HOST,ec-prod.scene7.com,CDN
 HOST,ecommplugins-scripts.trustpilot.com,CDN
 HOST,ecommplugins-trustboxsettings.trustpilot.com,CDN
 HOST,edata.ndtv.com,CDN
@@ -1560,7 +1561,6 @@ HOST,nbcnewsdigital-static.nbcuni.com,CDN
 HOST,net-fe-static-assets.network-controller.svc.ui.com,CDN
 HOST,netlify.apollo.io,CDN
 HOST,newassets.hcaptcha.com,CDN
-HOST,newfold.scene7.com,CDN
 HOST,news-assets.apple.com,CDN
 HOST,newsletter.postmarkapp.com,CDN
 HOST,next-images.opencollective.com,CDN
@@ -1835,7 +1835,6 @@ HOST,s4.maxstream.org,CDN
 HOST,s5.maxstream.org,CDN
 HOST,s6.maxstream.org,CDN
 HOST,s7.maxstream.org,CDN
-HOST,s7d1.scene7.com,CDN
 HOST,s8.maxstream.org,CDN
 HOST,s9.maxstream.org,CDN
 HOST,safebrowsing.brave.com,CDN
@@ -3171,6 +3170,7 @@ HOST-SUFFIX,safebrowsing.apple,CDN
 HOST-SUFFIX,sb-cd.com,CDN
 HOST-SUFFIX,sbcdnvideo.com,CDN
 HOST-SUFFIX,sc-cdn.com,CDN
+HOST-SUFFIX,scene7.com,CDN
 HOST-SUFFIX,schemastore.org,CDN
 HOST-SUFFIX,sciencedirectassets.com,CDN
 HOST-SUFFIX,scorecardresearch.com,CDN
