@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3470
+# 规则统计: 3472
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2333,6 +2333,7 @@ HOST,videos.elephas.app,CDN
 HOST,videos.ohentai.org,CDN
 HOST,videos2-h.sendvid.com,CDN
 HOST,videos2.edclub.com,CDN
+HOST,vip.dytt-img.com,CDN
 HOST,vir.wsj.net,CDN
 HOST,viu-static.akamaized.net,CDN
 HOST,vjs.zencdn.net,CDN
@@ -2595,7 +2596,6 @@ HOST-SUFFIX,cloud1.influxdata.com,CDN
 HOST-SUFFIX,cloud2.influxdata.com,CDN
 HOST-SUFFIX,cloudatacdn.com,CDN
 HOST-SUFFIX,cloudflare-ipfs.com,CDN
-HOST-SUFFIX,cloudflare-terms-of-service-abuse.com,CDN
 HOST-SUFFIX,cloudflare.docker.com,CDN
 HOST-SUFFIX,cloudflare.ltd,CDN
 HOST-SUFFIX,cloudflarestream.com,CDN
@@ -3175,6 +3175,7 @@ HOST-SUFFIX,schemastore.org,CDN
 HOST-SUFFIX,sciencedirectassets.com,CDN
 HOST-SUFFIX,scorecardresearch.com,CDN
 HOST-SUFFIX,scribdassets.com,CDN
+HOST-SUFFIX,scripts.gatorapi.com,CDN
 HOST-SUFFIX,seadn.io,CDN
 HOST-SUFFIX,sendspace.com,CDN
 HOST-SUFFIX,senja.io,CDN
@@ -3224,6 +3225,7 @@ HOST-SUFFIX,sstatic.net,CDN
 HOST-SUFFIX,stack.imgur.com,CDN
 HOST-SUFFIX,stackblitz.io,CDN
 HOST-SUFFIX,stapecdn.com,CDN
+HOST-SUFFIX,static-assets.photoshop.adobe.com,CDN
 HOST-SUFFIX,static-prod-web.miniclip.com,CDN
 HOST-SUFFIX,static.amplience.net,CDN
 HOST-SUFFIX,static.chaosgroup.com,CDN

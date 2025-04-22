@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3470
+# 规则统计: 3472
 
 domain_set:
   - 0x0.st
@@ -2334,6 +2334,7 @@ domain_set:
   - videos.ohentai.org
   - videos2-h.sendvid.com
   - videos2.edclub.com
+  - vip.dytt-img.com
   - vir.wsj.net
   - viu-static.akamaized.net
   - vjs.zencdn.net
@@ -2597,7 +2598,6 @@ domain_suffix_set:
   - cloud2.influxdata.com
   - cloudatacdn.com
   - cloudflare-ipfs.com
-  - cloudflare-terms-of-service-abuse.com
   - cloudflare.docker.com
   - cloudflare.ltd
   - cloudflarestream.com
@@ -3177,6 +3177,7 @@ domain_suffix_set:
   - sciencedirectassets.com
   - scorecardresearch.com
   - scribdassets.com
+  - scripts.gatorapi.com
   - seadn.io
   - sendspace.com
   - senja.io
@@ -3226,6 +3227,7 @@ domain_suffix_set:
   - stack.imgur.com
   - stackblitz.io
   - stapecdn.com
+  - static-assets.photoshop.adobe.com
   - static-prod-web.miniclip.com
   - static.amplience.net
   - static.chaosgroup.com
