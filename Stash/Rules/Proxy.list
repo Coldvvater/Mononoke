@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 493
+# 规则统计: 494
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -494,3 +494,4 @@ DOMAIN-KEYWORD,ttvnw
 IP-CIDR,18.206.50.220/32,no-resolve
 IP-CIDR,3.136.94.196/32,no-resolve
 IP-CIDR,44.205.88.94/32,no-resolve
+USER-AGENT,SpeedTest*

@@ -1,5 +1,5 @@
 # 规则名称: NetEaseMusic
-# 规则统计: 43
+# 规则统计: 45
 
 DOMAIN,netease.ugcvideoss.ourdvs.com
 DOMAIN-SUFFIX,163yun.com
@@ -44,3 +44,5 @@ IP-CIDR,59.111.181.60/32,no-resolve
 IP-CIDR,59.111.19.33/32,no-resolve
 IP-CIDR,59.111.21.14/31,no-resolve
 IP-CIDR,59.111.238.29/32,no-resolve
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
+USER-AGENT,NeteaseMusic*

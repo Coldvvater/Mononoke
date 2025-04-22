@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 788
+# 规则统计: 791
 
 DOMAIN,acg.tv
 DOMAIN,assets1.xboxlive.cn
@@ -789,3 +789,6 @@ DOMAIN-WILDCARD,*.ffzy-play?.com
 DOMAIN-WILDCARD,*.lz-cdn?.com
 DOMAIN-WILDCARD,*.lz-cdn??.com
 DOMAIN-WILDCARD,*.qhimgs?.com
+USER-AGENT,%E4%BC%98%E9%85%B7*
+USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
+USER-AGENT,TeslaMap

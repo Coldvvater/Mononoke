@@ -1,5 +1,5 @@
 # 规则名称: Ads_Dlerio
-# 规则统计: 8238
+# 规则统计: 8239
 
 DOMAIN,118.89.204.198
 DOMAIN,ad.bn.netease.com
@@ -8239,3 +8239,4 @@ IP-CIDR,61.160.200.242/32,no-resolve
 IP-CIDR,61.160.200.252/32,no-resolve
 IP-CIDR,61.174.50.214/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+USER-AGENT,AVOS*

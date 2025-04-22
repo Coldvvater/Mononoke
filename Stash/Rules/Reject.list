@@ -1,5 +1,5 @@
 # 规则名称: Reject
-# 规则统计: 5353
+# 规则统计: 5355
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -5354,3 +5354,5 @@ IP-CIDR,205.209.138.102/32,no-resolve
 IP-CIDR,23.231.151.252/32,no-resolve
 IP-CIDR,60.190.139.164/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+USER-AGENT,AVOS*
+AND,((DOMAIN-KEYWORD,stun),(DOMAIN-KEYWORD,bilibili))
