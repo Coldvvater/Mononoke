@@ -1,5 +1,5 @@
 # 规则名称: Ads_limbopro
-# 规则统计: 509
+# 规则统计: 507
 
 domain_set:
   - 118.89.204.198
@@ -389,7 +389,6 @@ domain_suffix_set:
   - magsrv.com
   - maphuahin.com
   - maxwellsery.com
-  - mc.yandex.ru
   - mc7clurd09pla4nrtat7ion.com
   - media.aso1.net
   - media.dalysv.com
@@ -476,7 +475,6 @@ domain_suffix_set:
   - xn--qrq171dxpq.com
   - xn--xhq9mt12cf5v.xn--io0a7i
   - xxxjmp.com
-  - yandex.ru
   - youradexchange.com
   - zprofuqkssny.com
 domain_keyword_set:

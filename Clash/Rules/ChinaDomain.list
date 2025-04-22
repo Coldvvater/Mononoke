@@ -784,8 +784,8 @@ DOMAIN-SUFFIX,zjcdn.com
 DOMAIN-SUFFIX,zui.com
 DOMAIN-SUFFIX,zuimeitianqi.com
 DOMAIN-SUFFIX,zuoyebang.com
-DOMAIN-WILDCARD,*.ffzy-online?.com
-DOMAIN-WILDCARD,*.ffzy-play?.com
-DOMAIN-WILDCARD,*.lz-cdn?.com
-DOMAIN-WILDCARD,*.lz-cdn??.com
-DOMAIN-WILDCARD,*.qhimgs?.com
+DOMAIN-REGEX,*.ffzy-online?.com
+DOMAIN-REGEX,*.ffzy-play?.com
+DOMAIN-REGEX,*.lz-cdn?.com
+DOMAIN-REGEX,*.lz-cdn??.com
+DOMAIN-REGEX,*.qhimgs?.com
