@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3470
+# 规则统计: 3472
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1192,6 +1192,7 @@ DOMAIN,images.financemagnates.com
 DOMAIN,images.flightradar24.com
 DOMAIN,images.freeimages.com
 DOMAIN,images.g2crowd.com
+DOMAIN,images.github.media
 DOMAIN,images.idgesg.net
 DOMAIN,images.kick.com
 DOMAIN,images.loox.io
@@ -2048,6 +2049,7 @@ DOMAIN,static.guim.co.uk
 DOMAIN,static.heavy-r.com
 DOMAIN,static.helpjuice.com
 DOMAIN,static.hotjar.com
+DOMAIN,static.hugedomains.com
 DOMAIN,static.ietf.org
 DOMAIN,static.ifunny.co
 DOMAIN,static.incapsula.com

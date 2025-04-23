@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3472
+# 规则统计: 3474
 
 domain_set:
   - 0x0.st
@@ -1193,6 +1193,7 @@ domain_set:
   - images.flightradar24.com
   - images.freeimages.com
   - images.g2crowd.com
+  - images.github.media
   - images.idgesg.net
   - images.kick.com
   - images.loox.io
@@ -2049,6 +2050,7 @@ domain_set:
   - static.heavy-r.com
   - static.helpjuice.com
   - static.hotjar.com
+  - static.hugedomains.com
   - static.ietf.org
   - static.ifunny.co
   - static.incapsula.com

@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4790
+# 规则统计: 4804
 
 domain_suffix_set:
   - 002777.xyz
@@ -218,6 +218,7 @@ domain_suffix_set:
   - 5.gzfenda.com
   - 50bang.org
   - 50m.gkcyc.com
+  - 51dxs.com
   - 51gxqm.com
   - 51tongji.trafficmanager.net
   - 51yhzp.com
@@ -345,6 +346,7 @@ domain_suffix_set:
   - 8xtm6i.cn
   - 8y3j.cn
   - 91friend.com
+  - 91ks.online
   - 9216tp1.com
   - 93692zubo66936.com
   - 94ab.com
@@ -1058,6 +1060,7 @@ domain_suffix_set:
   - chitshuqh.com
   - chmueyv.icu
   - chnci.com
+  - cholurd.com
   - chonaesor.com
   - chong-wu.net
   - chooncv.icu
@@ -1285,6 +1288,7 @@ domain_suffix_set:
   - dheirzeh.com
   - dhemixu.com
   - dhievvienr.com
+  - dhimphits.com
   - dhkqqe.top
   - dhl.135320.com
   - dhnnbfok.icu
@@ -1556,6 +1560,7 @@ domain_suffix_set:
   - etjui.cn
   - etroytj33.fun
   - euazwot.top
+  - eucnwtw.top
   - euresdw.top
   - evcnmtw.top
   - evgaow.xyz
@@ -2116,6 +2121,7 @@ domain_suffix_set:
   - ifej.cn
   - ifethbrzb.com
   - iffobi.xyz
+  - ifje.cn
   - ifjslio.top
   - iflucav.icu
   - ifmccdn.icu
@@ -2609,6 +2615,7 @@ domain_suffix_set:
   - ledollull.com
   - ledwtz.icu
   - leeleo.top
+  - leirerspfz.com
   - lelczf.icu
   - leryt111.fun
   - lesasfp.icu
@@ -2626,6 +2633,7 @@ domain_suffix_set:
   - lgpjw.cn
   - lh1dki82.com
   - lh49dki80.com
+  - lhdnba.top
   - lhmebwq.cn
   - lhmgoik.icu
   - lhtzfn.xyz
@@ -2694,6 +2702,7 @@ domain_suffix_set:
   - lu2.luyouwang.com
   - lubrzh.top
   - lucnmtl.top
+  - lui8426.xyz
   - lumnxiel.top
   - lumvkebr.icu
   - luolikong.net
@@ -3389,6 +3398,7 @@ domain_suffix_set:
   - qwe0231141.bj.bcebos.com
   - qweisiy.top
   - qweizay.top
+  - qwerhao3.com
   - qwerioy.top
   - qwilmiy.top
   - qwoofao.top
@@ -4029,6 +4039,7 @@ domain_suffix_set:
   - ub1.job592.com
   - ubeaui.xyz
   - ubmcvideo.baidustatic.com
+  - ubudhal.com
   - uc9.suinidai.com.cn
   - uclimit.top
   - ucmx.cn
@@ -4150,6 +4161,7 @@ domain_suffix_set:
   - uyaeco.xyz
   - uyislot.top
   - uyohyy.xyz
+  - uypg.cn
   - uyretut.top
   - uyyquln.icu
   - v.center
@@ -4386,6 +4398,7 @@ domain_suffix_set:
   - wt6.icu
   - wtroytj33.fun
   - wucnmte.top
+  - wucnwte.top
   - wuiqiq.xyz
   - wuisaq.top
   - wuliao.chzsport.cn
@@ -4396,6 +4409,7 @@ domain_suffix_set:
   - wusfa.xyz
   - wvcnmte.top
   - wvwqywz.cn
+  - wwcnmte.top
   - wweisie.top
   - wweizae.top
   - wwerioe.top

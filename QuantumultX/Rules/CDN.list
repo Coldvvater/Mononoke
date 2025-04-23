@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3472
+# 规则统计: 3474
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1192,6 +1192,7 @@ HOST,images.financemagnates.com,CDN
 HOST,images.flightradar24.com,CDN
 HOST,images.freeimages.com,CDN
 HOST,images.g2crowd.com,CDN
+HOST,images.github.media,CDN
 HOST,images.idgesg.net,CDN
 HOST,images.kick.com,CDN
 HOST,images.loox.io,CDN
@@ -2048,6 +2049,7 @@ HOST,static.guim.co.uk,CDN
 HOST,static.heavy-r.com,CDN
 HOST,static.helpjuice.com,CDN
 HOST,static.hotjar.com,CDN
+HOST,static.hugedomains.com,CDN
 HOST,static.ietf.org,CDN
 HOST,static.ifunny.co,CDN
 HOST,static.incapsula.com,CDN
