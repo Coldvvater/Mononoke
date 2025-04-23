@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3474
+# 规则统计: 3476
 
 domain_set:
   - 0x0.st
@@ -75,6 +75,7 @@ domain_set:
   - apps.bazaarvoice.com
   - apps.profitihub.com
   - apps.sophi.io
+  - apps.voxmedia.com
   - archive.mozilla.org
   - artworks.thetvdb.com
   - asset-cdn.uscardforum.com
@@ -1658,6 +1659,7 @@ domain_set:
   - platform.instagram.com
   - platform.theverge.com
   - platform.twitter.com
+  - platform.vox.com
   - platforms.makemytrip.com
   - play.gotolstoy.com
   - play.izanmei.net

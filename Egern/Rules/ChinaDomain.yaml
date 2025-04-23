@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 788
+# 规则统计: 790
 
 domain_set:
   - acg.tv
@@ -502,6 +502,8 @@ domain_suffix_set:
   - mmstat.com
   - mobike.com
   - mobileservice.cn
+  - mojicdn.com
+  - mrw.so
   - msstatic.com
   - mtyun.com
   - mubu.com
