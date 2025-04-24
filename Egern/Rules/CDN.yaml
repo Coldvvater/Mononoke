@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3476
+# 规则统计: 3544
 
 domain_set:
   - 0x0.st
@@ -26,8 +26,10 @@ domain_set:
   - ajax.microsoft.com
   - ak.sail-horizon.com
   - akamai-assets.squarespace.com
+  - akamai-origin.myanimelist.net
   - alt.idgesg.net
   - amazon-omni-cdn.com
+  - amp.akamaized.net
   - amp.azure.net
   - analytics.canarymail.io
   - analytics.twitter.com
@@ -77,6 +79,7 @@ domain_set:
   - apps.sophi.io
   - apps.voxmedia.com
   - archive.mozilla.org
+  - article-image-ix.nikkei.com
   - artworks.thetvdb.com
   - asset-cdn.uscardforum.com
   - asset.booth.pm
@@ -134,6 +137,7 @@ domain_set:
   - assets.convertkit.com
   - assets.cyberghostvpn.com
   - assets.dev.to
+  - assets.dictionary.com
   - assets.dify.ai
   - assets.dnsfilter.com
   - assets.documentcloud.org
@@ -285,6 +289,7 @@ domain_set:
   - badges.gitter.im
   - badges.greenkeeper.io
   - bcdn.starapps.studio
+  - bcmedia.bitchute.com
   - binaries.prisma.sh
   - blacklist.tampermonkey.net
   - blade-public-static.blade-group.com
@@ -342,7 +347,9 @@ domain_set:
   - cdn-avatars.huggingface.co
   - cdn-bundler.nice-team.net
   - cdn-c.leavemealone.com
+  - cdn-cf-east.streamable.com
   - cdn-client.medium.com
+  - cdn-cms.tunein.com
   - cdn-dynmedia-1.microsoft.com
   - cdn-edge.karte.io
   - cdn-eu.dynamicyield.com
@@ -351,6 +358,8 @@ domain_set:
   - cdn-front.freepik.com
   - cdn-images-1.medium.com
   - cdn-images.mailchimp.com
+  - cdn-img2.iporntv.net
+  - cdn-img3.iporntv.net
   - cdn-live.foreignaffairs.com
   - cdn-longterm.mee6.xyz
   - cdn-media-1.freecodecamp.org
@@ -368,9 +377,11 @@ domain_set:
   - cdn-share-sprites.flaticon.com
   - cdn-static-1.medium.com
   - cdn-static.talent.com
+  - cdn-thumbs.imagevenue.com
   - cdn-uicons.flaticon.com
   - cdn-web.fydeos.io
   - cdn-web.orbstack.dev
+  - cdn-web.tunein.com
   - cdn-widgetsrepository.yotpo.com
   - cdn-www.bluestacks.com
   - cdn-yotpo-images-production.yotpo.com
@@ -510,11 +521,13 @@ domain_set:
   - cdn.hongkongcard.com
   - cdn.hypershort.com
   - cdn.icomoon.io
+  - cdn.iconfinder.com
   - cdn.imageengine.io
   - cdn.img.ly
   - cdn.infoq.com
   - cdn.ionos.de
   - cdn.ip2location.io
+  - cdn.iporntv.net
   - cdn.ipregistry.co
   - cdn.javmg.com
   - cdn.javsts.com
@@ -555,6 +568,7 @@ domain_set:
   - cdn.missav.com
   - cdn.modrinth.com
   - cdn.music.com
+  - cdn.myanimelist.net
   - cdn.myfonts.net
   - cdn.myportfolio.com
   - cdn.nba.com
@@ -651,6 +665,7 @@ domain_set:
   - cdn.svgator.com
   - cdn.tailwindcss.com
   - cdn.termius.com
+  - cdn.theatlantic.com
   - cdn.thenewstack.io
   - cdn.thingiverse.com
   - cdn.tinypass.com
@@ -716,6 +731,7 @@ domain_set:
   - cdn1.identitymind.com
   - cdn1.plesk.com
   - cdn1.stamped.io
+  - cdn1.suno.ai
   - cdn1.sysgears.com
   - cdn1.techbang.com
   - cdn1.unrealengine.com
@@ -737,6 +753,7 @@ domain_set:
   - cdn2.macpaw.com
   - cdn2.onlyfans.com
   - cdn2.stamped.io
+  - cdn2.suno.ai
   - cdn2.sysgears.com
   - cdn2.techbang.com
   - cdn2.ttloli.com
@@ -763,6 +780,8 @@ domain_set:
   - cdn6.bigcommerce.com
   - cdn6.edgedatg.com
   - cdn7.bigcommerce.com
+  - cdn77-t.ashemaletube.com
+  - cdn77.ashemaletube.com
   - cdn77.boyfriendtv.com
   - cdn8.bigcommerce.com
   - cdn9.bigcommerce.com
@@ -771,6 +790,7 @@ domain_set:
   - cdnb.artstation.com
   - cdne-pics.youjizz.com
   - cdnfonts.devolutions.net
+  - cdni.pornpics.com
   - cdnjs.betterstack.com
   - cdnjs.buymeacoffee.com
   - cdnjs.cat.net
@@ -788,6 +808,7 @@ domain_set:
   - certificates.godaddy.com
   - certona.gap.com
   - cf-assets.www.cloudflare.com
+  - cf-images.ap-northeast-1.prod.boltdns.net
   - cf-images.us-east-1.prod.boltdns.net
   - cf.channel.io
   - cf.eip.telegraph.co.uk
@@ -813,6 +834,7 @@ domain_set:
   - cloudflare.tv
   - cloudfront.barilliance.com
   - cloudinary-res.cloudinary.com
+  - cmp-cdn.p.aws.economist.com
   - cms-assets.nodecraft.com
   - cms-assets.webediamovies.pro
   - cms-assets.xboxservices.com
@@ -846,6 +868,7 @@ domain_set:
   - consentdeliveryfd.azurefd.net
   - consumersite-assets.trustpilot.net
   - consumersiteimages.trustpilot.net
+  - content-cdn.y2mate.com
   - content-management-files.canva.com
   - content-prod-live.cert.starbucks.com
   - content.any.run
@@ -881,6 +904,7 @@ domain_set:
   - css.createsend1.com
   - curl.se
   - cw-image-resizer.cwg.tw
+  - d.newsweek.com
   - d2c.aws.amazon.com
   - d4.alternativeto.net
   - dam.freshworks.com
@@ -1054,7 +1078,9 @@ domain_set:
   - fs2.onlyhentaistuff.com
   - fscdn.eppo.cloud
   - g-static.ap4r.com
+  - g.newsweek.com
   - g1.nyt.com
+  - gdb.rferl.org
   - gearbox.imgix.com
   - genesis-cdn.ff.com
   - geoip-js.com
@@ -1116,6 +1142,7 @@ domain_set:
   - i.nhentai.net
   - i.niupic.com
   - i.pcmag.com
+  - i.rtings.com
   - i.snap.as
   - i.vgy.me
   - i.xgroovy.com
@@ -1158,12 +1185,14 @@ domain_set:
   - image.ship.vercel.com
   - image.shutterstock.com
   - image.status.io
+  - image.stheadline.com
   - image.telanganatoday.com
   - image.theblockbeats.info
   - image.thefly.com
   - image.tmdb.org
   - image.vuukle.com
   - image.westinyou.com
+  - imagecdn.clips4sale.com
   - imagehost.player.fm
   - imageio.forbes.com
   - imageproxy.ifunny.co
@@ -1179,6 +1208,7 @@ domain_set:
   - images.axios.com
   - images.bfmtv.com
   - images.blackmagicdesign.com
+  - images.carfax.com
   - images.contentful.com
   - images.contentstack.io
   - images.crunchbase.com
@@ -1255,6 +1285,7 @@ domain_set:
   - img-s-msn-com.akamaized.net
   - img.177pica.com
   - img.3movs.com
+  - img.4khd.com
   - img.adspower.net
   - img.agrd.eu
   - img.announcekit.app
@@ -1281,8 +1312,10 @@ domain_set:
   - img.freepik.com
   - img.hellofresh.com
   - img.hentaihaven.xxx
+  - img.huffingtonpost.com
   - img.icons8.com
   - img.ifunny.co
+  - img.imgdd.com
   - img.informer.com
   - img.itch.zone
   - img.javstore.net
@@ -1445,6 +1478,7 @@ domain_set:
   - mantisloader.mantis-awx.com
   - maps.geoapify.com
   - maps.gstatic.com
+  - marber-cdn.economist.com
   - marketing.figma.com
   - marketing.thingiverse.com
   - marketplace-web-assets.vinted.com
@@ -1544,6 +1578,7 @@ domain_set:
   - mkt-site-asset.crypto.com
   - mobilecenter.azureedge.net
   - moderate.cleantalk.org
+  - modulous.huffpost.com
   - momentjs.com
   - moodular.jotform.com
   - mosaic-blender.fxtwitter.com
@@ -1579,6 +1614,7 @@ domain_set:
   - ntp.msn.com
   - null.jsbin.com
   - o.n1mp.org
+  - oaos-resources.allstate.com
   - object.innei.in
   - objects.g0v.social
   - objects.hit.moe
@@ -1623,6 +1659,7 @@ domain_set:
   - pba.apple.com
   - pbc.nypost.com
   - pbc.wsj.com
+  - pbcdn1.podbean.com
   - pbs.floatplane.com
   - pcdn-my.pcloud.com
   - pcdn-www.pcloud.com
@@ -1756,6 +1793,7 @@ domain_set:
   - resource.video.nimg.jp
   - resources-cache.prod.sketch.com
   - resources-live.sketch.cloud
+  - resources.allstate.com
   - resources.chessbase.com
   - resources.help.salesforce.com
   - resources.whatwg.org
@@ -1927,6 +1965,10 @@ domain_set:
   - staging-pubfeed.linkby.com
   - start-page.buffer.com
   - static-00.iconduck.com
+  - static-1.bitchute.com
+  - static-2.bitchute.com
+  - static-3.bitchute.com
+  - static-4.bitchute.com
   - static-act.imoim.net
   - static-assets-1.truthsocial.com
   - static-assets-prod.epicgames.com
@@ -1956,6 +1998,7 @@ domain_set:
   - static-exp1.licdn.com
   - static-exp2.licdn.com
   - static-exp3.licdn.com
+  - static-files.bitchute.com
   - static-forms.klaviyo.com
   - static-gcp.freepikcompany.com
   - static-id.fc2.com
@@ -2000,9 +2043,11 @@ domain_set:
   - static.bytepan.com
   - static.canva.com
   - static.captcha-delivery.com
+  - static.carfax.com
   - static.chaika.moe
   - static.change.org
   - static.chessarena.com
+  - static.clips4sale.com
   - static.cloud.coveo.com
   - static.cloudcachetci.com
   - static.cnbeta.com.tw
@@ -2022,6 +2067,7 @@ domain_set:
   - static.doujins.com
   - static.dw.com
   - static.dzeninfra.ru
+  - static.e621.net
   - static.edge.microsoftapp.net
   - static.eroterest.net
   - static.esimplus.net
@@ -2113,6 +2159,8 @@ domain_set:
   - static.plus.net
   - static.politico.com
   - static.polldaddy.com
+  - static.pornpics.com
+  - static.prd.borderfree.com
   - static.probit.com
   - static.queue-it.net
   - static.rakuten.com
@@ -2191,6 +2239,7 @@ domain_set:
   - statics.erothots.co
   - statics.goorm.io
   - statics.simpshub.com
+  - statics.streamable.com
   - staticw2.yotpo.com
   - stats.codesandbox.io
   - stats.setapp.com
@@ -2292,6 +2341,7 @@ domain_set:
   - udata.namespace.so
   - uhf.microsoft.com
   - ui-cdn.digitalocean.com
+  - ui-statics-cf.streamable.com
   - ui.contentstack.com
   - ui.trailhead.com
   - unlimited-cdn.waifu2x.net
@@ -2320,6 +2370,7 @@ domain_set:
   - useruploads.visualwebsiteoptimizer.com
   - utteranc.es
   - v.w-x.co
+  - v2-images.crackle.com
   - v2.listenloop.com
   - v2uploads.zopim.io
   - vanilla-extract.style
@@ -2443,6 +2494,7 @@ domain_suffix_set:
   - aayinltcs.arduino.cc
   - abc-cdn.net.au
   - abcnewsfe.com
+  - abebookscdn.com
   - addons.business
   - adobeccstatic.com
   - adtidy.org
@@ -2478,6 +2530,7 @@ domain_suffix_set:
   - assets-yammer.com
   - assets.adidas.com
   - assets.as2.amazonaws.com
+  - assets.brightspot.abebooks.a2z.com
   - assets.digitalocean.com
   - assets.getpocket.com
   - assets.heroku.com
@@ -2617,6 +2670,7 @@ domain_suffix_set:
   - combinatronics.io
   - content-storage-upload.googleapis.com
   - content001.bet365.com
+  - contenthub.allstate.com
   - contents.fc2.com
   - coral.coralproject.net
   - corsproxy.io
@@ -2625,6 +2679,7 @@ domain_suffix_set:
   - crashlyticsreports-pa.googleapis.com
   - crates.io
   - crossbell.io
+  - crunchyrollcdn.com
   - csb.app
   - csp-reporting.cloudflare.com
   - csp.withgoogle.com
@@ -2637,11 +2692,13 @@ domain_suffix_set:
   - dataplane.rudderstack.com
   - datocms-assets.com
   - daumcdn.net
+  - dditsadn.com
   - dditscdn.com
   - ddpic.info
   - delegated-ipfs.dev
   - deno.land
   - denopkg.com
+  - design-system.economist.com
   - devrum.uptime.com
   - dilcdn.com
   - disconnect.me
@@ -2740,6 +2797,7 @@ domain_suffix_set:
   - fsvod1.com
   - ftcdn.net
   - futurecdn.net
+  - fw-cdn.com
   - gadgets360cdn.com
   - gamccdn.com
   - gamesgamescdn.com
@@ -2952,6 +3010,7 @@ domain_suffix_set:
   - line-cdn.net
   - line-scdn.net
   - live-video.net
+  - livemediahost.com
   - local.webcontainer.io
   - localizecdn.com
   - lodash.com
@@ -2966,6 +3025,7 @@ domain_suffix_set:
   - lulucdn.com
   - lzzyimg.com
   - lzzypic.com
+  - macysassets.com
   - makeuseofimages.com
   - mangadex.network
   - mangguo-youku.com
@@ -3006,12 +3066,14 @@ domain_suffix_set:
   - msftstatic.com
   - muscache.com
   - mvnrepository.com
+  - mxmcdn.net
   - myanalytics.cdn.office.net
   - myavlive.com
   - mycdn.me
   - myfilebase.com
   - mypinata.cloud
   - myshopapps.com
+  - myspacecdn.com
   - myvideos.info
   - nc-img.com
   - ndtvimg.com
@@ -3049,6 +3111,7 @@ domain_suffix_set:
   - oaiusercontent.com
   - observableusercontent.com
   - oculuscdn.com
+  - od-cdn.com
   - odycdn.com
   - ogads-pa.clients6.google.com
   - ogads-pa.googleapis.com
@@ -3062,6 +3125,7 @@ domain_suffix_set:
   - opentelemetry.io
   - operacdn.com
   - oreillystatic.com
+  - otstatic.com
   - packagist.org
   - packd.liuxingbaoyu.xyz
   - pagecdn.io
@@ -3103,6 +3167,7 @@ domain_suffix_set:
   - poecdn.net
   - polyfill-fastly.io
   - pool.ntp.org
+  - porn-cdn.com
   - porn-d.xyz
   - porn5.asia
   - porndudecdn.com
@@ -3115,6 +3180,7 @@ domain_suffix_set:
   - pressidiumcdn.com
   - privacy-gateway.cloudflare.com
   - prod.public.atl-paas.net
+  - project1content.com
   - proxy.startpage.com
   - proxy.ustclug.org
   - proxy1.startpage.com
@@ -3302,6 +3368,7 @@ domain_suffix_set:
   - tokyvideo.com
   - torproject.org
   - tpdfiles.com
+  - tpucdn.com
   - trackerslist.com
   - trafficdeposit.com
   - transcend-cdn.com
@@ -3383,6 +3450,7 @@ domain_suffix_set:
   - wsimg.com
   - wsrv.nl
   - www.s81c.com
+  - xcdnpro.com
   - xda-cdn.com
   - xdaimages.com
   - xhcdn.com
