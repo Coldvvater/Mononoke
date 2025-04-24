@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3542
+# 规则统计: 3543
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1883,6 +1883,7 @@ DOMAIN,safebrowsing.google.com
 DOMAIN,safebrowsing.googleapis.com
 DOMAIN,sandpack-cdn-staging.blazingly.io
 DOMAIN,sandpack-cdn-v2.codesandbox.io
+DOMAIN,sato.manyse.com
 DOMAIN,sbl.onfastspring.com
 DOMAIN,scdn.clerk.com
 DOMAIN,scdn.line-apps.com

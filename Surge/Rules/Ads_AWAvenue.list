@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 721
+# 规则统计: 734
 
 DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,1500022744.vodplayer.wxamedia.com
@@ -8,13 +8,13 @@ DOMAIN-SUFFIX,8le8le.com
 DOMAIN-SUFFIX,a0.app.xiaomi.com
 DOMAIN-SUFFIX,aaid.umeng.com
 DOMAIN-SUFFIX,abtest-ch.snssdk.com
-DOMAIN-SUFFIX,ad-cdn.qingting.fm
 DOMAIN-SUFFIX,ad-scope.com
 DOMAIN-SUFFIX,ad-scope.com.cn
 DOMAIN-SUFFIX,ad-sdk-config.youdao.com
 DOMAIN-SUFFIX,ad-sdk.huxiu.com
 DOMAIN-SUFFIX,ad.12306.cn
 DOMAIN-SUFFIX,ad.51wnl.com
+DOMAIN-SUFFIX,ad.api.3g.youku.com
 DOMAIN-SUFFIX,ad.bwton.com
 DOMAIN-SUFFIX,ad.cctv.com
 DOMAIN-SUFFIX,ad.cyapi.cn
@@ -135,6 +135,7 @@ DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn
 DOMAIN-SUFFIX,adxserver.ad.cmvideo.cn
 DOMAIN-SUFFIX,aegis.qq.com
 DOMAIN-SUFFIX,afs.googlesyndication.com
+DOMAIN-SUFFIX,agn.aty.sohu.com
 DOMAIN-SUFFIX,aiseet.aa.atianqi.com
 DOMAIN-SUFFIX,ali-ad.a.yximgs.com
 DOMAIN-SUFFIX,ali-p2p-v2.pull.yximgs.com
@@ -462,6 +463,7 @@ DOMAIN-SUFFIX,moatads.com
 DOMAIN-SUFFIX,mobads-logs.baidu.com
 DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
 DOMAIN-SUFFIX,mobads.baidu.com
+DOMAIN-SUFFIX,mobaliyun.res.mgtv.com
 DOMAIN-SUFFIX,mobile.da.mgtv.com
 DOMAIN-SUFFIX,mobilelog.upqzfile.com
 DOMAIN-SUFFIX,mon.zijieapi.com
@@ -516,6 +518,7 @@ DOMAIN-SUFFIX,pig.pupuapi.com
 DOMAIN-SUFFIX,pin.hpplay.cn
 DOMAIN-SUFFIX,pixon.ads-pixiv.net
 DOMAIN-SUFFIX,pkoplink.com
+DOMAIN-SUFFIX,pl.cp31.ott.cibntv.net
 DOMAIN-SUFFIX,plbslog.umeng.com
 DOMAIN-SUFFIX,pms.mb.qq.com
 DOMAIN-SUFFIX,policy.video.ptqy.gitv.tv
@@ -535,11 +538,13 @@ DOMAIN-SUFFIX,rlog.popin.cc
 DOMAIN-SUFFIX,rms-drcn.platform.dbankcloud.cn
 DOMAIN-SUFFIX,roi.soulapp.cn
 DOMAIN-SUFFIX,rp.hpplay.cn
+DOMAIN-SUFFIX,rps.hpplay.cn
 DOMAIN-SUFFIX,rpt.gdt.qq.com
 DOMAIN-SUFFIX,rtb.voiceads.cn
 DOMAIN-SUFFIX,s.amazon-adsystem.com
 DOMAIN-SUFFIX,s8t.teads.tv
 DOMAIN-SUFFIX,saad.ms.zhangyue.net
+DOMAIN-SUFFIX,saas.hpplay.cn
 DOMAIN-SUFFIX,samsung-com.112.2o7.net
 DOMAIN-SUFFIX,samsungads.com
 DOMAIN-SUFFIX,sanme2.taisantech.com
@@ -593,6 +598,7 @@ DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,stg-data.ads.heytapmobi.com
 DOMAIN-SUFFIX,stun.hitv.com
 DOMAIN-SUFFIX,success.ctobsnssdk.com
+DOMAIN-SUFFIX,sv-video.play.aiseet.atianqi.com
 DOMAIN-SUFFIX,syh-imp.cdnjtzy.com
 DOMAIN-SUFFIX,szbdyd.com
 DOMAIN-SUFFIX,t-dsp.pinduoduo.com
@@ -602,6 +608,8 @@ DOMAIN-SUFFIX,t1.a.market.xiaomi.com
 DOMAIN-SUFFIX,t1.teads.tv
 DOMAIN-SUFFIX,t2.a.market.xiaomi.com
 DOMAIN-SUFFIX,t3.a.market.xiaomi.com
+DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
+DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv
 DOMAIN-SUFFIX,tangram.e.qq.com
 DOMAIN-SUFFIX,tdc.qq.com
 DOMAIN-SUFFIX,tdsdk.cpatrk.net
@@ -675,10 +683,15 @@ DOMAIN-SUFFIX,v2.gdt.qq.com
 DOMAIN-SUFFIX,v2mi.gdt.qq.com
 DOMAIN-SUFFIX,v3-ad.video.yximgs.com
 DOMAIN-SUFFIX,v3.gdt.qq.com
+DOMAIN-SUFFIX,vali-ugc.cp31.ott.cibntv.net
+DOMAIN-SUFFIX,vd6.l.qq.com
+DOMAIN-SUFFIX,vi.l.qq.com
 DOMAIN-SUFFIX,video-ad.sm.cn
 DOMAIN-SUFFIX,video-dsp.pddpic.com
 DOMAIN-SUFFIX,video.dispatch.tc.qq.com
+DOMAIN-SUFFIX,video.market.xiaomi.com
 DOMAIN-SUFFIX,vipauth.hpplay.cn
+DOMAIN-SUFFIX,vipgslb.hpplay.cn
 DOMAIN-SUFFIX,virusinfo-cloudscan-cn.heytapmobi.com
 DOMAIN-SUFFIX,vlive.qqvideo.tc.qq.com
 DOMAIN-SUFFIX,volc.bj.ad.track.66mobi.com

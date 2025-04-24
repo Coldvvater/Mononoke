@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3544
+# 规则统计: 3545
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1883,6 +1883,7 @@ HOST,safebrowsing.google.com,CDN
 HOST,safebrowsing.googleapis.com,CDN
 HOST,sandpack-cdn-staging.blazingly.io,CDN
 HOST,sandpack-cdn-v2.codesandbox.io,CDN
+HOST,sato.manyse.com,CDN
 HOST,sbl.onfastspring.com,CDN
 HOST,scdn.clerk.com,CDN
 HOST,scdn.line-apps.com,CDN
