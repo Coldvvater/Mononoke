@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3545
+# 规则统计: 3547
 
 domain_set:
   - 0x0.st
@@ -786,6 +786,7 @@ domain_set:
   - cdn8.bigcommerce.com
   - cdn9.bigcommerce.com
   - cdna.artstation.com
+  - cdnapi.kaltura.com
   - cdnapisec.kaltura.com
   - cdnb.artstation.com
   - cdne-pics.youjizz.com
@@ -797,6 +798,7 @@ domain_set:
   - cdnjs.cloudflare.com
   - cdnl.tnaflix.com
   - cdns.gigya.com
+  - cdnsecakmi.kaltura.com
   - cdnstatic.porno-cum.com
   - cdnstatic.tencentcs.com
   - cdnstatic.w1mp.com
