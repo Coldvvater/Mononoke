@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 179
+# 规则统计: 182
 
 HOST,2pfdml.mobaiemby.site,Emby
 HOST,cc.coemn.com,Emby
@@ -135,6 +135,7 @@ HOST-SUFFIX,nivod4.tv,Emby
 HOST-SUFFIX,ntrrr.am.sb,Emby
 HOST-SUFFIX,nvidia.rip,Emby
 HOST-SUFFIX,ohhhh.org,Emby
+HOST-SUFFIX,onyra.cc,Emby
 HOST-SUFFIX,ouonet.org,Emby
 HOST-SUFFIX,pilipili.club,Emby
 HOST-SUFFIX,pilipiliultra.com,Emby
@@ -169,6 +170,8 @@ HOST-SUFFIX,uuuoo.cc,Emby
 HOST-SUFFIX,wiri.tk,Emby
 HOST-SUFFIX,xiaoyi.one,Emby
 HOST-SUFFIX,xmsl.org,Emby
+HOST-SUFFIX,younoyes.com,Emby
+HOST-SUFFIX,yunti.online,Emby
 HOST-SUFFIX,zi0.icu,Emby
 HOST-SUFFIX,zox.show,Emby
 IP-CIDR,152.53.67.239/32,Emby

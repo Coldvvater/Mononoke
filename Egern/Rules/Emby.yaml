@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 179
+# 规则统计: 182
 
 no_resolve: true
 domain_set:
@@ -138,6 +138,7 @@ domain_suffix_set:
   - ntrrr.am.sb
   - nvidia.rip
   - ohhhh.org
+  - onyra.cc
   - ouonet.org
   - pilipili.club
   - pilipiliultra.com
@@ -172,6 +173,8 @@ domain_suffix_set:
   - wiri.tk
   - xiaoyi.one
   - xmsl.org
+  - younoyes.com
+  - yunti.online
   - zi0.icu
   - zox.show
 ip_cidr_set:
