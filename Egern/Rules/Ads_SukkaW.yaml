@@ -1,11 +1,13 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 69249
+# 规则统计: 69281
 
 no_resolve: true
 domain_set:
   - 03.lzzncm.com
   - 04.lzzncm.com
+  - 1oavsblobprodcus350.blob.core.windows.net
   - 2016.sina.cn
+  - 37bvsblobprodcus311.blob.core.windows.net
   - 80vn.cn
   - 9ibbcq2d.sina.cn
   - a.alimama.cn
@@ -20,6 +22,7 @@ domain_set:
   - abtest.alibaba.com
   - abyss.cyapi.cn
   - ac.dun.163yun.com
+  - ac3.msn.com
   - acfeedbackws.icloud.com
   - acjs.aliyun.com
   - ackee.tangly1024.com
@@ -137,6 +140,7 @@ domain_set:
   - ads.icloseli.cn
   - ads.ign.com
   - ads.mojicdn.com
+  - ads.msn.com
   - ads.privacy.qq.com
   - ads.reader.yueyouxs.com
   - ads.service.kugou.com
@@ -147,7 +151,6 @@ domain_set:
   - ads.yam.com
   - ads.yimg.com
   - ads2.mediaarmor.com
-  - ads2.msn.com
   - adsage.cn
   - adscdn.baidu.com
   - adsclick.qq.com
@@ -260,6 +263,7 @@ domain_set:
   - api.adxpand.com
   - api.chat.xiaomi.net
   - api.collect.data.intl.miui.com
+  - api.cortana.ai
   - api.d.xiaomi.com
   - api.e.kuaishou.com
   - api.g.micloud.xiaomi.net
@@ -314,6 +318,7 @@ domain_set:
   - bdcdncmn-gd.inter.71edge.com
   - be01.hh.xiaomi.com
   - bgp.fe01.c3.xiaomi.com
+  - bingads.microsoft.com
   - bitanalytics.casperverswijvelt.be
   - biz.live.xunlei.com
   - biz5.sandai.net
@@ -337,6 +342,7 @@ domain_set:
   - c.yes.youku.com
   - c2.l.qq.com
   - c753738.r38.cf2.rackcdn.com
+  - cache.datamart.windows.com
   - calopenupdate.comm.miui.com
   - cast.innity.com
   - cb.l.qq.com
@@ -353,6 +359,8 @@ domain_set:
   - cdn.getkoala.com
   - cdn.matomo.cloud
   - cdn.pocoiq.cn
+  - ceuswatcab01.blob.core.windows.net
+  - ceuswatcab02.blob.core.windows.net
   - charlestownwyllie.oaklawnnonantum.com
   - choice.microsoft.com
   - cl2.webterren.com
@@ -436,6 +444,7 @@ domain_set:
   - dev.iyuba.cn
   - device-metrics-us-2.amazon.com
   - dflow.bz.mgtv.com
+  - diagnostics.support.microsoft.com
   - dig.zjurl.cn
   - display.360totalsecurity.com
   - dl.g.youku.com
@@ -466,6 +475,8 @@ domain_set:
   - e.duomeng.org
   - e.jparking.cn
   - eas.etherscan.com
+  - eaus2watcab01.blob.core.windows.net
+  - eaus2watcab02.blob.core.windows.net
   - ecmc.bdimg.com
   - eco.taobao.com
   - edgecast-vod.yahoo.net
@@ -813,6 +824,7 @@ domain_set:
   - oempprd.samsungcloudsolution.com
   - offnavi.map.baidu.com
   - omgmta.play.ott.video.qq.com
+  - onecollector.cloudapp.aria.akadns.net
   - onrt-stsdk.vivo.com.cn
   - openjmacs.m.taobao.com
   - openpanel.follow.is
@@ -870,6 +882,7 @@ domain_set:
   - pre-adv.alimama.com
   - pre2-ad.alimama.com
   - pre3-ad.alimama.com
+  - preview.msn.com
   - prod.nexusrules.live.com
   - promote.biz.weibo.cn
   - proxy-mob-cld.alicdn.com
@@ -903,6 +916,7 @@ domain_set:
   - rd.autohome.com.cn
   - re.m.taobao.com
   - re.taobao.com
+  - redir.metaservices.microsoft.com
   - redirect.simba.taobao.com
   - render-web.11222.cn
   - report.qqweb.qq.com
@@ -915,6 +929,7 @@ domain_set:
   - rm.sina.com.cn
   - rmads.eu.msn.com
   - rmads.msn.com
+  - romeccs.microsoft.com
   - rprain.bz.mgtv.com
   - rt.funshion.net
   - rtas.videocc.net
@@ -955,6 +970,7 @@ domain_set:
   - saxs.sina.cn
   - saxs.sina.com.cn
   - scene.vip.xunlei.com
+  - schemas.microsoft.akadns.net
   - sdfp.snssdk.com
   - sdk.1rtb.net
   - sdk.m.youku.com
@@ -1002,6 +1018,9 @@ domain_set:
   - splashimgretrybssdl.cloud.kugou.com
   - splashqqlive.gtimg.com
   - spro.so.com
+  - spynet2.microsoft.com
+  - spynetalt.microsoft.com
+  - spyneteurope.microsoft.akadns.net
   - srd.simba.taobao.com
   - ssl-cdn.static.browser.mi-img.com
   - ssl.360antivirus.org
@@ -1056,6 +1075,7 @@ domain_set:
   - tcbox.baidu.com
   - tel.fe01.hh.xiaomi.com
   - ten.sngapm.qq.com
+  - teredo.ipv6.microsoft.com
   - test.api.xlmc.sandai.net
   - test.ark.letv.com
   - test.samsungrm.net
@@ -1141,6 +1161,7 @@ domain_set:
   - w.m.taobao.com
   - wan.youku.com
   - wapwbclick.mobile.sina.cn
+  - watson.live.com
   - wbapp.mobile.sina.cn
   - wbapp.uve.weibo.com
   - wbclick.mobile.sina.cn
@@ -1148,6 +1169,11 @@ domain_set:
   - weatherapi.market.xioami.com
   - web-track.go2yd.com
   - web.data.pplive.com
+  - weus2watcab01.blob.core.windows.net
+  - weus2watcab02.blob.core.windows.net
+  - win10.ipv6.microsoft.com
+  - win1710.ipv6.microsoft.com
+  - win8.ipv6.microsoft.com
   - wkrd.tingyun.com
   - wl.hd.sohu.com
   - wmlog.meituan.com
@@ -1156,6 +1182,7 @@ domain_set:
   - wxa79ef55c1a84e284.wx.ckjr001.com
   - wxsnsad.tc.qq.com
   - xadx.file.market.xiaomi.com
+  - xblgdvrassets3010.blob.core.windows.net
   - xdcs-collector.ximalaya.com
   - xiaomiir.yaokantv.com
   - xiazai.xiaomi.com
@@ -1407,7 +1434,6 @@ domain_suffix_set:
   - 1nfltpsbk.de
   - 1nmob.com
   - 1ns1rosb.de
-  - 1oavsblobprodcus350.blob.core.windows.net
   - 1p3yg.icu
   - 1phrzgfqiym8.marketingtornado.ca
   - 1push.io
@@ -1567,7 +1593,6 @@ domain_suffix_set:
   - 370jj.icu
   - 3721zh.com
   - 377gopalpur.glemhyts.website
-  - 37bvsblobprodcus311.blob.core.windows.net
   - 38167473.xyz
   - 388533c5eb.com
   - 39489ef6ae.com
@@ -2029,7 +2054,6 @@ domain_suffix_set:
   - a.actualno.com
   - a.acxiom.com
   - a.addskills.se
-  - a.ads2.msn.com
   - a.advantageclicks.net
   - a.aer.com
   - a.aiaiai.audio
@@ -3064,7 +3088,6 @@ domain_suffix_set:
   - ac.prism-world.jp.net
   - ac.ptagroup.sk
   - ac1.pingpingw.com
-  - ac3.msn.com
   - ac359edaf2.com
   - ac9kpxbans1l.staging.unstoppabledomains.com
   - aca.circlepolicy.com
@@ -4121,7 +4144,6 @@ domain_suffix_set:
   - ads.mobilefuse.net
   - ads.mobilityware.com
   - ads.mobvertising.net
-  - ads.msn.com
   - ads.mythad.com
   - ads.oppomobile.com
   - ads.pdbarea.com
@@ -4157,6 +4179,7 @@ domain_suffix_set:
   - ads1-adnow.com
   - ads1.msn.com
   - ads2.hsoub.com
+  - ads2.msn.com
   - ads2550.bid
   - ads2native.com
   - ads3-adnow.com
@@ -5068,6 +5091,7 @@ domain_suffix_set:
   - ahomsoalsoah.net
   - ahoy-internal-ads-hv.b-cdn.net
   - ahqnijgiga.com
+  - ahqpqagt.gay
   - ahscdn.com
   - ahshujhpyh.com
   - ahsjmiov.com
@@ -6998,7 +7022,6 @@ domain_suffix_set:
   - api.bytebrew.io
   - api.chefcaio.com.br
   - api.cid.samba.tv
-  - api.cortana.ai
   - api.data-analytics.pokemon.com
   - api.datinghelp.dk
   - api.datingxperten.de
@@ -8606,6 +8629,7 @@ domain_suffix_set:
   - ayleaf.petersofkensington.com.au
   - ayletcecils.shop
   - ayo.arredoitaliano.it
+  - ayoukpts.guru
   - ayrobz.theory11.com
   - aysghn.panelinhafit.com.br
   - ayupmd.furniturebox.no
@@ -9540,7 +9564,6 @@ domain_suffix_set:
   - binga01.shop
   - binga03.shop
   - binga07.shop
-  - bingads.microsoft.com
   - bingdianhuanyuan.cn
   - binomlink.com
   - binomnet3.com
@@ -10573,7 +10596,6 @@ domain_suffix_set:
   - cabnnr.com
   - cabujq.travelta.nl
   - cacafly.net
-  - cache.datamart.windows.com
   - cache.myth.dev
   - cache2.delvenetworks.com
   - cachegorilla.com
@@ -11147,12 +11169,6 @@ domain_suffix_set:
   - cdpbvm.treenikauppa.fi
   - cdrive.compellent.com
   - cdrvrs.com
-  - cds1.stn.llnw.net
-  - cds10.stn.llnw.net
-  - cds177.dus.llnw.net
-  - cds20005.stn.llnw.net
-  - cds30027.stn.llnw.net
-  - cds407.fra.llnw.net
   - cdsbnrs.com
   - cdscs990.fun
   - cdszgg.xyz
@@ -11232,8 +11248,6 @@ domain_suffix_set:
   - cetlwsf.top
   - cetoworkwither.com
   - cetusinvestmentsbtc.com
-  - ceuswatcab01.blob.core.windows.net
-  - ceuswatcab02.blob.core.windows.net
   - cevanu.ripley.com.pe
   - ceveq.click
   - cevmlj.fcorgp.com
@@ -11969,6 +11983,7 @@ domain_suffix_set:
   - cm.prodo.com
   - cm.quest.com
   - cm.trk.rdtrkr.com
+  - cm65.com
   - cmap.alibaba.com
   - cmass.massmedian.co.jp
   - cmclean.club
@@ -12959,6 +12974,7 @@ domain_suffix_set:
   - cotemaison.np6.com
   - coterie.ubmfashion.com
   - cotomucaro.com
+  - cotrck.com
   - coublif.top
   - coucalhidated.com
   - coudswamper.com
@@ -14519,6 +14535,7 @@ domain_suffix_set:
   - daichoho.com
   - daifez.thebay.com
   - daiitmk.cn
+  - daily-info.live
   - daily.thezebra.org
   - daima.aixiaola.com
   - daima.diaoben.net
@@ -18346,7 +18363,6 @@ domain_suffix_set:
   - di2xwvxz1jrvu.cloudfront.net
   - diagnose.igstatic.com
   - diagnosisheadsetrekindle.com
-  - diagnostics.support.microsoft.com
   - diagnostics.thermo.com
   - diagramjawlineunhappy.com
   - diagramwrangleupdate.com
@@ -18722,6 +18738,7 @@ domain_suffix_set:
   - dlrioxg1637dk.cloudfront.net
   - dls-account.di.atlas.samsung.com
   - dlski.space
+  - dlssuizl.art
   - dlswbr.baidu.com
   - dltrckng.com
   - dlweij.coffrefortplus.com
@@ -19028,6 +19045,7 @@ domain_suffix_set:
   - download.createyournextcustomer.com
   - download.dnv.com
   - download.howtosellahouse.info
+  - downloadfreemium.com
   - downloads.advancedtech.com
   - downloads.coface.com
   - downloads.mcgladrey.com
@@ -19668,8 +19686,6 @@ domain_suffix_set:
   - eatnontf.icu
   - eatonaero.advancedtech.com
   - eauicw.artnature.co.jp
-  - eaus2watcab01.blob.core.windows.net
-  - eaus2watcab02.blob.core.windows.net
   - eb.bewithyou.jp
   - eb.mistermenuiserie.com
   - eb.o-b-labo.com
@@ -22224,6 +22240,7 @@ domain_suffix_set:
   - fhfmyl.foulard.ru
   - fhgh9sd.com
   - fhgirb.girbaud.com.co
+  - fhiulnbk.cam
   - fhiwyq.axiory.com
   - fhjrpcmkyrkvi.space
   - fhkizh.boxil.jp
@@ -23490,6 +23507,7 @@ domain_suffix_set:
   - geewedurisou.net
   - geinkroll.com
   - geinqi.justbony.com
+  - geishastending.com
   - geiybze.com
   - gejzgq.gehaltsvergleich.com
   - gekeebsirs.com
@@ -24995,6 +25013,7 @@ domain_suffix_set:
   - gtag.texcene.com
   - gtag.vitaminity.com
   - gtags.net
+  - gtbbgjo.art
   - gtbdhr.com
   - gtbvre.vapza.com.br
   - gtcntr.enamya.me
@@ -26159,6 +26178,7 @@ domain_suffix_set:
   - hello.trailblazers.com
   - helmethomicidal.com
   - heloisessa.com
+  - heloninremake.shop
   - help.americancrashclaims.com
   - helpdesk.thinkhdi.com
   - helpersantlia.shop
@@ -26661,6 +26681,7 @@ domain_suffix_set:
   - horse.usemiso.com
   - horse.vesuvius-publishing.com
   - horse.zwei-bags.com
+  - horsiergrassed.com
   - hospitality.redbull.racing
   - host.zoodipistoia.it
   - hostadsmarkets.com
@@ -26722,6 +26743,7 @@ domain_suffix_set:
   - hpd.baidu.com
   - hpeowtophruv.com
   - hpfvij.brilu.pl
+  - hpgaqdq.shop
   - hphtjv.orellfuessli.ch
   - hpilzison-r.online
   - hpirst.b-tops.com
@@ -26817,6 +26839,7 @@ domain_suffix_set:
   - hsylieu.top
   - hszlhy.cellinnov.com
   - htcnbx.odkarla.cz
+  - htcwyzu.bar
   - htdvt.com
   - htewng.plesio.bg
   - hthvc.icu
@@ -27240,7 +27263,6 @@ domain_suffix_set:
   - iemhotqk.com
   - iemiq.com
   - ienydh.cadeaux24.ch
-  - ieonlinews.microsoft.com
   - iepfcy.farmandfleet.com
   - ieryt111.fun
   - iesbpm.novasol.dk
@@ -27398,6 +27420,7 @@ domain_suffix_set:
   - ildrendreaminger.org
   - ileeckut.com
   - ilepwo.bonprix.at
+  - ileumoctant.com
   - ilfmju.right-on.co.jp
   - ilgxla.businext.co.jp
   - iliayp.touscesko.cz
@@ -29267,6 +29290,7 @@ domain_suffix_set:
   - install.orderwork.online
   - installer.xiaomi.com
   - installtracker.com
+  - insteamdentata.shop
   - instinctiveads.com
   - instrumenttactics.com
   - insurance.alliant.com
@@ -30547,8 +30571,10 @@ domain_suffix_set:
   - jwwvey.telecommandeonline.com
   - jwyrbg.sifjakobs.uk
   - jwzqyq.overhemdenonline.nl
+  - jwzvfjur.work
   - jxad.jx163.com
   - jxdptu.jouete-online.com
+  - jxeqltpu.property
   - jxeumx.hanaunni.com
   - jxghou.sollumeesthe.com
   - jxihpj.shinanoyusui.jp
@@ -30666,6 +30692,7 @@ domain_suffix_set:
   - kalimbadanic.shop
   - kalkvisrecit.shop
   - kalmukrattail.com
+  - kalpasbyron.com
   - kalwub.mizuho-re.co.jp
   - kamassmyalia.com
   - kaminari.space
@@ -31256,6 +31283,7 @@ domain_suffix_set:
   - krutvncd.top
   - krxd.net
   - kryeia.xyz
+  - krzovyae.work
   - krzysc.akord.net.pl
   - ks42zt.spec.fm
   - ksamarketing.sedgwick.com
@@ -31695,7 +31723,6 @@ domain_suffix_set:
   - lazzrv.icu
   - lb.secureweb24.net
   - lb.usemaxserver.de
-  - lb1.www.ms.akadns.net
   - lbc.lesbonscommerces.fr
   - lbdsak.lacoste.ua
   - lbfrruxdynpunl.com
@@ -31772,6 +31799,7 @@ domain_suffix_set:
   - ldqbuy.sport-express.ru
   - ldqtdd.peing.net
   - ldubbg.gamefools.com
+  - ldubnqhe.digital
   - ldugvf.bolf.hu
   - lduhtrp.net
   - ldvalc.manzara.cz
@@ -32212,7 +32240,6 @@ domain_suffix_set:
   - live.hyprmx.com
   - live.onlidex.com
   - live.pornamigo.com
-  - live.rads.msn.com
   - live.sportsvot.com
   - live.xcamshd.live
   - livecounter.theyosh.nl
@@ -32308,6 +32335,7 @@ domain_suffix_set:
   - llvvfz.mariapiacasa.com.br
   - llwoyl.mirraw.com
   - llykjmzkqvvar.top
+  - llzlbnvv.work
   - lm.ijq.tv
   - lm1.tuliu.com
   - lm1.wkpcw.cn
@@ -34972,6 +35000,7 @@ domain_suffix_set:
   - magpie.onething.org
   - magpie.phil.dev
   - magsrv.com
+  - mahkjru.cam
   - mahoganyproductthat.com
   - mahyxp.saottini.it
   - maiabarkan.com
@@ -37249,6 +37278,7 @@ domain_suffix_set:
   - mensch.ekd.de
   - mentallyissue.com
   - mentionideablit.com
+  - menwcopf.work
   - meowlytics.bignutty.xyz
   - meowpushnot.com
   - mepkbonqzmuvl.xyz
@@ -41099,6 +41129,7 @@ domain_suffix_set:
   - nicelabel.cc
   - nicerisle.com
   - nicesearches.com
+  - nichaithikr.net
   - nichedlinks.com
   - nicheevaderesidential.com
   - nichools.com
@@ -41853,6 +41884,7 @@ domain_suffix_set:
   - ocular.mydealz.de
   - ocular.promodescuentos.com
   - ocvmbc.letovo.ru
+  - ocvrulo.digital
   - ocwlhv.ecid.com.br
   - ocypetediplont.shop
   - oczehj.bookaacruises.com
@@ -42519,7 +42551,6 @@ domain_suffix_set:
   - onead.com.tw
   - oneclck.net
   - onecloud.avaya.com
-  - onecollector.cloudapp.aria.akadns.net
   - onedmp.com
   - onedragon.win
   - oneegrou.net
@@ -44681,6 +44712,7 @@ domain_suffix_set:
   - pjh7.us.chantelle.com
   - pjjpp.com
   - pjlvhk.winkbottle.com
+  - pjmknmuo.food
   - pjmtxe.thefashionproject.gr
   - pjnhls.gazel.it
   - pjoxcw.rosewe.com
@@ -44783,6 +44815,7 @@ domain_suffix_set:
   - plausdj2ajskljzx0ikwkiasible.ethics.info
   - plausible-stats.tangodelta.media
   - plausiblecdn.co
+  - plaxd.com
   - play.adtonos.com
   - play.saulosilveira.com
   - playbook.convio.com
@@ -45064,6 +45097,7 @@ domain_suffix_set:
   - potassaseafolk.shop
   - potatoesejection.com
   - potawe.com
+  - potentymoa.com
   - pothutepu.com
   - potsaglu.net
   - potskolu.net
@@ -45246,10 +45280,10 @@ domain_suffix_set:
   - preview-collector.scopely.io
   - preview.fi-institutional.co.uk
   - preview.fi-institutional.com.au
-  - preview.msn.com
   - prf.vagnt.com
   - prfct.co
   - prfctmney.com
+  - prfectnewoffer.net
   - prhhqo.vintagevoyage.ru
   - pridyglirine.top
   - primarilyresources.com
@@ -45361,7 +45395,6 @@ domain_suffix_set:
   - prodregistryv2.org
   - producebreed.com
   - product.cel-fi.com
-  - production-mcs.lvp.llnw.net
   - productionprinting.ricoh.co.uk
   - productionprinting.ricoh.ie
   - productivity-s.yale.com
@@ -46245,6 +46278,7 @@ domain_suffix_set:
   - qlog.adap.tv
   - qlqaec.suamusica.com.br
   - qlqvej.bahia-principe.com
+  - qlsaqtqd.tattoo
   - qlsngs.paruvendu.fr
   - qlspmy.xlmoto.be
   - qlsszi.lululemon.co.nz
@@ -46652,6 +46686,7 @@ domain_suffix_set:
   - radeant.com
   - radiateprose.com
   - radiusmarketing.com
+  - rads.msn.com
   - radwweanhni.com
   - raelpx.onsloe.com
   - raffle-entry.info.smart.com
@@ -46959,7 +46994,6 @@ domain_suffix_set:
   - redir-v4.tidalspring.xyz
   - redir.bluespringcoast.com
   - redir.hightid.xyz
-  - redir.metaservices.microsoft.com
   - redirect.insightprosolution.com
   - redirectingat.com
   - redonetype.com
@@ -47666,7 +47700,6 @@ domain_suffix_set:
   - romance-net.com
   - romantiicaffair.net
   - romantlcaffair.net
-  - romeccs.microsoft.com
   - romeiteeyah.shop
   - romiyee.icu
   - romperspardesi.com
@@ -47785,6 +47818,7 @@ domain_suffix_set:
   - rrqhieeaf.com
   - rrss.abc.es
   - rrxapb.icu
+  - rrxoysq.art
   - rrzhbr.djoser.nl
   - rrznha.lanvin-en-bleu.com
   - rs-stripe.com
@@ -48212,6 +48246,7 @@ domain_suffix_set:
   - rwww.samsungotn.net
   - rxdevfrance.reedexpo.fr
   - rxeosevsso.com
+  - rxexiaam.guru
   - rxfygd.cn
   - rxhsry.onvasortir.com
   - rxhsry.sortiraparis.com
@@ -49342,7 +49377,6 @@ domain_suffix_set:
   - scfmfurls.shop
   - scfsdvc.com
   - scheduleginnarcotic.com
-  - schemas.microsoft.akadns.net
   - scholarsslate.com
   - schoolhangoverearlier.com
   - sci.intuit.ca
@@ -49465,6 +49499,7 @@ domain_suffix_set:
   - scwinfo.secondcity.com
   - scwuyu.build.co.kr
   - scyphaesedge.top
+  - scyphoserippleepidosite.com
   - scyrudomqs.com
   - scysfytc.com
   - scyvqhcehstpt.top
@@ -51604,6 +51639,7 @@ domain_suffix_set:
   - solidlyrotches.guru
   - solispartner.com
   - solitudeelection.com
+  - solitudinous.cyou
   - solo.chinese-sex-tube.com
   - solocpm.com
   - solution.agc-chemicals.com
@@ -52224,9 +52260,6 @@ domain_suffix_set:
   - spygenix.xyz
   - spyglass.reklon.net
   - spylees.com
-  - spynet2.microsoft.com
-  - spynetalt.microsoft.com
-  - spyneteurope.microsoft.akadns.net
   - spyshipstony.shop
   - spytsg.horti.jp
   - spzotu.siaaustria.com
@@ -52236,7 +52269,6 @@ domain_suffix_set:
   - sqdljj.kijiji.ca
   - sqforo.darienzocollezioni.it
   - sqhlta.rockdenim.no
-  - sqm.telemetry.microsoft.com.nsatc.net
   - sqmazf.workamajig.com
   - sqripu.selsey.pl
   - sqszcg.top
@@ -57513,6 +57545,7 @@ domain_suffix_set:
   - tame-discount.pro
   - tamedilks.com
   - tameti.com
+  - tammycooly.com
   - tanbarshenh.org
   - taneyk.into-led.com
   - tangerine.optika-oftalmos.si
@@ -57544,6 +57577,7 @@ domain_suffix_set:
   - tapsense.com
   - taptica.com
   - tapulsads.ru
+  - tapvigai.property
   - tapxavjmyajd.com
   - tarantula.emotionalbaking.com
   - tarantula.searchbox.tech
@@ -58146,6 +58180,7 @@ domain_suffix_set:
   - telemetry.malwarebytes.com
   - telemetry.marketscope.com
   - telemetry.microsoft.com
+  - telemetry.microsoft.com.nsatc.net
   - telemetry.microsoft.us
   - telemetry.moveworks.com
   - telemetry.mozilla.org
@@ -58206,7 +58241,6 @@ domain_suffix_set:
   - terbit2.com
   - tercabilis.info
   - terdzl.ohmyglasses.jp
-  - teredo.ipv6.microsoft.com
   - terik.site
   - termerspatrice.com
   - termite.queerburners.org
@@ -63744,6 +63778,7 @@ domain_suffix_set:
   - ukaxwr.leastedisoha.com
   - ukaytg.cortefiel.com
   - ukgfxw.satofull.jp
+  - ukgqdpte.asia
   - ukitert.top
   - ukjlox.topbusinessclass.com
   - ukjphn.vitaminler.com
@@ -63765,6 +63800,7 @@ domain_suffix_set:
   - ulerkr.ukrzoloto.ua
   - uleticgulches.shop
   - ulhyys.naehwelt.de
+  - uliafpsf.tattoo
   - ulidoo.montblanc.com
   - ulink.cc
   - ulinyo.bandito.com.tr
@@ -65694,7 +65730,6 @@ domain_suffix_set:
   - waterwithhiswing.com
   - watg.xxxlutz.com
   - wats.gogoinflight.com
-  - watson.live.com
   - watson.microsoft.com
   - watson.nat.vg
   - watv.gogoinflight.com
@@ -66307,8 +66342,6 @@ domain_suffix_set:
   - west.bidtellect.com
   - wetlwse.top
   - wetrackgames.com
-  - weus2watcab01.blob.core.windows.net
-  - weus2watcab02.blob.core.windows.net
   - wevbgr.vidaxl.it
   - wevrwqjqemkyj.top
   - wew.dushiwenxue.net
@@ -66508,6 +66541,7 @@ domain_suffix_set:
   - wijmkizacdan.com
   - wijnavoqca.com
   - wijvziputcul.com
+  - wikgojdk.bar
   - wilburhawse.top
   - wildcat.fspy.io
   - wildcat.longviewforecasting.com
@@ -66527,9 +66561,6 @@ domain_suffix_set:
   - win-rtb2-apac.affinity.net
   - win.staticstuff.net
   - win.websearchertrk.com
-  - win10.ipv6.microsoft.com
-  - win1710.ipv6.microsoft.com
-  - win8.ipv6.microsoft.com
   - windlebrogues.com
   - windowsavings.pro
   - windowsdnsservicereload.icu
@@ -66997,6 +67028,7 @@ domain_suffix_set:
   - wwlrtp.a-demain.shop
   - wwnscv.myspringfield.com
   - wwpon365.ru
+  - wwqsvldq.work
   - wwrupv.tannico.it
   - wwtotu.reifendirekt.ch
   - wwu.jjill.com
@@ -67251,7 +67283,6 @@ domain_suffix_set:
   - xbfk.cn
   - xbgbod.scandinavianoutdoor.se
   - xbicdq.form.bar
-  - xblgdvrassets3010.blob.core.windows.net
   - xbmady.daimaru-matsuzakaya.jp
   - xbnaiz.corridornyc.com
   - xbqm.cn
@@ -68350,6 +68381,7 @@ domain_suffix_set:
   - yqdnad.icu
   - yqeuu.com
   - yqigli.tourlane.de
+  - yqjshgx.bar
   - yqksxb.nicebeauty.se
   - yqlxkzs.cn
   - yqlzccxn.icu
