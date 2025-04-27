@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 70661
+# 规则统计: 70698
 
 no_resolve: true
 domain_set:
@@ -262,7 +262,6 @@ domain_set:
   - api.ad.yipinread.com
   - api.adxpand.com
   - api.chat.xiaomi.net
-  - api.collect.data.intl.miui.com
   - api.cortana.ai
   - api.d.xiaomi.com
   - api.e.kuaishou.com
@@ -512,7 +511,6 @@ domain_set:
   - floor.bz.mgtv.com
   - fm.p0y.cn
   - fms.ipinyou.com
-  - fota4.adups.cn
   - free-aos-cdn-image.amap.com
   - front-perf.imoim.net
   - frontier-aweme-hl.snssdk.com
@@ -922,6 +920,7 @@ domain_set:
   - report.qqweb.qq.com
   - report.yumobi.cn
   - res.qhupdate.com
+  - resolver.mi.xiaomi.com
   - resolver.msg.xiaomi.net
   - rich.kuwo.cn
   - river.zhidao.baidu.com
@@ -981,8 +980,6 @@ domain_set:
   - sdkconf.avlyun.com
   - sdkconfig.video.qq.com
   - sdkinit.taobao.com
-  - sec-cdn.static.xiaomi.net
-  - sec.resource.xiaomi.net
   - secode2.hd.xiaomi.com
   - securemetrics.apple.com
   - sentry.d.mi.com
@@ -1554,6 +1551,7 @@ domain_suffix_set:
   - 2efgcdcjr000.fun
   - 2efj.economies.cheque-dejeuner.com
   - 2efj.up.coop
+  - 2f44166f35.com
   - 2h4els889.com
   - 2hisnd.com
   - 2hl.fun
@@ -1889,6 +1887,7 @@ domain_suffix_set:
   - 73fa81c29d.com
   - 75114620.xyz
   - 760a131226.com
+  - 76359a95dd.com
   - 76e.org
   - 771fnypadw0j.pt.themoneytizer.com
   - 776.jstatic.xyz
@@ -4209,7 +4208,6 @@ domain_suffix_set:
   - ads.appsgeyser.com
   - ads.audio.thisisdax.com
   - ads.betfair.com
-  - ads.betweendigital.com
   - ads.bulldogcpi.com
   - ads.cdn2-img.net
   - ads.cocomobi.com
@@ -4509,6 +4507,7 @@ domain_suffix_set:
   - adultsense.net
   - adultsense.org
   - adultsjuniorfling.com
+  - adups.cn
   - adups.com
   - aduptaihafy.net
   - aduu.cn
@@ -5672,6 +5671,7 @@ domain_suffix_set:
   - allvfz.chapellerie-traclet.com
   - allvideometrika.com
   - allworkovergot.com
+  - allycurrantliability.com
   - allyes.com
   - allyes.com.cn
   - allyicplashes.shop
@@ -5832,6 +5832,7 @@ domain_suffix_set:
   - amjoltiktor.com
   - amkaxhrti.com
   - amkowrtkipit.com
+  - amkzzela.com
   - ammankeyan.com
   - ammfajfmyowm.com
   - ammgryhcyk.com
@@ -9624,6 +9625,7 @@ domain_suffix_set:
   - betterzip.net
   - bettingpartners.com
   - beturtwiga.com
+  - betweendigital.com
   - betwinner1.com
   - betzapdoson.com
   - beuniquelyinsured.selective.com
@@ -13645,6 +13647,7 @@ domain_suffix_set:
   - crisistuesdayartillery.com
   - crisp-freedom.com
   - crispadvertising.com
+  - cristavoider.shop
   - cristochris.com
   - criteo.com
   - criteo.gap.ae
@@ -14624,6 +14627,7 @@ domain_suffix_set:
   - d29lduyskr59p4.cloudfront.net
   - d29mhxfd390ueb.cloudfront.net
   - d29mxewlidfjg1.cloudfront.net
+  - d2a0tn74luqqde.cloudfront.net
   - d2a4qm4se0se0m.cloudfront.net
   - d2b12e9gh7m9il.cloudfront.net
   - d2b4jmuffp1l21.cloudfront.net
@@ -17791,6 +17795,7 @@ domain_suffix_set:
   - data.inswa.coca-cola.com
   - data.internal.amexgbt.com
   - data.internaltest.amexgbt.com
+  - data.intl.miui.com
   - data.investing.questrade.com
   - data.iverpan.hr
   - data.iviskin.de
@@ -18558,6 +18563,7 @@ domain_suffix_set:
   - debonairdust.com
   - debonairtree.com
   - debtfulinhaler.click
+  - decastebonise.com
   - decenthat.com
   - decide.dev
   - decimalediblegoose.com
@@ -18598,6 +18604,7 @@ domain_suffix_set:
   - def-platform.com
   - def.bayer04.de
   - defabc.black-label-coffee.de
+  - defeatedtulipcogitate.com
   - defendantlucrative.com
   - definedbootnervous.com
   - defppmasu35cw.cloudfront.net
@@ -18736,6 +18743,7 @@ domain_suffix_set:
   - devotionalclicks.amazingfacts.org
   - devsms.capgemini.adobesandbox.com
   - devtracking.risk.lexisnexis.com
+  - devyqrdqrhncv.com
   - dex50.deteql.net
   - dexchangegenius.com
   - dexchangeinc.com
@@ -22532,6 +22540,7 @@ domain_suffix_set:
   - faithedsorels.shop
   - faiwax.golfhouse.de
   - fajkhr.icu
+  - fake-square.com
   - fal2.carrefour-banque.fr
   - falcatasestina.top
   - falcatayamalka.com
@@ -23029,6 +23038,7 @@ domain_suffix_set:
   - fkvxnv.smileactives.com
   - fkwc.sfr.fr
   - fkxlsc.fenix-store.com
+  - fkzmvsmbnblvu.life
   - fl5dpe.oui.sncf
   - flaaog.suncamp.nl
   - flacaen0.balancedguardian.com
@@ -23853,6 +23863,7 @@ domain_suffix_set:
   - fzqjvw.oakandluna.com
   - fzu4.bysidecar.com
   - fzvuob.koukokutenshoku.com
+  - fzyvmvomphvvws.com
   - g-stats.openhost.es
   - g.3lian.com
   - g.analytics.versa-ai.com
@@ -24131,6 +24142,7 @@ domain_suffix_set:
   - geckad.com
   - gecko.rrrelax.app
   - gecko.withclarify.com
+  - gecl.xyz
   - gecodbchclick.xyz
   - gedafdshb7.fun
   - gedashb112.fun
@@ -24447,6 +24459,7 @@ domain_suffix_set:
   - gillynn.com
   - gilsiwhisopaum.net
   - giltsmalgre.shop
+  - gimea.site
   - gimes.site
   - gimg.baidu.com
   - gimmicked25.fun
@@ -25444,6 +25457,7 @@ domain_suffix_set:
   - gqjppj.rentcafe.com
   - gqjrfv.autodoc.fi
   - gqlaur.currentcatalog.com
+  - gqmacifyutqtx.xyz
   - gqmuky.kaigonohonne.com
   - gqnous.klingel.be
   - gqoi.cn
@@ -26627,6 +26641,7 @@ domain_suffix_set:
   - hardnessanything.com
   - hare.felix-schmid.de
   - hare.startupbootcamp.com.au
+  - hareburfilet.com
   - haresmodus.com
   - harrenmedianetwork.com
   - harrier.progress.fyi
@@ -27274,6 +27289,7 @@ domain_suffix_set:
   - hntnca.petpetgo.com
   - hntxyc.schadeautos.nl
   - hnwttl.re-katsu.jp
+  - hnwuamu.top
   - hnxbnj.rippedupnutrition.com
   - hnytrd.ssfshop.com
   - hnzkclouds.com
@@ -29858,6 +29874,7 @@ domain_suffix_set:
   - inkfeedmausoleum.com
   - inklinkor.com
   - inkornesto.com
+  - inkosistond.top
   - inktad.com
   - inlacesglisten.shop
   - inlog01.hket.com
@@ -30558,6 +30575,7 @@ domain_suffix_set:
   - jackao.net
   - jaclottens.live
   - jacobytintack.shop
+  - jacquesmodally.shop
   - jaded-spell.pro
   - jadfupda.com
   - jadgmegizma.com
@@ -30624,6 +30642,7 @@ domain_suffix_set:
   - jb.dianshu119.com
   - jb.ecar168.cn
   - jbbljg.autoscout24.bg
+  - jbbyyryolqvby.top
   - jbdch1.appmobile.cn
   - jbezdi.ilsole24ore.com
   - jbhcwe.homewix.com
@@ -31277,6 +31296,7 @@ domain_suffix_set:
   - justcovaqod.com
   - justey.com
   - justgetitfaster.com
+  - justicebracket.com
   - justonemorenews.com
   - justpremium.com
   - justrelevant.com
@@ -33102,6 +33122,7 @@ domain_suffix_set:
   - lkmsvs.gsm55.de
   - lkmvsp.capvacances.fr
   - lknqfn.furla.com
+  - lknvksrvlawsh.life
   - lkocef.pixartprinting.fr
   - lkoutz.winparts.be
   - lkpmprksau.com
@@ -35652,6 +35673,7 @@ domain_suffix_set:
   - lzuc.sfr.fr
   - lzvwxy.hometogo.pl
   - lzwrzg.jetcost.com.br
+  - lzwscugghs.com
   - lzwtlo.watches.ae
   - lzwxzz.chintaistyle.jp
   - lzxdx24yib.com
@@ -38146,11 +38168,13 @@ domain_suffix_set:
   - mergedlava.com
   - mergle.berwham.site
   - meriahbansela.com
+  - meristana.pro
   - mernrza.com
   - merryvault.com
   - merterpazar.com
   - meryjanechile.rdtrke.com
   - meryt111.fun
+  - meshsensorcuriosity.com
   - message-hub-svc.usw2.cordial.com
   - message.alldata.com
   - message.sonicwall.com
@@ -42526,6 +42550,7 @@ domain_suffix_set:
   - nussar.tuttocialde.it
   - nutantvirific.com
   - nutriasnobbily.top
+  - nutritious-month.com
   - nutvii.perfumesclub.it
   - nuusqu.kpm-berlin.com
   - nuvaioqds.com
@@ -44062,6 +44087,7 @@ domain_suffix_set:
   - ouweessougleji.net
   - ouwfrfxixetxuu.com
   - ouxayn.tyres.spb.ru
+  - ouyoohwfpphakwe.com
   - ouyyua.odalys-vacation-rental.com
   - ov8ct.icu
   - ovbxpk.nabytek-bogart.cz
@@ -45283,6 +45309,7 @@ domain_suffix_set:
   - perfb.com
   - perfectmarket.com
   - perfectvids.com
+  - perfoliateratchetspecial.com
   - performanceadexchange.com
   - performanceplay.co.kr
   - performancetrustednetwork.com
@@ -45972,6 +45999,7 @@ domain_suffix_set:
   - poguia.estudiahosteleria.com
   - pohsoneche.info
   - poiejdhmkjcnd.top
+  - pointcontinentrtb.com
   - pointerlicence.top
   - pointroll.com
   - poisegel.com
@@ -48314,7 +48342,6 @@ domain_suffix_set:
   - resistpajamas.com
   - resniks.pro
   - resolver.gslb.mi-idc.com
-  - resolver.mi.xiaomi.com
   - reson8.com
   - resonance.pk
   - resonantbrush.com
@@ -50731,6 +50758,8 @@ domain_suffix_set:
   - sebkhapaction.com
   - sebotr.rizeclinic.com
   - sec-analytics.panasonic.co.uk
+  - sec-cdn.static.xiaomi.net
+  - sec.resource.xiaomi.net
   - sec.vmware.com
   - sec.wolterskluwerfs.com
   - secmetrics.bkb.ch
@@ -53455,6 +53484,7 @@ domain_suffix_set:
   - sqtivj.vidaxl.hr
   - square-direction.com
   - square.site
+  - squdgyclavier.top
   - squid.adart.cc
   - squid.antevo.com.au
   - squiggleflap370.zippityzap.uno
@@ -56827,6 +56857,7 @@ domain_suffix_set:
   - staupsoaksy.net
   - staureez.net
   - stawhoph.com
+  - stayedfrozenproduced.com
   - staygg.com
   - stbg.1nvest.co.za
   - stbg.bankonline.sboff.com
@@ -57226,6 +57257,7 @@ domain_suffix_set:
   - success.rhb.com
   - success.vertigis.com
   - success.vertigisstudio.com
+  - successesstudents.com
   - suchanalytik.hideandsec.sh
   - suchizainsairg.net
   - sucmetrics.hypovereinsbank.de
@@ -59216,6 +59248,7 @@ domain_suffix_set:
   - tdipsumi.top
   - tdjvod.chevignon.com.co
   - tdk.petsplace.nl
+  - tdmnbijnrlyu.xyz
   - tdmpaz.nicehair.dk
   - tdoshbi.top
   - tdp1.vivabox.es
@@ -60390,6 +60423,7 @@ domain_suffix_set:
   - touvxlii.top
   - tovbus.cn
   - tovespiquener.com
+  - towhadsoxith.net
   - towmfs.com
   - toxemichallows.shop
   - toxtren.com
@@ -65121,6 +65155,7 @@ domain_suffix_set:
   - uncleffaan.com
   - unclesnewspaper.com
   - uncmbg.timberland.de
+  - uncotorture.com
   - uncrobator.com
   - undeanoviform.shop
   - under2given.com
@@ -67049,6 +67084,7 @@ domain_suffix_set:
   - waust.at
   - wauthaik.net
   - wauthooptee.net
+  - waverdejection.com
   - waves.retentionscience.com
   - wavrlh.cedok.cz
   - wavzlt.michaelstars.com
@@ -67977,6 +68013,7 @@ domain_suffix_set:
   - wljxga.bogsfootwear.ca
   - wlkojk.orange.ro
   - wlkukrv.icu
+  - wllebozbzjjbj.top
   - wlmwkz.adrop.sk
   - wlog.ifdo.co.kr
   - wlog.kuaishou.com

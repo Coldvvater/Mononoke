@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3547
+# 规则统计: 3549
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2748,6 +2748,7 @@ DOMAIN-SUFFIX,eroimg.net
 DOMAIN-SUFFIX,esm.run
 DOMAIN-SUFFIX,esm.sh
 DOMAIN-SUFFIX,espncdn.com
+DOMAIN-SUFFIX,eth.sucks
 DOMAIN-SUFFIX,etsystatic.com
 DOMAIN-SUFFIX,eu-browse.startpage.com
 DOMAIN-SUFFIX,eu-proxy.startpage.com
@@ -3451,6 +3452,7 @@ DOMAIN-SUFFIX,wpmucdn.com
 DOMAIN-SUFFIX,wsimg.com
 DOMAIN-SUFFIX,wsrv.nl
 DOMAIN-SUFFIX,www.s81c.com
+DOMAIN-SUFFIX,xascdn.li
 DOMAIN-SUFFIX,xcdnpro.com
 DOMAIN-SUFFIX,xda-cdn.com
 DOMAIN-SUFFIX,xdaimages.com
