@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4842
+# 规则统计: 4853
 
 domain_suffix_set:
   - 002777.xyz
@@ -2196,6 +2196,7 @@ domain_suffix_set:
   - inphais.com
   - inping.com
   - inte.sogou.com
+  - inwuamo.top
   - inzoiwe.com
   - inzut.com
   - ioaiqp.top
@@ -2231,6 +2232,7 @@ domain_suffix_set:
   - iteyi.xyz
   - itimiyo.top
   - itjcqlp.icu
+  - itoqals.com
   - itqwesk.icu
   - ittaels.com
   - iucnwto.top
@@ -2328,6 +2330,7 @@ domain_suffix_set:
   - jhlnlt.xyz
   - jhnnnb.xyz
   - jhrulp.icu
+  - jia6983.xyz
   - jianpian.vip
   - jianxuzuo.com
   - jiaoben.eastday.com
@@ -2356,6 +2359,7 @@ domain_suffix_set:
   - jmesxbe.icu
   - jmif.cn
   - jmipzsn.icu
+  - jnwuama.top
   - jo4.icu
   - joiwnq2.cn
   - jollyspring.com
@@ -2434,6 +2438,7 @@ domain_suffix_set:
   - jxad.jx163.com
   - jxdown.com
   - jxjpnd.xyz
+  - jxtcbriz.icu
   - jy.zhongxues.com
   - jy01.shop
   - jy010.shop
@@ -2730,6 +2735,7 @@ domain_suffix_set:
   - lvnr.cn
   - lvnzrh.xyz
   - lvqo.cn
+  - lwcnmtl.top
   - lweizal.top
   - lweriol.top
   - lwilmil.top
@@ -2796,6 +2802,7 @@ domain_suffix_set:
   - mdoshbx.top
   - mdqikg.xyz
   - mdzwjra.cn
+  - mecv.cn
   - megydyk.icu
   - meishiba.com.cn
   - mepupr486.top
@@ -3490,6 +3497,7 @@ domain_suffix_set:
   - rinl.cn
   - riscats.com
   - riym.cn
+  - rjvzjn.top
   - rjwpwod.icu
   - rk6h3.icu
   - rklzpo.com
@@ -4402,6 +4410,7 @@ domain_suffix_set:
   - wmbd.gamersky.com
   - wmcbld.top
   - wmeng.feihuadns.com
+  - wmol.cn
   - wn6y.cn
   - wneia.iaskhot.com
   - wnmoobz.icu
@@ -4483,6 +4492,7 @@ domain_suffix_set:
   - xcwdcynb.icu
   - xdh0808.com
   - xdyjt.com
+  - xebetp.icu
   - xeccotftw.com
   - xedlxeuz.icu
   - xehodv.xyz
@@ -4751,6 +4761,7 @@ domain_suffix_set:
   - zalnouiy.com
   - zantainet.com
   - zavgrj.icu
+  - zbislaernv.com
   - zbldxf.icu
   - zca31.com
   - zcck60eqyw.world
