@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 769
+# 规则统计: 774
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -21,6 +21,7 @@ domain_suffix_set:
   - ad.cctv.com
   - ad.cyapi.cn
   - ad.doubleclick.net
+  - ad.gameley.com
   - ad.hpplay.cn
   - ad.partner.gifshow.com
   - ad.qingting.fm
@@ -59,6 +60,7 @@ domain_suffix_set:
   - ads-api.twitter.com
   - ads-img-qc.xhscdn.com
   - ads-marketing-vivofs.vivo.com.cn
+  - ads-sdk-api.ranfenghd.com
   - ads-sg.tiktok.com
   - ads-video-al.xhscdn.com
   - ads-video-qc.xhscdn.com
@@ -87,6 +89,7 @@ domain_suffix_set:
   - ads5-normal-lf.zijieapi.com
   - ads5-normal-lq.zijieapi.com
   - ads5-normal.zijieapi.com
+  - adsdk.vivo.com.cn
   - adse.test.ximalaya.com
   - adse.wsa.ximalaya.com
   - adse.ximalaya.com
@@ -136,6 +139,7 @@ domain_suffix_set:
   - adx.ads.oppomobile.com
   - adx.appsdk.com.cn
   - adx.sogaha.cn
+  - adx.tuia.cn
   - adxlog-adnet.vivo.com.cn
   - adxserver.ad.cmvideo.cn
   - aegis.qq.com
@@ -346,6 +350,7 @@ domain_suffix_set:
   - h.trace.qq.com
   - h5.hpplay.com.cn
   - hanlanad.com
+  - hc-ssp.sm.cn
   - heads-ak.spotify.com.edgesuite.net
   - heads-fa.spotify.com
   - hexagon-analytics.com
@@ -495,6 +500,7 @@ domain_suffix_set:
   - ms.applvn.com
   - ms4.applovin.com
   - ms4.applvn.com
+  - msdk.voiceads.cn
   - mssdk.volces.com
   - mssdk.zijieapi.com
   - mtj.baidu.com
@@ -745,7 +751,6 @@ domain_suffix_set:
   - widgets.pinterest.com
   - wildcard.moatads.com.edgekey.net
   - win.gdt.qq.com
-  - wn.x.jd.com
   - ws-keyboard.shouji.sogou.com
   - ws.sj.qq.com
   - wv.inner-active.mobi

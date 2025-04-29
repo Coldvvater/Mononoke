@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 769
+# 规则统计: 774
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -20,6 +20,7 @@ HOST-SUFFIX,ad.bwton.com,Ads_AWAvenue
 HOST-SUFFIX,ad.cctv.com,Ads_AWAvenue
 HOST-SUFFIX,ad.cyapi.cn,Ads_AWAvenue
 HOST-SUFFIX,ad.doubleclick.net,Ads_AWAvenue
+HOST-SUFFIX,ad.gameley.com,Ads_AWAvenue
 HOST-SUFFIX,ad.hpplay.cn,Ads_AWAvenue
 HOST-SUFFIX,ad.partner.gifshow.com,Ads_AWAvenue
 HOST-SUFFIX,ad.qingting.fm,Ads_AWAvenue
@@ -58,6 +59,7 @@ HOST-SUFFIX,ads-api.tiktok.com,Ads_AWAvenue
 HOST-SUFFIX,ads-api.twitter.com,Ads_AWAvenue
 HOST-SUFFIX,ads-img-qc.xhscdn.com,Ads_AWAvenue
 HOST-SUFFIX,ads-marketing-vivofs.vivo.com.cn,Ads_AWAvenue
+HOST-SUFFIX,ads-sdk-api.ranfenghd.com,Ads_AWAvenue
 HOST-SUFFIX,ads-sg.tiktok.com,Ads_AWAvenue
 HOST-SUFFIX,ads-video-al.xhscdn.com,Ads_AWAvenue
 HOST-SUFFIX,ads-video-qc.xhscdn.com,Ads_AWAvenue
@@ -86,6 +88,7 @@ HOST-SUFFIX,ads5-normal-hl.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,ads5-normal-lf.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,ads5-normal-lq.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,ads5-normal.zijieapi.com,Ads_AWAvenue
+HOST-SUFFIX,adsdk.vivo.com.cn,Ads_AWAvenue
 HOST-SUFFIX,adse.test.ximalaya.com,Ads_AWAvenue
 HOST-SUFFIX,adse.wsa.ximalaya.com,Ads_AWAvenue
 HOST-SUFFIX,adse.ximalaya.com,Ads_AWAvenue
@@ -135,6 +138,7 @@ HOST-SUFFIX,adx.ads.heytapmobi.com,Ads_AWAvenue
 HOST-SUFFIX,adx.ads.oppomobile.com,Ads_AWAvenue
 HOST-SUFFIX,adx.appsdk.com.cn,Ads_AWAvenue
 HOST-SUFFIX,adx.sogaha.cn,Ads_AWAvenue
+HOST-SUFFIX,adx.tuia.cn,Ads_AWAvenue
 HOST-SUFFIX,adxlog-adnet.vivo.com.cn,Ads_AWAvenue
 HOST-SUFFIX,adxserver.ad.cmvideo.cn,Ads_AWAvenue
 HOST-SUFFIX,aegis.qq.com,Ads_AWAvenue
@@ -345,6 +349,7 @@ HOST-SUFFIX,h-adashx.ut.taobao.com,Ads_AWAvenue
 HOST-SUFFIX,h.trace.qq.com,Ads_AWAvenue
 HOST-SUFFIX,h5.hpplay.com.cn,Ads_AWAvenue
 HOST-SUFFIX,hanlanad.com,Ads_AWAvenue
+HOST-SUFFIX,hc-ssp.sm.cn,Ads_AWAvenue
 HOST-SUFFIX,heads-ak.spotify.com.edgesuite.net,Ads_AWAvenue
 HOST-SUFFIX,heads-fa.spotify.com,Ads_AWAvenue
 HOST-SUFFIX,hexagon-analytics.com,Ads_AWAvenue
@@ -494,6 +499,7 @@ HOST-SUFFIX,ms.applovin.com,Ads_AWAvenue
 HOST-SUFFIX,ms.applvn.com,Ads_AWAvenue
 HOST-SUFFIX,ms4.applovin.com,Ads_AWAvenue
 HOST-SUFFIX,ms4.applvn.com,Ads_AWAvenue
+HOST-SUFFIX,msdk.voiceads.cn,Ads_AWAvenue
 HOST-SUFFIX,mssdk.volces.com,Ads_AWAvenue
 HOST-SUFFIX,mssdk.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,mtj.baidu.com,Ads_AWAvenue
@@ -744,7 +750,6 @@ HOST-SUFFIX,widgets.outbrain.com,Ads_AWAvenue
 HOST-SUFFIX,widgets.pinterest.com,Ads_AWAvenue
 HOST-SUFFIX,wildcard.moatads.com.edgekey.net,Ads_AWAvenue
 HOST-SUFFIX,win.gdt.qq.com,Ads_AWAvenue
-HOST-SUFFIX,wn.x.jd.com,Ads_AWAvenue
 HOST-SUFFIX,ws-keyboard.shouji.sogou.com,Ads_AWAvenue
 HOST-SUFFIX,ws.sj.qq.com,Ads_AWAvenue
 HOST-SUFFIX,wv.inner-active.mobi,Ads_AWAvenue

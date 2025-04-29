@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 769
+# 规则统计: 774
 
 DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,1500022744.vodplayer.wxamedia.com
@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,ad.bwton.com
 DOMAIN-SUFFIX,ad.cctv.com
 DOMAIN-SUFFIX,ad.cyapi.cn
 DOMAIN-SUFFIX,ad.doubleclick.net
+DOMAIN-SUFFIX,ad.gameley.com
 DOMAIN-SUFFIX,ad.hpplay.cn
 DOMAIN-SUFFIX,ad.partner.gifshow.com
 DOMAIN-SUFFIX,ad.qingting.fm
@@ -58,6 +59,7 @@ DOMAIN-SUFFIX,ads-api.tiktok.com
 DOMAIN-SUFFIX,ads-api.twitter.com
 DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
 DOMAIN-SUFFIX,ads-marketing-vivofs.vivo.com.cn
+DOMAIN-SUFFIX,ads-sdk-api.ranfenghd.com
 DOMAIN-SUFFIX,ads-sg.tiktok.com
 DOMAIN-SUFFIX,ads-video-al.xhscdn.com
 DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
@@ -86,6 +88,7 @@ DOMAIN-SUFFIX,ads5-normal-hl.zijieapi.com
 DOMAIN-SUFFIX,ads5-normal-lf.zijieapi.com
 DOMAIN-SUFFIX,ads5-normal-lq.zijieapi.com
 DOMAIN-SUFFIX,ads5-normal.zijieapi.com
+DOMAIN-SUFFIX,adsdk.vivo.com.cn
 DOMAIN-SUFFIX,adse.test.ximalaya.com
 DOMAIN-SUFFIX,adse.wsa.ximalaya.com
 DOMAIN-SUFFIX,adse.ximalaya.com
@@ -135,6 +138,7 @@ DOMAIN-SUFFIX,adx.ads.heytapmobi.com
 DOMAIN-SUFFIX,adx.ads.oppomobile.com
 DOMAIN-SUFFIX,adx.appsdk.com.cn
 DOMAIN-SUFFIX,adx.sogaha.cn
+DOMAIN-SUFFIX,adx.tuia.cn
 DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn
 DOMAIN-SUFFIX,adxserver.ad.cmvideo.cn
 DOMAIN-SUFFIX,aegis.qq.com
@@ -345,6 +349,7 @@ DOMAIN-SUFFIX,h-adashx.ut.taobao.com
 DOMAIN-SUFFIX,h.trace.qq.com
 DOMAIN-SUFFIX,h5.hpplay.com.cn
 DOMAIN-SUFFIX,hanlanad.com
+DOMAIN-SUFFIX,hc-ssp.sm.cn
 DOMAIN-SUFFIX,heads-ak.spotify.com.edgesuite.net
 DOMAIN-SUFFIX,heads-fa.spotify.com
 DOMAIN-SUFFIX,hexagon-analytics.com
@@ -494,6 +499,7 @@ DOMAIN-SUFFIX,ms.applovin.com
 DOMAIN-SUFFIX,ms.applvn.com
 DOMAIN-SUFFIX,ms4.applovin.com
 DOMAIN-SUFFIX,ms4.applvn.com
+DOMAIN-SUFFIX,msdk.voiceads.cn
 DOMAIN-SUFFIX,mssdk.volces.com
 DOMAIN-SUFFIX,mssdk.zijieapi.com
 DOMAIN-SUFFIX,mtj.baidu.com
@@ -744,7 +750,6 @@ DOMAIN-SUFFIX,widgets.outbrain.com
 DOMAIN-SUFFIX,widgets.pinterest.com
 DOMAIN-SUFFIX,wildcard.moatads.com.edgekey.net
 DOMAIN-SUFFIX,win.gdt.qq.com
-DOMAIN-SUFFIX,wn.x.jd.com
 DOMAIN-SUFFIX,ws-keyboard.shouji.sogou.com
 DOMAIN-SUFFIX,ws.sj.qq.com
 DOMAIN-SUFFIX,wv.inner-active.mobi
