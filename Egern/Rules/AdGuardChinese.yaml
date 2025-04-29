@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4853
+# 规则统计: 4866
 
 domain_suffix_set:
   - 002777.xyz
@@ -937,11 +937,13 @@ domain_suffix_set:
   - bvdenx.xyz
   - bvubasnf.com
   - bvzc.cn
+  - bwcnmtv.top
   - bweriov.top
   - bwilmiv.top
   - bwjfnj.xyz
   - bwurserv.top
   - bwz4e.icu
+  - bxdupj.icu
   - bxheifoe.icu
   - bxhm.cn
   - bxlmrl.xyz
@@ -987,6 +989,7 @@ domain_suffix_set:
   - caomeixz7.xyz
   - caqreg.xyz
   - car.qcmrjx.com
+  - cautols.com
   - caxhuuzto.com
   - cb.baidu.com
   - cbcgqs.xyz
@@ -1745,6 +1748,7 @@ domain_suffix_set:
   - gauqoith.com
   - gbfedashb4.fun
   - gbgedashb8.fun
+  - gbiathrilzik.com
   - gbndash2.fun
   - gbqgwes.icu
   - gccnntq.cn
@@ -1766,6 +1770,7 @@ domain_suffix_set:
   - gedxssashb8.fun
   - geewdashb3.fun
   - geinkroll.com
+  - gekhasaks.com
   - geotmt.com
   - geqshb22.fun
   - gerqragpl.com
@@ -2052,6 +2057,7 @@ domain_suffix_set:
   - https-filtering-check.adtidy.org
   - htwjo.com
   - htxwzp.xyz
+  - hua4207.xyz
   - huaerdadi.com
   - hulichuang.mobi
   - huohuo.huamuwo.com
@@ -2537,6 +2543,7 @@ domain_suffix_set:
   - kmruv.cn
   - knuinws.icu
   - knul.cn
+  - knwuamd.top
   - koauq.top
   - kodwaqepr.com
   - kokojia.com
@@ -2884,7 +2891,6 @@ domain_suffix_set:
   - mtwuxss.icu
   - mucnmtx.top
   - mucnwtx.top
-  - muer.cdn-baidu.fs-sywh.com
   - muiuim.icu
   - mumnxiex.top
   - muntfd62.shop
@@ -3087,6 +3093,7 @@ domain_suffix_set:
   - okvt.cn
   - okwan.cn
   - okwjmii.top
+  - oldh.cn
   - olgcpwc.icu
   - olgrae.com
   - oliver.pub
@@ -3435,6 +3442,7 @@ domain_suffix_set:
   - qwilmiy.top
   - qwoofao.top
   - qwsanan.top
+  - qwti.cn
   - qwursery.top
   - qxaz2xcw.com
   - qxwoiv.com
@@ -3706,6 +3714,7 @@ domain_suffix_set:
   - snmi.cn
   - snnmgdt.icu
   - snueirk.icu
+  - snwuamb.top
   - snxyf.com
   - snzfj.net
   - so.auto999.cn
@@ -3895,6 +3904,7 @@ domain_suffix_set:
   - thustilpn.com
   - ti4la.icu
   - tianji520.cn
+  - tiboha.top
   - tiexing.com
   - tixoilll.com
   - tjimtyi.top
@@ -4217,6 +4227,7 @@ domain_suffix_set:
   - vaykjwn.top
   - vbiakpu.icu
   - vbllxaaj.icu
+  - vcaqexl.com
   - vcdfsf99.fun
   - vcxv73.fun
   - vcxv787.fun
@@ -4245,6 +4256,7 @@ domain_suffix_set:
   - vhid.cn
   - vhje.cn
   - vhrhnh.icu
+  - vhxzfz.icu
   - vhzivz.xyz
   - video231.oss-cn-beijing.aliyuncs.com
   - vihqpr.xyz
@@ -4459,6 +4471,7 @@ domain_suffix_set:
   - wwerioe.top
   - wwilmie.top
   - wwjtdjj.cn
+  - wwok04281kl.com
   - wwursere.top
   - www5.oss-cn-hangzhou.aliyuncs.com
   - wxfdmri.xyz
