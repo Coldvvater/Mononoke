@@ -1,8 +1,9 @@
 # 规则名称: AppleProxy
-# 规则统计: 44
+# 规则统计: 45
 
 HOST,api-glb-sea.smoot.apple.com,AppleProxy
 HOST,apple.comscoreresearch.com,AppleProxy
+HOST,apps.apple.com,AppleProxy
 HOST,books.itunes.apple.com,AppleProxy
 HOST,cdn.apple-cloudkit.com,AppleProxy
 HOST,cvws.icloud-content.com,AppleProxy

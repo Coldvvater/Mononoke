@@ -1,9 +1,10 @@
 # 规则名称: AppleProxy
-# 规则统计: 39
+# 规则统计: 40
 
 domain_set:
   - api-glb-sea.smoot.apple.com
   - apple.comscoreresearch.com
+  - apps.apple.com
   - books.itunes.apple.com
   - cdn.apple-cloudkit.com
   - cvws.icloud-content.com
