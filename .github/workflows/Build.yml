@@ -43,7 +43,7 @@ jobs:
             > Mononoke-repo/Ruleset/Reject.list
             for url in "${urls[@]}"; do
                 echo "Downloading: $url"
-                curl -f -L "$url" >> Mononoke-repo/Ruleset/Reject.list || { echo "Download Failed: $url"; exit 1; }
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Mononoke-repo/Ruleset/Reject.list || { echo "Download Failed: $url"; exit 1; }
                 echo "" >> Mononoke-repo/Ruleset/Reject.list
             done
             # 合并 SukkaW 广告规则
@@ -54,7 +54,7 @@ jobs:
             > Mononoke-repo/Ruleset/Ads_SukkaW.list
             for url in "${urls[@]}"; do
                 echo "Downloading: $url"
-                curl -f -L "$url" >> Mononoke-repo/Ruleset/Ads_SukkaW.list || { echo "Download Failed: $url"; exit 1; }
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Mononoke-repo/Ruleset/Ads_SukkaW.list || { echo "Download Failed: $url"; exit 1; }
                 echo "" >> Mononoke-repo/Ruleset/Ads_SukkaW.list
             done
             # 合并 SukkaW CDN 规则
@@ -65,7 +65,7 @@ jobs:
             > Mononoke-repo/Ruleset/CDN.list
             for url in "${urls[@]}"; do
                 echo "Downloading: $url"
-                curl -f -L "$url" >> Mononoke-repo/Ruleset/CDN.list || { echo "Download Failed: $url"; exit 1; }
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Mononoke-repo/Ruleset/CDN.list || { echo "Download Failed: $url"; exit 1; }
                 echo "" >> Mononoke-repo/Ruleset/CDN.list
             done
             # 合并 GFW 规则
@@ -76,7 +76,7 @@ jobs:
             > Mononoke-repo/Ruleset/ProxyGFW.list
             for url in "${urls[@]}"; do
                 echo "Downloading: $url"
-                curl -f -L "$url" >> Mononoke-repo/Ruleset/ProxyGFW.list || { echo "Download Failed: $url"; exit 1; }
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Mononoke-repo/Ruleset/ProxyGFW.list || { echo "Download Failed: $url"; exit 1; }
                 echo "" >> Mononoke-repo/Ruleset/ProxyGFW.list
             done
             # 合并 AI 规则
@@ -88,15 +88,26 @@ jobs:
             > Mononoke-repo/Ruleset/AI.list
             for url in "${urls[@]}"; do
                 echo "Downloading: $url"
-                curl -f -L "$url" >> Mononoke-repo/Ruleset/AI.list || { echo "Download Failed: $url"; exit 1; }
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Mononoke-repo/Ruleset/AI.list || { echo "Download Failed: $url"; exit 1; }
                 echo "" >> Mononoke-repo/Ruleset/AI.list
-            done            # 下载规则
+            done
+            # 合并 AppleProxy 规则
+            urls=(
+                "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+                "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppStore/AppStore.list"
+            )
+            > Mononoke-repo/Ruleset/AppleProxy.list
+            for url in "${urls[@]}"; do
+                echo "Downloading: $url"
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Mononoke-repo/Ruleset/AppleProxy.list || { echo "Download Failed: $url"; exit 1; }
+                echo "" >> Mononoke-repo/Ruleset/AppleProxy.list
+            done            
+            # 下载规则
             files=(
                 # 苹果
                 "APNs.list https://kelee.one/Tool/Loon/Rule/ApplePushNotificationService.list"
                 "Apple.list https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
                 "AppleProxyService.list https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Surge/Custom/AppleProxyService.list"
-                "AppleProxy.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
                 "AppleMusic.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
                 "AppStore.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppStore/AppStore.list"
                 "AppleID.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
@@ -497,7 +508,7 @@ jobs:
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
             git config --local user.name "${{ github.actor }}"
             git add -A
-            git commit -m "Auto Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "Update(Rules): $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
             git push origin master
           else
             echo "No changes to commit."
