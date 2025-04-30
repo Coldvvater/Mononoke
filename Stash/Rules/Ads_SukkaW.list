@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 72579
+# 规则统计: 72591
 
 DOMAIN,03.lzzncm.com
 DOMAIN,04.lzzncm.com
@@ -706,7 +706,6 @@ DOMAIN,lockersamsungs8.r.xoxknct.com
 DOMAIN,lockersamsungs8.s.xoxknct.com
 DOMAIN,log-dmp.suishenyun.cn
 DOMAIN,log-sdk.gifshow.com
-DOMAIN,log-sdk.ksapisrv.com
 DOMAIN,log-yex.youdao.com
 DOMAIN,log.b612kaji.com
 DOMAIN,log.mmstat.com
@@ -4351,7 +4350,6 @@ DOMAIN-SUFFIX,ads.luffy.my.id
 DOMAIN-SUFFIX,ads.mobilefuse.net
 DOMAIN-SUFFIX,ads.mobilityware.com
 DOMAIN-SUFFIX,ads.mobvertising.net
-DOMAIN-SUFFIX,ads.mythad.com
 DOMAIN-SUFFIX,ads.oppomobile.com
 DOMAIN-SUFFIX,ads.pdbarea.com
 DOMAIN-SUFFIX,ads.pinger.com
@@ -8286,6 +8284,7 @@ DOMAIN-SUFFIX,ashamedbirchpoorly.com
 DOMAIN-SUFFIX,ashcdn.com
 DOMAIN-SUFFIX,ashetandrew.com
 DOMAIN-SUFFIX,ashhgo.com
+DOMAIN-SUFFIX,ashiato.travel.rakuten.co.jp
 DOMAIN-SUFFIX,ashlingzanyish.com
 DOMAIN-SUFFIX,ashobzshava.com
 DOMAIN-SUFFIX,ashoupsu.com
@@ -12284,6 +12283,12 @@ DOMAIN-SUFFIX,clarity.abacast.com
 DOMAIN-SUFFIX,clarity.fonio.ai
 DOMAIN-SUFFIX,clarity.ms
 DOMAIN-SUFFIX,clarium.global.ssl.fastly.net
+DOMAIN-SUFFIX,clashcn.bid
+DOMAIN-SUFFIX,clashfor.org
+DOMAIN-SUFFIX,clashforandroid.org
+DOMAIN-SUFFIX,clashforwindows.net
+DOMAIN-SUFFIX,clashforwindows.org
+DOMAIN-SUFFIX,clashx.org
 DOMAIN-SUFFIX,claspedtwelve.com
 DOMAIN-SUFFIX,classesfolksprofession.com
 DOMAIN-SUFFIX,classic-bonus.com
@@ -22668,6 +22673,7 @@ DOMAIN-SUFFIX,event.mazars.nl
 DOMAIN-SUFFIX,event.msi.com
 DOMAIN-SUFFIX,event.newsbreak.com
 DOMAIN-SUFFIX,event.northghost.com
+DOMAIN-SUFFIX,event.notifier.rakuten.co.jp
 DOMAIN-SUFFIX,event.ortec.com
 DOMAIN-SUFFIX,event.platform.tunein.com
 DOMAIN-SUFFIX,event.playground.ru
@@ -25064,6 +25070,7 @@ DOMAIN-SUFFIX,get.ukg.nl
 DOMAIN-SUFFIX,getadx.com
 DOMAIN-SUFFIX,getadzuki.com
 DOMAIN-SUFFIX,getalltraffic.com
+DOMAIN-SUFFIX,getclashvergerev.org
 DOMAIN-SUFFIX,getclicky.com
 DOMAIN-SUFFIX,getconnected.infor.com
 DOMAIN-SUFFIX,getdeviceinf.com
@@ -35727,6 +35734,7 @@ DOMAIN-SUFFIX,log-music-data.line-apps.com
 DOMAIN-SUFFIX,log-player.arte.tv
 DOMAIN-SUFFIX,log-pq.shopfully.cloud
 DOMAIN-SUFFIX,log-sdk.clickwifi.net
+DOMAIN-SUFFIX,log-sdk.ksapisrv.com
 DOMAIN-SUFFIX,log-sg.bytegsdk.com
 DOMAIN-SUFFIX,log-stats.weathercn.com
 DOMAIN-SUFFIX,log-tb.isnssdk.com
@@ -41388,6 +41396,9 @@ DOMAIN-SUFFIX,migrantspiteconnecting.com
 DOMAIN-SUFFIX,mihaivibsaz.net
 DOMAIN-SUFFIX,mihephypty.com
 DOMAIN-SUFFIX,mihjpeok.com
+DOMAIN-SUFFIX,mihomoparty.com
+DOMAIN-SUFFIX,mihomoparty.net
+DOMAIN-SUFFIX,mihomoparty.org
 DOMAIN-SUFFIX,mihoutao1868.github.io
 DOMAIN-SUFFIX,miknijrcaf.com
 DOMAIN-SUFFIX,mikobqcusg.com
@@ -42566,6 +42577,7 @@ DOMAIN-SUFFIX,mysweethoneygirls.com
 DOMAIN-SUFFIX,mysweetteam.com
 DOMAIN-SUFFIX,mytanwan.com
 DOMAIN-SUFFIX,mytdsnet.com
+DOMAIN-SUFFIX,mythad.com
 DOMAIN-SUFFIX,mythdev.b-cdn.net
 DOMAIN-SUFFIX,mythicsallies.com
 DOMAIN-SUFFIX,mythings.com

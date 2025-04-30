@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4866
+# 规则统计: 4875
 
 domain_suffix_set:
   - 002777.xyz
@@ -1542,6 +1542,7 @@ domain_suffix_set:
   - ent1.qunchua.cn
   - ent1.qunchua.com
   - enuksg.xyz
+  - enwuamw.top
   - eoubliw.top
   - eoucxzw.icu
   - eouvxliw.top
@@ -1589,6 +1590,7 @@ domain_suffix_set:
   - ewvz.cn
   - ewxufqs.cn
   - exocoed.top
+  - exoh.cn
   - exqvak.xyz
   - extopae.icu
   - eyislow.top
@@ -1716,6 +1718,7 @@ domain_suffix_set:
   - fujnrh.xyz
   - fuoo1.top
   - fuuksew.com
+  - fvitteilse.com
   - fvyqblc.icu
   - fwsfwef2.fun
   - fxgkktj.icu
@@ -2259,6 +2262,7 @@ domain_suffix_set:
   - iweizao.top
   - iwerilxo.top
   - iwerioo.top
+  - iwhp.cn
   - iwilmio.top
   - iwmigu.xyz
   - iwpkp.xyz
@@ -2831,6 +2835,7 @@ domain_suffix_set:
   - mhwy6.icu
   - miaozhen.com
   - migo011.top
+  - mihoutao1868.github.io
   - milk.yesky.com.cn
   - mini.hao123.com
   - miningzhizhong.top
@@ -2903,6 +2908,7 @@ domain_suffix_set:
   - mvmqos.xyz
   - mvwitz.xyz
   - mvxh.cn
+  - mwcnmtx.top
   - mwerilxx.top
   - mweriox.top
   - mwilmix.top
@@ -3496,6 +3502,7 @@ domain_suffix_set:
   - rgju.cn
   - rgme.cn
   - rgmmeff.icu
+  - rhdifs.top
   - rhndvagz.icu
   - rhzofr.icu
   - ribghr.icu
@@ -4430,6 +4437,7 @@ domain_suffix_set:
   - wnootzc.icu
   - wnstug.xyz
   - wnvu.cn
+  - wnwuame.top
   - wopvmmy.cn
   - woublie.top
   - wouvxlie.top
@@ -4472,6 +4480,7 @@ domain_suffix_set:
   - wwilmie.top
   - wwjtdjj.cn
   - wwok04281kl.com
+  - wwok04291kl.com
   - wwursere.top
   - www5.oss-cn-hangzhou.aliyuncs.com
   - wxfdmri.xyz

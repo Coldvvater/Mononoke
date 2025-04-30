@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 72581
+# 规则统计: 72593
 
 HOST,03.lzzncm.com,Ads_SukkaW
 HOST,04.lzzncm.com,Ads_SukkaW
@@ -706,7 +706,6 @@ HOST,lockersamsungs8.r.xoxknct.com,Ads_SukkaW
 HOST,lockersamsungs8.s.xoxknct.com,Ads_SukkaW
 HOST,log-dmp.suishenyun.cn,Ads_SukkaW
 HOST,log-sdk.gifshow.com,Ads_SukkaW
-HOST,log-sdk.ksapisrv.com,Ads_SukkaW
 HOST,log-yex.youdao.com,Ads_SukkaW
 HOST,log.b612kaji.com,Ads_SukkaW
 HOST,log.mmstat.com,Ads_SukkaW
@@ -4351,7 +4350,6 @@ HOST-SUFFIX,ads.luffy.my.id,Ads_SukkaW
 HOST-SUFFIX,ads.mobilefuse.net,Ads_SukkaW
 HOST-SUFFIX,ads.mobilityware.com,Ads_SukkaW
 HOST-SUFFIX,ads.mobvertising.net,Ads_SukkaW
-HOST-SUFFIX,ads.mythad.com,Ads_SukkaW
 HOST-SUFFIX,ads.oppomobile.com,Ads_SukkaW
 HOST-SUFFIX,ads.pdbarea.com,Ads_SukkaW
 HOST-SUFFIX,ads.pinger.com,Ads_SukkaW
@@ -8286,6 +8284,7 @@ HOST-SUFFIX,ashamedbirchpoorly.com,Ads_SukkaW
 HOST-SUFFIX,ashcdn.com,Ads_SukkaW
 HOST-SUFFIX,ashetandrew.com,Ads_SukkaW
 HOST-SUFFIX,ashhgo.com,Ads_SukkaW
+HOST-SUFFIX,ashiato.travel.rakuten.co.jp,Ads_SukkaW
 HOST-SUFFIX,ashlingzanyish.com,Ads_SukkaW
 HOST-SUFFIX,ashobzshava.com,Ads_SukkaW
 HOST-SUFFIX,ashoupsu.com,Ads_SukkaW
@@ -12284,6 +12283,12 @@ HOST-SUFFIX,clarity.abacast.com,Ads_SukkaW
 HOST-SUFFIX,clarity.fonio.ai,Ads_SukkaW
 HOST-SUFFIX,clarity.ms,Ads_SukkaW
 HOST-SUFFIX,clarium.global.ssl.fastly.net,Ads_SukkaW
+HOST-SUFFIX,clashcn.bid,Ads_SukkaW
+HOST-SUFFIX,clashfor.org,Ads_SukkaW
+HOST-SUFFIX,clashforandroid.org,Ads_SukkaW
+HOST-SUFFIX,clashforwindows.net,Ads_SukkaW
+HOST-SUFFIX,clashforwindows.org,Ads_SukkaW
+HOST-SUFFIX,clashx.org,Ads_SukkaW
 HOST-SUFFIX,claspedtwelve.com,Ads_SukkaW
 HOST-SUFFIX,classesfolksprofession.com,Ads_SukkaW
 HOST-SUFFIX,classic-bonus.com,Ads_SukkaW
@@ -22668,6 +22673,7 @@ HOST-SUFFIX,event.mazars.nl,Ads_SukkaW
 HOST-SUFFIX,event.msi.com,Ads_SukkaW
 HOST-SUFFIX,event.newsbreak.com,Ads_SukkaW
 HOST-SUFFIX,event.northghost.com,Ads_SukkaW
+HOST-SUFFIX,event.notifier.rakuten.co.jp,Ads_SukkaW
 HOST-SUFFIX,event.ortec.com,Ads_SukkaW
 HOST-SUFFIX,event.platform.tunein.com,Ads_SukkaW
 HOST-SUFFIX,event.playground.ru,Ads_SukkaW
@@ -25064,6 +25070,7 @@ HOST-SUFFIX,get.ukg.nl,Ads_SukkaW
 HOST-SUFFIX,getadx.com,Ads_SukkaW
 HOST-SUFFIX,getadzuki.com,Ads_SukkaW
 HOST-SUFFIX,getalltraffic.com,Ads_SukkaW
+HOST-SUFFIX,getclashvergerev.org,Ads_SukkaW
 HOST-SUFFIX,getclicky.com,Ads_SukkaW
 HOST-SUFFIX,getconnected.infor.com,Ads_SukkaW
 HOST-SUFFIX,getdeviceinf.com,Ads_SukkaW
@@ -35727,6 +35734,7 @@ HOST-SUFFIX,log-music-data.line-apps.com,Ads_SukkaW
 HOST-SUFFIX,log-player.arte.tv,Ads_SukkaW
 HOST-SUFFIX,log-pq.shopfully.cloud,Ads_SukkaW
 HOST-SUFFIX,log-sdk.clickwifi.net,Ads_SukkaW
+HOST-SUFFIX,log-sdk.ksapisrv.com,Ads_SukkaW
 HOST-SUFFIX,log-sg.bytegsdk.com,Ads_SukkaW
 HOST-SUFFIX,log-stats.weathercn.com,Ads_SukkaW
 HOST-SUFFIX,log-tb.isnssdk.com,Ads_SukkaW
@@ -41388,6 +41396,9 @@ HOST-SUFFIX,migrantspiteconnecting.com,Ads_SukkaW
 HOST-SUFFIX,mihaivibsaz.net,Ads_SukkaW
 HOST-SUFFIX,mihephypty.com,Ads_SukkaW
 HOST-SUFFIX,mihjpeok.com,Ads_SukkaW
+HOST-SUFFIX,mihomoparty.com,Ads_SukkaW
+HOST-SUFFIX,mihomoparty.net,Ads_SukkaW
+HOST-SUFFIX,mihomoparty.org,Ads_SukkaW
 HOST-SUFFIX,mihoutao1868.github.io,Ads_SukkaW
 HOST-SUFFIX,miknijrcaf.com,Ads_SukkaW
 HOST-SUFFIX,mikobqcusg.com,Ads_SukkaW
@@ -42566,6 +42577,7 @@ HOST-SUFFIX,mysweethoneygirls.com,Ads_SukkaW
 HOST-SUFFIX,mysweetteam.com,Ads_SukkaW
 HOST-SUFFIX,mytanwan.com,Ads_SukkaW
 HOST-SUFFIX,mytdsnet.com,Ads_SukkaW
+HOST-SUFFIX,mythad.com,Ads_SukkaW
 HOST-SUFFIX,mythdev.b-cdn.net,Ads_SukkaW
 HOST-SUFFIX,mythicsallies.com,Ads_SukkaW
 HOST-SUFFIX,mythings.com,Ads_SukkaW

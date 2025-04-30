@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3549
+# 规则统计: 3550
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1785,6 +1785,7 @@ HOST,res.abc.net.au,CDN
 HOST,res.cloudinary.com,CDN
 HOST,res.craft.do,CDN
 HOST,res2.weblium.site,CDN
+HOST,resize-image.vocus.cc,CDN
 HOST,resize.blogsys.jp,CDN
 HOST,resize.yandex.net,CDN
 HOST,resizing.flixster.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 72581
+# 规则统计: 72593
 
 no_resolve: true
 domain_set:
@@ -708,7 +708,6 @@ domain_set:
   - lockersamsungs8.s.xoxknct.com
   - log-dmp.suishenyun.cn
   - log-sdk.gifshow.com
-  - log-sdk.ksapisrv.com
   - log-yex.youdao.com
   - log.b612kaji.com
   - log.mmstat.com
@@ -4354,7 +4353,6 @@ domain_suffix_set:
   - ads.mobilefuse.net
   - ads.mobilityware.com
   - ads.mobvertising.net
-  - ads.mythad.com
   - ads.oppomobile.com
   - ads.pdbarea.com
   - ads.pinger.com
@@ -8289,6 +8287,7 @@ domain_suffix_set:
   - ashcdn.com
   - ashetandrew.com
   - ashhgo.com
+  - ashiato.travel.rakuten.co.jp
   - ashlingzanyish.com
   - ashobzshava.com
   - ashoupsu.com
@@ -12287,6 +12286,12 @@ domain_suffix_set:
   - clarity.fonio.ai
   - clarity.ms
   - clarium.global.ssl.fastly.net
+  - clashcn.bid
+  - clashfor.org
+  - clashforandroid.org
+  - clashforwindows.net
+  - clashforwindows.org
+  - clashx.org
   - claspedtwelve.com
   - classesfolksprofession.com
   - classic-bonus.com
@@ -22671,6 +22676,7 @@ domain_suffix_set:
   - event.msi.com
   - event.newsbreak.com
   - event.northghost.com
+  - event.notifier.rakuten.co.jp
   - event.ortec.com
   - event.platform.tunein.com
   - event.playground.ru
@@ -25067,6 +25073,7 @@ domain_suffix_set:
   - getadx.com
   - getadzuki.com
   - getalltraffic.com
+  - getclashvergerev.org
   - getclicky.com
   - getconnected.infor.com
   - getdeviceinf.com
@@ -35730,6 +35737,7 @@ domain_suffix_set:
   - log-player.arte.tv
   - log-pq.shopfully.cloud
   - log-sdk.clickwifi.net
+  - log-sdk.ksapisrv.com
   - log-sg.bytegsdk.com
   - log-stats.weathercn.com
   - log-tb.isnssdk.com
@@ -41391,6 +41399,9 @@ domain_suffix_set:
   - mihaivibsaz.net
   - mihephypty.com
   - mihjpeok.com
+  - mihomoparty.com
+  - mihomoparty.net
+  - mihomoparty.org
   - mihoutao1868.github.io
   - miknijrcaf.com
   - mikobqcusg.com
@@ -42569,6 +42580,7 @@ domain_suffix_set:
   - mysweetteam.com
   - mytanwan.com
   - mytdsnet.com
+  - mythad.com
   - mythdev.b-cdn.net
   - mythicsallies.com
   - mythings.com

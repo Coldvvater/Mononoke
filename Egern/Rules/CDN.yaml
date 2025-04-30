@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3549
+# 规则统计: 3550
 
 domain_set:
   - 0x0.st
@@ -1786,6 +1786,7 @@ domain_set:
   - res.cloudinary.com
   - res.craft.do
   - res2.weblium.site
+  - resize-image.vocus.cc
   - resize.blogsys.jp
   - resize.yandex.net
   - resizing.flixster.com
