@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3613
+# 规则统计: 3568
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -97,7 +97,6 @@ DOMAIN,assets-fe.change.org
 DOMAIN,assets-growth-common.circleci.com
 DOMAIN,assets-next.matters.news
 DOMAIN,assets-next.mattersprotocol.io
-DOMAIN,assets-production.packagecloud.io
 DOMAIN,assets-s3-us-east-1.ceros.com
 DOMAIN,assets-themes.chess.com
 DOMAIN,assets-v2.super.so
@@ -291,7 +290,6 @@ DOMAIN,badges.gitter.im
 DOMAIN,badges.greenkeeper.io
 DOMAIN,bcdn.starapps.studio
 DOMAIN,bcmedia.bitchute.com
-DOMAIN,binaries.prisma.sh
 DOMAIN,blacklist.tampermonkey.net
 DOMAIN,blade-public-static.blade-group.com
 DOMAIN,blob.sololearn.com
@@ -442,7 +440,6 @@ DOMAIN,cdn.cmcmarkets.com
 DOMAIN,cdn.cms-twdigitalassets.com
 DOMAIN,cdn.cnn.com
 DOMAIN,cdn.cnx-software.com
-DOMAIN,cdn.cocoapods.org
 DOMAIN,cdn.codeblackbelt.com
 DOMAIN,cdn.commandbar.com
 DOMAIN,cdn.commento.io
@@ -564,6 +561,7 @@ DOMAIN,cdn.mathjax.org
 DOMAIN,cdn.matterhorn.app
 DOMAIN,cdn.mcauto-images-production.sendgrid.net
 DOMAIN,cdn.mcr.ea.com
+DOMAIN,cdn.metadata.io
 DOMAIN,cdn.mewe.com
 DOMAIN,cdn.micro.blog
 DOMAIN,cdn.minecraft-server-list.com
@@ -943,11 +941,8 @@ DOMAIN,disco.headliner.link
 DOMAIN,divhunt-site.b-cdn.net
 DOMAIN,divhunt.b-cdn.net
 DOMAIN,dl.airdroid.com
-DOMAIN,dl.nwjs.io
-DOMAIN,dl2.nwjs.io
 DOMAIN,dlassets-ssl.xboxlive.com
 DOMAIN,do.featurebase.app
-DOMAIN,docker.cloudsmith.io
 DOMAIN,docs.rs
 DOMAIN,doppler-config.cbsivideo.com
 DOMAIN,doujin-assets.dmm.co.jp
@@ -956,6 +951,7 @@ DOMAIN,drop.ndtv.com
 DOMAIN,drscdn.500px.org
 DOMAIN,dynamic-assets.coinbase.com
 DOMAIN,dz2cdn1.dzone.com
+DOMAIN,e.calibermind.com
 DOMAIN,e.deviantart.net
 DOMAIN,e.linear.app
 DOMAIN,e3.365dm.com
@@ -1109,7 +1105,6 @@ DOMAIN,go.vercel.com
 DOMAIN,godoc.org
 DOMAIN,gohugo.io
 DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
-DOMAIN,gopkg.in
 DOMAIN,graph.facebook.com
 DOMAIN,gravatar.cat.net
 DOMAIN,gstatic.com
@@ -1506,7 +1501,6 @@ DOMAIN,marketing.figma.com
 DOMAIN,marketing.thingiverse.com
 DOMAIN,marketplace-web-assets.vinted.com
 DOMAIN,mastodon-static.miao.dev
-DOMAIN,maven.google.com
 DOMAIN,mcdn.vrporn.com
 DOMAIN,mcdnds.vrporn.com
 DOMAIN,mcdns.vrporn.com
@@ -1637,8 +1631,6 @@ DOMAIN,no-cache.hubspot.com
 DOMAIN,nodeassets.nbcnews.com
 DOMAIN,nodei.co
 DOMAIN,npm.antfu.dev
-DOMAIN,npm.im
-DOMAIN,npm.jsr.io
 DOMAIN,ntp.msn.com
 DOMAIN,null.jsbin.com
 DOMAIN,o.n1mp.org
@@ -1662,7 +1654,6 @@ DOMAIN,optimizationguide-pa.googleapis.com
 DOMAIN,optimizely.com
 DOMAIN,organizer.bizzabo.com
 DOMAIN,osint.digitalside.it
-DOMAIN,oss-binaries.phusionpassenger.com
 DOMAIN,oss.1p3a.com
 DOMAIN,oss.moe.cat
 DOMAIN,ovo.wxw.moe
@@ -1677,10 +1668,7 @@ DOMAIN,p.udn.com.tw
 DOMAIN,p2.bahamut.com.tw
 DOMAIN,pacdn.500px.org
 DOMAIN,package-assets.oomol.com
-DOMAIN,packages-cf.termux.dev
-DOMAIN,packages.httpie.io
 DOMAIN,packages.jetbrains.team
-DOMAIN,packages.termux.dev
 DOMAIN,panel-production-libs.b-cdn.net
 DOMAIN,participants.evolv.ai
 DOMAIN,parts.blog.livedoor.jp
@@ -1719,8 +1707,6 @@ DOMAIN,pictures-cdn.porn.com
 DOMAIN,pim-media.intel.com
 DOMAIN,pkg-cdn.jetbrains.team
 DOMAIN,pkg-size.dev
-DOMAIN,pkg.cloudflare.com
-DOMAIN,pkg.cloudflareclient.com
 DOMAIN,pkg.csb.dev
 DOMAIN,pkgs.dev.azure.com
 DOMAIN,pl.ea.com
@@ -1741,7 +1727,6 @@ DOMAIN,player.louisvuitton.com
 DOMAIN,player.vimeo.com
 DOMAIN,players.brightcove.net
 DOMAIN,playgroundcdn.typescriptlang.org
-DOMAIN,plugins-artifacts.gradle.org
 DOMAIN,plugins.dprint.dev
 DOMAIN,plus.unsplash.com
 DOMAIN,polyfill-fe.toss.im
@@ -1770,7 +1755,6 @@ DOMAIN,profile-images.xing.com
 DOMAIN,promotions.betfair.com
 DOMAIN,proxy.beyondwords.io
 DOMAIN,proxy.cors.sh
-DOMAIN,proxy.golang.org
 DOMAIN,proxy.joinmastodon.org
 DOMAIN,ps.w.org
 DOMAIN,psp-logos.uptimerobot.com
@@ -1796,22 +1780,10 @@ DOMAIN,raw.github.com
 DOMAIN,rawmarkdown.cloudflareaccess.org
 DOMAIN,rebound.postmarkapp.com
 DOMAIN,redircdn.com
-DOMAIN,registry-cdn.wapm.io
 DOMAIN,registry.api.cnn.io
-DOMAIN,registry.bower.io
-DOMAIN,registry.npmjs.com
-DOMAIN,registry.npmjs.org
 DOMAIN,registry.oomol.com
 DOMAIN,regmedia.co.uk
-DOMAIN,release.runcloud.io
 DOMAIN,renderer-assets.typeform.com
-DOMAIN,replicate.npmjs.com
-DOMAIN,repo.gradle.org
-DOMAIN,repo.hex.pm
-DOMAIN,repo.maven.apache.org
-DOMAIN,repo.nextdns.io
-DOMAIN,repo1.maven.org
-DOMAIN,repository.jboss.org
 DOMAIN,res-geo.cdn.office.net
 DOMAIN,res.abc.net.au
 DOMAIN,res.cloudinary.com
@@ -1973,7 +1945,6 @@ DOMAIN,simplicity.trustpilot.com
 DOMAIN,sites.chase.com
 DOMAIN,sites.super.so
 DOMAIN,skills-assets.pstmn.io
-DOMAIN,skimdb.npmjs.com
 DOMAIN,sm.ign.com
 DOMAIN,smd-cms.nasa.gov
 DOMAIN,sn-s3-cdn.angry.im
@@ -2050,7 +2021,6 @@ DOMAIN,static-main.moovit.com
 DOMAIN,static-media.fox.com
 DOMAIN,static-mh.content.disney.io
 DOMAIN,static-overlay.ubisoft.com
-DOMAIN,static-production.npmjs.com
 DOMAIN,static-r.kamihimeproject.net
 DOMAIN,static-redesign.cnbcfm.com
 DOMAIN,static-resource.np.community.playstation.net
@@ -2184,7 +2154,6 @@ DOMAIN,static.newmobilelife.com
 DOMAIN,static.news.bitcoin.com
 DOMAIN,static.nhentai.net
 DOMAIN,static.nicehash.com
-DOMAIN,static.npmjs.com
 DOMAIN,static.nrk.no
 DOMAIN,static.observablehq.com
 DOMAIN,static.oklink.com
@@ -2213,7 +2182,6 @@ DOMAIN,static.redhat.com
 DOMAIN,static.registration.bluehost.com
 DOMAIN,static.reo.dev
 DOMAIN,static.replay.io
-DOMAIN,static.rust-lang.org
 DOMAIN,static.scarf.sh
 DOMAIN,static.seel.com
 DOMAIN,static.skyassets.com
@@ -2707,7 +2675,6 @@ DOMAIN-SUFFIX,cloud1.influxdata.com
 DOMAIN-SUFFIX,cloud2.influxdata.com
 DOMAIN-SUFFIX,cloudatacdn.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
-DOMAIN-SUFFIX,cloudflare.docker.com
 DOMAIN-SUFFIX,cloudflare.ltd
 DOMAIN-SUFFIX,cloudflarestream.com
 DOMAIN-SUFFIX,cloudfront.net
@@ -2729,7 +2696,6 @@ DOMAIN-SUFFIX,corsproxy.io
 DOMAIN-SUFFIX,crash-reports.browser.yandex.net
 DOMAIN-SUFFIX,crashlytics2.l.google.com
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
-DOMAIN-SUFFIX,crates.io
 DOMAIN-SUFFIX,crossbell.io
 DOMAIN-SUFFIX,crunchyrollcdn.com
 DOMAIN-SUFFIX,csb.app
@@ -2816,7 +2782,6 @@ DOMAIN-SUFFIX,f.hubspotstarter.net
 DOMAIN-SUFFIX,faceit-cdn.net
 DOMAIN-SUFFIX,fakeimg.pl
 DOMAIN-SUFFIX,fakestoreapi.com
-DOMAIN-SUFFIX,fastly.docker.com
 DOMAIN-SUFFIX,fastlycdn.com
 DOMAIN-SUFFIX,favicone.com
 DOMAIN-SUFFIX,fbcdn.com
@@ -2862,11 +2827,9 @@ DOMAIN-SUFFIX,gannetcdn.com
 DOMAIN-SUFFIX,gateway.originprotocol.com
 DOMAIN-SUFFIX,gateway.pinata.cloud
 DOMAIN-SUFFIX,gateway.serph.network
-DOMAIN-SUFFIX,gcr.io
 DOMAIN-SUFFIX,gcr.si
 DOMAIN-SUFFIX,gdvid.info
 DOMAIN-SUFFIX,gentcdn.com
-DOMAIN-SUFFIX,getcomposer.org
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,girlsgogamescdn.com
 DOMAIN-SUFFIX,giscus.app
@@ -3035,7 +2998,6 @@ DOMAIN-SUFFIX,jbkcdn.io
 DOMAIN-SUFFIX,jdbstatic.com
 DOMAIN-SUFFIX,jinyingimage.com
 DOMAIN-SUFFIX,jisuimage.com
-DOMAIN-SUFFIX,jitpack.io
 DOMAIN-SUFFIX,jpg5.su
 DOMAIN-SUFFIX,jpgjingpinx.com
 DOMAIN-SUFFIX,js-eu1.hubspot.com
@@ -3051,7 +3013,6 @@ DOMAIN-SUFFIX,jstatic.xyz
 DOMAIN-SUFFIX,jw-cdn.org
 DOMAIN-SUFFIX,jwpcdn.com
 DOMAIN-SUFFIX,jwpsrv.com
-DOMAIN-SUFFIX,k8s.io
 DOMAIN-SUFFIX,kakaocdn.net
 DOMAIN-SUFFIX,kc-usercontent.com
 DOMAIN-SUFFIX,kinja-img.com
@@ -3108,7 +3069,6 @@ DOMAIN-SUFFIX,metric.gstatic.com
 DOMAIN-SUFFIX,mfcimg.com
 DOMAIN-SUFFIX,minotar.net
 DOMAIN-SUFFIX,mirror-media.xyz
-DOMAIN-SUFFIX,mirrors.utermux.dev
 DOMAIN-SUFFIX,misskeyusercontent.com
 DOMAIN-SUFFIX,misskeyusercontent.jp
 DOMAIN-SUFFIX,missuo.ru
@@ -3126,7 +3086,6 @@ DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,msftstatic.com
 DOMAIN-SUFFIX,muscache.com
-DOMAIN-SUFFIX,mvnrepository.com
 DOMAIN-SUFFIX,mxmcdn.net
 DOMAIN-SUFFIX,myanalytics.cdn.office.net
 DOMAIN-SUFFIX,myavlive.com
@@ -3187,7 +3146,6 @@ DOMAIN-SUFFIX,opentelemetry.io
 DOMAIN-SUFFIX,operacdn.com
 DOMAIN-SUFFIX,oreillystatic.com
 DOMAIN-SUFFIX,otstatic.com
-DOMAIN-SUFFIX,packagist.org
 DOMAIN-SUFFIX,packd.liuxingbaoyu.xyz
 DOMAIN-SUFFIX,pagecdn.io
 DOMAIN-SUFFIX,pages.dev
@@ -3250,14 +3208,11 @@ DOMAIN-SUFFIX,proxy3.startpage.com
 DOMAIN-SUFFIX,pstatic.net
 DOMAIN-SUFFIX,pstorage.space
 DOMAIN-SUFFIX,public.cdn.office.net
-DOMAIN-SUFFIX,public.ecr.aws
 DOMAIN-SUFFIX,push.services.mozilla.com
 DOMAIN-SUFFIX,px-cloud.net
 DOMAIN-SUFFIX,pxgcdn.com
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,pxlecdn.com
-DOMAIN-SUFFIX,pypi.org
-DOMAIN-SUFFIX,pythonhosted.org
 DOMAIN-SUFFIX,qbittorrent.org
 DOMAIN-SUFFIX,qiniuyun22.xyz
 DOMAIN-SUFFIX,qooqlevideo.com
@@ -3287,7 +3242,6 @@ DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,registry.gitplac.si
 DOMAIN-SUFFIX,replicate.delivery
-DOMAIN-SUFFIX,repo.anaconda.com
 DOMAIN-SUFFIX,res.office365.com
 DOMAIN-SUFFIX,rescript-lang.org
 DOMAIN-SUFFIX,rlcdn.com
@@ -3498,6 +3452,8 @@ DOMAIN-SUFFIX,web.app
 DOMAIN-SUFFIX,webp.se
 DOMAIN-SUFFIX,webpkgcache.com
 DOMAIN-SUFFIX,website-files.com
+DOMAIN-SUFFIX,widen.net
+DOMAIN-SUFFIX,widencdn.net
 DOMAIN-SUFFIX,widget.cluster.groovehq.com
 DOMAIN-SUFFIX,widget.clutch.co
 DOMAIN-SUFFIX,widgets.marketplace.aws.dev
@@ -3529,7 +3485,6 @@ DOMAIN-SUFFIX,xm-apps-static.com
 DOMAIN-SUFFIX,xnxx-cdn.com
 DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,yammerusercontent.com
-DOMAIN-SUFFIX,yarnpkg.com
 DOMAIN-SUFFIX,yastatic.net
 DOMAIN-SUFFIX,yelpcdn.com
 DOMAIN-SUFFIX,yimg.com

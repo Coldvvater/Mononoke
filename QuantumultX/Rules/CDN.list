@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3615
+# 规则统计: 3570
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -97,7 +97,6 @@ HOST,assets-fe.change.org,CDN
 HOST,assets-growth-common.circleci.com,CDN
 HOST,assets-next.matters.news,CDN
 HOST,assets-next.mattersprotocol.io,CDN
-HOST,assets-production.packagecloud.io,CDN
 HOST,assets-s3-us-east-1.ceros.com,CDN
 HOST,assets-themes.chess.com,CDN
 HOST,assets-v2.super.so,CDN
@@ -291,7 +290,6 @@ HOST,badges.gitter.im,CDN
 HOST,badges.greenkeeper.io,CDN
 HOST,bcdn.starapps.studio,CDN
 HOST,bcmedia.bitchute.com,CDN
-HOST,binaries.prisma.sh,CDN
 HOST,blacklist.tampermonkey.net,CDN
 HOST,blade-public-static.blade-group.com,CDN
 HOST,blob.sololearn.com,CDN
@@ -442,7 +440,6 @@ HOST,cdn.cmcmarkets.com,CDN
 HOST,cdn.cms-twdigitalassets.com,CDN
 HOST,cdn.cnn.com,CDN
 HOST,cdn.cnx-software.com,CDN
-HOST,cdn.cocoapods.org,CDN
 HOST,cdn.codeblackbelt.com,CDN
 HOST,cdn.commandbar.com,CDN
 HOST,cdn.commento.io,CDN
@@ -564,6 +561,7 @@ HOST,cdn.mathjax.org,CDN
 HOST,cdn.matterhorn.app,CDN
 HOST,cdn.mcauto-images-production.sendgrid.net,CDN
 HOST,cdn.mcr.ea.com,CDN
+HOST,cdn.metadata.io,CDN
 HOST,cdn.mewe.com,CDN
 HOST,cdn.micro.blog,CDN
 HOST,cdn.minecraft-server-list.com,CDN
@@ -943,11 +941,8 @@ HOST,disco.headliner.link,CDN
 HOST,divhunt-site.b-cdn.net,CDN
 HOST,divhunt.b-cdn.net,CDN
 HOST,dl.airdroid.com,CDN
-HOST,dl.nwjs.io,CDN
-HOST,dl2.nwjs.io,CDN
 HOST,dlassets-ssl.xboxlive.com,CDN
 HOST,do.featurebase.app,CDN
-HOST,docker.cloudsmith.io,CDN
 HOST,docs.rs,CDN
 HOST,doppler-config.cbsivideo.com,CDN
 HOST,doujin-assets.dmm.co.jp,CDN
@@ -956,6 +951,7 @@ HOST,drop.ndtv.com,CDN
 HOST,drscdn.500px.org,CDN
 HOST,dynamic-assets.coinbase.com,CDN
 HOST,dz2cdn1.dzone.com,CDN
+HOST,e.calibermind.com,CDN
 HOST,e.deviantart.net,CDN
 HOST,e.linear.app,CDN
 HOST,e3.365dm.com,CDN
@@ -1109,7 +1105,6 @@ HOST,go.vercel.com,CDN
 HOST,godoc.org,CDN
 HOST,gohugo.io,CDN
 HOST,google-ohttp-relay-safebrowsing.fastly-edge.com,CDN
-HOST,gopkg.in,CDN
 HOST,graph.facebook.com,CDN
 HOST,gravatar.cat.net,CDN
 HOST,gstatic.com,CDN
@@ -1506,7 +1501,6 @@ HOST,marketing.figma.com,CDN
 HOST,marketing.thingiverse.com,CDN
 HOST,marketplace-web-assets.vinted.com,CDN
 HOST,mastodon-static.miao.dev,CDN
-HOST,maven.google.com,CDN
 HOST,mcdn.vrporn.com,CDN
 HOST,mcdnds.vrporn.com,CDN
 HOST,mcdns.vrporn.com,CDN
@@ -1637,8 +1631,6 @@ HOST,no-cache.hubspot.com,CDN
 HOST,nodeassets.nbcnews.com,CDN
 HOST,nodei.co,CDN
 HOST,npm.antfu.dev,CDN
-HOST,npm.im,CDN
-HOST,npm.jsr.io,CDN
 HOST,ntp.msn.com,CDN
 HOST,null.jsbin.com,CDN
 HOST,o.n1mp.org,CDN
@@ -1662,7 +1654,6 @@ HOST,optimizationguide-pa.googleapis.com,CDN
 HOST,optimizely.com,CDN
 HOST,organizer.bizzabo.com,CDN
 HOST,osint.digitalside.it,CDN
-HOST,oss-binaries.phusionpassenger.com,CDN
 HOST,oss.1p3a.com,CDN
 HOST,oss.moe.cat,CDN
 HOST,ovo.wxw.moe,CDN
@@ -1677,10 +1668,7 @@ HOST,p.udn.com.tw,CDN
 HOST,p2.bahamut.com.tw,CDN
 HOST,pacdn.500px.org,CDN
 HOST,package-assets.oomol.com,CDN
-HOST,packages-cf.termux.dev,CDN
-HOST,packages.httpie.io,CDN
 HOST,packages.jetbrains.team,CDN
-HOST,packages.termux.dev,CDN
 HOST,panel-production-libs.b-cdn.net,CDN
 HOST,participants.evolv.ai,CDN
 HOST,parts.blog.livedoor.jp,CDN
@@ -1719,8 +1707,6 @@ HOST,pictures-cdn.porn.com,CDN
 HOST,pim-media.intel.com,CDN
 HOST,pkg-cdn.jetbrains.team,CDN
 HOST,pkg-size.dev,CDN
-HOST,pkg.cloudflare.com,CDN
-HOST,pkg.cloudflareclient.com,CDN
 HOST,pkg.csb.dev,CDN
 HOST,pkgs.dev.azure.com,CDN
 HOST,pl.ea.com,CDN
@@ -1741,7 +1727,6 @@ HOST,player.louisvuitton.com,CDN
 HOST,player.vimeo.com,CDN
 HOST,players.brightcove.net,CDN
 HOST,playgroundcdn.typescriptlang.org,CDN
-HOST,plugins-artifacts.gradle.org,CDN
 HOST,plugins.dprint.dev,CDN
 HOST,plus.unsplash.com,CDN
 HOST,polyfill-fe.toss.im,CDN
@@ -1770,7 +1755,6 @@ HOST,profile-images.xing.com,CDN
 HOST,promotions.betfair.com,CDN
 HOST,proxy.beyondwords.io,CDN
 HOST,proxy.cors.sh,CDN
-HOST,proxy.golang.org,CDN
 HOST,proxy.joinmastodon.org,CDN
 HOST,ps.w.org,CDN
 HOST,psp-logos.uptimerobot.com,CDN
@@ -1796,22 +1780,10 @@ HOST,raw.github.com,CDN
 HOST,rawmarkdown.cloudflareaccess.org,CDN
 HOST,rebound.postmarkapp.com,CDN
 HOST,redircdn.com,CDN
-HOST,registry-cdn.wapm.io,CDN
 HOST,registry.api.cnn.io,CDN
-HOST,registry.bower.io,CDN
-HOST,registry.npmjs.com,CDN
-HOST,registry.npmjs.org,CDN
 HOST,registry.oomol.com,CDN
 HOST,regmedia.co.uk,CDN
-HOST,release.runcloud.io,CDN
 HOST,renderer-assets.typeform.com,CDN
-HOST,replicate.npmjs.com,CDN
-HOST,repo.gradle.org,CDN
-HOST,repo.hex.pm,CDN
-HOST,repo.maven.apache.org,CDN
-HOST,repo.nextdns.io,CDN
-HOST,repo1.maven.org,CDN
-HOST,repository.jboss.org,CDN
 HOST,res-geo.cdn.office.net,CDN
 HOST,res.abc.net.au,CDN
 HOST,res.cloudinary.com,CDN
@@ -1973,7 +1945,6 @@ HOST,simplicity.trustpilot.com,CDN
 HOST,sites.chase.com,CDN
 HOST,sites.super.so,CDN
 HOST,skills-assets.pstmn.io,CDN
-HOST,skimdb.npmjs.com,CDN
 HOST,sm.ign.com,CDN
 HOST,smd-cms.nasa.gov,CDN
 HOST,sn-s3-cdn.angry.im,CDN
@@ -2050,7 +2021,6 @@ HOST,static-main.moovit.com,CDN
 HOST,static-media.fox.com,CDN
 HOST,static-mh.content.disney.io,CDN
 HOST,static-overlay.ubisoft.com,CDN
-HOST,static-production.npmjs.com,CDN
 HOST,static-r.kamihimeproject.net,CDN
 HOST,static-redesign.cnbcfm.com,CDN
 HOST,static-resource.np.community.playstation.net,CDN
@@ -2184,7 +2154,6 @@ HOST,static.newmobilelife.com,CDN
 HOST,static.news.bitcoin.com,CDN
 HOST,static.nhentai.net,CDN
 HOST,static.nicehash.com,CDN
-HOST,static.npmjs.com,CDN
 HOST,static.nrk.no,CDN
 HOST,static.observablehq.com,CDN
 HOST,static.oklink.com,CDN
@@ -2213,7 +2182,6 @@ HOST,static.redhat.com,CDN
 HOST,static.registration.bluehost.com,CDN
 HOST,static.reo.dev,CDN
 HOST,static.replay.io,CDN
-HOST,static.rust-lang.org,CDN
 HOST,static.scarf.sh,CDN
 HOST,static.seel.com,CDN
 HOST,static.skyassets.com,CDN
@@ -2707,7 +2675,6 @@ HOST-SUFFIX,cloud1.influxdata.com,CDN
 HOST-SUFFIX,cloud2.influxdata.com,CDN
 HOST-SUFFIX,cloudatacdn.com,CDN
 HOST-SUFFIX,cloudflare-ipfs.com,CDN
-HOST-SUFFIX,cloudflare.docker.com,CDN
 HOST-SUFFIX,cloudflare.ltd,CDN
 HOST-SUFFIX,cloudflarestream.com,CDN
 HOST-SUFFIX,cloudfront.net,CDN
@@ -2729,7 +2696,6 @@ HOST-SUFFIX,corsproxy.io,CDN
 HOST-SUFFIX,crash-reports.browser.yandex.net,CDN
 HOST-SUFFIX,crashlytics2.l.google.com,CDN
 HOST-SUFFIX,crashlyticsreports-pa.googleapis.com,CDN
-HOST-SUFFIX,crates.io,CDN
 HOST-SUFFIX,crossbell.io,CDN
 HOST-SUFFIX,crunchyrollcdn.com,CDN
 HOST-SUFFIX,csb.app,CDN
@@ -2816,7 +2782,6 @@ HOST-SUFFIX,f.hubspotstarter.net,CDN
 HOST-SUFFIX,faceit-cdn.net,CDN
 HOST-SUFFIX,fakeimg.pl,CDN
 HOST-SUFFIX,fakestoreapi.com,CDN
-HOST-SUFFIX,fastly.docker.com,CDN
 HOST-SUFFIX,fastlycdn.com,CDN
 HOST-SUFFIX,favicone.com,CDN
 HOST-SUFFIX,fbcdn.com,CDN
@@ -2862,11 +2827,9 @@ HOST-SUFFIX,gannetcdn.com,CDN
 HOST-SUFFIX,gateway.originprotocol.com,CDN
 HOST-SUFFIX,gateway.pinata.cloud,CDN
 HOST-SUFFIX,gateway.serph.network,CDN
-HOST-SUFFIX,gcr.io,CDN
 HOST-SUFFIX,gcr.si,CDN
 HOST-SUFFIX,gdvid.info,CDN
 HOST-SUFFIX,gentcdn.com,CDN
-HOST-SUFFIX,getcomposer.org,CDN
 HOST-SUFFIX,ggpht.com,CDN
 HOST-SUFFIX,girlsgogamescdn.com,CDN
 HOST-SUFFIX,giscus.app,CDN
@@ -3035,7 +2998,6 @@ HOST-SUFFIX,jbkcdn.io,CDN
 HOST-SUFFIX,jdbstatic.com,CDN
 HOST-SUFFIX,jinyingimage.com,CDN
 HOST-SUFFIX,jisuimage.com,CDN
-HOST-SUFFIX,jitpack.io,CDN
 HOST-SUFFIX,jpg5.su,CDN
 HOST-SUFFIX,jpgjingpinx.com,CDN
 HOST-SUFFIX,js-eu1.hubspot.com,CDN
@@ -3051,7 +3013,6 @@ HOST-SUFFIX,jstatic.xyz,CDN
 HOST-SUFFIX,jw-cdn.org,CDN
 HOST-SUFFIX,jwpcdn.com,CDN
 HOST-SUFFIX,jwpsrv.com,CDN
-HOST-SUFFIX,k8s.io,CDN
 HOST-SUFFIX,kakaocdn.net,CDN
 HOST-SUFFIX,kc-usercontent.com,CDN
 HOST-SUFFIX,kinja-img.com,CDN
@@ -3108,7 +3069,6 @@ HOST-SUFFIX,metric.gstatic.com,CDN
 HOST-SUFFIX,mfcimg.com,CDN
 HOST-SUFFIX,minotar.net,CDN
 HOST-SUFFIX,mirror-media.xyz,CDN
-HOST-SUFFIX,mirrors.utermux.dev,CDN
 HOST-SUFFIX,misskeyusercontent.com,CDN
 HOST-SUFFIX,misskeyusercontent.jp,CDN
 HOST-SUFFIX,missuo.ru,CDN
@@ -3126,7 +3086,6 @@ HOST-SUFFIX,msftconnecttest.com,CDN
 HOST-SUFFIX,msftncsi.com,CDN
 HOST-SUFFIX,msftstatic.com,CDN
 HOST-SUFFIX,muscache.com,CDN
-HOST-SUFFIX,mvnrepository.com,CDN
 HOST-SUFFIX,mxmcdn.net,CDN
 HOST-SUFFIX,myanalytics.cdn.office.net,CDN
 HOST-SUFFIX,myavlive.com,CDN
@@ -3187,7 +3146,6 @@ HOST-SUFFIX,opentelemetry.io,CDN
 HOST-SUFFIX,operacdn.com,CDN
 HOST-SUFFIX,oreillystatic.com,CDN
 HOST-SUFFIX,otstatic.com,CDN
-HOST-SUFFIX,packagist.org,CDN
 HOST-SUFFIX,packd.liuxingbaoyu.xyz,CDN
 HOST-SUFFIX,pagecdn.io,CDN
 HOST-SUFFIX,pages.dev,CDN
@@ -3250,14 +3208,11 @@ HOST-SUFFIX,proxy3.startpage.com,CDN
 HOST-SUFFIX,pstatic.net,CDN
 HOST-SUFFIX,pstorage.space,CDN
 HOST-SUFFIX,public.cdn.office.net,CDN
-HOST-SUFFIX,public.ecr.aws,CDN
 HOST-SUFFIX,push.services.mozilla.com,CDN
 HOST-SUFFIX,px-cloud.net,CDN
 HOST-SUFFIX,pxgcdn.com,CDN
 HOST-SUFFIX,pximg.net,CDN
 HOST-SUFFIX,pxlecdn.com,CDN
-HOST-SUFFIX,pypi.org,CDN
-HOST-SUFFIX,pythonhosted.org,CDN
 HOST-SUFFIX,qbittorrent.org,CDN
 HOST-SUFFIX,qiniuyun22.xyz,CDN
 HOST-SUFFIX,qooqlevideo.com,CDN
@@ -3287,7 +3242,6 @@ HOST-SUFFIX,redditmedia.com,CDN
 HOST-SUFFIX,redditstatic.com,CDN
 HOST-SUFFIX,registry.gitplac.si,CDN
 HOST-SUFFIX,replicate.delivery,CDN
-HOST-SUFFIX,repo.anaconda.com,CDN
 HOST-SUFFIX,res.office365.com,CDN
 HOST-SUFFIX,rescript-lang.org,CDN
 HOST-SUFFIX,rlcdn.com,CDN
@@ -3498,6 +3452,8 @@ HOST-SUFFIX,web.app,CDN
 HOST-SUFFIX,webp.se,CDN
 HOST-SUFFIX,webpkgcache.com,CDN
 HOST-SUFFIX,website-files.com,CDN
+HOST-SUFFIX,widen.net,CDN
+HOST-SUFFIX,widencdn.net,CDN
 HOST-SUFFIX,widget.cluster.groovehq.com,CDN
 HOST-SUFFIX,widget.clutch.co,CDN
 HOST-SUFFIX,widgets.marketplace.aws.dev,CDN
@@ -3529,7 +3485,6 @@ HOST-SUFFIX,xm-apps-static.com,CDN
 HOST-SUFFIX,xnxx-cdn.com,CDN
 HOST-SUFFIX,xvideos-cdn.com,CDN
 HOST-SUFFIX,yammerusercontent.com,CDN
-HOST-SUFFIX,yarnpkg.com,CDN
 HOST-SUFFIX,yastatic.net,CDN
 HOST-SUFFIX,yelpcdn.com,CDN
 HOST-SUFFIX,yimg.com,CDN

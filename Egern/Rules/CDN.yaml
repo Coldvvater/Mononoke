@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3615
+# 规则统计: 3570
 
 domain_set:
   - 0x0.st
@@ -98,7 +98,6 @@ domain_set:
   - assets-growth-common.circleci.com
   - assets-next.matters.news
   - assets-next.mattersprotocol.io
-  - assets-production.packagecloud.io
   - assets-s3-us-east-1.ceros.com
   - assets-themes.chess.com
   - assets-v2.super.so
@@ -292,7 +291,6 @@ domain_set:
   - badges.greenkeeper.io
   - bcdn.starapps.studio
   - bcmedia.bitchute.com
-  - binaries.prisma.sh
   - blacklist.tampermonkey.net
   - blade-public-static.blade-group.com
   - blob.sololearn.com
@@ -443,7 +441,6 @@ domain_set:
   - cdn.cms-twdigitalassets.com
   - cdn.cnn.com
   - cdn.cnx-software.com
-  - cdn.cocoapods.org
   - cdn.codeblackbelt.com
   - cdn.commandbar.com
   - cdn.commento.io
@@ -565,6 +562,7 @@ domain_set:
   - cdn.matterhorn.app
   - cdn.mcauto-images-production.sendgrid.net
   - cdn.mcr.ea.com
+  - cdn.metadata.io
   - cdn.mewe.com
   - cdn.micro.blog
   - cdn.minecraft-server-list.com
@@ -944,11 +942,8 @@ domain_set:
   - divhunt-site.b-cdn.net
   - divhunt.b-cdn.net
   - dl.airdroid.com
-  - dl.nwjs.io
-  - dl2.nwjs.io
   - dlassets-ssl.xboxlive.com
   - do.featurebase.app
-  - docker.cloudsmith.io
   - docs.rs
   - doppler-config.cbsivideo.com
   - doujin-assets.dmm.co.jp
@@ -957,6 +952,7 @@ domain_set:
   - drscdn.500px.org
   - dynamic-assets.coinbase.com
   - dz2cdn1.dzone.com
+  - e.calibermind.com
   - e.deviantart.net
   - e.linear.app
   - e3.365dm.com
@@ -1110,7 +1106,6 @@ domain_set:
   - godoc.org
   - gohugo.io
   - google-ohttp-relay-safebrowsing.fastly-edge.com
-  - gopkg.in
   - graph.facebook.com
   - gravatar.cat.net
   - gstatic.com
@@ -1507,7 +1502,6 @@ domain_set:
   - marketing.thingiverse.com
   - marketplace-web-assets.vinted.com
   - mastodon-static.miao.dev
-  - maven.google.com
   - mcdn.vrporn.com
   - mcdnds.vrporn.com
   - mcdns.vrporn.com
@@ -1638,8 +1632,6 @@ domain_set:
   - nodeassets.nbcnews.com
   - nodei.co
   - npm.antfu.dev
-  - npm.im
-  - npm.jsr.io
   - ntp.msn.com
   - null.jsbin.com
   - o.n1mp.org
@@ -1663,7 +1655,6 @@ domain_set:
   - optimizely.com
   - organizer.bizzabo.com
   - osint.digitalside.it
-  - oss-binaries.phusionpassenger.com
   - oss.1p3a.com
   - oss.moe.cat
   - ovo.wxw.moe
@@ -1678,10 +1669,7 @@ domain_set:
   - p2.bahamut.com.tw
   - pacdn.500px.org
   - package-assets.oomol.com
-  - packages-cf.termux.dev
-  - packages.httpie.io
   - packages.jetbrains.team
-  - packages.termux.dev
   - panel-production-libs.b-cdn.net
   - participants.evolv.ai
   - parts.blog.livedoor.jp
@@ -1720,8 +1708,6 @@ domain_set:
   - pim-media.intel.com
   - pkg-cdn.jetbrains.team
   - pkg-size.dev
-  - pkg.cloudflare.com
-  - pkg.cloudflareclient.com
   - pkg.csb.dev
   - pkgs.dev.azure.com
   - pl.ea.com
@@ -1742,7 +1728,6 @@ domain_set:
   - player.vimeo.com
   - players.brightcove.net
   - playgroundcdn.typescriptlang.org
-  - plugins-artifacts.gradle.org
   - plugins.dprint.dev
   - plus.unsplash.com
   - polyfill-fe.toss.im
@@ -1771,7 +1756,6 @@ domain_set:
   - promotions.betfair.com
   - proxy.beyondwords.io
   - proxy.cors.sh
-  - proxy.golang.org
   - proxy.joinmastodon.org
   - ps.w.org
   - psp-logos.uptimerobot.com
@@ -1797,22 +1781,10 @@ domain_set:
   - rawmarkdown.cloudflareaccess.org
   - rebound.postmarkapp.com
   - redircdn.com
-  - registry-cdn.wapm.io
   - registry.api.cnn.io
-  - registry.bower.io
-  - registry.npmjs.com
-  - registry.npmjs.org
   - registry.oomol.com
   - regmedia.co.uk
-  - release.runcloud.io
   - renderer-assets.typeform.com
-  - replicate.npmjs.com
-  - repo.gradle.org
-  - repo.hex.pm
-  - repo.maven.apache.org
-  - repo.nextdns.io
-  - repo1.maven.org
-  - repository.jboss.org
   - res-geo.cdn.office.net
   - res.abc.net.au
   - res.cloudinary.com
@@ -1974,7 +1946,6 @@ domain_set:
   - sites.chase.com
   - sites.super.so
   - skills-assets.pstmn.io
-  - skimdb.npmjs.com
   - sm.ign.com
   - smd-cms.nasa.gov
   - sn-s3-cdn.angry.im
@@ -2051,7 +2022,6 @@ domain_set:
   - static-media.fox.com
   - static-mh.content.disney.io
   - static-overlay.ubisoft.com
-  - static-production.npmjs.com
   - static-r.kamihimeproject.net
   - static-redesign.cnbcfm.com
   - static-resource.np.community.playstation.net
@@ -2185,7 +2155,6 @@ domain_set:
   - static.news.bitcoin.com
   - static.nhentai.net
   - static.nicehash.com
-  - static.npmjs.com
   - static.nrk.no
   - static.observablehq.com
   - static.oklink.com
@@ -2214,7 +2183,6 @@ domain_set:
   - static.registration.bluehost.com
   - static.reo.dev
   - static.replay.io
-  - static.rust-lang.org
   - static.scarf.sh
   - static.seel.com
   - static.skyassets.com
@@ -2709,7 +2677,6 @@ domain_suffix_set:
   - cloud2.influxdata.com
   - cloudatacdn.com
   - cloudflare-ipfs.com
-  - cloudflare.docker.com
   - cloudflare.ltd
   - cloudflarestream.com
   - cloudfront.net
@@ -2731,7 +2698,6 @@ domain_suffix_set:
   - crash-reports.browser.yandex.net
   - crashlytics2.l.google.com
   - crashlyticsreports-pa.googleapis.com
-  - crates.io
   - crossbell.io
   - crunchyrollcdn.com
   - csb.app
@@ -2818,7 +2784,6 @@ domain_suffix_set:
   - faceit-cdn.net
   - fakeimg.pl
   - fakestoreapi.com
-  - fastly.docker.com
   - fastlycdn.com
   - favicone.com
   - fbcdn.com
@@ -2864,11 +2829,9 @@ domain_suffix_set:
   - gateway.originprotocol.com
   - gateway.pinata.cloud
   - gateway.serph.network
-  - gcr.io
   - gcr.si
   - gdvid.info
   - gentcdn.com
-  - getcomposer.org
   - ggpht.com
   - girlsgogamescdn.com
   - giscus.app
@@ -3037,7 +3000,6 @@ domain_suffix_set:
   - jdbstatic.com
   - jinyingimage.com
   - jisuimage.com
-  - jitpack.io
   - jpg5.su
   - jpgjingpinx.com
   - js-eu1.hubspot.com
@@ -3053,7 +3015,6 @@ domain_suffix_set:
   - jw-cdn.org
   - jwpcdn.com
   - jwpsrv.com
-  - k8s.io
   - kakaocdn.net
   - kc-usercontent.com
   - kinja-img.com
@@ -3110,7 +3071,6 @@ domain_suffix_set:
   - mfcimg.com
   - minotar.net
   - mirror-media.xyz
-  - mirrors.utermux.dev
   - misskeyusercontent.com
   - misskeyusercontent.jp
   - missuo.ru
@@ -3128,7 +3088,6 @@ domain_suffix_set:
   - msftncsi.com
   - msftstatic.com
   - muscache.com
-  - mvnrepository.com
   - mxmcdn.net
   - myanalytics.cdn.office.net
   - myavlive.com
@@ -3189,7 +3148,6 @@ domain_suffix_set:
   - operacdn.com
   - oreillystatic.com
   - otstatic.com
-  - packagist.org
   - packd.liuxingbaoyu.xyz
   - pagecdn.io
   - pages.dev
@@ -3252,14 +3210,11 @@ domain_suffix_set:
   - pstatic.net
   - pstorage.space
   - public.cdn.office.net
-  - public.ecr.aws
   - push.services.mozilla.com
   - px-cloud.net
   - pxgcdn.com
   - pximg.net
   - pxlecdn.com
-  - pypi.org
-  - pythonhosted.org
   - qbittorrent.org
   - qiniuyun22.xyz
   - qooqlevideo.com
@@ -3289,7 +3244,6 @@ domain_suffix_set:
   - redditstatic.com
   - registry.gitplac.si
   - replicate.delivery
-  - repo.anaconda.com
   - res.office365.com
   - rescript-lang.org
   - rlcdn.com
@@ -3500,6 +3454,8 @@ domain_suffix_set:
   - webp.se
   - webpkgcache.com
   - website-files.com
+  - widen.net
+  - widencdn.net
   - widget.cluster.groovehq.com
   - widget.clutch.co
   - widgets.marketplace.aws.dev
@@ -3531,7 +3487,6 @@ domain_suffix_set:
   - xnxx-cdn.com
   - xvideos-cdn.com
   - yammerusercontent.com
-  - yarnpkg.com
   - yastatic.net
   - yelpcdn.com
   - yimg.com
