@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2025.03.28
+# Update Date: 2025.05.01
 
 #port: 7891                          # HTTP(S) 代理服务器端口
 #socks-port: 7892                    # SOCKS5 代理端口
@@ -147,6 +147,9 @@ proxy-groups:
 # Netflix
  - {name: NETFLIX, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png, <<: *Select}
 
+# Disney+
+ - {name: Disney+, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png, <<: *Select}
+
 # Emby
  - {name: Emby, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, <<: *Select}
 
@@ -236,6 +239,9 @@ rule-providers:
  
  netflix-ip: {<<: *i, path: ./ruleset/netflix-ip.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs}
 
+# Disney+
+ disney-domain: {<<: *d, path: ./ruleset/netflix-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs}
+
 # Emby
  emby-classical: {<<: *c, path: ./ruleset/emby-classical.list, url: https://gh-proxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/Emby.list}
 
@@ -315,6 +321,7 @@ rules:
   - RULE-SET,ai-domain,AI
   - RULE-SET,youtube-domain,YouTube
   - RULE-SET,netflix-domain,NETFLIX
+  - RULE-SET,disney-domain,Disney+
   - RULE-SET,emby-classical,Emby
   - RULE-SET,tiktok-domain,TikTok
   - RULE-SET,bahamut-domain,TaiWan
