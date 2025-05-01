@@ -1,5 +1,5 @@
 # 规则名称: Ads_limbopro
-# 规则统计: 507
+# 规则统计: 513
 
 domain_set:
   - 118.89.204.198
@@ -278,14 +278,17 @@ domain_suffix_set:
   - aty.sohu.com
   - awaitcola.com
   - b1sync.zemanta.com
+  - bankingbloatedcaptive.com
   - beacon.sina.com.cn
   - bhichong.com
   - bingads.microsoft.com
   - bizhixiang.cn
   - bjzysd.net
   - bn.ufitjvn.com
+  - capndr.com
   - cashewsforlife208.com
   - catdomepimyth.com
+  - cb260f4651.com
   - cdn.tsyndicate.com
   - cdn.viglink.com
   - citadelpathstatue.com
@@ -393,12 +396,14 @@ domain_suffix_set:
   - media.aso1.net
   - media.dalysv.com
   - mm9842.com
+  - mnaspm.com
   - moatads.com
   - my.rtmark.net
   - nby360.com
   - netdjs.net
   - new.xiongzhangad.com
   - oawhaursaith.com
+  - ohjluvpunaxg.com
   - onerousethelpictures.com
   - p242.plainwrk.name
   - pagead2.googlesyndication.com
@@ -410,6 +415,7 @@ domain_suffix_set:
   - playersb.com
   - popin.cc
   - pos.baidu.com
+  - ptelastaxo.com
   - pu0glv.cn
   - purpleads.io
   - pv.sohu.com
