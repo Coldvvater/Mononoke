@@ -240,7 +240,7 @@ rule-providers:
  netflix-ip: {<<: *i, path: ./ruleset/netflix-ip.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs}
 
 # Disney+
- disney-domain: {<<: *d, path: ./ruleset/netflix-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs}
+ disney-domain: {<<: *d, path: ./ruleset/disney-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs}
 
 # Emby
  emby-classical: {<<: *c, path: ./ruleset/emby-classical.list, url: https://gh-proxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/Emby.list}
