@@ -1,7 +1,7 @@
 # Stash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2025.03.26
+# Update Date: 2025.05.01
 
 # 通用设置
 mode: rule
@@ -69,6 +69,17 @@ proxy-groups:
   - name: NETFLIX
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
+    proxies:
+      - Proxy
+      - HongKong
+      - TaiWan
+      - Japan
+      - Singapore
+      - America
+      - AllServer
+  - name: Disney+
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png
     proxies:
       - Proxy
       - HongKong
@@ -386,6 +397,7 @@ rules:
   - RULE-SET,AI,AI
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
+  - RULE-SET,Disney+,Disney+
   - RULE-SET,Emby,Emby
   - RULE-SET,TikTok,TikTok
   - RULE-SET,Bahamut,TaiWan
@@ -424,6 +436,11 @@ rule-providers:
     format: text
     interval: 86400
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Netflix.list
+  Disney+:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Disney.list
   Emby:
     behavior: classical
     format: text
