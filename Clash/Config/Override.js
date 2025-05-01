@@ -2,7 +2,7 @@
 //
 // Clash Verge Rev (Version ≥ 17.2) & Mihomo-Party (Version ≥ 1.5.10)
 //
-// 最后更新时间: 2025-03-28 13:23
+// 最后更新时间: 2025-05-01 22:37
 
 // 规则集通用配置
 const ruleProviderCommon = {
@@ -119,6 +119,13 @@ function main(config) {
       "type": "select",
       "proxies": ["Proxy", "HongKong", "TaiWan", "Japan", "Singapore", "America", "AllServer"],
       "icon": "https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png"
+    },
+    {
+      ...groupBaseOption,
+      "name": "Disney+",
+      "type": "select",
+      "proxies": ["Proxy", "HongKong", "TaiWan", "Japan", "Singapore", "America", "AllServer"],
+      "icon": "https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png"
     },
     {
       ...groupBaseOption,
@@ -478,6 +485,15 @@ function main(config) {
       "format": "mrs",
       "interval": 86400
     },
+    "disney-domain": {
+      ...ruleProviderCommon,
+      "behavior": "domain",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs",
+      "path": "./rules/disney-domain.mrs",
+      "type": "http",
+      "format": "mrs",
+      "interval": 86400
+    },
     "emby-classical": {
       ...ruleProviderCommon,
       "behavior": "classical",
@@ -698,6 +714,7 @@ function main(config) {
     "RULE-SET,ai-domain,AI",
     "RULE-SET,youtube-domain,YouTube",
     "RULE-SET,netflix-domain,NETFLIX",
+    "RULE-SET,disney-domain,Disney+",
     "RULE-SET,emby-classical,Emby",
     "RULE-SET,tiktok-domain,TikTok",
     "RULE-SET,bahamut-domain,TaiWan",
