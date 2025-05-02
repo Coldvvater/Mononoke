@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3570
+# 规则统计: 3571
 
 domain_set:
   - 0x0.st
@@ -2185,6 +2185,7 @@ domain_set:
   - static.replay.io
   - static.scarf.sh
   - static.seel.com
+  - static.serverhunter.com
   - static.skyassets.com
   - static.snapchat.com
   - static.snaptube.in

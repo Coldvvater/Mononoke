@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3570
+# 规则统计: 3571
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2184,6 +2184,7 @@ HOST,static.reo.dev,CDN
 HOST,static.replay.io,CDN
 HOST,static.scarf.sh,CDN
 HOST,static.seel.com,CDN
+HOST,static.serverhunter.com,CDN
 HOST,static.skyassets.com,CDN
 HOST,static.snapchat.com,CDN
 HOST,static.snaptube.in,CDN
