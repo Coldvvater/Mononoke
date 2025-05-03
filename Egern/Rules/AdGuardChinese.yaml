@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4530
+# 规则统计: 4539
 
 domain_suffix_set:
   - 002777.xyz
@@ -1202,6 +1202,7 @@ domain_suffix_set:
   - ddlmsoyo.icu
   - ddlzlr.xyz
   - ddomjhr.icu
+  - ddow.cn
   - ddqmlfu.icu
   - de.as.pptv.com
   - deafeningphone.com
@@ -1713,6 +1714,7 @@ domain_suffix_set:
   - gheslosy.com
   - ghghgf.51dongshi.com
   - ghghgf.xuexiwa.com
+  - ghgietuthz.com
   - ghiuge55.fun
   - ghjedashb6.fun
   - ghozokodq.com
@@ -2069,7 +2071,9 @@ domain_suffix_set:
   - inphais.com
   - inping.com
   - inte.sogou.com
+  - inulgaenypa.com
   - inwuamo.top
+  - inwucno.top
   - inzoiwe.com
   - inzut.com
   - ioaiqp.top
@@ -2889,6 +2893,7 @@ domain_suffix_set:
   - okpl04301ai.com
   - okpl05010ai.com
   - okpl05011ai.com
+  - okpl05021ai.com
   - okpp01021.xyz
   - okpp01030.xyz
   - okpp01031.xyz
@@ -3178,6 +3183,8 @@ domain_suffix_set:
   - qqhuhu.com
   - qqosk05010llo.com
   - qqosk05011llo.com
+  - qqosk05020llo.com
+  - qqosk05021llo.com
   - qqryt111.fun
   - qqxi6.icu
   - qrmozsc.icu
@@ -3982,6 +3989,7 @@ domain_suffix_set:
   - vjzqfh.icu
   - vjzvgvgz.icu
   - vkbxaixl.icu
+  - vldp.cn
   - vlion.cn
   - vljkjx.top
   - vmcnl.xyz
@@ -4244,6 +4252,7 @@ domain_suffix_set:
   - xkp.cc
   - xliuits.icu
   - xlmdtiyqbkygtfkh.com
+  - xlnlvf.top
   - xluz.cn
   - xlxehr.xyz
   - xmhszb.xyz

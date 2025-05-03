@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4530
+# 规则统计: 4539
 
 HOST-SUFFIX,002777.xyz,AdGuardChinese
 HOST-SUFFIX,003store.com,AdGuardChinese
@@ -1201,6 +1201,7 @@ HOST-SUFFIX,ddhjabqe.icu,AdGuardChinese
 HOST-SUFFIX,ddlmsoyo.icu,AdGuardChinese
 HOST-SUFFIX,ddlzlr.xyz,AdGuardChinese
 HOST-SUFFIX,ddomjhr.icu,AdGuardChinese
+HOST-SUFFIX,ddow.cn,AdGuardChinese
 HOST-SUFFIX,ddqmlfu.icu,AdGuardChinese
 HOST-SUFFIX,de.as.pptv.com,AdGuardChinese
 HOST-SUFFIX,deafeningphone.com,AdGuardChinese
@@ -1712,6 +1713,7 @@ HOST-SUFFIX,gherkax.com,AdGuardChinese
 HOST-SUFFIX,gheslosy.com,AdGuardChinese
 HOST-SUFFIX,ghghgf.51dongshi.com,AdGuardChinese
 HOST-SUFFIX,ghghgf.xuexiwa.com,AdGuardChinese
+HOST-SUFFIX,ghgietuthz.com,AdGuardChinese
 HOST-SUFFIX,ghiuge55.fun,AdGuardChinese
 HOST-SUFFIX,ghjedashb6.fun,AdGuardChinese
 HOST-SUFFIX,ghozokodq.com,AdGuardChinese
@@ -2068,7 +2070,9 @@ HOST-SUFFIX,inone517.com,AdGuardChinese
 HOST-SUFFIX,inphais.com,AdGuardChinese
 HOST-SUFFIX,inping.com,AdGuardChinese
 HOST-SUFFIX,inte.sogou.com,AdGuardChinese
+HOST-SUFFIX,inulgaenypa.com,AdGuardChinese
 HOST-SUFFIX,inwuamo.top,AdGuardChinese
+HOST-SUFFIX,inwucno.top,AdGuardChinese
 HOST-SUFFIX,inzoiwe.com,AdGuardChinese
 HOST-SUFFIX,inzut.com,AdGuardChinese
 HOST-SUFFIX,ioaiqp.top,AdGuardChinese
@@ -2888,6 +2892,7 @@ HOST-SUFFIX,okmwfq.xyz,AdGuardChinese
 HOST-SUFFIX,okpl04301ai.com,AdGuardChinese
 HOST-SUFFIX,okpl05010ai.com,AdGuardChinese
 HOST-SUFFIX,okpl05011ai.com,AdGuardChinese
+HOST-SUFFIX,okpl05021ai.com,AdGuardChinese
 HOST-SUFFIX,okpp01021.xyz,AdGuardChinese
 HOST-SUFFIX,okpp01030.xyz,AdGuardChinese
 HOST-SUFFIX,okpp01031.xyz,AdGuardChinese
@@ -3177,6 +3182,8 @@ HOST-SUFFIX,qqganna.icu,AdGuardChinese
 HOST-SUFFIX,qqhuhu.com,AdGuardChinese
 HOST-SUFFIX,qqosk05010llo.com,AdGuardChinese
 HOST-SUFFIX,qqosk05011llo.com,AdGuardChinese
+HOST-SUFFIX,qqosk05020llo.com,AdGuardChinese
+HOST-SUFFIX,qqosk05021llo.com,AdGuardChinese
 HOST-SUFFIX,qqryt111.fun,AdGuardChinese
 HOST-SUFFIX,qqxi6.icu,AdGuardChinese
 HOST-SUFFIX,qrmozsc.icu,AdGuardChinese
@@ -3981,6 +3988,7 @@ HOST-SUFFIX,vjvj.vj24co.com,AdGuardChinese
 HOST-SUFFIX,vjzqfh.icu,AdGuardChinese
 HOST-SUFFIX,vjzvgvgz.icu,AdGuardChinese
 HOST-SUFFIX,vkbxaixl.icu,AdGuardChinese
+HOST-SUFFIX,vldp.cn,AdGuardChinese
 HOST-SUFFIX,vlion.cn,AdGuardChinese
 HOST-SUFFIX,vljkjx.top,AdGuardChinese
 HOST-SUFFIX,vmcnl.xyz,AdGuardChinese
@@ -4243,6 +4251,7 @@ HOST-SUFFIX,xkgttas.icu,AdGuardChinese
 HOST-SUFFIX,xkp.cc,AdGuardChinese
 HOST-SUFFIX,xliuits.icu,AdGuardChinese
 HOST-SUFFIX,xlmdtiyqbkygtfkh.com,AdGuardChinese
+HOST-SUFFIX,xlnlvf.top,AdGuardChinese
 HOST-SUFFIX,xluz.cn,AdGuardChinese
 HOST-SUFFIX,xlxehr.xyz,AdGuardChinese
 HOST-SUFFIX,xmhszb.xyz,AdGuardChinese
