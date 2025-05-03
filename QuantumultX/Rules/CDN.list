@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3571
+# 规则统计: 3603
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -67,6 +67,7 @@ HOST,app.cookieyes.com,CDN
 HOST,app.groove.cm,CDN
 HOST,app.groovefunnels.com,CDN
 HOST,app.moegirl.tw,CDN
+HOST,app.quotemedia.com,CDN
 HOST,app.roboflow.com,CDN
 HOST,app.viral-loops.com,CDN
 HOST,appassets.mvtdev.com,CDN
@@ -290,6 +291,7 @@ HOST,badges.gitter.im,CDN
 HOST,badges.greenkeeper.io,CDN
 HOST,bcdn.starapps.studio,CDN
 HOST,bcmedia.bitchute.com,CDN
+HOST,before.good-apps.co,CDN
 HOST,blacklist.tampermonkey.net,CDN
 HOST,blade-public-static.blade-group.com,CDN
 HOST,blob.sololearn.com,CDN
@@ -361,6 +363,7 @@ HOST,cdn-img2.iporntv.net,CDN
 HOST,cdn-img3.iporntv.net,CDN
 HOST,cdn-live.foreignaffairs.com,CDN
 HOST,cdn-longterm.mee6.xyz,CDN
+HOST,cdn-main.plus500.com,CDN
 HOST,cdn-media-1.freecodecamp.org,CDN
 HOST,cdn-media-2.freecodecamp.org,CDN
 HOST,cdn-mobile.aptoide.com,CDN
@@ -608,6 +611,7 @@ HOST,cdn.player.fm,CDN
 HOST,cdn.playwire.com,CDN
 HOST,cdn.plot.ly,CDN
 HOST,cdn.plu.mx,CDN
+HOST,cdn.plus500.com,CDN
 HOST,cdn.plyr.io,CDN
 HOST,cdn.pricespider.com,CDN
 HOST,cdn.privacy-mgmt.com,CDN
@@ -678,6 +682,7 @@ HOST,cdn.travis-ci.com,CDN
 HOST,cdn.travis-ci.org,CDN
 HOST,cdn.trustedsite.com,CDN
 HOST,cdn.trustpilot.net,CDN
+HOST,cdn.tryadapp.com,CDN
 HOST,cdn.ttgtmedia.com,CDN
 HOST,cdn.ttloli.com,CDN
 HOST,cdn.tuk.dev,CDN
@@ -804,11 +809,13 @@ HOST,cdnjs.cloudflare.com,CDN
 HOST,cdnl.moviefap.com,CDN
 HOST,cdnl.tnaflix.com,CDN
 HOST,cdns.gigya.com,CDN
+HOST,cdns.zbporn.com,CDN
 HOST,cdnsecakmi.kaltura.com,CDN
 HOST,cdnstatic.porno-cum.com,CDN
 HOST,cdnstatic.tencentcs.com,CDN
 HOST,cdnstatic.w1mp.com,CDN
 HOST,cdnstatic.w4nkr.com,CDN
+HOST,cdnth.zbporn.com,CDN
 HOST,cdntranscend.eventbrite.com,CDN
 HOST,cdnweb.devolutions.net,CDN
 HOST,cdp.sph.com.sg,CDN
@@ -937,6 +944,7 @@ HOST,detectportal.firefox.com,CDN
 HOST,devnull.perfops.net,CDN
 HOST,dh-site.b-cdn.net,CDN
 HOST,dims.apnews.com,CDN
+HOST,disco-static.productessentials.app,CDN
 HOST,disco.headliner.link,CDN
 HOST,divhunt-site.b-cdn.net,CDN
 HOST,divhunt.b-cdn.net,CDN
@@ -1371,21 +1379,31 @@ HOST,img.windy.com,CDN
 HOST,img.xhacgn.com,CDN
 HOST,img.xjh.me,CDN
 HOST,img.youtube.com,CDN
+HOST,img0.socialshopwave.com,CDN
 HOST,img0.yna.co.kr,CDN
 HOST,img1.ak.crunchyroll.com,CDN
+HOST,img1.socialshopwave.com,CDN
 HOST,img1.yna.co.kr,CDN
+HOST,img2.socialshopwave.com,CDN
 HOST,img2.tnaflix.com,CDN
 HOST,img2.xiangbinjun.com,CDN
 HOST,img2.yna.co.kr,CDN
 HOST,img3.airdroid.com,CDN
+HOST,img3.socialshopwave.com,CDN
 HOST,img3.yna.co.kr,CDN
 HOST,img4.airdroid.com,CDN
+HOST,img4.socialshopwave.com,CDN
 HOST,img4.yna.co.kr,CDN
+HOST,img5.socialshopwave.com,CDN
 HOST,img5.yna.co.kr,CDN
 HOST,img6.airdroid.com,CDN
+HOST,img6.socialshopwave.com,CDN
 HOST,img6.yna.co.kr,CDN
+HOST,img7.socialshopwave.com,CDN
 HOST,img7.yna.co.kr,CDN
+HOST,img8.socialshopwave.com,CDN
 HOST,img8.yna.co.kr,CDN
+HOST,img9.socialshopwave.com,CDN
 HOST,img9.yna.co.kr,CDN
 HOST,imgcdn.cna.com.tw,CDN
 HOST,imgix.setapp.com,CDN
@@ -1418,6 +1436,7 @@ HOST,jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net,CDN
 HOST,js-1-cdn.airdroid.com,CDN
 HOST,js-cdn.blockchair.io,CDN
 HOST,js-eu1.hsforms.net,CDN
+HOST,js-s3.quickcep.com,CDN
 HOST,js.braintreegateway.com,CDN
 HOST,js.chargebee.com,CDN
 HOST,js.chilipiper.com,CDN
@@ -1623,6 +1642,7 @@ HOST,netlify.apollo.io,CDN
 HOST,newassets.hcaptcha.com,CDN
 HOST,news-assets.apple.com,CDN
 HOST,newsletter.postmarkapp.com,CDN
+HOST,next-images.123rf.com,CDN
 HOST,next-images.opencollective.com,CDN
 HOST,nextra.site,CDN
 HOST,ni-assets.azureedge.net,CDN
@@ -1755,6 +1775,7 @@ HOST,profile-images.xing.com,CDN
 HOST,promotions.betfair.com,CDN
 HOST,proxy.beyondwords.io,CDN
 HOST,proxy.cors.sh,CDN
+HOST,proxy.csidetm.com,CDN
 HOST,proxy.joinmastodon.org,CDN
 HOST,ps.w.org,CDN
 HOST,psp-logos.uptimerobot.com,CDN
@@ -1770,6 +1791,7 @@ HOST,public.mocortech.com,CDN
 HOST,public.saasexch.com,CDN
 HOST,publicsuffix.org,CDN
 HOST,pytorch.org,CDN
+HOST,qmod.quotemedia.com,CDN
 HOST,quriobot.com,CDN
 HOST,r.r10s.jp,CDN
 HOST,r2.1hanime.com,CDN
@@ -1801,6 +1823,7 @@ HOST,resources-cache.prod.sketch.com,CDN
 HOST,resources-live.sketch.cloud,CDN
 HOST,resources.allstate.com,CDN
 HOST,resources.chessbase.com,CDN
+HOST,resources.digital-cloud.medallia.com,CDN
 HOST,resources.help.salesforce.com,CDN
 HOST,resources.whatwg.org,CDN
 HOST,rest.happierleads.com,CDN
@@ -1939,6 +1962,7 @@ HOST,sig.grumpybumpers.com,CDN
 HOST,sigma9.scpwikicn.com,CDN
 HOST,signal.cdnbye.com,CDN
 HOST,signalcloud.cdnbye.com,CDN
+HOST,signature.overwolf.com,CDN
 HOST,siloh-ns1.plutotv.net,CDN
 HOST,simpleicons.org,CDN
 HOST,simplicity.trustpilot.com,CDN
@@ -2038,6 +2062,7 @@ HOST,static.adguardvpn.com,CDN
 HOST,static.afterpay.com,CDN
 HOST,static.ahrefs.com,CDN
 HOST,static.aizanmei.org,CDN
+HOST,static.anyporn.com,CDN
 HOST,static.anysex.com,CDN
 HOST,static.apkpure.com,CDN
 HOST,static.arxiv.org,CDN
@@ -2189,6 +2214,7 @@ HOST,static.skyassets.com,CDN
 HOST,static.snapchat.com,CDN
 HOST,static.snaptube.in,CDN
 HOST,static.snyk.io,CDN
+HOST,static.socialshopwave.com,CDN
 HOST,static.solarwinds.com,CDN
 HOST,static.spankbang.com,CDN
 HOST,static.srcspot.com,CDN
@@ -2370,8 +2396,8 @@ HOST,uploads.linear.app,CDN
 HOST,uploads.sitepoint.com,CDN
 HOST,upos-sz-mirroralibstar1.bilivideo.com,CDN
 HOST,upos-sz-mirrorcosbstar1.bilivideo.com,CDN
-HOST,uptn.nv7s.com,CDN
 HOST,us-js.zonka.co,CDN
+HOST,us.123rf.com,CDN
 HOST,us.hamreus.com,CDN
 HOST,us01ccistatic.zoom.us,CDN
 HOST,us1-prod-images.disco-api.com,CDN
@@ -2570,6 +2596,7 @@ HOST-SUFFIX,badoocdn.com,CDN
 HOST-SUFFIX,balley.top,CDN
 HOST-SUFFIX,bblcdn.com,CDN
 HOST-SUFFIX,bdzybf7.com,CDN
+HOST-SUFFIX,bestfreecdn.com,CDN
 HOST-SUFFIX,bestjavcdn.com,CDN
 HOST-SUFFIX,bftuvip.com,CDN
 HOST-SUFFIX,bfzypic.com,CDN
@@ -2649,6 +2676,7 @@ HOST-SUFFIX,cdn.ubi.com,CDN
 HOST-SUFFIX,cdn1122.com,CDN
 HOST-SUFFIX,cdn2.hubspot.net,CDN
 HOST-SUFFIX,cdn2020.com,CDN
+HOST-SUFFIX,cdnanp.com,CDN
 HOST-SUFFIX,cdnbf.net,CDN
 HOST-SUFFIX,cdnclouder.com,CDN
 HOST-SUFFIX,cdndoe.xyz,CDN
@@ -2661,6 +2689,7 @@ HOST-SUFFIX,cdnppb.net,CDN
 HOST-SUFFIX,cdnpure.com,CDN
 HOST-SUFFIX,cdnst.net,CDN
 HOST-SUFFIX,cdntrex.com,CDN
+HOST-SUFFIX,cdnyl.net,CDN
 HOST-SUFFIX,cf-ipfs.com,CDN
 HOST-SUFFIX,cfcdn.mux.com,CDN
 HOST-SUFFIX,characterai.io,CDN
@@ -2795,6 +2824,7 @@ HOST-SUFFIX,filecunhua.top,CDN
 HOST-SUFFIX,files.bbci.co.uk,CDN
 HOST-SUFFIX,files.gitbook.io,CDN
 HOST-SUFFIX,files.wordpress.com,CDN
+HOST-SUFFIX,fimfiction-static.net,CDN
 HOST-SUFFIX,firebaseapp.com,CDN
 HOST-SUFFIX,firebasestorage.googleapis.com,CDN
 HOST-SUFFIX,firefoxusercontent.com,CDN
@@ -3126,6 +3156,7 @@ HOST-SUFFIX,now.sh,CDN
 HOST-SUFFIX,npm.io,CDN
 HOST-SUFFIX,npmcdn.com,CDN
 HOST-SUFFIX,npmfs.com,CDN
+HOST-SUFFIX,nv7s.com,CDN
 HOST-SUFFIX,nxcli.io,CDN
 HOST-SUFFIX,nxedge.io,CDN
 HOST-SUFFIX,oaistatic.com,CDN
@@ -3366,6 +3397,7 @@ HOST-SUFFIX,swiftypecdn.com,CDN
 HOST-SUFFIX,sxccdn.com,CDN
 HOST-SUFFIX,szjal.cn,CDN
 HOST-SUFFIX,tapecontent.net,CDN
+HOST-SUFFIX,targetimg1.com,CDN
 HOST-SUFFIX,teamtailor-cdn.com,CDN
 HOST-SUFFIX,tedcdn.com,CDN
 HOST-SUFFIX,telemetry.services.yofi.ai,CDN

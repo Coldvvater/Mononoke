@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3569
+# 规则统计: 3601
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -67,6 +67,7 @@ DOMAIN,app.cookieyes.com
 DOMAIN,app.groove.cm
 DOMAIN,app.groovefunnels.com
 DOMAIN,app.moegirl.tw
+DOMAIN,app.quotemedia.com
 DOMAIN,app.roboflow.com
 DOMAIN,app.viral-loops.com
 DOMAIN,appassets.mvtdev.com
@@ -290,6 +291,7 @@ DOMAIN,badges.gitter.im
 DOMAIN,badges.greenkeeper.io
 DOMAIN,bcdn.starapps.studio
 DOMAIN,bcmedia.bitchute.com
+DOMAIN,before.good-apps.co
 DOMAIN,blacklist.tampermonkey.net
 DOMAIN,blade-public-static.blade-group.com
 DOMAIN,blob.sololearn.com
@@ -361,6 +363,7 @@ DOMAIN,cdn-img2.iporntv.net
 DOMAIN,cdn-img3.iporntv.net
 DOMAIN,cdn-live.foreignaffairs.com
 DOMAIN,cdn-longterm.mee6.xyz
+DOMAIN,cdn-main.plus500.com
 DOMAIN,cdn-media-1.freecodecamp.org
 DOMAIN,cdn-media-2.freecodecamp.org
 DOMAIN,cdn-mobile.aptoide.com
@@ -608,6 +611,7 @@ DOMAIN,cdn.player.fm
 DOMAIN,cdn.playwire.com
 DOMAIN,cdn.plot.ly
 DOMAIN,cdn.plu.mx
+DOMAIN,cdn.plus500.com
 DOMAIN,cdn.plyr.io
 DOMAIN,cdn.pricespider.com
 DOMAIN,cdn.privacy-mgmt.com
@@ -678,6 +682,7 @@ DOMAIN,cdn.travis-ci.com
 DOMAIN,cdn.travis-ci.org
 DOMAIN,cdn.trustedsite.com
 DOMAIN,cdn.trustpilot.net
+DOMAIN,cdn.tryadapp.com
 DOMAIN,cdn.ttgtmedia.com
 DOMAIN,cdn.ttloli.com
 DOMAIN,cdn.tuk.dev
@@ -804,11 +809,13 @@ DOMAIN,cdnjs.cloudflare.com
 DOMAIN,cdnl.moviefap.com
 DOMAIN,cdnl.tnaflix.com
 DOMAIN,cdns.gigya.com
+DOMAIN,cdns.zbporn.com
 DOMAIN,cdnsecakmi.kaltura.com
 DOMAIN,cdnstatic.porno-cum.com
 DOMAIN,cdnstatic.tencentcs.com
 DOMAIN,cdnstatic.w1mp.com
 DOMAIN,cdnstatic.w4nkr.com
+DOMAIN,cdnth.zbporn.com
 DOMAIN,cdntranscend.eventbrite.com
 DOMAIN,cdnweb.devolutions.net
 DOMAIN,cdp.sph.com.sg
@@ -937,6 +944,7 @@ DOMAIN,detectportal.firefox.com
 DOMAIN,devnull.perfops.net
 DOMAIN,dh-site.b-cdn.net
 DOMAIN,dims.apnews.com
+DOMAIN,disco-static.productessentials.app
 DOMAIN,disco.headliner.link
 DOMAIN,divhunt-site.b-cdn.net
 DOMAIN,divhunt.b-cdn.net
@@ -1371,21 +1379,31 @@ DOMAIN,img.windy.com
 DOMAIN,img.xhacgn.com
 DOMAIN,img.xjh.me
 DOMAIN,img.youtube.com
+DOMAIN,img0.socialshopwave.com
 DOMAIN,img0.yna.co.kr
 DOMAIN,img1.ak.crunchyroll.com
+DOMAIN,img1.socialshopwave.com
 DOMAIN,img1.yna.co.kr
+DOMAIN,img2.socialshopwave.com
 DOMAIN,img2.tnaflix.com
 DOMAIN,img2.xiangbinjun.com
 DOMAIN,img2.yna.co.kr
 DOMAIN,img3.airdroid.com
+DOMAIN,img3.socialshopwave.com
 DOMAIN,img3.yna.co.kr
 DOMAIN,img4.airdroid.com
+DOMAIN,img4.socialshopwave.com
 DOMAIN,img4.yna.co.kr
+DOMAIN,img5.socialshopwave.com
 DOMAIN,img5.yna.co.kr
 DOMAIN,img6.airdroid.com
+DOMAIN,img6.socialshopwave.com
 DOMAIN,img6.yna.co.kr
+DOMAIN,img7.socialshopwave.com
 DOMAIN,img7.yna.co.kr
+DOMAIN,img8.socialshopwave.com
 DOMAIN,img8.yna.co.kr
+DOMAIN,img9.socialshopwave.com
 DOMAIN,img9.yna.co.kr
 DOMAIN,imgcdn.cna.com.tw
 DOMAIN,imgix.setapp.com
@@ -1418,6 +1436,7 @@ DOMAIN,jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net
 DOMAIN,js-1-cdn.airdroid.com
 DOMAIN,js-cdn.blockchair.io
 DOMAIN,js-eu1.hsforms.net
+DOMAIN,js-s3.quickcep.com
 DOMAIN,js.braintreegateway.com
 DOMAIN,js.chargebee.com
 DOMAIN,js.chilipiper.com
@@ -1623,6 +1642,7 @@ DOMAIN,netlify.apollo.io
 DOMAIN,newassets.hcaptcha.com
 DOMAIN,news-assets.apple.com
 DOMAIN,newsletter.postmarkapp.com
+DOMAIN,next-images.123rf.com
 DOMAIN,next-images.opencollective.com
 DOMAIN,nextra.site
 DOMAIN,ni-assets.azureedge.net
@@ -1755,6 +1775,7 @@ DOMAIN,profile-images.xing.com
 DOMAIN,promotions.betfair.com
 DOMAIN,proxy.beyondwords.io
 DOMAIN,proxy.cors.sh
+DOMAIN,proxy.csidetm.com
 DOMAIN,proxy.joinmastodon.org
 DOMAIN,ps.w.org
 DOMAIN,psp-logos.uptimerobot.com
@@ -1770,6 +1791,7 @@ DOMAIN,public.mocortech.com
 DOMAIN,public.saasexch.com
 DOMAIN,publicsuffix.org
 DOMAIN,pytorch.org
+DOMAIN,qmod.quotemedia.com
 DOMAIN,quriobot.com
 DOMAIN,r.r10s.jp
 DOMAIN,r2.1hanime.com
@@ -1801,6 +1823,7 @@ DOMAIN,resources-cache.prod.sketch.com
 DOMAIN,resources-live.sketch.cloud
 DOMAIN,resources.allstate.com
 DOMAIN,resources.chessbase.com
+DOMAIN,resources.digital-cloud.medallia.com
 DOMAIN,resources.help.salesforce.com
 DOMAIN,resources.whatwg.org
 DOMAIN,rest.happierleads.com
@@ -1939,6 +1962,7 @@ DOMAIN,sig.grumpybumpers.com
 DOMAIN,sigma9.scpwikicn.com
 DOMAIN,signal.cdnbye.com
 DOMAIN,signalcloud.cdnbye.com
+DOMAIN,signature.overwolf.com
 DOMAIN,siloh-ns1.plutotv.net
 DOMAIN,simpleicons.org
 DOMAIN,simplicity.trustpilot.com
@@ -2038,6 +2062,7 @@ DOMAIN,static.adguardvpn.com
 DOMAIN,static.afterpay.com
 DOMAIN,static.ahrefs.com
 DOMAIN,static.aizanmei.org
+DOMAIN,static.anyporn.com
 DOMAIN,static.anysex.com
 DOMAIN,static.apkpure.com
 DOMAIN,static.arxiv.org
@@ -2189,6 +2214,7 @@ DOMAIN,static.skyassets.com
 DOMAIN,static.snapchat.com
 DOMAIN,static.snaptube.in
 DOMAIN,static.snyk.io
+DOMAIN,static.socialshopwave.com
 DOMAIN,static.solarwinds.com
 DOMAIN,static.spankbang.com
 DOMAIN,static.srcspot.com
@@ -2370,8 +2396,8 @@ DOMAIN,uploads.linear.app
 DOMAIN,uploads.sitepoint.com
 DOMAIN,upos-sz-mirroralibstar1.bilivideo.com
 DOMAIN,upos-sz-mirrorcosbstar1.bilivideo.com
-DOMAIN,uptn.nv7s.com
 DOMAIN,us-js.zonka.co
+DOMAIN,us.123rf.com
 DOMAIN,us.hamreus.com
 DOMAIN,us01ccistatic.zoom.us
 DOMAIN,us1-prod-images.disco-api.com
@@ -2570,6 +2596,7 @@ DOMAIN-SUFFIX,badoocdn.com
 DOMAIN-SUFFIX,balley.top
 DOMAIN-SUFFIX,bblcdn.com
 DOMAIN-SUFFIX,bdzybf7.com
+DOMAIN-SUFFIX,bestfreecdn.com
 DOMAIN-SUFFIX,bestjavcdn.com
 DOMAIN-SUFFIX,bftuvip.com
 DOMAIN-SUFFIX,bfzypic.com
@@ -2649,6 +2676,7 @@ DOMAIN-SUFFIX,cdn.ubi.com
 DOMAIN-SUFFIX,cdn1122.com
 DOMAIN-SUFFIX,cdn2.hubspot.net
 DOMAIN-SUFFIX,cdn2020.com
+DOMAIN-SUFFIX,cdnanp.com
 DOMAIN-SUFFIX,cdnbf.net
 DOMAIN-SUFFIX,cdnclouder.com
 DOMAIN-SUFFIX,cdndoe.xyz
@@ -2661,6 +2689,7 @@ DOMAIN-SUFFIX,cdnppb.net
 DOMAIN-SUFFIX,cdnpure.com
 DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,cdntrex.com
+DOMAIN-SUFFIX,cdnyl.net
 DOMAIN-SUFFIX,cf-ipfs.com
 DOMAIN-SUFFIX,cfcdn.mux.com
 DOMAIN-SUFFIX,characterai.io
@@ -2795,6 +2824,7 @@ DOMAIN-SUFFIX,filecunhua.top
 DOMAIN-SUFFIX,files.bbci.co.uk
 DOMAIN-SUFFIX,files.gitbook.io
 DOMAIN-SUFFIX,files.wordpress.com
+DOMAIN-SUFFIX,fimfiction-static.net
 DOMAIN-SUFFIX,firebaseapp.com
 DOMAIN-SUFFIX,firebasestorage.googleapis.com
 DOMAIN-SUFFIX,firefoxusercontent.com
@@ -3126,6 +3156,7 @@ DOMAIN-SUFFIX,now.sh
 DOMAIN-SUFFIX,npm.io
 DOMAIN-SUFFIX,npmcdn.com
 DOMAIN-SUFFIX,npmfs.com
+DOMAIN-SUFFIX,nv7s.com
 DOMAIN-SUFFIX,nxcli.io
 DOMAIN-SUFFIX,nxedge.io
 DOMAIN-SUFFIX,oaistatic.com
@@ -3366,6 +3397,7 @@ DOMAIN-SUFFIX,swiftypecdn.com
 DOMAIN-SUFFIX,sxccdn.com
 DOMAIN-SUFFIX,szjal.cn
 DOMAIN-SUFFIX,tapecontent.net
+DOMAIN-SUFFIX,targetimg1.com
 DOMAIN-SUFFIX,teamtailor-cdn.com
 DOMAIN-SUFFIX,tedcdn.com
 DOMAIN-SUFFIX,telemetry.services.yofi.ai
