@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4539
+# 规则统计: 4547
 
 domain_suffix_set:
   - 002777.xyz
@@ -1392,6 +1392,7 @@ domain_suffix_set:
   - easou.com
   - eatnontf.icu
   - ebp.renren.com
+  - ebroktean.com
   - ecatqefal.com
   - ecinvdw.top
   - eclimiw.top
@@ -1553,6 +1554,7 @@ domain_suffix_set:
   - ffbdbx.xyz
   - ffjevt.icu
   - fflbpi.top
+  - ffxe.cn
   - fgadsqdma.top
   - fgdkfr.xyz
   - fgnfpnae.icu
@@ -2227,6 +2229,7 @@ domain_suffix_set:
   - jmif.cn
   - jmipzsn.icu
   - jnwuama.top
+  - jnwucna.top
   - jo4.icu
   - joiwnq2.cn
   - jollyspring.com
@@ -2894,6 +2897,7 @@ domain_suffix_set:
   - okpl05010ai.com
   - okpl05011ai.com
   - okpl05021ai.com
+  - okpl05030ai.com
   - okpp01021.xyz
   - okpp01030.xyz
   - okpp01031.xyz
@@ -3185,6 +3189,8 @@ domain_suffix_set:
   - qqosk05011llo.com
   - qqosk05020llo.com
   - qqosk05021llo.com
+  - qqosk05030llo.com
+  - qqosk05031llo.com
   - qqryt111.fun
   - qqxi6.icu
   - qrmozsc.icu
@@ -4029,6 +4035,7 @@ domain_suffix_set:
   - vtbkhl.icu
   - vtdgfisz.icu
   - vtjbnb.xyz
+  - vtqhelleano.com
   - vtrrxqbi.xyz
   - vudqth.icu
   - vuhf.cn
@@ -4490,6 +4497,7 @@ domain_suffix_set:
   - zjplnz.xyz
   - zk.91post.com
   - zkdefuiz.icu
+  - zktats.top
   - zlclgzs.cn
   - zlgame.top
   - zlongad.com

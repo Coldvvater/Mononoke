@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3603
+# 规则统计: 3605
 
 domain_set:
   - 0x0.st
@@ -933,6 +933,7 @@ domain_set:
   - data.web.clickup.com
   - david-dm.org
   - db.onlinewebfonts.com
+  - dc-cdn.cdw.com
   - ddcdn.comtucdncom.com
   - decart-oasis.azureedge.net
   - demo.unified-streaming.com
@@ -2471,6 +2472,7 @@ domain_set:
   - webassets.linear.app
   - webcdn.17app.co
   - webfonts.zoho.com
+  - webobjects2.cdw.com
   - webp.frostming.com
   - website-cdn.ipinfo.io
   - website-prod.cache.wpscdn.com

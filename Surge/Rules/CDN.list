@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3603
+# 规则统计: 3605
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -932,6 +932,7 @@ DOMAIN,data.schemaapp.com
 DOMAIN,data.web.clickup.com
 DOMAIN,david-dm.org
 DOMAIN,db.onlinewebfonts.com
+DOMAIN,dc-cdn.cdw.com
 DOMAIN,ddcdn.comtucdncom.com
 DOMAIN,decart-oasis.azureedge.net
 DOMAIN,demo.unified-streaming.com
@@ -2470,6 +2471,7 @@ DOMAIN,webappassets.smartsheet.com
 DOMAIN,webassets.linear.app
 DOMAIN,webcdn.17app.co
 DOMAIN,webfonts.zoho.com
+DOMAIN,webobjects2.cdw.com
 DOMAIN,webp.frostming.com
 DOMAIN,website-cdn.ipinfo.io
 DOMAIN,website-prod.cache.wpscdn.com

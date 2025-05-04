@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7416
+# 规则统计: 7417
 
 no_resolve: true
 domain_set:
@@ -496,7 +496,6 @@ domain_suffix_set:
   - audiomack.com
   - audionow.com
   - auntology.fandom.com
-  - auth.openai.com
   - authorizeddns.net
   - authorizeddns.org
   - authorizeddns.us
@@ -1846,6 +1845,7 @@ domain_suffix_set:
   - emule-ed2k.com
   - emulefans.com
   - emuparadise.me
+  - en.favotter.net
   - en.hao123.com
   - enanyang.my
   - encrypt.me
@@ -2015,7 +2015,6 @@ domain_suffix_set:
   - fandom.com
   - fangbinxing.com
   - fangeming.com
-  - fangeming.comffvpn.com
   - fangeqiang.com
   - fanglizhi.info
   - fangmincn.org
@@ -2804,6 +2803,7 @@ domain_suffix_set:
   - got-game.org
   - gotdns.ch
   - gotgeeks.com
+  - gotquestions.org
   - gotrusted.com
   - gotw.ca
   - gov.taipei
@@ -3239,6 +3239,7 @@ domain_suffix_set:
   - identi.ca
   - idiomconnection.com
   - idlcoyote.com
+  - idope.se
   - idouga.com
   - idreamx.com
   - idsam.com
@@ -4424,6 +4425,7 @@ domain_suffix_set:
   - nobel.se
   - nobelprize.org
   - nobodycanstop.us
+  - nodeloc.com
   - nodeseek.com
   - nodesnoop.com
   - nofile.io
@@ -4576,7 +4578,6 @@ domain_suffix_set:
   - on2.com
   - onapp.com
   - one.one
-  - one.one.one.one
   - oneclient.sfx.ms
   - onedrive.com
   - onedrive.live.com
@@ -5231,7 +5232,6 @@ domain_suffix_set:
   - s3-ap-southeast-1.amazonaws.com
   - s3-ap-southeast-2.amazonaws.com
   - s3.amazonaws.com
-  - s3.eu-central-1.amazonaws.com
   - s4miniarchive.com
   - s8forum.com
   - sa.hao123.com
@@ -5436,7 +5436,6 @@ domain_suffix_set:
   - sina.com.hk
   - sina.com.tw
   - sinchew.com.my
-  - sing-box.sagernet.org
   - singaporepools.com.sg
   - singfortibet.com
   - singlelogin.app
@@ -5724,6 +5723,7 @@ domain_suffix_set:
   - stupidvideos.com
   - stweetly.com
   - subacme.rerouted.org
+  - subhd.tv
   - substack.com
   - successfn.com
   - suche.gmx.net
@@ -5981,6 +5981,7 @@ domain_suffix_set:
   - thongdreams.com
   - thotsbay.tv
   - threadreaderapp.com
+  - threads.com
   - threads.net
   - threatchaos.com
   - throughnightsfire.com
@@ -6531,7 +6532,6 @@ domain_suffix_set:
   - uymaarip.com
   - v.roucdn
   - v2.help
-  - v2.hysteria.network
   - v2ex.com
   - v2fly.org
   - v2mm.tech
@@ -6577,6 +6577,7 @@ domain_suffix_set:
   - video.aol.co.uk
   - video.aol.com
   - video.ap.org
+  - video.fdbox.com
   - video.foxbusiness.com
   - videobam.com
   - videodetective.com
