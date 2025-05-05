@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 790
+# 规则统计: 791
 
 DOMAIN,acg.tv
 DOMAIN,assets1.xboxlive.cn
@@ -640,6 +640,7 @@ DOMAIN-SUFFIX,sohu-inc.com
 DOMAIN-SUFFIX,sohu.com
 DOMAIN-SUFFIX,sohucs.com
 DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,solidot.org
 DOMAIN-SUFFIX,soso.com
 DOMAIN-SUFFIX,soufunimg.com
 DOMAIN-SUFFIX,soulapp.cn

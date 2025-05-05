@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 790
+# 规则统计: 791
 
 domain_set:
   - acg.tv
@@ -642,6 +642,7 @@ domain_suffix_set:
   - sohu.com
   - sohucs.com
   - soku.com
+  - solidot.org
   - soso.com
   - soufunimg.com
   - soulapp.cn

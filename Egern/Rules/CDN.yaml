@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3612
+# 规则统计: 3613
 
 domain_set:
   - 0x0.st
@@ -2135,6 +2135,7 @@ domain_set:
   - static.getbutton.io
   - static.gettyimages.com
   - static.gitbook.com
+  - static.gl-inet.com
   - static.global.visioncritical.com
   - static.gnome.org
   - static.gopro.com
