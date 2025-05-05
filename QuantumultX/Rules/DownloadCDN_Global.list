@@ -1,5 +1,5 @@
 # 规则名称: DownloadCDN_Global
-# 规则统计: 175
+# 规则统计: 176
 
 HOST,account-api.bandainamcoid.com,DownloadCDN_Global
 HOST,account.bandainamcoid.com,DownloadCDN_Global
@@ -174,5 +174,6 @@ HOST,windbg.download.prss.microsoft.com,DownloadCDN_Global
 HOST,xvcf1.xboxlive.com,DownloadCDN_Global
 HOST,xvcf2.xboxlive.com,DownloadCDN_Global
 HOST-SUFFIX,cloudflarestorage.com,DownloadCDN_Global
+HOST-SUFFIX,hf.co,DownloadCDN_Global
 HOST-SUFFIX,storage.live.com,DownloadCDN_Global
 HOST-KEYWORD,epicgames-download,DownloadCDN_Global

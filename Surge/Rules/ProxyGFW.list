@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7417
+# 规则统计: 7424
 
 DOMAIN,cloud.oracle.com
 DOMAIN,steambroadcast.akamaized.net
@@ -2900,6 +2900,7 @@ DOMAIN-SUFFIX,hakkatv.org.tw
 DOMAIN-SUFFIX,halktv.com.tr
 DOMAIN-SUFFIX,handcraftedsoftware.org
 DOMAIN-SUFFIX,hanime.tv
+DOMAIN-SUFFIX,hanime1.me
 DOMAIN-SUFFIX,hanminzu.org
 DOMAIN-SUFFIX,hanunyi.com
 DOMAIN-SUFFIX,hao.news
@@ -4064,6 +4065,7 @@ DOMAIN-SUFFIX,mirrorbooks.com
 DOMAIN-SUFFIX,mirrormedia.com.tw
 DOMAIN-SUFFIX,mirrormedia.mg
 DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,mist.vip
 DOMAIN-SUFFIX,mit.edu
 DOMAIN-SUFFIX,mitao.com.tw
@@ -4602,7 +4604,6 @@ DOMAIN-SUFFIX,ontrac.com
 DOMAIN-SUFFIX,oopsforum.com
 DOMAIN-SUFFIX,open.com.hk
 DOMAIN-SUFFIX,open.firstory.me
-DOMAIN-SUFFIX,open.spotify.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openallweb.com
 DOMAIN-SUFFIX,openbase.com
@@ -5430,6 +5431,7 @@ DOMAIN-SUFFIX,simplecd.me
 DOMAIN-SUFFIX,simplecd.org
 DOMAIN-SUFFIX,simpleproductivityblog.com
 DOMAIN-SUFFIX,simpleswap.io
+DOMAIN-SUFFIX,simplex.chat
 DOMAIN-SUFFIX,sina.com.hk
 DOMAIN-SUFFIX,sina.com.tw
 DOMAIN-SUFFIX,sinchew.com.my
@@ -5887,6 +5889,7 @@ DOMAIN-SUFFIX,teensinasia.com
 DOMAIN-SUFFIX,teepr.com
 DOMAIN-SUFFIX,tehrantimes.com
 DOMAIN-SUFFIX,telecomspace.com
+DOMAIN-SUFFIX,telega.one
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,telegram.dog
@@ -5896,6 +5899,7 @@ DOMAIN-SUFFIX,telegram.space
 DOMAIN-SUFFIX,telegramdownload.com
 DOMAIN-SUFFIX,telegraph.co.uk
 DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tellapart.com
 DOMAIN-SUFFIX,tellme.pw
 DOMAIN-SUFFIX,tenacy.com
 DOMAIN-SUFFIX,tenor.com
@@ -5910,6 +5914,7 @@ DOMAIN-SUFFIX,tfc-taiwan.org.tw
 DOMAIN-SUFFIX,tfhub.dev
 DOMAIN-SUFFIX,tfiflve.com
 DOMAIN-SUFFIX,tg-me.com
+DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,tgfcer.com
 DOMAIN-SUFFIX,tgstat.com
 DOMAIN-SUFFIX,th.hao123.com
@@ -6384,6 +6389,7 @@ DOMAIN-SUFFIX,twtrland.com
 DOMAIN-SUFFIX,twttr.com
 DOMAIN-SUFFIX,twurl.nl
 DOMAIN-SUFFIX,twyac.org
+DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,txxx.com
 DOMAIN-SUFFIX,tycool.com
 DOMAIN-SUFFIX,typekit.net
@@ -7281,6 +7287,7 @@ DOMAIN-SUFFIX,zlibcdn2.com
 DOMAIN-SUFFIX,zmedia.com.tw
 DOMAIN-SUFFIX,zmw.cn
 DOMAIN-SUFFIX,zodgame.us
+DOMAIN-SUFFIX,zodgame.xyz
 DOMAIN-SUFFIX,zoho.com
 DOMAIN-SUFFIX,zomobo.net
 DOMAIN-SUFFIX,zonaeuropa.com

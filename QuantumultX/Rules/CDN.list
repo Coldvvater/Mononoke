@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3605
+# 规则统计: 3612
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -664,6 +664,7 @@ HOST,cdn.st-note.com,CDN
 HOST,cdn.starapps.studio,CDN
 HOST,cdn.stash.com,CDN
 HOST,cdn.staticdelivr.com,CDN
+HOST,cdn.staticswin.com,CDN
 HOST,cdn.stellarhosted.com,CDN
 HOST,cdn.substack.com,CDN
 HOST,cdn.sunofbeaches.com,CDN
@@ -1407,6 +1408,7 @@ HOST,img8.yna.co.kr,CDN
 HOST,img9.socialshopwave.com,CDN
 HOST,img9.yna.co.kr,CDN
 HOST,imgcdn.cna.com.tw,CDN
+HOST,imgfile.shop,CDN
 HOST,imgix.setapp.com,CDN
 HOST,imgopt.infoq.com,CDN
 HOST,imgproxy.fourthwall.com,CDN
@@ -1563,6 +1565,7 @@ HOST,media.kit.com,CDN
 HOST,media.lantern.io,CDN
 HOST,media.licdn.com,CDN
 HOST,media.loom-app.com,CDN
+HOST,media.maptiler.com,CDN
 HOST,media.mas.to,CDN
 HOST,media.masto.nu,CDN
 HOST,media.minecraftforum.net,CDN
@@ -1819,6 +1822,7 @@ HOST,resizing.flixster.com,CDN
 HOST,resource-accel.fs.com,CDN
 HOST,resource.akashic.coe.nicovideo.jp,CDN
 HOST,resource.fs.com,CDN
+HOST,resource.tnlmediagene.com,CDN
 HOST,resource.video.nimg.jp,CDN
 HOST,resources-cache.prod.sketch.com,CDN
 HOST,resources-live.sketch.cloud,CDN
@@ -2195,6 +2199,7 @@ HOST,static.parallels.com,CDN
 HOST,static.peatio.com,CDN
 HOST,static.pfrt.yna.co.kr,CDN
 HOST,static.pingcap.com,CDN
+HOST,static.planetminecraft.com,CDN
 HOST,static.playstation.com,CDN
 HOST,static.plus.net,CDN
 HOST,static.politico.com,CDN
@@ -2226,6 +2231,7 @@ HOST,static.telegraph.co.uk,CDN
 HOST,static.tenki.jp,CDN
 HOST,static.test-beta.com,CDN
 HOST,static.theguardian.com,CDN
+HOST,static.threatlocker.com,CDN
 HOST,static.toiimg.com,CDN
 HOST,static.tokenview.io,CDN
 HOST,static.toss.im,CDN
@@ -2312,6 +2318,7 @@ HOST,sts.online.visualstudio.com,CDN
 HOST,sts3.wsj.net,CDN
 HOST,stubdownloader.services.mozilla.com,CDN
 HOST,support.content.office.net,CDN
+HOST,sw.cool3c.com,CDN
 HOST,sync.getpublica.com,CDN
 HOST,t.betterstack.com,CDN
 HOST,t.nhentai.net,CDN

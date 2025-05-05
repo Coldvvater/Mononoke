@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4547
+# 规则统计: 4557
 
 domain_suffix_set:
   - 002777.xyz
@@ -786,6 +786,7 @@ domain_suffix_set:
   - bdx.playnext.cn
   - bea-s.dinghuoche.com
   - beacher56.xyz
+  - bebx.cn
   - bebxhcip.icu
   - becode.xiao84.com
   - bedzbu.xyz
@@ -1090,6 +1091,7 @@ domain_suffix_set:
   - crlsxny.xyz
   - crnmyrk.icu
   - crolerl.com
+  - croqoltdp.com
   - crtlisf.top
   - cruhut.com
   - crutvncf.top
@@ -1826,6 +1828,7 @@ domain_suffix_set:
   - haoxxwang.com
   - hapic1.zhuangxiu22.com
   - hasdjksndjk.com
+  - hash.trafficmanager.net
   - hauqks.top
   - hauqoa.com
   - hauqou.top
@@ -2394,6 +2397,7 @@ domain_suffix_set:
   - knuinws.icu
   - knul.cn
   - knwuamd.top
+  - knwucnd.top
   - koauq.top
   - kodwaqepr.com
   - kokojia.com
@@ -2775,6 +2779,7 @@ domain_suffix_set:
   - neldatsy.com
   - neldipbtg.com
   - neryt111.fun
+  - nevtrelathgd.com
   - news.fangdaijisuanqi.com
   - news.jiukang.org
   - news.qcyz.cn
@@ -2898,6 +2903,8 @@ domain_suffix_set:
   - okpl05011ai.com
   - okpl05021ai.com
   - okpl05030ai.com
+  - okpl05040ai.com
+  - okpl05041ai.com
   - okpp01021.xyz
   - okpp01030.xyz
   - okpp01031.xyz
@@ -3191,6 +3198,8 @@ domain_suffix_set:
   - qqosk05021llo.com
   - qqosk05030llo.com
   - qqosk05031llo.com
+  - qqosk05040llo.com
+  - qqosk05041llo.com
   - qqryt111.fun
   - qqxi6.icu
   - qrmozsc.icu
@@ -4245,6 +4254,7 @@ domain_suffix_set:
   - xj-oss.com
   - xjpmlf.xyz
   - xjtosdof.icu
+  - xjvunf.top
   - xjwhtz10.com
   - xjwhtz2.com
   - xjwhtz3.com

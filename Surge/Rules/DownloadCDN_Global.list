@@ -1,5 +1,5 @@
 # 规则名称: DownloadCDN_Global
-# 规则统计: 177
+# 规则统计: 178
 
 DOMAIN,account-api.bandainamcoid.com
 DOMAIN,account.bandainamcoid.com
@@ -174,6 +174,7 @@ DOMAIN,windbg.download.prss.microsoft.com
 DOMAIN,xvcf1.xboxlive.com
 DOMAIN,xvcf2.xboxlive.com
 DOMAIN-SUFFIX,cloudflarestorage.com
+DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-KEYWORD,epicgames-download
 AND,((DOMAIN-KEYWORD,cache),(DOMAIN-SUFFIX,steamcontent.com))

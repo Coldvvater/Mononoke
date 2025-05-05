@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4547
+# 规则统计: 4557
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -785,6 +785,7 @@ DOMAIN-SUFFIX,bdunion1.suxiazai.com
 DOMAIN-SUFFIX,bdx.playnext.cn
 DOMAIN-SUFFIX,bea-s.dinghuoche.com
 DOMAIN-SUFFIX,beacher56.xyz
+DOMAIN-SUFFIX,bebx.cn
 DOMAIN-SUFFIX,bebxhcip.icu
 DOMAIN-SUFFIX,becode.xiao84.com
 DOMAIN-SUFFIX,bedzbu.xyz
@@ -1089,6 +1090,7 @@ DOMAIN-SUFFIX,criqai.com
 DOMAIN-SUFFIX,crlsxny.xyz
 DOMAIN-SUFFIX,crnmyrk.icu
 DOMAIN-SUFFIX,crolerl.com
+DOMAIN-SUFFIX,croqoltdp.com
 DOMAIN-SUFFIX,crtlisf.top
 DOMAIN-SUFFIX,cruhut.com
 DOMAIN-SUFFIX,crutvncf.top
@@ -1825,6 +1827,7 @@ DOMAIN-SUFFIX,haokoubei.top
 DOMAIN-SUFFIX,haoxxwang.com
 DOMAIN-SUFFIX,hapic1.zhuangxiu22.com
 DOMAIN-SUFFIX,hasdjksndjk.com
+DOMAIN-SUFFIX,hash.trafficmanager.net
 DOMAIN-SUFFIX,hauqks.top
 DOMAIN-SUFFIX,hauqoa.com
 DOMAIN-SUFFIX,hauqou.top
@@ -2393,6 +2396,7 @@ DOMAIN-SUFFIX,kmruv.cn
 DOMAIN-SUFFIX,knuinws.icu
 DOMAIN-SUFFIX,knul.cn
 DOMAIN-SUFFIX,knwuamd.top
+DOMAIN-SUFFIX,knwucnd.top
 DOMAIN-SUFFIX,koauq.top
 DOMAIN-SUFFIX,kodwaqepr.com
 DOMAIN-SUFFIX,kokojia.com
@@ -2774,6 +2778,7 @@ DOMAIN-SUFFIX,ndysxhs.icu
 DOMAIN-SUFFIX,neldatsy.com
 DOMAIN-SUFFIX,neldipbtg.com
 DOMAIN-SUFFIX,neryt111.fun
+DOMAIN-SUFFIX,nevtrelathgd.com
 DOMAIN-SUFFIX,news.fangdaijisuanqi.com
 DOMAIN-SUFFIX,news.jiukang.org
 DOMAIN-SUFFIX,news.qcyz.cn
@@ -2897,6 +2902,8 @@ DOMAIN-SUFFIX,okpl05010ai.com
 DOMAIN-SUFFIX,okpl05011ai.com
 DOMAIN-SUFFIX,okpl05021ai.com
 DOMAIN-SUFFIX,okpl05030ai.com
+DOMAIN-SUFFIX,okpl05040ai.com
+DOMAIN-SUFFIX,okpl05041ai.com
 DOMAIN-SUFFIX,okpp01021.xyz
 DOMAIN-SUFFIX,okpp01030.xyz
 DOMAIN-SUFFIX,okpp01031.xyz
@@ -3190,6 +3197,8 @@ DOMAIN-SUFFIX,qqosk05020llo.com
 DOMAIN-SUFFIX,qqosk05021llo.com
 DOMAIN-SUFFIX,qqosk05030llo.com
 DOMAIN-SUFFIX,qqosk05031llo.com
+DOMAIN-SUFFIX,qqosk05040llo.com
+DOMAIN-SUFFIX,qqosk05041llo.com
 DOMAIN-SUFFIX,qqryt111.fun
 DOMAIN-SUFFIX,qqxi6.icu
 DOMAIN-SUFFIX,qrmozsc.icu
@@ -4244,6 +4253,7 @@ DOMAIN-SUFFIX,xiyouence.com
 DOMAIN-SUFFIX,xj-oss.com
 DOMAIN-SUFFIX,xjpmlf.xyz
 DOMAIN-SUFFIX,xjtosdof.icu
+DOMAIN-SUFFIX,xjvunf.top
 DOMAIN-SUFFIX,xjwhtz10.com
 DOMAIN-SUFFIX,xjwhtz2.com
 DOMAIN-SUFFIX,xjwhtz3.com

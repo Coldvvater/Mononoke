@@ -1,5 +1,5 @@
 # 规则名称: DownloadCDN_Global
-# 规则统计: 175
+# 规则统计: 176
 
 domain_set:
   - account-api.bandainamcoid.com
@@ -176,6 +176,7 @@ domain_set:
   - xvcf2.xboxlive.com
 domain_suffix_set:
   - cloudflarestorage.com
+  - hf.co
   - storage.live.com
 domain_keyword_set:
   - epicgames-download

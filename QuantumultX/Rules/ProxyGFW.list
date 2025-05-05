@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7417
+# 规则统计: 7424
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -2900,6 +2900,7 @@ HOST-SUFFIX,hakkatv.org.tw,ProxyGFW
 HOST-SUFFIX,halktv.com.tr,ProxyGFW
 HOST-SUFFIX,handcraftedsoftware.org,ProxyGFW
 HOST-SUFFIX,hanime.tv,ProxyGFW
+HOST-SUFFIX,hanime1.me,ProxyGFW
 HOST-SUFFIX,hanminzu.org,ProxyGFW
 HOST-SUFFIX,hanunyi.com,ProxyGFW
 HOST-SUFFIX,hao.news,ProxyGFW
@@ -4064,6 +4065,7 @@ HOST-SUFFIX,mirrorbooks.com,ProxyGFW
 HOST-SUFFIX,mirrormedia.com.tw,ProxyGFW
 HOST-SUFFIX,mirrormedia.mg,ProxyGFW
 HOST-SUFFIX,missav.com,ProxyGFW
+HOST-SUFFIX,missav.ws,ProxyGFW
 HOST-SUFFIX,mist.vip,ProxyGFW
 HOST-SUFFIX,mit.edu,ProxyGFW
 HOST-SUFFIX,mitao.com.tw,ProxyGFW
@@ -4602,7 +4604,6 @@ HOST-SUFFIX,ontrac.com,ProxyGFW
 HOST-SUFFIX,oopsforum.com,ProxyGFW
 HOST-SUFFIX,open.com.hk,ProxyGFW
 HOST-SUFFIX,open.firstory.me,ProxyGFW
-HOST-SUFFIX,open.spotify.com,ProxyGFW
 HOST-SUFFIX,openai.com,ProxyGFW
 HOST-SUFFIX,openallweb.com,ProxyGFW
 HOST-SUFFIX,openbase.com,ProxyGFW
@@ -5430,6 +5431,7 @@ HOST-SUFFIX,simplecd.me,ProxyGFW
 HOST-SUFFIX,simplecd.org,ProxyGFW
 HOST-SUFFIX,simpleproductivityblog.com,ProxyGFW
 HOST-SUFFIX,simpleswap.io,ProxyGFW
+HOST-SUFFIX,simplex.chat,ProxyGFW
 HOST-SUFFIX,sina.com.hk,ProxyGFW
 HOST-SUFFIX,sina.com.tw,ProxyGFW
 HOST-SUFFIX,sinchew.com.my,ProxyGFW
@@ -5887,6 +5889,7 @@ HOST-SUFFIX,teensinasia.com,ProxyGFW
 HOST-SUFFIX,teepr.com,ProxyGFW
 HOST-SUFFIX,tehrantimes.com,ProxyGFW
 HOST-SUFFIX,telecomspace.com,ProxyGFW
+HOST-SUFFIX,telega.one,ProxyGFW
 HOST-SUFFIX,telegra.ph,ProxyGFW
 HOST-SUFFIX,telegram-cdn.org,ProxyGFW
 HOST-SUFFIX,telegram.dog,ProxyGFW
@@ -5896,6 +5899,7 @@ HOST-SUFFIX,telegram.space,ProxyGFW
 HOST-SUFFIX,telegramdownload.com,ProxyGFW
 HOST-SUFFIX,telegraph.co.uk,ProxyGFW
 HOST-SUFFIX,telesco.pe,ProxyGFW
+HOST-SUFFIX,tellapart.com,ProxyGFW
 HOST-SUFFIX,tellme.pw,ProxyGFW
 HOST-SUFFIX,tenacy.com,ProxyGFW
 HOST-SUFFIX,tenor.com,ProxyGFW
@@ -5910,6 +5914,7 @@ HOST-SUFFIX,tfc-taiwan.org.tw,ProxyGFW
 HOST-SUFFIX,tfhub.dev,ProxyGFW
 HOST-SUFFIX,tfiflve.com,ProxyGFW
 HOST-SUFFIX,tg-me.com,ProxyGFW
+HOST-SUFFIX,tg.dev,ProxyGFW
 HOST-SUFFIX,tgfcer.com,ProxyGFW
 HOST-SUFFIX,tgstat.com,ProxyGFW
 HOST-SUFFIX,th.hao123.com,ProxyGFW
@@ -6384,6 +6389,7 @@ HOST-SUFFIX,twtrland.com,ProxyGFW
 HOST-SUFFIX,twttr.com,ProxyGFW
 HOST-SUFFIX,twurl.nl,ProxyGFW
 HOST-SUFFIX,twyac.org,ProxyGFW
+HOST-SUFFIX,tx.me,ProxyGFW
 HOST-SUFFIX,txxx.com,ProxyGFW
 HOST-SUFFIX,tycool.com,ProxyGFW
 HOST-SUFFIX,typekit.net,ProxyGFW
@@ -7281,6 +7287,7 @@ HOST-SUFFIX,zlibcdn2.com,ProxyGFW
 HOST-SUFFIX,zmedia.com.tw,ProxyGFW
 HOST-SUFFIX,zmw.cn,ProxyGFW
 HOST-SUFFIX,zodgame.us,ProxyGFW
+HOST-SUFFIX,zodgame.xyz,ProxyGFW
 HOST-SUFFIX,zoho.com,ProxyGFW
 HOST-SUFFIX,zomobo.net,ProxyGFW
 HOST-SUFFIX,zonaeuropa.com,ProxyGFW

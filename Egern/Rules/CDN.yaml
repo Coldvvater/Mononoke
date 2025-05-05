@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3605
+# 规则统计: 3612
 
 domain_set:
   - 0x0.st
@@ -665,6 +665,7 @@ domain_set:
   - cdn.starapps.studio
   - cdn.stash.com
   - cdn.staticdelivr.com
+  - cdn.staticswin.com
   - cdn.stellarhosted.com
   - cdn.substack.com
   - cdn.sunofbeaches.com
@@ -1408,6 +1409,7 @@ domain_set:
   - img9.socialshopwave.com
   - img9.yna.co.kr
   - imgcdn.cna.com.tw
+  - imgfile.shop
   - imgix.setapp.com
   - imgopt.infoq.com
   - imgproxy.fourthwall.com
@@ -1564,6 +1566,7 @@ domain_set:
   - media.lantern.io
   - media.licdn.com
   - media.loom-app.com
+  - media.maptiler.com
   - media.mas.to
   - media.masto.nu
   - media.minecraftforum.net
@@ -1820,6 +1823,7 @@ domain_set:
   - resource-accel.fs.com
   - resource.akashic.coe.nicovideo.jp
   - resource.fs.com
+  - resource.tnlmediagene.com
   - resource.video.nimg.jp
   - resources-cache.prod.sketch.com
   - resources-live.sketch.cloud
@@ -2196,6 +2200,7 @@ domain_set:
   - static.peatio.com
   - static.pfrt.yna.co.kr
   - static.pingcap.com
+  - static.planetminecraft.com
   - static.playstation.com
   - static.plus.net
   - static.politico.com
@@ -2227,6 +2232,7 @@ domain_set:
   - static.tenki.jp
   - static.test-beta.com
   - static.theguardian.com
+  - static.threatlocker.com
   - static.toiimg.com
   - static.tokenview.io
   - static.toss.im
@@ -2313,6 +2319,7 @@ domain_set:
   - sts3.wsj.net
   - stubdownloader.services.mozilla.com
   - support.content.office.net
+  - sw.cool3c.com
   - sync.getpublica.com
   - t.betterstack.com
   - t.nhentai.net
