@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3613
+# 规则统计: 3612
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -209,6 +209,7 @@ HOST,assets.prowritingaid.com,CDN
 HOST,assets.queue-it.net,CDN
 HOST,assets.quillbot.com,CDN
 HOST,assets.raspberrypi.com,CDN
+HOST,assets.redbullshop.com,CDN
 HOST,assets.repair.org,CDN
 HOST,assets.safing.io,CDN
 HOST,assets.salesmartly.com,CDN
@@ -683,7 +684,6 @@ HOST,cdn.travis-ci.com,CDN
 HOST,cdn.travis-ci.org,CDN
 HOST,cdn.trustedsite.com,CDN
 HOST,cdn.trustpilot.net,CDN
-HOST,cdn.tryadapp.com,CDN
 HOST,cdn.ttgtmedia.com,CDN
 HOST,cdn.ttloli.com,CDN
 HOST,cdn.tuk.dev,CDN
@@ -1168,7 +1168,6 @@ HOST,i.vgy.me,CDN
 HOST,i.xgroovy.com,CDN
 HOST,i.xozilla.xxx,CDN
 HOST,i.xxxshake.com,CDN
-HOST,i1.anysex.com,CDN
 HOST,i2.anysex.com,CDN
 HOST,i2.bahamut.com.tw,CDN
 HOST,i2.hentaifox.com,CDN
@@ -1361,6 +1360,7 @@ HOST,img.openshop.com.hk,CDN
 HOST,img.pawoo.net,CDN
 HOST,img.perfops.net,CDN
 HOST,img.picacomic.com,CDN
+HOST,img.redbull.com,CDN
 HOST,img.reg.ru,CDN
 HOST,img.reimu.net,CDN
 HOST,img.represent.com,CDN
@@ -1664,7 +1664,6 @@ HOST,objects.g0v.social,CDN
 HOST,objects.hit.moe,CDN
 HOST,ocsp.digicert.com,CDN
 HOST,ocsp.godaddy.com,CDN
-HOST,ocsp.int-x3.letsencrypt.org,CDN
 HOST,ocsp.sectigo.com,CDN
 HOST,ocsp.usertrust.com,CDN
 HOST,oct8neproxy.azurewebsites.net,CDN
@@ -1804,6 +1803,7 @@ HOST,r2cdn.perplexity.ai,CDN
 HOST,rapid-cdn.yottaa.com,CDN
 HOST,raw.github.com,CDN
 HOST,rawmarkdown.cloudflareaccess.org,CDN
+HOST,rbds-static.redbull.com,CDN
 HOST,rebound.postmarkapp.com,CDN
 HOST,redircdn.com,CDN
 HOST,registry.api.cnn.io,CDN
@@ -1882,6 +1882,7 @@ HOST,s3-zen.mds.yandex.net,CDN
 HOST,s3.2233778.xyz,CDN
 HOST,s3.aaaaa.io,CDN
 HOST,s3.acg.mn,CDN
+HOST,s3.anilist.co,CDN
 HOST,s3.arkjp.net,CDN
 HOST,s3.c.im,CDN
 HOST,s3.coinmarketcap.com,CDN
@@ -1907,6 +1908,7 @@ HOST,s3.us-west-001.backblazeb2.com,CDN
 HOST,s3.us-west-002.backblazeb2.com,CDN
 HOST,s3.us-west-004.backblazeb2.com,CDN
 HOST,s3media.squarespace.com,CDN
+HOST,s4.anilist.co,CDN
 HOST,s4.itho.me,CDN
 HOST,s4.maxstream.org,CDN
 HOST,s5.maxstream.org,CDN
@@ -1955,7 +1957,6 @@ HOST,segment.digitalocean.com,CDN
 HOST,sentry.ainopara.com,CDN
 HOST,service-icons.zeabur.com,CDN
 HOST,services.linkfire.com,CDN
-HOST,settings.kiwibrowser.com,CDN
 HOST,sf-coze-web-cdn.coze.com,CDN
 HOST,sf-flow-web-cdn.ciciai.com,CDN
 HOST,sfiles.cnyes.cool,CDN
@@ -2111,7 +2112,6 @@ HOST,static.doujins.com,CDN
 HOST,static.drtuber.com,CDN
 HOST,static.dw.com,CDN
 HOST,static.dzeninfra.ru,CDN
-HOST,static.e621.net,CDN
 HOST,static.edge.microsoftapp.net,CDN
 HOST,static.eroterest.net,CDN
 HOST,static.esimplus.net,CDN
@@ -2260,6 +2260,7 @@ HOST,static.zaobao.com.sg,CDN
 HOST,static.zuora.com,CDN
 HOST,static01.nyt.com,CDN
 HOST,static02.nyt.com,CDN
+HOST,static1.e621.net,CDN
 HOST,static1.lottiefiles.com,CDN
 HOST,static1.muchohentai.com,CDN
 HOST,static1.smartbear.co,CDN
@@ -2318,6 +2319,7 @@ HOST,streaming.split.io,CDN
 HOST,sts.online.visualstudio.com,CDN
 HOST,sts3.wsj.net,CDN
 HOST,stubdownloader.services.mozilla.com,CDN
+HOST,styleguide-assets.shannons.com.au,CDN
 HOST,support.content.office.net,CDN
 HOST,sw.cool3c.com,CDN
 HOST,sync.getpublica.com,CDN
@@ -2416,7 +2418,6 @@ HOST,use.typekit.net,CDN
 HOST,user-images.trustpilot.com,CDN
 HOST,user-uploads.perchance.org,CDN
 HOST,usercontent.flodesk.com,CDN
-HOST,userfiles.uptimerobot.com,CDN
 HOST,userpic.redgifs.com,CDN
 HOST,useruploads.visualwebsiteoptimizer.com,CDN
 HOST,utteranc.es,CDN
@@ -2864,7 +2865,6 @@ HOST-SUFFIX,gadgets360cdn.com,CDN
 HOST-SUFFIX,gamccdn.com,CDN
 HOST-SUFFIX,gamesgamescdn.com,CDN
 HOST-SUFFIX,gammacdn.com,CDN
-HOST-SUFFIX,gannetcdn.com,CDN
 HOST-SUFFIX,gateway.originprotocol.com,CDN
 HOST-SUFFIX,gateway.pinata.cloud,CDN
 HOST-SUFFIX,gateway.serph.network,CDN
@@ -3448,7 +3448,6 @@ HOST-SUFFIX,typography.com,CDN
 HOST-SUFFIX,ubembed.com,CDN
 HOST-SUFFIX,uber-assets.com,CDN
 HOST-SUFFIX,ucarecdn.com,CDN
-HOST-SUFFIX,ucloud133.com,CDN
 HOST-SUFFIX,udify.app,CDN
 HOST-SUFFIX,uicdn.net,CDN
 HOST-SUFFIX,ungh.cc,CDN

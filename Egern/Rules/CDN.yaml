@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3613
+# 规则统计: 3612
 
 domain_set:
   - 0x0.st
@@ -210,6 +210,7 @@ domain_set:
   - assets.queue-it.net
   - assets.quillbot.com
   - assets.raspberrypi.com
+  - assets.redbullshop.com
   - assets.repair.org
   - assets.safing.io
   - assets.salesmartly.com
@@ -684,7 +685,6 @@ domain_set:
   - cdn.travis-ci.org
   - cdn.trustedsite.com
   - cdn.trustpilot.net
-  - cdn.tryadapp.com
   - cdn.ttgtmedia.com
   - cdn.ttloli.com
   - cdn.tuk.dev
@@ -1169,7 +1169,6 @@ domain_set:
   - i.xgroovy.com
   - i.xozilla.xxx
   - i.xxxshake.com
-  - i1.anysex.com
   - i2.anysex.com
   - i2.bahamut.com.tw
   - i2.hentaifox.com
@@ -1362,6 +1361,7 @@ domain_set:
   - img.pawoo.net
   - img.perfops.net
   - img.picacomic.com
+  - img.redbull.com
   - img.reg.ru
   - img.reimu.net
   - img.represent.com
@@ -1665,7 +1665,6 @@ domain_set:
   - objects.hit.moe
   - ocsp.digicert.com
   - ocsp.godaddy.com
-  - ocsp.int-x3.letsencrypt.org
   - ocsp.sectigo.com
   - ocsp.usertrust.com
   - oct8neproxy.azurewebsites.net
@@ -1805,6 +1804,7 @@ domain_set:
   - rapid-cdn.yottaa.com
   - raw.github.com
   - rawmarkdown.cloudflareaccess.org
+  - rbds-static.redbull.com
   - rebound.postmarkapp.com
   - redircdn.com
   - registry.api.cnn.io
@@ -1883,6 +1883,7 @@ domain_set:
   - s3.2233778.xyz
   - s3.aaaaa.io
   - s3.acg.mn
+  - s3.anilist.co
   - s3.arkjp.net
   - s3.c.im
   - s3.coinmarketcap.com
@@ -1908,6 +1909,7 @@ domain_set:
   - s3.us-west-002.backblazeb2.com
   - s3.us-west-004.backblazeb2.com
   - s3media.squarespace.com
+  - s4.anilist.co
   - s4.itho.me
   - s4.maxstream.org
   - s5.maxstream.org
@@ -1956,7 +1958,6 @@ domain_set:
   - sentry.ainopara.com
   - service-icons.zeabur.com
   - services.linkfire.com
-  - settings.kiwibrowser.com
   - sf-coze-web-cdn.coze.com
   - sf-flow-web-cdn.ciciai.com
   - sfiles.cnyes.cool
@@ -2112,7 +2113,6 @@ domain_set:
   - static.drtuber.com
   - static.dw.com
   - static.dzeninfra.ru
-  - static.e621.net
   - static.edge.microsoftapp.net
   - static.eroterest.net
   - static.esimplus.net
@@ -2261,6 +2261,7 @@ domain_set:
   - static.zuora.com
   - static01.nyt.com
   - static02.nyt.com
+  - static1.e621.net
   - static1.lottiefiles.com
   - static1.muchohentai.com
   - static1.smartbear.co
@@ -2319,6 +2320,7 @@ domain_set:
   - sts.online.visualstudio.com
   - sts3.wsj.net
   - stubdownloader.services.mozilla.com
+  - styleguide-assets.shannons.com.au
   - support.content.office.net
   - sw.cool3c.com
   - sync.getpublica.com
@@ -2417,7 +2419,6 @@ domain_set:
   - user-images.trustpilot.com
   - user-uploads.perchance.org
   - usercontent.flodesk.com
-  - userfiles.uptimerobot.com
   - userpic.redgifs.com
   - useruploads.visualwebsiteoptimizer.com
   - utteranc.es
@@ -2866,7 +2867,6 @@ domain_suffix_set:
   - gamccdn.com
   - gamesgamescdn.com
   - gammacdn.com
-  - gannetcdn.com
   - gateway.originprotocol.com
   - gateway.pinata.cloud
   - gateway.serph.network
@@ -3450,7 +3450,6 @@ domain_suffix_set:
   - ubembed.com
   - uber-assets.com
   - ucarecdn.com
-  - ucloud133.com
   - udify.app
   - uicdn.net
   - ungh.cc

@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4557
+# 规则统计: 4566
 
 domain_suffix_set:
   - 002777.xyz
@@ -2849,6 +2849,7 @@ domain_suffix_set:
   - nyhdv.com
   - nyjelh.icu
   - nzfcvv.xyz
+  - nzoj.cn
   - nzpvpp.icu
   - nzydzsw.com
   - o.027eat.com
@@ -3097,6 +3098,7 @@ domain_suffix_set:
   - pvvxfh.top
   - pw2.fun
   - pw2ct1.asia
+  - pwchaukoieor.com
   - pwfqjp.xyz
   - pwrgcxaj.icu
   - pwxlbsie.icu
@@ -3162,6 +3164,7 @@ domain_suffix_set:
   - qighodetfg.com
   - qiji1.jdwx.info
   - qimaf.com
+  - qiwqaagnaell.com
   - qiyeb.iaskbus.com
   - qiyegongqiu1.qiyegongqiu.com
   - qjimtyy.top
@@ -3205,6 +3208,7 @@ domain_suffix_set:
   - qrmozsc.icu
   - qronay.xyz
   - qrwcss.xyz
+  - qsko05060mas.com
   - qsoc.cn
   - qsyliey.top
   - qtbo.cn
@@ -3486,6 +3490,7 @@ domain_suffix_set:
   - snnmgdt.icu
   - snueirk.icu
   - snwuamb.top
+  - snwucnb.top
   - snxyf.com
   - snzfj.net
   - so.auto999.cn
@@ -4134,6 +4139,7 @@ domain_suffix_set:
   - wkitere.top
   - wkzw.me
   - wl.uqwjdhgv.top
+  - wlberlaiw.com
   - wlkukrv.icu
   - wlouqsz.xyz
   - wlwgloo.icu
@@ -4415,6 +4421,7 @@ domain_suffix_set:
   - yptqys.tianqistatic.com
   - yqlxkzs.cn
   - yqlzccxn.icu
+  - yqqv.cn
   - yrccils0spqnkc3.xyz
   - yruadj.top
   - ys2000.cdn.bcebos.com
@@ -4495,6 +4502,7 @@ domain_suffix_set:
   - zhongkaowu.com
   - zhongwangmy.cn
   - zhy333.com
+  - zibjls.top
   - zikeke7.com
   - zio8.icu
   - ziqniduy.com
@@ -4549,6 +4557,7 @@ domain_suffix_set:
   - zwgqzgo.icu
   - zwlxnj.xyz
   - zx.docin.com
+  - zxiws.cn
   - zxpaa.xyz
   - zxptw.cn
   - zxqiwe.cn

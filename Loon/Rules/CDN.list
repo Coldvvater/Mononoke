@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3613
+# 规则统计: 3612
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -209,6 +209,7 @@ DOMAIN,assets.prowritingaid.com
 DOMAIN,assets.queue-it.net
 DOMAIN,assets.quillbot.com
 DOMAIN,assets.raspberrypi.com
+DOMAIN,assets.redbullshop.com
 DOMAIN,assets.repair.org
 DOMAIN,assets.safing.io
 DOMAIN,assets.salesmartly.com
@@ -683,7 +684,6 @@ DOMAIN,cdn.travis-ci.com
 DOMAIN,cdn.travis-ci.org
 DOMAIN,cdn.trustedsite.com
 DOMAIN,cdn.trustpilot.net
-DOMAIN,cdn.tryadapp.com
 DOMAIN,cdn.ttgtmedia.com
 DOMAIN,cdn.ttloli.com
 DOMAIN,cdn.tuk.dev
@@ -1168,7 +1168,6 @@ DOMAIN,i.vgy.me
 DOMAIN,i.xgroovy.com
 DOMAIN,i.xozilla.xxx
 DOMAIN,i.xxxshake.com
-DOMAIN,i1.anysex.com
 DOMAIN,i2.anysex.com
 DOMAIN,i2.bahamut.com.tw
 DOMAIN,i2.hentaifox.com
@@ -1361,6 +1360,7 @@ DOMAIN,img.openshop.com.hk
 DOMAIN,img.pawoo.net
 DOMAIN,img.perfops.net
 DOMAIN,img.picacomic.com
+DOMAIN,img.redbull.com
 DOMAIN,img.reg.ru
 DOMAIN,img.reimu.net
 DOMAIN,img.represent.com
@@ -1664,7 +1664,6 @@ DOMAIN,objects.g0v.social
 DOMAIN,objects.hit.moe
 DOMAIN,ocsp.digicert.com
 DOMAIN,ocsp.godaddy.com
-DOMAIN,ocsp.int-x3.letsencrypt.org
 DOMAIN,ocsp.sectigo.com
 DOMAIN,ocsp.usertrust.com
 DOMAIN,oct8neproxy.azurewebsites.net
@@ -1804,6 +1803,7 @@ DOMAIN,r2cdn.perplexity.ai
 DOMAIN,rapid-cdn.yottaa.com
 DOMAIN,raw.github.com
 DOMAIN,rawmarkdown.cloudflareaccess.org
+DOMAIN,rbds-static.redbull.com
 DOMAIN,rebound.postmarkapp.com
 DOMAIN,redircdn.com
 DOMAIN,registry.api.cnn.io
@@ -1882,6 +1882,7 @@ DOMAIN,s3-zen.mds.yandex.net
 DOMAIN,s3.2233778.xyz
 DOMAIN,s3.aaaaa.io
 DOMAIN,s3.acg.mn
+DOMAIN,s3.anilist.co
 DOMAIN,s3.arkjp.net
 DOMAIN,s3.c.im
 DOMAIN,s3.coinmarketcap.com
@@ -1907,6 +1908,7 @@ DOMAIN,s3.us-west-001.backblazeb2.com
 DOMAIN,s3.us-west-002.backblazeb2.com
 DOMAIN,s3.us-west-004.backblazeb2.com
 DOMAIN,s3media.squarespace.com
+DOMAIN,s4.anilist.co
 DOMAIN,s4.itho.me
 DOMAIN,s4.maxstream.org
 DOMAIN,s5.maxstream.org
@@ -1955,7 +1957,6 @@ DOMAIN,segment.digitalocean.com
 DOMAIN,sentry.ainopara.com
 DOMAIN,service-icons.zeabur.com
 DOMAIN,services.linkfire.com
-DOMAIN,settings.kiwibrowser.com
 DOMAIN,sf-coze-web-cdn.coze.com
 DOMAIN,sf-flow-web-cdn.ciciai.com
 DOMAIN,sfiles.cnyes.cool
@@ -2111,7 +2112,6 @@ DOMAIN,static.doujins.com
 DOMAIN,static.drtuber.com
 DOMAIN,static.dw.com
 DOMAIN,static.dzeninfra.ru
-DOMAIN,static.e621.net
 DOMAIN,static.edge.microsoftapp.net
 DOMAIN,static.eroterest.net
 DOMAIN,static.esimplus.net
@@ -2260,6 +2260,7 @@ DOMAIN,static.zaobao.com.sg
 DOMAIN,static.zuora.com
 DOMAIN,static01.nyt.com
 DOMAIN,static02.nyt.com
+DOMAIN,static1.e621.net
 DOMAIN,static1.lottiefiles.com
 DOMAIN,static1.muchohentai.com
 DOMAIN,static1.smartbear.co
@@ -2318,6 +2319,7 @@ DOMAIN,streaming.split.io
 DOMAIN,sts.online.visualstudio.com
 DOMAIN,sts3.wsj.net
 DOMAIN,stubdownloader.services.mozilla.com
+DOMAIN,styleguide-assets.shannons.com.au
 DOMAIN,support.content.office.net
 DOMAIN,sw.cool3c.com
 DOMAIN,sync.getpublica.com
@@ -2416,7 +2418,6 @@ DOMAIN,use.typekit.net
 DOMAIN,user-images.trustpilot.com
 DOMAIN,user-uploads.perchance.org
 DOMAIN,usercontent.flodesk.com
-DOMAIN,userfiles.uptimerobot.com
 DOMAIN,userpic.redgifs.com
 DOMAIN,useruploads.visualwebsiteoptimizer.com
 DOMAIN,utteranc.es
@@ -2864,7 +2865,6 @@ DOMAIN-SUFFIX,gadgets360cdn.com
 DOMAIN-SUFFIX,gamccdn.com
 DOMAIN-SUFFIX,gamesgamescdn.com
 DOMAIN-SUFFIX,gammacdn.com
-DOMAIN-SUFFIX,gannetcdn.com
 DOMAIN-SUFFIX,gateway.originprotocol.com
 DOMAIN-SUFFIX,gateway.pinata.cloud
 DOMAIN-SUFFIX,gateway.serph.network
@@ -3448,7 +3448,6 @@ DOMAIN-SUFFIX,typography.com
 DOMAIN-SUFFIX,ubembed.com
 DOMAIN-SUFFIX,uber-assets.com
 DOMAIN-SUFFIX,ucarecdn.com
-DOMAIN-SUFFIX,ucloud133.com
 DOMAIN-SUFFIX,udify.app
 DOMAIN-SUFFIX,uicdn.net
 DOMAIN-SUFFIX,ungh.cc
