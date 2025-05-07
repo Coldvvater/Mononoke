@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3612
+# 规则统计: 3620
 
 domain_set:
   - 0x0.st
@@ -556,6 +556,7 @@ domain_set:
   - cdn.libravatar.org
   - cdn.lihkg.com
   - cdn.linearicons.com
+  - cdn.linux.do
   - cdn.livechatinc.com
   - cdn.loom.com
   - cdn.macstories.net
@@ -1185,6 +1186,10 @@ domain_set:
   - icons.veryicon.com
   - icons.zeabur.com
   - iframe.nbcnews.com
+  - ih0.redbubble.net
+  - ih1.redbubble.net
+  - ih2.redbubble.net
+  - ih3.redbubble.net
   - ik.imgkit.net
   - imag.malavida.com
   - image-forwarder.notaku.so
@@ -2396,6 +2401,7 @@ domain_set:
   - ui-cdn.digitalocean.com
   - ui-statics-cf.streamable.com
   - ui.contentstack.com
+  - ui.powerreviews.com
   - ui.trailhead.com
   - unlimited-cdn.waifu2x.net
   - unsubscribe-imgs.leavemealone.com
@@ -2757,6 +2763,7 @@ domain_suffix_set:
   - dditscdn.com
   - ddpic.info
   - delegated-ipfs.dev
+  - dellcdn.com
   - deno.land
   - denopkg.com
   - descopecdn.com
@@ -3068,6 +3075,7 @@ domain_suffix_set:
   - larksuitecdn.com
   - lbpicpic.com
   - lbpictupian.com
+  - ldstatic.com
   - lencr.org
   - liangzipic.com
   - licensebuttons.net

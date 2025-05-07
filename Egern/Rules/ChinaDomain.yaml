@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 791
+# 规则统计: 796
 
 domain_set:
   - acg.tv
@@ -12,6 +12,7 @@ domain_set:
   - dl.ubnt.com
   - doh.pub
   - gstore.val.manlaxy.com
+  - i.dell.com
   - lv.queniujq.cn
   - media.cdn.queniuqe.com
   - ocsp.globalsign.com
@@ -175,6 +176,7 @@ domain_suffix_set:
   - bosszhipin.com
   - byteacctimg.com
   - bytecdn.cn
+  - bytecdntp.com
   - byted-static.com
   - bytedance.com
   - bytednsdoc.com
@@ -462,6 +464,7 @@ domain_suffix_set:
   - leleketang.com
   - lenovomm.com
   - letvimg.com
+  - lf127.net
   - lianjia.com
   - linkedin.cn
   - livechina.cn
@@ -666,6 +669,7 @@ domain_suffix_set:
   - taopiaopiao.com
   - tb.cn
   - tbcache.com
+  - tbcdn.cn
   - tcdnlive.com
   - tencent-cloud.com
   - tencent-cloud.net
@@ -724,6 +728,7 @@ domain_suffix_set:
   - wmsj.cn
   - wmsjsteam.com
   - wo.cn
+  - wosms.cn
   - wps.cn
   - wpscdn.cn
   - wpscdn.com

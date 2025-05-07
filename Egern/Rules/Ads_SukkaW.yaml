@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 73148
+# 规则统计: 73174
 
 no_resolve: true
 domain_set:
@@ -542,7 +542,6 @@ domain_set:
   - ggx02.miguvideo.com
   - ggx10.miguvideo.com
   - gif.7mmtv.sx
-  - global.search.xiaomi.net
   - glores2.taisantech.com
   - gma.alicdn.com
   - goblin.hupu.com
@@ -678,7 +677,6 @@ domain_set:
   - js-ad.a.yximgs.com
   - js.iterable.com
   - js.partnerstack.com
-  - jsadsdisplay.cn-beijing.log.aliyuncs.com
   - jzt.jd.com
   - kepler.jd.com
   - kgmobilestat.kugou.com
@@ -720,6 +718,7 @@ domain_set:
   - log.web.kugou.com
   - log.yex.youdao.com
   - log.ys7.com
+  - log.zijieapi.com
   - log1.cmpassport.com
   - logs.chelaile.net.cn
   - logview.uc.alimama.com
@@ -772,7 +771,6 @@ domain_set:
   - mixers.sina.cn
   - mj.weimob.net
   - mlog.hiido.com
-  - mlog.search.xiaomi.net
   - mob.bz.mgtv.com
   - mobads-logs.baidu.com
   - mobads-pre-config.cdn.bcebos.com
@@ -868,6 +866,7 @@ domain_set:
   - pg-ad-b2.ws.126.net
   - phonecallapi.micloud.xiaomi.net
   - pindao.huoban.taobao.com
+  - ping.ifixit.com
   - pl.cp12.wasu.tv
   - pl.youku.com
   - plt.data.pplive.com
@@ -1809,6 +1808,7 @@ domain_suffix_set:
   - 554koaylwga7.top
   - 555ppp777ppp.com
   - 55726zubo56686.com
+  - 558158.xyz
   - 55876234.xyz
   - 55f4605f6d.com
   - 562i7aqkxu.com
@@ -7369,6 +7369,7 @@ domain_suffix_set:
   - aoxbbx.creditoseconomicos.com
   - aozmpm.jwell.com
   - ap-srv.net
+  - ap.attainplatform.io
   - ap.delfi.ee
   - ap.frarychazan.com
   - ap.quadient.com
@@ -9258,6 +9259,7 @@ domain_suffix_set:
   - b3stcond1tions.com
   - b3z29k1uxb.com
   - b42rracj.com
+  - b4ced3abcd.com
   - b58ncoa1c07f.com
   - b5j6itccyluq.nofluffjobs.com
   - b607.dailylocal.com
@@ -13303,6 +13305,7 @@ domain_suffix_set:
   - condor.stadttunnel-feldkirch.at
   - conductmassage.com
   - conduit-banners.com
+  - conduit-beacon.mtvnservices.com
   - conduit-services.com
   - conenectedithcons.org
   - conf.international.baidu.com
@@ -13319,6 +13322,7 @@ domain_suffix_set:
   - config.appjolt.com
   - config.emb-api.com
   - config.safedk.com
+  - config.sdk.kochava.dewrain.life
   - config.uca.cloud.unity3d.com
   - configserver-dra.platform.hicloud.com
   - configuration.ttpsdk.info
@@ -14171,6 +14175,7 @@ domain_suffix_set:
   - crosspromo.voodoo.io
   - crosspromotion-us.avosapps.us
   - crosspromotion.weplayer.cc
+  - croupsdorsals.top
   - crow.centresustains.com
   - crow.claudiakeil.de
   - crow.gim.technology
@@ -14520,6 +14525,7 @@ domain_suffix_set:
   - customer.autos
   - customer.newsflare.com
   - customercare.myomnipod.com
+  - customerevents.dradis.netflix.com
   - customerevents.netflix.com
   - customerexperience.verintsystemsinc.com
   - customerjourney.mba.org
@@ -15642,6 +15648,7 @@ domain_suffix_set:
   - dajdnm.splits59.com
   - dajiahao10.top
   - dajiahao17.top
+  - dajiahao3.top
   - dajiahao8.top
   - dajiahao9.top
   - dajkqqpz.top
@@ -18977,6 +18984,7 @@ domain_suffix_set:
   - dc2.credit-suisse.com
   - dc5ig2fc8lg83.cloudfront.net
   - dc5k8fg5ioc8s.cloudfront.net
+  - dc7dad4603.com
   - dc8na2hxrj29i.cloudfront.net
   - dc8xl0ndzn2cb.cloudfront.net
   - dcagup.feyenoordfanshop.nl
@@ -21133,7 +21141,6 @@ domain_suffix_set:
   - edalhf.mynamenecklacecanada.com
   - edamcsw.top
   - edavbu.vittz.co.kr
-  - edc588f8b9.dc7dad4603.com
   - edcmktg.ashevillechamber.org
   - edcybh.urbannatural.com
   - eddcc.icu
@@ -21310,6 +21317,7 @@ domain_suffix_set:
   - efficiency.visma.lv
   - efficiency.visma.se
   - efficiency.vismaspcs.se
+  - effirst.com
   - effrow.eurekakids.es
   - effulgenttempest.com
   - efg.zle.com
@@ -26380,6 +26388,7 @@ domain_suffix_set:
   - greatlifebargains2024.com
   - greckoaghoate.net
   - grecmaru.com
+  - gredraupse.net
   - gredritchupsa.net
   - gredroug.net
   - greedrum.net
@@ -27675,6 +27684,7 @@ domain_suffix_set:
   - hcecde.dieti-natura.com
   - hchlqx.ghbass.com
   - hchus5739dmew.top
+  - hcimixnajojl.com
   - hcinmau.top
   - hcinvdu.top
   - hcirentgh.360doc.cn
@@ -28161,6 +28171,7 @@ domain_suffix_set:
   - hkcciq.westfaelischer-jobanzeiger.de
   - hkdcre.elvie.com
   - hkgwwf.sunparks.com
+  - hkiqfjkqswwa.com
   - hkj8.evobanco.com
   - hkjfukkhwfepo.club
   - hkjzkrqz.icu
@@ -28716,6 +28727,7 @@ domain_suffix_set:
   - hypervre.com
   - hyphenatedion.com
   - hypnotismjamrelay.com
+  - hypnotizebaseballjesus.com
   - hypnotizesqueegeetricolor.com
   - hypocrisysmallestbelieving.com
   - hyrankhit.meldingcloud.com
@@ -28875,6 +28887,7 @@ domain_suffix_set:
   - ichc1.xinglinpukang.com
   - ichimaip.net
   - ichnaea-web.netflix.com
+  - ichnaea.dradis.netflix.com
   - ichnaea.netflix.com
   - ichowhushoubi.net
   - icilyassertiveindoors.com
@@ -31277,6 +31290,7 @@ domain_suffix_set:
   - iqmetrics.wiwo.de
   - iqmetrics.zeit.de
   - iqsepj.ssoaeng.co.kr
+  - iqtucudfff.com
   - iqvhap.globalrose.com
   - iqxzph.grandecosmetics.com
   - iqyioj.harryanddavid.com
@@ -31779,6 +31793,7 @@ domain_suffix_set:
   - jeetyetmedia.com
   - jegplj.marketb.kr
   - jehobsee.com
+  - jekzyyyljvrbl.top
   - jekzyyyljvyww.top
   - jelliconitrate.shop
   - jellyfish.teresaharlow.com
@@ -35874,6 +35889,7 @@ domain_suffix_set:
   - log.ahamo.com
   - log.aimtell.com
   - log.ajunews.com
+  - log.aliyuncs.com
   - log.api.useinsider.com
   - log.api.zaloapp.com
   - log.apk.v-mate.mobi
@@ -43684,6 +43700,7 @@ domain_suffix_set:
   - notix.io
   - notoings.com
   - notorietycheerypositively.com
+  - noudounaigri.net
   - nougacoush.com
   - noughttrustthreshold.com
   - noundictionary.com
@@ -48586,7 +48603,6 @@ domain_suffix_set:
   - px.adfulplatform.com
   - px.adhigh.net
   - px.dmp.zaloapp.com
-  - px.effirst.com
   - px.gfycat.com
   - px.marchex.io
   - px.mountain.com
@@ -49677,6 +49693,7 @@ domain_suffix_set:
   - redbutton.sim-technik.de
   - reddwarf.till-sanders.de
   - redexamination.com
+  - redfast.com
   - redir-v4.tidalspring.xyz
   - redir.bluespringcoast.com
   - redir.hightid.xyz
@@ -50171,6 +50188,7 @@ domain_suffix_set:
   - rfdqlehuiufyk.click
   - rferl.c.goolara.net
   - rffsds.fsastore.com
+  - rfgsdgg.top
   - rfihub.com
   - rfihub.net
   - rfity.com
@@ -50425,6 +50443,7 @@ domain_suffix_set:
   - roamapheejub.com
   - roapsoogaiz.net
   - roastoup.com
+  - roawhuchoow.net
   - robazi.xyz
   - robspabah.com
   - rockersbaalize.com
@@ -52466,6 +52485,7 @@ domain_suffix_set:
   - search.onolm.click
   - search.unation.top
   - search.valuehunter.site
+  - search.xiaomi.net
   - searchdatestoday.com
   - searchestracker.org
   - searchmarquis.com
@@ -55351,6 +55371,7 @@ domain_suffix_set:
   - sptrck.com
   - sptrkr.com
   - spukesuzette.shop
+  - spumvgltasdrjg.xyz
   - spxl.socy.es
   - spy.epornleak.com
   - spydun.nununuworld.com
@@ -58879,6 +58900,7 @@ domain_suffix_set:
   - statystyki.ekspertyzy-szkolenia.pl
   - statystyki.panelek.com
   - staumersleep.com
+  - staupauptou.com
   - staupsoaksy.net
   - staureez.net
   - stawhoph.com
@@ -67444,6 +67466,7 @@ domain_suffix_set:
   - ungroudonchan.com
   - ungyveporkies.com
   - unhatedkrubi.shop
+  - unheadedsouptotal.com
   - uni7.uniplaces.com
   - unicume.com
   - unidentifiedanalytics.web.app
@@ -68632,6 +68655,7 @@ domain_suffix_set:
   - viewedspurtdysfunctional.com
   - viewlnk.com
   - viewpath.xyz
+  - views-dual.hulu.com
   - views.2222.ro
   - views.cancan.ro
   - views.ericcapella.com
@@ -71925,6 +71949,7 @@ domain_suffix_set:
   - ygdhmgjly.xyz
   - ygecho.wenz.de
   - ygfycf.cpa.mynavi.jp
+  - yghalathio.com
   - yghrhc.agasus.com.br
   - ygipjqf.icu
   - ygjxol.hometogo.com.mx
@@ -71937,6 +71962,7 @@ domain_suffix_set:
   - yhbcii.com
   - yhbdzh.farmasiint.com
   - yhdcdo.crazy-factory.com
+  - yhgfsdad.top
   - yhgyog.elephantstock.com
   - yhhuzt.gintarine.lt
   - yhigae.junyu-fuku.com

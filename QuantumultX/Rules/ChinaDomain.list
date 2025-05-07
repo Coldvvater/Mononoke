@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 794
+# 规则统计: 799
 
 HOST,acg.tv,ChinaDomain
 HOST,assets1.xboxlive.cn,ChinaDomain
@@ -11,6 +11,7 @@ HOST,config.ubnt.com,ChinaDomain
 HOST,dl.ubnt.com,ChinaDomain
 HOST,doh.pub,ChinaDomain
 HOST,gstore.val.manlaxy.com,ChinaDomain
+HOST,i.dell.com,ChinaDomain
 HOST,lv.queniujq.cn,ChinaDomain
 HOST,media.cdn.queniuqe.com,ChinaDomain
 HOST,ocsp.globalsign.com,ChinaDomain
@@ -173,6 +174,7 @@ HOST-SUFFIX,boc.cn,ChinaDomain
 HOST-SUFFIX,bosszhipin.com,ChinaDomain
 HOST-SUFFIX,byteacctimg.com,ChinaDomain
 HOST-SUFFIX,bytecdn.cn,ChinaDomain
+HOST-SUFFIX,bytecdntp.com,ChinaDomain
 HOST-SUFFIX,byted-static.com,ChinaDomain
 HOST-SUFFIX,bytedance.com,ChinaDomain
 HOST-SUFFIX,bytednsdoc.com,ChinaDomain
@@ -460,6 +462,7 @@ HOST-SUFFIX,leiniao.com,ChinaDomain
 HOST-SUFFIX,leleketang.com,ChinaDomain
 HOST-SUFFIX,lenovomm.com,ChinaDomain
 HOST-SUFFIX,letvimg.com,ChinaDomain
+HOST-SUFFIX,lf127.net,ChinaDomain
 HOST-SUFFIX,lianjia.com,ChinaDomain
 HOST-SUFFIX,linkedin.cn,ChinaDomain
 HOST-SUFFIX,livechina.cn,ChinaDomain
@@ -664,6 +667,7 @@ HOST-SUFFIX,taobaocdn.com,ChinaDomain
 HOST-SUFFIX,taopiaopiao.com,ChinaDomain
 HOST-SUFFIX,tb.cn,ChinaDomain
 HOST-SUFFIX,tbcache.com,ChinaDomain
+HOST-SUFFIX,tbcdn.cn,ChinaDomain
 HOST-SUFFIX,tcdnlive.com,ChinaDomain
 HOST-SUFFIX,tencent-cloud.com,ChinaDomain
 HOST-SUFFIX,tencent-cloud.net,ChinaDomain
@@ -722,6 +726,7 @@ HOST-SUFFIX,wifi8.com,ChinaDomain
 HOST-SUFFIX,wmsj.cn,ChinaDomain
 HOST-SUFFIX,wmsjsteam.com,ChinaDomain
 HOST-SUFFIX,wo.cn,ChinaDomain
+HOST-SUFFIX,wosms.cn,ChinaDomain
 HOST-SUFFIX,wps.cn,ChinaDomain
 HOST-SUFFIX,wpscdn.cn,ChinaDomain
 HOST-SUFFIX,wpscdn.com,ChinaDomain

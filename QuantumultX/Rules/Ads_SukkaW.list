@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 73148
+# 规则统计: 73174
 
 HOST,03.lzzncm.com,Ads_SukkaW
 HOST,04.lzzncm.com,Ads_SukkaW
@@ -540,7 +540,6 @@ HOST,ggx01.miguvideo.com,Ads_SukkaW
 HOST,ggx02.miguvideo.com,Ads_SukkaW
 HOST,ggx10.miguvideo.com,Ads_SukkaW
 HOST,gif.7mmtv.sx,Ads_SukkaW
-HOST,global.search.xiaomi.net,Ads_SukkaW
 HOST,glores2.taisantech.com,Ads_SukkaW
 HOST,gma.alicdn.com,Ads_SukkaW
 HOST,goblin.hupu.com,Ads_SukkaW
@@ -676,7 +675,6 @@ HOST,jrad.jd.com,Ads_SukkaW
 HOST,js-ad.a.yximgs.com,Ads_SukkaW
 HOST,js.iterable.com,Ads_SukkaW
 HOST,js.partnerstack.com,Ads_SukkaW
-HOST,jsadsdisplay.cn-beijing.log.aliyuncs.com,Ads_SukkaW
 HOST,jzt.jd.com,Ads_SukkaW
 HOST,kepler.jd.com,Ads_SukkaW
 HOST,kgmobilestat.kugou.com,Ads_SukkaW
@@ -718,6 +716,7 @@ HOST,log.v2.hunantv.com,Ads_SukkaW
 HOST,log.web.kugou.com,Ads_SukkaW
 HOST,log.yex.youdao.com,Ads_SukkaW
 HOST,log.ys7.com,Ads_SukkaW
+HOST,log.zijieapi.com,Ads_SukkaW
 HOST,log1.cmpassport.com,Ads_SukkaW
 HOST,logs.chelaile.net.cn,Ads_SukkaW
 HOST,logview.uc.alimama.com,Ads_SukkaW
@@ -770,7 +769,6 @@ HOST,mixern.sina.cn,Ads_SukkaW
 HOST,mixers.sina.cn,Ads_SukkaW
 HOST,mj.weimob.net,Ads_SukkaW
 HOST,mlog.hiido.com,Ads_SukkaW
-HOST,mlog.search.xiaomi.net,Ads_SukkaW
 HOST,mob.bz.mgtv.com,Ads_SukkaW
 HOST,mobads-logs.baidu.com,Ads_SukkaW
 HOST,mobads-pre-config.cdn.bcebos.com,Ads_SukkaW
@@ -866,6 +864,7 @@ HOST,pg-ad-b1.ws.126.net,Ads_SukkaW
 HOST,pg-ad-b2.ws.126.net,Ads_SukkaW
 HOST,phonecallapi.micloud.xiaomi.net,Ads_SukkaW
 HOST,pindao.huoban.taobao.com,Ads_SukkaW
+HOST,ping.ifixit.com,Ads_SukkaW
 HOST,pl.cp12.wasu.tv,Ads_SukkaW
 HOST,pl.youku.com,Ads_SukkaW
 HOST,plt.data.pplive.com,Ads_SukkaW
@@ -1806,6 +1805,7 @@ HOST-SUFFIX,54gtlb.cn,Ads_SukkaW
 HOST-SUFFIX,554koaylwga7.top,Ads_SukkaW
 HOST-SUFFIX,555ppp777ppp.com,Ads_SukkaW
 HOST-SUFFIX,55726zubo56686.com,Ads_SukkaW
+HOST-SUFFIX,558158.xyz,Ads_SukkaW
 HOST-SUFFIX,55876234.xyz,Ads_SukkaW
 HOST-SUFFIX,55f4605f6d.com,Ads_SukkaW
 HOST-SUFFIX,562i7aqkxu.com,Ads_SukkaW
@@ -7366,6 +7366,7 @@ HOST-SUFFIX,aoulpo.puccini.pl,Ads_SukkaW
 HOST-SUFFIX,aoxbbx.creditoseconomicos.com,Ads_SukkaW
 HOST-SUFFIX,aozmpm.jwell.com,Ads_SukkaW
 HOST-SUFFIX,ap-srv.net,Ads_SukkaW
+HOST-SUFFIX,ap.attainplatform.io,Ads_SukkaW
 HOST-SUFFIX,ap.delfi.ee,Ads_SukkaW
 HOST-SUFFIX,ap.frarychazan.com,Ads_SukkaW
 HOST-SUFFIX,ap.quadient.com,Ads_SukkaW
@@ -9255,6 +9256,7 @@ HOST-SUFFIX,b3mxnuvcer.com,Ads_SukkaW
 HOST-SUFFIX,b3stcond1tions.com,Ads_SukkaW
 HOST-SUFFIX,b3z29k1uxb.com,Ads_SukkaW
 HOST-SUFFIX,b42rracj.com,Ads_SukkaW
+HOST-SUFFIX,b4ced3abcd.com,Ads_SukkaW
 HOST-SUFFIX,b58ncoa1c07f.com,Ads_SukkaW
 HOST-SUFFIX,b5j6itccyluq.nofluffjobs.com,Ads_SukkaW
 HOST-SUFFIX,b607.dailylocal.com,Ads_SukkaW
@@ -13300,6 +13302,7 @@ HOST-SUFFIX,condor.oskarthoren.com,Ads_SukkaW
 HOST-SUFFIX,condor.stadttunnel-feldkirch.at,Ads_SukkaW
 HOST-SUFFIX,conductmassage.com,Ads_SukkaW
 HOST-SUFFIX,conduit-banners.com,Ads_SukkaW
+HOST-SUFFIX,conduit-beacon.mtvnservices.com,Ads_SukkaW
 HOST-SUFFIX,conduit-services.com,Ads_SukkaW
 HOST-SUFFIX,conenectedithcons.org,Ads_SukkaW
 HOST-SUFFIX,conf.international.baidu.com,Ads_SukkaW
@@ -13316,6 +13319,7 @@ HOST-SUFFIX,config-api.internet.apps.samsung.com,Ads_SukkaW
 HOST-SUFFIX,config.appjolt.com,Ads_SukkaW
 HOST-SUFFIX,config.emb-api.com,Ads_SukkaW
 HOST-SUFFIX,config.safedk.com,Ads_SukkaW
+HOST-SUFFIX,config.sdk.kochava.dewrain.life,Ads_SukkaW
 HOST-SUFFIX,config.uca.cloud.unity3d.com,Ads_SukkaW
 HOST-SUFFIX,configserver-dra.platform.hicloud.com,Ads_SukkaW
 HOST-SUFFIX,configuration.ttpsdk.info,Ads_SukkaW
@@ -14168,6 +14172,7 @@ HOST-SUFFIX,crossoverchina.com,Ads_SukkaW
 HOST-SUFFIX,crosspromo.voodoo.io,Ads_SukkaW
 HOST-SUFFIX,crosspromotion-us.avosapps.us,Ads_SukkaW
 HOST-SUFFIX,crosspromotion.weplayer.cc,Ads_SukkaW
+HOST-SUFFIX,croupsdorsals.top,Ads_SukkaW
 HOST-SUFFIX,crow.centresustains.com,Ads_SukkaW
 HOST-SUFFIX,crow.claudiakeil.de,Ads_SukkaW
 HOST-SUFFIX,crow.gim.technology,Ads_SukkaW
@@ -14517,6 +14522,7 @@ HOST-SUFFIX,customer-engagement.verintsystemsinc.com,Ads_SukkaW
 HOST-SUFFIX,customer.autos,Ads_SukkaW
 HOST-SUFFIX,customer.newsflare.com,Ads_SukkaW
 HOST-SUFFIX,customercare.myomnipod.com,Ads_SukkaW
+HOST-SUFFIX,customerevents.dradis.netflix.com,Ads_SukkaW
 HOST-SUFFIX,customerevents.netflix.com,Ads_SukkaW
 HOST-SUFFIX,customerexperience.verintsystemsinc.com,Ads_SukkaW
 HOST-SUFFIX,customerjourney.mba.org,Ads_SukkaW
@@ -15639,6 +15645,7 @@ HOST-SUFFIX,daizoode.com,Ads_SukkaW
 HOST-SUFFIX,dajdnm.splits59.com,Ads_SukkaW
 HOST-SUFFIX,dajiahao10.top,Ads_SukkaW
 HOST-SUFFIX,dajiahao17.top,Ads_SukkaW
+HOST-SUFFIX,dajiahao3.top,Ads_SukkaW
 HOST-SUFFIX,dajiahao8.top,Ads_SukkaW
 HOST-SUFFIX,dajiahao9.top,Ads_SukkaW
 HOST-SUFFIX,dajkqqpz.top,Ads_SukkaW
@@ -18974,6 +18981,7 @@ HOST-SUFFIX,dc08i221b0n8a.cloudfront.net,Ads_SukkaW
 HOST-SUFFIX,dc2.credit-suisse.com,Ads_SukkaW
 HOST-SUFFIX,dc5ig2fc8lg83.cloudfront.net,Ads_SukkaW
 HOST-SUFFIX,dc5k8fg5ioc8s.cloudfront.net,Ads_SukkaW
+HOST-SUFFIX,dc7dad4603.com,Ads_SukkaW
 HOST-SUFFIX,dc8na2hxrj29i.cloudfront.net,Ads_SukkaW
 HOST-SUFFIX,dc8xl0ndzn2cb.cloudfront.net,Ads_SukkaW
 HOST-SUFFIX,dcagup.feyenoordfanshop.nl,Ads_SukkaW
@@ -21130,7 +21138,6 @@ HOST-SUFFIX,edadmy.xyz,Ads_SukkaW
 HOST-SUFFIX,edalhf.mynamenecklacecanada.com,Ads_SukkaW
 HOST-SUFFIX,edamcsw.top,Ads_SukkaW
 HOST-SUFFIX,edavbu.vittz.co.kr,Ads_SukkaW
-HOST-SUFFIX,edc588f8b9.dc7dad4603.com,Ads_SukkaW
 HOST-SUFFIX,edcmktg.ashevillechamber.org,Ads_SukkaW
 HOST-SUFFIX,edcybh.urbannatural.com,Ads_SukkaW
 HOST-SUFFIX,eddcc.icu,Ads_SukkaW
@@ -21307,6 +21314,7 @@ HOST-SUFFIX,efficiency.visma.fi,Ads_SukkaW
 HOST-SUFFIX,efficiency.visma.lv,Ads_SukkaW
 HOST-SUFFIX,efficiency.visma.se,Ads_SukkaW
 HOST-SUFFIX,efficiency.vismaspcs.se,Ads_SukkaW
+HOST-SUFFIX,effirst.com,Ads_SukkaW
 HOST-SUFFIX,effrow.eurekakids.es,Ads_SukkaW
 HOST-SUFFIX,effulgenttempest.com,Ads_SukkaW
 HOST-SUFFIX,efg.zle.com,Ads_SukkaW
@@ -26377,6 +26385,7 @@ HOST-SUFFIX,greatfitfr.com,Ads_SukkaW
 HOST-SUFFIX,greatlifebargains2024.com,Ads_SukkaW
 HOST-SUFFIX,greckoaghoate.net,Ads_SukkaW
 HOST-SUFFIX,grecmaru.com,Ads_SukkaW
+HOST-SUFFIX,gredraupse.net,Ads_SukkaW
 HOST-SUFFIX,gredritchupsa.net,Ads_SukkaW
 HOST-SUFFIX,gredroug.net,Ads_SukkaW
 HOST-SUFFIX,greedrum.net,Ads_SukkaW
@@ -27672,6 +27681,7 @@ HOST-SUFFIX,hcdnpe.iareduceri.ro,Ads_SukkaW
 HOST-SUFFIX,hcecde.dieti-natura.com,Ads_SukkaW
 HOST-SUFFIX,hchlqx.ghbass.com,Ads_SukkaW
 HOST-SUFFIX,hchus5739dmew.top,Ads_SukkaW
+HOST-SUFFIX,hcimixnajojl.com,Ads_SukkaW
 HOST-SUFFIX,hcinmau.top,Ads_SukkaW
 HOST-SUFFIX,hcinvdu.top,Ads_SukkaW
 HOST-SUFFIX,hcirentgh.360doc.cn,Ads_SukkaW
@@ -28158,6 +28168,7 @@ HOST-SUFFIX,hk2d.tourismemauricie.com,Ads_SukkaW
 HOST-SUFFIX,hkcciq.westfaelischer-jobanzeiger.de,Ads_SukkaW
 HOST-SUFFIX,hkdcre.elvie.com,Ads_SukkaW
 HOST-SUFFIX,hkgwwf.sunparks.com,Ads_SukkaW
+HOST-SUFFIX,hkiqfjkqswwa.com,Ads_SukkaW
 HOST-SUFFIX,hkj8.evobanco.com,Ads_SukkaW
 HOST-SUFFIX,hkjfukkhwfepo.club,Ads_SukkaW
 HOST-SUFFIX,hkjzkrqz.icu,Ads_SukkaW
@@ -28713,6 +28724,7 @@ HOST-SUFFIX,hypertrackeraff.com,Ads_SukkaW
 HOST-SUFFIX,hypervre.com,Ads_SukkaW
 HOST-SUFFIX,hyphenatedion.com,Ads_SukkaW
 HOST-SUFFIX,hypnotismjamrelay.com,Ads_SukkaW
+HOST-SUFFIX,hypnotizebaseballjesus.com,Ads_SukkaW
 HOST-SUFFIX,hypnotizesqueegeetricolor.com,Ads_SukkaW
 HOST-SUFFIX,hypocrisysmallestbelieving.com,Ads_SukkaW
 HOST-SUFFIX,hyrankhit.meldingcloud.com,Ads_SukkaW
@@ -28872,6 +28884,7 @@ HOST-SUFFIX,ichaosheng.com,Ads_SukkaW
 HOST-SUFFIX,ichc1.xinglinpukang.com,Ads_SukkaW
 HOST-SUFFIX,ichimaip.net,Ads_SukkaW
 HOST-SUFFIX,ichnaea-web.netflix.com,Ads_SukkaW
+HOST-SUFFIX,ichnaea.dradis.netflix.com,Ads_SukkaW
 HOST-SUFFIX,ichnaea.netflix.com,Ads_SukkaW
 HOST-SUFFIX,ichowhushoubi.net,Ads_SukkaW
 HOST-SUFFIX,icilyassertiveindoors.com,Ads_SukkaW
@@ -31274,6 +31287,7 @@ HOST-SUFFIX,iqmetrics.wissenschaft.de,Ads_SukkaW
 HOST-SUFFIX,iqmetrics.wiwo.de,Ads_SukkaW
 HOST-SUFFIX,iqmetrics.zeit.de,Ads_SukkaW
 HOST-SUFFIX,iqsepj.ssoaeng.co.kr,Ads_SukkaW
+HOST-SUFFIX,iqtucudfff.com,Ads_SukkaW
 HOST-SUFFIX,iqvhap.globalrose.com,Ads_SukkaW
 HOST-SUFFIX,iqxzph.grandecosmetics.com,Ads_SukkaW
 HOST-SUFFIX,iqyioj.harryanddavid.com,Ads_SukkaW
@@ -31776,6 +31790,7 @@ HOST-SUFFIX,jeestauglahity.net,Ads_SukkaW
 HOST-SUFFIX,jeetyetmedia.com,Ads_SukkaW
 HOST-SUFFIX,jegplj.marketb.kr,Ads_SukkaW
 HOST-SUFFIX,jehobsee.com,Ads_SukkaW
+HOST-SUFFIX,jekzyyyljvrbl.top,Ads_SukkaW
 HOST-SUFFIX,jekzyyyljvyww.top,Ads_SukkaW
 HOST-SUFFIX,jelliconitrate.shop,Ads_SukkaW
 HOST-SUFFIX,jellyfish.teresaharlow.com,Ads_SukkaW
@@ -35871,6 +35886,7 @@ HOST-SUFFIX,log.affiliate.rakuten.co.jp,Ads_SukkaW
 HOST-SUFFIX,log.ahamo.com,Ads_SukkaW
 HOST-SUFFIX,log.aimtell.com,Ads_SukkaW
 HOST-SUFFIX,log.ajunews.com,Ads_SukkaW
+HOST-SUFFIX,log.aliyuncs.com,Ads_SukkaW
 HOST-SUFFIX,log.api.useinsider.com,Ads_SukkaW
 HOST-SUFFIX,log.api.zaloapp.com,Ads_SukkaW
 HOST-SUFFIX,log.apk.v-mate.mobi,Ads_SukkaW
@@ -43681,6 +43697,7 @@ HOST-SUFFIX,notix-tag.com,Ads_SukkaW
 HOST-SUFFIX,notix.io,Ads_SukkaW
 HOST-SUFFIX,notoings.com,Ads_SukkaW
 HOST-SUFFIX,notorietycheerypositively.com,Ads_SukkaW
+HOST-SUFFIX,noudounaigri.net,Ads_SukkaW
 HOST-SUFFIX,nougacoush.com,Ads_SukkaW
 HOST-SUFFIX,noughttrustthreshold.com,Ads_SukkaW
 HOST-SUFFIX,noundictionary.com,Ads_SukkaW
@@ -48583,7 +48600,6 @@ HOST-SUFFIX,px-intl.ucweb.com,Ads_SukkaW
 HOST-SUFFIX,px.adfulplatform.com,Ads_SukkaW
 HOST-SUFFIX,px.adhigh.net,Ads_SukkaW
 HOST-SUFFIX,px.dmp.zaloapp.com,Ads_SukkaW
-HOST-SUFFIX,px.effirst.com,Ads_SukkaW
 HOST-SUFFIX,px.gfycat.com,Ads_SukkaW
 HOST-SUFFIX,px.marchex.io,Ads_SukkaW
 HOST-SUFFIX,px.mountain.com,Ads_SukkaW
@@ -49674,6 +49690,7 @@ HOST-SUFFIX,redbutton-lb-prod.redbutton.de,Ads_SukkaW
 HOST-SUFFIX,redbutton.sim-technik.de,Ads_SukkaW
 HOST-SUFFIX,reddwarf.till-sanders.de,Ads_SukkaW
 HOST-SUFFIX,redexamination.com,Ads_SukkaW
+HOST-SUFFIX,redfast.com,Ads_SukkaW
 HOST-SUFFIX,redir-v4.tidalspring.xyz,Ads_SukkaW
 HOST-SUFFIX,redir.bluespringcoast.com,Ads_SukkaW
 HOST-SUFFIX,redir.hightid.xyz,Ads_SukkaW
@@ -50168,6 +50185,7 @@ HOST-SUFFIX,rfcpqf.luvlit.jp,Ads_SukkaW
 HOST-SUFFIX,rfdqlehuiufyk.click,Ads_SukkaW
 HOST-SUFFIX,rferl.c.goolara.net,Ads_SukkaW
 HOST-SUFFIX,rffsds.fsastore.com,Ads_SukkaW
+HOST-SUFFIX,rfgsdgg.top,Ads_SukkaW
 HOST-SUFFIX,rfihub.com,Ads_SukkaW
 HOST-SUFFIX,rfihub.net,Ads_SukkaW
 HOST-SUFFIX,rfity.com,Ads_SukkaW
@@ -50422,6 +50440,7 @@ HOST-SUFFIX,roajaiwoul.com,Ads_SukkaW
 HOST-SUFFIX,roamapheejub.com,Ads_SukkaW
 HOST-SUFFIX,roapsoogaiz.net,Ads_SukkaW
 HOST-SUFFIX,roastoup.com,Ads_SukkaW
+HOST-SUFFIX,roawhuchoow.net,Ads_SukkaW
 HOST-SUFFIX,robazi.xyz,Ads_SukkaW
 HOST-SUFFIX,robspabah.com,Ads_SukkaW
 HOST-SUFFIX,rockersbaalize.com,Ads_SukkaW
@@ -52463,6 +52482,7 @@ HOST-SUFFIX,search.dailytopoptions.com,Ads_SukkaW
 HOST-SUFFIX,search.onolm.click,Ads_SukkaW
 HOST-SUFFIX,search.unation.top,Ads_SukkaW
 HOST-SUFFIX,search.valuehunter.site,Ads_SukkaW
+HOST-SUFFIX,search.xiaomi.net,Ads_SukkaW
 HOST-SUFFIX,searchdatestoday.com,Ads_SukkaW
 HOST-SUFFIX,searchestracker.org,Ads_SukkaW
 HOST-SUFFIX,searchmarquis.com,Ads_SukkaW
@@ -55348,6 +55368,7 @@ HOST-SUFFIX,spt.performgroup.com,Ads_SukkaW
 HOST-SUFFIX,sptrck.com,Ads_SukkaW
 HOST-SUFFIX,sptrkr.com,Ads_SukkaW
 HOST-SUFFIX,spukesuzette.shop,Ads_SukkaW
+HOST-SUFFIX,spumvgltasdrjg.xyz,Ads_SukkaW
 HOST-SUFFIX,spxl.socy.es,Ads_SukkaW
 HOST-SUFFIX,spy.epornleak.com,Ads_SukkaW
 HOST-SUFFIX,spydun.nununuworld.com,Ads_SukkaW
@@ -58876,6 +58897,7 @@ HOST-SUFFIX,statwup.nimo.tv,Ads_SukkaW
 HOST-SUFFIX,statystyki.ekspertyzy-szkolenia.pl,Ads_SukkaW
 HOST-SUFFIX,statystyki.panelek.com,Ads_SukkaW
 HOST-SUFFIX,staumersleep.com,Ads_SukkaW
+HOST-SUFFIX,staupauptou.com,Ads_SukkaW
 HOST-SUFFIX,staupsoaksy.net,Ads_SukkaW
 HOST-SUFFIX,staureez.net,Ads_SukkaW
 HOST-SUFFIX,stawhoph.com,Ads_SukkaW
@@ -67441,6 +67463,7 @@ HOST-SUFFIX,ungothoritator.com,Ads_SukkaW
 HOST-SUFFIX,ungroudonchan.com,Ads_SukkaW
 HOST-SUFFIX,ungyveporkies.com,Ads_SukkaW
 HOST-SUFFIX,unhatedkrubi.shop,Ads_SukkaW
+HOST-SUFFIX,unheadedsouptotal.com,Ads_SukkaW
 HOST-SUFFIX,uni7.uniplaces.com,Ads_SukkaW
 HOST-SUFFIX,unicume.com,Ads_SukkaW
 HOST-SUFFIX,unidentifiedanalytics.web.app,Ads_SukkaW
@@ -68629,6 +68652,7 @@ HOST-SUFFIX,viewclc.com,Ads_SukkaW
 HOST-SUFFIX,viewedspurtdysfunctional.com,Ads_SukkaW
 HOST-SUFFIX,viewlnk.com,Ads_SukkaW
 HOST-SUFFIX,viewpath.xyz,Ads_SukkaW
+HOST-SUFFIX,views-dual.hulu.com,Ads_SukkaW
 HOST-SUFFIX,views.2222.ro,Ads_SukkaW
 HOST-SUFFIX,views.cancan.ro,Ads_SukkaW
 HOST-SUFFIX,views.ericcapella.com,Ads_SukkaW
@@ -71922,6 +71946,7 @@ HOST-SUFFIX,yfwnsy.infraredsauna.com,Ads_SukkaW
 HOST-SUFFIX,ygdhmgjly.xyz,Ads_SukkaW
 HOST-SUFFIX,ygecho.wenz.de,Ads_SukkaW
 HOST-SUFFIX,ygfycf.cpa.mynavi.jp,Ads_SukkaW
+HOST-SUFFIX,yghalathio.com,Ads_SukkaW
 HOST-SUFFIX,yghrhc.agasus.com.br,Ads_SukkaW
 HOST-SUFFIX,ygipjqf.icu,Ads_SukkaW
 HOST-SUFFIX,ygjxol.hometogo.com.mx,Ads_SukkaW
@@ -71934,6 +71959,7 @@ HOST-SUFFIX,ygxqjz.intersport.fi,Ads_SukkaW
 HOST-SUFFIX,yhbcii.com,Ads_SukkaW
 HOST-SUFFIX,yhbdzh.farmasiint.com,Ads_SukkaW
 HOST-SUFFIX,yhdcdo.crazy-factory.com,Ads_SukkaW
+HOST-SUFFIX,yhgfsdad.top,Ads_SukkaW
 HOST-SUFFIX,yhgyog.elephantstock.com,Ads_SukkaW
 HOST-SUFFIX,yhhuzt.gintarine.lt,Ads_SukkaW
 HOST-SUFFIX,yhigae.junyu-fuku.com,Ads_SukkaW

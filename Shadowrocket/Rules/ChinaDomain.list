@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 794
+# 规则统计: 799
 
 DOMAIN,acg.tv
 DOMAIN,assets1.xboxlive.cn
@@ -11,6 +11,7 @@ DOMAIN,config.ubnt.com
 DOMAIN,dl.ubnt.com
 DOMAIN,doh.pub
 DOMAIN,gstore.val.manlaxy.com
+DOMAIN,i.dell.com
 DOMAIN,lv.queniujq.cn
 DOMAIN,media.cdn.queniuqe.com
 DOMAIN,ocsp.globalsign.com
@@ -173,6 +174,7 @@ DOMAIN-SUFFIX,boc.cn
 DOMAIN-SUFFIX,bosszhipin.com
 DOMAIN-SUFFIX,byteacctimg.com
 DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,bytecdntp.com
 DOMAIN-SUFFIX,byted-static.com
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytednsdoc.com
@@ -460,6 +462,7 @@ DOMAIN-SUFFIX,leiniao.com
 DOMAIN-SUFFIX,leleketang.com
 DOMAIN-SUFFIX,lenovomm.com
 DOMAIN-SUFFIX,letvimg.com
+DOMAIN-SUFFIX,lf127.net
 DOMAIN-SUFFIX,lianjia.com
 DOMAIN-SUFFIX,linkedin.cn
 DOMAIN-SUFFIX,livechina.cn
@@ -664,6 +667,7 @@ DOMAIN-SUFFIX,taobaocdn.com
 DOMAIN-SUFFIX,taopiaopiao.com
 DOMAIN-SUFFIX,tb.cn
 DOMAIN-SUFFIX,tbcache.com
+DOMAIN-SUFFIX,tbcdn.cn
 DOMAIN-SUFFIX,tcdnlive.com
 DOMAIN-SUFFIX,tencent-cloud.com
 DOMAIN-SUFFIX,tencent-cloud.net
@@ -722,6 +726,7 @@ DOMAIN-SUFFIX,wifi8.com
 DOMAIN-SUFFIX,wmsj.cn
 DOMAIN-SUFFIX,wmsjsteam.com
 DOMAIN-SUFFIX,wo.cn
+DOMAIN-SUFFIX,wosms.cn
 DOMAIN-SUFFIX,wps.cn
 DOMAIN-SUFFIX,wpscdn.cn
 DOMAIN-SUFFIX,wpscdn.com
