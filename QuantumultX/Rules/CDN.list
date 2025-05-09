@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3620
+# 规则统计: 3622
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1619,6 +1619,7 @@ HOST,medias.meow.social,CDN
 HOST,medium-media.vgm.io,CDN
 HOST,megapx-assets.dcard.tw,CDN
 HOST,meta.prismlauncher.org,CDN
+HOST,meteorclient.com,CDN
 HOST,metrics.kapa.ai,CDN
 HOST,micro.rubiconproject.com,CDN
 HOST,mintlify.b-cdn.net,CDN
@@ -2148,6 +2149,7 @@ HOST,static.guim.co.uk,CDN
 HOST,static.heavy-r.com,CDN
 HOST,static.helpjuice.com,CDN
 HOST,static.hotjar.com,CDN
+HOST,static.hubspot.com,CDN
 HOST,static.hugedomains.com,CDN
 HOST,static.ietf.org,CDN
 HOST,static.ifunny.co,CDN
