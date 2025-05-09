@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4591
+# 规则统计: 4604
 
 domain_suffix_set:
   - 002777.xyz
@@ -724,6 +724,7 @@ domain_suffix_set:
   - bc4.fun
   - bchina-1.xsfaya.com
   - bclimiv.top
+  - bcpxll.icu
   - bctuapia.icu
   - bd-china-1.appmobile.cn
   - bd-js.duote.com
@@ -1531,6 +1532,7 @@ domain_suffix_set:
   - faaqgje.icu
   - fabu333.top
   - facai383.oss-cn-guangzhou.aliyuncs.com
+  - fadjqqe.top
   - fafvvt.icu
   - fagrirtn.com
   - fajkhr.icu
@@ -1582,6 +1584,7 @@ domain_suffix_set:
   - fkesfg.com
   - fkjdiefz.icu
   - fmkipgm.icu
+  - fmlmbf.top
   - fmmirep.icu
   - fngmeat.top
   - fnjoomqa.icu
@@ -2211,6 +2214,7 @@ domain_suffix_set:
   - jgjyxf.xyz
   - jgntjtyf.icu
   - jgstny.com
+  - jguhqbe.top
   - jgvkxp.xyz
   - jgxirv.icu
   - jhlnlt.xyz
@@ -2884,6 +2888,7 @@ domain_suffix_set:
   - oaiqksi.top
   - oajv.cn
   - oakmn.top
+  - oaokes.icu
   - oauqyw.xyz
   - obwnaon.icu
   - oclimik.top
@@ -3179,6 +3184,7 @@ domain_suffix_set:
   - qighodetfg.com
   - qiji1.jdwx.info
   - qimaf.com
+  - qiuxl11.cn
   - qiwqaagnaell.com
   - qiyeb.iaskbus.com
   - qiyegongqiu1.qiyegongqiu.com
@@ -3198,6 +3204,7 @@ domain_suffix_set:
   - qnqtgyq.icu
   - qnvwjpr.icu
   - qnwuamy.top
+  - qnwucny.top
   - qo2.fun
   - qogonsuqq.com
   - qogrux.com
@@ -3531,6 +3538,7 @@ domain_suffix_set:
   - spl.ztvx8.com
   - spoaven.top
   - spoh.cn
+  - sqif.cn
   - sqszcg.top
   - sravga.xyz
   - srmsii.xyz
@@ -3923,6 +3931,7 @@ domain_suffix_set:
   - uposnmb.icu
   - upyzqf.cn
   - uqcktxp.icu
+  - uqkcqk.icu
   - uqykeq.xyz
   - urkt.cn
   - urpkktc.icu
@@ -3958,6 +3967,8 @@ domain_suffix_set:
   - uusjaq.top
   - uuso05072qhs.xyz
   - uuso05080qhs.xyz
+  - uuso05081qhs.xyz
+  - uuso05082qhs.xyz
   - uutytp.com
   - uuysiaq.com
   - uv4.fun
@@ -4068,6 +4079,7 @@ domain_suffix_set:
   - vtbfgnf00.fun
   - vtbkhl.icu
   - vtdgfisz.icu
+  - vthruucceod.com
   - vtjbnb.xyz
   - vtqhelleano.com
   - vtrrxqbi.xyz
@@ -4224,6 +4236,7 @@ domain_suffix_set:
   - wwursere.top
   - www5.oss-cn-hangzhou.aliyuncs.com
   - wxfdmri.xyz
+  - wxjuobn1026.top
   - wxmhau.xyz
   - wxsicu.xyz
   - wy213.com
