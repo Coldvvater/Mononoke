@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4604
+# 规则统计: 4608
 
 domain_suffix_set:
   - 002777.xyz
@@ -1266,6 +1266,7 @@ domain_suffix_set:
   - dktad.com
   - dkweuy.com
   - dlads.cn
+  - dlngzx.top
   - dm.17xuexiba.com
   - dm.21hubei.com
   - dm.51okc.com
@@ -3494,6 +3495,7 @@ domain_suffix_set:
   - sikncs.com
   - sikvoilst.com
   - sinkrersf.com
+  - sioq.cn
   - sirrors.com
   - sivxobpn.icu
   - sjalipa.cn
@@ -3712,6 +3714,7 @@ domain_suffix_set:
   - tnlixn.icu
   - tns.simba.taobao.com
   - tnwuami.top
+  - tnwucni.top
   - tnzjrj.xyz
   - toazdkl.top
   - todayapp.tv
@@ -3879,6 +3882,7 @@ domain_suffix_set:
   - udolgy.xyz
   - udoshbt.top
   - udswai.xyz
+  - udyi.cn
   - ue8im.com
   - uegsjnk.com
   - uektedsni.com

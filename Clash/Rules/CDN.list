@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3620
+# 规则统计: 3624
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -153,6 +153,7 @@ DOMAIN,assets.fireside.fm
 DOMAIN,assets.flodesk.com
 DOMAIN,assets.fonts.adobe.com
 DOMAIN,assets.foxdcg.com
+DOMAIN,assets.freespeechcoalition.com
 DOMAIN,assets.frontegg.com
 DOMAIN,assets.fxnetworks.com
 DOMAIN,assets.garr.it
@@ -220,6 +221,7 @@ DOMAIN,assets.sendinblue.com
 DOMAIN,assets.shazam.com
 DOMAIN,assets.sololearn.com
 DOMAIN,assets.squarespace.com
+DOMAIN,assets.squarewebsites.org
 DOMAIN,assets.st-note.com
 DOMAIN,assets.stash.com
 DOMAIN,assets.static-upwork.com
@@ -617,6 +619,7 @@ DOMAIN,cdn.plus500.com
 DOMAIN,cdn.plyr.io
 DOMAIN,cdn.pricespider.com
 DOMAIN,cdn.privacy-mgmt.com
+DOMAIN,cdn.privacy.com
 DOMAIN,cdn.privacy.paramount.com
 DOMAIN,cdn.prod.ext.web.purview.azure.com
 DOMAIN,cdn.prod.www.spiegel.de
@@ -663,6 +666,7 @@ DOMAIN,cdn.split.io
 DOMAIN,cdn.sprig.com
 DOMAIN,cdn.sso.mozilla.com
 DOMAIN,cdn.st-note.com
+DOMAIN,cdn.stackoverflow.co
 DOMAIN,cdn.starapps.studio
 DOMAIN,cdn.stash.com
 DOMAIN,cdn.staticdelivr.com

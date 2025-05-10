@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 774
+# 规则统计: 777
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -57,6 +57,7 @@ HOST-SUFFIX,adm.funshion.com,Ads_AWAvenue
 HOST-SUFFIX,ads-api-o.api.leiniao.com,Ads_AWAvenue
 HOST-SUFFIX,ads-api.tiktok.com,Ads_AWAvenue
 HOST-SUFFIX,ads-api.twitter.com,Ads_AWAvenue
+HOST-SUFFIX,ads-img-al.xhscdn.com,Ads_AWAvenue
 HOST-SUFFIX,ads-img-qc.xhscdn.com,Ads_AWAvenue
 HOST-SUFFIX,ads-marketing-vivofs.vivo.com.cn,Ads_AWAvenue
 HOST-SUFFIX,ads-sdk-api.ranfenghd.com,Ads_AWAvenue
@@ -64,7 +65,6 @@ HOST-SUFFIX,ads-sg.tiktok.com,Ads_AWAvenue
 HOST-SUFFIX,ads-video-al.xhscdn.com,Ads_AWAvenue
 HOST-SUFFIX,ads-video-qc.xhscdn.com,Ads_AWAvenue
 HOST-SUFFIX,ads.95516.com,Ads_AWAvenue
-HOST-SUFFIX,ads.flurry.com,Ads_AWAvenue
 HOST-SUFFIX,ads.google.cn,Ads_AWAvenue
 HOST-SUFFIX,ads.huan.tv,Ads_AWAvenue
 HOST-SUFFIX,ads.huantest.com,Ads_AWAvenue
@@ -74,6 +74,7 @@ HOST-SUFFIX,ads.linkedin.com,Ads_AWAvenue
 HOST-SUFFIX,ads.music.126.net,Ads_AWAvenue
 HOST-SUFFIX,ads.pinterest.com,Ads_AWAvenue
 HOST-SUFFIX,ads.pubmatic.com,Ads_AWAvenue
+HOST-SUFFIX,ads.raidrive.com,Ads_AWAvenue
 HOST-SUFFIX,ads.servebom.com,Ads_AWAvenue
 HOST-SUFFIX,ads.service.kugou.com,Ads_AWAvenue
 HOST-SUFFIX,ads.tiktok.com,Ads_AWAvenue
@@ -539,6 +540,7 @@ HOST-SUFFIX,p3-tt.byteimg.com,Ads_AWAvenue
 HOST-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com,Ads_AWAvenue
 HOST-SUFFIX,pagead2.googleadservices.com,Ads_AWAvenue
 HOST-SUFFIX,pagead2.googlesyndication.com,Ads_AWAvenue
+HOST-SUFFIX,pay.sboot.cn,Ads_AWAvenue
 HOST-SUFFIX,pcdn.xmcdn.com,Ads_AWAvenue
 HOST-SUFFIX,pcm-img.zhls.qq.com,Ads_AWAvenue
 HOST-SUFFIX,pgdt.gtimg.cn,Ads_AWAvenue
@@ -750,6 +752,7 @@ HOST-SUFFIX,widgets.outbrain.com,Ads_AWAvenue
 HOST-SUFFIX,widgets.pinterest.com,Ads_AWAvenue
 HOST-SUFFIX,wildcard.moatads.com.edgekey.net,Ads_AWAvenue
 HOST-SUFFIX,win.gdt.qq.com,Ads_AWAvenue
+HOST-SUFFIX,wn.x.jd.com,Ads_AWAvenue
 HOST-SUFFIX,ws-keyboard.shouji.sogou.com,Ads_AWAvenue
 HOST-SUFFIX,ws.sj.qq.com,Ads_AWAvenue
 HOST-SUFFIX,wv.inner-active.mobi,Ads_AWAvenue

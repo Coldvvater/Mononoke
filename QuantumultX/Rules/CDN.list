@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3622
+# 规则统计: 3626
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -153,6 +153,7 @@ HOST,assets.fireside.fm,CDN
 HOST,assets.flodesk.com,CDN
 HOST,assets.fonts.adobe.com,CDN
 HOST,assets.foxdcg.com,CDN
+HOST,assets.freespeechcoalition.com,CDN
 HOST,assets.frontegg.com,CDN
 HOST,assets.fxnetworks.com,CDN
 HOST,assets.garr.it,CDN
@@ -220,6 +221,7 @@ HOST,assets.sendinblue.com,CDN
 HOST,assets.shazam.com,CDN
 HOST,assets.sololearn.com,CDN
 HOST,assets.squarespace.com,CDN
+HOST,assets.squarewebsites.org,CDN
 HOST,assets.st-note.com,CDN
 HOST,assets.stash.com,CDN
 HOST,assets.static-upwork.com,CDN
@@ -617,6 +619,7 @@ HOST,cdn.plus500.com,CDN
 HOST,cdn.plyr.io,CDN
 HOST,cdn.pricespider.com,CDN
 HOST,cdn.privacy-mgmt.com,CDN
+HOST,cdn.privacy.com,CDN
 HOST,cdn.privacy.paramount.com,CDN
 HOST,cdn.prod.ext.web.purview.azure.com,CDN
 HOST,cdn.prod.www.spiegel.de,CDN
@@ -663,6 +666,7 @@ HOST,cdn.split.io,CDN
 HOST,cdn.sprig.com,CDN
 HOST,cdn.sso.mozilla.com,CDN
 HOST,cdn.st-note.com,CDN
+HOST,cdn.stackoverflow.co,CDN
 HOST,cdn.starapps.studio,CDN
 HOST,cdn.stash.com,CDN
 HOST,cdn.staticdelivr.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 774
+# 规则统计: 777
 
 DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,1500022744.vodplayer.wxamedia.com
@@ -57,6 +57,7 @@ DOMAIN-SUFFIX,adm.funshion.com
 DOMAIN-SUFFIX,ads-api-o.api.leiniao.com
 DOMAIN-SUFFIX,ads-api.tiktok.com
 DOMAIN-SUFFIX,ads-api.twitter.com
+DOMAIN-SUFFIX,ads-img-al.xhscdn.com
 DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
 DOMAIN-SUFFIX,ads-marketing-vivofs.vivo.com.cn
 DOMAIN-SUFFIX,ads-sdk-api.ranfenghd.com
@@ -64,7 +65,6 @@ DOMAIN-SUFFIX,ads-sg.tiktok.com
 DOMAIN-SUFFIX,ads-video-al.xhscdn.com
 DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
 DOMAIN-SUFFIX,ads.95516.com
-DOMAIN-SUFFIX,ads.flurry.com
 DOMAIN-SUFFIX,ads.google.cn
 DOMAIN-SUFFIX,ads.huan.tv
 DOMAIN-SUFFIX,ads.huantest.com
@@ -74,6 +74,7 @@ DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN-SUFFIX,ads.music.126.net
 DOMAIN-SUFFIX,ads.pinterest.com
 DOMAIN-SUFFIX,ads.pubmatic.com
+DOMAIN-SUFFIX,ads.raidrive.com
 DOMAIN-SUFFIX,ads.servebom.com
 DOMAIN-SUFFIX,ads.service.kugou.com
 DOMAIN-SUFFIX,ads.tiktok.com
@@ -539,6 +540,7 @@ DOMAIN-SUFFIX,p3-tt.byteimg.com
 DOMAIN-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com
 DOMAIN-SUFFIX,pagead2.googleadservices.com
 DOMAIN-SUFFIX,pagead2.googlesyndication.com
+DOMAIN-SUFFIX,pay.sboot.cn
 DOMAIN-SUFFIX,pcdn.xmcdn.com
 DOMAIN-SUFFIX,pcm-img.zhls.qq.com
 DOMAIN-SUFFIX,pgdt.gtimg.cn
@@ -750,6 +752,7 @@ DOMAIN-SUFFIX,widgets.outbrain.com
 DOMAIN-SUFFIX,widgets.pinterest.com
 DOMAIN-SUFFIX,wildcard.moatads.com.edgekey.net
 DOMAIN-SUFFIX,win.gdt.qq.com
+DOMAIN-SUFFIX,wn.x.jd.com
 DOMAIN-SUFFIX,ws-keyboard.shouji.sogou.com
 DOMAIN-SUFFIX,ws.sj.qq.com
 DOMAIN-SUFFIX,wv.inner-active.mobi

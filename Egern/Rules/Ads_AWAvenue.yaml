@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 774
+# 规则统计: 777
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -58,6 +58,7 @@ domain_suffix_set:
   - ads-api-o.api.leiniao.com
   - ads-api.tiktok.com
   - ads-api.twitter.com
+  - ads-img-al.xhscdn.com
   - ads-img-qc.xhscdn.com
   - ads-marketing-vivofs.vivo.com.cn
   - ads-sdk-api.ranfenghd.com
@@ -65,7 +66,6 @@ domain_suffix_set:
   - ads-video-al.xhscdn.com
   - ads-video-qc.xhscdn.com
   - ads.95516.com
-  - ads.flurry.com
   - ads.google.cn
   - ads.huan.tv
   - ads.huantest.com
@@ -75,6 +75,7 @@ domain_suffix_set:
   - ads.music.126.net
   - ads.pinterest.com
   - ads.pubmatic.com
+  - ads.raidrive.com
   - ads.servebom.com
   - ads.service.kugou.com
   - ads.tiktok.com
@@ -540,6 +541,7 @@ domain_suffix_set:
   - p6-be-pack-sign.pglstatp-toutiao.com
   - pagead2.googleadservices.com
   - pagead2.googlesyndication.com
+  - pay.sboot.cn
   - pcdn.xmcdn.com
   - pcm-img.zhls.qq.com
   - pgdt.gtimg.cn
@@ -751,6 +753,7 @@ domain_suffix_set:
   - widgets.pinterest.com
   - wildcard.moatads.com.edgekey.net
   - win.gdt.qq.com
+  - wn.x.jd.com
   - ws-keyboard.shouji.sogou.com
   - ws.sj.qq.com
   - wv.inner-active.mobi

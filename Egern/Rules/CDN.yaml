@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3622
+# 规则统计: 3626
 
 domain_set:
   - 0x0.st
@@ -154,6 +154,7 @@ domain_set:
   - assets.flodesk.com
   - assets.fonts.adobe.com
   - assets.foxdcg.com
+  - assets.freespeechcoalition.com
   - assets.frontegg.com
   - assets.fxnetworks.com
   - assets.garr.it
@@ -221,6 +222,7 @@ domain_set:
   - assets.shazam.com
   - assets.sololearn.com
   - assets.squarespace.com
+  - assets.squarewebsites.org
   - assets.st-note.com
   - assets.stash.com
   - assets.static-upwork.com
@@ -618,6 +620,7 @@ domain_set:
   - cdn.plyr.io
   - cdn.pricespider.com
   - cdn.privacy-mgmt.com
+  - cdn.privacy.com
   - cdn.privacy.paramount.com
   - cdn.prod.ext.web.purview.azure.com
   - cdn.prod.www.spiegel.de
@@ -664,6 +667,7 @@ domain_set:
   - cdn.sprig.com
   - cdn.sso.mozilla.com
   - cdn.st-note.com
+  - cdn.stackoverflow.co
   - cdn.starapps.studio
   - cdn.stash.com
   - cdn.staticdelivr.com
