@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2025.05.15
+# Update Date: 2025.05.16
 
 
 # 远程订阅
@@ -21,7 +21,7 @@ proxy-providers:
     health-check: {enable: true,url: "https://www.gstatic.com/generate_204",interval: 300}
     override:
       additional-prefix: "[provider2]"
-# 1. 请把订阅链接填入到provider1或provider2下面的url后的引号""内使用,订阅每次可自行重命名，不能重复。
+# 1. 请把订阅链接填入到provider1或provider2下面的url后的引号""内使用,订阅名称可自行重命名，不能重复。
 # 2. 或可通过Sub-Store进行订阅转换(或需自建Sub-Store服务)。
 
 # 本地服务器
