@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "amp-api.podcasts.apple.com",
+        "apple-relay.apple.com",
+        "apple.comscoreresearch.com",
+        "apps.apple.com",
+        "beta.apple.com",
+        "beta.music.apple.com",
+        "books.apple.com",
+        "books.itunes.apple.com",
+        "facetime.apple.com",
+        "gateway.icloud.com",
+        "itunes.apple.com",
+        "lookup-api.apple.com",
+        "news-assets.apple.com",
+        "news-client-search.apple.com",
+        "news-client.apple.com",
+        "news-edge.apple.com",
+        "news-events.apple.com",
+        "radio.itunes.apple.com",
+        "testflight.apple.com",
+        "tv.apple.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "apple-relay.cloudflare.com",
+        "apple.news",
+        "appsto.re",
+        "smoot.apple.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "apple-relay",
+        "testflight"
+      ]
+    }
+  ]
+}

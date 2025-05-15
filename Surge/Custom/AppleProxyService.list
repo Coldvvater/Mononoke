@@ -1,0 +1,41 @@
+# > Apple URL Shortener
+DOMAIN-SUFFIX,appsto.re
+# > Spotlight
+DOMAIN-SUFFIX,smoot.apple.com
+# > Apple Intelligence Extensions
+DOMAIN,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-KEYWORD,apple-relay
+# > Podcasts
+DOMAIN,amp-api.podcasts.apple.com
+# > Apple Music Web
+DOMAIN,beta.music.apple.com
+# > iBooks Store download
+DOMAIN,books.itunes.apple.com
+# > FaceTime Links
+DOMAIN,facetime.apple.com
+# > Look Up
+DOMAIN,lookup-api.apple.com
+# > Apple Music Radio
+DOMAIN,radio.itunes.apple.com
+
+# > TestFlight
+DOMAIN,beta.apple.com
+DOMAIN,testflight.apple.com
+DOMAIN-KEYWORD,testflight
+
+# > Web Preview
+DOMAIN,apps.apple.com
+DOMAIN,books.apple.com
+DOMAIN,itunes.apple.com
+DOMAIN,tv.apple.com
+
+# > News
+DOMAIN,gateway.icloud.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN,news-assets.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-client-search.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN,apple.comscoreresearch.com

@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "ai.google.dev",
+        "alkalicore-pa.clients6.google.com",
+        "api.github.com",
+        "file.oaiusercontent.com",
+        "gateway.ai.cloudflare.com",
+        "th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ai.com",
+        "aistudio.google.com",
+        "anthropic.com",
+        "bard.google.com",
+        "chat.com",
+        "chatgpt.com",
+        "claude.ai",
+        "clipdrop.co",
+        "deepmind.com",
+        "deepmind.google",
+        "dify.ai",
+        "geller-pa.googleapis.com",
+        "gemini.google.com",
+        "generativeai.google",
+        "generativelanguage.googleapis.com",
+        "grok.com",
+        "groq.com",
+        "jasper.ai",
+        "makersuite.google.com",
+        "meta.ai",
+        "notebooklm.google",
+        "notebooklm.google.com",
+        "oaistatic.com",
+        "openart.ai",
+        "perplexity.ai",
+        "poe.com",
+        "proactivebackend-pa.googleapis.com",
+        "sora.com",
+        "x.ai"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "alkalimakersuite-pa.clients6.google.com",
+        "openai"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+# Clash Config Make by Coldvvater
+# TG Channel: https://t.me/Coldvvater_Channel
+# GitHub: https://github.com/Coldvvater
+# Update Date: 2025.05.15
+
+
+# 远程订阅
+proxy-providers:
+  provider1:
+    url: ""
+    type: http
+    interval: 86400
+    health-check: {enable: true,url: "https://www.gstatic.com/generate_204",interval: 300}
+    override:
+      additional-prefix: "[provider1]"
+
+  provider2:
+    url: ""
+    type: http
+    interval: 86400
+    health-check: {enable: true,url: "https://www.gstatic.com/generate_204",interval: 300}
+    override:
+      additional-prefix: "[provider2]"
+# 1. 请把订阅链接填入到provider1或provider2下面的url后的引号""内使用,订阅每次可自行重命名，不能重复。
+# 2. 或可通过Sub-Store进行订阅转换(或需自建Sub-Store服务)。
+
+# 本地服务器
+proxies: null
+
+#port: 7891                          # HTTP(S) 代理服务器端口
+#socks-port: 7892                    # SOCKS5 代理端口
+mixed-port: 7890                     # 混合端口，HTTP和SOCKS5用一个端口
+#redir-port: 7893                    # 透明代理端口，用于 Linux 和 MacOS
+#tproxy-port: 7894                   # Transparent proxy server port for Linux (TProxy TCP and TProxy UDP)
+
+mode: rule                           # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
+log-level: info                      # 设置日志输出级别 (5 个级别：silent / error / warning / info / debug）
+allow-lan: true                      # 允许局域网的连接（共享代理）
+bind-address: "*"                    # 监听IP白名单，可绑定单个IPv4和v6地址，"*" 为绑定所有IP地址，仅在将allow-lan设置为true时适用
+ipv6: true                           # 开启 IPv6 总开关，关闭阻断所有 IPv6 链接和屏蔽 DNS 请求 AAAA 记录
+udp: true                            # 是否允许 UDP 通过代理，默认为 false
+
+unified-delay: true                  # 开启统一延迟时，会进行两次延迟测试，以消除连接握手等带来的不同类型节点的延迟差异，可选值 true/false
+tcp-concurrent: true                 # TCP 并发，可选值 true/false
+find-process-mode: strict            # 控制是否让 Clash 去匹配进程，always 开启，强制匹配所有进程，strict 默认，由 Clash 判断是否开启，off 不匹配进程，推荐在路由器上使用此模式
+global-client-fingerprint: chrome    # 全局 TLS 指纹，优先低于 proxy 内的 client-fingerprint，目前支持开启 TLS 传输的 TCP/grpc/WS/HTTP , 支持协议有 VLESS,Vmess 和 trojan
+
+external-controller: 127.0.0.1:9090  # 外部控制器，可以使用 RESTful API 来控制你的 Clash 内核，API 监听地址，你可以将 127.0.0.1 修改为 0.0.0.0 来监听所有 IP
+external-ui: ui                      # 可以将静态网页资源 (比如 Clash-dashboard) 运行在 Clash API, 路径为 API 地址/ui，可以为绝对路径，或者 Clash 工作目录的相对路径
+external-ui-url: 'https://gh-proxy.com/https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip'
+                                     # 自定义外部用户界面下载地址
+
+secret: ""                           # 自定义 API 的访问密钥
+
+geodata-mode: true                   # 更改 geoip 使用文件，mmdb 或者 dat，可选 true/false,true为 dat，此项有默认值 false
+geodata-loader: memconservative      # GEO 文件加载模式，standard：标准加载器 memconservative：专为内存受限 (小内存) 设备优化的加载器 (默认值)
+geo-auto-update: true                # 自动更新 GEO
+geo-update-interval: 24              # 更新间隔，单位为小时
+geox-url:
+  geoip: 'https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat'
+  geosite: 'https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat'
+  mmdb: 'https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb'
+  asn: 'https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb'
+                                     # 自定义 GEO 下载地址
+
+profile:
+  store-selected: true               # 储存 API 对策略组的选择，以供下次启动时使用
+  store-fake-ip: true                # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
+
+sniffer:
+  enable: true                       # 是否启用sniffer
+  force-dns-mapping: true            # 对 redir-host 类型识别的流量进行强制嗅探
+  parse-pure-ip: true                # 对所有未获取到域名的流量进行强制嗅探
+  override-destination: true         # 是否使用嗅探结果作为实际访问，默认为 true
+
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]         # ports字段，表示端口范围。示例：ports: [80, 8080-8880]
+      override-destination: true     # override-destination字段（可选），用于覆盖全局override-destination设置
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:                      # 需要强制嗅探的域名（默认情况下只对IP进行嗅探）
+    - +.v2ex.com
+  skip-domain:                       # 需要跳过嗅探的域名。主要解决部分站点sni字段非域名，导致嗅探结果异常的问题，如米家设备Mijia Cloud
+    - Mijia Cloud
+
+tun:
+  enable: true                       # 启用 tun
+  stack: mixed                       # tun 模式堆栈,可用值：system/gvisor/mixed
+  dns-hijack: [any:53]               # dns 劫持，将匹配到的连接导入内部 dns 模块，不书写协议则为 udp://
+  auto-route: true                   # 自动设置全局路由，可以自动将全局流量路由进入 tun 网卡               
+  auto-detect-interface: true        # 自动选择流量出口接口，多出口网卡同时连接的设备建议手动指定出口网卡
+
+dns:
+  enable: true                       # 关闭将使用系统 DNS
+  prefer-h3: false                   # 优先使用 DOH 的 http/3
+  listen: 0.0.0.0:1053               # DNS 监听地址
+  ipv6: true                         # IPV6解析开关；如果为false，将返回ipv6结果为空
+  enhanced-mode: fake-ip             # 模式：redir-host或fake-ip
+  fake-ip-range: 198.18.0.0/16       # Fake-IP 解析地址池
+  fake-ip-filter: ['*', '+.lan', '+.local', '+.market.xiaomi.com', '+.msftconnecttest.com', '+.msftncsi.com']
+                                     # Fake-ip 过滤，列表中的域名返回真实IP
+  respect-rules: false               # dns 连接跟随 rules，需配置 proxy-server-nameserver
+  default-nameserver: [tls://223.5.5.5, tls://223.6.6.6]
+                                     # 解析非IP的dns用的dns服务器，只支持纯IP, 可为加密 DNS
+  nameserver: [https://dns.alidns.com/dns-query, https://doh.pub/dns-query]
+                                     # 默认DNS服务器，支持udp/tcp/dot/doh/doq
+
+######### 锚点 start #########
+
+# 规则类型相关
+c: &c {type: http, behavior: classical, interval: 86400, format: text}
+
+d: &d {type: http, behavior: domain, interval: 86400, format: mrs}
+
+i: &i {type: http, behavior: ipcidr, interval: 86400, format: mrs}
+
+# 节点筛选相关
+HK: &HK '^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
+TW: &TW '^(?=.*((?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
+JP: &JP '^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
+SG: &SG '^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
+US: &US '^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
+All: &All '^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|(\b(USE|USED|TOTAL|Traffic|Expire|EMAIL|Panel|Channel|Author)\b|(\d{4}-\d{2}-\d{2}|\d+G)))).*$'
+
+# 代理组相关
+Select: &Select {type: select, proxies: [Proxy, HongKong, TaiWan, Japan, Singapore, America, AllServer, DIRECT]}
+
+UrlTest: &UrlTest {type: url-test, interval: 300, tolerance: 20, lazy: true, url: 'http://www.gstatic.com/generate_204', disable-udp: false, timeout: 2000, max-failed-times: 3, hidden: true, include-all-providers: true}
+
+FallBack: &FallBack {type: fallback, interval: 300, lazy: true, url: 'http://www.gstatic.com/generate_204', disable-udp: false, timeout: 2000, max-failed-times: 3, hidden: true, include-all-providers: true}
+
+LoadBalance: &LoadBalance {type: load-balance, interval: 300, lazy: true, url: 'http://www.gstatic.com/generate_204', disable-udp: false, strategy: consistent-hashing, timeout: 2000, max-failed-times: 3, hidden: true, include-all-providers: true}
+
+######### 锚点 end #########
+
+# 代理组
+proxy-groups: 
+
+# 漏网之鱼
+ - {name: Final, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png, <<: *Select, proxies: [Proxy,DIRECT]}
+
+# 节点切换
+ - {name: Proxy, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png, <<: *Select, proxies: [HongKong,TaiWan,Japan,Singapore,America,AllServer,DIRECT]}
+
+# AI平台
+ - {name: AI, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png, <<: *Select}
+
+# YouTube
+ - {name: YouTube, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, <<: *Select}
+
+# Netflix
+ - {name: NETFLIX, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png, <<: *Select}
+
+# Disney+
+ - {name: Disney+, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png, <<: *Select}
+
+# Emby
+ - {name: Emby, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, <<: *Select}
+
+# TikTok
+ - {name: TikTok, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png, <<: *Select}
+
+# 哔哩哔哩
+ - {name: bilibili, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png, <<: *Select, proxies: [DIRECT,HongKong,TaiWan]}
+
+# Spotify
+ - {name: Spotify, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, <<: *Select}
+
+# 网易云音乐
+ - {name: NetEaseMusic, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png, <<: *Select, proxies: [DIRECT]}
+
+# 国际流媒体
+ - {name: Streaming, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Streaming.png, <<: *Select}
+
+# Telegram
+ - {name: Telegram, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram_X.png, <<: *Select}
+
+# X(Twitter)
+ - {name: X, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/X.png, <<: *Select}
+
+# 苹果服务
+ - {name: Apple, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png, <<: *Select}
+
+# 谷歌服务
+ - {name: Google, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png, <<: *Select}
+
+# 微软服务
+ - {name: Microsoft, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Windows_11.png, <<: *Select}
+
+# 游戏平台
+ - {name: Games, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, <<: *Select}
+
+# 地区节点代理组
+ - {name: HongKong, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png, type: select, proxies: [HK-Auto, HK-FallBack, HK-LoadBalance], include-all-providers: true, filter: *HK}
+ - {name: TaiWan, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png, type: select, proxies: [TW-Auto, TW-FallBack, TW-LoadBalance], include-all-providers: true, filter: *TW}
+ - {name: Japan, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png, type: select, proxies: [JP-Auto, JP-FallBack, JP-LoadBalance], include-all-providers: true, filter: *JP}
+ - {name: Singapore, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png, type: select, proxies: [SG-Auto, SG-FallBack, SG-LoadBalance], include-all-providers: true, filter: *SG}
+ - {name: America, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png, type: select, proxies: [US-Auto, US-FallBack, US-LoadBalance], include-all-providers: true, filter: *US}
+
+# 全部节点
+ - {name: AllServer, icon: https://gh-proxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, proxies: [All-Auto], include-all-providers: true, filter: *All}
+
+# 延时优选代理组
+ - {name: HK-Auto, <<: *UrlTest, filter: *HK}
+ - {name: TW-Auto, <<: *UrlTest, filter: *TW}
+ - {name: JP-Auto, <<: *UrlTest, filter: *JP}
+ - {name: SG-Auto, <<: *UrlTest, filter: *SG}
+ - {name: US-Auto, <<: *UrlTest, filter: *US}
+
+# 故障转移代理组
+ - {name: HK-FallBack, <<: *FallBack, filter: *HK}
+ - {name: TW-FallBack, <<: *FallBack, filter: *TW}
+ - {name: JP-FallBack, <<: *FallBack, filter: *JP}
+ - {name: SG-FallBack, <<: *FallBack, filter: *SG}
+ - {name: US-FallBack, <<: *FallBack, filter: *US}
+
+# 负载均衡代理组
+ - {name: HK-LoadBalance, <<: *LoadBalance, filter: *HK}
+ - {name: TW-LoadBalance, <<: *LoadBalance, filter: *TW}
+ - {name: JP-LoadBalance, <<: *LoadBalance, filter: *JP}
+ - {name: SG-LoadBalance, <<: *LoadBalance, filter: *SG}
+ - {name: US-LoadBalance, <<: *LoadBalance, filter: *US}
+
+# 全部节点延时优选
+ - {name: All-Auto, <<: *UrlTest, filter: *All}
+
+# 远程规则集
+rule-providers:
+
+# 隐私网络/局域网
+ private-domain: {<<: *d, path: ./ruleset/private-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs}
+ 
+ private-ip: {<<: *i, path: ./ruleset/private-ip.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs}
+
+# AI平台
+ ai-domain: {<<: *d, path: ./ruleset/ai-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs}
+
+# YouTube
+ youtube-domain: {<<: *d, path: ./ruleset/youtube-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs}
+
+# Netflix
+ netflix-domain: {<<: *d, path: ./ruleset/netflix-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs}
+ 
+ netflix-ip: {<<: *i, path: ./ruleset/netflix-ip.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs}
+
+# Disney+
+ disney-domain: {<<: *d, path: ./ruleset/disney-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs}
+
+# Emby
+ emby-classical: {<<: *c, path: ./ruleset/emby-classical.list, url: https://gh-proxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/Emby.list}
+
+# TikTok
+ tiktok-domain: {<<: *d, path: ./ruleset/tiktok-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs}
+
+# 动画疯
+ bahamut-domain: {<<: *d, path: ./ruleset/bahamut-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.mrs}
+
+# 哔哩哔哩东南亚
+ biliintl-domain: {<<: *d, path: ./ruleset/biliintl-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/biliintl.mrs}
+
+# 哔哩哔哩
+ bilibili-domain: {<<: *d, path: ./ruleset/bilibili-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bilibili.mrs}
+ 
+ bilibili-ip: {<<: *i, path: ./ruleset/bilibili-ip.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/bilibili.mrs}
+
+# Spotify
+ spotify-domain: {<<: *d, path: ./ruleset/spotify-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs}
+
+# 网易云音乐
+ neteasemusic-classical: {<<: *c, path: ./ruleset/neteasemusic-classical.list, url: https://gh-proxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/NetEaseMusic.list}
+
+# 国际流媒体
+ proxymedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.list, url: https://gh-proxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/ProxyMedia.list}
+
+# WeChat
+ wechat-classical: {<<: *c, path: ./ruleset/wechat-classical.list, url: https://gh-proxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/WeChat.list}
+
+# Telegram
+ telegram-domain: {<<: *d, path: ./ruleset/telegram-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs}
+
+ telegram-ip: {<<: *i, path: ./ruleset/telegram-ip.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs}
+
+# GitHub
+ github-domain: {<<: *d, path: ./ruleset/github-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs}
+
+# X(Twitter)
+ twitter-domain: {<<: *d, path: ./ruleset/twitter-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitter.mrs}
+ 
+ twitter-ip: {<<: *i, path: ./ruleset/twitter-ip.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/twitter.mrs}
+
+# 苹果代理服务
+ apple-classical: {<<: *c, path: ./ruleset/apple-classical.list, url: https://gh-proxy.com/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/AppleProxyService.list}
+
+# 苹果服务
+ apple-domain: {<<: *d, path: ./ruleset/apple-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs}
+ 
+ apple-ip: {<<: *i, path: ./ruleset/apple-ip.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/apple.mrs}
+
+# 谷歌服务
+ google-domain: {<<: *d, path: ./ruleset/google-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs}
+
+ google-ip: {<<: *i, path: ./ruleset/google-ip.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs}
+
+# 微软服务
+ microsoft-domain: {<<: *d, path: ./ruleset/microsoft-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs}
+
+# 游戏平台
+ games-domain: {<<: *d, path: ./ruleset/games-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.mrs}
+
+# 国内网站
+ cn-domain: {<<: *d, path: ./ruleset/cn-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs}
+
+# 国外网站
+ proxy-domain: {<<: *d, path: ./ruleset/proxy-domain.mrs, url: https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs}
+
+# 分流规则引用
+rules:
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.metacubex.one,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - DOMAIN,d.metacubex.one,DIRECT
+  - DOMAIN,board.zash.run.place,DIRECT
+  
+  - RULE-SET,private-domain,DIRECT
+  - RULE-SET,ai-domain,AI
+  - RULE-SET,youtube-domain,YouTube
+  - RULE-SET,netflix-domain,NETFLIX
+  - RULE-SET,disney-domain,Disney+
+  - RULE-SET,emby-classical,Emby
+  - RULE-SET,tiktok-domain,TikTok
+  - RULE-SET,bahamut-domain,TaiWan
+  - RULE-SET,biliintl-domain,Streaming
+  - RULE-SET,bilibili-domain,bilibili
+  - RULE-SET,spotify-domain,Spotify
+  - RULE-SET,neteasemusic-classical,NetEaseMusic
+  - RULE-SET,proxymedia-classical,Streaming
+  - RULE-SET,wechat-classical,DIRECT
+  - RULE-SET,telegram-domain,Telegram
+  - RULE-SET,github-domain,Proxy
+  - RULE-SET,twitter-domain,X
+  - RULE-SET,apple-classical,America
+  - RULE-SET,apple-domain,Apple
+  - RULE-SET,google-domain,Google
+  - RULE-SET,microsoft-domain,Microsoft
+  - RULE-SET,games-domain,Games
+  - RULE-SET,proxy-domain,Proxy
+
+  - RULE-SET,google-ip,Google
+  - RULE-SET,netflix-ip,NETFLIX
+  - RULE-SET,telegram-ip,Telegram
+  - RULE-SET,twitter-ip,X
+  - RULE-SET,cn-domain,DIRECT
+  - RULE-SET,bilibili-ip,bilibili
+  - RULE-SET,apple-ip,Apple
+  - RULE-SET,private-ip,DIRECT
+  - GEOIP,cn,DIRECT
+  - MATCH,Final

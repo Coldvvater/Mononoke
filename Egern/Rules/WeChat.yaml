@@ -1,0 +1,38 @@
+# 规则名称: WeChat
+# 规则统计: 31
+
+no_resolve: true
+domain_set:
+  - apd-pcdnwxlogin.teg.tencent-cloud.net
+  - btrace.qq.com
+  - dldir1.qq.com
+  - slife.xy-asia.com
+  - soup.v.qq.com
+  - vweixinf.tc.qq.com
+  - weixin110.qq.com
+  - wup.imtt.qq.com
+domain_suffix_set:
+  - iot-tencent.com
+  - lbs.gtimg.com
+  - map.qq.com
+  - qlogo.cn
+  - qpic.cn
+  - servicewechat.com
+  - tenpay.com
+  - up-hl.3g.qq.com
+  - vweixinthumb.tc.qq.com
+  - wechat.com
+  - wechatlegal.net
+  - wechatos.net
+  - wechatpay.com
+  - weixin.com
+  - weixin.qq.com
+  - weixinbridge.com
+  - weixinsxy.com
+  - wx.gtimg.com
+  - wx.qq.com
+  - wxapp.tc.qq.com
+  - wxs.qq.com
+  - yun-hl.3g.qq.com
+asn_set:
+  - 132203
