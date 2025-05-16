@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4664
+# 规则统计: 4679
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -594,6 +594,8 @@ DOMAIN-SUFFIX,ak03150hou.com
 DOMAIN-SUFFIX,ak03211hou.com
 DOMAIN-SUFFIX,akoo0513uis.com
 DOMAIN-SUFFIX,akoo0514uis.com
+DOMAIN-SUFFIX,akoo0515uis.com
+DOMAIN-SUFFIX,akoo0516uis.com
 DOMAIN-SUFFIX,al.newxue.com
 DOMAIN-SUFFIX,alimama.alicdn.com
 DOMAIN-SUFFIX,alime-pic.oss-cn-hangzhou.aliyuncs.com
@@ -1121,6 +1123,7 @@ DOMAIN-SUFFIX,cuaeblh.icu
 DOMAIN-SUFFIX,cucnmtf.top
 DOMAIN-SUFFIX,cukuix.com
 DOMAIN-SUFFIX,cupfox.app
+DOMAIN-SUFFIX,cuqpi.cn
 DOMAIN-SUFFIX,curesdf.top
 DOMAIN-SUFFIX,cuvedyqs.com
 DOMAIN-SUFFIX,cv7.icu
@@ -1579,6 +1582,7 @@ DOMAIN-SUFFIX,fgdkfr.xyz
 DOMAIN-SUFFIX,fgnfpnae.icu
 DOMAIN-SUFFIX,fgwuw.com
 DOMAIN-SUFFIX,fheiu43bcdhsj.top
+DOMAIN-SUFFIX,fhl05150ps.com
 DOMAIN-SUFFIX,fhnbrx.xyz
 DOMAIN-SUFFIX,fiezaits.com
 DOMAIN-SUFFIX,figvatqrwd.com
@@ -1623,6 +1627,7 @@ DOMAIN-SUFFIX,fq05.shop
 DOMAIN-SUFFIX,fq06.shop
 DOMAIN-SUFFIX,fq07.shop
 DOMAIN-SUFFIX,fq67.top
+DOMAIN-SUFFIX,fqanoreirlpa.com
 DOMAIN-SUFFIX,fqbr.cn
 DOMAIN-SUFFIX,fqghykp.cn
 DOMAIN-SUFFIX,fqnhjt.icu
@@ -2008,6 +2013,7 @@ DOMAIN-SUFFIX,i3535.com
 DOMAIN-SUFFIX,i3z.cn
 DOMAIN-SUFFIX,i8m6.com
 DOMAIN-SUFFIX,iads.xinmin.cn
+DOMAIN-SUFFIX,iafg.cn
 DOMAIN-SUFFIX,iaindu.cn
 DOMAIN-SUFFIX,iaiqk.top
 DOMAIN-SUFFIX,iairuo.xyz
@@ -2815,6 +2821,7 @@ DOMAIN-SUFFIX,n8u.icu
 DOMAIN-SUFFIX,naettarq.com
 DOMAIN-SUFFIX,nagvaxvy.com
 DOMAIN-SUFFIX,nahjzx.xyz
+DOMAIN-SUFFIX,nalyxg.top
 DOMAIN-SUFFIX,naukreatn.com
 DOMAIN-SUFFIX,nbdtdt.icu
 DOMAIN-SUFFIX,nbfsvreu.icu
@@ -2844,6 +2851,8 @@ DOMAIN-SUFFIX,nhz6q.cn
 DOMAIN-SUFFIX,niecarsg.com
 DOMAIN-SUFFIX,nievolmqn.com
 DOMAIN-SUFFIX,nilipuyn.com
+DOMAIN-SUFFIX,niu05150jd.top
+DOMAIN-SUFFIX,niu05151jd.top
 DOMAIN-SUFFIX,niwota.com
 DOMAIN-SUFFIX,njnhzh.icu
 DOMAIN-SUFFIX,nkdgnsfsk.com
@@ -2986,6 +2995,7 @@ DOMAIN-SUFFIX,ookaso.com
 DOMAIN-SUFFIX,ooublik.top
 DOMAIN-SUFFIX,opdh.cn
 DOMAIN-SUFFIX,opkmio.xyz
+DOMAIN-SUFFIX,opkrerkaidf.com
 DOMAIN-SUFFIX,opqnkw.xyz
 DOMAIN-SUFFIX,oqaejin.icu
 DOMAIN-SUFFIX,oqea.cn
@@ -3218,6 +3228,7 @@ DOMAIN-SUFFIX,qifake.com
 DOMAIN-SUFFIX,qighodetfg.com
 DOMAIN-SUFFIX,qiji1.jdwx.info
 DOMAIN-SUFFIX,qimaf.com
+DOMAIN-SUFFIX,qimsgi.icu
 DOMAIN-SUFFIX,qiuxl11.cn
 DOMAIN-SUFFIX,qiwqaagnaell.com
 DOMAIN-SUFFIX,qiyeb.iaskbus.com
@@ -3426,6 +3437,7 @@ DOMAIN-SUFFIX,sahqoo.com
 DOMAIN-SUFFIX,saizih.com
 DOMAIN-SUFFIX,saktuddo.com
 DOMAIN-SUFFIX,salary.xiao84.com
+DOMAIN-SUFFIX,sales-frontier.com
 DOMAIN-SUFFIX,saltsleaseholder.com
 DOMAIN-SUFFIX,same.chinadaily.com.cn
 DOMAIN-SUFFIX,same.eastmoney.com
@@ -3781,6 +3793,7 @@ DOMAIN-SUFFIX,tqanmatx.icu
 DOMAIN-SUFFIX,tqbrnd.xyz
 DOMAIN-SUFFIX,tqeferty33.fun
 DOMAIN-SUFFIX,tqjojh.icu
+DOMAIN-SUFFIX,tqphaqoye.com
 DOMAIN-SUFFIX,trafficjam.cn
 DOMAIN-SUFFIX,traukvan.com
 DOMAIN-SUFFIX,trebleperfect.com
@@ -4223,6 +4236,7 @@ DOMAIN-SUFFIX,wkitere.top
 DOMAIN-SUFFIX,wkzw.me
 DOMAIN-SUFFIX,wl.uqwjdhgv.top
 DOMAIN-SUFFIX,wlberlaiw.com
+DOMAIN-SUFFIX,wliksa.icu
 DOMAIN-SUFFIX,wlkukrv.icu
 DOMAIN-SUFFIX,wlouqsz.xyz
 DOMAIN-SUFFIX,wlwgloo.icu
@@ -4295,6 +4309,7 @@ DOMAIN-SUFFIX,wxsicu.xyz
 DOMAIN-SUFFIX,wy213.com
 DOMAIN-SUFFIX,wyisloe.top
 DOMAIN-SUFFIX,wyvpkmbj.icu
+DOMAIN-SUFFIX,wyvw.cn
 DOMAIN-SUFFIX,wyzq.rehuwang.com
 DOMAIN-SUFFIX,wzjs1.oss-accelerate.aliyuncs.com
 DOMAIN-SUFFIX,x.dmouy.cn

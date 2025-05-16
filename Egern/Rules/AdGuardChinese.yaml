@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4664
+# 规则统计: 4679
 
 domain_suffix_set:
   - 002777.xyz
@@ -595,6 +595,8 @@ domain_suffix_set:
   - ak03211hou.com
   - akoo0513uis.com
   - akoo0514uis.com
+  - akoo0515uis.com
+  - akoo0516uis.com
   - al.newxue.com
   - alimama.alicdn.com
   - alime-pic.oss-cn-hangzhou.aliyuncs.com
@@ -1122,6 +1124,7 @@ domain_suffix_set:
   - cucnmtf.top
   - cukuix.com
   - cupfox.app
+  - cuqpi.cn
   - curesdf.top
   - cuvedyqs.com
   - cv7.icu
@@ -1580,6 +1583,7 @@ domain_suffix_set:
   - fgnfpnae.icu
   - fgwuw.com
   - fheiu43bcdhsj.top
+  - fhl05150ps.com
   - fhnbrx.xyz
   - fiezaits.com
   - figvatqrwd.com
@@ -1624,6 +1628,7 @@ domain_suffix_set:
   - fq06.shop
   - fq07.shop
   - fq67.top
+  - fqanoreirlpa.com
   - fqbr.cn
   - fqghykp.cn
   - fqnhjt.icu
@@ -2009,6 +2014,7 @@ domain_suffix_set:
   - i3z.cn
   - i8m6.com
   - iads.xinmin.cn
+  - iafg.cn
   - iaindu.cn
   - iaiqk.top
   - iairuo.xyz
@@ -2816,6 +2822,7 @@ domain_suffix_set:
   - naettarq.com
   - nagvaxvy.com
   - nahjzx.xyz
+  - nalyxg.top
   - naukreatn.com
   - nbdtdt.icu
   - nbfsvreu.icu
@@ -2845,6 +2852,8 @@ domain_suffix_set:
   - niecarsg.com
   - nievolmqn.com
   - nilipuyn.com
+  - niu05150jd.top
+  - niu05151jd.top
   - niwota.com
   - njnhzh.icu
   - nkdgnsfsk.com
@@ -2987,6 +2996,7 @@ domain_suffix_set:
   - ooublik.top
   - opdh.cn
   - opkmio.xyz
+  - opkrerkaidf.com
   - opqnkw.xyz
   - oqaejin.icu
   - oqea.cn
@@ -3219,6 +3229,7 @@ domain_suffix_set:
   - qighodetfg.com
   - qiji1.jdwx.info
   - qimaf.com
+  - qimsgi.icu
   - qiuxl11.cn
   - qiwqaagnaell.com
   - qiyeb.iaskbus.com
@@ -3427,6 +3438,7 @@ domain_suffix_set:
   - saizih.com
   - saktuddo.com
   - salary.xiao84.com
+  - sales-frontier.com
   - saltsleaseholder.com
   - same.chinadaily.com.cn
   - same.eastmoney.com
@@ -3782,6 +3794,7 @@ domain_suffix_set:
   - tqbrnd.xyz
   - tqeferty33.fun
   - tqjojh.icu
+  - tqphaqoye.com
   - trafficjam.cn
   - traukvan.com
   - trebleperfect.com
@@ -4224,6 +4237,7 @@ domain_suffix_set:
   - wkzw.me
   - wl.uqwjdhgv.top
   - wlberlaiw.com
+  - wliksa.icu
   - wlkukrv.icu
   - wlouqsz.xyz
   - wlwgloo.icu
@@ -4296,6 +4310,7 @@ domain_suffix_set:
   - wy213.com
   - wyisloe.top
   - wyvpkmbj.icu
+  - wyvw.cn
   - wyzq.rehuwang.com
   - wzjs1.oss-accelerate.aliyuncs.com
   - x.dmouy.cn
