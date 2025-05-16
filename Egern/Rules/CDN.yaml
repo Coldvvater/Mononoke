@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3638
+# 规则统计: 3639
 
 domain_set:
   - 0x0.st
@@ -343,6 +343,7 @@ domain_set:
   - cache-05.filehippo.net
   - cache.armorgames.com
   - cache.hackedfreegames.com
+  - cache.omnicalculator.com
   - canny-assets.io
   - cassette.sphdigital.com.sg
   - cc-embed.adobe.com
@@ -561,7 +562,6 @@ domain_set:
   - cdn.libravatar.org
   - cdn.lihkg.com
   - cdn.linearicons.com
-  - cdn.linux.do
   - cdn.livechatinc.com
   - cdn.loom.com
   - cdn.macstories.net
@@ -591,6 +591,7 @@ domain_set:
   - cdn.nolt.io
   - cdn.now.gg
   - cdn.nperf.com
+  - cdn.omnicalculator.com
   - cdn.one.store
   - cdn.onesignal.com
   - cdn.onetime.dog
@@ -2421,6 +2422,7 @@ domain_set:
   - updates.signal.org
   - updates2.signal.org
   - upload.wikimedia.org
+  - uploads-cdn.omnicalculator.com
   - uploads.codesandbox.io
   - uploads.guim.co.uk
   - uploads.linear.app
@@ -2577,7 +2579,6 @@ domain_suffix_set:
   - agechecker.northern-apps.com
   - ahcdn.com
   - airio3.live
-  - akamai-content-network.com
   - akidoo.top
   - alexdav.id
   - algolianet.com

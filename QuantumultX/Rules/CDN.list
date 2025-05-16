@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3638
+# 规则统计: 3639
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -342,6 +342,7 @@ HOST,cacerts.digicert.com,CDN
 HOST,cache-05.filehippo.net,CDN
 HOST,cache.armorgames.com,CDN
 HOST,cache.hackedfreegames.com,CDN
+HOST,cache.omnicalculator.com,CDN
 HOST,canny-assets.io,CDN
 HOST,cassette.sphdigital.com.sg,CDN
 HOST,cc-embed.adobe.com,CDN
@@ -560,7 +561,6 @@ HOST,cdn.lemonsqueezy.com,CDN
 HOST,cdn.libravatar.org,CDN
 HOST,cdn.lihkg.com,CDN
 HOST,cdn.linearicons.com,CDN
-HOST,cdn.linux.do,CDN
 HOST,cdn.livechatinc.com,CDN
 HOST,cdn.loom.com,CDN
 HOST,cdn.macstories.net,CDN
@@ -590,6 +590,7 @@ HOST,cdn.neverbounce.com,CDN
 HOST,cdn.nolt.io,CDN
 HOST,cdn.now.gg,CDN
 HOST,cdn.nperf.com,CDN
+HOST,cdn.omnicalculator.com,CDN
 HOST,cdn.one.store,CDN
 HOST,cdn.onesignal.com,CDN
 HOST,cdn.onetime.dog,CDN
@@ -2420,6 +2421,7 @@ HOST,unsubscribe-imgs.leavemealone.com,CDN
 HOST,updates.signal.org,CDN
 HOST,updates2.signal.org,CDN
 HOST,upload.wikimedia.org,CDN
+HOST,uploads-cdn.omnicalculator.com,CDN
 HOST,uploads.codesandbox.io,CDN
 HOST,uploads.guim.co.uk,CDN
 HOST,uploads.linear.app,CDN
@@ -2575,7 +2577,6 @@ HOST-SUFFIX,agechecker-northern-apps.com,CDN
 HOST-SUFFIX,agechecker.northern-apps.com,CDN
 HOST-SUFFIX,ahcdn.com,CDN
 HOST-SUFFIX,airio3.live,CDN
-HOST-SUFFIX,akamai-content-network.com,CDN
 HOST-SUFFIX,akidoo.top,CDN
 HOST-SUFFIX,alexdav.id,CDN
 HOST-SUFFIX,algolianet.com,CDN
