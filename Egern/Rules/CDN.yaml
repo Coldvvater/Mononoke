@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3640
+# 规则统计: 3641
 
 domain_set:
   - 0x0.st
@@ -707,6 +707,7 @@ domain_set:
   - cdn.v2ex.com
   - cdn.vector.co
   - cdn.verifypass.com
+  - cdn.viafoura.net
   - cdn.vidible.tv
   - cdn.vidyard.com
   - cdn.viglink.com
