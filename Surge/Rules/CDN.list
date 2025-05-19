@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3639
+# 规则统计: 3640
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2548,6 +2548,7 @@ DOMAIN,wwwimages2.adobe.com
 DOMAIN,xpaywalletcdn.azureedge.net
 DOMAIN,yep.video.yahoo.com
 DOMAIN,zephr-templates.cnbc.com
+DOMAIN-SUFFIX,1a-1791.com
 DOMAIN-SUFFIX,1passwordusercontent.ca
 DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN-SUFFIX,1passwordusercontent.eu

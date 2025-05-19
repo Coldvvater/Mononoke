@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3639
+# 规则统计: 3640
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2548,6 +2548,7 @@ HOST,wwwimages2.adobe.com,CDN
 HOST,xpaywalletcdn.azureedge.net,CDN
 HOST,yep.video.yahoo.com,CDN
 HOST,zephr-templates.cnbc.com,CDN
+HOST-SUFFIX,1a-1791.com,CDN
 HOST-SUFFIX,1passwordusercontent.ca,CDN
 HOST-SUFFIX,1passwordusercontent.com,CDN
 HOST-SUFFIX,1passwordusercontent.eu,CDN

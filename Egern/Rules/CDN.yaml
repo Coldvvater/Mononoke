@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3639
+# 规则统计: 3640
 
 domain_set:
   - 0x0.st
@@ -2550,6 +2550,7 @@ domain_set:
   - yep.video.yahoo.com
   - zephr-templates.cnbc.com
 domain_suffix_set:
+  - 1a-1791.com
   - 1passwordusercontent.ca
   - 1passwordusercontent.com
   - 1passwordusercontent.eu
