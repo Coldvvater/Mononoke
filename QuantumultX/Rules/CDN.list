@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3644
+# 规则统计: 3646
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1660,6 +1660,7 @@ HOST,net-fe-static-assets.network-controller.svc.ui.com,CDN
 HOST,netlify.apollo.io,CDN
 HOST,newassets.hcaptcha.com,CDN
 HOST,news-assets.apple.com,CDN
+HOST,news-data.pts.org.tw,CDN
 HOST,newsletter.postmarkapp.com,CDN
 HOST,next-images.123rf.com,CDN
 HOST,next-images.opencollective.com,CDN
@@ -2145,6 +2146,7 @@ HOST,static.filehorse.com,CDN
 HOST,static.filestackapi.com,CDN
 HOST,static.foxbusiness.com,CDN
 HOST,static.foxnews.com,CDN
+HOST,static.frame.work,CDN
 HOST,static.freedownloadmanager.org,CDN
 HOST,static.freeimages.com,CDN
 HOST,static.getbutton.io,CDN

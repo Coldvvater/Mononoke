@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3644
+# 规则统计: 3646
 
 domain_set:
   - 0x0.st
@@ -1661,6 +1661,7 @@ domain_set:
   - netlify.apollo.io
   - newassets.hcaptcha.com
   - news-assets.apple.com
+  - news-data.pts.org.tw
   - newsletter.postmarkapp.com
   - next-images.123rf.com
   - next-images.opencollective.com
@@ -2146,6 +2147,7 @@ domain_set:
   - static.filestackapi.com
   - static.foxbusiness.com
   - static.foxnews.com
+  - static.frame.work
   - static.freedownloadmanager.org
   - static.freeimages.com
   - static.getbutton.io

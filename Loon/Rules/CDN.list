@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3644
+# 规则统计: 3646
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1660,6 +1660,7 @@ DOMAIN,net-fe-static-assets.network-controller.svc.ui.com
 DOMAIN,netlify.apollo.io
 DOMAIN,newassets.hcaptcha.com
 DOMAIN,news-assets.apple.com
+DOMAIN,news-data.pts.org.tw
 DOMAIN,newsletter.postmarkapp.com
 DOMAIN,next-images.123rf.com
 DOMAIN,next-images.opencollective.com
@@ -2145,6 +2146,7 @@ DOMAIN,static.filehorse.com
 DOMAIN,static.filestackapi.com
 DOMAIN,static.foxbusiness.com
 DOMAIN,static.foxnews.com
+DOMAIN,static.frame.work
 DOMAIN,static.freedownloadmanager.org
 DOMAIN,static.freeimages.com
 DOMAIN,static.getbutton.io
