@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1029
+# 规则统计: 1030
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
@@ -506,6 +506,7 @@ DOMAIN-SUFFIX,kraken.com
 DOMAIN-SUFFIX,kucoin.com
 DOMAIN-SUFFIX,kwai.com
 DOMAIN-SUFFIX,la
+DOMAIN-SUFFIX,laby.net
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,ledger.com
 DOMAIN-SUFFIX,leetcode.com

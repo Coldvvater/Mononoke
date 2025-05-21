@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3641
+# 规则统计: 3644
 
 domain_set:
   - 0x0.st
@@ -2369,6 +2369,7 @@ domain_set:
   - telemetry.stepsecurity.io
   - telemetry.vercel.com
   - telemetry2.devolutions.net
+  - texture.laby.net
   - th.bing.com
   - th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe
   - themes.fourthwall.com
@@ -2550,6 +2551,7 @@ domain_set:
   - xpaywalletcdn.azureedge.net
   - yep.video.yahoo.com
   - zephr-templates.cnbc.com
+  - zod.dev
 domain_suffix_set:
   - 1a-1791.com
   - 1passwordusercontent.ca
@@ -2736,6 +2738,7 @@ domain_suffix_set:
   - chasecdn.com
   - chcdn.xyz
   - chesscomfiles.com
+  - cktu01.sbs
   - claudeusercontent.com
   - cldup.com
   - clientmetrics-pa.googleapis.com

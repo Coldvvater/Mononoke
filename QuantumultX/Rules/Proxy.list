@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1029
+# 规则统计: 1030
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -506,6 +506,7 @@ HOST-SUFFIX,kraken.com,Proxy
 HOST-SUFFIX,kucoin.com,Proxy
 HOST-SUFFIX,kwai.com,Proxy
 HOST-SUFFIX,la,Proxy
+HOST-SUFFIX,laby.net,Proxy
 HOST-SUFFIX,launchdarkly.com,Proxy
 HOST-SUFFIX,ledger.com,Proxy
 HOST-SUFFIX,leetcode.com,Proxy

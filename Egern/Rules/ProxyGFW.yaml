@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7359
+# 规则统计: 7360
 
 no_resolve: true
 domain_set:
@@ -3608,6 +3608,7 @@ domain_suffix_set:
   - la
   - la-forum.org
   - labiennale.org
+  - laby.net
   - ladbrokes.com
   - lagranepoca.com
   - lala.im

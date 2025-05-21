@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7360
+# 规则统计: 7361
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -3605,6 +3605,7 @@ HOST-SUFFIX,kzeng.info,ProxyGFW
 HOST-SUFFIX,la,ProxyGFW
 HOST-SUFFIX,la-forum.org,ProxyGFW
 HOST-SUFFIX,labiennale.org,ProxyGFW
+HOST-SUFFIX,laby.net,ProxyGFW
 HOST-SUFFIX,ladbrokes.com,ProxyGFW
 HOST-SUFFIX,lagranepoca.com,ProxyGFW
 HOST-SUFFIX,lala.im,ProxyGFW

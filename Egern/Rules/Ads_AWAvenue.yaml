@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 841
+# 规则统计: 819
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -31,7 +31,6 @@ domain_suffix_set:
   - ad.toutiao.com
   - ad.v3mh.com
   - ad.winrar.com.cn
-  - ad.xiaomi.com
   - ad.ximalaya.com
   - ad.zijieapi.com
   - ad2.ettoday.net
@@ -54,7 +53,6 @@ domain_suffix_set:
   - adguanggao.eee114.com
   - adjust.cn
   - adjust.com
-  - adkwai.com
   - adlink-api.huan.tv
   - adm.funshion.com
   - ads-api-o.api.leiniao.com
@@ -124,7 +122,6 @@ domain_suffix_set:
   - adtago.s3.amazonaws.com
   - adtech.yahooinc.com
   - adtrack.quark.cn
-  - adukwai.com
   - adv.fjtv.net
   - adv.sec.intl.miui.com
   - adv.sec.miui.com
@@ -205,14 +202,13 @@ domain_suffix_set:
   - apiyd.my91app.com
   - app-measurement.com
   - appcfg.v.qq.com
-  - appcloud2.in.zhihu.com
   - applog.lc.quark.cn
   - applog.uc.cn
   - applog.zijieapi.com
   - applovin.com
   - applvn.com
+  - appversion.115.com
   - aspect-upush.umeng.com
-  - ata-sdk-uuid-report.dreport.meituan.net
   - auction.unityads.unity3d.com
   - audid-api.taobao.com
   - audid.umeng.com
@@ -311,7 +307,6 @@ domain_suffix_set:
   - dsp-x.jd.com
   - dsp.fcbox.com
   - dualstack-logs.amap.com
-  - dutils.com
   - dxp.baidu.com
   - dyp2p-ali.douyucdn.cn
   - dyp2p-hw.douyucdn.cn
@@ -345,7 +340,6 @@ domain_suffix_set:
   - geo.yahoo.com
   - getui.cn
   - getui.com
-  - getui.net
   - ggx.cmvideo.cn
   - ggx01.miguvideo.com
   - ggx03.miguvideo.com
@@ -357,12 +351,10 @@ domain_suffix_set:
   - googleadservices-cn.com
   - googleadservices.com
   - googletagservices-cn.com
-  - googletagservices.com
   - gorgon.youdao.com
   - gromore.pangolin-sdk-toutiao.com
   - grs.dbankcloud.com
   - grs.hicloud.com
-  - grs.platform.dbankcloud.ru
   - gslb.hpplay.cn
   - gvideo.qpic.cn
   - h-adashx.ut.taobao.com
@@ -386,7 +378,6 @@ domain_suffix_set:
   - hw-p2p-pull.video-voip.com
   - hw-p2p.pull.yximgs.com
   - hwpub-s01-drcn.cloud.dbankcloud.cn
-  - hya.comp.360os.com
   - hybrid.miniapp.taobao.com
   - hye.comp.360os.com
   - hyt.comp.360os.com
@@ -398,7 +389,6 @@ domain_suffix_set:
   - iadworkbench.apple.com
   - ifacelog.iqiyi.com
   - ifs.tanx.com
-  - igexin.com
   - ii.gdt.qq.com
   - imag8.pubmatic.com
   - imag86.pubmatic.com
@@ -438,7 +428,6 @@ domain_suffix_set:
   - ks-p2p.pull.yximgs.com
   - ks.ferlytc.com
   - ks.pull.yximgs.com
-  - kuiniuca.com
   - launcher.smart-tv.cn
   - launcherimg.smart-tv.cn
   - lf3-ad-union-sdk.pglstatp-toutiao.com
@@ -499,7 +488,6 @@ domain_suffix_set:
   - masdkv6.3g.qq.com
   - mazu.m.qq.com
   - mbdlog.iqiyi.com
-  - metrics.apple.com
   - metrics.data.hicloud.com
   - metrics.icloud.com
   - metrics.mzstatic.com
@@ -522,7 +510,6 @@ domain_suffix_set:
   - mobaliyun.res.mgtv.com
   - mobile.da.mgtv.com
   - mobilelog.upqzfile.com
-  - mobileservice.cn
   - mon.zijieapi.com
   - monitor-ads-test.huan.tv
   - monitor-uu.play.aiseet.atianqi.com
@@ -601,7 +588,6 @@ domain_suffix_set:
   - q.i.gdt.qq.com
   - qn-cdnfile1pcdn.msstatic.com
   - qqdata.ab.qq.com
-  - qwapi.apple.com
   - qzs.gdtimg.com
   - recommend-drcn.hms.dbankcloud.cn
   - report.tv.kohesport.qq.com
@@ -623,9 +609,6 @@ domain_suffix_set:
   - rt.applvn.com
   - rtb.voiceads.cn
   - s.amazon-adsystem.com
-  - s1.qq.com
-  - s2.qq.com
-  - s3.qq.com
   - s8t.teads.tv
   - saad.ms.zhangyue.net
   - saas.hpplay.cn
@@ -633,7 +616,6 @@ domain_suffix_set:
   - samsungads.com
   - sanme2.taisantech.com
   - saxysec.com
-  - scdown.qq.com
   - scs.openspeech.cn
   - sdk-ab-config.qquanquan.com
   - sdk-cache.video.ptqy.gitv.tv
@@ -764,7 +746,6 @@ domain_suffix_set:
   - umengacs.m.taobao.com
   - umengjmacs.m.taobao.com
   - umini.shujupie.com
-  - umsns.com
   - union.baidu.cn
   - union.baidu.com
   - update.avlyun.sec.miui.com
@@ -829,8 +810,6 @@ domain_suffix_set:
   - xc.gdt.qq.com
   - xcultur.com
   - xiaomi-dtv.m.cn.miaozhen.com
-  - xlivrdr.com
-  - xlmzc.cnjp-exp.com
   - xlog.jd.com
   - xlviiirdr.com
   - xlviirdr.com
@@ -839,7 +818,6 @@ domain_suffix_set:
   - ykad-data.youku.com
   - ykad-gateway.youku.com
   - youku-acs.m.taobao.com
-  - youxi.kugou.com
   - ytx-file.110route.cn
   - zeus.ad.xiaomi.com
   - zhihu-web-analytics.zhihu.com

@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1028
+# 规则统计: 1029
 
 domain_set:
   - ccmdl.adobe.com
@@ -508,6 +508,7 @@ domain_suffix_set:
   - kucoin.com
   - kwai.com
   - la
+  - laby.net
   - launchdarkly.com
   - ledger.com
   - leetcode.com
