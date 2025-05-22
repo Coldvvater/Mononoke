@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7361
+# 规则统计: 7362
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -2233,6 +2233,7 @@ HOST-SUFFIX,galenwu.com,ProxyGFW
 HOST-SUFFIX,galstars.net,ProxyGFW
 HOST-SUFFIX,game735.com,ProxyGFW
 HOST-SUFFIX,gamebase.com.tw,ProxyGFW
+HOST-SUFFIX,gameflare.com,ProxyGFW
 HOST-SUFFIX,gamejolt.com,ProxyGFW
 HOST-SUFFIX,gameloft.com,ProxyGFW
 HOST-SUFFIX,gamer.com.tw,ProxyGFW

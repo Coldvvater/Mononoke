@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7360
+# 规则统计: 7361
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -2233,6 +2233,7 @@ DOMAIN-SUFFIX,galenwu.com
 DOMAIN-SUFFIX,galstars.net
 DOMAIN-SUFFIX,game735.com
 DOMAIN-SUFFIX,gamebase.com.tw
+DOMAIN-SUFFIX,gameflare.com
 DOMAIN-SUFFIX,gamejolt.com
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,gamer.com.tw

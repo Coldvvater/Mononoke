@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7360
+# 规则统计: 7361
 
 no_resolve: true
 domain_set:
@@ -2236,6 +2236,7 @@ domain_suffix_set:
   - galstars.net
   - game735.com
   - gamebase.com.tw
+  - gameflare.com
   - gamejolt.com
   - gameloft.com
   - gamer.com.tw

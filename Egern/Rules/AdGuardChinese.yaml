@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4736
+# 规则统计: 4745
 
 domain_suffix_set:
   - 002777.xyz
@@ -101,6 +101,7 @@ domain_suffix_set:
   - 12.cookcai.com
   - 1200555.com
   - 123456.asia
+  - 14pbmfzci.com
   - 15tianqi.com
   - 165tchuang.com
   - 16m.cc
@@ -780,6 +781,7 @@ domain_suffix_set:
   - bdcode.35d1.com
   - bdcode.qinglm.com
   - bdcode.youke.com
+  - bdcrihraly.com
   - bdfjw.cn
   - bdgg.qjy168.com
   - bdipsumv.top
@@ -2009,6 +2011,7 @@ domain_suffix_set:
   - hwerilxu.top
   - hwilmiu.top
   - hwplypbn.icu
+  - hwpvhilkuth.com
   - hwtadf.icu
   - hwurseru.top
   - hwxprd.icu
@@ -2206,6 +2209,7 @@ domain_suffix_set:
   - iyof.cn
   - iyqbsst.top
   - iyuedu.cn.com
+  - iyxh.cn
   - izalflh.cn
   - izqeyo.xyz
   - izqogb.cn
@@ -2497,6 +2501,7 @@ domain_suffix_set:
   - kuaizitech.com
   - kucnwtd.top
   - kuheju.com
+  - kuiv.cn
   - kuk8.com
   - kuku99.com
   - kuresdd.top
@@ -3524,6 +3529,7 @@ domain_suffix_set:
   - sdamcsb.top
   - sdd.hi1718.com
   - sdfewed.com
+  - sdfscftg.com
   - sdgsheh.top
   - sdickeb.top
   - sdipsumb.top
@@ -4117,6 +4123,7 @@ domain_suffix_set:
   - vahmimb.com
   - vaykjwn.top
   - vbiakpu.icu
+  - vbjzdl.top
   - vbllxaaj.icu
   - vcaqexl.com
   - vcdfsf99.fun
@@ -4578,6 +4585,7 @@ domain_suffix_set:
   - ymgranque.com
   - ymmiyun.com
   - ymwjwe.xyz
+  - yn0mbg4p1.com
   - ynzhby.com
   - ynztzh.com
   - yong.chazidian.com
@@ -4660,6 +4668,7 @@ domain_suffix_set:
   - ze5.com
   - zeddjv.xyz
   - zeryt111.fun
+  - zevwrl.top
   - zfwgn.icu
   - zg.mmyuer.com
   - zgm1.com

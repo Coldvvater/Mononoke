@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1029
+# 规则统计: 1030
 
 domain_set:
   - ccmdl.adobe.com
@@ -334,6 +334,7 @@ domain_suffix_set:
   - fydeos.io
   - g.co
   - g2.com
+  - gameflare.com
   - gameloft.com
   - gartner.com
   - gate.io
