@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3646
+# 规则统计: 3651
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -227,6 +227,7 @@ HOST,assets.st-note.com,CDN
 HOST,assets.stash.com,CDN
 HOST,assets.static-upwork.com,CDN
 HOST,assets.stickpng.com,CDN
+HOST,assets.stigg.io,CDN
 HOST,assets.swoogo.com,CDN
 HOST,assets.the-independent.com,CDN
 HOST,assets.time.com,CDN
@@ -318,6 +319,7 @@ HOST,bunnycdn-video-assets.b-cdn.net,CDN
 HOST,businessunitprofile-cdn.trustpilot.net,CDN
 HOST,busuanzi.ibruce.info,CDN
 HOST,c.1password.com,CDN
+HOST,c.animaapp.com,CDN
 HOST,c.fantia.jp,CDN
 HOST,c.marsflag.com,CDN
 HOST,c.navattic.com,CDN
@@ -352,6 +354,7 @@ HOST,cdn-a.sonyentertainmentnetwork.com,CDN
 HOST,cdn-app.pathfactory.com,CDN
 HOST,cdn-assets.circleci.com,CDN
 HOST,cdn-avatars.huggingface.co,CDN
+HOST,cdn-b.saashub.com,CDN
 HOST,cdn-bundler.nice-team.net,CDN
 HOST,cdn-c.leavemealone.com,CDN
 HOST,cdn-cf-east.streamable.com,CDN
@@ -2085,6 +2088,7 @@ HOST,static.adguardvpn.com,CDN
 HOST,static.afterpay.com,CDN
 HOST,static.ahrefs.com,CDN
 HOST,static.aizanmei.org,CDN
+HOST,static.animaapp.com,CDN
 HOST,static.anyporn.com,CDN
 HOST,static.anysex.com,CDN
 HOST,static.apkpure.com,CDN
@@ -2550,6 +2554,7 @@ HOST,www.tbstat.com,CDN
 HOST,www.typescriptlang.org,CDN
 HOST,wwwimages2.adobe.com,CDN
 HOST,xpaywalletcdn.azureedge.net,CDN
+HOST,y.yarn.co,CDN
 HOST,yep.video.yahoo.com,CDN
 HOST,zephr-templates.cnbc.com,CDN
 HOST,zod.dev,CDN

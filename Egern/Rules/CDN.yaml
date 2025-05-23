@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3646
+# 规则统计: 3651
 
 domain_set:
   - 0x0.st
@@ -228,6 +228,7 @@ domain_set:
   - assets.stash.com
   - assets.static-upwork.com
   - assets.stickpng.com
+  - assets.stigg.io
   - assets.swoogo.com
   - assets.the-independent.com
   - assets.time.com
@@ -319,6 +320,7 @@ domain_set:
   - businessunitprofile-cdn.trustpilot.net
   - busuanzi.ibruce.info
   - c.1password.com
+  - c.animaapp.com
   - c.fantia.jp
   - c.marsflag.com
   - c.navattic.com
@@ -353,6 +355,7 @@ domain_set:
   - cdn-app.pathfactory.com
   - cdn-assets.circleci.com
   - cdn-avatars.huggingface.co
+  - cdn-b.saashub.com
   - cdn-bundler.nice-team.net
   - cdn-c.leavemealone.com
   - cdn-cf-east.streamable.com
@@ -2086,6 +2089,7 @@ domain_set:
   - static.afterpay.com
   - static.ahrefs.com
   - static.aizanmei.org
+  - static.animaapp.com
   - static.anyporn.com
   - static.anysex.com
   - static.apkpure.com
@@ -2551,6 +2555,7 @@ domain_set:
   - www.typescriptlang.org
   - wwwimages2.adobe.com
   - xpaywalletcdn.azureedge.net
+  - y.yarn.co
   - yep.video.yahoo.com
   - zephr-templates.cnbc.com
   - zod.dev
