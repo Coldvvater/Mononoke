@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3652
+# 规则统计: 3654
 
 domain_set:
   - 0x0.st
@@ -477,6 +477,7 @@ domain_set:
   - cdn.designsystem.arm.com
   - cdn.deta.space
   - cdn.devolutions.net
+  - cdn.dexscreener.com
   - cdn.dnsimple.com
   - cdn.docsbot.com
   - cdn.document360.io
@@ -948,6 +949,7 @@ domain_set:
   - david-dm.org
   - db.onlinewebfonts.com
   - dc-cdn.cdw.com
+  - dd.dexscreener.com
   - ddcdn.comtucdncom.com
   - decart-oasis.azureedge.net
   - demo.unified-streaming.com

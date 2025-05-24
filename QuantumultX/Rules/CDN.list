@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3652
+# 规则统计: 3654
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -476,6 +476,7 @@ HOST,cdn.delight-vr.com,CDN
 HOST,cdn.designsystem.arm.com,CDN
 HOST,cdn.deta.space,CDN
 HOST,cdn.devolutions.net,CDN
+HOST,cdn.dexscreener.com,CDN
 HOST,cdn.dnsimple.com,CDN
 HOST,cdn.docsbot.com,CDN
 HOST,cdn.document360.io,CDN
@@ -947,6 +948,7 @@ HOST,data.web.clickup.com,CDN
 HOST,david-dm.org,CDN
 HOST,db.onlinewebfonts.com,CDN
 HOST,dc-cdn.cdw.com,CDN
+HOST,dd.dexscreener.com,CDN
 HOST,ddcdn.comtucdncom.com,CDN
 HOST,decart-oasis.azureedge.net,CDN
 HOST,demo.unified-streaming.com,CDN
