@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 182
+# 规则统计: 186
 
 HOST,2pfdml.mobaiemby.site,Emby
 HOST,cc.coemn.com,Emby
@@ -22,6 +22,7 @@ HOST-SUFFIX,404.sb,Emby
 HOST-SUFFIX,4545.cf,Emby
 HOST-SUFFIX,581658.best,Emby
 HOST-SUFFIX,7777777.buzz,Emby
+HOST-SUFFIX,785858.xyz,Emby
 HOST-SUFFIX,9191001.xyz,Emby
 HOST-SUFFIX,91ai.de,Emby
 HOST-SUFFIX,9521732.xyz,Emby
@@ -101,6 +102,7 @@ HOST-SUFFIX,embyplus.club,Emby
 HOST-SUFFIX,embyplus.org,Emby
 HOST-SUFFIX,embyserver.ga,Emby
 HOST-SUFFIX,embytv.cf,Emby
+HOST-SUFFIX,feiniu.lol,Emby
 HOST-SUFFIX,freetz.top,Emby
 HOST-SUFFIX,gfwemby.org,Emby
 HOST-SUFFIX,ggtt.cf,Emby
@@ -159,6 +161,7 @@ HOST-SUFFIX,servers.xeton.dev,Emby
 HOST-SUFFIX,shuipo.lol,Emby
 HOST-SUFFIX,speedx.one,Emby
 HOST-SUFFIX,starcat.eu.org,Emby
+HOST-SUFFIX,staryuki.com,Emby
 HOST-SUFFIX,stream.ntrrr.top,Emby
 HOST-SUFFIX,stream.synn.cc,Emby
 HOST-SUFFIX,studyfun.live,Emby
@@ -172,6 +175,7 @@ HOST-SUFFIX,xiaoyi.one,Emby
 HOST-SUFFIX,xmsl.org,Emby
 HOST-SUFFIX,younoyes.com,Emby
 HOST-SUFFIX,yunti.online,Emby
+HOST-SUFFIX,zabc.net,Emby
 HOST-SUFFIX,zi0.icu,Emby
 HOST-SUFFIX,zox.show,Emby
 IP-CIDR,152.53.67.239/32,Emby

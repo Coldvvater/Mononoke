@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 182
+# 规则统计: 186
 
 no_resolve: true
 domain_set:
@@ -25,6 +25,7 @@ domain_suffix_set:
   - 4545.cf
   - 581658.best
   - 7777777.buzz
+  - 785858.xyz
   - 9191001.xyz
   - 91ai.de
   - 9521732.xyz
@@ -104,6 +105,7 @@ domain_suffix_set:
   - embyplus.org
   - embyserver.ga
   - embytv.cf
+  - feiniu.lol
   - freetz.top
   - gfwemby.org
   - ggtt.cf
@@ -162,6 +164,7 @@ domain_suffix_set:
   - shuipo.lol
   - speedx.one
   - starcat.eu.org
+  - staryuki.com
   - stream.ntrrr.top
   - stream.synn.cc
   - studyfun.live
@@ -175,6 +178,7 @@ domain_suffix_set:
   - xmsl.org
   - younoyes.com
   - yunti.online
+  - zabc.net
   - zi0.icu
   - zox.show
 ip_cidr_set:
