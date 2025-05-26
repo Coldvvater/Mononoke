@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3655
+# 规则统计: 3656
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2199,6 +2199,7 @@ HOST,static.missav.com,CDN
 HOST,static.mocortech.com,CDN
 HOST,static.moegoat.com,CDN
 HOST,static.monei.net,CDN
+HOST,static.moomoo.com,CDN
 HOST,static.moonpay.com,CDN
 HOST,static.music.com,CDN
 HOST,static.mysph.sph.com.sg,CDN

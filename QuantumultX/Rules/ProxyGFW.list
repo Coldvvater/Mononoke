@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7362
+# 规则统计: 7364
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -4073,6 +4073,7 @@ HOST-SUFFIX,monlamit.org,ProxyGFW
 HOST-SUFFIX,monocloud.me,ProxyGFW
 HOST-SUFFIX,monster.com,ProxyGFW
 HOST-SUFFIX,moodyz.com,ProxyGFW
+HOST-SUFFIX,moomoo.com,ProxyGFW
 HOST-SUFFIX,moon.fm,ProxyGFW
 HOST-SUFFIX,moonbbs.com,ProxyGFW
 HOST-SUFFIX,moonbbs.info,ProxyGFW
@@ -4532,6 +4533,7 @@ HOST-SUFFIX,omy.sg,ProxyGFW
 HOST-SUFFIX,on.cc,ProxyGFW
 HOST-SUFFIX,on2.com,ProxyGFW
 HOST-SUFFIX,onapp.com,ProxyGFW
+HOST-SUFFIX,one,ProxyGFW
 HOST-SUFFIX,one.com,ProxyGFW
 HOST-SUFFIX,one.one,ProxyGFW
 HOST-SUFFIX,oneclient.sfx.ms,ProxyGFW

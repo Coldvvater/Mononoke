@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1031
+# 规则统计: 1033
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -579,6 +579,7 @@ HOST-SUFFIX,modrinth.com,Proxy
 HOST-SUFFIX,moe,Proxy
 HOST-SUFFIX,mojang.com,Proxy
 HOST-SUFFIX,monica.im,Proxy
+HOST-SUFFIX,moomoo.com,Proxy
 HOST-SUFFIX,motherless.com,Proxy
 HOST-SUFFIX,moviefap.com,Proxy
 HOST-SUFFIX,mozilla.com,Proxy
@@ -653,6 +654,7 @@ HOST-SUFFIX,office365.com,Proxy
 HOST-SUFFIX,okcoin.com,Proxy
 HOST-SUFFIX,okex.com,Proxy
 HOST-SUFFIX,okx.com,Proxy
+HOST-SUFFIX,one,Proxy
 HOST-SUFFIX,one.com,Proxy
 HOST-SUFFIX,opencollective.com,Proxy
 HOST-SUFFIX,opensea.io,Proxy

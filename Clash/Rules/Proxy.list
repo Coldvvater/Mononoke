@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1030
+# 规则统计: 1032
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
@@ -579,6 +579,7 @@ DOMAIN-SUFFIX,modrinth.com
 DOMAIN-SUFFIX,moe
 DOMAIN-SUFFIX,mojang.com
 DOMAIN-SUFFIX,monica.im
+DOMAIN-SUFFIX,moomoo.com
 DOMAIN-SUFFIX,motherless.com
 DOMAIN-SUFFIX,moviefap.com
 DOMAIN-SUFFIX,mozilla.com
@@ -653,6 +654,7 @@ DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,okcoin.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,one
 DOMAIN-SUFFIX,one.com
 DOMAIN-SUFFIX,opencollective.com
 DOMAIN-SUFFIX,opensea.io

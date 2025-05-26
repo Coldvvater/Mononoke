@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7361
+# 规则统计: 7363
 
 no_resolve: true
 domain_set:
@@ -4076,6 +4076,7 @@ domain_suffix_set:
   - monocloud.me
   - monster.com
   - moodyz.com
+  - moomoo.com
   - moon.fm
   - moonbbs.com
   - moonbbs.info
@@ -4535,6 +4536,7 @@ domain_suffix_set:
   - on.cc
   - on2.com
   - onapp.com
+  - one
   - one.com
   - one.one
   - oneclient.sfx.ms
