@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 801
+# 规则统计: 800
 
 HOST,acg.tv,ChinaDomain
 HOST,assets1.xboxlive.cn,ChinaDomain
@@ -16,7 +16,6 @@ HOST,lv.queniujq.cn,ChinaDomain
 HOST,media.cdn.queniuqe.com,ChinaDomain
 HOST,ocsp.globalsign.com,ChinaDomain
 HOST,ocsp2.globalsign.com,ChinaDomain
-HOST,th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe,ChinaDomain
 HOST,url.cn,ChinaDomain
 HOST,www.intel.cn,ChinaDomain
 HOST,www.layuicdn.com,ChinaDomain

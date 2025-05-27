@@ -1,10 +1,9 @@
 # 规则名称: AppleCN
-# 规则统计: 180
+# 规则统计: 179
 
 domain_set:
   - api.smoot.apple.cn
   - gs-loc-cn.apple.com
-  - th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe
 domain_suffix_set:
   - a1.mzstatic.com
   - a2.mzstatic.com

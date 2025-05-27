@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1032
+# 规则统计: 1031
 
 domain_set:
   - ccmdl.adobe.com
@@ -11,7 +11,6 @@ domain_set:
   - sgminorshort.wechat.com
   - sgshort.wechat.com
   - store.ui.com.cn
-  - th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe
   - wego.here.com
 domain_suffix_set:
   - 123rf.com

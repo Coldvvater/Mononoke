@@ -1,9 +1,8 @@
 # 规则名称: AppleCN
-# 规则统计: 180
+# 规则统计: 179
 
 DOMAIN,api.smoot.apple.cn
 DOMAIN,gs-loc-cn.apple.com
-DOMAIN,th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe
 DOMAIN-SUFFIX,a1.mzstatic.com
 DOMAIN-SUFFIX,a2.mzstatic.com
 DOMAIN-SUFFIX,a3.mzstatic.com

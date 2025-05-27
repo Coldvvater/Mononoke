@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7364
+# 规则统计: 7363
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -17,7 +17,6 @@ HOST,steamstore-a.akamaihd.net,ProxyGFW
 HOST,steamusercontent-a.akamaihd.net,ProxyGFW
 HOST,steamuserimages-a.akamaihd.net,ProxyGFW
 HOST,store.ui.com.cn,ProxyGFW
-HOST,th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe,ProxyGFW
 HOST,wego.here.com,ProxyGFW
 HOST-SUFFIX,000webhost.com,ProxyGFW
 HOST-SUFFIX,030buy.com,ProxyGFW

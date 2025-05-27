@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 38
+# 规则统计: 37
 
 HOST,ai.google.dev,AI
 HOST,alkalicore-pa.clients6.google.com,AI
@@ -7,7 +7,6 @@ HOST,api.github.com,AI
 HOST,file.oaiusercontent.com,AI
 HOST,gateway.ai.cloudflare.com,AI
 HOST,jules.google.com,AI
-HOST,th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe,AI
 HOST-SUFFIX,ai.com,AI
 HOST-SUFFIX,aistudio.google.com,AI
 HOST-SUFFIX,anthropic.com,AI

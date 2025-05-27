@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7363
+# 规则统计: 7362
 
 no_resolve: true
 domain_set:
@@ -19,7 +19,6 @@ domain_set:
   - steamusercontent-a.akamaihd.net
   - steamuserimages-a.akamaihd.net
   - store.ui.com.cn
-  - th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe
   - wego.here.com
 domain_suffix_set:
   - 000webhost.com

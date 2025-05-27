@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3656
+# 规则统计: 3655
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2380,7 +2380,6 @@ HOST,telemetry.vercel.com,CDN
 HOST,telemetry2.devolutions.net,CDN
 HOST,texture.laby.net,CDN
 HOST,th.bing.com,CDN
-HOST,th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe,CDN
 HOST,themes.fourthwall.com,CDN
 HOST,thingproxy.freeboard.io,CDN
 HOST,thumbnail.missav.com,CDN

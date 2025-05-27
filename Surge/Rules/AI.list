@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 38
+# 规则统计: 37
 
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
@@ -7,7 +7,6 @@ DOMAIN,api.github.com
 DOMAIN,file.oaiusercontent.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN,jules.google.com
-DOMAIN,th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,anthropic.com

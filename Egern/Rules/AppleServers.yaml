@@ -1,8 +1,6 @@
 # 规则名称: AppleServers
-# 规则统计: 17
+# 规则统计: 16
 
-domain_set:
-  - th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe
 domain_suffix_set:
   - aaplimg.com
   - apple-cloudkit.com

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7364
+# 规则统计: 7363
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -17,7 +17,6 @@ DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN,store.ui.com.cn
-DOMAIN,th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe
 DOMAIN,wego.here.com
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
