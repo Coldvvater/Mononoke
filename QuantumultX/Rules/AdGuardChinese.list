@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4802
+# 规则统计: 4809
 
 HOST-SUFFIX,002777.xyz,AdGuardChinese
 HOST-SUFFIX,003store.com,AdGuardChinese
@@ -322,6 +322,7 @@ HOST-SUFFIX,888bb555ww.com,AdGuardChinese
 HOST-SUFFIX,888bb666cc.com,AdGuardChinese
 HOST-SUFFIX,888xx222kk.com,AdGuardChinese
 HOST-SUFFIX,88lm15.com,AdGuardChinese
+HOST-SUFFIX,88lmfff666.com,AdGuardChinese
 HOST-SUFFIX,88p2p.com,AdGuardChinese
 HOST-SUFFIX,88tm6.cc,AdGuardChinese
 HOST-SUFFIX,8961.jianbihua.com,AdGuardChinese
@@ -837,6 +838,7 @@ HOST-SUFFIX,bgbg00.fun,AdGuardChinese
 HOST-SUFFIX,bgf05251lko.com,AdGuardChinese
 HOST-SUFFIX,bgf05261lko.com,AdGuardChinese
 HOST-SUFFIX,bgf05270lko.com,AdGuardChinese
+HOST-SUFFIX,bgf05271lko.com,AdGuardChinese
 HOST-SUFFIX,bghebf.xyz,AdGuardChinese
 HOST-SUFFIX,bhaelkaers.com,AdGuardChinese
 HOST-SUFFIX,bhaelnieth.com,AdGuardChinese
@@ -1513,6 +1515,7 @@ HOST-SUFFIX,enwuamw.top,AdGuardChinese
 HOST-SUFFIX,enwucnw.top,AdGuardChinese
 HOST-SUFFIX,eoubliw.top,AdGuardChinese
 HOST-SUFFIX,eouvxliw.top,AdGuardChinese
+HOST-SUFFIX,epmumb34x.top,AdGuardChinese
 HOST-SUFFIX,epxlt.xyz,AdGuardChinese
 HOST-SUFFIX,eq.af31f.site,AdGuardChinese
 HOST-SUFFIX,eqygki.xyz,AdGuardChinese
@@ -1534,6 +1537,7 @@ HOST-SUFFIX,etallkiq.com,AdGuardChinese
 HOST-SUFFIX,etbh.cn,AdGuardChinese
 HOST-SUFFIX,etdggwj.top,AdGuardChinese
 HOST-SUFFIX,etjui.cn,AdGuardChinese
+HOST-SUFFIX,etlz1mt67.com,AdGuardChinese
 HOST-SUFFIX,etroytj33.fun,AdGuardChinese
 HOST-SUFFIX,euazwot.top,AdGuardChinese
 HOST-SUFFIX,eucnwtw.top,AdGuardChinese
@@ -1947,6 +1951,7 @@ HOST-SUFFIX,hfjmvr.xyz,AdGuardChinese
 HOST-SUFFIX,hfjsliu.top,AdGuardChinese
 HOST-SUFFIX,hfptbb.cn,AdGuardChinese
 HOST-SUFFIX,hfptbf.cn,AdGuardChinese
+HOST-SUFFIX,hftxbq.top,AdGuardChinese
 HOST-SUFFIX,hgcgnfe.icu,AdGuardChinese
 HOST-SUFFIX,hghngh.com,AdGuardChinese
 HOST-SUFFIX,hgreils.com,AdGuardChinese
@@ -2655,6 +2660,7 @@ HOST-SUFFIX,loveameng.top,AdGuardChinese
 HOST-SUFFIX,lozmtk.cn,AdGuardChinese
 HOST-SUFFIX,lppfnf.icu,AdGuardChinese
 HOST-SUFFIX,lqfctb.icu,AdGuardChinese
+HOST-SUFFIX,lqftuugziloa.com,AdGuardChinese
 HOST-SUFFIX,lqlwjr.icu,AdGuardChinese
 HOST-SUFFIX,lqxzx.com,AdGuardChinese
 HOST-SUFFIX,lrtlisl.top,AdGuardChinese
@@ -3279,6 +3285,7 @@ HOST-SUFFIX,qcvf.ifeng.com,AdGuardChinese
 HOST-SUFFIX,qd.x4399.com,AdGuardChinese
 HOST-SUFFIX,qdamcsy.top,AdGuardChinese
 HOST-SUFFIX,qdasflqe.top,AdGuardChinese
+HOST-SUFFIX,qdheqraln.com,AdGuardChinese
 HOST-SUFFIX,qdickey.top,AdGuardChinese
 HOST-SUFFIX,qdinmay.top,AdGuardChinese
 HOST-SUFFIX,qdipsumy.top,AdGuardChinese

@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4802
+# 规则统计: 4809
 
 domain_suffix_set:
   - 002777.xyz
@@ -323,6 +323,7 @@ domain_suffix_set:
   - 888bb666cc.com
   - 888xx222kk.com
   - 88lm15.com
+  - 88lmfff666.com
   - 88p2p.com
   - 88tm6.cc
   - 8961.jianbihua.com
@@ -838,6 +839,7 @@ domain_suffix_set:
   - bgf05251lko.com
   - bgf05261lko.com
   - bgf05270lko.com
+  - bgf05271lko.com
   - bghebf.xyz
   - bhaelkaers.com
   - bhaelnieth.com
@@ -1514,6 +1516,7 @@ domain_suffix_set:
   - enwucnw.top
   - eoubliw.top
   - eouvxliw.top
+  - epmumb34x.top
   - epxlt.xyz
   - eq.af31f.site
   - eqygki.xyz
@@ -1535,6 +1538,7 @@ domain_suffix_set:
   - etbh.cn
   - etdggwj.top
   - etjui.cn
+  - etlz1mt67.com
   - etroytj33.fun
   - euazwot.top
   - eucnwtw.top
@@ -1948,6 +1952,7 @@ domain_suffix_set:
   - hfjsliu.top
   - hfptbb.cn
   - hfptbf.cn
+  - hftxbq.top
   - hgcgnfe.icu
   - hghngh.com
   - hgreils.com
@@ -2656,6 +2661,7 @@ domain_suffix_set:
   - lozmtk.cn
   - lppfnf.icu
   - lqfctb.icu
+  - lqftuugziloa.com
   - lqlwjr.icu
   - lqxzx.com
   - lrtlisl.top
@@ -3280,6 +3286,7 @@ domain_suffix_set:
   - qd.x4399.com
   - qdamcsy.top
   - qdasflqe.top
+  - qdheqraln.com
   - qdickey.top
   - qdinmay.top
   - qdipsumy.top
