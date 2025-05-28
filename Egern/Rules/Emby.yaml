@@ -1,10 +1,11 @@
 # 规则名称: Emby
-# 规则统计: 186
+# 规则统计: 187
 
 no_resolve: true
 domain_set:
   - 2pfdml.mobaiemby.site
   - cc.coemn.com
+  - cdn1.nebula-media.org
   - cf-cdn1.nebula-media.org
   - cminf.sfcat.link
   - cuinf.sfcat.link

@@ -1,8 +1,9 @@
 # 规则名称: Emby
-# 规则统计: 186
+# 规则统计: 187
 
 HOST,2pfdml.mobaiemby.site,Emby
 HOST,cc.coemn.com,Emby
+HOST,cdn1.nebula-media.org,Emby
 HOST,cf-cdn1.nebula-media.org,Emby
 HOST,cminf.sfcat.link,Emby
 HOST,cuinf.sfcat.link,Emby
