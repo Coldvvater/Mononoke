@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3655
+# 规则统计: 3656
 
 domain_set:
   - 0x0.st
@@ -2541,6 +2541,7 @@ domain_set:
   - widgets.zohosalesiq.com
   - wikiwandv2-19431.kxcdn.com
   - wimg.rule34.xxx
+  - wire.shodan.io
   - wl-apps.yourwebsite.life
   - wp.salesforce.com
   - wpmedia.tealium.com

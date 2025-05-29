@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1034
+# 规则统计: 1035
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -783,6 +783,7 @@ HOST-SUFFIX,sg,Proxy
 HOST-SUFFIX,sh,Proxy
 HOST-SUFFIX,shadowsocks.org,Proxy
 HOST-SUFFIX,shattered.io,Proxy
+HOST-SUFFIX,shodan.io,Proxy
 HOST-SUFFIX,short.io,Proxy
 HOST-SUFFIX,shutterstock.com,Proxy
 HOST-SUFFIX,shw.io,Proxy

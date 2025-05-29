@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7365
+# 规则统计: 7366
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -5401,6 +5401,7 @@ DOMAIN-SUFFIX,shitaotv.org
 DOMAIN-SUFFIX,shixiao.org
 DOMAIN-SUFFIX,shizhao.org
 DOMAIN-SUFFIX,shkspr.mobi
+DOMAIN-SUFFIX,shodan.io
 DOMAIN-SUFFIX,shodanhq.com
 DOMAIN-SUFFIX,shooshtime.com
 DOMAIN-SUFFIX,shop2000.com.tw

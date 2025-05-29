@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7365
+# 规则统计: 7366
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -5401,6 +5401,7 @@ HOST-SUFFIX,shitaotv.org,ProxyGFW
 HOST-SUFFIX,shixiao.org,ProxyGFW
 HOST-SUFFIX,shizhao.org,ProxyGFW
 HOST-SUFFIX,shkspr.mobi,ProxyGFW
+HOST-SUFFIX,shodan.io,ProxyGFW
 HOST-SUFFIX,shodanhq.com,ProxyGFW
 HOST-SUFFIX,shooshtime.com,ProxyGFW
 HOST-SUFFIX,shop2000.com.tw,ProxyGFW

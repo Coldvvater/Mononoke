@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3655
+# 规则统计: 3656
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2540,6 +2540,7 @@ HOST,widgets.turnto.com,CDN
 HOST,widgets.zohosalesiq.com,CDN
 HOST,wikiwandv2-19431.kxcdn.com,CDN
 HOST,wimg.rule34.xxx,CDN
+HOST,wire.shodan.io,CDN
 HOST,wl-apps.yourwebsite.life,CDN
 HOST,wp.salesforce.com,CDN
 HOST,wpmedia.tealium.com,CDN
