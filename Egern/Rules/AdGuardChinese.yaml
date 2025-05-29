@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4809
+# 规则统计: 4829
 
 domain_suffix_set:
   - 002777.xyz
@@ -103,6 +103,7 @@ domain_suffix_set:
   - 1200555.com
   - 123456.asia
   - 14pbmfzci.com
+  - 15ftgllk1.com
   - 15tianqi.com
   - 165tchuang.com
   - 16m.cc
@@ -197,6 +198,7 @@ domain_suffix_set:
   - 41grk.icu
   - 420909.cn
   - 43a.icu
+  - 43eksc8w59.com
   - 44629.com
   - 4567.org
   - 465k3mlo9.com
@@ -270,6 +272,7 @@ domain_suffix_set:
   - 68s4eyiru.com
   - 68yscw.com
   - 693836.com
+  - 6c641lgikp.top
   - 6cs.icu
   - 6efgcdcjr000.fun
   - 6ft8a.icu
@@ -371,6 +374,7 @@ domain_suffix_set:
   - 9fum.ifeng.com
   - 9kh5b.cn
   - 9oru1vh0w.com
+  - 9vviyje1s.top
   - 9xxy.icu
   - a.10tianqi.com
   - a.4aqq.com
@@ -840,6 +844,8 @@ domain_suffix_set:
   - bgf05261lko.com
   - bgf05270lko.com
   - bgf05271lko.com
+  - bgf05280lko.com
+  - bgf05290lko.com
   - bghebf.xyz
   - bhaelkaers.com
   - bhaelnieth.com
@@ -1080,6 +1086,7 @@ domain_suffix_set:
   - ckg.vipyl.com
   - ckyriuf.icu
   - classic.39health.com
+  - clcimo.icu
   - clkwnl.xyz
   - clmcam.xyz
   - cm.baidu.com
@@ -1258,6 +1265,7 @@ domain_suffix_set:
   - delivery.wasu.cn
   - denjpl.xyz
   - dephriezm.com
+  - depzdhamot.com
   - derwbl.icu
   - df888.eastday.com
   - dfan4.icu
@@ -1608,6 +1616,7 @@ domain_suffix_set:
   - feronyv.com
   - fesnaed.com
   - feubgzfx.icu
+  - fevrvd.top
   - ff.meikanguo.com
   - ff.psd8.com
   - ff.qichetansuo.com
@@ -2073,6 +2082,7 @@ domain_suffix_set:
   - iaiqk.top
   - iairuo.xyz
   - iaosua.com
+  - iaxmmw9fbx.com
   - ibaglhc.icu
   - ibkoiw.xyz
   - ibqemk.icu
@@ -2316,6 +2326,7 @@ domain_suffix_set:
   - jingjs.top
   - jinxpn.xyz
   - jipxzz.icu
+  - jitdlj.icu
   - jiuab8eig2oateh01.site
   - jiujy5r3.fun
   - jiusudie.com
@@ -2695,6 +2706,7 @@ domain_suffix_set:
   - lvnr.cn
   - lvnzrh.xyz
   - lvqo.cn
+  - lvsm.cn
   - lwcnmtl.top
   - lweizal.top
   - lwilmil.top
@@ -2891,6 +2903,7 @@ domain_suffix_set:
   - n5725.com
   - n6579.com
   - n7181.com
+  - n72bn5s7uu.top
   - n7a.icu
   - n8u.icu
   - naettarq.com
@@ -3271,6 +3284,7 @@ domain_suffix_set:
   - q1.yyxwzx.com
   - q1bp.icu
   - q2usj.icu
+  - q5sn40kmp2.com
   - q8q.icu
   - qa6z7kz5r.com
   - qacdf511.cn
@@ -3483,6 +3497,7 @@ domain_suffix_set:
   - rpeutxu.icu
   - rpfuvj.icu
   - rptdhu.top
+  - rpvqhicca.com
   - rqhajf.icu
   - rqroytj33.fun
   - rqvrbf.icu
@@ -3730,6 +3745,7 @@ domain_suffix_set:
   - static.ichehome.com
   - static.meijiacun.com
   - static.rongkao.com
+  - static.wjxcdn.com
   - stemedntm.com
   - sterkisg.com
   - stgowan.com
@@ -3961,6 +3977,7 @@ domain_suffix_set:
   - tvcnmti.top
   - tvgkatu.icu
   - tvpqnh.xyz
+  - tw0ihhb04.com
   - twcnmti.top
   - tweisii.top
   - tweizai.top
@@ -4198,6 +4215,7 @@ domain_suffix_set:
   - vftvbx.xyz
   - vfvdvd99.fun
   - vfvrld.xyz
+  - vgnhigankih.com
   - vgxbpf.xyz
   - vgxj.cn
   - vh8.icu
@@ -4250,6 +4268,7 @@ domain_suffix_set:
   - vrinqaell.com
   - vrinqop.icu
   - vrosqutsgh.com
+  - vrow.cn
   - vrulqil.com
   - vruzexzl.com
   - vryoacs.icu
@@ -4344,6 +4363,7 @@ domain_suffix_set:
   - wi1f.icu
   - widget.ezprice.com.tw
   - wigk.cn
+  - wigqae.icu
   - wiixqm.xyz
   - wiiytwd.icu
   - wildwist.com

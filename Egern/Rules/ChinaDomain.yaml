@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 797
+# 规则统计: 798
 
 domain_set:
   - acg.tv
@@ -175,6 +175,7 @@ domain_suffix_set:
   - blzstatic.cn
   - boc.cn
   - bosszhipin.com
+  - bulicdn2.com
   - byteacctimg.com
   - bytecdn.cn
   - bytecdntp.com

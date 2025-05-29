@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1032
+# 规则统计: 1034
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -231,6 +231,7 @@ HOST-SUFFIX,debuggex.com,Proxy
 HOST-SUFFIX,deepl.com,Proxy
 HOST-SUFFIX,deepmind.com,Proxy
 HOST-SUFFIX,deezer.com,Proxy
+HOST-SUFFIX,deno.com,Proxy
 HOST-SUFFIX,detnews.com,Proxy
 HOST-SUFFIX,dev,Proxy
 HOST-SUFFIX,deviantart.com,Proxy
@@ -489,6 +490,7 @@ HOST-SUFFIX,jsbin.com,Proxy
 HOST-SUFFIX,jsdelivr.com,Proxy
 HOST-SUFFIX,jsdelivr.net,Proxy
 HOST-SUFFIX,jsfiddle.net,Proxy
+HOST-SUFFIX,jsr.io,Proxy
 HOST-SUFFIX,jumpdesktop.com,Proxy
 HOST-SUFFIX,justdns.info,Proxy
 HOST-SUFFIX,kagi.com,Proxy

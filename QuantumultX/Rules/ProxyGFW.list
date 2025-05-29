@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7363
+# 规则统计: 7365
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -1464,6 +1464,7 @@ HOST-SUFFIX,delcamp.net,ProxyGFW
 HOST-SUFFIX,delicious.com,ProxyGFW
 HOST-SUFFIX,democrats.org,ProxyGFW
 HOST-SUFFIX,demosisto.hk,ProxyGFW
+HOST-SUFFIX,deno.com,ProxyGFW
 HOST-SUFFIX,depositphotos.com,ProxyGFW
 HOST-SUFFIX,derekhsu.homeip.net,ProxyGFW
 HOST-SUFFIX,desc.se,ProxyGFW
@@ -3457,6 +3458,7 @@ HOST-SUFFIX,jsdelivr.com,ProxyGFW
 HOST-SUFFIX,jsdelivr.net,ProxyGFW
 HOST-SUFFIX,jsfiddle.net,ProxyGFW
 HOST-SUFFIX,jshell.net,ProxyGFW
+HOST-SUFFIX,jsr.io,ProxyGFW
 HOST-SUFFIX,jtvnw.net,ProxyGFW
 HOST-SUFFIX,jubushoushen.com,ProxyGFW
 HOST-SUFFIX,juhuaren.com,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1031
+# 规则统计: 1033
 
 domain_set:
   - ccmdl.adobe.com
@@ -233,6 +233,7 @@ domain_suffix_set:
   - deepl.com
   - deepmind.com
   - deezer.com
+  - deno.com
   - detnews.com
   - dev
   - deviantart.com
@@ -491,6 +492,7 @@ domain_suffix_set:
   - jsdelivr.com
   - jsdelivr.net
   - jsfiddle.net
+  - jsr.io
   - jumpdesktop.com
   - justdns.info
   - kagi.com
