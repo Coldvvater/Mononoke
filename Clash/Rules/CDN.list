@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3654
+# 规则统计: 3657
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1206,6 +1206,8 @@ DOMAIN,ih3.redbubble.net
 DOMAIN,ik.imgkit.net
 DOMAIN,imag.malavida.com
 DOMAIN,image-forwarder.notaku.so
+DOMAIN,image-stgus.samsung.com
+DOMAIN,image-us.samsung.com
 DOMAIN,image.ap-mail.org
 DOMAIN,image.civitai.com
 DOMAIN,image.cnbcfm.com
@@ -1289,6 +1291,7 @@ DOMAIN,images.prismic.io
 DOMAIN,images.profile.autodesk.com
 DOMAIN,images.ptt.cc
 DOMAIN,images.purevpn-tools.com
+DOMAIN,images.samsung.com
 DOMAIN,images.scalero.io
 DOMAIN,images.scrolller.com
 DOMAIN,images.spot.im

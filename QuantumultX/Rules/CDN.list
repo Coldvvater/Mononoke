@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3656
+# 规则统计: 3659
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1206,6 +1206,8 @@ HOST,ih3.redbubble.net,CDN
 HOST,ik.imgkit.net,CDN
 HOST,imag.malavida.com,CDN
 HOST,image-forwarder.notaku.so,CDN
+HOST,image-stgus.samsung.com,CDN
+HOST,image-us.samsung.com,CDN
 HOST,image.ap-mail.org,CDN
 HOST,image.civitai.com,CDN
 HOST,image.cnbcfm.com,CDN
@@ -1289,6 +1291,7 @@ HOST,images.prismic.io,CDN
 HOST,images.profile.autodesk.com,CDN
 HOST,images.ptt.cc,CDN
 HOST,images.purevpn-tools.com,CDN
+HOST,images.samsung.com,CDN
 HOST,images.scalero.io,CDN
 HOST,images.scrolller.com,CDN
 HOST,images.spot.im,CDN

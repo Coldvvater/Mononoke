@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3656
+# 规则统计: 3659
 
 domain_set:
   - 0x0.st
@@ -1207,6 +1207,8 @@ domain_set:
   - ik.imgkit.net
   - imag.malavida.com
   - image-forwarder.notaku.so
+  - image-stgus.samsung.com
+  - image-us.samsung.com
   - image.ap-mail.org
   - image.civitai.com
   - image.cnbcfm.com
@@ -1290,6 +1292,7 @@ domain_set:
   - images.profile.autodesk.com
   - images.ptt.cc
   - images.purevpn-tools.com
+  - images.samsung.com
   - images.scalero.io
   - images.scrolller.com
   - images.spot.im
