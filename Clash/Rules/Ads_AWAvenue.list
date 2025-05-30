@@ -1,10 +1,11 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 821
+# 规则统计: 825
 
 DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,1500022744.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,1500026601.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,8le8le.com
+DOMAIN-SUFFIX,8rn1y79f02-1.algolianet.com
 DOMAIN-SUFFIX,a0.app.xiaomi.com
 DOMAIN-SUFFIX,aaid.umeng.com
 DOMAIN-SUFFIX,abtest-ch.snssdk.com
@@ -13,6 +14,8 @@ DOMAIN-SUFFIX,ad-scope.com
 DOMAIN-SUFFIX,ad-scope.com.cn
 DOMAIN-SUFFIX,ad-sdk-config.youdao.com
 DOMAIN-SUFFIX,ad-sdk.huxiu.com
+DOMAIN-SUFFIX,ad-splash-tracking.hktvmall.com
+DOMAIN-SUFFIX,ad-splash.hktvmall.com
 DOMAIN-SUFFIX,ad.12306.cn
 DOMAIN-SUFFIX,ad.51wnl.com
 DOMAIN-SUFFIX,ad.api.3g.youku.com
@@ -435,6 +438,7 @@ DOMAIN-SUFFIX,lf3-ad-union-sdk.pglstatp-toutiao.com
 DOMAIN-SUFFIX,lf6-ad-union-sdk.pglstatp-toutiao.com
 DOMAIN-SUFFIX,lh3.googleadsserving.cn
 DOMAIN-SUFFIX,litchiads.com
+DOMAIN-SUFFIX,live-api.hktvmall.com
 DOMAIN-SUFFIX,liveats-vod.video.ptqy.gitv.tv
 DOMAIN-SUFFIX,livemonitor.huan.tv
 DOMAIN-SUFFIX,livep.l.aiseet.atianqi.com

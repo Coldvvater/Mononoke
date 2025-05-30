@@ -1,11 +1,12 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 821
+# 规则统计: 825
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
   - 1500022744.vodplayer.wxamedia.com
   - 1500026601.vodplayer.wxamedia.com
   - 8le8le.com
+  - 8rn1y79f02-1.algolianet.com
   - a0.app.xiaomi.com
   - aaid.umeng.com
   - abtest-ch.snssdk.com
@@ -14,6 +15,8 @@ domain_suffix_set:
   - ad-scope.com.cn
   - ad-sdk-config.youdao.com
   - ad-sdk.huxiu.com
+  - ad-splash-tracking.hktvmall.com
+  - ad-splash.hktvmall.com
   - ad.12306.cn
   - ad.51wnl.com
   - ad.api.3g.youku.com
@@ -436,6 +439,7 @@ domain_suffix_set:
   - lf6-ad-union-sdk.pglstatp-toutiao.com
   - lh3.googleadsserving.cn
   - litchiads.com
+  - live-api.hktvmall.com
   - liveats-vod.video.ptqy.gitv.tv
   - livemonitor.huan.tv
   - livep.l.aiseet.atianqi.com

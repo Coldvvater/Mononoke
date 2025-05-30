@@ -1,10 +1,11 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 821
+# 规则统计: 825
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500026601.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,8le8le.com,Ads_AWAvenue
+HOST-SUFFIX,8rn1y79f02-1.algolianet.com,Ads_AWAvenue
 HOST-SUFFIX,a0.app.xiaomi.com,Ads_AWAvenue
 HOST-SUFFIX,aaid.umeng.com,Ads_AWAvenue
 HOST-SUFFIX,abtest-ch.snssdk.com,Ads_AWAvenue
@@ -13,6 +14,8 @@ HOST-SUFFIX,ad-scope.com,Ads_AWAvenue
 HOST-SUFFIX,ad-scope.com.cn,Ads_AWAvenue
 HOST-SUFFIX,ad-sdk-config.youdao.com,Ads_AWAvenue
 HOST-SUFFIX,ad-sdk.huxiu.com,Ads_AWAvenue
+HOST-SUFFIX,ad-splash-tracking.hktvmall.com,Ads_AWAvenue
+HOST-SUFFIX,ad-splash.hktvmall.com,Ads_AWAvenue
 HOST-SUFFIX,ad.12306.cn,Ads_AWAvenue
 HOST-SUFFIX,ad.51wnl.com,Ads_AWAvenue
 HOST-SUFFIX,ad.api.3g.youku.com,Ads_AWAvenue
@@ -435,6 +438,7 @@ HOST-SUFFIX,lf3-ad-union-sdk.pglstatp-toutiao.com,Ads_AWAvenue
 HOST-SUFFIX,lf6-ad-union-sdk.pglstatp-toutiao.com,Ads_AWAvenue
 HOST-SUFFIX,lh3.googleadsserving.cn,Ads_AWAvenue
 HOST-SUFFIX,litchiads.com,Ads_AWAvenue
+HOST-SUFFIX,live-api.hktvmall.com,Ads_AWAvenue
 HOST-SUFFIX,liveats-vod.video.ptqy.gitv.tv,Ads_AWAvenue
 HOST-SUFFIX,livemonitor.huan.tv,Ads_AWAvenue
 HOST-SUFFIX,livep.l.aiseet.atianqi.com,Ads_AWAvenue
