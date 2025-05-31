@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1034
+# 规则统计: 1036
 
 domain_set:
   - ccmdl.adobe.com
@@ -315,6 +315,7 @@ domain_suffix_set:
   - firebaseio.com
   - firefox.com
   - fixupx.com
+  - fixvx.com
   - flickr.com
   - flightradar24.com
   - flipboard.com
@@ -913,6 +914,7 @@ domain_suffix_set:
   - udn.com
   - ui.com
   - uk
+  - upcitemdb.com
   - updownradar.com
   - upornia.com
   - uptimerobot.com

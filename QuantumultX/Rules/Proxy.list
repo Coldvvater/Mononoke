@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1035
+# 规则统计: 1037
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -313,6 +313,7 @@ HOST-SUFFIX,firebase.com,Proxy
 HOST-SUFFIX,firebaseio.com,Proxy
 HOST-SUFFIX,firefox.com,Proxy
 HOST-SUFFIX,fixupx.com,Proxy
+HOST-SUFFIX,fixvx.com,Proxy
 HOST-SUFFIX,flickr.com,Proxy
 HOST-SUFFIX,flightradar24.com,Proxy
 HOST-SUFFIX,flipboard.com,Proxy
@@ -911,6 +912,7 @@ HOST-SUFFIX,ubuntu.com,Proxy
 HOST-SUFFIX,udn.com,Proxy
 HOST-SUFFIX,ui.com,Proxy
 HOST-SUFFIX,uk,Proxy
+HOST-SUFFIX,upcitemdb.com,Proxy
 HOST-SUFFIX,updownradar.com,Proxy
 HOST-SUFFIX,upornia.com,Proxy
 HOST-SUFFIX,uptimerobot.com,Proxy

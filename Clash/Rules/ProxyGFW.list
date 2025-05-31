@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7365
+# 规则统计: 7367
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -2023,6 +2023,7 @@ DOMAIN-SUFFIX,firstpost.com
 DOMAIN-SUFFIX,firstrade.com
 DOMAIN-SUFFIX,fish.audio
 DOMAIN-SUFFIX,fixupx.com
+DOMAIN-SUFFIX,fixvx.com
 DOMAIN-SUFFIX,fizzik.com
 DOMAIN-SUFFIX,flagsonline.it
 DOMAIN-SUFFIX,flecheinthepeche.fr
@@ -6454,6 +6455,7 @@ DOMAIN-SUFFIX,unstable.icu
 DOMAIN-SUFFIX,untraceable.us
 DOMAIN-SUFFIX,unwire.hk
 DOMAIN-SUFFIX,uocn.org
+DOMAIN-SUFFIX,upcitemdb.com
 DOMAIN-SUFFIX,updatestar.com
 DOMAIN-SUFFIX,updownradar.com
 DOMAIN-SUFFIX,upghsbc.com

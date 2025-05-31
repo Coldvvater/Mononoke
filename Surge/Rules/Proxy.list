@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1035
+# 规则统计: 1037
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
@@ -313,6 +313,7 @@ DOMAIN-SUFFIX,firebase.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,firefox.com
 DOMAIN-SUFFIX,fixupx.com
+DOMAIN-SUFFIX,fixvx.com
 DOMAIN-SUFFIX,flickr.com
 DOMAIN-SUFFIX,flightradar24.com
 DOMAIN-SUFFIX,flipboard.com
@@ -911,6 +912,7 @@ DOMAIN-SUFFIX,ubuntu.com
 DOMAIN-SUFFIX,udn.com
 DOMAIN-SUFFIX,ui.com
 DOMAIN-SUFFIX,uk
+DOMAIN-SUFFIX,upcitemdb.com
 DOMAIN-SUFFIX,updownradar.com
 DOMAIN-SUFFIX,upornia.com
 DOMAIN-SUFFIX,uptimerobot.com

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7365
+# 规则统计: 7367
 
 no_resolve: true
 domain_set:
@@ -2026,6 +2026,7 @@ domain_suffix_set:
   - firstrade.com
   - fish.audio
   - fixupx.com
+  - fixvx.com
   - fizzik.com
   - flagsonline.it
   - flecheinthepeche.fr
@@ -6457,6 +6458,7 @@ domain_suffix_set:
   - untraceable.us
   - unwire.hk
   - uocn.org
+  - upcitemdb.com
   - updatestar.com
   - updownradar.com
   - upghsbc.com

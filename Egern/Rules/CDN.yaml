@@ -998,6 +998,7 @@ domain_set:
   - edgestatic.azureedge.net
   - eep.io
   - eightcha.com
+  - embed-cloudfront.wistia.com
   - embed-ssl.wistia.com
   - embed-v2.testimonial.to
   - embed.culturalspot.org
@@ -1637,7 +1638,6 @@ domain_set:
   - medias.meow.social
   - medium-media.vgm.io
   - megapx-assets.dcard.tw
-  - meta.prismlauncher.org
   - meteorclient.com
   - metrics.kapa.ai
   - micro.rubiconproject.com

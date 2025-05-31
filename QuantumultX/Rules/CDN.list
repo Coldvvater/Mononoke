@@ -997,6 +997,7 @@ HOST,edgecdn-embza6g8cacagcbn.z01.azurefd.net,CDN
 HOST,edgestatic.azureedge.net,CDN
 HOST,eep.io,CDN
 HOST,eightcha.com,CDN
+HOST,embed-cloudfront.wistia.com,CDN
 HOST,embed-ssl.wistia.com,CDN
 HOST,embed-v2.testimonial.to,CDN
 HOST,embed.culturalspot.org,CDN
@@ -1636,7 +1637,6 @@ HOST,media9.kissjav.com,CDN
 HOST,medias.meow.social,CDN
 HOST,medium-media.vgm.io,CDN
 HOST,megapx-assets.dcard.tw,CDN
-HOST,meta.prismlauncher.org,CDN
 HOST,meteorclient.com,CDN
 HOST,metrics.kapa.ai,CDN
 HOST,micro.rubiconproject.com,CDN

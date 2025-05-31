@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7366
+# 规则统计: 7368
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -2023,6 +2023,7 @@ HOST-SUFFIX,firstpost.com,ProxyGFW
 HOST-SUFFIX,firstrade.com,ProxyGFW
 HOST-SUFFIX,fish.audio,ProxyGFW
 HOST-SUFFIX,fixupx.com,ProxyGFW
+HOST-SUFFIX,fixvx.com,ProxyGFW
 HOST-SUFFIX,fizzik.com,ProxyGFW
 HOST-SUFFIX,flagsonline.it,ProxyGFW
 HOST-SUFFIX,flecheinthepeche.fr,ProxyGFW
@@ -6454,6 +6455,7 @@ HOST-SUFFIX,unstable.icu,ProxyGFW
 HOST-SUFFIX,untraceable.us,ProxyGFW
 HOST-SUFFIX,unwire.hk,ProxyGFW
 HOST-SUFFIX,uocn.org,ProxyGFW
+HOST-SUFFIX,upcitemdb.com,ProxyGFW
 HOST-SUFFIX,updatestar.com,ProxyGFW
 HOST-SUFFIX,updownradar.com,ProxyGFW
 HOST-SUFFIX,upghsbc.com,ProxyGFW
