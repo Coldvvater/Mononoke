@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1037
+# 规则统计: 1038
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -842,6 +842,7 @@ HOST-SUFFIX,surfsharkdns.com,Proxy
 HOST-SUFFIX,surge-activation.com,Proxy
 HOST-SUFFIX,sx,Proxy
 HOST-SUFFIX,synergyse.com,Proxy
+HOST-SUFFIX,sysctl-explorer.net,Proxy
 HOST-SUFFIX,t.co,Proxy
 HOST-SUFFIX,t66y.com,Proxy
 HOST-SUFFIX,tailwindcss.com,Proxy

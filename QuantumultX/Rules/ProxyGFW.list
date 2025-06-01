@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7368
+# 规则统计: 7369
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -5775,6 +5775,7 @@ HOST-SUFFIX,synapse.org,ProxyGFW
 HOST-SUFFIX,syncback.com,ProxyGFW
 HOST-SUFFIX,synergyse.com,ProxyGFW
 HOST-SUFFIX,syosetu.com,ProxyGFW
+HOST-SUFFIX,sysctl-explorer.net,ProxyGFW
 HOST-SUFFIX,sysresccd.org,ProxyGFW
 HOST-SUFFIX,sytes.net,ProxyGFW
 HOST-SUFFIX,syx86.cn,ProxyGFW

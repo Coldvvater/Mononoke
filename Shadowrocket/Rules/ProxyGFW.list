@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7368
+# 规则统计: 7369
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -5775,6 +5775,7 @@ DOMAIN-SUFFIX,synapse.org
 DOMAIN-SUFFIX,syncback.com
 DOMAIN-SUFFIX,synergyse.com
 DOMAIN-SUFFIX,syosetu.com
+DOMAIN-SUFFIX,sysctl-explorer.net
 DOMAIN-SUFFIX,sysresccd.org
 DOMAIN-SUFFIX,sytes.net
 DOMAIN-SUFFIX,syx86.cn

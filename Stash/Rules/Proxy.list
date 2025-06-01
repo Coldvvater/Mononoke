@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1037
+# 规则统计: 1038
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
@@ -842,6 +842,7 @@ DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,sx
 DOMAIN-SUFFIX,synergyse.com
+DOMAIN-SUFFIX,sysctl-explorer.net
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,t66y.com
 DOMAIN-SUFFIX,tailwindcss.com

@@ -1,5 +1,5 @@
 # 规则名称: Ads_limbopro
-# 规则统计: 513
+# 规则统计: 517
 
 domain_set:
   - 118.89.204.198
@@ -227,6 +227,7 @@ domain_set:
   - yt-adp.ws.126.net
 domain_suffix_set:
   - 107iwh.cn
+  - 21e18b62f2.4a41fff8a6.com
   - 22c.in
   - 2700.5mgrgsc.cn
   - 29b124c44a.com
@@ -234,6 +235,7 @@ domain_suffix_set:
   - 2xmzazd.cn
   - 3adtjg.com
   - 42yenxh.cn
+  - 4a41fff8a6.com
   - 51.la
   - 51daeka.com
   - 578d72001a.com
@@ -330,6 +332,7 @@ domain_suffix_set:
   - fanza.cc
   - farmcrapsubsist.com
   - farwine.com
+  - fmiqcupku.com
   - gdt.qq.com
   - gemini.yahoo.com
   - ggsfq.com
@@ -376,6 +379,7 @@ domain_suffix_set:
   - jidukeji.com
   - jknmthwd.xyz
   - js.51toubu.com
+  - js.capndr.com
   - js.users.51.la
   - js.waqool.com
   - js.wpshsdk.com

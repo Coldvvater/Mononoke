@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4848
+# 规则统计: 4861
 
 domain_suffix_set:
   - 002777.xyz
@@ -17,6 +17,7 @@ domain_suffix_set:
   - 06789.xyz
   - 0755rc.com
   - 0941.org
+  - 0a0atz2sh.top
   - 0dwm.icu
   - 0er7pc8.xyz
   - 0h3uds.com
@@ -308,6 +309,7 @@ domain_suffix_set:
   - 7hb.icu
   - 7mk.fun
   - 7tc.fun
+  - 7x9i88rvn.com
   - 7xi9g1.com1.z0.glb.clouddn.com
   - 7xsf3h.com1.z0.glb.clouddn.com
   - 7zb.fun
@@ -621,6 +623,7 @@ domain_suffix_set:
   - akoo0515uis.com
   - akoo0516uis.com
   - al.newxue.com
+  - aldusmiskals.com
   - alimama.alicdn.com
   - alime-pic.oss-cn-hangzhou.aliyuncs.com
   - alitui.weibo.com
@@ -1104,6 +1107,7 @@ domain_suffix_set:
   - cnzz.991yue.com
   - cnzz.trafficmanager.net
   - cnzz.yifenghuyu.com
+  - cockersbehint.com
   - cod.southmoney.com
   - code.ditiezu.net
   - code.wenbanzhu.com
@@ -1262,7 +1266,6 @@ domain_suffix_set:
   - ddow.cn
   - ddqmlfu.icu
   - de.as.pptv.com
-  - deafeningphone.com
   - dehua.ixinfan.com
   - deliver.ifeng.com
   - delivery.playallvideos.com
@@ -2348,6 +2351,8 @@ domain_suffix_set:
   - jjplaqyo.icu
   - jke1.jianke.com
   - jkn05300loi.com
+  - jkn05310loi.com
+  - jkn05311loi.com
   - jktkhn.top
   - jltwxisa.icu
   - jmif.cn
@@ -2600,6 +2605,7 @@ domain_suffix_set:
   - lbfuvlyp.icu
   - lbfwxr.icu
   - lbjekygz.icu
+  - lbjupq.top
   - lbqdaua.icu
   - lcd.aivote.com
   - lcidauv.top
@@ -2775,6 +2781,7 @@ domain_suffix_set:
   - mb.gulongbbs.com
   - mc.mwgpg.cn
   - mc.weather.com.cn
+  - mc5e9p8qx.com
   - mcighme.icu
   - mckgmkh.icu
   - mclimix.top
@@ -2881,6 +2888,7 @@ domain_suffix_set:
   - mvxh.cn
   - mwcnmtx.top
   - mwerilxx.top
+  - mwgehrudb.com
   - mwilmix.top
   - mwqetvn.icu
   - mwurserx.top
@@ -3493,6 +3501,7 @@ domain_suffix_set:
   - richh.cn
   - ridirre.com
   - riemutmh.com
+  - riht.cn
   - rinl.cn
   - riscats.com
   - riym.cn
@@ -3570,7 +3579,6 @@ domain_suffix_set:
   - saktuddo.com
   - salary.xiao84.com
   - sales-frontier.com
-  - saltsleaseholder.com
   - same.chinadaily.com.cn
   - same.eastmoney.com
   - samoryinaner.com
@@ -4050,6 +4058,7 @@ domain_suffix_set:
   - u25022.com
   - u26u.com
   - u33011.com
+  - u408n6z4f.top
   - u40pdqw.com
   - u4ccj.icu
   - u55011.com
@@ -4334,6 +4343,7 @@ domain_suffix_set:
   - w59g.icu
   - w7044.com
   - w94.1qlgi.top
+  - w9uwz5966.com
   - wanfumei.net
   - wap.hfoyjg.cn
   - wap001.bytravel.cn
@@ -4649,6 +4659,7 @@ domain_suffix_set:
   - yellowjm.com
   - yerhfnytky.top
   - yeryt111.fun
+  - yeuviq.icu
   - yfaqgk.xyz
   - yfasjfk.icu
   - yfoega.xyz
@@ -4663,6 +4674,7 @@ domain_suffix_set:
   - yijfdsu.cn
   - yijiuningyia.gushiwen.org
   - yijuxie.com
+  - yimc.cn
   - yimh.cn
   - yin1.zgpingshu.com
   - yinyouapp.com
@@ -4716,6 +4728,7 @@ domain_suffix_set:
   - yu.dlxxjsh.top
   - yuanzunxs1.com
   - yuayku.xyz
+  - yuelmodqhrw.com
   - yugjwgg.icu
   - yugqqqq.icu
   - yukbsa.xyz
