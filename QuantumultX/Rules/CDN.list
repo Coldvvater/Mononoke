@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3659
+# 规则统计: 3664
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -482,6 +482,7 @@ HOST,cdn.docsbot.com,CDN
 HOST,cdn.document360.io,CDN
 HOST,cdn.donmai.us,CDN
 HOST,cdn.dotaoutpost.com,CDN
+HOST,cdn.downdetector.com,CDN
 HOST,cdn.download.it,CDN
 HOST,cdn.drata.com,CDN
 HOST,cdn.dribbble.com,CDN
@@ -883,6 +884,7 @@ HOST,code.ionicframework.com,CDN
 HOST,code.jquery.com,CDN
 HOST,code.piano.io,CDN
 HOST,code.upscope.io,CDN
+HOST,comm.res.easebar.com,CDN
 HOST,common-header.nimg.jp,CDN
 HOST,components.clever-cloud.com,CDN
 HOST,components.justanswer.com,CDN
@@ -2456,6 +2458,9 @@ HOST,usercontent.flodesk.com,CDN
 HOST,userpic.redgifs.com,CDN
 HOST,useruploads.visualwebsiteoptimizer.com,CDN
 HOST,utteranc.es,CDN
+HOST,v-tiles1.downdetector.com,CDN
+HOST,v-tiles2.downdetector.com,CDN
+HOST,v-tiles3.downdetector.com,CDN
 HOST,v.w-x.co,CDN
 HOST,v2-images.crackle.com,CDN
 HOST,v2.listenloop.com,CDN

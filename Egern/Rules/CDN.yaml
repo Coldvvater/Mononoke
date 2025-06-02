@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3659
+# 规则统计: 3664
 
 domain_set:
   - 0x0.st
@@ -483,6 +483,7 @@ domain_set:
   - cdn.document360.io
   - cdn.donmai.us
   - cdn.dotaoutpost.com
+  - cdn.downdetector.com
   - cdn.download.it
   - cdn.drata.com
   - cdn.dribbble.com
@@ -884,6 +885,7 @@ domain_set:
   - code.jquery.com
   - code.piano.io
   - code.upscope.io
+  - comm.res.easebar.com
   - common-header.nimg.jp
   - components.clever-cloud.com
   - components.justanswer.com
@@ -2457,6 +2459,9 @@ domain_set:
   - userpic.redgifs.com
   - useruploads.visualwebsiteoptimizer.com
   - utteranc.es
+  - v-tiles1.downdetector.com
+  - v-tiles2.downdetector.com
+  - v-tiles3.downdetector.com
   - v.w-x.co
   - v2-images.crackle.com
   - v2.listenloop.com

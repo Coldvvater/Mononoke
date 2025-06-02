@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 83465
+# 规则统计: 83485
 
 no_resolve: true
 domain_set:
@@ -351,6 +351,7 @@ domain_set:
   - cdn-ads.oss-cn-shanghai.aliyuncs.com
   - cdn-haokanapk.baidu.com
   - cdn-new-ad.wtzw.com
+  - cdn-www.bluestacks.com
   - cdn.1rtb.com
   - cdn.cr-relay.com
   - cdn.exp.xiaomi.com
@@ -1075,6 +1076,7 @@ domain_set:
   - test.xiaomi.com
   - textlink.simba.taobao.com
   - tf.logview.alimama.com
+  - timejs.game.easebar.com
   - timeserver.cnzz.net
   - tj.g.pptv.com
   - tmead.y.qq.com
@@ -1786,6 +1788,7 @@ domain_suffix_set:
   - 460e19ebd6.com
   - 465k3mlo9.com
   - 4690y10pvpq8.com
+  - 46a30abd78.com
   - 46rtpw.ru
   - 47206262.xyz
   - 47235645.xyz
@@ -2061,6 +2064,7 @@ domain_suffix_set:
   - 7b455af0a3.dba1bc1fdf.com
   - 7b5f77dbb5.com
   - 7b91f8c7a4.com
+  - 7c13b412e9.com
   - 7c5734761f.com
   - 7ca78m3csgbrid7ge.com
   - 7car.com.cn
@@ -4737,7 +4741,6 @@ domain_suffix_set:
   - ads.appbundledownload.com
   - ads.appsgeyser.com
   - ads.audio.thisisdax.com
-  - ads.betfair.com
   - ads.bulldogcpi.com
   - ads.cdn2-img.net
   - ads.cloudsight.ai
@@ -5811,6 +5814,7 @@ domain_suffix_set:
   - agriculturealso.com
   - agrntewawxi.com
   - agrvt.com
+  - agtzazkci.com
   - agufoi.xyz
   - agurgeed.net
   - agvinfo.kollmorgen.com
@@ -21115,6 +21119,7 @@ domain_suffix_set:
   - data.tw-email.princess.com
   - data.tw-guest.princess.com
   - data.txn.puntoscolombia.com
+  - data.ubi.com
   - data.ublock-browser.com
   - data.ucpa.se
   - data.uk-email.princess.com
@@ -21711,6 +21716,7 @@ domain_suffix_set:
   - delightfulsladys-meetup.com
   - delightspiritedtroop.com
   - deliman.net
+  - delimeddoles.com
   - deliriousglowing.com
   - deliriumswarthybeginner.com
   - deliv12.com
@@ -23873,6 +23879,7 @@ domain_suffix_set:
   - ecakqe.pixartprinting.co.uk
   - ecatqefal.com
   - ecbmhd.beautopia.com.au
+  - eccrinerishi.shop
   - ecctjf.leroymerlin.com.br
   - ecdoib.26p.jp
   - ecdxum.unumotors.com
@@ -26218,6 +26225,7 @@ domain_suffix_set:
   - explore-dev.agilent.com
   - explore-ft.agilent.com
   - explore-uat.agilent.com
+  - explore.agilent.com
   - explore.att.com
   - explore.broncos.com.au
   - explore.bytelab.uk
@@ -26831,6 +26839,7 @@ domain_suffix_set:
   - fgfecw.rebelle.com
   - fgfukd.sakazen.co.jp
   - fggqke.kagg.jp
+  - fghelmorotvn.com
   - fghggng.com
   - fgip.rosehosting.com
   - fgjaelzvzxtdq.rocks
@@ -30152,6 +30161,7 @@ domain_suffix_set:
   - gotest.onefc.com
   - gotest.real.co
   - gotest.taillight.com
+  - gothegroafikree.net
   - gotheremploye.com
   - gothistogro.pro
   - gotibetho.pro
@@ -30230,6 +30240,7 @@ domain_suffix_set:
   - gqqxum.mannys.com.au
   - gqraqz.e-domizil.de
   - gqwwshbdd1.fun
+  - gqxpivnl.com
   - gr-business.vodafone.com
   - gr.a23.in
   - grabifyicu.com
@@ -41630,6 +41641,7 @@ domain_suffix_set:
   - loader.auraherbals.pl
   - loader.crosswordsolver.com
   - loader.netzwelt.de
+  - loader.worldhistory.org
   - loading-resource.com
   - loading.healthyzaq.club
   - loadingscripts.com
@@ -45168,6 +45180,7 @@ domain_suffix_set:
   - mbna.bruker.com
   - mbns.bruker.com
   - mbopt.bruker.com
+  - mbox.wegmans.com
   - mbox12.offermatica.com
   - mbox12e.offermatica.com
   - mbox3.offermatica.com
@@ -48067,6 +48080,7 @@ domain_suffix_set:
   - mfkfkhfhmfkfkhfh.top
   - mfmkkv.sorgenia.it
   - mfunss.yopagomenos.co
+  - mfuodmpu.com
   - mfxsrb.reeds.com
   - mfxtlm.mobiup.ro
   - mfylalov.com
@@ -50605,6 +50619,7 @@ domain_suffix_set:
   - npczil.maxandco.com
   - npdbxf.xyz
   - npfopn.mix.tokyo
+  - npgfachpg.com
   - npgrzv.rikoland.pl
   - npiqpynunahs.com
   - npjoofigcsiqcep.com
@@ -51702,6 +51717,7 @@ domain_suffix_set:
   - omniture443.partycity.ca
   - omniture443.partycity.com
   - omnjpeakvwwo.com
+  - omns.americanexpress.com
   - omns.crackle.com
   - omns.murdoch.edu.au
   - omoevcozeezhg.one
@@ -52606,6 +52622,7 @@ domain_suffix_set:
   - oxdejn.lavprisel.dk
   - oxgnxuoxiizko.xyz
   - oxgyjm.livinterior.com.br
+  - oxheallourie.com
   - oxifwsabgd.nzz.ch
   - oxizwk.livique.ch
   - oxjb.cn
@@ -56855,6 +56872,7 @@ domain_suffix_set:
   - rbbgbi.greenline.dk
   - rbbgnn.hanshintigers.jp
   - rbdata.boostymark.com
+  - rbejwzfebcxaz.world
   - rbesql.just4camper.fr
   - rbift.icu
   - rbis-solutions.averydennison.com
@@ -57349,6 +57367,7 @@ domain_suffix_set:
   - reliable.elgas.com.au
   - reliableceaseswat.com
   - religionhaltnon.com
+  - relinedtaysaam.top
   - reltrd.peteralexander.com.au
   - reluctancefleck.com
   - reluctanceleatheroptional.com
@@ -81002,6 +81021,7 @@ domain_suffix_set:
   - ww8.kohls.com
   - ww9.kohls.com
   - wwads.cn
+  - wwarvlezklaj.top
   - wwbdayuvbvrsr.rocks
   - wwbsll.nissen.co.jp
   - wwcnmte.top

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3659
+# 规则统计: 3664
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -482,6 +482,7 @@ DOMAIN,cdn.docsbot.com
 DOMAIN,cdn.document360.io
 DOMAIN,cdn.donmai.us
 DOMAIN,cdn.dotaoutpost.com
+DOMAIN,cdn.downdetector.com
 DOMAIN,cdn.download.it
 DOMAIN,cdn.drata.com
 DOMAIN,cdn.dribbble.com
@@ -883,6 +884,7 @@ DOMAIN,code.ionicframework.com
 DOMAIN,code.jquery.com
 DOMAIN,code.piano.io
 DOMAIN,code.upscope.io
+DOMAIN,comm.res.easebar.com
 DOMAIN,common-header.nimg.jp
 DOMAIN,components.clever-cloud.com
 DOMAIN,components.justanswer.com
@@ -2456,6 +2458,9 @@ DOMAIN,usercontent.flodesk.com
 DOMAIN,userpic.redgifs.com
 DOMAIN,useruploads.visualwebsiteoptimizer.com
 DOMAIN,utteranc.es
+DOMAIN,v-tiles1.downdetector.com
+DOMAIN,v-tiles2.downdetector.com
+DOMAIN,v-tiles3.downdetector.com
 DOMAIN,v.w-x.co
 DOMAIN,v2-images.crackle.com
 DOMAIN,v2.listenloop.com
