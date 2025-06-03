@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3664
+# 规则统计: 3666
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -74,6 +74,7 @@ HOST,appassets.mvtdev.com,CDN
 HOST,apple-relay.apple.com,CDN
 HOST,apple-relay.cloudflare.com,CDN
 HOST,apple-relay.fastly-edge.com,CDN
+HOST,apps-static.route4me.com,CDN
 HOST,apps.bazaarvoice.com,CDN
 HOST,apps.profitihub.com,CDN
 HOST,apps.sophi.io,CDN
@@ -1810,6 +1811,7 @@ HOST,proxy.joinmastodon.org,CDN
 HOST,proxy.spigotmc.org,CDN
 HOST,ps.w.org,CDN
 HOST,psp-logos.uptimerobot.com,CDN
+HOST,pub.creaders.net,CDN
 HOST,public-assets.typeform.com,CDN
 HOST,public-cdn.bblmw.com,CDN
 HOST,public-files.gumroad.com,CDN

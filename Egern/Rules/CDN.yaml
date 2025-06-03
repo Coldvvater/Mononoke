@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3664
+# 规则统计: 3666
 
 domain_set:
   - 0x0.st
@@ -75,6 +75,7 @@ domain_set:
   - apple-relay.apple.com
   - apple-relay.cloudflare.com
   - apple-relay.fastly-edge.com
+  - apps-static.route4me.com
   - apps.bazaarvoice.com
   - apps.profitihub.com
   - apps.sophi.io
@@ -1811,6 +1812,7 @@ domain_set:
   - proxy.spigotmc.org
   - ps.w.org
   - psp-logos.uptimerobot.com
+  - pub.creaders.net
   - public-assets.typeform.com
   - public-cdn.bblmw.com
   - public-files.gumroad.com

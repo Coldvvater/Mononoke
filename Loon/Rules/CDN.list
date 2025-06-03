@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3664
+# 规则统计: 3666
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -74,6 +74,7 @@ DOMAIN,appassets.mvtdev.com
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,apps-static.route4me.com
 DOMAIN,apps.bazaarvoice.com
 DOMAIN,apps.profitihub.com
 DOMAIN,apps.sophi.io
@@ -1810,6 +1811,7 @@ DOMAIN,proxy.joinmastodon.org
 DOMAIN,proxy.spigotmc.org
 DOMAIN,ps.w.org
 DOMAIN,psp-logos.uptimerobot.com
+DOMAIN,pub.creaders.net
 DOMAIN,public-assets.typeform.com
 DOMAIN,public-cdn.bblmw.com
 DOMAIN,public-files.gumroad.com

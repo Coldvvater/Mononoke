@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1038
+# 规则统计: 1039
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -209,6 +209,7 @@ HOST-SUFFIX,costco.com,Proxy
 HOST-SUFFIX,coveralls.io,Proxy
 HOST-SUFFIX,cpuid.com,Proxy
 HOST-SUFFIX,crashlytics.com,Proxy
+HOST-SUFFIX,creaders.net,Proxy
 HOST-SUFFIX,creativelab5.com,Proxy
 HOST-SUFFIX,crunchyroll.com,Proxy
 HOST-SUFFIX,crypto.com,Proxy
