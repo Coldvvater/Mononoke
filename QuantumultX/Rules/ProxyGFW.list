@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7369
+# 规则统计: 7371
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -1613,6 +1613,7 @@ HOST-SUFFIX,drepung.org,ProxyGFW
 HOST-SUFFIX,drgan.net,ProxyGFW
 HOST-SUFFIX,dribbble.com,ProxyGFW
 HOST-SUFFIX,drmingxia.org,ProxyGFW
+HOST-SUFFIX,droidwin.com,ProxyGFW
 HOST-SUFFIX,dronedj.com,ProxyGFW
 HOST-SUFFIX,dropbooks.tv,ProxyGFW
 HOST-SUFFIX,dropbox.com,ProxyGFW
@@ -4543,6 +4544,7 @@ HOST-SUFFIX,onedrive.com,ProxyGFW
 HOST-SUFFIX,onedrive.live.com,ProxyGFW
 HOST-SUFFIX,onedumb.com,ProxyGFW
 HOST-SUFFIX,onejav.com,ProxyGFW
+HOST-SUFFIX,onepluscommunityserver.com,ProxyGFW
 HOST-SUFFIX,onesto.re,ProxyGFW
 HOST-SUFFIX,onestore.co.kr,ProxyGFW
 HOST-SUFFIX,onevps.com,ProxyGFW

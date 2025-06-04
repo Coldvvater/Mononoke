@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7369
+# 规则统计: 7371
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -1613,6 +1613,7 @@ DOMAIN-SUFFIX,drepung.org
 DOMAIN-SUFFIX,drgan.net
 DOMAIN-SUFFIX,dribbble.com
 DOMAIN-SUFFIX,drmingxia.org
+DOMAIN-SUFFIX,droidwin.com
 DOMAIN-SUFFIX,dronedj.com
 DOMAIN-SUFFIX,dropbooks.tv
 DOMAIN-SUFFIX,dropbox.com
@@ -4543,6 +4544,7 @@ DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,onedumb.com
 DOMAIN-SUFFIX,onejav.com
+DOMAIN-SUFFIX,onepluscommunityserver.com
 DOMAIN-SUFFIX,onesto.re
 DOMAIN-SUFFIX,onestore.co.kr
 DOMAIN-SUFFIX,onevps.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3667
+# 规则统计: 3668
 
 domain_set:
   - 0x0.st
@@ -2438,6 +2438,7 @@ domain_set:
   - ui.trailhead.com
   - unlimited-cdn.waifu2x.net
   - unsubscribe-imgs.leavemealone.com
+  - uos-support-files.svc.ui.com/
   - updates.signal.org
   - updates2.signal.org
   - upload.wikimedia.org
