@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3668
+# 规则统计: 3674
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -386,6 +386,7 @@ DOMAIN,cdn-node.diskpart.com
 DOMAIN,cdn-public.sociabble.com
 DOMAIN,cdn-raw.modrinth.com
 DOMAIN,cdn-rdstaticassets.readdle.com
+DOMAIN,cdn-seo.airdroid.com
 DOMAIN,cdn-service.jp.sumologic.com
 DOMAIN,cdn-share-sprites.flaticon.com
 DOMAIN,cdn-static-1.medium.com
@@ -1253,6 +1254,7 @@ DOMAIN,images-news.now.com
 DOMAIN,images-sports.now.com
 DOMAIN,images-static.trustpilot.com
 DOMAIN,images.991.com
+DOMAIN,images.airdroid.com
 DOMAIN,images.anandtech.com
 DOMAIN,images.applegamingwiki.com
 DOMAIN,images.arigatotravel.com
@@ -1863,6 +1865,7 @@ DOMAIN,resources.digital-cloud.medallia.com
 DOMAIN,resources.help.salesforce.com
 DOMAIN,resources.whatwg.org
 DOMAIN,rest.happierleads.com
+DOMAIN,rs-cdn.splashtop.com
 DOMAIN,rsi.grafana.com
 DOMAIN,rsms.me
 DOMAIN,rtcg-access.bytevcloud.com
@@ -1986,6 +1989,7 @@ DOMAIN,secure.telegraph.co.uk
 DOMAIN,segapi.clerk.com
 DOMAIN,segment.digitalocean.com
 DOMAIN,sentry.ainopara.com
+DOMAIN,seo-wp.airdroid.com
 DOMAIN,service-icons.zeabur.com
 DOMAIN,services.linkfire.com
 DOMAIN,sf-coze-web-cdn.coze.com
@@ -2947,6 +2951,7 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,graphql.org
 DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,gravity.jup.io
+DOMAIN-SUFFIX,gtranslate.net
 DOMAIN-SUFFIX,gw3.io
 DOMAIN-SUFFIX,h-cdn.co
 DOMAIN-SUFFIX,h-cdn.com
@@ -3463,6 +3468,7 @@ DOMAIN-SUFFIX,sxccdn.com
 DOMAIN-SUFFIX,szjal.cn
 DOMAIN-SUFFIX,tapecontent.net
 DOMAIN-SUFFIX,targetimg1.com
+DOMAIN-SUFFIX,tauri.app
 DOMAIN-SUFFIX,teamtailor-cdn.com
 DOMAIN-SUFFIX,tedcdn.com
 DOMAIN-SUFFIX,telemetry.services.yofi.ai

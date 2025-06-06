@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3668
+# 规则统计: 3674
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -386,6 +386,7 @@ HOST,cdn-node.diskpart.com,CDN
 HOST,cdn-public.sociabble.com,CDN
 HOST,cdn-raw.modrinth.com,CDN
 HOST,cdn-rdstaticassets.readdle.com,CDN
+HOST,cdn-seo.airdroid.com,CDN
 HOST,cdn-service.jp.sumologic.com,CDN
 HOST,cdn-share-sprites.flaticon.com,CDN
 HOST,cdn-static-1.medium.com,CDN
@@ -1253,6 +1254,7 @@ HOST,images-news.now.com,CDN
 HOST,images-sports.now.com,CDN
 HOST,images-static.trustpilot.com,CDN
 HOST,images.991.com,CDN
+HOST,images.airdroid.com,CDN
 HOST,images.anandtech.com,CDN
 HOST,images.applegamingwiki.com,CDN
 HOST,images.arigatotravel.com,CDN
@@ -1863,6 +1865,7 @@ HOST,resources.digital-cloud.medallia.com,CDN
 HOST,resources.help.salesforce.com,CDN
 HOST,resources.whatwg.org,CDN
 HOST,rest.happierleads.com,CDN
+HOST,rs-cdn.splashtop.com,CDN
 HOST,rsi.grafana.com,CDN
 HOST,rsms.me,CDN
 HOST,rtcg-access.bytevcloud.com,CDN
@@ -1986,6 +1989,7 @@ HOST,secure.telegraph.co.uk,CDN
 HOST,segapi.clerk.com,CDN
 HOST,segment.digitalocean.com,CDN
 HOST,sentry.ainopara.com,CDN
+HOST,seo-wp.airdroid.com,CDN
 HOST,service-icons.zeabur.com,CDN
 HOST,services.linkfire.com,CDN
 HOST,sf-coze-web-cdn.coze.com,CDN
@@ -2947,6 +2951,7 @@ HOST-SUFFIX,googleusercontent.com,CDN
 HOST-SUFFIX,graphql.org,CDN
 HOST-SUFFIX,gravatar.com,CDN
 HOST-SUFFIX,gravity.jup.io,CDN
+HOST-SUFFIX,gtranslate.net,CDN
 HOST-SUFFIX,gw3.io,CDN
 HOST-SUFFIX,h-cdn.co,CDN
 HOST-SUFFIX,h-cdn.com,CDN
@@ -3463,6 +3468,7 @@ HOST-SUFFIX,sxccdn.com,CDN
 HOST-SUFFIX,szjal.cn,CDN
 HOST-SUFFIX,tapecontent.net,CDN
 HOST-SUFFIX,targetimg1.com,CDN
+HOST-SUFFIX,tauri.app,CDN
 HOST-SUFFIX,teamtailor-cdn.com,CDN
 HOST-SUFFIX,tedcdn.com,CDN
 HOST-SUFFIX,telemetry.services.yofi.ai,CDN

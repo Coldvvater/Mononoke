@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 800
+# 规则统计: 801
 
 DOMAIN,acg.tv
 DOMAIN,assets1.xboxlive.cn
@@ -377,6 +377,7 @@ DOMAIN-SUFFIX,honor.com
 DOMAIN-SUFFIX,huawei.cn
 DOMAIN-SUFFIX,huawei.com
 DOMAIN-SUFFIX,huaweistatic.com
+DOMAIN-SUFFIX,huolala.cn
 DOMAIN-SUFFIX,huoshan.com
 DOMAIN-SUFFIX,huoshanstatic.com
 DOMAIN-SUFFIX,huoshanzhibo.com

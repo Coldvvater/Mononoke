@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3668
+# 规则统计: 3674
 
 domain_set:
   - 0x0.st
@@ -387,6 +387,7 @@ domain_set:
   - cdn-public.sociabble.com
   - cdn-raw.modrinth.com
   - cdn-rdstaticassets.readdle.com
+  - cdn-seo.airdroid.com
   - cdn-service.jp.sumologic.com
   - cdn-share-sprites.flaticon.com
   - cdn-static-1.medium.com
@@ -1254,6 +1255,7 @@ domain_set:
   - images-sports.now.com
   - images-static.trustpilot.com
   - images.991.com
+  - images.airdroid.com
   - images.anandtech.com
   - images.applegamingwiki.com
   - images.arigatotravel.com
@@ -1864,6 +1866,7 @@ domain_set:
   - resources.help.salesforce.com
   - resources.whatwg.org
   - rest.happierleads.com
+  - rs-cdn.splashtop.com
   - rsi.grafana.com
   - rsms.me
   - rtcg-access.bytevcloud.com
@@ -1987,6 +1990,7 @@ domain_set:
   - segapi.clerk.com
   - segment.digitalocean.com
   - sentry.ainopara.com
+  - seo-wp.airdroid.com
   - service-icons.zeabur.com
   - services.linkfire.com
   - sf-coze-web-cdn.coze.com
@@ -2949,6 +2953,7 @@ domain_suffix_set:
   - graphql.org
   - gravatar.com
   - gravity.jup.io
+  - gtranslate.net
   - gw3.io
   - h-cdn.co
   - h-cdn.com
@@ -3465,6 +3470,7 @@ domain_suffix_set:
   - szjal.cn
   - tapecontent.net
   - targetimg1.com
+  - tauri.app
   - teamtailor-cdn.com
   - tedcdn.com
   - telemetry.services.yofi.ai
