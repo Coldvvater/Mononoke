@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3674
+# 规则统计: 3672
 
 domain_set:
   - 0x0.st
@@ -3485,7 +3485,6 @@ domain_suffix_set:
   - tile.openstreetmap.de
   - tile.openstreetmap.org
   - tile.osm.org
-  - timg135.top
   - tindiemedia.com
   - tiqcdn.com
   - tkcdns.com
@@ -3541,7 +3540,6 @@ domain_suffix_set:
   - vimeocdn.com
   - vodvideo.cbsnews.com
   - vox-cdn.com
-  - vplay.life
   - vsassets.io
   - vscode-cdn.net
   - vscode-unpkg.net
