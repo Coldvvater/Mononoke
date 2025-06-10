@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3672
+# 规则统计: 3674
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -914,6 +914,7 @@ HOST,content.invisioncic.com,CDN
 HOST,content.jwplatform.com,CDN
 HOST,content.kaspersky-labs.com,CDN
 HOST,content.overwolf.com,CDN
+HOST,content.powerapps.com,CDN
 HOST,content.product.glitch.com,CDN
 HOST,content.wepik.com,CDN
 HOST,contents-thumbnail2.fc2.com,CDN
@@ -2225,6 +2226,7 @@ HOST,static.news.bitcoin.com,CDN
 HOST,static.nhentai.net,CDN
 HOST,static.nicehash.com,CDN
 HOST,static.nrk.no,CDN
+HOST,static.nyse.com,CDN
 HOST,static.observablehq.com,CDN
 HOST,static.oklink.com,CDN
 HOST,static.okx.com,CDN

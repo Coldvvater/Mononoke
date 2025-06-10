@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3672
+# 规则统计: 3674
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -914,6 +914,7 @@ DOMAIN,content.invisioncic.com
 DOMAIN,content.jwplatform.com
 DOMAIN,content.kaspersky-labs.com
 DOMAIN,content.overwolf.com
+DOMAIN,content.powerapps.com
 DOMAIN,content.product.glitch.com
 DOMAIN,content.wepik.com
 DOMAIN,contents-thumbnail2.fc2.com
@@ -2225,6 +2226,7 @@ DOMAIN,static.news.bitcoin.com
 DOMAIN,static.nhentai.net
 DOMAIN,static.nicehash.com
 DOMAIN,static.nrk.no
+DOMAIN,static.nyse.com
 DOMAIN,static.observablehq.com
 DOMAIN,static.oklink.com
 DOMAIN,static.okx.com

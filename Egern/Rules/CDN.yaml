@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3672
+# 规则统计: 3674
 
 domain_set:
   - 0x0.st
@@ -915,6 +915,7 @@ domain_set:
   - content.jwplatform.com
   - content.kaspersky-labs.com
   - content.overwolf.com
+  - content.powerapps.com
   - content.product.glitch.com
   - content.wepik.com
   - contents-thumbnail2.fc2.com
@@ -2226,6 +2227,7 @@ domain_set:
   - static.nhentai.net
   - static.nicehash.com
   - static.nrk.no
+  - static.nyse.com
   - static.observablehq.com
   - static.oklink.com
   - static.okx.com
