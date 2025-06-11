@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 825
+# 规则统计: 826
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -627,6 +627,7 @@ domain_suffix_set:
   - sdk-cache.video.ptqy.gitv.tv
   - sdk.1rtb.net
   - sdk.ad.smaato.net
+  - sdk.adx.adwangmai.com
   - sdk.beizi.biz
   - sdk.cferw.com
   - sdk.e.qq.com
