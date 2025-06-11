@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3674
+# 规则统计: 3676
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -16,6 +16,7 @@ HOST,account-cdn.svc.ui.com,CDN
 HOST,accounts-cdn.9gag.com,CDN
 HOST,adkit.9pub.io,CDN
 HOST,aff.equalweb.com,CDN
+HOST,affportal.bhphoto.com,CDN
 HOST,agi.armorgames.com,CDN
 HOST,aimg.fc2.com,CDN
 HOST,ajax.cat.net,CDN
@@ -43,6 +44,7 @@ HOST,api.allorigins.win,CDN
 HOST,api.bintray.com,CDN
 HOST,api.crashguard.me,CDN
 HOST,api.dicebear.com,CDN
+HOST,api.fontshare.com,CDN
 HOST,api.iconify.design,CDN
 HOST,api.indexnow.org,CDN
 HOST,api.instantly.ai,CDN

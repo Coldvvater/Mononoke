@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3674
+# 规则统计: 3676
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -16,6 +16,7 @@ DOMAIN,account-cdn.svc.ui.com
 DOMAIN,accounts-cdn.9gag.com
 DOMAIN,adkit.9pub.io
 DOMAIN,aff.equalweb.com
+DOMAIN,affportal.bhphoto.com
 DOMAIN,agi.armorgames.com
 DOMAIN,aimg.fc2.com
 DOMAIN,ajax.cat.net
@@ -43,6 +44,7 @@ DOMAIN,api.allorigins.win
 DOMAIN,api.bintray.com
 DOMAIN,api.crashguard.me
 DOMAIN,api.dicebear.com
+DOMAIN,api.fontshare.com
 DOMAIN,api.iconify.design
 DOMAIN,api.indexnow.org
 DOMAIN,api.instantly.ai

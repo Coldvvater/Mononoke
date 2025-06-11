@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3674
+# 规则统计: 3676
 
 domain_set:
   - 0x0.st
@@ -17,6 +17,7 @@ domain_set:
   - accounts-cdn.9gag.com
   - adkit.9pub.io
   - aff.equalweb.com
+  - affportal.bhphoto.com
   - agi.armorgames.com
   - aimg.fc2.com
   - ajax.cat.net
@@ -44,6 +45,7 @@ domain_set:
   - api.bintray.com
   - api.crashguard.me
   - api.dicebear.com
+  - api.fontshare.com
   - api.iconify.design
   - api.indexnow.org
   - api.instantly.ai
