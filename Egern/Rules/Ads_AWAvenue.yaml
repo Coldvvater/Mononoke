@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 826
+# 规则统计: 825
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -165,7 +165,6 @@ domain_suffix_set:
   - analysis.yozocloud.cn
   - analytics-api.samsunghealthcn.com
   - analytics.adjust.cn
-  - analytics.google.com
   - analytics.pinterest.com
   - analytics.pointdrive.linkedin.com
   - analytics.query.yahoo.com
