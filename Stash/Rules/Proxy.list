@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1041
+# 规则统计: 1042
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
@@ -667,6 +667,7 @@ DOMAIN-SUFFIX,openstreetmap.org
 DOMAIN-SUFFIX,opentable.com
 DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,osmand.net
 DOMAIN-SUFFIX,overdrive.com
 DOMAIN-SUFFIX,ovpnleaktest.com
 DOMAIN-SUFFIX,packagephobia.com

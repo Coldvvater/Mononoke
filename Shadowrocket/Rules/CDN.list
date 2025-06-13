@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3676
+# 规则统计: 3678
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -950,6 +950,7 @@ DOMAIN,dam.freshworks.com
 DOMAIN,damassets.autodesk.net
 DOMAIN,dassets.shimano.com
 DOMAIN,data.jsdelivr.com
+DOMAIN,data.osmand.net
 DOMAIN,data.pendo.io
 DOMAIN,data.schemaapp.com
 DOMAIN,data.web.clickup.com
@@ -1550,6 +1551,7 @@ DOMAIN,mangaz-static.j-comi.jp
 DOMAIN,mantisloader.mantis-awx.com
 DOMAIN,maps.geoapify.com
 DOMAIN,maps.gstatic.com
+DOMAIN,maptile.osmand.net
 DOMAIN,marber-cdn.economist.com
 DOMAIN,marfeelexperimentsexperienceengine.mrf.io
 DOMAIN,marketing.figma.com

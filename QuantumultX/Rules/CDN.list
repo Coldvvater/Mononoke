@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3676
+# 规则统计: 3678
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -950,6 +950,7 @@ HOST,dam.freshworks.com,CDN
 HOST,damassets.autodesk.net,CDN
 HOST,dassets.shimano.com,CDN
 HOST,data.jsdelivr.com,CDN
+HOST,data.osmand.net,CDN
 HOST,data.pendo.io,CDN
 HOST,data.schemaapp.com,CDN
 HOST,data.web.clickup.com,CDN
@@ -1550,6 +1551,7 @@ HOST,mangaz-static.j-comi.jp,CDN
 HOST,mantisloader.mantis-awx.com,CDN
 HOST,maps.geoapify.com,CDN
 HOST,maps.gstatic.com,CDN
+HOST,maptile.osmand.net,CDN
 HOST,marber-cdn.economist.com,CDN
 HOST,marfeelexperimentsexperienceengine.mrf.io,CDN
 HOST,marketing.figma.com,CDN

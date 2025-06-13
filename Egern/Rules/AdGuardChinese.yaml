@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4722
+# 规则统计: 4735
 
 domain_suffix_set:
   - 002777.xyz
@@ -657,6 +657,7 @@ domain_suffix_set:
   - appimg.0575bbs.com
   - apple.www.letv.com
   - aqc.gucheng.com
+  - aqgjqy.icu
   - arewcdf116.cn
   - arojgi.xyz
   - aryici.xyz
@@ -745,6 +746,7 @@ domain_suffix_set:
   - bavotr.xyz
   - bbbtttjjj.com
   - bbjzly.top
+  - bborxjkan.com
   - bbqoa.top
   - bc4.fun
   - bchina-1.xsfaya.com
@@ -875,6 +877,7 @@ domain_suffix_set:
   - blinxmi.icu
   - bm.h576.com
   - bmasamd.top
+  - bmelkellv.com
   - bmhtwefv.icu
   - bmjs.xzw.com
   - bmougwx.icu
@@ -1281,6 +1284,7 @@ domain_suffix_set:
   - dktad.com
   - dkweuy.com
   - dlads.cn
+  - dlig.cn
   - dlngzx.top
   - dm.17xuexiba.com
   - dm.21hubei.com
@@ -1404,6 +1408,7 @@ domain_suffix_set:
   - dzzdspiu.icu
   - e1s.fun
   - e1zin.icu
+  - e4jdb7k8j.com
   - e50.icu
   - e5yx.com
   - e7h.fun
@@ -1613,6 +1618,7 @@ domain_suffix_set:
   - fmmirep.icu
   - fngmeat.top
   - fo0.icu
+  - fo0qofhtaw.com
   - fogolakda.top
   - foreveryoung.gz01.bdysite.com
   - fotao9.com
@@ -1768,6 +1774,7 @@ domain_suffix_set:
   - ghrs.cn
   - ghwqbii.icu
   - gi0.icu
+  - gigptruetlop.com
   - giphaudoq.com
   - gjinuqg.top
   - gjjskhdnm.top
@@ -1848,7 +1855,6 @@ domain_suffix_set:
   - gybyxsy1588.com
   - gyunce.xyz
   - gzfsqrc.icu
-  - gzhying1.cn
   - gzzkjdam.cn
   - h0d.icu
   - h1.cfxinxi.cn
@@ -2787,6 +2793,7 @@ domain_suffix_set:
   - mucnwtx.top
   - muiuim.icu
   - mumnxiex.top
+  - munkrudhhv.com
   - muoy.cn
   - muresdx.top
   - muwqiga.icu
@@ -3410,6 +3417,7 @@ domain_suffix_set:
   - rinl.cn
   - rir8h6qxk.com
   - riscats.com
+  - river49xx.org
   - riym.cn
   - rjvzjn.top
   - rjwpwod.icu
@@ -3710,6 +3718,7 @@ domain_suffix_set:
   - t1.xuefen.com.cn
   - t2s.fun
   - t6.china-xian.com
+  - t78obxl4h1.com
   - t7t.icu
   - tad.suning.com
   - tagtoo.co
@@ -4196,6 +4205,7 @@ domain_suffix_set:
   - vvfgjzwa.icu
   - vvttpn.xyz
   - vvv.ieduw.com
+  - vwuudahnarh.com
   - vwvatp.xyz
   - vwvj.cn
   - vxcvd67.fun
@@ -4451,6 +4461,7 @@ domain_suffix_set:
   - xs6po.icu
   - xsrezl.icu
   - xsti.cn
+  - xsvyvr.top
   - xtdvvp.icu
   - xtrkhv.xyz
   - xu6.icu
@@ -4598,6 +4609,8 @@ domain_suffix_set:
   - yugqqqq.icu
   - yui06111shga.com
   - yui06120shga.com
+  - yui06121shga.com
+  - yui06130shga.com
   - yukbsa.xyz
   - yunsennet.com
   - yunzuowen.com

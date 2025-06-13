@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7370
+# 规则统计: 7371
 
 no_resolve: true
 domain_set:
@@ -4605,6 +4605,7 @@ domain_suffix_set:
   - orzdream.com
   - orzistic.org
   - osfoora.com
+  - osmand.net
   - otcbtc.com
   - otnd.org
   - otto.de
