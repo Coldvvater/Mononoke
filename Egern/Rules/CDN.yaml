@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3678
+# 规则统计: 3684
 
 domain_set:
   - 0x0.st
@@ -721,6 +721,7 @@ domain_set:
   - cdn.vidible.tv
   - cdn.vidyard.com
   - cdn.viglink.com
+  - cdn.violet.vin
   - cdn.vuukle.com
   - cdn.wccftech.com
   - cdn.webclicks24.com
@@ -999,6 +1000,7 @@ domain_set:
   - edge-consumer-static.azureedge.net
   - edge-mobile-static.azureedge.net
   - edge.marker.io
+  - edge.nodeseek.com
   - edge.personalizer.io
   - edge.sitecorecloud.io
   - edge1.certona.net
@@ -1160,6 +1162,7 @@ domain_set:
   - hubspotonwebflow.com
   - hv-monsterdb-data.skk.moe
   - i-cdn.embed.ly
+  - i.111666.best
   - i.1password.com
   - i.anysex.com
   - i.bang.com
@@ -1378,6 +1381,7 @@ domain_set:
   - img.informer.com
   - img.itch.zone
   - img.javstore.net
+  - img.jjbb.me
   - img.jsdelivr.com
   - img.kbhgames.com
   - img.kemono.su
@@ -2922,6 +2926,7 @@ domain_suffix_set:
   - framercdn.com
   - framerstatic.com
   - framerusercontent.com
+  - frontapp.com
   - fsdn.com
   - fsvod1.com
   - ftcdn.net
@@ -3307,6 +3312,7 @@ domain_suffix_set:
   - prcdn.co
   - pressablecdn.com
   - pressidiumcdn.com
+  - prhcdn.com
   - privacy-gateway.cloudflare.com
   - prod.public.atl-paas.net
   - project1content.com

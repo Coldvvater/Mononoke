@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3678
+# 规则统计: 3684
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -720,6 +720,7 @@ HOST,cdn.viafoura.net,CDN
 HOST,cdn.vidible.tv,CDN
 HOST,cdn.vidyard.com,CDN
 HOST,cdn.viglink.com,CDN
+HOST,cdn.violet.vin,CDN
 HOST,cdn.vuukle.com,CDN
 HOST,cdn.wccftech.com,CDN
 HOST,cdn.webclicks24.com,CDN
@@ -998,6 +999,7 @@ HOST,edge-cloud-resource-static.azureedge.net,CDN
 HOST,edge-consumer-static.azureedge.net,CDN
 HOST,edge-mobile-static.azureedge.net,CDN
 HOST,edge.marker.io,CDN
+HOST,edge.nodeseek.com,CDN
 HOST,edge.personalizer.io,CDN
 HOST,edge.sitecorecloud.io,CDN
 HOST,edge1.certona.net,CDN
@@ -1159,6 +1161,7 @@ HOST,hub-assets.displaycal.net,CDN
 HOST,hubspotonwebflow.com,CDN
 HOST,hv-monsterdb-data.skk.moe,CDN
 HOST,i-cdn.embed.ly,CDN
+HOST,i.111666.best,CDN
 HOST,i.1password.com,CDN
 HOST,i.anysex.com,CDN
 HOST,i.bang.com,CDN
@@ -1377,6 +1380,7 @@ HOST,img.imgdd.com,CDN
 HOST,img.informer.com,CDN
 HOST,img.itch.zone,CDN
 HOST,img.javstore.net,CDN
+HOST,img.jjbb.me,CDN
 HOST,img.jsdelivr.com,CDN
 HOST,img.kbhgames.com,CDN
 HOST,img.kemono.su,CDN
@@ -2920,6 +2924,7 @@ HOST-SUFFIX,fourhoi.com,CDN
 HOST-SUFFIX,framercdn.com,CDN
 HOST-SUFFIX,framerstatic.com,CDN
 HOST-SUFFIX,framerusercontent.com,CDN
+HOST-SUFFIX,frontapp.com,CDN
 HOST-SUFFIX,fsdn.com,CDN
 HOST-SUFFIX,fsvod1.com,CDN
 HOST-SUFFIX,ftcdn.net,CDN
@@ -3305,6 +3310,7 @@ HOST-SUFFIX,pravatar.cc,CDN
 HOST-SUFFIX,prcdn.co,CDN
 HOST-SUFFIX,pressablecdn.com,CDN
 HOST-SUFFIX,pressidiumcdn.com,CDN
+HOST-SUFFIX,prhcdn.com,CDN
 HOST-SUFFIX,privacy-gateway.cloudflare.com,CDN
 HOST-SUFFIX,prod.public.atl-paas.net,CDN
 HOST-SUFFIX,project1content.com,CDN

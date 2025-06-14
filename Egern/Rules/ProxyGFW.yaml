@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7371
+# 规则统计: 7372
 
 no_resolve: true
 domain_set:
@@ -4896,6 +4896,7 @@ domain_suffix_set:
   - ppy.sh
   - prayforchina.net
   - prcleader.org
+  - precisionhydration.com
   - premeforwindows7.com
   - premproxy.com
   - presentation.new

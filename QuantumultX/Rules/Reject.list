@@ -1,5 +1,5 @@
 # 规则名称: Reject
-# 规则统计: 5260
+# 规则统计: 5264
 
 HOST,118.89.204.198,Reject
 HOST,a.wkanx.com,Reject
@@ -851,6 +851,7 @@ HOST-SUFFIX,adintl.cn,Reject
 HOST-SUFFIX,adjb.5nd.com,Reject
 HOST-SUFFIX,adjust.com,Reject
 HOST-SUFFIX,adkernel.com,Reject
+HOST-SUFFIX,adkwai.com,Reject
 HOST-SUFFIX,adlooxtracking.com,Reject
 HOST-SUFFIX,adm.52swine.com,Reject
 HOST-SUFFIX,adm.6park.com,Reject
@@ -862,6 +863,7 @@ HOST-SUFFIX,admd.housefun.com.tw,Reject
 HOST-SUFFIX,admd.yam.com,Reject
 HOST-SUFFIX,admicro.vn,Reject
 HOST-SUFFIX,admob.com,Reject
+HOST-SUFFIX,admobile.top,Reject
 HOST-SUFFIX,admsapi.businessweekly.com.tw,Reject
 HOST-SUFFIX,adnetwork.vn,Reject
 HOST-SUFFIX,adnxs.com,Reject
@@ -3760,6 +3762,7 @@ HOST-SUFFIX,rabc1.iteye.com,Reject
 HOST-SUFFIX,rads.msn.com,Reject
 HOST-SUFFIX,rajxjj.icu,Reject
 HOST-SUFFIX,rakkuxw.com,Reject
+HOST-SUFFIX,ranfenghd.com,Reject
 HOST-SUFFIX,rayajmp.icu,Reject
 HOST-SUFFIX,rayjump.com,Reject
 HOST-SUFFIX,rbift.icu,Reject
@@ -4287,6 +4290,7 @@ HOST-SUFFIX,thrzbf.xyz,Reject
 HOST-SUFFIX,thunnqyo.com,Reject
 HOST-SUFFIX,thustilpn.com,Reject
 HOST-SUFFIX,ti4la.icu,Reject
+HOST-SUFFIX,tianmu.mobi,Reject
 HOST-SUFFIX,tiboha.top,Reject
 HOST-SUFFIX,tidaltv.com,Reject
 HOST-SUFFIX,tixoilll.com,Reject

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3678
+# 规则统计: 3684
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -720,6 +720,7 @@ DOMAIN,cdn.viafoura.net
 DOMAIN,cdn.vidible.tv
 DOMAIN,cdn.vidyard.com
 DOMAIN,cdn.viglink.com
+DOMAIN,cdn.violet.vin
 DOMAIN,cdn.vuukle.com
 DOMAIN,cdn.wccftech.com
 DOMAIN,cdn.webclicks24.com
@@ -998,6 +999,7 @@ DOMAIN,edge-cloud-resource-static.azureedge.net
 DOMAIN,edge-consumer-static.azureedge.net
 DOMAIN,edge-mobile-static.azureedge.net
 DOMAIN,edge.marker.io
+DOMAIN,edge.nodeseek.com
 DOMAIN,edge.personalizer.io
 DOMAIN,edge.sitecorecloud.io
 DOMAIN,edge1.certona.net
@@ -1159,6 +1161,7 @@ DOMAIN,hub-assets.displaycal.net
 DOMAIN,hubspotonwebflow.com
 DOMAIN,hv-monsterdb-data.skk.moe
 DOMAIN,i-cdn.embed.ly
+DOMAIN,i.111666.best
 DOMAIN,i.1password.com
 DOMAIN,i.anysex.com
 DOMAIN,i.bang.com
@@ -1377,6 +1380,7 @@ DOMAIN,img.imgdd.com
 DOMAIN,img.informer.com
 DOMAIN,img.itch.zone
 DOMAIN,img.javstore.net
+DOMAIN,img.jjbb.me
 DOMAIN,img.jsdelivr.com
 DOMAIN,img.kbhgames.com
 DOMAIN,img.kemono.su
@@ -2920,6 +2924,7 @@ DOMAIN-SUFFIX,fourhoi.com
 DOMAIN-SUFFIX,framercdn.com
 DOMAIN-SUFFIX,framerstatic.com
 DOMAIN-SUFFIX,framerusercontent.com
+DOMAIN-SUFFIX,frontapp.com
 DOMAIN-SUFFIX,fsdn.com
 DOMAIN-SUFFIX,fsvod1.com
 DOMAIN-SUFFIX,ftcdn.net
@@ -3305,6 +3310,7 @@ DOMAIN-SUFFIX,pravatar.cc
 DOMAIN-SUFFIX,prcdn.co
 DOMAIN-SUFFIX,pressablecdn.com
 DOMAIN-SUFFIX,pressidiumcdn.com
+DOMAIN-SUFFIX,prhcdn.com
 DOMAIN-SUFFIX,privacy-gateway.cloudflare.com
 DOMAIN-SUFFIX,prod.public.atl-paas.net
 DOMAIN-SUFFIX,project1content.com

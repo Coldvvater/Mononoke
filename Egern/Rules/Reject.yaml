@@ -1,5 +1,5 @@
 # 规则名称: Reject
-# 规则统计: 5259
+# 规则统计: 5263
 
 no_resolve: true
 domain_set:
@@ -854,6 +854,7 @@ domain_suffix_set:
   - adjb.5nd.com
   - adjust.com
   - adkernel.com
+  - adkwai.com
   - adlooxtracking.com
   - adm.52swine.com
   - adm.6park.com
@@ -865,6 +866,7 @@ domain_suffix_set:
   - admd.yam.com
   - admicro.vn
   - admob.com
+  - admobile.top
   - admsapi.businessweekly.com.tw
   - adnetwork.vn
   - adnxs.com
@@ -3763,6 +3765,7 @@ domain_suffix_set:
   - rads.msn.com
   - rajxjj.icu
   - rakkuxw.com
+  - ranfenghd.com
   - rayajmp.icu
   - rayjump.com
   - rbift.icu
@@ -4290,6 +4293,7 @@ domain_suffix_set:
   - thunnqyo.com
   - thustilpn.com
   - ti4la.icu
+  - tianmu.mobi
   - tiboha.top
   - tidaltv.com
   - tixoilll.com
