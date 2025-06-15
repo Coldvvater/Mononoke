@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3684
+# 规则统计: 3687
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -597,6 +597,7 @@ HOST,cdn.ndtv.com,CDN
 HOST,cdn.nerdschalk.com,CDN
 HOST,cdn.networklessons.com,CDN
 HOST,cdn.neverbounce.com,CDN
+HOST,cdn.nfcube.com,CDN
 HOST,cdn.nolt.io,CDN
 HOST,cdn.now.gg,CDN
 HOST,cdn.nperf.com,CDN
@@ -721,6 +722,7 @@ HOST,cdn.vidible.tv,CDN
 HOST,cdn.vidyard.com,CDN
 HOST,cdn.viglink.com,CDN
 HOST,cdn.violet.vin,CDN
+HOST,cdn.virtuoussoftware.com,CDN
 HOST,cdn.vuukle.com,CDN
 HOST,cdn.wccftech.com,CDN
 HOST,cdn.webclicks24.com,CDN
@@ -2158,6 +2160,7 @@ HOST,static.drtuber.com,CDN
 HOST,static.dw.com,CDN
 HOST,static.dzeninfra.ru,CDN
 HOST,static.edge.microsoftapp.net,CDN
+HOST,static.elfsight.com,CDN
 HOST,static.eroterest.net,CDN
 HOST,static.esimplus.net,CDN
 HOST,static.ettoday.net,CDN

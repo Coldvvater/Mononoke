@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3684
+# 规则统计: 3687
 
 domain_set:
   - 0x0.st
@@ -598,6 +598,7 @@ domain_set:
   - cdn.nerdschalk.com
   - cdn.networklessons.com
   - cdn.neverbounce.com
+  - cdn.nfcube.com
   - cdn.nolt.io
   - cdn.now.gg
   - cdn.nperf.com
@@ -722,6 +723,7 @@ domain_set:
   - cdn.vidyard.com
   - cdn.viglink.com
   - cdn.violet.vin
+  - cdn.virtuoussoftware.com
   - cdn.vuukle.com
   - cdn.wccftech.com
   - cdn.webclicks24.com
@@ -2159,6 +2161,7 @@ domain_set:
   - static.dw.com
   - static.dzeninfra.ru
   - static.edge.microsoftapp.net
+  - static.elfsight.com
   - static.eroterest.net
   - static.esimplus.net
   - static.ettoday.net
