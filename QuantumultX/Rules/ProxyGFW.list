@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7373
+# 规则统计: 7374
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -3504,6 +3504,7 @@ HOST-SUFFIX,kakao.co.kr,ProxyGFW
 HOST-SUFFIX,kakao.com,ProxyGFW
 HOST-SUFFIX,kakaocdn.net,ProxyGFW
 HOST-SUFFIX,kalachakralugano.org,ProxyGFW
+HOST-SUFFIX,kali.org,ProxyGFW
 HOST-SUFFIX,kanald.com.tr,ProxyGFW
 HOST-SUFFIX,kangye.org,ProxyGFW
 HOST-SUFFIX,kankan.today,ProxyGFW

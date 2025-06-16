@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3687
+# 规则统计: 3691
 
 domain_set:
   - 0x0.st
@@ -569,6 +569,7 @@ domain_set:
   - cdn.langshop.app
   - cdn.leandata.com
   - cdn.lemonsqueezy.com
+  - cdn.lgrckt-in.com
   - cdn.libravatar.org
   - cdn.lihkg.com
   - cdn.linearicons.com
@@ -881,6 +882,7 @@ domain_set:
   - cms-assets.xboxservices.com
   - cms-cdn.goat.com
   - cms-cdn.now.gg
+  - cms.blavity.com
   - cms.recordedfuture.com
   - cms.therecord.media
   - cms.typenetwork.com
@@ -2799,6 +2801,7 @@ domain_suffix_set:
   - cnbetacdn.com
   - codeberg.page
   - codepenassets.com
+  - colliderimages.com
   - combinatronics.io
   - content-storage-upload.googleapis.com
   - content001.bet365.com
@@ -3544,6 +3547,7 @@ domain_suffix_set:
   - uvcdn.com
   - v-cdn.net
   - v2ex.co
+  - valnetcdn.com
   - vanillicon.com
   - vcmdiawe.com
   - vercel.app

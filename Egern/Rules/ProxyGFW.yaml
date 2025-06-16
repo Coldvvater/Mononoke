@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7372
+# 规则统计: 7373
 
 no_resolve: true
 domain_set:
@@ -3507,6 +3507,7 @@ domain_suffix_set:
   - kakao.com
   - kakaocdn.net
   - kalachakralugano.org
+  - kali.org
   - kanald.com.tr
   - kangye.org
   - kankan.today

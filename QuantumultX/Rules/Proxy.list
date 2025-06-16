@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1043
+# 规则统计: 1044
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -498,6 +498,7 @@ HOST-SUFFIX,jumpdesktop.com,Proxy
 HOST-SUFFIX,justdns.info,Proxy
 HOST-SUFFIX,kagi.com,Proxy
 HOST-SUFFIX,kakao.com,Proxy
+HOST-SUFFIX,kali.org,Proxy
 HOST-SUFFIX,kde.org,Proxy
 HOST-SUFFIX,kg,Proxy
 HOST-SUFFIX,kick.com,Proxy

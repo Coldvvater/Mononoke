@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3687
+# 规则统计: 3691
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -568,6 +568,7 @@ HOST,cdn.kobo.com,CDN
 HOST,cdn.langshop.app,CDN
 HOST,cdn.leandata.com,CDN
 HOST,cdn.lemonsqueezy.com,CDN
+HOST,cdn.lgrckt-in.com,CDN
 HOST,cdn.libravatar.org,CDN
 HOST,cdn.lihkg.com,CDN
 HOST,cdn.linearicons.com,CDN
@@ -880,6 +881,7 @@ HOST,cms-assets.webediamovies.pro,CDN
 HOST,cms-assets.xboxservices.com,CDN
 HOST,cms-cdn.goat.com,CDN
 HOST,cms-cdn.now.gg,CDN
+HOST,cms.blavity.com,CDN
 HOST,cms.recordedfuture.com,CDN
 HOST,cms.therecord.media,CDN
 HOST,cms.typenetwork.com,CDN
@@ -2797,6 +2799,7 @@ HOST-SUFFIX,cms.replit.com,CDN
 HOST-SUFFIX,cnbetacdn.com,CDN
 HOST-SUFFIX,codeberg.page,CDN
 HOST-SUFFIX,codepenassets.com,CDN
+HOST-SUFFIX,colliderimages.com,CDN
 HOST-SUFFIX,combinatronics.io,CDN
 HOST-SUFFIX,content-storage-upload.googleapis.com,CDN
 HOST-SUFFIX,content001.bet365.com,CDN
@@ -3542,6 +3545,7 @@ HOST-SUFFIX,ut-assets.com,CDN
 HOST-SUFFIX,uvcdn.com,CDN
 HOST-SUFFIX,v-cdn.net,CDN
 HOST-SUFFIX,v2ex.co,CDN
+HOST-SUFFIX,valnetcdn.com,CDN
 HOST-SUFFIX,vanillicon.com,CDN
 HOST-SUFFIX,vcmdiawe.com,CDN
 HOST-SUFFIX,vercel.app,CDN

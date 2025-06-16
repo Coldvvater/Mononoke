@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7373
+# 规则统计: 7374
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -3504,6 +3504,7 @@ DOMAIN-SUFFIX,kakao.co.kr
 DOMAIN-SUFFIX,kakao.com
 DOMAIN-SUFFIX,kakaocdn.net
 DOMAIN-SUFFIX,kalachakralugano.org
+DOMAIN-SUFFIX,kali.org
 DOMAIN-SUFFIX,kanald.com.tr
 DOMAIN-SUFFIX,kangye.org
 DOMAIN-SUFFIX,kankan.today

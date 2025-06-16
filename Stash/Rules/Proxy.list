@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1043
+# 规则统计: 1044
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
@@ -498,6 +498,7 @@ DOMAIN-SUFFIX,jumpdesktop.com
 DOMAIN-SUFFIX,justdns.info
 DOMAIN-SUFFIX,kagi.com
 DOMAIN-SUFFIX,kakao.com
+DOMAIN-SUFFIX,kali.org
 DOMAIN-SUFFIX,kde.org
 DOMAIN-SUFFIX,kg
 DOMAIN-SUFFIX,kick.com

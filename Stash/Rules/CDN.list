@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3685
+# 规则统计: 3689
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -568,6 +568,7 @@ DOMAIN,cdn.kobo.com
 DOMAIN,cdn.langshop.app
 DOMAIN,cdn.leandata.com
 DOMAIN,cdn.lemonsqueezy.com
+DOMAIN,cdn.lgrckt-in.com
 DOMAIN,cdn.libravatar.org
 DOMAIN,cdn.lihkg.com
 DOMAIN,cdn.linearicons.com
@@ -880,6 +881,7 @@ DOMAIN,cms-assets.webediamovies.pro
 DOMAIN,cms-assets.xboxservices.com
 DOMAIN,cms-cdn.goat.com
 DOMAIN,cms-cdn.now.gg
+DOMAIN,cms.blavity.com
 DOMAIN,cms.recordedfuture.com
 DOMAIN,cms.therecord.media
 DOMAIN,cms.typenetwork.com
@@ -2797,6 +2799,7 @@ DOMAIN-SUFFIX,cms.replit.com
 DOMAIN-SUFFIX,cnbetacdn.com
 DOMAIN-SUFFIX,codeberg.page
 DOMAIN-SUFFIX,codepenassets.com
+DOMAIN-SUFFIX,colliderimages.com
 DOMAIN-SUFFIX,combinatronics.io
 DOMAIN-SUFFIX,content-storage-upload.googleapis.com
 DOMAIN-SUFFIX,content001.bet365.com
@@ -3542,6 +3545,7 @@ DOMAIN-SUFFIX,ut-assets.com
 DOMAIN-SUFFIX,uvcdn.com
 DOMAIN-SUFFIX,v-cdn.net
 DOMAIN-SUFFIX,v2ex.co
+DOMAIN-SUFFIX,valnetcdn.com
 DOMAIN-SUFFIX,vanillicon.com
 DOMAIN-SUFFIX,vcmdiawe.com
 DOMAIN-SUFFIX,vercel.app
