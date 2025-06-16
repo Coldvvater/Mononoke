@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4751
+# 规则统计: 4764
 
 domain_suffix_set:
   - 002777.xyz
@@ -262,6 +262,7 @@ domain_suffix_set:
   - 5yl.icu
   - 5z2oy.icu
   - 609999.xyz
+  - 6109.org
   - 614514.com
   - 62zd0.icu
   - 644446.com
@@ -285,6 +286,7 @@ domain_suffix_set:
   - 6efgcdcjr000.fun
   - 6ft8a.icu
   - 6gute.icu
+  - 6jyi7mzae.com
   - 6ku.icu
   - 6lx.fun
   - 6oj.fun
@@ -1022,6 +1024,7 @@ domain_suffix_set:
   - cdscs990.fun
   - cdszgg.xyz
   - cdunwi.xyz
+  - cduy.cn
   - cdxyb.cn
   - cdyurlif.top
   - ce.wlaoc.cn
@@ -1345,7 +1348,9 @@ domain_suffix_set:
   - downmn.com
   - downmz.com
   - dozu5h9yql.com
+  - dpjbpj.top
   - dpjzr.top
+  - dpsusqs20.com
   - dpweupc.icu
   - dqlrfmwp.icu
   - dr.mlcuzee.cn
@@ -1460,6 +1465,7 @@ domain_suffix_set:
   - ei1s7b.cn
   - ei7.icu
   - eildralfl.com
+  - eilgrairyi.com
   - einothepz.com
   - einzeaxop.com
   - eiphrut.com
@@ -1535,6 +1541,7 @@ domain_suffix_set:
   - ewurserw.top
   - ewvz.cn
   - ewxufqs.cn
+  - ewywma.icu
   - exocoed.top
   - exoh.cn
   - exowsw.icu
@@ -1569,6 +1576,7 @@ domain_suffix_set:
   - fbphnn.icu
   - fbvbrb.icu
   - fc.3dmgame.com
+  - fc09u3zfm.com
   - fca6f.icu
   - fcbdpock.icu
   - fdfda.zhuzhai.com
@@ -2159,6 +2167,7 @@ domain_suffix_set:
   - ipyhf.icu
   - iqgessh.icu
   - iqi4l.icu
+  - iqkrungrikhu.com
   - iqtucudfff.com
   - ir4.icu
   - irgidshiv.com
@@ -2577,6 +2586,7 @@ domain_suffix_set:
   - liangpinge.com
   - lianle.com
   - lianmen1.joyyang.com
+  - lidrhb.icu
   - lijlrz.xyz
   - linkpicture.com
   - linkvans.com
@@ -2979,6 +2989,7 @@ domain_suffix_set:
   - odinmak.top
   - odipsumk.top
   - odxh.cn
+  - odz12g5ag.com
   - oelj.cn
   - oeryt111.fun
   - oewrutk.top
@@ -3140,6 +3151,7 @@ domain_suffix_set:
   - phozeksr.com
   - phpad.cqnews.net
   - phuustikd.com
+  - phx9cqla2.com
   - phxdrf.icu
   - pic.0597kk.com
   - pic.baihuawen.cn
@@ -4371,6 +4383,7 @@ domain_suffix_set:
   - wy12cewh4.com
   - wy213.com
   - wyisloe.top
+  - wyjqa6pbuc.com
   - wyvpkmbj.icu
   - wyvw.cn
   - wyzq.rehuwang.com
