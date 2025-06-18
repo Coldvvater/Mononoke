@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 83946
+# 规则统计: 83964
 
 HOST,03.lzzncm.com,Ads_SukkaW
 HOST,04.lzzncm.com,Ads_SukkaW
@@ -1034,6 +1034,7 @@ HOST,static.estebull.com,Ads_SukkaW
 HOST,static.g.iqiyi.com,Ads_SukkaW
 HOST,static.g.ppstream.com,Ads_SukkaW
 HOST,static.g.pptv.com,Ads_SukkaW
+HOST,static.javcdn.vip,Ads_SukkaW
 HOST,static.jebe.renren.com,Ads_SukkaW
 HOST,static.m.sjzhushou.com,Ads_SukkaW
 HOST,static.mibi.xiaomi.com,Ads_SukkaW
@@ -4741,6 +4742,7 @@ HOST-SUFFIX,ads-dot-fbc-web-2018.uc.r.appspot.com,Ads_SukkaW
 HOST-SUFFIX,ads-game-configuration-master.ads.prd.ie.internal.unity3d.com,Ads_SukkaW
 HOST-SUFFIX,ads-gdl.imovideo.ru,Ads_SukkaW
 HOST-SUFFIX,ads-image.production-public.tubi.io,Ads_SukkaW
+HOST-SUFFIX,ads-img-al.xhscdn.com,Ads_SukkaW
 HOST-SUFFIX,ads-interfaces.sc-cdn.net,Ads_SukkaW
 HOST-SUFFIX,ads-leaseweb.appsgeyser.com,Ads_SukkaW
 HOST-SUFFIX,ads-media.gameforge.com,Ads_SukkaW
@@ -8114,7 +8116,10 @@ HOST-SUFFIX,apiwmda.58.com.cn,Ads_SukkaW
 HOST-SUFFIX,apk02061oo.xyz,Ads_SukkaW
 HOST-SUFFIX,apk02070oo.xyz,Ads_SukkaW
 HOST-SUFFIX,aplobv.xexymix.com,Ads_SukkaW
+HOST-SUFFIX,apm-fe.xiaohongshu.com,Ads_SukkaW
 HOST-SUFFIX,apm-log-upload-os.hoyoverse.com,Ads_SukkaW
+HOST-SUFFIX,apm-native.xiaohongshu.com,Ads_SukkaW
+HOST-SUFFIX,apm-track.xiaohongshu.com,Ads_SukkaW
 HOST-SUFFIX,apm.relationshipone.com,Ads_SukkaW
 HOST-SUFFIX,apm.tnet.nl,Ads_SukkaW
 HOST-SUFFIX,apm.yahoo.co.jp,Ads_SukkaW
@@ -17349,6 +17354,7 @@ HOST-SUFFIX,d204slsrhoah2f.cloudfront.net,Ads_SukkaW
 HOST-SUFFIX,d20903hof2l33q.cloudfront.net,Ads_SukkaW
 HOST-SUFFIX,d20kffh39acpue.cloudfront.net,Ads_SukkaW
 HOST-SUFFIX,d20nuqz94uw3np.cloudfront.net,Ads_SukkaW
+HOST-SUFFIX,d20vwa69zln1wj.cloudfront.net,Ads_SukkaW
 HOST-SUFFIX,d219kvfj8xp5vh.cloudfront.net,Ads_SukkaW
 HOST-SUFFIX,d21o24qxwf7uku.cloudfront.net,Ads_SukkaW
 HOST-SUFFIX,d21rpkgy8pahcu.cloudfront.net,Ads_SukkaW
@@ -23890,6 +23896,8 @@ HOST-SUFFIX,ediemidnightzombies.com,Ads_SukkaW
 HOST-SUFFIX,edinmaw.top,Ads_SukkaW
 HOST-SUFFIX,edioca.com,Ads_SukkaW
 HOST-SUFFIX,edipsumw.top,Ads_SukkaW
+HOST-SUFFIX,edith-seb.xiaohongshu.com,Ads_SukkaW
+HOST-SUFFIX,edith.xiaohongshu.com,Ads_SukkaW
 HOST-SUFFIX,edition25.com,Ads_SukkaW
 HOST-SUFFIX,editiontowritin.org,Ads_SukkaW
 HOST-SUFFIX,ediuschina.com,Ads_SukkaW
@@ -23923,6 +23931,7 @@ HOST-SUFFIX,educationlink.clear360.com,Ads_SukkaW
 HOST-SUFFIX,educontinua.javeriana.edu.co,Ads_SukkaW
 HOST-SUFFIX,educontinua.unisabana.edu.co,Ads_SukkaW
 HOST-SUFFIX,educrated.com,Ads_SukkaW
+HOST-SUFFIX,edukicationandasm.com,Ads_SukkaW
 HOST-SUFFIX,eduynp.fcl-hid.com,Ads_SukkaW
 HOST-SUFFIX,edvaor.estro.ua,Ads_SukkaW
 HOST-SUFFIX,edvfwlacluo.com,Ads_SukkaW
@@ -25632,6 +25641,7 @@ HOST-SUFFIX,eurotax-si.autovistagroup.com,Ads_SukkaW
 HOST-SUFFIX,eurotax-sk.autovistagroup.com,Ads_SukkaW
 HOST-SUFFIX,eurotaxsrbija-si.autovistagroup.com,Ads_SukkaW
 HOST-SUFFIX,eusdbk.philosophyofficial.com,Ads_SukkaW
+HOST-SUFFIX,eutecnimzptot.space,Ads_SukkaW
 HOST-SUFFIX,euuniu.htb-energy.co.jp,Ads_SukkaW
 HOST-SUFFIX,euvhrz.naturestore.co.kr,Ads_SukkaW
 HOST-SUFFIX,euvshmpgabfk.com,Ads_SukkaW
@@ -26645,6 +26655,7 @@ HOST-SUFFIX,felsaulaft.com,Ads_SukkaW
 HOST-SUFFIX,femetrics.grammarly.io,Ads_SukkaW
 HOST-SUFFIX,femetrics.qagr.io,Ads_SukkaW
 HOST-SUFFIX,feminine-branch.pro,Ads_SukkaW
+HOST-SUFFIX,femininequarter.com,Ads_SukkaW
 HOST-SUFFIX,fenaglesummula.com,Ads_SukkaW
 HOST-SUFFIX,fengkongcloud.com,Ads_SukkaW
 HOST-SUFFIX,fenixm.com,Ads_SukkaW
@@ -27009,6 +27020,7 @@ HOST-SUFFIX,flansactidaced.com,Ads_SukkaW
 HOST-SUFFIX,flarby.com,Ads_SukkaW
 HOST-SUFFIX,flash.cn,Ads_SukkaW
 HOST-SUFFIX,flash.sec.intl.miui.com,Ads_SukkaW
+HOST-SUFFIX,flash.xiaohongshu.com,Ads_SukkaW
 HOST-SUFFIX,flashb.id,Ads_SukkaW
 HOST-SUFFIX,flashnetic.com,Ads_SukkaW
 HOST-SUFFIX,flashplayerfeedback.adobe.com,Ads_SukkaW
@@ -31313,6 +31325,7 @@ HOST-SUFFIX,guwuym.barneys.co.jp,Ads_SukkaW
 HOST-SUFFIX,guxidrookr.com,Ads_SukkaW
 HOST-SUFFIX,guyuqx.vinorama.at,Ads_SukkaW
 HOST-SUFFIX,gvagns.obelee.com,Ads_SukkaW
+HOST-SUFFIX,gvdjmcztiqwhw.website,Ads_SukkaW
 HOST-SUFFIX,gvdmkf.major-expert.ru,Ads_SukkaW
 HOST-SUFFIX,gvdqzy.milanoo.com,Ads_SukkaW
 HOST-SUFFIX,gvemhzxalv.com,Ads_SukkaW
@@ -36199,6 +36212,7 @@ HOST-SUFFIX,jaucoawotaunee.net,Ads_SukkaW
 HOST-SUFFIX,jauntyit.com,Ads_SukkaW
 HOST-SUFFIX,jaup0lake.com,Ads_SukkaW
 HOST-SUFFIX,jauql.top,Ads_SukkaW
+HOST-SUFFIX,jausheewhocoary.net,Ads_SukkaW
 HOST-SUFFIX,jautauhoch.com,Ads_SukkaW
 HOST-SUFFIX,jauwaust.com,Ads_SukkaW
 HOST-SUFFIX,javascriptcdnlive.com,Ads_SukkaW
@@ -40004,6 +40018,7 @@ HOST-SUFFIX,llteig.framesdirect.com,Ads_SukkaW
 HOST-SUFFIX,lltmch.zurifurniture.com,Ads_SukkaW
 HOST-SUFFIX,lltrck.com,Ads_SukkaW
 HOST-SUFFIX,lltynlnoui.com,Ads_SukkaW
+HOST-SUFFIX,llvlzvroqokmj.top,Ads_SukkaW
 HOST-SUFFIX,llvvfz.mariapiacasa.com.br,Ads_SukkaW
 HOST-SUFFIX,llwoyl.mirraw.com,Ads_SukkaW
 HOST-SUFFIX,llykjmzkqvvqy.top,Ads_SukkaW
@@ -56363,6 +56378,7 @@ HOST-SUFFIX,qmflxjdf.com,Ads_SukkaW
 HOST-SUFFIX,qmgwny.autobarn.com.au,Ads_SukkaW
 HOST-SUFFIX,qmgzkb.dedoles.sk,Ads_SukkaW
 HOST-SUFFIX,qmiiln.tower.jp,Ads_SukkaW
+HOST-SUFFIX,qmjrlbwnlmram.com,Ads_SukkaW
 HOST-SUFFIX,qmlrmarmalebo.top,Ads_SukkaW
 HOST-SUFFIX,qmlzcm.petshop.ru,Ads_SukkaW
 HOST-SUFFIX,qmogjaezcv.club,Ads_SukkaW
@@ -63848,6 +63864,7 @@ HOST-SUFFIX,sparrow.carol.gg,Ads_SukkaW
 HOST-SUFFIX,sparrow.uitvaartzorg-vanraemdonck.be,Ads_SukkaW
 HOST-SUFFIX,sparrow.workingincontent.com,Ads_SukkaW
 HOST-SUFFIX,sparrowaboveaveragedefence.com,Ads_SukkaW
+HOST-SUFFIX,spartollage.top,Ads_SukkaW
 HOST-SUFFIX,spc.personalcreations.com,Ads_SukkaW
 HOST-SUFFIX,spcode.baidu.com,Ads_SukkaW
 HOST-SUFFIX,spdate.com,Ads_SukkaW
@@ -68535,6 +68552,7 @@ HOST-SUFFIX,stream.corporatefinanceinstitute.com,Ads_SukkaW
 HOST-SUFFIX,stream.datago.ru,Ads_SukkaW
 HOST-SUFFIX,stream.kolorowey.com,Ads_SukkaW
 HOST-SUFFIX,stream.spongead.com,Ads_SukkaW
+HOST-SUFFIX,stream27.com,Ads_SukkaW
 HOST-SUFFIX,streamback.ff.avast.com,Ads_SukkaW
 HOST-SUFFIX,streamhg05032026.shop,Ads_SukkaW
 HOST-SUFFIX,streampsh.top,Ads_SukkaW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3691
+# 规则统计: 3695
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -668,6 +668,7 @@ HOST,cdn.search.brave.com,CDN
 HOST,cdn.sedo.com,CDN
 HOST,cdn.segment.com,CDN
 HOST,cdn.seondf.com,CDN
+HOST,cdn.seonintelligence.com,CDN
 HOST,cdn.setapp.com,CDN
 HOST,cdn.sheetjs.com,CDN
 HOST,cdn.shopify.com,CDN
@@ -1089,6 +1090,7 @@ HOST,files.mastodon.social,CDN
 HOST,files.namecheap.com,CDN
 HOST,files.readme.io,CDN
 HOST,files.reg.ru,CDN
+HOST,files.scamadviser.com,CDN
 HOST,files.slack.com,CDN
 HOST,files.smashing.media,CDN
 HOST,files.svc.ui.com,CDN
@@ -2432,6 +2434,7 @@ HOST,top1cdn.top1health.com,CDN
 HOST,topbar-static.piano.io,CDN
 HOST,torrindex.net,CDN
 HOST,touchgal-image.moyu.moe,CDN
+HOST,tourpic-vector.maps.komoot.net,CDN
 HOST,townsquare.media,CDN
 HOST,tracking.inflection.io,CDN
 HOST,truth.bahamut.com.tw,CDN
@@ -3501,6 +3504,7 @@ HOST-SUFFIX,tildacdn.net,CDN
 HOST-SUFFIX,tile.openstreetmap.de,CDN
 HOST-SUFFIX,tile.openstreetmap.org,CDN
 HOST-SUFFIX,tile.osm.org,CDN
+HOST-SUFFIX,tiles-api.maps.komoot.net,CDN
 HOST-SUFFIX,tindiemedia.com,CDN
 HOST-SUFFIX,tiqcdn.com,CDN
 HOST-SUFFIX,tkcdns.com,CDN

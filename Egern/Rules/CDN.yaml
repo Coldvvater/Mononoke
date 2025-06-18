@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3691
+# 规则统计: 3695
 
 domain_set:
   - 0x0.st
@@ -669,6 +669,7 @@ domain_set:
   - cdn.sedo.com
   - cdn.segment.com
   - cdn.seondf.com
+  - cdn.seonintelligence.com
   - cdn.setapp.com
   - cdn.sheetjs.com
   - cdn.shopify.com
@@ -1090,6 +1091,7 @@ domain_set:
   - files.namecheap.com
   - files.readme.io
   - files.reg.ru
+  - files.scamadviser.com
   - files.slack.com
   - files.smashing.media
   - files.svc.ui.com
@@ -2433,6 +2435,7 @@ domain_set:
   - topbar-static.piano.io
   - torrindex.net
   - touchgal-image.moyu.moe
+  - tourpic-vector.maps.komoot.net
   - townsquare.media
   - tracking.inflection.io
   - truth.bahamut.com.tw
@@ -3503,6 +3506,7 @@ domain_suffix_set:
   - tile.openstreetmap.de
   - tile.openstreetmap.org
   - tile.osm.org
+  - tiles-api.maps.komoot.net
   - tindiemedia.com
   - tiqcdn.com
   - tkcdns.com

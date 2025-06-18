@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 825
+# 规则统计: 829
 
 DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,1500022744.vodplayer.wxamedia.com
@@ -289,6 +289,7 @@ DOMAIN-SUFFIX,csjplatform.com
 DOMAIN-SUFFIX,cws-cctv.conviva.com
 DOMAIN-SUFFIX,d.applovin.com
 DOMAIN-SUFFIX,d.applvn.com
+DOMAIN-SUFFIX,data-sdk-uuid-log.d.meituan.net
 DOMAIN-SUFFIX,data.ads.oppomobile.com
 DOMAIN-SUFFIX,data.chsmarttv.com
 DOMAIN-SUFFIX,data.mistat.india.xiaomi.com
@@ -362,6 +363,7 @@ DOMAIN-SUFFIX,gslb.hpplay.cn
 DOMAIN-SUFFIX,gvideo.qpic.cn
 DOMAIN-SUFFIX,h-adashx.ut.taobao.com
 DOMAIN-SUFFIX,h.trace.qq.com
+DOMAIN-SUFFIX,h5.analytics.126.net
 DOMAIN-SUFFIX,h5.hpplay.com.cn
 DOMAIN-SUFFIX,hanlanad.com
 DOMAIN-SUFFIX,hc-ssp.sm.cn
@@ -464,6 +466,7 @@ DOMAIN-SUFFIX,log.avlyun.com
 DOMAIN-SUFFIX,log.avlyun.sec.intl.miui.com
 DOMAIN-SUFFIX,log.byteoversea.com
 DOMAIN-SUFFIX,log.fc.yahoo.com
+DOMAIN-SUFFIX,log.iflytek.com
 DOMAIN-SUFFIX,log.kuwo.cn
 DOMAIN-SUFFIX,log.pinterest.com
 DOMAIN-SUFFIX,log.popin.cc
@@ -648,6 +651,7 @@ DOMAIN-SUFFIX,search5-search.ixigua.com
 DOMAIN-SUFFIX,securemetrics.apple.com
 DOMAIN-SUFFIX,securepubads.g.doubleclick.net
 DOMAIN-SUFFIX,sensors-log.dongqiudi.com
+DOMAIN-SUFFIX,sentry.music.163.com
 DOMAIN-SUFFIX,service.changhong.upgrade2.huan.tv
 DOMAIN-SUFFIX,service.vmos.cn
 DOMAIN-SUFFIX,sf16-static.i18n-pglstatp.com

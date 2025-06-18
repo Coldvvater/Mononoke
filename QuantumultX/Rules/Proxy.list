@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1044
+# 规则统计: 1047
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -507,6 +507,8 @@ HOST-SUFFIX,kinja.com,Proxy
 HOST-SUFFIX,kisscos.net,Proxy
 HOST-SUFFIX,ko-fi.com,Proxy
 HOST-SUFFIX,kobo.com,Proxy
+HOST-SUFFIX,komoot.com,Proxy
+HOST-SUFFIX,komoot.net,Proxy
 HOST-SUFFIX,kr,Proxy
 HOST-SUFFIX,kraken.com,Proxy
 HOST-SUFFIX,kucoin.com,Proxy
@@ -625,6 +627,7 @@ HOST-SUFFIX,nicehash.com,Proxy
 HOST-SUFFIX,nikkei.com,Proxy
 HOST-SUFFIX,nitter.net,Proxy
 HOST-SUFFIX,nj.com,Proxy
+HOST-SUFFIX,njav.com,Proxy
 HOST-SUFFIX,nl,Proxy
 HOST-SUFFIX,no,Proxy
 HOST-SUFFIX,nodeseek.com,Proxy

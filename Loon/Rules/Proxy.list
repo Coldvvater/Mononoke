@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1044
+# 规则统计: 1047
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
@@ -507,6 +507,8 @@ DOMAIN-SUFFIX,kinja.com
 DOMAIN-SUFFIX,kisscos.net
 DOMAIN-SUFFIX,ko-fi.com
 DOMAIN-SUFFIX,kobo.com
+DOMAIN-SUFFIX,komoot.com
+DOMAIN-SUFFIX,komoot.net
 DOMAIN-SUFFIX,kr
 DOMAIN-SUFFIX,kraken.com
 DOMAIN-SUFFIX,kucoin.com
@@ -625,6 +627,7 @@ DOMAIN-SUFFIX,nicehash.com
 DOMAIN-SUFFIX,nikkei.com
 DOMAIN-SUFFIX,nitter.net
 DOMAIN-SUFFIX,nj.com
+DOMAIN-SUFFIX,njav.com
 DOMAIN-SUFFIX,nl
 DOMAIN-SUFFIX,no
 DOMAIN-SUFFIX,nodeseek.com

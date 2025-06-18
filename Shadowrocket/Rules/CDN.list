@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3691
+# 规则统计: 3695
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -668,6 +668,7 @@ DOMAIN,cdn.search.brave.com
 DOMAIN,cdn.sedo.com
 DOMAIN,cdn.segment.com
 DOMAIN,cdn.seondf.com
+DOMAIN,cdn.seonintelligence.com
 DOMAIN,cdn.setapp.com
 DOMAIN,cdn.sheetjs.com
 DOMAIN,cdn.shopify.com
@@ -1089,6 +1090,7 @@ DOMAIN,files.mastodon.social
 DOMAIN,files.namecheap.com
 DOMAIN,files.readme.io
 DOMAIN,files.reg.ru
+DOMAIN,files.scamadviser.com
 DOMAIN,files.slack.com
 DOMAIN,files.smashing.media
 DOMAIN,files.svc.ui.com
@@ -2432,6 +2434,7 @@ DOMAIN,top1cdn.top1health.com
 DOMAIN,topbar-static.piano.io
 DOMAIN,torrindex.net
 DOMAIN,touchgal-image.moyu.moe
+DOMAIN,tourpic-vector.maps.komoot.net
 DOMAIN,townsquare.media
 DOMAIN,tracking.inflection.io
 DOMAIN,truth.bahamut.com.tw
@@ -3501,6 +3504,7 @@ DOMAIN-SUFFIX,tildacdn.net
 DOMAIN-SUFFIX,tile.openstreetmap.de
 DOMAIN-SUFFIX,tile.openstreetmap.org
 DOMAIN-SUFFIX,tile.osm.org
+DOMAIN-SUFFIX,tiles-api.maps.komoot.net
 DOMAIN-SUFFIX,tindiemedia.com
 DOMAIN-SUFFIX,tiqcdn.com
 DOMAIN-SUFFIX,tkcdns.com

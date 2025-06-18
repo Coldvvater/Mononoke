@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1043
+# 规则统计: 1046
 
 domain_set:
   - ccmdl.adobe.com
@@ -509,6 +509,8 @@ domain_suffix_set:
   - kisscos.net
   - ko-fi.com
   - kobo.com
+  - komoot.com
+  - komoot.net
   - kr
   - kraken.com
   - kucoin.com
@@ -627,6 +629,7 @@ domain_suffix_set:
   - nikkei.com
   - nitter.net
   - nj.com
+  - njav.com
   - nl
   - no
   - nodeseek.com

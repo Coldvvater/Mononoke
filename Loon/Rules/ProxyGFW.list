@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7374
+# 规则统计: 7377
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -3571,6 +3571,8 @@ DOMAIN-SUFFIX,ko-fi.com
 DOMAIN-SUFFIX,kobo.com
 DOMAIN-SUFFIX,kobobooks.com
 DOMAIN-SUFFIX,kodingen.com
+DOMAIN-SUFFIX,komoot.com
+DOMAIN-SUFFIX,komoot.net
 DOMAIN-SUFFIX,kompozer.net
 DOMAIN-SUFFIX,konachan.com
 DOMAIN-SUFFIX,kone.com
@@ -4369,6 +4371,7 @@ DOMAIN-SUFFIX,niu.moe
 DOMAIN-SUFFIX,niusnews.com
 DOMAIN-SUFFIX,nj.com
 DOMAIN-SUFFIX,njactb.org
+DOMAIN-SUFFIX,njav.com
 DOMAIN-SUFFIX,njuice.com
 DOMAIN-SUFFIX,nl
 DOMAIN-SUFFIX,nlfreevpn.com

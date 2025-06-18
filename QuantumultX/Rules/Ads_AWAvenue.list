@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 825
+# 规则统计: 829
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -289,6 +289,7 @@ HOST-SUFFIX,csjplatform.com,Ads_AWAvenue
 HOST-SUFFIX,cws-cctv.conviva.com,Ads_AWAvenue
 HOST-SUFFIX,d.applovin.com,Ads_AWAvenue
 HOST-SUFFIX,d.applvn.com,Ads_AWAvenue
+HOST-SUFFIX,data-sdk-uuid-log.d.meituan.net,Ads_AWAvenue
 HOST-SUFFIX,data.ads.oppomobile.com,Ads_AWAvenue
 HOST-SUFFIX,data.chsmarttv.com,Ads_AWAvenue
 HOST-SUFFIX,data.mistat.india.xiaomi.com,Ads_AWAvenue
@@ -362,6 +363,7 @@ HOST-SUFFIX,gslb.hpplay.cn,Ads_AWAvenue
 HOST-SUFFIX,gvideo.qpic.cn,Ads_AWAvenue
 HOST-SUFFIX,h-adashx.ut.taobao.com,Ads_AWAvenue
 HOST-SUFFIX,h.trace.qq.com,Ads_AWAvenue
+HOST-SUFFIX,h5.analytics.126.net,Ads_AWAvenue
 HOST-SUFFIX,h5.hpplay.com.cn,Ads_AWAvenue
 HOST-SUFFIX,hanlanad.com,Ads_AWAvenue
 HOST-SUFFIX,hc-ssp.sm.cn,Ads_AWAvenue
@@ -464,6 +466,7 @@ HOST-SUFFIX,log.avlyun.com,Ads_AWAvenue
 HOST-SUFFIX,log.avlyun.sec.intl.miui.com,Ads_AWAvenue
 HOST-SUFFIX,log.byteoversea.com,Ads_AWAvenue
 HOST-SUFFIX,log.fc.yahoo.com,Ads_AWAvenue
+HOST-SUFFIX,log.iflytek.com,Ads_AWAvenue
 HOST-SUFFIX,log.kuwo.cn,Ads_AWAvenue
 HOST-SUFFIX,log.pinterest.com,Ads_AWAvenue
 HOST-SUFFIX,log.popin.cc,Ads_AWAvenue
@@ -648,6 +651,7 @@ HOST-SUFFIX,search5-search.ixigua.com,Ads_AWAvenue
 HOST-SUFFIX,securemetrics.apple.com,Ads_AWAvenue
 HOST-SUFFIX,securepubads.g.doubleclick.net,Ads_AWAvenue
 HOST-SUFFIX,sensors-log.dongqiudi.com,Ads_AWAvenue
+HOST-SUFFIX,sentry.music.163.com,Ads_AWAvenue
 HOST-SUFFIX,service.changhong.upgrade2.huan.tv,Ads_AWAvenue
 HOST-SUFFIX,service.vmos.cn,Ads_AWAvenue
 HOST-SUFFIX,sf16-static.i18n-pglstatp.com,Ads_AWAvenue
