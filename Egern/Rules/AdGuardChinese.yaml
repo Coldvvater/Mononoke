@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4792
+# 规则统计: 4797
 
 domain_suffix_set:
   - 002777.xyz
@@ -131,6 +131,7 @@ domain_suffix_set:
   - 1s8pj.cn
   - 1tp.icu
   - 1tv.icu
+  - 1uo9djbnsr.com
   - 1xb.icu
   - 1yj.icu
   - 2.haoxue360.com
@@ -195,6 +196,7 @@ domain_suffix_set:
   - 3lo.icu
   - 3ni.icu
   - 3p8801.co
+  - 3pefw1lz4.com
   - 3q1lsj.cn
   - 3rcld5y1dm.com
   - 3sas.icu
@@ -311,7 +313,6 @@ domain_suffix_set:
   - 7aey.icu
   - 7awf4fi9k7.com
   - 7car.com.cn
-  - 7daystodie.cn
   - 7dgk5h1lk.com
   - 7f583jylmjs.top
   - 7f7rt.icu
@@ -1015,14 +1016,12 @@ domain_suffix_set:
   - cdmyeg.xyz
   - cdn.haocaa.com
   - cdn.holmesmind.com
-  - cdn.upthinking.cn
   - cdn.wenzhangba.cn
   - cdn.wuyou.ca
   - cdn93d99x0e.23bei.com
   - cdnjs.hro-cosmetics.com
   - cdnjs.mopair-erm.net
   - cdnjs.z-face.cn
-  - cdntlz.cn
   - cdomsif.top
   - cdoshbf.top
   - cdscs990.fun
@@ -1258,6 +1257,7 @@ domain_suffix_set:
   - dfqzah.xyz
   - dgaxrjj0jwpwp.cloudfront.net
   - dgfhjmd.com
+  - dggenduprnyi.com
   - dgjhrv.top
   - dgkship.icu
   - dgrgr34.fun
@@ -1682,6 +1682,7 @@ domain_suffix_set:
   - fsjfnp.top
   - fspddt.xyz
   - fttxhcua.icu
+  - fttzfw.top
   - fufemnirr.com
   - funqraedp.com
   - fuoo1.top
@@ -1855,6 +1856,7 @@ domain_suffix_set:
   - gsdcbsjh55xsc.top
   - gsdedash9b.fun
   - gsjdzx.com
+  - gsweum.icu
   - gt.duowan.com
   - gt.yy.com
   - gtcbai.icu
@@ -2064,7 +2066,6 @@ domain_suffix_set:
   - hz.shouyoutv.com
   - hzhyhm.com
   - i2wq4.icu
-  - i3535.com
   - i3z.cn
   - i8m6.com
   - i9i3ko2o70.com
@@ -2163,6 +2164,7 @@ domain_suffix_set:
   - imndl.icu
   - imniel.com
   - imusye.xyz
+  - infucierg.com
   - inone517.com
   - inphais.com
   - inping.com
@@ -2514,6 +2516,7 @@ domain_suffix_set:
   - kryeia.xyz
   - kspl48j.xyz
   - ksro.cn
+  - ktfmk4utug.com
   - ktimiyd.top
   - kuaizitech.com
   - kucnwtd.top
@@ -2548,6 +2551,7 @@ domain_suffix_set:
   - kzaawga.icu
   - kzcayec.icu
   - l235cj20z.com
+  - l5pzbzfnjm.com
   - l7u3kf.cn
   - lady177.com
   - lafacw.xyz
@@ -2590,6 +2594,7 @@ domain_suffix_set:
   - leryt111.fun
   - lesenjiaoyu.xyz
   - letlwsl.top
+  - lettucex977.com
   - lewrutl.top
   - lfflvh.icu
   - lfhthokieryf.com
@@ -2637,7 +2642,6 @@ domain_suffix_set:
   - lnnahh.xyz
   - lnnsvj.xyz
   - lnptph.icu
-  - local.hniux.cn
   - locpikbb.icu
   - lofqvl.icu
   - lorzelofd.com
@@ -2697,7 +2701,6 @@ domain_suffix_set:
   - m.91heima.cn
   - m.aty.sohu.com
   - m.ercos.cn
-  - m.gongzhilian.com.cn
   - m.m216j.cn
   - m.nanyangqiaoxiang.cn
   - m.qhxcdmfj.cn
@@ -2797,6 +2800,7 @@ domain_suffix_set:
   - mnwor.xuanlishi.com
   - mo-tuo.com
   - mo.gushiji.cc
+  - moa06190ju.com
   - mobads.baidu.com
   - mobantong.oss-cn-hangzhou.aliyuncs.com
   - molpmh.xyz
@@ -2812,6 +2816,7 @@ domain_suffix_set:
   - mpn56e.cn
   - mppanittie.com
   - mps.wenkuzu.com
+  - mq54k4yxpt.com
   - mqwtgq.xyz
   - mrtlisx.top
   - mrutvncx.top
@@ -2894,6 +2899,7 @@ domain_suffix_set:
   - ncvwnp.icu
   - ndlwtl.icu
   - ndysxhs.icu
+  - nebzrn.icu
   - neldatsy.com
   - neldipbtg.com
   - neryt111.fun
@@ -3578,7 +3584,6 @@ domain_suffix_set:
   - sdickeb.top
   - sdipsumb.top
   - sdnc.top
-  - sdofp9c.cddrhx.cn
   - sdoshbb.top
   - sdss99.fun
   - sduaiy.icu
@@ -3756,7 +3761,6 @@ domain_suffix_set:
   - sz88.oss-cn-shenzhen.aliyuncs.com
   - szapaqi.cn
   - szhgmd.com
-  - szjyfund.com
   - szxf4.icu
   - t.yzwr588.com
   - t0sfe1.com
@@ -4199,6 +4203,7 @@ domain_suffix_set:
   - vjzqfh.icu
   - vjzvgvgz.icu
   - vkbxaixl.icu
+  - vl3rw9roj.com
   - vldp.cn
   - vlion.cn
   - vljkjx.top
@@ -4763,6 +4768,7 @@ domain_suffix_set:
   - zq.lansedir.com
   - zqifmyt.icu
   - zqntbc.top
+  - zqydulfzxb.com
   - zr3.icu
   - zrbnte.top
   - zrkksps.icu
@@ -4784,7 +4790,6 @@ domain_suffix_set:
   - zx.docin.com
   - zxiws.cn
   - zxpaa.xyz
-  - zxptw.cn
   - zxqiwe.cn
   - zxw51.com
   - zyfnbl.xyz
