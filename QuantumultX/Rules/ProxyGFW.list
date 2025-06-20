@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7377
+# 规则统计: 7379
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -1547,6 +1547,7 @@ HOST-SUFFIX,dns05.com,ProxyGFW
 HOST-SUFFIX,dns1.us,ProxyGFW
 HOST-SUFFIX,dns2.us,ProxyGFW
 HOST-SUFFIX,dns2go.com,ProxyGFW
+HOST-SUFFIX,dnschecker.org,ProxyGFW
 HOST-SUFFIX,dnscrypt.org,ProxyGFW
 HOST-SUFFIX,dnset.com,ProxyGFW
 HOST-SUFFIX,dnsleak.asn247.net,ProxyGFW
@@ -3815,6 +3816,7 @@ HOST-SUFFIX,m-sport.co.uk,ProxyGFW
 HOST-SUFFIX,m-team.cc,ProxyGFW
 HOST-SUFFIX,m.me,ProxyGFW
 HOST-SUFFIX,m8008.com,ProxyGFW
+HOST-SUFFIX,macaddress.io,ProxyGFW
 HOST-SUFFIX,macgamestore.com,ProxyGFW
 HOST-SUFFIX,macpaw.com,ProxyGFW
 HOST-SUFFIX,macrovpn.com,ProxyGFW

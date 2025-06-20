@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1047
+# 规则统计: 1049
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -250,6 +250,7 @@ HOST-SUFFIX,dmcdn.net,Proxy
 HOST-SUFFIX,dns-check.info,Proxy
 HOST-SUFFIX,dns-leak.com,Proxy
 HOST-SUFFIX,dns-oarc.net,Proxy
+HOST-SUFFIX,dnschecker.org,Proxy
 HOST-SUFFIX,dnsleak.asn247.net,Proxy
 HOST-SUFFIX,dnsleak.com,Proxy
 HOST-SUFFIX,dnsleak.privadovpn.com,Proxy
@@ -546,6 +547,7 @@ HOST-SUFFIX,lol,Proxy
 HOST-SUFFIX,ly,Proxy
 HOST-SUFFIX,lynxjs.org,Proxy
 HOST-SUFFIX,m.me,Proxy
+HOST-SUFFIX,macaddress.io,Proxy
 HOST-SUFFIX,macpaw.com,Proxy
 HOST-SUFFIX,madewithcode.com,Proxy
 HOST-SUFFIX,majsoul.union-game.com,Proxy

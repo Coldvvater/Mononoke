@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7377
+# 规则统计: 7379
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -1547,6 +1547,7 @@ DOMAIN-SUFFIX,dns05.com
 DOMAIN-SUFFIX,dns1.us
 DOMAIN-SUFFIX,dns2.us
 DOMAIN-SUFFIX,dns2go.com
+DOMAIN-SUFFIX,dnschecker.org
 DOMAIN-SUFFIX,dnscrypt.org
 DOMAIN-SUFFIX,dnset.com
 DOMAIN-SUFFIX,dnsleak.asn247.net
@@ -3815,6 +3816,7 @@ DOMAIN-SUFFIX,m-sport.co.uk
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,m.me
 DOMAIN-SUFFIX,m8008.com
+DOMAIN-SUFFIX,macaddress.io
 DOMAIN-SUFFIX,macgamestore.com
 DOMAIN-SUFFIX,macpaw.com
 DOMAIN-SUFFIX,macrovpn.com

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7376
+# 规则统计: 7378
 
 no_resolve: true
 domain_set:
@@ -1550,6 +1550,7 @@ domain_suffix_set:
   - dns1.us
   - dns2.us
   - dns2go.com
+  - dnschecker.org
   - dnscrypt.org
   - dnset.com
   - dnsleak.asn247.net
@@ -3818,6 +3819,7 @@ domain_suffix_set:
   - m-team.cc
   - m.me
   - m8008.com
+  - macaddress.io
   - macgamestore.com
   - macpaw.com
   - macrovpn.com

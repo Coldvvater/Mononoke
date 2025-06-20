@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1046
+# 规则统计: 1048
 
 domain_set:
   - ccmdl.adobe.com
@@ -252,6 +252,7 @@ domain_suffix_set:
   - dns-check.info
   - dns-leak.com
   - dns-oarc.net
+  - dnschecker.org
   - dnsleak.asn247.net
   - dnsleak.com
   - dnsleak.privadovpn.com
@@ -548,6 +549,7 @@ domain_suffix_set:
   - ly
   - lynxjs.org
   - m.me
+  - macaddress.io
   - macpaw.com
   - madewithcode.com
   - majsoul.union-game.com

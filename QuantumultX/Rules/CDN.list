@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3695
+# 规则统计: 3698
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1983,6 +1983,7 @@ HOST,screenshots.debian.net,CDN
 HOST,screenshots.downloadtorrentfile.com,CDN
 HOST,screenshots.webflow.com,CDN
 HOST,scripts.dailymail.co.uk,CDN
+HOST,scripts.scriptwrapper.com,CDN
 HOST,scripts.webeo.com,CDN
 HOST,sdata.ndtv.com,CDN
 HOST,sdk.customfit.ai,CDN
@@ -2270,6 +2271,7 @@ HOST,static.redhat.com,CDN
 HOST,static.registration.bluehost.com,CDN
 HOST,static.reo.dev,CDN
 HOST,static.replay.io,CDN
+HOST,static.salidzini.lv,CDN
 HOST,static.scarf.sh,CDN
 HOST,static.seel.com,CDN
 HOST,static.serverhunter.com,CDN
@@ -3118,6 +3120,7 @@ HOST-SUFFIX,jbkcdn.io,CDN
 HOST-SUFFIX,jdbstatic.com,CDN
 HOST-SUFFIX,jinyingimage.com,CDN
 HOST-SUFFIX,jisuimage.com,CDN
+HOST-SUFFIX,jotai.org,CDN
 HOST-SUFFIX,jpg5.su,CDN
 HOST-SUFFIX,jpgjingpinx.com,CDN
 HOST-SUFFIX,js-eu1.hubspot.com,CDN

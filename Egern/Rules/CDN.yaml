@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3695
+# 规则统计: 3698
 
 domain_set:
   - 0x0.st
@@ -1984,6 +1984,7 @@ domain_set:
   - screenshots.downloadtorrentfile.com
   - screenshots.webflow.com
   - scripts.dailymail.co.uk
+  - scripts.scriptwrapper.com
   - scripts.webeo.com
   - sdata.ndtv.com
   - sdk.customfit.ai
@@ -2271,6 +2272,7 @@ domain_set:
   - static.registration.bluehost.com
   - static.reo.dev
   - static.replay.io
+  - static.salidzini.lv
   - static.scarf.sh
   - static.seel.com
   - static.serverhunter.com
@@ -3120,6 +3122,7 @@ domain_suffix_set:
   - jdbstatic.com
   - jinyingimage.com
   - jisuimage.com
+  - jotai.org
   - jpg5.su
   - jpgjingpinx.com
   - js-eu1.hubspot.com
