@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3696
+# 规则统计: 3698
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -875,6 +875,7 @@ DOMAIN,cloud.redhat.com
 DOMAIN,cloud.typenetwork.com
 DOMAIN,cloudflare.tv
 DOMAIN,cloudfront.barilliance.com
+DOMAIN,cloudfront.codeproject.com
 DOMAIN,cloudinary-res.cloudinary.com
 DOMAIN,cmp-cdn.p.aws.economist.com
 DOMAIN,cms-assets.nodecraft.com
@@ -1746,6 +1747,7 @@ DOMAIN,pba.apple.com
 DOMAIN,pbc.nypost.com
 DOMAIN,pbc.wsj.com
 DOMAIN,pbcdn1.podbean.com
+DOMAIN,pbs-prod.linustechtips.com
 DOMAIN,pbs.floatplane.com
 DOMAIN,pcdn-my.pcloud.com
 DOMAIN,pcdn-www.pcloud.com

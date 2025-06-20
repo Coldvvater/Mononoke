@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3698
+# 规则统计: 3700
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -875,6 +875,7 @@ HOST,cloud.redhat.com,CDN
 HOST,cloud.typenetwork.com,CDN
 HOST,cloudflare.tv,CDN
 HOST,cloudfront.barilliance.com,CDN
+HOST,cloudfront.codeproject.com,CDN
 HOST,cloudinary-res.cloudinary.com,CDN
 HOST,cmp-cdn.p.aws.economist.com,CDN
 HOST,cms-assets.nodecraft.com,CDN
@@ -1746,6 +1747,7 @@ HOST,pba.apple.com,CDN
 HOST,pbc.nypost.com,CDN
 HOST,pbc.wsj.com,CDN
 HOST,pbcdn1.podbean.com,CDN
+HOST,pbs-prod.linustechtips.com,CDN
 HOST,pbs.floatplane.com,CDN
 HOST,pcdn-my.pcloud.com,CDN
 HOST,pcdn-www.pcloud.com,CDN

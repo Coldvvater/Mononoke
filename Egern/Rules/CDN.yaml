@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3698
+# 规则统计: 3700
 
 domain_set:
   - 0x0.st
@@ -876,6 +876,7 @@ domain_set:
   - cloud.typenetwork.com
   - cloudflare.tv
   - cloudfront.barilliance.com
+  - cloudfront.codeproject.com
   - cloudinary-res.cloudinary.com
   - cmp-cdn.p.aws.economist.com
   - cms-assets.nodecraft.com
@@ -1747,6 +1748,7 @@ domain_set:
   - pbc.nypost.com
   - pbc.wsj.com
   - pbcdn1.podbean.com
+  - pbs-prod.linustechtips.com
   - pbs.floatplane.com
   - pcdn-my.pcloud.com
   - pcdn-www.pcloud.com
