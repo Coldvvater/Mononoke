@@ -1,5 +1,5 @@
 # 规则名称: Ads_SukkaW
-# 规则统计: 84606
+# 规则统计: 84647
 
 no_resolve: true
 domain_set:
@@ -29,7 +29,6 @@ domain_set:
   - acr0.samsungcloudsolution.com
   - acs.56.com
   - acstatic-dun.126.net
-  - act.commercial.shouji.360.cn
   - activeqq.3g.qq.com
   - ad-analysis.pconline.com.cn
   - ad-cache.dopool.com
@@ -55,7 +54,6 @@ domain_set:
   - ad.cyapi.cn
   - ad.dev.360.cn
   - ad.funp.com
-  - ad.gamebox.360.cn
   - ad.greedland.net
   - ad.hiiir.com
   - ad.hpplay.cn
@@ -88,7 +86,6 @@ domain_set:
   - ada.baidu.com
   - adapi.izuiyou.com
   - adapi.lenovogame.com
-  - adapi.shouji.360.cn
   - adashbc.m.taobao.com
   - adashx.m.taobao.com
   - adashx.ut.amap.com
@@ -233,7 +230,6 @@ domain_set:
   - afp.alicdn.com
   - agn.aty.snmsohu.aisee.tv
   - agoodm.m.taobao.com
-  - aicleaner.shouji.360.cn
   - aiseet.aa.atianqi.com
   - akcja-samsung.h2g.pl
   - akcjasamsung.e-kei.pl
@@ -272,7 +268,6 @@ domain_set:
   - api.iterable.com
   - api.jr.mi.com
   - api.sec.intl.miui.com
-  - api.shuaji.360.cn
   - api.snmi.cn
   - api.touchxd.com
   - api.ts.feedback.71.am
@@ -385,7 +380,6 @@ domain_set:
   - collect.foresightnews.pro
   - collector.wasu.cn
   - comments.gazo.space
-  - commercial.shouji.360.cn
   - conf.funshion.com
   - config-p2p-other.vcloud.ks-live.com
   - config.mobisage.cn
@@ -619,7 +613,6 @@ domain_set:
   - huawei.facebook.com
   - huichuan-mc.sm.cn
   - huichuan.sm.cn
-  - huodong.ios.shouji.360.cn
   - huodong.xiaomi.com
   - huosai.xiaomi.com
   - hw.zuimeitianqi.com
@@ -783,7 +776,6 @@ domain_set:
   - mqtt.zhihu.com
   - msg.iqiyi.com
   - msg.ptqy.gitv.tv
-  - msg.shouji.360.cn
   - msg.video.qiyi.com
   - msg.youku.com
   - msg2.video.qiyi.com
@@ -1192,7 +1184,6 @@ domain_set:
   - ykrec.youku.com
   - ykugc.cp31.ott.cibntv.net.302.myalicdn.com
   - ylog.hiido.com
-  - ynuf.aliapp.org
   - youku-acs.m.taobao.com
   - ysm.hauchi.com.tw
   - yt-adv.bn.netease.com
@@ -2037,6 +2028,7 @@ domain_suffix_set:
   - 73336zubo25326.com
   - 7345023508.fxm9485766783.com
   - 7345023508.fxmconnect.com
+  - 735pwa.com
   - 73be0a6d8a.com
   - 73fa81c29d.com
   - 75114620.xyz
@@ -5080,6 +5072,7 @@ domain_suffix_set:
   - advertiseworld.com
   - advertising-cdn.com
   - advertising-cdn.dpgmedia.cloud
+  - advertising.amazon.dev
   - advertising.apple.com
   - advertising.com
   - advertising.goldseek.com
@@ -5862,6 +5855,7 @@ domain_suffix_set:
   - aigfednd.icu
   - aigneloa.com
   - aiharsoreersu.net
+  - aihegleersirtee.com
   - aiieer.mangnut2.com
   - aiiirwciki.com
   - aikhra.londonclub.sk
@@ -6438,6 +6432,7 @@ domain_suffix_set:
   - ambuizeler.com
   - amc.yandex.ru
   - amcgns.giesswein.com
+  - amdc-thirdparty.alipay.com
   - amdc.alipay.com
   - amdc.m.taobao.com
   - amdcopen.m.taobao.com
@@ -6634,6 +6629,7 @@ domain_suffix_set:
   - analytics-data.io
   - analytics-dataplane.invideo.io
   - analytics-egain.com
+  - analytics-events.apple.com
   - analytics-events.inshorts.com
   - analytics-fe.digital-cloud-prem.medallia.com
   - analytics-fe.digital-cloud.medallia.eu
@@ -12563,6 +12559,7 @@ domain_suffix_set:
   - burniecrepes.com
   - burreehauled.top
   - bursa.conxxx.pro
+  - bursterwaratah.top
   - burstly.com
   - burstnet.com
   - bushesbag.com
@@ -13910,6 +13907,7 @@ domain_suffix_set:
   - chgwwj.klimate.nl
   - chiamfxz.com
   - chic9usia.com
+  - chiccams.com
   - chicheecmaungee.net
   - chickadee.mikebifulco.com
   - chickadee.och.dev
@@ -16261,7 +16259,6 @@ domain_suffix_set:
   - creative.141live.com
   - creative.boyfriend.show
   - creative.celebjihad.live
-  - creative.chiccams.com
   - creative.favy.cam
   - creative.idolshow.live
   - creative.javhdporn.live
@@ -21600,6 +21597,7 @@ domain_suffix_set:
   - degree.insead.edu
   - degreechariot.com
   - dehua.ixinfan.com
+  - deicedchooky.shop
   - deityhumcelery.com
   - dejavu.mercadolivre.com.br
   - dejavu.mlapps.com
@@ -22311,6 +22309,7 @@ domain_suffix_set:
   - dizznplerllul.love
   - dizzy-confidence.com
   - dizzy-drag.pro
+  - dizzy-read.pro
   - dj-updates.com
   - dj2550.com
   - djbztw.marimekko.com
@@ -22435,6 +22434,7 @@ domain_suffix_set:
   - dlfvgndsdfsn.com
   - dlh1.hilton.com
   - dlh8c15zw7vfn.cloudfront.net
+  - dlhwyaetguynl.space
   - dlig.cn
   - dlink-staging.blueapron.com
   - dlink.blueapron.com
@@ -22577,6 +22577,7 @@ domain_suffix_set:
   - dnltkp.lampeetlumiere.fr
   - dnmqfaxluvaou.world
   - dnn506yrbagrg.cloudfront.net
+  - dnokacraldho.com
   - dnokmwgdijwi.com
   - dnpjzf.fashionette.co.uk
   - dnrpnl.yves-rocher.no
@@ -22631,7 +22632,6 @@ domain_suffix_set:
   - dogo.intel.co.jp
   - dogo.intel.co.kr
   - dogo.intel.co.uk
-  - dogo.intel.com
   - dogo.intel.com.au
   - dogo.intel.com.br
   - dogo.intel.com.tw
@@ -25148,6 +25148,7 @@ domain_suffix_set:
   - enlyom.neonail.pl
   - enmcyp.flagshop.jp
   - ennhtjzkuhjjw.online
+  - enoebfgxwevgee.com
   - enointselety.shop
   - enokouv.icu
   - enoliccoacted.shop
@@ -26227,6 +26228,7 @@ domain_suffix_set:
   - eye.staffly.pl
   - eyebrowscrambledlater.com
   - eyebrowsneardual.com
+  - eyefulmaliki.shop
   - eyelashcatastrophe.com
   - eyelessmamelon.com
   - eyenox.eschuhe.de
@@ -27088,6 +27090,7 @@ domain_suffix_set:
   - flexibilitukydtea.com
   - flexlinks.com
   - flexpod.ynsecureserver.net
+  - flgdaoepeuiqs.store
   - flickerbridge.com
   - flickering-buy.com
   - flimsy-beat.com
@@ -27691,6 +27694,7 @@ domain_suffix_set:
   - freepopnews.skin
   - freespeechcoalition.com
   - freestar.io
+  - freestrip.chat
   - freewheel-mtgx-tv.akamaized.net
   - freezeassets.com
   - freezingbuilding.com
@@ -28208,6 +28212,7 @@ domain_suffix_set:
   - game9time.com
   - gameads.io
   - gameanalysis.appcpi.net
+  - gamebox.360.cn
   - gamefowl.emailforward.mx
   - gamefowl.karlsutt.com
   - gamefowl.nonprofit.foundation
@@ -28871,6 +28876,7 @@ domain_suffix_set:
   - giftplanning.westmont.edu
   - giga-abs.de
   - gigabitadex.com
+  - gigantic-kick.pro
   - gigglegrowlworrisome.com
   - giggleostentatious.com
   - gigicinjinsyf.website
@@ -28991,6 +28997,7 @@ domain_suffix_set:
   - glamipixel.com
   - glancebismark.shop
   - glaringregister.com
+  - glass-decision.pro
   - glass.autovistagroup.com
   - glassbox-hlx-igw.bankofamerica.com
   - glasscoyote.com
@@ -29033,6 +29040,7 @@ domain_suffix_set:
   - glf.mt.com
   - gli9.inseec-bs.com
   - gligoubsed.com
+  - glihoulraiph.net
   - glijai.ten-navi.com
   - glimmerglee.globjek.com
   - glimpaid.net
@@ -30012,6 +30020,7 @@ domain_suffix_set:
   - go2.ringcentral.com
   - go2.toplineads.com
   - go2.tungstenautomation.com
+  - go22zd6lwm.com
   - go2affise.com
   - go2app.org
   - go2cloud.org
@@ -32545,6 +32554,7 @@ domain_suffix_set:
   - host.zoodipistoia.it
   - host11.traffic-builders.com
   - hostadsmarkets.com
+  - hostageacarari.top
   - hostave4.net
   - hostcontent.live
   - hoster-test.ru
@@ -32665,6 +32675,7 @@ domain_suffix_set:
   - hrcpql.candymagic.jp
   - hrdmys.elcanto.co.kr
   - hreso.site
+  - hrijiqwroalg.com
   - hrjciqyu.icu
   - hrjdmo.rosettastone.co.uk
   - hrm.healthgrades.com
@@ -32727,6 +32738,7 @@ domain_suffix_set:
   - hthvc.icu
   - hthzoa.notino.hu
   - htiagq.sheplers.com
+  - htidutntayqzo.website
   - htimiyu.top
   - htintpa.tech
   - htkjrj.sport2000.fr
@@ -37198,6 +37210,7 @@ domain_suffix_set:
   - jyhlgpkn.com
   - jyisloa.top
   - jyjrbz.xyz
+  - jynuvagjoxnin.space
   - jynwlg.veromoda.com
   - jyozavobzrekb.top
   - jyqekzzlmywzj.top
@@ -37207,6 +37220,7 @@ domain_suffix_set:
   - jyumzv.dcshoes.com.br
   - jyupgi.eurostarshotels.co.uk
   - jyuskb.cn
+  - jyvkwqjremqkz.top
   - jyxzrb.xyz
   - jyyjbf.abracasa.com.br
   - jyyqzt.sledstore.se
@@ -37837,6 +37851,7 @@ domain_suffix_set:
   - koala.readyfive.io
   - koalatuba.top
   - koanewhaideeb.com
+  - koaphigechi.com
   - koapsuha.net
   - koaptouw.com
   - koaroachauk.com
@@ -40131,6 +40146,7 @@ domain_suffix_set:
   - llvlzvroqokmj.top
   - llvvfz.mariapiacasa.com.br
   - llwoyl.mirraw.com
+  - llykjmzkqvlmm.top
   - llzahqzvuzorn.website
   - lm.groc.press
   - lm.ijq.tv
@@ -48319,6 +48335,7 @@ domain_suffix_set:
   - mgjqah.msccruisesusa.com
   - mgn.ebis.xn--olsz5f0ufw02b.net
   - mgntat.mno.link
+  - mgptijzevfuxj.space
   - mgptul.finson.com
   - mgqtcs.xyz
   - mgrrprhkhmwj.com
@@ -48759,6 +48776,7 @@ domain_suffix_set:
   - moa06190ju.com
   - moa06191ju.com
   - moa06200ju.com
+  - moa06201ju.com
   - moanishaiti.com
   - moartraffic.com
   - moat4shot.com
@@ -51594,6 +51612,7 @@ domain_suffix_set:
   - ohtdbl.mister-auto.es
   - ohtusgy.icu
   - ohuvee.mokkimies.com
+  - ohwcfznerxhjk.website
   - ohxpqo.myhdiet.com
   - ohxrqr.ilvi.com
   - oi.fapnado.xxx
@@ -52648,6 +52667,7 @@ domain_suffix_set:
   - otkhyc.bueromarkt-ag.de
   - otnolatrnup.com
   - otoadom.com
+  - otoawowurd.com
   - otomiandabster.com
   - otoyueuprumok.icu
   - otqnvgebjhvqq.com
@@ -54870,6 +54890,7 @@ domain_suffix_set:
   - plugs.jameco.com
   - plumbertowards.com
   - plumpmom.com
+  - plus.com
   - plus.mameradivlasy.cz
   - plus.tovari.fi
   - plusavecmoins.adp.ca
@@ -54930,6 +54951,7 @@ domain_suffix_set:
   - pntbrs.reflectwindow.com
   - pnucirltks.com
   - pnuhondppw.com
+  - pnuudbgtlofu.com
   - pnuzyt.akaishionline.com
   - pnvnpy.scullyandscully.com
   - pny.net.penny.de
@@ -55147,6 +55169,7 @@ domain_suffix_set:
   - postsmartlnk.com
   - postureunlikeagile.com
   - potailvine.com
+  - potassgriph.top
   - potatoesejection.com
   - potatoinvention.com
   - potatosa6.com
@@ -56120,6 +56143,7 @@ domain_suffix_set:
   - pvlbcw.glamira.ro
   - pvn.rewe.de
   - pvnwap.zol.com.cn
+  - pvnwfoxrfezes.space
   - pvoheg.bubbleroom.se
   - pvpffqip.com
   - pvrugd.nieruchomosci-online.pl
@@ -57111,6 +57135,7 @@ domain_suffix_set:
   - rakkuxw.com
   - raksoagrew.net
   - rakzyonvccpaad.com
+  - ralhkgibukxcw.online
   - rals4alum.com
   - ramasilenic.shop
   - rambunctiousflock.com
@@ -57646,6 +57671,7 @@ domain_suffix_set:
   - reg.workspace-connect.com
   - reg.xrdconf.com
   - regalrisemedia.com
+  - regardpicine.top
   - regexmail.com
   - register-implants.dentsplysirona.com
   - register.compellent.com
@@ -62362,6 +62388,7 @@ domain_suffix_set:
   - shakysurprise.com
   - shallowart.com
   - shallowblade.com
+  - shallowdust.pro
   - shaltloggie.shop
   - shameful-leader.com
   - shameless-date.com
@@ -62614,6 +62641,7 @@ domain_suffix_set:
   - shortener.np6.com
   - shorttermattention.pro
   - shotgunchancecruel.com
+  - shouji.360.cn
   - shoukigaigoors.net
   - shouldercommandmentlimitless.com
   - shoungunsoosson.com
@@ -62651,6 +62679,7 @@ domain_suffix_set:
   - shticksyahuna.com
   - shtptt.cupshe.com
   - shtrack.kingsoft.jp
+  - shuaji.360.cn
   - shubadubadlskjfkf.com
   - shudi8.com
   - shughaxiw.com
@@ -68777,6 +68806,8 @@ domain_suffix_set:
   - strikecomparativelymillions.com
   - strikenurse.usnursing.com
   - strilqoill.com
+  - strip-chat.club
+  - stripchat.webcam
   - stripedbat.com
   - strivesquirrel.com
   - strodeintended.com
@@ -68784,6 +68815,7 @@ domain_suffix_set:
   - strongercity.com
   - strongmetrics.io
   - stroveiks.com
+  - strp.chat
   - strtgic.com
   - struhuts.com
   - sts.authramp.com
@@ -69488,6 +69520,7 @@ domain_suffix_set:
   - sxpmlinbxvjjd.com
   - sxqxvcymtiwxo.space
   - sxtkfamhqnp.com
+  - sxvnavgobmhav.com
   - sxwxswg8z1xe.www.arnowebtv.com
   - sxxllz.hyn-t.com
   - sxyemx.micollarconnombre.com
@@ -71086,6 +71119,7 @@ domain_suffix_set:
   - tattepush.com
   - tattkq.hopelingerie.com.br
   - tattle.api.osano.com
+  - tatxbrshtjgfs.site
   - taurostaupse.com
   - taut-nature.com
   - tauvoojo.net
@@ -77447,6 +77481,7 @@ domain_suffix_set:
   - tzhfxe.bonlook.com
   - tzirtatakoqf.com
   - tzm.px-cloud.net
+  - tzmupfzuwoqtl.space
   - tzngbm.noodzboutique.com.au
   - tzojiqrixpma.com
   - tzovkp.aboutyou.at
@@ -79054,6 +79089,7 @@ domain_suffix_set:
   - vbllxaaj.icu
   - vbmjlevwwvqvz.top
   - vbozbkzejzyqj.top
+  - vbphograewy.com
   - vbptgoyketwhv.global
   - vbqrzzrzazakl.top
   - vbseje.stonehengehealth.com
@@ -79859,6 +79895,7 @@ domain_suffix_set:
   - vtunfm.shoppu.co.il
   - vtvfwz.zvet.ru
   - vtytmm.sawary.com
+  - vuainqkmjdiqp.site
   - vudqth.icu
   - vuevem.xloshop.ro
   - vufaurgoojoats.net
@@ -80245,6 +80282,7 @@ domain_suffix_set:
   - waubibubaiz.com
   - waufooke.com
   - wauk1care.com
+  - waurapuddles.com
   - waust.at
   - wauthaik.net
   - wave.getonthewave.com
@@ -82133,6 +82171,7 @@ domain_suffix_set:
   - xhbzrk.hotmart.com
   - xhcsegpi.worldanimalprotection.dk
   - xhjfdc.elevatione.com
+  - xhlive.cam
   - xhlkvx.xyz
   - xhm.pub
   - xhohnr.fdm.pl
@@ -82477,6 +82516,7 @@ domain_suffix_set:
   - xsgxag.nkolaykredi.com.tr
   - xshellcn.com
   - xslmpq.ohou.se
+  - xsoydlcymk.com
   - xsph.ru
   - xsrezl.icu
   - xsrzqh.ananzi.co.za
@@ -82552,6 +82592,7 @@ domain_suffix_set:
   - xvjosa.istitutocappellari.it
   - xvkhez.swiatkwiatow.pl
   - xvlpksjchavbe.store
+  - xvncgeyky.com
   - xvobqjir.com
   - xvpqmcgf.com
   - xvsypuik.com
@@ -83073,6 +83114,7 @@ domain_suffix_set:
   - ynsimp.denley.pl
   - yntherplunge.com
   - ynudoo.shoeby.nl
+  - ynuf.aliapp.org
   - ynumto.targetdeal.ro
   - ynurfigldblbt.online
   - ynwqna.mayblue.co.kr
@@ -84536,7 +84578,6 @@ domain_wildcard_set:
   - tracking-*.trnox.com
   - tracking-v*.a.run.app
   - tracking.*.miui.com
-  - trck.*.prod-na.turntable.sonic.advertising.amazon.dev
   - trk*.vidible.tv
   - tupian888.*.bcebos.com
   - tw*.netcore.co.in

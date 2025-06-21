@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3700
+# 规则统计: 3703
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -377,6 +377,7 @@ DOMAIN,cdn-img3.iporntv.net
 DOMAIN,cdn-live.foreignaffairs.com
 DOMAIN,cdn-longterm.mee6.xyz
 DOMAIN,cdn-main.plus500.com
+DOMAIN,cdn-media-0.freecodecamp.org
 DOMAIN,cdn-media-1.freecodecamp.org
 DOMAIN,cdn-media-2.freecodecamp.org
 DOMAIN,cdn-mobile.aptoide.com
@@ -2702,6 +2703,7 @@ DOMAIN-SUFFIX,bootstrapcdn.com
 DOMAIN-SUFFIX,botsrv2.com
 DOMAIN-SUFFIX,boxcdn.net
 DOMAIN-SUFFIX,bp.blogspot.com
+DOMAIN-SUFFIX,brightspotcdn.com
 DOMAIN-SUFFIX,bstarstatic.com
 DOMAIN-SUFFIX,bstatic.com
 DOMAIN-SUFFIX,bugly.qcloud.com
@@ -2862,6 +2864,7 @@ DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,drtst.com
 DOMAIN-SUFFIX,dsc.cloud
 DOMAIN-SUFFIX,dtci-pe-vp-image-resizer.platform.edgedatg.com
+DOMAIN-SUFFIX,dubcdn.com
 DOMAIN-SUFFIX,dummyimage.com
 DOMAIN-SUFFIX,dummyjson.com
 DOMAIN-SUFFIX,dwcdn.net

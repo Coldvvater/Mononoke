@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3700
+# 规则统计: 3703
 
 domain_set:
   - 0x0.st
@@ -378,6 +378,7 @@ domain_set:
   - cdn-live.foreignaffairs.com
   - cdn-longterm.mee6.xyz
   - cdn-main.plus500.com
+  - cdn-media-0.freecodecamp.org
   - cdn-media-1.freecodecamp.org
   - cdn-media-2.freecodecamp.org
   - cdn-mobile.aptoide.com
@@ -2704,6 +2705,7 @@ domain_suffix_set:
   - botsrv2.com
   - boxcdn.net
   - bp.blogspot.com
+  - brightspotcdn.com
   - bstarstatic.com
   - bstatic.com
   - bugly.qcloud.com
@@ -2864,6 +2866,7 @@ domain_suffix_set:
   - drtst.com
   - dsc.cloud
   - dtci-pe-vp-image-resizer.platform.edgedatg.com
+  - dubcdn.com
   - dummyimage.com
   - dummyjson.com
   - dwcdn.net
