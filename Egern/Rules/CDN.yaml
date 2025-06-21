@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3703
+# 规则统计: 3704
 
 domain_set:
   - 0x0.st
@@ -699,6 +699,7 @@ domain_set:
   - cdn.theatlantic.com
   - cdn.thenewstack.io
   - cdn.thingiverse.com
+  - cdn.tiny.cloud
   - cdn.tinypass.com
   - cdn.tolt.io
   - cdn.tracxn.com

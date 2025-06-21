@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3701
+# 规则统计: 3702
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -698,6 +698,7 @@ DOMAIN,cdn.termius.com
 DOMAIN,cdn.theatlantic.com
 DOMAIN,cdn.thenewstack.io
 DOMAIN,cdn.thingiverse.com
+DOMAIN,cdn.tiny.cloud
 DOMAIN,cdn.tinypass.com
 DOMAIN,cdn.tolt.io
 DOMAIN,cdn.tracxn.com

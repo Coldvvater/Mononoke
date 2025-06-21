@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3703
+# 规则统计: 3704
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -698,6 +698,7 @@ HOST,cdn.termius.com,CDN
 HOST,cdn.theatlantic.com,CDN
 HOST,cdn.thenewstack.io,CDN
 HOST,cdn.thingiverse.com,CDN
+HOST,cdn.tiny.cloud,CDN
 HOST,cdn.tinypass.com,CDN
 HOST,cdn.tolt.io,CDN
 HOST,cdn.tracxn.com,CDN
