@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3704
+# 规则统计: 3706
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -915,6 +915,7 @@ HOST,consent.dw.com,CDN
 HOST,consentdeliveryfd.azurefd.net,CDN
 HOST,consumersite-assets.trustpilot.net,CDN
 HOST,consumersiteimages.trustpilot.net,CDN
+HOST,content-a.strava.com,CDN
 HOST,content-cdn.y2mate.com,CDN
 HOST,content-management-files.canva.com,CDN
 HOST,content-prod-live.cert.starbucks.com,CDN
@@ -2348,6 +2349,7 @@ HOST,static8.lottiefiles.com,CDN
 HOST,static9.lottiefiles.com,CDN
 HOST,staticctf.ubisoft.com,CDN
 HOST,staticintl.cloudcachetci.com,CDN
+HOST,staticm.fastcomments.com,CDN
 HOST,statics-marketingsites-eas-ms-com.akamaized.net,CDN
 HOST,statics.erothots.co,CDN
 HOST,statics.goorm.io,CDN
@@ -3088,7 +3090,6 @@ HOST-SUFFIX,ipfs.funnychain.co,CDN
 HOST-SUFFIX,ipfs.genenetwork.org,CDN
 HOST-SUFFIX,ipfs.greyh.at,CDN
 HOST-SUFFIX,ipfs.infura.io,CDN
-HOST-SUFFIX,ipfs.ink,CDN
 HOST-SUFFIX,ipfs.io,CDN
 HOST-SUFFIX,ipfs.jbb.one,CDN
 HOST-SUFFIX,ipfs.kaleido.art,CDN
@@ -3581,6 +3582,7 @@ HOST-SUFFIX,w-credentialless-staticblitz.com,CDN
 HOST-SUFFIX,w3s.link,CDN
 HOST-SUFFIX,walmartimages.com,CDN
 HOST-SUFFIX,warnermediacdn.com,CDN
+HOST-SUFFIX,watchlycdn.com,CDN
 HOST-SUFFIX,wdfiles.com,CDN
 HOST-SUFFIX,web.app,CDN
 HOST-SUFFIX,webp.se,CDN

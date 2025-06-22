@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3704
+# 规则统计: 3706
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -915,6 +915,7 @@ DOMAIN,consent.dw.com
 DOMAIN,consentdeliveryfd.azurefd.net
 DOMAIN,consumersite-assets.trustpilot.net
 DOMAIN,consumersiteimages.trustpilot.net
+DOMAIN,content-a.strava.com
 DOMAIN,content-cdn.y2mate.com
 DOMAIN,content-management-files.canva.com
 DOMAIN,content-prod-live.cert.starbucks.com
@@ -2348,6 +2349,7 @@ DOMAIN,static8.lottiefiles.com
 DOMAIN,static9.lottiefiles.com
 DOMAIN,staticctf.ubisoft.com
 DOMAIN,staticintl.cloudcachetci.com
+DOMAIN,staticm.fastcomments.com
 DOMAIN,statics-marketingsites-eas-ms-com.akamaized.net
 DOMAIN,statics.erothots.co
 DOMAIN,statics.goorm.io
@@ -3088,7 +3090,6 @@ DOMAIN-SUFFIX,ipfs.funnychain.co
 DOMAIN-SUFFIX,ipfs.genenetwork.org
 DOMAIN-SUFFIX,ipfs.greyh.at
 DOMAIN-SUFFIX,ipfs.infura.io
-DOMAIN-SUFFIX,ipfs.ink
 DOMAIN-SUFFIX,ipfs.io
 DOMAIN-SUFFIX,ipfs.jbb.one
 DOMAIN-SUFFIX,ipfs.kaleido.art
@@ -3581,6 +3582,7 @@ DOMAIN-SUFFIX,w-credentialless-staticblitz.com
 DOMAIN-SUFFIX,w3s.link
 DOMAIN-SUFFIX,walmartimages.com
 DOMAIN-SUFFIX,warnermediacdn.com
+DOMAIN-SUFFIX,watchlycdn.com
 DOMAIN-SUFFIX,wdfiles.com
 DOMAIN-SUFFIX,web.app
 DOMAIN-SUFFIX,webp.se

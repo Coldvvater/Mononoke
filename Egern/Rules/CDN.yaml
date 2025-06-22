@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3704
+# 规则统计: 3706
 
 domain_set:
   - 0x0.st
@@ -916,6 +916,7 @@ domain_set:
   - consentdeliveryfd.azurefd.net
   - consumersite-assets.trustpilot.net
   - consumersiteimages.trustpilot.net
+  - content-a.strava.com
   - content-cdn.y2mate.com
   - content-management-files.canva.com
   - content-prod-live.cert.starbucks.com
@@ -2349,6 +2350,7 @@ domain_set:
   - static9.lottiefiles.com
   - staticctf.ubisoft.com
   - staticintl.cloudcachetci.com
+  - staticm.fastcomments.com
   - statics-marketingsites-eas-ms-com.akamaized.net
   - statics.erothots.co
   - statics.goorm.io
@@ -3090,7 +3092,6 @@ domain_suffix_set:
   - ipfs.genenetwork.org
   - ipfs.greyh.at
   - ipfs.infura.io
-  - ipfs.ink
   - ipfs.io
   - ipfs.jbb.one
   - ipfs.kaleido.art
@@ -3583,6 +3584,7 @@ domain_suffix_set:
   - w3s.link
   - walmartimages.com
   - warnermediacdn.com
+  - watchlycdn.com
   - wdfiles.com
   - web.app
   - webp.se
