@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7379
+# 规则统计: 7385
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -691,6 +691,7 @@ HOST-SUFFIX,bit.ly,ProxyGFW
 HOST-SUFFIX,bit.no.com,ProxyGFW
 HOST-SUFFIX,bitbay.net,ProxyGFW
 HOST-SUFFIX,bitbucket.io,ProxyGFW
+HOST-SUFFIX,bitbucket.org,ProxyGFW
 HOST-SUFFIX,bitchute.com,ProxyGFW
 HOST-SUFFIX,bitcointalk.org,ProxyGFW
 HOST-SUFFIX,bitcoinworld.com,ProxyGFW
@@ -1282,6 +1283,7 @@ HOST-SUFFIX,coolder.com,ProxyGFW
 HOST-SUFFIX,coolloud.org.tw,ProxyGFW
 HOST-SUFFIX,coolncute.com,ProxyGFW
 HOST-SUFFIX,coolstuffinc.com,ProxyGFW
+HOST-SUFFIX,corecode.io,ProxyGFW
 HOST-SUFFIX,corumcollege.com,ProxyGFW
 HOST-SUFFIX,cos-moe.com,ProxyGFW
 HOST-SUFFIX,cosplay-jav.com,ProxyGFW
@@ -2128,6 +2130,7 @@ HOST-SUFFIX,freeilhamtohti.org,ProxyGFW
 HOST-SUFFIX,freekazakhs.org,ProxyGFW
 HOST-SUFFIX,freekwonpyong.org,ProxyGFW
 HOST-SUFFIX,freelotto.com,ProxyGFW
+HOST-SUFFIX,freemacsoft.net,ProxyGFW
 HOST-SUFFIX,freeman2.com,ProxyGFW
 HOST-SUFFIX,freemoren.com,ProxyGFW
 HOST-SUFFIX,freemorenews.com,ProxyGFW
@@ -3188,6 +3191,7 @@ HOST-SUFFIX,ihakka.net,ProxyGFW
 HOST-SUFFIX,ihao.org,ProxyGFW
 HOST-SUFFIX,iheart.com,ProxyGFW
 HOST-SUFFIX,iicns.com,ProxyGFW
+HOST-SUFFIX,iina.io,ProxyGFW
 HOST-SUFFIX,ikstar.com,ProxyGFW
 HOST-SUFFIX,ikwb.com,ProxyGFW
 HOST-SUFFIX,ilbe.com,ProxyGFW
@@ -3821,6 +3825,7 @@ HOST-SUFFIX,macgamestore.com,ProxyGFW
 HOST-SUFFIX,macpaw.com,ProxyGFW
 HOST-SUFFIX,macrovpn.com,ProxyGFW
 HOST-SUFFIX,macts.com.tw,ProxyGFW
+HOST-SUFFIX,macupdate.com,ProxyGFW
 HOST-SUFFIX,mad-ar.ch,ProxyGFW
 HOST-SUFFIX,madewithcode.com,ProxyGFW
 HOST-SUFFIX,madonna-av.com,ProxyGFW
@@ -7030,6 +7035,7 @@ HOST-SUFFIX,xnxx.com,ProxyGFW
 HOST-SUFFIX,xpdo.net,ProxyGFW
 HOST-SUFFIX,xpressunblock.com,ProxyGFW
 HOST-SUFFIX,xpud.org,ProxyGFW
+HOST-SUFFIX,xquartz.org,ProxyGFW
 HOST-SUFFIX,xrentdvd.com,ProxyGFW
 HOST-SUFFIX,xsden.info,ProxyGFW
 HOST-SUFFIX,xskywalker.com,ProxyGFW

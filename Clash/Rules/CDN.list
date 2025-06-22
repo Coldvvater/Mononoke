@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3704
+# 规则统计: 3716
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -40,6 +40,7 @@ DOMAIN,answers-afd.microsoft.com
 DOMAIN,api-esp-ap.piano.io
 DOMAIN,api-eu.mixpanel.com
 DOMAIN,api-frameworks.vercel.sh
+DOMAIN,api-lytics.macpaw.com
 DOMAIN,api.allorigins.win
 DOMAIN,api.bintray.com
 DOMAIN,api.crashguard.me
@@ -386,6 +387,7 @@ DOMAIN,cdn-msp.18comic.vip
 DOMAIN,cdn-msp.jmcomic-zzz.one
 DOMAIN,cdn-msp.jmcomic.me
 DOMAIN,cdn-node.diskpart.com
+DOMAIN,cdn-public-apis.moonlock.com
 DOMAIN,cdn-public.sociabble.com
 DOMAIN,cdn-raw.modrinth.com
 DOMAIN,cdn-rdstaticassets.readdle.com
@@ -670,11 +672,13 @@ DOMAIN,cdn.sedo.com
 DOMAIN,cdn.segment.com
 DOMAIN,cdn.seondf.com
 DOMAIN,cdn.seonintelligence.com
+DOMAIN,cdn.servicebell.com
 DOMAIN,cdn.setapp.com
 DOMAIN,cdn.sheetjs.com
 DOMAIN,cdn.shopify.com
 DOMAIN,cdn.shoppinggives.com
 DOMAIN,cdn.simpleicons.org
+DOMAIN,cdn.sitesearch360.com
 DOMAIN,cdn.sketch.com
 DOMAIN,cdn.skymavis.com
 DOMAIN,cdn.smooch.io
@@ -706,6 +710,7 @@ DOMAIN,cdn.transcend.io
 DOMAIN,cdn.transifex.com
 DOMAIN,cdn.travis-ci.com
 DOMAIN,cdn.travis-ci.org
+DOMAIN,cdn.tronscan.org
 DOMAIN,cdn.trustedsite.com
 DOMAIN,cdn.trustpilot.net
 DOMAIN,cdn.ttgtmedia.com
@@ -879,6 +884,7 @@ DOMAIN,cloudflare.tv
 DOMAIN,cloudfront.barilliance.com
 DOMAIN,cloudfront.codeproject.com
 DOMAIN,cloudinary-res.cloudinary.com
+DOMAIN,cmd-cdn.cleanmymac.com
 DOMAIN,cmp-cdn.p.aws.economist.com
 DOMAIN,cms-assets.nodecraft.com
 DOMAIN,cms-assets.webediamovies.pro
@@ -973,6 +979,7 @@ DOMAIN,decart-oasis.azureedge.net
 DOMAIN,demo.unified-streaming.com
 DOMAIN,demotiles.maplibre.org
 DOMAIN,denali-static.grammarly.com
+DOMAIN,design-assets.hubspot.com
 DOMAIN,design-system.yext.com
 DOMAIN,design.mayoclinic.org
 DOMAIN,designsystem.brevo.com
@@ -1756,6 +1763,8 @@ DOMAIN,pcdn-my.pcloud.com
 DOMAIN,pcdn-www.pcloud.com
 DOMAIN,pcz.javidol.org
 DOMAIN,pengtu.cc
+DOMAIN,perf-na1.hsforms.com
+DOMAIN,perf.hsforms.com
 DOMAIN,pg2dhpc3p5ec22g3.jkforum.net
 DOMAIN,pgw.udn.com.tw
 DOMAIN,phishing.army
@@ -2225,6 +2234,7 @@ DOMAIN,static.launchdarkly.com
 DOMAIN,static.licdn.com
 DOMAIN,static.linear.app
 DOMAIN,static.lingq.com
+DOMAIN,static.macupdate.com
 DOMAIN,static.maxmind.com
 DOMAIN,static.mediafire.com
 DOMAIN,static.meiguo.com
@@ -2832,6 +2842,7 @@ DOMAIN-SUFFIX,cthd.icu
 DOMAIN-SUFFIX,customerioforms.com
 DOMAIN-SUFFIX,customeriomail.com
 DOMAIN-SUFFIX,cwwcdn.com
+DOMAIN-SUFFIX,dam-cdn.atl.orangelogic.com
 DOMAIN-SUFFIX,data.debugbear.com
 DOMAIN-SUFFIX,dataplane.rudderstack.com
 DOMAIN-SUFFIX,datocms-assets.com
@@ -3131,6 +3142,7 @@ DOMAIN-SUFFIX,jotai.org
 DOMAIN-SUFFIX,jpg5.su
 DOMAIN-SUFFIX,jpgjingpinx.com
 DOMAIN-SUFFIX,js-eu1.hubspot.com
+DOMAIN-SUFFIX,js.hs-banner.com
 DOMAIN-SUFFIX,js.hubspot.com
 DOMAIN-SUFFIX,js.hubspotfeedback.com
 DOMAIN-SUFFIX,js.org

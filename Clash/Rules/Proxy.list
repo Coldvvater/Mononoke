@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1048
+# 规则统计: 1054
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
@@ -127,6 +127,7 @@ DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.me
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bitbucket.io
+DOMAIN-SUFFIX,bitbucket.org
 DOMAIN-SUFFIX,bitchute.com
 DOMAIN-SUFFIX,bitfinex.com
 DOMAIN-SUFFIX,bitly.com
@@ -204,6 +205,7 @@ DOMAIN-SUFFIX,coinmarketcap.com
 DOMAIN-SUFFIX,community
 DOMAIN-SUFFIX,convertio.co
 DOMAIN-SUFFIX,cool18.com
+DOMAIN-SUFFIX,corecode.io
 DOMAIN-SUFFIX,cosplay-jav.com
 DOMAIN-SUFFIX,costco.com
 DOMAIN-SUFFIX,coveralls.io
@@ -328,6 +330,7 @@ DOMAIN-SUFFIX,forbes.com
 DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,fr
 DOMAIN-SUFFIX,freedownloadmanager.org
+DOMAIN-SUFFIX,freemacsoft.net
 DOMAIN-SUFFIX,freepik.com
 DOMAIN-SUFFIX,ft.com
 DOMAIN-SUFFIX,fuq.com
@@ -448,6 +451,7 @@ DOMAIN-SUFFIX,ietf.org
 DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,ifttt.com
 DOMAIN-SUFFIX,iheart.com
+DOMAIN-SUFFIX,iina.io
 DOMAIN-SUFFIX,iloveimg.com
 DOMAIN-SUFFIX,imagefap.com
 DOMAIN-SUFFIX,imagekit.io
@@ -549,6 +553,7 @@ DOMAIN-SUFFIX,lynxjs.org
 DOMAIN-SUFFIX,m.me
 DOMAIN-SUFFIX,macaddress.io
 DOMAIN-SUFFIX,macpaw.com
+DOMAIN-SUFFIX,macupdate.com
 DOMAIN-SUFFIX,madewithcode.com
 DOMAIN-SUFFIX,majsoul.union-game.com
 DOMAIN-SUFFIX,makerworld.com
@@ -1021,6 +1026,7 @@ DOMAIN-SUFFIX,xing.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xpressunblock.com
+DOMAIN-SUFFIX,xquartz.org
 DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,xxx

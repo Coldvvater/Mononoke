@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3706
+# 规则统计: 3718
 
 domain_set:
   - 0x0.st
@@ -41,6 +41,7 @@ domain_set:
   - api-esp-ap.piano.io
   - api-eu.mixpanel.com
   - api-frameworks.vercel.sh
+  - api-lytics.macpaw.com
   - api.allorigins.win
   - api.bintray.com
   - api.crashguard.me
@@ -387,6 +388,7 @@ domain_set:
   - cdn-msp.jmcomic-zzz.one
   - cdn-msp.jmcomic.me
   - cdn-node.diskpart.com
+  - cdn-public-apis.moonlock.com
   - cdn-public.sociabble.com
   - cdn-raw.modrinth.com
   - cdn-rdstaticassets.readdle.com
@@ -671,11 +673,13 @@ domain_set:
   - cdn.segment.com
   - cdn.seondf.com
   - cdn.seonintelligence.com
+  - cdn.servicebell.com
   - cdn.setapp.com
   - cdn.sheetjs.com
   - cdn.shopify.com
   - cdn.shoppinggives.com
   - cdn.simpleicons.org
+  - cdn.sitesearch360.com
   - cdn.sketch.com
   - cdn.skymavis.com
   - cdn.smooch.io
@@ -707,6 +711,7 @@ domain_set:
   - cdn.transifex.com
   - cdn.travis-ci.com
   - cdn.travis-ci.org
+  - cdn.tronscan.org
   - cdn.trustedsite.com
   - cdn.trustpilot.net
   - cdn.ttgtmedia.com
@@ -880,6 +885,7 @@ domain_set:
   - cloudfront.barilliance.com
   - cloudfront.codeproject.com
   - cloudinary-res.cloudinary.com
+  - cmd-cdn.cleanmymac.com
   - cmp-cdn.p.aws.economist.com
   - cms-assets.nodecraft.com
   - cms-assets.webediamovies.pro
@@ -974,6 +980,7 @@ domain_set:
   - demo.unified-streaming.com
   - demotiles.maplibre.org
   - denali-static.grammarly.com
+  - design-assets.hubspot.com
   - design-system.yext.com
   - design.mayoclinic.org
   - designsystem.brevo.com
@@ -1757,6 +1764,8 @@ domain_set:
   - pcdn-www.pcloud.com
   - pcz.javidol.org
   - pengtu.cc
+  - perf-na1.hsforms.com
+  - perf.hsforms.com
   - pg2dhpc3p5ec22g3.jkforum.net
   - pgw.udn.com.tw
   - phishing.army
@@ -2226,6 +2235,7 @@ domain_set:
   - static.licdn.com
   - static.linear.app
   - static.lingq.com
+  - static.macupdate.com
   - static.maxmind.com
   - static.mediafire.com
   - static.meiguo.com
@@ -2834,6 +2844,7 @@ domain_suffix_set:
   - customerioforms.com
   - customeriomail.com
   - cwwcdn.com
+  - dam-cdn.atl.orangelogic.com
   - data.debugbear.com
   - dataplane.rudderstack.com
   - datocms-assets.com
@@ -3133,6 +3144,7 @@ domain_suffix_set:
   - jpg5.su
   - jpgjingpinx.com
   - js-eu1.hubspot.com
+  - js.hs-banner.com
   - js.hubspot.com
   - js.hubspotfeedback.com
   - js.org

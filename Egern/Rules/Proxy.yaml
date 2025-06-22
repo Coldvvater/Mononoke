@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1048
+# 规则统计: 1054
 
 domain_set:
   - ccmdl.adobe.com
@@ -129,6 +129,7 @@ domain_suffix_set:
   - binance.me
   - bing.com
   - bitbucket.io
+  - bitbucket.org
   - bitchute.com
   - bitfinex.com
   - bitly.com
@@ -206,6 +207,7 @@ domain_suffix_set:
   - community
   - convertio.co
   - cool18.com
+  - corecode.io
   - cosplay-jav.com
   - costco.com
   - coveralls.io
@@ -330,6 +332,7 @@ domain_suffix_set:
   - foxnews.com
   - fr
   - freedownloadmanager.org
+  - freemacsoft.net
   - freepik.com
   - ft.com
   - fuq.com
@@ -450,6 +453,7 @@ domain_suffix_set:
   - ifixit.com
   - ifttt.com
   - iheart.com
+  - iina.io
   - iloveimg.com
   - imagefap.com
   - imagekit.io
@@ -551,6 +555,7 @@ domain_suffix_set:
   - m.me
   - macaddress.io
   - macpaw.com
+  - macupdate.com
   - madewithcode.com
   - majsoul.union-game.com
   - makerworld.com
@@ -1023,6 +1028,7 @@ domain_suffix_set:
   - xn--ngstr-lra8j.com
   - xnxx.com
   - xpressunblock.com
+  - xquartz.org
   - xvideos-cdn.com
   - xvideos.com
   - xxx

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3706
+# 规则统计: 3718
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -40,6 +40,7 @@ HOST,answers-afd.microsoft.com,CDN
 HOST,api-esp-ap.piano.io,CDN
 HOST,api-eu.mixpanel.com,CDN
 HOST,api-frameworks.vercel.sh,CDN
+HOST,api-lytics.macpaw.com,CDN
 HOST,api.allorigins.win,CDN
 HOST,api.bintray.com,CDN
 HOST,api.crashguard.me,CDN
@@ -386,6 +387,7 @@ HOST,cdn-msp.18comic.vip,CDN
 HOST,cdn-msp.jmcomic-zzz.one,CDN
 HOST,cdn-msp.jmcomic.me,CDN
 HOST,cdn-node.diskpart.com,CDN
+HOST,cdn-public-apis.moonlock.com,CDN
 HOST,cdn-public.sociabble.com,CDN
 HOST,cdn-raw.modrinth.com,CDN
 HOST,cdn-rdstaticassets.readdle.com,CDN
@@ -670,11 +672,13 @@ HOST,cdn.sedo.com,CDN
 HOST,cdn.segment.com,CDN
 HOST,cdn.seondf.com,CDN
 HOST,cdn.seonintelligence.com,CDN
+HOST,cdn.servicebell.com,CDN
 HOST,cdn.setapp.com,CDN
 HOST,cdn.sheetjs.com,CDN
 HOST,cdn.shopify.com,CDN
 HOST,cdn.shoppinggives.com,CDN
 HOST,cdn.simpleicons.org,CDN
+HOST,cdn.sitesearch360.com,CDN
 HOST,cdn.sketch.com,CDN
 HOST,cdn.skymavis.com,CDN
 HOST,cdn.smooch.io,CDN
@@ -706,6 +710,7 @@ HOST,cdn.transcend.io,CDN
 HOST,cdn.transifex.com,CDN
 HOST,cdn.travis-ci.com,CDN
 HOST,cdn.travis-ci.org,CDN
+HOST,cdn.tronscan.org,CDN
 HOST,cdn.trustedsite.com,CDN
 HOST,cdn.trustpilot.net,CDN
 HOST,cdn.ttgtmedia.com,CDN
@@ -879,6 +884,7 @@ HOST,cloudflare.tv,CDN
 HOST,cloudfront.barilliance.com,CDN
 HOST,cloudfront.codeproject.com,CDN
 HOST,cloudinary-res.cloudinary.com,CDN
+HOST,cmd-cdn.cleanmymac.com,CDN
 HOST,cmp-cdn.p.aws.economist.com,CDN
 HOST,cms-assets.nodecraft.com,CDN
 HOST,cms-assets.webediamovies.pro,CDN
@@ -973,6 +979,7 @@ HOST,decart-oasis.azureedge.net,CDN
 HOST,demo.unified-streaming.com,CDN
 HOST,demotiles.maplibre.org,CDN
 HOST,denali-static.grammarly.com,CDN
+HOST,design-assets.hubspot.com,CDN
 HOST,design-system.yext.com,CDN
 HOST,design.mayoclinic.org,CDN
 HOST,designsystem.brevo.com,CDN
@@ -1756,6 +1763,8 @@ HOST,pcdn-my.pcloud.com,CDN
 HOST,pcdn-www.pcloud.com,CDN
 HOST,pcz.javidol.org,CDN
 HOST,pengtu.cc,CDN
+HOST,perf-na1.hsforms.com,CDN
+HOST,perf.hsforms.com,CDN
 HOST,pg2dhpc3p5ec22g3.jkforum.net,CDN
 HOST,pgw.udn.com.tw,CDN
 HOST,phishing.army,CDN
@@ -2225,6 +2234,7 @@ HOST,static.launchdarkly.com,CDN
 HOST,static.licdn.com,CDN
 HOST,static.linear.app,CDN
 HOST,static.lingq.com,CDN
+HOST,static.macupdate.com,CDN
 HOST,static.maxmind.com,CDN
 HOST,static.mediafire.com,CDN
 HOST,static.meiguo.com,CDN
@@ -2832,6 +2842,7 @@ HOST-SUFFIX,cthd.icu,CDN
 HOST-SUFFIX,customerioforms.com,CDN
 HOST-SUFFIX,customeriomail.com,CDN
 HOST-SUFFIX,cwwcdn.com,CDN
+HOST-SUFFIX,dam-cdn.atl.orangelogic.com,CDN
 HOST-SUFFIX,data.debugbear.com,CDN
 HOST-SUFFIX,dataplane.rudderstack.com,CDN
 HOST-SUFFIX,datocms-assets.com,CDN
@@ -3131,6 +3142,7 @@ HOST-SUFFIX,jotai.org,CDN
 HOST-SUFFIX,jpg5.su,CDN
 HOST-SUFFIX,jpgjingpinx.com,CDN
 HOST-SUFFIX,js-eu1.hubspot.com,CDN
+HOST-SUFFIX,js.hs-banner.com,CDN
 HOST-SUFFIX,js.hubspot.com,CDN
 HOST-SUFFIX,js.hubspotfeedback.com,CDN
 HOST-SUFFIX,js.org,CDN
