@@ -1,9 +1,10 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4834
+# 规则统计: 4849
 
 domain_suffix_set:
   - 002777.xyz
   - 003store.com
+  - 00p034d0dw.com
   - 01210sop.xyz
   - 01211sop.xyz
   - 01221sop.xyz
@@ -195,6 +196,7 @@ domain_suffix_set:
   - 3dwwwgame.com
   - 3exfu7vaxu.com
   - 3ff6kjylmjs.top
+  - 3hads4i5hm.com
   - 3kfvgobkw.com
   - 3lo.icu
   - 3ni.icu
@@ -223,6 +225,7 @@ domain_suffix_set:
   - 4i1.icu
   - 4ir17.icu
   - 4jc.icu
+  - 4kxczstxil.com
   - 4oz4n.icu
   - 4q87v.icu
   - 4rcajmf0m.com
@@ -263,6 +266,7 @@ domain_suffix_set:
   - 5mltq.icu
   - 5mm.zxfw5.cn
   - 5pub.com
+  - 5x17591y3b.com
   - 5y9nfpes.52pk.com
   - 5yl.icu
   - 5z2oy.icu
@@ -281,6 +285,7 @@ domain_suffix_set:
   - 666ppp222ppp.com
   - 666ppp888ppp.com
   - 6789.net
+  - 67u36vmzm.com
   - 6820tp1.com
   - 68287zubo85737.com
   - 68s4eyiru.com
@@ -689,6 +694,7 @@ domain_suffix_set:
   - atsgiu.icu
   - attelaoe.com
   - au.adhacker.online
+  - aubergineq8.top
   - aubrommaiv.com
   - auislq.top
   - ausfyk.xyz
@@ -1754,6 +1760,7 @@ domain_suffix_set:
   - geddsashb3.fun
   - gedxssashb8.fun
   - geewdashb3.fun
+  - gegeoq.icu
   - geinkroll.com
   - gekhasaks.com
   - geotmt.com
@@ -2414,6 +2421,7 @@ domain_suffix_set:
   - jwerilxa.top
   - jwhjqjfl.icu
   - jwilmia.top
+  - jwjwtw.top
   - jwursera.top
   - jxad.jx163.com
   - jxdown.com
@@ -2826,6 +2834,9 @@ domain_suffix_set:
   - moa06200ju.com
   - moa06201ju.com
   - moa06210ju.com
+  - moa06220ju.com
+  - moa06221ju.com
+  - moa06230ju.com
   - mobads.baidu.com
   - mobantong.oss-cn-hangzhou.aliyuncs.com
   - molpmh.xyz
@@ -2989,6 +3000,7 @@ domain_suffix_set:
   - npbtnl.xyz
   - npdbxf.xyz
   - nplvdodbja.com
+  - nqlzlr.icu
   - nqyrywn.icu
   - nrbwzh.icu
   - nrephihe.com
@@ -3439,6 +3451,7 @@ domain_suffix_set:
   - qzorwe.xyz
   - r.99waiyu.com
   - r0j.fun
+  - r40h9qvpq.com
   - r4u.icu
   - r528e.cn
   - r5twojylmzsym.top
@@ -3528,6 +3541,7 @@ domain_suffix_set:
   - rswqfiy.top
   - rsyepnq.icu
   - rtfgvz.icu
+  - rthrondrae.com
   - rtroytj33.fun
   - ruancq.xyz
   - rubmdu.top
@@ -4407,6 +4421,7 @@ domain_suffix_set:
   - wpeo.cn
   - wpmdeo.xyz
   - wpsbaq.xyz
+  - wpuzzcudultv.com
   - wqrv.cn
   - wr.yiyouliao.com
   - wrdamoe.icu
