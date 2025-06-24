@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3716
+# 规则统计: 3728
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -350,6 +350,7 @@ DOMAIN,cache-05.filehippo.net
 DOMAIN,cache.armorgames.com
 DOMAIN,cache.hackedfreegames.com
 DOMAIN,cache.omnicalculator.com
+DOMAIN,cached.rebuyengine.com
 DOMAIN,canny-assets.io
 DOMAIN,cassette.sphdigital.com.sg
 DOMAIN,cc-embed.adobe.com
@@ -396,6 +397,7 @@ DOMAIN,cdn-service.jp.sumologic.com
 DOMAIN,cdn-share-sprites.flaticon.com
 DOMAIN,cdn-static-1.medium.com
 DOMAIN,cdn-static.talent.com
+DOMAIN,cdn-swell-assets.yotpo.com
 DOMAIN,cdn-thumbs.imagevenue.com
 DOMAIN,cdn-uicons.flaticon.com
 DOMAIN,cdn-web.fydeos.io
@@ -522,6 +524,7 @@ DOMAIN,cdn.gamemonkey.org
 DOMAIN,cdn.gatherings.franchise.minecraft-services.net
 DOMAIN,cdn.gdl.gg
 DOMAIN,cdn.geekzone.co.nz
+DOMAIN,cdn.gethypervisual.com
 DOMAIN,cdn.getkoala.com
 DOMAIN,cdn.gettr.com
 DOMAIN,cdn.ghostery.com
@@ -649,6 +652,7 @@ DOMAIN,cdn.quickemailverification.com
 DOMAIN,cdn.rauno.me
 DOMAIN,cdn.readme.io
 DOMAIN,cdn.ready-market.com.tw
+DOMAIN,cdn.rebuyengine.com
 DOMAIN,cdn.recovermycart.com
 DOMAIN,cdn.redhat.com
 DOMAIN,cdn.redoc.ly
@@ -678,6 +682,7 @@ DOMAIN,cdn.sheetjs.com
 DOMAIN,cdn.shopify.com
 DOMAIN,cdn.shoppinggives.com
 DOMAIN,cdn.simpleicons.org
+DOMAIN,cdn.simplelocalize.io
 DOMAIN,cdn.sitesearch360.com
 DOMAIN,cdn.sketch.com
 DOMAIN,cdn.skymavis.com
@@ -1167,6 +1172,7 @@ DOMAIN,gtranslate.io
 DOMAIN,hawk.tomsguide.com
 DOMAIN,headway-widget.net
 DOMAIN,heatmap-external-a.strava.com
+DOMAIN,hello.zonos.com
 DOMAIN,hentaiworldtv.b-cdn.net
 DOMAIN,heroicons.com
 DOMAIN,hhhhhhome86227170.wordpress.com
@@ -1952,6 +1958,7 @@ DOMAIN,s3.coinmarketcap.com
 DOMAIN,s3.cointelegraph.com
 DOMAIN,s3.documentcloud.org
 DOMAIN,s3.doujin.sh
+DOMAIN,s3.duellinksmeta.com
 DOMAIN,s3.dzeninfra.ru
 DOMAIN,s3.envato.com
 DOMAIN,s3.eu-central-003.backblazeb2.com
@@ -2002,6 +2009,7 @@ DOMAIN,scripts.webeo.com
 DOMAIN,sdata.ndtv.com
 DOMAIN,sdk.customfit.ai
 DOMAIN,sdk.listenlive.co
+DOMAIN,sdk.loyaltylion.net
 DOMAIN,sdk.qikify.com
 DOMAIN,sdk.snapkit.com
 DOMAIN,sdk.split.io
@@ -2383,6 +2391,7 @@ DOMAIN,storage.gra.cloud.ovh.net
 DOMAIN,storage.ko-fi.com
 DOMAIN,storage.moegirl.tw
 DOMAIN,storage.sciencecast.org
+DOMAIN,storage.windiscover.com
 DOMAIN,storage.withfabric.xyz
 DOMAIN,storageapi.fleek.co
 DOMAIN,storageapi.fleek.one
@@ -2582,6 +2591,7 @@ DOMAIN,widget.user.com
 DOMAIN,widget.usersnap.com
 DOMAIN,widget.uservoice.com
 DOMAIN,widgets-red.media.weather.com
+DOMAIN,widgets.automizely.com
 DOMAIN,widgets.coaches.gnc.com
 DOMAIN,widgets.flickr.com
 DOMAIN,widgets.listenlive.co
@@ -2707,6 +2717,7 @@ DOMAIN-SUFFIX,bitbucket.io
 DOMAIN-SUFFIX,bitgetimg.com
 DOMAIN-SUFFIX,blackbaudcdn.net
 DOMAIN-SUFFIX,bleepstatic.com
+DOMAIN-SUFFIX,blink-script.com
 DOMAIN-SUFFIX,blobcdn.com
 DOMAIN-SUFFIX,blogblog.com
 DOMAIN-SUFFIX,bmp.ovh
@@ -2944,6 +2955,7 @@ DOMAIN-SUFFIX,flagcdn.com
 DOMAIN-SUFFIX,flaglog.com
 DOMAIN-SUFFIX,flagpedia.net
 DOMAIN-SUFFIX,flk-ipfs.xyz
+DOMAIN-SUFFIX,fmcdn.net
 DOMAIN-SUFFIX,fncstatic.com
 DOMAIN-SUFFIX,fontawesome.com
 DOMAIN-SUFFIX,fonts.com

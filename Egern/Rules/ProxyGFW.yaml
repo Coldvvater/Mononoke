@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7384
+# 规则统计: 7386
 
 no_resolve: true
 domain_set:
@@ -3244,6 +3244,7 @@ domain_suffix_set:
   - indianarrative.com
   - indiandefensenews.in
   - indiatimes.com
+  - indiegogo.com
   - indiemerch.com
   - indsr.org.tw
   - influxdata.com
@@ -5445,6 +5446,7 @@ domain_suffix_set:
   - signalusers.org
   - sijihuisuo.club
   - sijihuisuo.com
+  - silca.cc
   - silkbook.com
   - silvergatebank.com
   - simbolostwitter.com

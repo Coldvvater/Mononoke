@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3718
+# 规则统计: 3730
 
 domain_set:
   - 0x0.st
@@ -351,6 +351,7 @@ domain_set:
   - cache.armorgames.com
   - cache.hackedfreegames.com
   - cache.omnicalculator.com
+  - cached.rebuyengine.com
   - canny-assets.io
   - cassette.sphdigital.com.sg
   - cc-embed.adobe.com
@@ -397,6 +398,7 @@ domain_set:
   - cdn-share-sprites.flaticon.com
   - cdn-static-1.medium.com
   - cdn-static.talent.com
+  - cdn-swell-assets.yotpo.com
   - cdn-thumbs.imagevenue.com
   - cdn-uicons.flaticon.com
   - cdn-web.fydeos.io
@@ -523,6 +525,7 @@ domain_set:
   - cdn.gatherings.franchise.minecraft-services.net
   - cdn.gdl.gg
   - cdn.geekzone.co.nz
+  - cdn.gethypervisual.com
   - cdn.getkoala.com
   - cdn.gettr.com
   - cdn.ghostery.com
@@ -650,6 +653,7 @@ domain_set:
   - cdn.rauno.me
   - cdn.readme.io
   - cdn.ready-market.com.tw
+  - cdn.rebuyengine.com
   - cdn.recovermycart.com
   - cdn.redhat.com
   - cdn.redoc.ly
@@ -679,6 +683,7 @@ domain_set:
   - cdn.shopify.com
   - cdn.shoppinggives.com
   - cdn.simpleicons.org
+  - cdn.simplelocalize.io
   - cdn.sitesearch360.com
   - cdn.sketch.com
   - cdn.skymavis.com
@@ -1168,6 +1173,7 @@ domain_set:
   - hawk.tomsguide.com
   - headway-widget.net
   - heatmap-external-a.strava.com
+  - hello.zonos.com
   - hentaiworldtv.b-cdn.net
   - heroicons.com
   - hhhhhhome86227170.wordpress.com
@@ -1953,6 +1959,7 @@ domain_set:
   - s3.cointelegraph.com
   - s3.documentcloud.org
   - s3.doujin.sh
+  - s3.duellinksmeta.com
   - s3.dzeninfra.ru
   - s3.envato.com
   - s3.eu-central-003.backblazeb2.com
@@ -2003,6 +2010,7 @@ domain_set:
   - sdata.ndtv.com
   - sdk.customfit.ai
   - sdk.listenlive.co
+  - sdk.loyaltylion.net
   - sdk.qikify.com
   - sdk.snapkit.com
   - sdk.split.io
@@ -2384,6 +2392,7 @@ domain_set:
   - storage.ko-fi.com
   - storage.moegirl.tw
   - storage.sciencecast.org
+  - storage.windiscover.com
   - storage.withfabric.xyz
   - storageapi.fleek.co
   - storageapi.fleek.one
@@ -2583,6 +2592,7 @@ domain_set:
   - widget.usersnap.com
   - widget.uservoice.com
   - widgets-red.media.weather.com
+  - widgets.automizely.com
   - widgets.coaches.gnc.com
   - widgets.flickr.com
   - widgets.listenlive.co
@@ -2709,6 +2719,7 @@ domain_suffix_set:
   - bitgetimg.com
   - blackbaudcdn.net
   - bleepstatic.com
+  - blink-script.com
   - blobcdn.com
   - blogblog.com
   - bmp.ovh
@@ -2946,6 +2957,7 @@ domain_suffix_set:
   - flaglog.com
   - flagpedia.net
   - flk-ipfs.xyz
+  - fmcdn.net
   - fncstatic.com
   - fontawesome.com
   - fonts.com

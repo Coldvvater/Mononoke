@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1054
+# 规则统计: 1056
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
@@ -461,6 +461,7 @@ DOMAIN-SUFFIX,imgflip.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imo.im
 DOMAIN-SUFFIX,in
+DOMAIN-SUFFIX,indiegogo.com
 DOMAIN-SUFFIX,influxdata.com
 DOMAIN-SUFFIX,infoq.com
 DOMAIN-SUFFIX,initiummall.com
@@ -808,6 +809,7 @@ DOMAIN-SUFFIX,si
 DOMAIN-SUFFIX,signal.art
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,signalusers.org
+DOMAIN-SUFFIX,silca.cc
 DOMAIN-SUFFIX,sk
 DOMAIN-SUFFIX,sketch.cloud
 DOMAIN-SUFFIX,sketch.com

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7385
+# 规则统计: 7387
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -3241,6 +3241,7 @@ HOST-SUFFIX,indiablooms.com,ProxyGFW
 HOST-SUFFIX,indianarrative.com,ProxyGFW
 HOST-SUFFIX,indiandefensenews.in,ProxyGFW
 HOST-SUFFIX,indiatimes.com,ProxyGFW
+HOST-SUFFIX,indiegogo.com,ProxyGFW
 HOST-SUFFIX,indiemerch.com,ProxyGFW
 HOST-SUFFIX,indsr.org.tw,ProxyGFW
 HOST-SUFFIX,influxdata.com,ProxyGFW
@@ -5442,6 +5443,7 @@ HOST-SUFFIX,signal.org,ProxyGFW
 HOST-SUFFIX,signalusers.org,ProxyGFW
 HOST-SUFFIX,sijihuisuo.club,ProxyGFW
 HOST-SUFFIX,sijihuisuo.com,ProxyGFW
+HOST-SUFFIX,silca.cc,ProxyGFW
 HOST-SUFFIX,silkbook.com,ProxyGFW
 HOST-SUFFIX,silvergatebank.com,ProxyGFW
 HOST-SUFFIX,simbolostwitter.com,ProxyGFW

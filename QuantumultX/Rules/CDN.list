@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3718
+# 规则统计: 3730
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -350,6 +350,7 @@ HOST,cache-05.filehippo.net,CDN
 HOST,cache.armorgames.com,CDN
 HOST,cache.hackedfreegames.com,CDN
 HOST,cache.omnicalculator.com,CDN
+HOST,cached.rebuyengine.com,CDN
 HOST,canny-assets.io,CDN
 HOST,cassette.sphdigital.com.sg,CDN
 HOST,cc-embed.adobe.com,CDN
@@ -396,6 +397,7 @@ HOST,cdn-service.jp.sumologic.com,CDN
 HOST,cdn-share-sprites.flaticon.com,CDN
 HOST,cdn-static-1.medium.com,CDN
 HOST,cdn-static.talent.com,CDN
+HOST,cdn-swell-assets.yotpo.com,CDN
 HOST,cdn-thumbs.imagevenue.com,CDN
 HOST,cdn-uicons.flaticon.com,CDN
 HOST,cdn-web.fydeos.io,CDN
@@ -522,6 +524,7 @@ HOST,cdn.gamemonkey.org,CDN
 HOST,cdn.gatherings.franchise.minecraft-services.net,CDN
 HOST,cdn.gdl.gg,CDN
 HOST,cdn.geekzone.co.nz,CDN
+HOST,cdn.gethypervisual.com,CDN
 HOST,cdn.getkoala.com,CDN
 HOST,cdn.gettr.com,CDN
 HOST,cdn.ghostery.com,CDN
@@ -649,6 +652,7 @@ HOST,cdn.quickemailverification.com,CDN
 HOST,cdn.rauno.me,CDN
 HOST,cdn.readme.io,CDN
 HOST,cdn.ready-market.com.tw,CDN
+HOST,cdn.rebuyengine.com,CDN
 HOST,cdn.recovermycart.com,CDN
 HOST,cdn.redhat.com,CDN
 HOST,cdn.redoc.ly,CDN
@@ -678,6 +682,7 @@ HOST,cdn.sheetjs.com,CDN
 HOST,cdn.shopify.com,CDN
 HOST,cdn.shoppinggives.com,CDN
 HOST,cdn.simpleicons.org,CDN
+HOST,cdn.simplelocalize.io,CDN
 HOST,cdn.sitesearch360.com,CDN
 HOST,cdn.sketch.com,CDN
 HOST,cdn.skymavis.com,CDN
@@ -1167,6 +1172,7 @@ HOST,gtranslate.io,CDN
 HOST,hawk.tomsguide.com,CDN
 HOST,headway-widget.net,CDN
 HOST,heatmap-external-a.strava.com,CDN
+HOST,hello.zonos.com,CDN
 HOST,hentaiworldtv.b-cdn.net,CDN
 HOST,heroicons.com,CDN
 HOST,hhhhhhome86227170.wordpress.com,CDN
@@ -1952,6 +1958,7 @@ HOST,s3.coinmarketcap.com,CDN
 HOST,s3.cointelegraph.com,CDN
 HOST,s3.documentcloud.org,CDN
 HOST,s3.doujin.sh,CDN
+HOST,s3.duellinksmeta.com,CDN
 HOST,s3.dzeninfra.ru,CDN
 HOST,s3.envato.com,CDN
 HOST,s3.eu-central-003.backblazeb2.com,CDN
@@ -2002,6 +2009,7 @@ HOST,scripts.webeo.com,CDN
 HOST,sdata.ndtv.com,CDN
 HOST,sdk.customfit.ai,CDN
 HOST,sdk.listenlive.co,CDN
+HOST,sdk.loyaltylion.net,CDN
 HOST,sdk.qikify.com,CDN
 HOST,sdk.snapkit.com,CDN
 HOST,sdk.split.io,CDN
@@ -2383,6 +2391,7 @@ HOST,storage.gra.cloud.ovh.net,CDN
 HOST,storage.ko-fi.com,CDN
 HOST,storage.moegirl.tw,CDN
 HOST,storage.sciencecast.org,CDN
+HOST,storage.windiscover.com,CDN
 HOST,storage.withfabric.xyz,CDN
 HOST,storageapi.fleek.co,CDN
 HOST,storageapi.fleek.one,CDN
@@ -2582,6 +2591,7 @@ HOST,widget.user.com,CDN
 HOST,widget.usersnap.com,CDN
 HOST,widget.uservoice.com,CDN
 HOST,widgets-red.media.weather.com,CDN
+HOST,widgets.automizely.com,CDN
 HOST,widgets.coaches.gnc.com,CDN
 HOST,widgets.flickr.com,CDN
 HOST,widgets.listenlive.co,CDN
@@ -2707,6 +2717,7 @@ HOST-SUFFIX,bitbucket.io,CDN
 HOST-SUFFIX,bitgetimg.com,CDN
 HOST-SUFFIX,blackbaudcdn.net,CDN
 HOST-SUFFIX,bleepstatic.com,CDN
+HOST-SUFFIX,blink-script.com,CDN
 HOST-SUFFIX,blobcdn.com,CDN
 HOST-SUFFIX,blogblog.com,CDN
 HOST-SUFFIX,bmp.ovh,CDN
@@ -2944,6 +2955,7 @@ HOST-SUFFIX,flagcdn.com,CDN
 HOST-SUFFIX,flaglog.com,CDN
 HOST-SUFFIX,flagpedia.net,CDN
 HOST-SUFFIX,flk-ipfs.xyz,CDN
+HOST-SUFFIX,fmcdn.net,CDN
 HOST-SUFFIX,fncstatic.com,CDN
 HOST-SUFFIX,fontawesome.com,CDN
 HOST-SUFFIX,fonts.com,CDN

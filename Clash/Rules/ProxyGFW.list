@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7384
+# 规则统计: 7386
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -3241,6 +3241,7 @@ DOMAIN-SUFFIX,indiablooms.com
 DOMAIN-SUFFIX,indianarrative.com
 DOMAIN-SUFFIX,indiandefensenews.in
 DOMAIN-SUFFIX,indiatimes.com
+DOMAIN-SUFFIX,indiegogo.com
 DOMAIN-SUFFIX,indiemerch.com
 DOMAIN-SUFFIX,indsr.org.tw
 DOMAIN-SUFFIX,influxdata.com
@@ -5442,6 +5443,7 @@ DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,signalusers.org
 DOMAIN-SUFFIX,sijihuisuo.club
 DOMAIN-SUFFIX,sijihuisuo.com
+DOMAIN-SUFFIX,silca.cc
 DOMAIN-SUFFIX,silkbook.com
 DOMAIN-SUFFIX,silvergatebank.com
 DOMAIN-SUFFIX,simbolostwitter.com

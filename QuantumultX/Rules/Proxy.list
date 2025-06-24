@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1055
+# 规则统计: 1057
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -461,6 +461,7 @@ HOST-SUFFIX,imgflip.com,Proxy
 HOST-SUFFIX,imgur.com,Proxy
 HOST-SUFFIX,imo.im,Proxy
 HOST-SUFFIX,in,Proxy
+HOST-SUFFIX,indiegogo.com,Proxy
 HOST-SUFFIX,influxdata.com,Proxy
 HOST-SUFFIX,infoq.com,Proxy
 HOST-SUFFIX,initiummall.com,Proxy
@@ -808,6 +809,7 @@ HOST-SUFFIX,si,Proxy
 HOST-SUFFIX,signal.art,Proxy
 HOST-SUFFIX,signal.org,Proxy
 HOST-SUFFIX,signalusers.org,Proxy
+HOST-SUFFIX,silca.cc,Proxy
 HOST-SUFFIX,sk,Proxy
 HOST-SUFFIX,sketch.cloud,Proxy
 HOST-SUFFIX,sketch.com,Proxy
