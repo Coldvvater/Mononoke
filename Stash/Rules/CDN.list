@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3728
+# 规则统计: 3730
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2484,6 +2484,7 @@ DOMAIN,ui-statics-cf.streamable.com
 DOMAIN,ui.contentstack.com
 DOMAIN,ui.powerreviews.com
 DOMAIN,ui.trailhead.com
+DOMAIN,uim.9uu22.com
 DOMAIN,unlimited-cdn.waifu2x.net
 DOMAIN,unsubscribe-imgs.leavemealone.com
 DOMAIN,uos-support-files.svc.ui.com
@@ -2689,6 +2690,7 @@ DOMAIN-SUFFIX,assets.brightspot.abebooks.a2z.com
 DOMAIN-SUFFIX,assets.digitalocean.com
 DOMAIN-SUFFIX,assets.getpocket.com
 DOMAIN-SUFFIX,assets.heroku.com
+DOMAIN-SUFFIX,assets.ibm.com
 DOMAIN-SUFFIX,assets.pinterest.com
 DOMAIN-SUFFIX,assets.shortbread.aws.dev
 DOMAIN-SUFFIX,assets.tumblr.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3730
+# 规则统计: 3732
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2484,6 +2484,7 @@ HOST,ui-statics-cf.streamable.com,CDN
 HOST,ui.contentstack.com,CDN
 HOST,ui.powerreviews.com,CDN
 HOST,ui.trailhead.com,CDN
+HOST,uim.9uu22.com,CDN
 HOST,unlimited-cdn.waifu2x.net,CDN
 HOST,unsubscribe-imgs.leavemealone.com,CDN
 HOST,uos-support-files.svc.ui.com,CDN
@@ -2689,6 +2690,7 @@ HOST-SUFFIX,assets.brightspot.abebooks.a2z.com,CDN
 HOST-SUFFIX,assets.digitalocean.com,CDN
 HOST-SUFFIX,assets.getpocket.com,CDN
 HOST-SUFFIX,assets.heroku.com,CDN
+HOST-SUFFIX,assets.ibm.com,CDN
 HOST-SUFFIX,assets.pinterest.com,CDN
 HOST-SUFFIX,assets.shortbread.aws.dev,CDN
 HOST-SUFFIX,assets.tumblr.com,CDN

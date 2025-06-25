@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3730
+# 规则统计: 3732
 
 domain_set:
   - 0x0.st
@@ -2485,6 +2485,7 @@ domain_set:
   - ui.contentstack.com
   - ui.powerreviews.com
   - ui.trailhead.com
+  - uim.9uu22.com
   - unlimited-cdn.waifu2x.net
   - unsubscribe-imgs.leavemealone.com
   - uos-support-files.svc.ui.com
@@ -2691,6 +2692,7 @@ domain_suffix_set:
   - assets.digitalocean.com
   - assets.getpocket.com
   - assets.heroku.com
+  - assets.ibm.com
   - assets.pinterest.com
   - assets.shortbread.aws.dev
   - assets.tumblr.com
