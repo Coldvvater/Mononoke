@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4875
+# 规则统计: 4886
 
 HOST-SUFFIX,002777.xyz,AdGuardChinese
 HOST-SUFFIX,003store.com,AdGuardChinese
@@ -298,6 +298,7 @@ HOST-SUFFIX,6gute.icu,AdGuardChinese
 HOST-SUFFIX,6jyi7mzae.com,AdGuardChinese
 HOST-SUFFIX,6ku.icu,AdGuardChinese
 HOST-SUFFIX,6lx.fun,AdGuardChinese
+HOST-SUFFIX,6m8tk53pw.com,AdGuardChinese
 HOST-SUFFIX,6oj.fun,AdGuardChinese
 HOST-SUFFIX,6pznpz.com,AdGuardChinese
 HOST-SUFFIX,6qo.fun,AdGuardChinese
@@ -865,12 +866,14 @@ HOST-SUFFIX,bhaoea.cn,AdGuardChinese
 HOST-SUFFIX,bhddjf.top,AdGuardChinese
 HOST-SUFFIX,bhdnti.top,AdGuardChinese
 HOST-SUFFIX,bhegilut.com,AdGuardChinese
+HOST-SUFFIX,bheirqrol.com,AdGuardChinese
 HOST-SUFFIX,bhelzun.com,AdGuardChinese
 HOST-SUFFIX,bhohreatz.com,AdGuardChinese
 HOST-SUFFIX,bholneath.com,AdGuardChinese
 HOST-SUFFIX,bhoscopop.com,AdGuardChinese
 HOST-SUFFIX,bhovrath.com,AdGuardChinese
 HOST-SUFFIX,bhukkeks.com,AdGuardChinese
+HOST-SUFFIX,bi205u0cx.com,AdGuardChinese
 HOST-SUFFIX,biabfqq.icu,AdGuardChinese
 HOST-SUFFIX,bianxianmao.com,AdGuardChinese
 HOST-SUFFIX,biddingx.com,AdGuardChinese
@@ -1525,6 +1528,7 @@ HOST-SUFFIX,en6.icu,AdGuardChinese
 HOST-SUFFIX,enbg.cn,AdGuardChinese
 HOST-SUFFIX,enennsa.gushiwen.cn,AdGuardChinese
 HOST-SUFFIX,enews10.yxlady.net,AdGuardChinese
+HOST-SUFFIX,engq.cn,AdGuardChinese
 HOST-SUFFIX,enkvum.xyz,AdGuardChinese
 HOST-SUFFIX,enokouv.icu,AdGuardChinese
 HOST-SUFFIX,ent1.12584.cn,AdGuardChinese
@@ -2110,6 +2114,7 @@ HOST-SUFFIX,iads.xinmin.cn,AdGuardChinese
 HOST-SUFFIX,iafg.cn,AdGuardChinese
 HOST-SUFFIX,iaiqk.top,AdGuardChinese
 HOST-SUFFIX,iairuo.xyz,AdGuardChinese
+HOST-SUFFIX,iaumyc.icu,AdGuardChinese
 HOST-SUFFIX,iaxmmw9fbx.com,AdGuardChinese
 HOST-SUFFIX,ibkoiw.xyz,AdGuardChinese
 HOST-SUFFIX,ibqemk.icu,AdGuardChinese
@@ -2783,6 +2788,7 @@ HOST-SUFFIX,market.21cn.com,AdGuardChinese
 HOST-SUFFIX,market.duowan.com,AdGuardChinese
 HOST-SUFFIX,matwbp.iask.sina.com.cn,AdGuardChinese
 HOST-SUFFIX,mb.gulongbbs.com,AdGuardChinese
+HOST-SUFFIX,mbg06251pg.com,AdGuardChinese
 HOST-SUFFIX,mc.weather.com.cn,AdGuardChinese
 HOST-SUFFIX,mc5e9p8qx.com,AdGuardChinese
 HOST-SUFFIX,mcighme.icu,AdGuardChinese
@@ -3273,6 +3279,7 @@ HOST-SUFFIX,pmgfwya.icu,AdGuardChinese
 HOST-SUFFIX,pmiskc.cn,AdGuardChinese
 HOST-SUFFIX,pmnyzf.icu,AdGuardChinese
 HOST-SUFFIX,pmwofrq.icu,AdGuardChinese
+HOST-SUFFIX,pmzhtd.icu,AdGuardChinese
 HOST-SUFFIX,pmzlnt.xyz,AdGuardChinese
 HOST-SUFFIX,pnpbjt.icu,AdGuardChinese
 HOST-SUFFIX,po18ad.com,AdGuardChinese
@@ -3302,6 +3309,7 @@ HOST-SUFFIX,pro.cn,AdGuardChinese
 HOST-SUFFIX,pro.iweihai.cn,AdGuardChinese
 HOST-SUFFIX,prtfpl.xyz,AdGuardChinese
 HOST-SUFFIX,ptrmnx.icu,AdGuardChinese
+HOST-SUFFIX,pttzjo.top,AdGuardChinese
 HOST-SUFFIX,pub.funshion.com,AdGuardChinese
 HOST-SUFFIX,puhmtt.icu,AdGuardChinese
 HOST-SUFFIX,pv.dakawm.cc,AdGuardChinese
@@ -3609,6 +3617,7 @@ HOST-SUFFIX,saizih.com,AdGuardChinese
 HOST-SUFFIX,saktuddo.com,AdGuardChinese
 HOST-SUFFIX,salary.xiao84.com,AdGuardChinese
 HOST-SUFFIX,sales-frontier.com,AdGuardChinese
+HOST-SUFFIX,salsifyua22.com,AdGuardChinese
 HOST-SUFFIX,same.chinadaily.com.cn,AdGuardChinese
 HOST-SUFFIX,same.eastmoney.com,AdGuardChinese
 HOST-SUFFIX,samoryinaner.com,AdGuardChinese
@@ -4068,6 +4077,7 @@ HOST-SUFFIX,u55011.com,AdGuardChinese
 HOST-SUFFIX,u57.icu,AdGuardChinese
 HOST-SUFFIX,u5eguuk2n.com,AdGuardChinese
 HOST-SUFFIX,u5ps5.icu,AdGuardChinese
+HOST-SUFFIX,u5smvk9bg.com,AdGuardChinese
 HOST-SUFFIX,u6u.icu,AdGuardChinese
 HOST-SUFFIX,u6zsr2xn1.com,AdGuardChinese
 HOST-SUFFIX,u7u9.com,AdGuardChinese
@@ -4132,6 +4142,7 @@ HOST-SUFFIX,ukkiftx.icu,AdGuardChinese
 HOST-SUFFIX,ulad.cn,AdGuardChinese
 HOST-SUFFIX,uldaens.com,AdGuardChinese
 HOST-SUFFIX,ulink.cc,AdGuardChinese
+HOST-SUFFIX,uljg.cn,AdGuardChinese
 HOST-SUFFIX,uloscw.xyz,AdGuardChinese
 HOST-SUFFIX,um5xcgngmart.xyz,AdGuardChinese
 HOST-SUFFIX,umwcyw.xyz,AdGuardChinese
