@@ -1,9 +1,10 @@
 # 规则名称: CDN
-# 规则统计: 3730
+# 规则统计: 3743
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
 DOMAIN,4gtvimg2.4gtv.tv
+DOMAIN,a-cdn.anthropic.com
 DOMAIN,a.deviantart.net
 DOMAIN,a.fireside.fm
 DOMAIN,a.gawby.com
@@ -108,6 +109,7 @@ DOMAIN,assets-v2.super.so
 DOMAIN,assets-www.xbox.com
 DOMAIN,assets.aboutamazon.com
 DOMAIN,assets.adobedtm.com
+DOMAIN,assets.airbuddy.app
 DOMAIN,assets.apilayer.com
 DOMAIN,assets.apnews.com
 DOMAIN,assets.atlasobscura.com
@@ -275,6 +277,7 @@ DOMAIN,at.cbsi.com
 DOMAIN,attach.mobile01.com
 DOMAIN,attach2.mobile01.com
 DOMAIN,attachments.office.net
+DOMAIN,audio.rfa.org
 DOMAIN,aurora-customization-usw2.lithium.com
 DOMAIN,auth.split.io
 DOMAIN,avatar.freepik.com
@@ -302,6 +305,7 @@ DOMAIN,badges.greenkeeper.io
 DOMAIN,bcdn.starapps.studio
 DOMAIN,bcmedia.bitchute.com
 DOMAIN,before.good-apps.co
+DOMAIN,bhl.scpwikicn.com
 DOMAIN,blacklist.tampermonkey.net
 DOMAIN,blade-public-static.blade-group.com
 DOMAIN,blob.sololearn.com
@@ -670,6 +674,7 @@ DOMAIN,cdn.sc.gl
 DOMAIN,cdn.scaleflex.it
 DOMAIN,cdn.schemaapp.com
 DOMAIN,cdn.sciencecast.org
+DOMAIN,cdn.scpwiki.com
 DOMAIN,cdn.scripts.wtwhmedia.com
 DOMAIN,cdn.search.brave.com
 DOMAIN,cdn.sedo.com
@@ -1167,6 +1172,7 @@ DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
 DOMAIN,graph.facebook.com
 DOMAIN,gravatar.cat.net
 DOMAIN,gstatic.com
+DOMAIN,gstatic.olympics.com
 DOMAIN,gt1.onlyhentaistuff.com
 DOMAIN,gtranslate.io
 DOMAIN,hawk.tomsguide.com
@@ -1214,6 +1220,7 @@ DOMAIN,i.nhentai.net
 DOMAIN,i.niupic.com
 DOMAIN,i.pcmag.com
 DOMAIN,i.rtings.com
+DOMAIN,i.servimg.com
 DOMAIN,i.snap.as
 DOMAIN,i.vgy.me
 DOMAIN,i.xgroovy.com
@@ -1416,6 +1423,7 @@ DOMAIN,img.moedog.org
 DOMAIN,img.moegirl.tw
 DOMAIN,img.moviefap.com
 DOMAIN,img.mresou.com
+DOMAIN,img.olympics.com
 DOMAIN,img.openshop.com.hk
 DOMAIN,img.pawoo.net
 DOMAIN,img.perfops.net
@@ -1488,6 +1496,8 @@ DOMAIN,int.mwbbiz.com
 DOMAIN,integrations.gitbook.com
 DOMAIN,interactive-examples.mdn.mozilla.net
 DOMAIN,interactive.guim.co.uk
+DOMAIN,interwiki.scpwiki.com
+DOMAIN,interwiki.scpwikicn.com
 DOMAIN,ip-ranges.amazonaws.com
 DOMAIN,ipfs.d.tube
 DOMAIN,irp-cdn.multiscreensite.com
@@ -2314,6 +2324,7 @@ DOMAIN,static.telegraph.co.uk
 DOMAIN,static.tenki.jp
 DOMAIN,static.test-beta.com
 DOMAIN,static.theguardian.com
+DOMAIN,static.themebuilder.aws.arc.pub
 DOMAIN,static.threatlocker.com
 DOMAIN,static.toiimg.com
 DOMAIN,static.tokenview.io
@@ -2630,6 +2641,7 @@ DOMAIN-SUFFIX,1a-1791.com
 DOMAIN-SUFFIX,1passwordusercontent.ca
 DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN-SUFFIX,1passwordusercontent.eu
+DOMAIN-SUFFIX,2img.net
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,4cdn.org
 DOMAIN-SUFFIX,4everland.io
@@ -3055,6 +3067,7 @@ DOMAIN-SUFFIX,iggcdn.com
 DOMAIN-SUFFIX,ignimgs.com
 DOMAIN-SUFFIX,iili.io
 DOMAIN-SUFFIX,ik.imagekit.io
+DOMAIN-SUFFIX,illiweb.com
 DOMAIN-SUFFIX,image8899.net
 DOMAIN-SUFFIX,imagebam.com
 DOMAIN-SUFFIX,imageban.ru

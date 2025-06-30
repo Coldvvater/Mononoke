@@ -1,9 +1,10 @@
 # 规则名称: CDN
-# 规则统计: 3732
+# 规则统计: 3745
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
 HOST,4gtvimg2.4gtv.tv,CDN
+HOST,a-cdn.anthropic.com,CDN
 HOST,a.deviantart.net,CDN
 HOST,a.fireside.fm,CDN
 HOST,a.gawby.com,CDN
@@ -108,6 +109,7 @@ HOST,assets-v2.super.so,CDN
 HOST,assets-www.xbox.com,CDN
 HOST,assets.aboutamazon.com,CDN
 HOST,assets.adobedtm.com,CDN
+HOST,assets.airbuddy.app,CDN
 HOST,assets.apilayer.com,CDN
 HOST,assets.apnews.com,CDN
 HOST,assets.atlasobscura.com,CDN
@@ -275,6 +277,7 @@ HOST,at.cbsi.com,CDN
 HOST,attach.mobile01.com,CDN
 HOST,attach2.mobile01.com,CDN
 HOST,attachments.office.net,CDN
+HOST,audio.rfa.org,CDN
 HOST,aurora-customization-usw2.lithium.com,CDN
 HOST,auth.split.io,CDN
 HOST,avatar.freepik.com,CDN
@@ -302,6 +305,7 @@ HOST,badges.greenkeeper.io,CDN
 HOST,bcdn.starapps.studio,CDN
 HOST,bcmedia.bitchute.com,CDN
 HOST,before.good-apps.co,CDN
+HOST,bhl.scpwikicn.com,CDN
 HOST,blacklist.tampermonkey.net,CDN
 HOST,blade-public-static.blade-group.com,CDN
 HOST,blob.sololearn.com,CDN
@@ -670,6 +674,7 @@ HOST,cdn.sc.gl,CDN
 HOST,cdn.scaleflex.it,CDN
 HOST,cdn.schemaapp.com,CDN
 HOST,cdn.sciencecast.org,CDN
+HOST,cdn.scpwiki.com,CDN
 HOST,cdn.scripts.wtwhmedia.com,CDN
 HOST,cdn.search.brave.com,CDN
 HOST,cdn.sedo.com,CDN
@@ -1167,6 +1172,7 @@ HOST,google-ohttp-relay-safebrowsing.fastly-edge.com,CDN
 HOST,graph.facebook.com,CDN
 HOST,gravatar.cat.net,CDN
 HOST,gstatic.com,CDN
+HOST,gstatic.olympics.com,CDN
 HOST,gt1.onlyhentaistuff.com,CDN
 HOST,gtranslate.io,CDN
 HOST,hawk.tomsguide.com,CDN
@@ -1214,6 +1220,7 @@ HOST,i.nhentai.net,CDN
 HOST,i.niupic.com,CDN
 HOST,i.pcmag.com,CDN
 HOST,i.rtings.com,CDN
+HOST,i.servimg.com,CDN
 HOST,i.snap.as,CDN
 HOST,i.vgy.me,CDN
 HOST,i.xgroovy.com,CDN
@@ -1416,6 +1423,7 @@ HOST,img.moedog.org,CDN
 HOST,img.moegirl.tw,CDN
 HOST,img.moviefap.com,CDN
 HOST,img.mresou.com,CDN
+HOST,img.olympics.com,CDN
 HOST,img.openshop.com.hk,CDN
 HOST,img.pawoo.net,CDN
 HOST,img.perfops.net,CDN
@@ -1488,6 +1496,8 @@ HOST,int.mwbbiz.com,CDN
 HOST,integrations.gitbook.com,CDN
 HOST,interactive-examples.mdn.mozilla.net,CDN
 HOST,interactive.guim.co.uk,CDN
+HOST,interwiki.scpwiki.com,CDN
+HOST,interwiki.scpwikicn.com,CDN
 HOST,ip-ranges.amazonaws.com,CDN
 HOST,ipfs.d.tube,CDN
 HOST,irp-cdn.multiscreensite.com,CDN
@@ -2314,6 +2324,7 @@ HOST,static.telegraph.co.uk,CDN
 HOST,static.tenki.jp,CDN
 HOST,static.test-beta.com,CDN
 HOST,static.theguardian.com,CDN
+HOST,static.themebuilder.aws.arc.pub,CDN
 HOST,static.threatlocker.com,CDN
 HOST,static.toiimg.com,CDN
 HOST,static.tokenview.io,CDN
@@ -2630,6 +2641,7 @@ HOST-SUFFIX,1a-1791.com,CDN
 HOST-SUFFIX,1passwordusercontent.ca,CDN
 HOST-SUFFIX,1passwordusercontent.com,CDN
 HOST-SUFFIX,1passwordusercontent.eu,CDN
+HOST-SUFFIX,2img.net,CDN
 HOST-SUFFIX,2mdn.net,CDN
 HOST-SUFFIX,4cdn.org,CDN
 HOST-SUFFIX,4everland.io,CDN
@@ -3055,6 +3067,7 @@ HOST-SUFFIX,iggcdn.com,CDN
 HOST-SUFFIX,ignimgs.com,CDN
 HOST-SUFFIX,iili.io,CDN
 HOST-SUFFIX,ik.imagekit.io,CDN
+HOST-SUFFIX,illiweb.com,CDN
 HOST-SUFFIX,image8899.net,CDN
 HOST-SUFFIX,imagebam.com,CDN
 HOST-SUFFIX,imageban.ru,CDN

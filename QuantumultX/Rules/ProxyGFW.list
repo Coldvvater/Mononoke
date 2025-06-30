@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7387
+# 规则统计: 7389
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -2348,6 +2348,7 @@ HOST-SUFFIX,gigporno.ru,ProxyGFW
 HOST-SUFFIX,girlbanker.com,ProxyGFW
 HOST-SUFFIX,girlsgogames.com,ProxyGFW
 HOST-SUFFIX,git.io,ProxyGFW
+HOST-SUFFIX,gitbook.com,ProxyGFW
 HOST-SUFFIX,gitbook.io,ProxyGFW
 HOST-SUFFIX,gitbooks.io,ProxyGFW
 HOST-SUFFIX,githack.com,ProxyGFW
@@ -4537,6 +4538,7 @@ HOST-SUFFIX,olehdtv.com,ProxyGFW
 HOST-SUFFIX,olelive.com,ProxyGFW
 HOST-SUFFIX,olevod.com,ProxyGFW
 HOST-SUFFIX,olumpo.com,ProxyGFW
+HOST-SUFFIX,olympics.com,ProxyGFW
 HOST-SUFFIX,olympicwatch.org,ProxyGFW
 HOST-SUFFIX,omct.org,ProxyGFW
 HOST-SUFFIX,omgili.com,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7386
+# 规则统计: 7388
 
 no_resolve: true
 domain_set:
@@ -2351,6 +2351,7 @@ domain_suffix_set:
   - girlbanker.com
   - girlsgogames.com
   - git.io
+  - gitbook.com
   - gitbook.io
   - gitbooks.io
   - githack.com
@@ -4540,6 +4541,7 @@ domain_suffix_set:
   - olelive.com
   - olevod.com
   - olumpo.com
+  - olympics.com
   - olympicwatch.org
   - omct.org
   - omgili.com

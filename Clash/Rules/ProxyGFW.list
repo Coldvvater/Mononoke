@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7386
+# 规则统计: 7388
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -2348,6 +2348,7 @@ DOMAIN-SUFFIX,gigporno.ru
 DOMAIN-SUFFIX,girlbanker.com
 DOMAIN-SUFFIX,girlsgogames.com
 DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,gitbooks.io
 DOMAIN-SUFFIX,githack.com
@@ -4537,6 +4538,7 @@ DOMAIN-SUFFIX,olehdtv.com
 DOMAIN-SUFFIX,olelive.com
 DOMAIN-SUFFIX,olevod.com
 DOMAIN-SUFFIX,olumpo.com
+DOMAIN-SUFFIX,olympics.com
 DOMAIN-SUFFIX,olympicwatch.org
 DOMAIN-SUFFIX,omct.org
 DOMAIN-SUFFIX,omgili.com

@@ -1,10 +1,11 @@
 # 规则名称: CDN
-# 规则统计: 3732
+# 规则统计: 3745
 
 domain_set:
   - 0x0.st
   - 3dna.nationbuilder.com
   - 4gtvimg2.4gtv.tv
+  - a-cdn.anthropic.com
   - a.deviantart.net
   - a.fireside.fm
   - a.gawby.com
@@ -109,6 +110,7 @@ domain_set:
   - assets-www.xbox.com
   - assets.aboutamazon.com
   - assets.adobedtm.com
+  - assets.airbuddy.app
   - assets.apilayer.com
   - assets.apnews.com
   - assets.atlasobscura.com
@@ -276,6 +278,7 @@ domain_set:
   - attach.mobile01.com
   - attach2.mobile01.com
   - attachments.office.net
+  - audio.rfa.org
   - aurora-customization-usw2.lithium.com
   - auth.split.io
   - avatar.freepik.com
@@ -303,6 +306,7 @@ domain_set:
   - bcdn.starapps.studio
   - bcmedia.bitchute.com
   - before.good-apps.co
+  - bhl.scpwikicn.com
   - blacklist.tampermonkey.net
   - blade-public-static.blade-group.com
   - blob.sololearn.com
@@ -671,6 +675,7 @@ domain_set:
   - cdn.scaleflex.it
   - cdn.schemaapp.com
   - cdn.sciencecast.org
+  - cdn.scpwiki.com
   - cdn.scripts.wtwhmedia.com
   - cdn.search.brave.com
   - cdn.sedo.com
@@ -1168,6 +1173,7 @@ domain_set:
   - graph.facebook.com
   - gravatar.cat.net
   - gstatic.com
+  - gstatic.olympics.com
   - gt1.onlyhentaistuff.com
   - gtranslate.io
   - hawk.tomsguide.com
@@ -1215,6 +1221,7 @@ domain_set:
   - i.niupic.com
   - i.pcmag.com
   - i.rtings.com
+  - i.servimg.com
   - i.snap.as
   - i.vgy.me
   - i.xgroovy.com
@@ -1417,6 +1424,7 @@ domain_set:
   - img.moegirl.tw
   - img.moviefap.com
   - img.mresou.com
+  - img.olympics.com
   - img.openshop.com.hk
   - img.pawoo.net
   - img.perfops.net
@@ -1489,6 +1497,8 @@ domain_set:
   - integrations.gitbook.com
   - interactive-examples.mdn.mozilla.net
   - interactive.guim.co.uk
+  - interwiki.scpwiki.com
+  - interwiki.scpwikicn.com
   - ip-ranges.amazonaws.com
   - ipfs.d.tube
   - irp-cdn.multiscreensite.com
@@ -2315,6 +2325,7 @@ domain_set:
   - static.tenki.jp
   - static.test-beta.com
   - static.theguardian.com
+  - static.themebuilder.aws.arc.pub
   - static.threatlocker.com
   - static.toiimg.com
   - static.tokenview.io
@@ -2632,6 +2643,7 @@ domain_suffix_set:
   - 1passwordusercontent.ca
   - 1passwordusercontent.com
   - 1passwordusercontent.eu
+  - 2img.net
   - 2mdn.net
   - 4cdn.org
   - 4everland.io
@@ -3057,6 +3069,7 @@ domain_suffix_set:
   - ignimgs.com
   - iili.io
   - ik.imagekit.io
+  - illiweb.com
   - image8899.net
   - imagebam.com
   - imageban.ru
