@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1059
+# 规则统计: 1061
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
@@ -713,6 +713,7 @@ DOMAIN-SUFFIX,playboy.com
 DOMAIN-SUFFIX,plurk.com
 DOMAIN-SUFFIX,pm
 DOMAIN-SUFFIX,podbean.com
+DOMAIN-SUFFIX,poeditor.com
 DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,porn.com
 DOMAIN-SUFFIX,porngo.com
@@ -974,6 +975,7 @@ DOMAIN-SUFFIX,watch
 DOMAIN-SUFFIX,waveprotocol.org
 DOMAIN-SUFFIX,waymo.com
 DOMAIN-SUFFIX,waze.com
+DOMAIN-SUFFIX,wdfiles.com
 DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,webflow.com
 DOMAIN-SUFFIX,webmproject.org

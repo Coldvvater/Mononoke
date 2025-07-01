@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3743
+# 规则统计: 3745
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -506,6 +506,7 @@ DOMAIN,cdn.ecomm.ui.com
 DOMAIN,cdn.embed.ly
 DOMAIN,cdn.embedly.com
 DOMAIN,cdn.engagement.ai
+DOMAIN,cdn.episode.ninja
 DOMAIN,cdn.equalweb.com
 DOMAIN,cdn.equinix.com
 DOMAIN,cdn.eu.contentful.com
@@ -3409,6 +3410,7 @@ DOMAIN-SUFFIX,reactjs.org
 DOMAIN-SUFFIX,readthedocs.io
 DOMAIN-SUFFIX,reasoningtheory.net
 DOMAIN-SUFFIX,recharts.org
+DOMAIN-SUFFIX,redcdn.net
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com

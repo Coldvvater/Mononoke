@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4928
+# 规则统计: 4937
 
 domain_suffix_set:
   - 002777.xyz
@@ -487,6 +487,7 @@ domain_suffix_set:
   - a32a.com.cn
   - a5t.icu
   - a7c.icu
+  - a7wiuh3she.com
   - a8h4zhbmxi.com
   - aa.gushiwen.org
   - aa.xiangxiangmf.com
@@ -1360,11 +1361,13 @@ domain_suffix_set:
   - dms.xuexxing.com
   - dmym.aixyy.com
   - dn4qoz.com
+  - dn6ik9809m.com
   - dnd2.icu
   - dnjxds.top
   - dnokacraldho.com
   - dnpz123.com
   - dns.chuzushijian.cn
+  - dogwoode09.top
   - domain1.chahaoba.cn
   - dongtukj.oss-cn-hongkong.aliyuncs.com
   - dopklb.xyz
@@ -1528,6 +1531,7 @@ domain_suffix_set:
   - ejunshi.com
   - ekltes.xyz
   - ekykse.xyz
+  - ekzf.cn
   - ekzmk.icu
   - eldaridpr.com
   - eletys.icu
@@ -1890,6 +1894,7 @@ domain_suffix_set:
   - goto.www.iciba.com
   - gp.jstv.com
   - gp.zaiyunli.cn
+  - gpkheq.icu
   - gpmzkg.xyz
   - gpowow.xyz
   - gpqkeq.xyz
@@ -2983,6 +2988,7 @@ domain_suffix_set:
   - naukreatn.com
   - nbdtdt.icu
   - nbfsvreu.icu
+  - nbpczr.icu
   - nbraenkikrn.com
   - nbragzui.com
   - ncjqjp.icu
@@ -3585,6 +3591,7 @@ domain_suffix_set:
   - rklzpo.com
   - rktjxj.icu
   - rkwxfi.xyz
+  - rl1vypwyd2.com
   - rmhfrtnd.com
   - rmioswx.icu
   - rmtxdn.icu
@@ -4379,6 +4386,7 @@ domain_suffix_set:
   - vvadz.cc
   - vvd68pv6lj.com
   - vvfgjzwa.icu
+  - vvllrb.top
   - vvttpn.xyz
   - vvv.ieduw.com
   - vwuudahnarh.com
@@ -4896,6 +4904,7 @@ domain_suffix_set:
   - zoltrl.xyz
   - zooj.cn
   - zoom.zshu.net
+  - zorkraith.com
   - zq.lansedir.com
   - zqifmyt.icu
   - zqntbc.top

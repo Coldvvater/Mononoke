@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7389
+# 规则统计: 7391
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -4841,6 +4841,7 @@ DOMAIN-SUFFIX,podbean.com
 DOMAIN-SUFFIX,podcast.co
 DOMAIN-SUFFIX,podictionary.com
 DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,poeditor.com
 DOMAIN-SUFFIX,points-media.com
 DOMAIN-SUFFIX,pokerstars.com
 DOMAIN-SUFFIX,pokerstars.net
@@ -6757,6 +6758,7 @@ DOMAIN-SUFFIX,waymo.com
 DOMAIN-SUFFIX,waze.com
 DOMAIN-SUFFIX,wd.bible
 DOMAIN-SUFFIX,wdf5.com
+DOMAIN-SUFFIX,wdfiles.com
 DOMAIN-SUFFIX,wealth.com.tw
 DOMAIN-SUFFIX,wearehairy.com
 DOMAIN-SUFFIX,wearn.com

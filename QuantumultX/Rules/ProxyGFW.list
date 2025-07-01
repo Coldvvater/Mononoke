@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7389
+# 规则统计: 7391
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -4841,6 +4841,7 @@ HOST-SUFFIX,podbean.com,ProxyGFW
 HOST-SUFFIX,podcast.co,ProxyGFW
 HOST-SUFFIX,podictionary.com,ProxyGFW
 HOST-SUFFIX,poe.com,ProxyGFW
+HOST-SUFFIX,poeditor.com,ProxyGFW
 HOST-SUFFIX,points-media.com,ProxyGFW
 HOST-SUFFIX,pokerstars.com,ProxyGFW
 HOST-SUFFIX,pokerstars.net,ProxyGFW
@@ -6757,6 +6758,7 @@ HOST-SUFFIX,waymo.com,ProxyGFW
 HOST-SUFFIX,waze.com,ProxyGFW
 HOST-SUFFIX,wd.bible,ProxyGFW
 HOST-SUFFIX,wdf5.com,ProxyGFW
+HOST-SUFFIX,wdfiles.com,ProxyGFW
 HOST-SUFFIX,wealth.com.tw,ProxyGFW
 HOST-SUFFIX,wearehairy.com,ProxyGFW
 HOST-SUFFIX,wearn.com,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3745
+# 规则统计: 3747
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -506,6 +506,7 @@ HOST,cdn.ecomm.ui.com,CDN
 HOST,cdn.embed.ly,CDN
 HOST,cdn.embedly.com,CDN
 HOST,cdn.engagement.ai,CDN
+HOST,cdn.episode.ninja,CDN
 HOST,cdn.equalweb.com,CDN
 HOST,cdn.equinix.com,CDN
 HOST,cdn.eu.contentful.com,CDN
@@ -3409,6 +3410,7 @@ HOST-SUFFIX,reactjs.org,CDN
 HOST-SUFFIX,readthedocs.io,CDN
 HOST-SUFFIX,reasoningtheory.net,CDN
 HOST-SUFFIX,recharts.org,CDN
+HOST-SUFFIX,redcdn.net,CDN
 HOST-SUFFIX,redd.it,CDN
 HOST-SUFFIX,redditmedia.com,CDN
 HOST-SUFFIX,redditstatic.com,CDN

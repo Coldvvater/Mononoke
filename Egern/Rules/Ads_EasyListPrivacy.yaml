@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41870
+# 规则统计: 41878
 
 domain_suffix_set:
   - 0.0.0.1
@@ -5526,6 +5526,7 @@ domain_suffix_set:
   - analytics.theinstitutes.org
   - analytics.themarketiq.com
   - analytics.threedeepmarketing.com
+  - analytics.ticimax.cloud
   - analytics.ticinolibero.ch
   - analytics.tiktok.com
   - analytics.tio.ch
@@ -16892,6 +16893,7 @@ domain_suffix_set:
   - insights.journey.world
   - insights.labcorp.com
   - insights.morrismohawk.ca
+  - insights.mtv.a2d.tv
   - insights.networks.global.fujitsu.com
   - insights.nexansdatacenter.com
   - insights.nowitmatters.com
@@ -24928,7 +24930,6 @@ domain_suffix_set:
   - pgs.corporatetravelcommunity.com
   - pgs.farmprogress.com
   - pgt1.voyage-prive.es
-  - ph.thenextweb.com
   - phadia.thermo.com
   - phadia.thermofisher.com
   - phbnix.rocelec.com
@@ -26558,6 +26559,10 @@ domain_suffix_set:
   - rsc.lepoint.fr
   - rsinqg.homelux.hu
   - rsotku.mitsui-shopping-park.com
+  - rsra-ph.cdn-fileserver.com
+  - rsra.cdn-fileserver.com
+  - rsras-ph.cdn-fileserver.com
+  - rsras.cdn-fileserver.com
   - rstat.rockmostbet.com
   - rsuevw.unicef.or.jp
   - rsv.dankore.jp
@@ -32280,6 +32285,7 @@ domain_suffix_set:
   - squirrel.malaynahocker.com
   - squishybears.com
   - sr59t7wbx5.claricelin.com
+  - sra-px.cdn-fileserver.com
   - src.freshmarketer.in
   - srd1-pdx.net.jumia.ci
   - srepdata.12newsnow.com
@@ -32670,7 +32676,6 @@ domain_suffix_set:
   - sstat.spreadex.com
   - sstatistikk.telenor.no
   - sstats.aavacations.com
-  - sstats.adobe.com
   - sstats.adultswim.com
   - sstats.afco.com
   - sstats.airfarewatchdog.co.uk
@@ -38978,7 +38983,9 @@ domain_suffix_set:
   - um.contentstudio.io
   - umami.aigenerations.net
   - umami.askrella.de
+  - umami.flixer.su
   - umami.heroku.uk
+  - umami.spencerdevs.xyz
   - umami.vidfast.pro
   - umami.wakarimasen.moe
   - umazvs.raybiotech.com
@@ -41589,6 +41596,7 @@ domain_suffix_set:
   - yourporscheimg.nabooda-auto.com
   - yoursolution.electrified.averydennison.com
   - yoursolution.tapes.averydennison.com
+  - youseasky.com
   - yoxeha.afloral.com
   - ypbfjo.paulsmith.co.jp
   - ypcdbw.drive2.com

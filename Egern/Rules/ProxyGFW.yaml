@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7388
+# 规则统计: 7390
 
 no_resolve: true
 domain_set:
@@ -4844,6 +4844,7 @@ domain_suffix_set:
   - podcast.co
   - podictionary.com
   - poe.com
+  - poeditor.com
   - points-media.com
   - pokerstars.com
   - pokerstars.net
@@ -6760,6 +6761,7 @@ domain_suffix_set:
   - waze.com
   - wd.bible
   - wdf5.com
+  - wdfiles.com
   - wealth.com.tw
   - wearehairy.com
   - wearn.com

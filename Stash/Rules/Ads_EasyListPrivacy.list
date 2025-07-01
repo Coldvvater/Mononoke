@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41870
+# 规则统计: 41878
 
 DOMAIN-SUFFIX,0.0.0.1
 DOMAIN-SUFFIX,0.myikas.com
@@ -5525,6 +5525,7 @@ DOMAIN-SUFFIX,analytics.thehartford.com
 DOMAIN-SUFFIX,analytics.theinstitutes.org
 DOMAIN-SUFFIX,analytics.themarketiq.com
 DOMAIN-SUFFIX,analytics.threedeepmarketing.com
+DOMAIN-SUFFIX,analytics.ticimax.cloud
 DOMAIN-SUFFIX,analytics.ticinolibero.ch
 DOMAIN-SUFFIX,analytics.tiktok.com
 DOMAIN-SUFFIX,analytics.tio.ch
@@ -16891,6 +16892,7 @@ DOMAIN-SUFFIX,insights.jackporter.com
 DOMAIN-SUFFIX,insights.journey.world
 DOMAIN-SUFFIX,insights.labcorp.com
 DOMAIN-SUFFIX,insights.morrismohawk.ca
+DOMAIN-SUFFIX,insights.mtv.a2d.tv
 DOMAIN-SUFFIX,insights.networks.global.fujitsu.com
 DOMAIN-SUFFIX,insights.nexansdatacenter.com
 DOMAIN-SUFFIX,insights.nowitmatters.com
@@ -24927,7 +24929,6 @@ DOMAIN-SUFFIX,pgs.centreforaviation.com
 DOMAIN-SUFFIX,pgs.corporatetravelcommunity.com
 DOMAIN-SUFFIX,pgs.farmprogress.com
 DOMAIN-SUFFIX,pgt1.voyage-prive.es
-DOMAIN-SUFFIX,ph.thenextweb.com
 DOMAIN-SUFFIX,phadia.thermo.com
 DOMAIN-SUFFIX,phadia.thermofisher.com
 DOMAIN-SUFFIX,phbnix.rocelec.com
@@ -26557,6 +26558,10 @@ DOMAIN-SUFFIX,rsaard.en-tea.com
 DOMAIN-SUFFIX,rsc.lepoint.fr
 DOMAIN-SUFFIX,rsinqg.homelux.hu
 DOMAIN-SUFFIX,rsotku.mitsui-shopping-park.com
+DOMAIN-SUFFIX,rsra-ph.cdn-fileserver.com
+DOMAIN-SUFFIX,rsra.cdn-fileserver.com
+DOMAIN-SUFFIX,rsras-ph.cdn-fileserver.com
+DOMAIN-SUFFIX,rsras.cdn-fileserver.com
 DOMAIN-SUFFIX,rstat.rockmostbet.com
 DOMAIN-SUFFIX,rsuevw.unicef.or.jp
 DOMAIN-SUFFIX,rsv.dankore.jp
@@ -32279,6 +32284,7 @@ DOMAIN-SUFFIX,squirrel.cividi.ch
 DOMAIN-SUFFIX,squirrel.malaynahocker.com
 DOMAIN-SUFFIX,squishybears.com
 DOMAIN-SUFFIX,sr59t7wbx5.claricelin.com
+DOMAIN-SUFFIX,sra-px.cdn-fileserver.com
 DOMAIN-SUFFIX,src.freshmarketer.in
 DOMAIN-SUFFIX,srd1-pdx.net.jumia.ci
 DOMAIN-SUFFIX,srepdata.12newsnow.com
@@ -32669,7 +32675,6 @@ DOMAIN-SUFFIX,sstat.outrigger.com
 DOMAIN-SUFFIX,sstat.spreadex.com
 DOMAIN-SUFFIX,sstatistikk.telenor.no
 DOMAIN-SUFFIX,sstats.aavacations.com
-DOMAIN-SUFFIX,sstats.adobe.com
 DOMAIN-SUFFIX,sstats.adultswim.com
 DOMAIN-SUFFIX,sstats.afco.com
 DOMAIN-SUFFIX,sstats.airfarewatchdog.co.uk
@@ -38977,7 +38982,9 @@ DOMAIN-SUFFIX,ulutlv.esprit.fr
 DOMAIN-SUFFIX,um.contentstudio.io
 DOMAIN-SUFFIX,umami.aigenerations.net
 DOMAIN-SUFFIX,umami.askrella.de
+DOMAIN-SUFFIX,umami.flixer.su
 DOMAIN-SUFFIX,umami.heroku.uk
+DOMAIN-SUFFIX,umami.spencerdevs.xyz
 DOMAIN-SUFFIX,umami.vidfast.pro
 DOMAIN-SUFFIX,umami.wakarimasen.moe
 DOMAIN-SUFFIX,umazvs.raybiotech.com
@@ -41588,6 +41595,7 @@ DOMAIN-SUFFIX,yourporsche.nabooda-auto.com
 DOMAIN-SUFFIX,yourporscheimg.nabooda-auto.com
 DOMAIN-SUFFIX,yoursolution.electrified.averydennison.com
 DOMAIN-SUFFIX,yoursolution.tapes.averydennison.com
+DOMAIN-SUFFIX,youseasky.com
 DOMAIN-SUFFIX,yoxeha.afloral.com
 DOMAIN-SUFFIX,ypbfjo.paulsmith.co.jp
 DOMAIN-SUFFIX,ypcdbw.drive2.com

@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41870
+# 规则统计: 41878
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -5525,6 +5525,7 @@ HOST-SUFFIX,analytics.thehartford.com,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.theinstitutes.org,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.themarketiq.com,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.threedeepmarketing.com,Ads_EasyListPrivacy
+HOST-SUFFIX,analytics.ticimax.cloud,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.ticinolibero.ch,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.tiktok.com,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.tio.ch,Ads_EasyListPrivacy
@@ -16891,6 +16892,7 @@ HOST-SUFFIX,insights.jackporter.com,Ads_EasyListPrivacy
 HOST-SUFFIX,insights.journey.world,Ads_EasyListPrivacy
 HOST-SUFFIX,insights.labcorp.com,Ads_EasyListPrivacy
 HOST-SUFFIX,insights.morrismohawk.ca,Ads_EasyListPrivacy
+HOST-SUFFIX,insights.mtv.a2d.tv,Ads_EasyListPrivacy
 HOST-SUFFIX,insights.networks.global.fujitsu.com,Ads_EasyListPrivacy
 HOST-SUFFIX,insights.nexansdatacenter.com,Ads_EasyListPrivacy
 HOST-SUFFIX,insights.nowitmatters.com,Ads_EasyListPrivacy
@@ -24927,7 +24929,6 @@ HOST-SUFFIX,pgs.centreforaviation.com,Ads_EasyListPrivacy
 HOST-SUFFIX,pgs.corporatetravelcommunity.com,Ads_EasyListPrivacy
 HOST-SUFFIX,pgs.farmprogress.com,Ads_EasyListPrivacy
 HOST-SUFFIX,pgt1.voyage-prive.es,Ads_EasyListPrivacy
-HOST-SUFFIX,ph.thenextweb.com,Ads_EasyListPrivacy
 HOST-SUFFIX,phadia.thermo.com,Ads_EasyListPrivacy
 HOST-SUFFIX,phadia.thermofisher.com,Ads_EasyListPrivacy
 HOST-SUFFIX,phbnix.rocelec.com,Ads_EasyListPrivacy
@@ -26557,6 +26558,10 @@ HOST-SUFFIX,rsaard.en-tea.com,Ads_EasyListPrivacy
 HOST-SUFFIX,rsc.lepoint.fr,Ads_EasyListPrivacy
 HOST-SUFFIX,rsinqg.homelux.hu,Ads_EasyListPrivacy
 HOST-SUFFIX,rsotku.mitsui-shopping-park.com,Ads_EasyListPrivacy
+HOST-SUFFIX,rsra-ph.cdn-fileserver.com,Ads_EasyListPrivacy
+HOST-SUFFIX,rsra.cdn-fileserver.com,Ads_EasyListPrivacy
+HOST-SUFFIX,rsras-ph.cdn-fileserver.com,Ads_EasyListPrivacy
+HOST-SUFFIX,rsras.cdn-fileserver.com,Ads_EasyListPrivacy
 HOST-SUFFIX,rstat.rockmostbet.com,Ads_EasyListPrivacy
 HOST-SUFFIX,rsuevw.unicef.or.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,rsv.dankore.jp,Ads_EasyListPrivacy
@@ -32279,6 +32284,7 @@ HOST-SUFFIX,squirrel.cividi.ch,Ads_EasyListPrivacy
 HOST-SUFFIX,squirrel.malaynahocker.com,Ads_EasyListPrivacy
 HOST-SUFFIX,squishybears.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sr59t7wbx5.claricelin.com,Ads_EasyListPrivacy
+HOST-SUFFIX,sra-px.cdn-fileserver.com,Ads_EasyListPrivacy
 HOST-SUFFIX,src.freshmarketer.in,Ads_EasyListPrivacy
 HOST-SUFFIX,srd1-pdx.net.jumia.ci,Ads_EasyListPrivacy
 HOST-SUFFIX,srepdata.12newsnow.com,Ads_EasyListPrivacy
@@ -32669,7 +32675,6 @@ HOST-SUFFIX,sstat.outrigger.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sstat.spreadex.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sstatistikk.telenor.no,Ads_EasyListPrivacy
 HOST-SUFFIX,sstats.aavacations.com,Ads_EasyListPrivacy
-HOST-SUFFIX,sstats.adobe.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sstats.adultswim.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sstats.afco.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sstats.airfarewatchdog.co.uk,Ads_EasyListPrivacy
@@ -38977,7 +38982,9 @@ HOST-SUFFIX,ulutlv.esprit.fr,Ads_EasyListPrivacy
 HOST-SUFFIX,um.contentstudio.io,Ads_EasyListPrivacy
 HOST-SUFFIX,umami.aigenerations.net,Ads_EasyListPrivacy
 HOST-SUFFIX,umami.askrella.de,Ads_EasyListPrivacy
+HOST-SUFFIX,umami.flixer.su,Ads_EasyListPrivacy
 HOST-SUFFIX,umami.heroku.uk,Ads_EasyListPrivacy
+HOST-SUFFIX,umami.spencerdevs.xyz,Ads_EasyListPrivacy
 HOST-SUFFIX,umami.vidfast.pro,Ads_EasyListPrivacy
 HOST-SUFFIX,umami.wakarimasen.moe,Ads_EasyListPrivacy
 HOST-SUFFIX,umazvs.raybiotech.com,Ads_EasyListPrivacy
@@ -41588,6 +41595,7 @@ HOST-SUFFIX,yourporsche.nabooda-auto.com,Ads_EasyListPrivacy
 HOST-SUFFIX,yourporscheimg.nabooda-auto.com,Ads_EasyListPrivacy
 HOST-SUFFIX,yoursolution.electrified.averydennison.com,Ads_EasyListPrivacy
 HOST-SUFFIX,yoursolution.tapes.averydennison.com,Ads_EasyListPrivacy
+HOST-SUFFIX,youseasky.com,Ads_EasyListPrivacy
 HOST-SUFFIX,yoxeha.afloral.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ypbfjo.paulsmith.co.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,ypcdbw.drive2.com,Ads_EasyListPrivacy
