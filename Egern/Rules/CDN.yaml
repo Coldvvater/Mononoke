@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3747
+# 规则统计: 3754
 
 domain_set:
   - 0x0.st
@@ -1007,6 +1007,7 @@ domain_set:
   - dlassets-ssl.xboxlive.com
   - do.featurebase.app
   - docs.rs
+  - domain.expiring-soon.xyz
   - doppler-config.cbsivideo.com
   - doujin-assets.dmm.co.jp
   - downloads.coindesk.com
@@ -1890,6 +1891,7 @@ domain_set:
   - registry.oomol.com
   - regmedia.co.uk
   - renderer-assets.typeform.com
+  - res-etl-ssl.mypikpak.com
   - res-geo.cdn.office.net
   - res.abc.net.au
   - res.cloudinary.com
@@ -2045,6 +2047,7 @@ domain_set:
   - sf-coze-web-cdn.coze.com
   - sf-flow-web-cdn.ciciai.com
   - sfiles.cnyes.cool
+  - sg-thumbnail-drive.mypikpak.com
   - shell.cdn.office.net
   - shopify.cleverecommerce.com
   - shots.codepen.io
@@ -2266,6 +2269,7 @@ domain_set:
   - static.moomoo.com
   - static.moonpay.com
   - static.music.com
+  - static.mypikpak.com
   - static.mysph.sph.com.sg
   - static.mytonwallet.io
   - static.na1.visioncritical.com
@@ -2841,6 +2845,7 @@ domain_suffix_set:
   - cloudflare.ltd
   - cloudflarestream.com
   - cloudfront.net
+  - cloudfront.net.in
   - cloudimg.io
   - cmail19.com
   - cmail20.com
@@ -3161,6 +3166,8 @@ domain_suffix_set:
   - ipns.co
   - itsre-sumo.mozilla.net
   - itvstatic.com
+  - javcdn.li
+  - javcdn.vip
   - javplayer.me
   - javtxt.com
   - jbkcdn.com

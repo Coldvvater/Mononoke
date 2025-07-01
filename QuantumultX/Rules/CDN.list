@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3747
+# 规则统计: 3754
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1006,6 +1006,7 @@ HOST,dl.airdroid.com,CDN
 HOST,dlassets-ssl.xboxlive.com,CDN
 HOST,do.featurebase.app,CDN
 HOST,docs.rs,CDN
+HOST,domain.expiring-soon.xyz,CDN
 HOST,doppler-config.cbsivideo.com,CDN
 HOST,doujin-assets.dmm.co.jp,CDN
 HOST,downloads.coindesk.com,CDN
@@ -1889,6 +1890,7 @@ HOST,registry.api.cnn.io,CDN
 HOST,registry.oomol.com,CDN
 HOST,regmedia.co.uk,CDN
 HOST,renderer-assets.typeform.com,CDN
+HOST,res-etl-ssl.mypikpak.com,CDN
 HOST,res-geo.cdn.office.net,CDN
 HOST,res.abc.net.au,CDN
 HOST,res.cloudinary.com,CDN
@@ -2044,6 +2046,7 @@ HOST,services.linkfire.com,CDN
 HOST,sf-coze-web-cdn.coze.com,CDN
 HOST,sf-flow-web-cdn.ciciai.com,CDN
 HOST,sfiles.cnyes.cool,CDN
+HOST,sg-thumbnail-drive.mypikpak.com,CDN
 HOST,shell.cdn.office.net,CDN
 HOST,shopify.cleverecommerce.com,CDN
 HOST,shots.codepen.io,CDN
@@ -2265,6 +2268,7 @@ HOST,static.monei.net,CDN
 HOST,static.moomoo.com,CDN
 HOST,static.moonpay.com,CDN
 HOST,static.music.com,CDN
+HOST,static.mypikpak.com,CDN
 HOST,static.mysph.sph.com.sg,CDN
 HOST,static.mytonwallet.io,CDN
 HOST,static.na1.visioncritical.com,CDN
@@ -2839,6 +2843,7 @@ HOST-SUFFIX,cloudflare-ipfs.com,CDN
 HOST-SUFFIX,cloudflare.ltd,CDN
 HOST-SUFFIX,cloudflarestream.com,CDN
 HOST-SUFFIX,cloudfront.net,CDN
+HOST-SUFFIX,cloudfront.net.in,CDN
 HOST-SUFFIX,cloudimg.io,CDN
 HOST-SUFFIX,cmail19.com,CDN
 HOST-SUFFIX,cmail20.com,CDN
@@ -3159,6 +3164,8 @@ HOST-SUFFIX,ipfsgateway.makersplace.com,CDN
 HOST-SUFFIX,ipns.co,CDN
 HOST-SUFFIX,itsre-sumo.mozilla.net,CDN
 HOST-SUFFIX,itvstatic.com,CDN
+HOST-SUFFIX,javcdn.li,CDN
+HOST-SUFFIX,javcdn.vip,CDN
 HOST-SUFFIX,javplayer.me,CDN
 HOST-SUFFIX,javtxt.com,CDN
 HOST-SUFFIX,jbkcdn.com,CDN
