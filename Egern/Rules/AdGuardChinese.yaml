@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4961
+# 规则统计: 4967
 
 domain_suffix_set:
   - 002777.xyz
@@ -1537,6 +1537,7 @@ domain_suffix_set:
   - ejti.cn
   - ejunshi.com
   - ekltes.xyz
+  - eknz.cn
   - ekykse.xyz
   - ekzf.cn
   - ekzmk.icu
@@ -1688,6 +1689,7 @@ domain_suffix_set:
   - files.xtpag.top
   - fingkndk.com
   - first-hufu.oss-cn-shanghai.aliyuncs.com
+  - fiu07031kl.com
   - fjzimaoqu.cn
   - fk3nf1xeh.top
   - fkesfg.com
@@ -2665,6 +2667,7 @@ domain_suffix_set:
   - lczk.cn
   - ldamcsl.top
   - ldbnhd.icu
+  - ldbwxo.cn
   - ldinmal.top
   - ldipsuml.top
   - ldjfsdku.icu
@@ -3395,6 +3398,7 @@ domain_suffix_set:
   - q1bp.icu
   - q2usj.icu
   - q5sn40kmp2.com
+  - q83v5haaz.com
   - q8q.icu
   - qa6z7kz5r.com
   - qacdf511.cn
@@ -4334,6 +4338,7 @@ domain_suffix_set:
   - vgxbpf.xyz
   - vgxj.cn
   - vh8.icu
+  - vhaugmotn.com
   - vhid.cn
   - vhje.cn
   - vhrhnh.icu
@@ -4580,6 +4585,7 @@ domain_suffix_set:
   - x0or8.icu
   - x0y081e.xyz
   - x1.52aoteman.com
+  - x1c9gze9i.com
   - x4d.icu
   - xa7j.icu
   - xadulxs.cn
