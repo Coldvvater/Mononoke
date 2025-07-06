@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 4975
+# 规则统计: 4988
 
 domain_suffix_set:
   - 002777.xyz
@@ -261,6 +261,7 @@ domain_suffix_set:
   - 58tg.com
   - 591520.xyz
   - 595image.com
+  - 59xx2yr9i.com
   - 5azvpjx8xj.com
   - 5brxi.icu
   - 5d7k30pv1u.com
@@ -738,6 +739,7 @@ domain_suffix_set:
   - b10.justacdn.net
   - b477.life
   - b7sw62.pingshu8.xyz
+  - b8b4ix7bj.com
   - badding.oss-ap-southeast-1.aliyuncs.com
   - baggvon.icu
   - baidu-jxf.co
@@ -1330,6 +1332,7 @@ domain_suffix_set:
   - displink.com
   - djecgyk.icu
   - djfp97jp7v.com
+  - djhfkcfrdxv.com
   - djs.baomihua.com
   - djsxm.xyz
   - dkasdeerw.xyz
@@ -1693,6 +1696,8 @@ domain_suffix_set:
   - first-hufu.oss-cn-shanghai.aliyuncs.com
   - fiu07031kl.com
   - fiu07041kl.com
+  - fiu07050kl.com
+  - fiu07051kl.com
   - fjzimaoqu.cn
   - fk3nf1xeh.top
   - fkesfg.com
@@ -1932,6 +1937,7 @@ domain_suffix_set:
   - gt.yy.com
   - gtcbai.icu
   - gtdf33.fun
+  - gtokii.icu
   - gtuy6el1hd.com
   - gtxkze.cn
   - guang.sdsgwy.com
@@ -2828,6 +2834,7 @@ domain_suffix_set:
   - macos.space
   - magioe.xyz
   - magnetdog.net
+  - magnolian07.top
   - main.jiukang.org
   - maiysw.xyz
   - majile.vip
@@ -3029,6 +3036,7 @@ domain_suffix_set:
   - news.qcyz.cn
   - news.tagtoo.co
   - nf2r18mdu.com
+  - nftfdj.icu
   - nftxfd.top
   - nghv.cn
   - ngjcvn.top
@@ -3135,6 +3143,7 @@ domain_suffix_set:
   - obwnaon.icu
   - oclimik.top
   - ocmr.cn
+  - ocvr.cn
   - odamcsk.top
   - odinmak.top
   - odipsumk.top
@@ -3319,6 +3328,7 @@ domain_suffix_set:
   - piln.cn
   - pincai.com
   - pinjzp.icu
+  - pisauc.cn
   - pisb.cn
   - pixoctopus.pixnet.net
   - pjaihds.icu
@@ -3432,6 +3442,7 @@ domain_suffix_set:
   - qdoshby.top
   - qdqppsl.top
   - qduttornm.com
+  - qdwhru8p2.com
   - qdwmdikzudq.com
   - qdzyspjx.com
   - qebgcdcjr000.fun
@@ -4138,6 +4149,7 @@ domain_suffix_set:
   - u1055.com
   - u1077.com
   - u1099.com
+  - u10nte4ba.com
   - u1102.com
   - u22011.com
   - u22066.com
@@ -4743,6 +4755,7 @@ domain_suffix_set:
   - y4l.icu
   - y4re1yokqv.com
   - y66xvgo5i.chuimg.com
+  - y7pcgacfn.com
   - y7ts.icu
   - y9ppy0icw1.com
   - yaaumqa.top
