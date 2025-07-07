@@ -361,6 +361,7 @@ domain_set:
   - cc-embed.adobe.com
   - cc.boyfriendtv.com
   - cdn-1.ggjav.com
+  - cdn-1.strava.com
   - cdn-a.sonyentertainmentnetwork.com
   - cdn-app.pathfactory.com
   - cdn-assets.circleci.com
@@ -3230,7 +3231,6 @@ domain_suffix_set:
   - macysassets.com
   - makeuseofimages.com
   - mangadex.network
-  - mangguo-youku.com
   - mapi.4kvm.net
   - marketing.aws.dev
   - mcusercontent.com

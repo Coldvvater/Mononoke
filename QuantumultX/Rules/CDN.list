@@ -360,6 +360,7 @@ HOST,cassette.sphdigital.com.sg,CDN
 HOST,cc-embed.adobe.com,CDN
 HOST,cc.boyfriendtv.com,CDN
 HOST,cdn-1.ggjav.com,CDN
+HOST,cdn-1.strava.com,CDN
 HOST,cdn-a.sonyentertainmentnetwork.com,CDN
 HOST,cdn-app.pathfactory.com,CDN
 HOST,cdn-assets.circleci.com,CDN
@@ -3228,7 +3229,6 @@ HOST-SUFFIX,lzzypic.com,CDN
 HOST-SUFFIX,macysassets.com,CDN
 HOST-SUFFIX,makeuseofimages.com,CDN
 HOST-SUFFIX,mangadex.network,CDN
-HOST-SUFFIX,mangguo-youku.com,CDN
 HOST-SUFFIX,mapi.4kvm.net,CDN
 HOST-SUFFIX,marketing.aws.dev,CDN
 HOST-SUFFIX,mcusercontent.com,CDN

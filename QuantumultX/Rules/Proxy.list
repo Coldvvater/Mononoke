@@ -582,6 +582,7 @@ HOST-SUFFIX,mikrotik.com,Proxy
 HOST-SUFFIX,mil,Proxy
 HOST-SUFFIX,minecraft-services.net,Proxy
 HOST-SUFFIX,minecraft.net,Proxy
+HOST-SUFFIX,minecraft.wiki,Proxy
 HOST-SUFFIX,minecraftforum.net,Proxy
 HOST-SUFFIX,minecraftservices.com,Proxy
 HOST-SUFFIX,miniclip.com,Proxy
@@ -989,7 +990,6 @@ HOST-SUFFIX,whoer.com,Proxy
 HOST-SUFFIX,whoer.net,Proxy
 HOST-SUFFIX,widevine.com,Proxy
 HOST-SUFFIX,wikawika.xyz,Proxy
-HOST-SUFFIX,wiki,Proxy
 HOST-SUFFIX,wikibooks.org,Proxy
 HOST-SUFFIX,wikidata.org,Proxy
 HOST-SUFFIX,wikidot.com,Proxy

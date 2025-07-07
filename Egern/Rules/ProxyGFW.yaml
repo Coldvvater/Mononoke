@@ -3998,6 +3998,7 @@ domain_suffix_set:
   - mindrolling.org
   - minecraft-services.net
   - minecraft.net
+  - minecraft.wiki
   - minecraftforum.net
   - minecraftservices.com
   - mingdemedia.org
@@ -6843,7 +6844,6 @@ domain_suffix_set:
   - widevine.com
   - wikaba.com
   - wikawika.xyz
-  - wiki
   - wiki.esu.im
   - wiki.kfd.me
   - wikia.com
