@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5001
+# 规则统计: 5011
 
 domain_suffix_set:
   - 002777.xyz
@@ -16,6 +16,7 @@ domain_suffix_set:
   - 0592.mobi
   - 06789.xyz
   - 0755rc.com
+  - 07pv7k61z.com
   - 0941.org
   - 0a0atz2sh.top
   - 0b4qu3nxa.com
@@ -375,6 +376,7 @@ domain_suffix_set:
   - 8sh.fun
   - 8u0.fun
   - 8u6stvyww.top
+  - 8v08mjri7.com
   - 8x3wolchw.com
   - 8xly.cn
   - 8xtm6i.cn
@@ -1703,6 +1705,8 @@ domain_suffix_set:
   - fiu07051kl.com
   - fiu07060kl.com
   - fiu07061kl.com
+  - fiu07070kl.com
+  - fiu07071kl.com
   - fjzimaoqu.cn
   - fk3nf1xeh.top
   - fkesfg.com
@@ -1807,6 +1811,7 @@ domain_suffix_set:
   - gcvcdashb2.fun
   - gcvgedashb3.fun
   - gdd08.com
+  - gdmxjbjjo.com
   - gdqhim.icu
   - gdt.qq.com
   - gdwudmv.icu
@@ -2593,6 +2598,7 @@ domain_suffix_set:
   - kloojzn.icu
   - klvt.cn
   - kmmgoogle.oss-ap-southeast-1.aliyuncs.com
+  - kmqaek.icu
   - kmqianneng66.com
   - knuinws.icu
   - knul.cn
@@ -2853,6 +2859,7 @@ domain_suffix_set:
   - market.duowan.com
   - matwbp.iask.sina.com.cn
   - mb.gulongbbs.com
+  - mbaedurr.com
   - mbg06251pg.com
   - mbg06260pg.com
   - mbg06261pg.com
@@ -3690,6 +3697,7 @@ domain_suffix_set:
   - rykhukxt.icu
   - ryqgdrh.icu
   - rythtg.top
+  - ryvvzl.icu
   - rz261.cn
   - rzcruzullr.com
   - s.zixuntop.com
@@ -3867,6 +3875,7 @@ domain_suffix_set:
   - st-fly.b-cdn.net
   - staitcfile.org
   - staivoiks.com
+  - stamenbs4.com
   - star-media.cn
   - star-seo.oss-ap-northeast-1.aliyuncs.com
   - starredvs.com
@@ -4245,6 +4254,7 @@ domain_suffix_set:
   - uldaens.com
   - ulink.cc
   - uljg.cn
+  - ullc.cn
   - uloscw.xyz
   - um5xcgngmart.xyz
   - umwcyw.xyz
