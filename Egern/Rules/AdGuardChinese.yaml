@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5011
+# 规则统计: 5020
 
 domain_suffix_set:
   - 002777.xyz
@@ -1707,6 +1707,8 @@ domain_suffix_set:
   - fiu07061kl.com
   - fiu07070kl.com
   - fiu07071kl.com
+  - fiu07080kl.com
+  - fiu07081kl.com
   - fjzimaoqu.cn
   - fk3nf1xeh.top
   - fkesfg.com
@@ -1763,6 +1765,7 @@ domain_suffix_set:
   - funqraedp.com
   - fuoo1.top
   - fup5qxstgi.com
+  - fuq3sve1gj.com
   - fuuksew.com
   - fvitteilse.com
   - fvlqjw.top
@@ -2052,6 +2055,7 @@ domain_suffix_set:
   - hfttufu4jo.top
   - hftxbq.top
   - hghngh.com
+  - hgk0mu8irw.com
   - hgo06041uyi.com
   - hgo06050uyi.com
   - hgo06060uyi.com
@@ -2109,6 +2113,7 @@ domain_suffix_set:
   - hp7.fun
   - hp8g6.icu
   - hptidc.top
+  - hqluu46i3a.com
   - hrjciqyu.icu
   - hrjg.com.cn
   - hrrjff.xyz
@@ -2279,6 +2284,7 @@ domain_suffix_set:
   - iouvxlio.top
   - ioykmxa.icu
   - ipad.pc899.cn
+  - ipmsqu.icu
   - ipqajyy.icu
   - iprefer.com.tw
   - ipssss.com
@@ -3033,6 +3039,7 @@ domain_suffix_set:
   - nalyxg.top
   - naukreatn.com
   - nbdtdt.icu
+  - nbehzi.cn
   - nbfsvreu.icu
   - nbpczr.icu
   - nbraenkikrn.com
@@ -3914,6 +3921,7 @@ domain_suffix_set:
   - sucnwtb.top
   - sugilip.cn
   - sums.suning.com
+  - sunflowers66.top
   - super.cat898.com
   - super.kdnet.net
   - superfish.com
@@ -4350,6 +4358,7 @@ domain_suffix_set:
   - v1.wphonelife.com
   - v4p.fun
   - vahmimb.com
+  - vasz.cn
   - vaykjwn.top
   - vbjm.cn
   - vbjzdl.top
