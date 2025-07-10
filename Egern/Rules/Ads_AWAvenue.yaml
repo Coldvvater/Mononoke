@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 829
+# 规则统计: 828
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -702,7 +702,6 @@ domain_suffix_set:
   - tdsdk.xdrig.com
   - telemetry.sdk.inmobi.com
   - tencent-dtv.m.cn.miaozhen.com
-  - terms-drcn.platform.dbankcloud.cn
   - test.ad.xiaomi.com
   - test.e.ad.xiaomi.com
   - tj.b.qq.com

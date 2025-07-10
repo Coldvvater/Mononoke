@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41884
+# 规则统计: 41891
 
 domain_suffix_set:
   - 0.0.0.1
@@ -19086,6 +19086,7 @@ domain_suffix_set:
   - log.tossinvest.com
   - log.ttbc-hcm.gov.vn
   - log.webnovel.com
+  - log.willie.nl
   - log.worldsoft-cms.info
   - log.zdnet.co.kr
   - log.zongheng.com
@@ -23992,6 +23993,7 @@ domain_suffix_set:
   - obqvss.debameubelen.be
   - obrazy.dlabiznesu.pracuj.pl
   - obrqts.hudforeclosed.com
+  - obs.jollyoutdoorjogger.com
   - obs.system1onesource.com
   - obscenesidewalk.com
   - observe-nexus.pointandplace.com
@@ -24979,6 +24981,7 @@ domain_suffix_set:
   - pine.clk.click
   - pine.nervecentral.com
   - ping.dozuki.com
+  - ping.fastsimon.com
   - ping.hashnode.com
   - ping.hungama.com
   - ping.naturadapt.com
@@ -24995,6 +24998,7 @@ domain_suffix_set:
   - pionmj.companyshop24.de
   - pipe-collect.ebu.io
   - pipedream.wistia.com
+  - pipeline.nachtkastje.nl
   - pipelinepub.actonservice.com
   - piper.amocrm.ru
   - pippio.com
@@ -26511,6 +26515,7 @@ domain_suffix_set:
   - rockpebbles.com
   - rockstarwriter.com
   - roedwy.imidapeptide.com
+  - roibest-report-sdk.qiliangjia.com
   - roinjg.mkluzkoviny.cz
   - roiscs.actonservice.com
   - rollbar.actonservice.com
@@ -28468,6 +28473,7 @@ domain_suffix_set:
   - sharen.oyorooms.com
   - sharing.kptncook.com
   - sharkskids.com
+  - shdid.me
   - sheeta.nrj-play.fr
   - sheideal.com
   - shelbypublishing.actonservice.com
@@ -33973,6 +33979,7 @@ domain_suffix_set:
   - stats.vican.me
   - stats.vidbinge.com
   - stats.viddler.com
+  - stats.videasy.net
   - stats.vidyome.com
   - stats.visions.ch
   - stats.vk-portal.net

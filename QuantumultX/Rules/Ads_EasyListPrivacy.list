@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41884
+# 规则统计: 41891
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -19085,6 +19085,7 @@ HOST-SUFFIX,log.targetpush.co.kr,Ads_EasyListPrivacy
 HOST-SUFFIX,log.tossinvest.com,Ads_EasyListPrivacy
 HOST-SUFFIX,log.ttbc-hcm.gov.vn,Ads_EasyListPrivacy
 HOST-SUFFIX,log.webnovel.com,Ads_EasyListPrivacy
+HOST-SUFFIX,log.willie.nl,Ads_EasyListPrivacy
 HOST-SUFFIX,log.worldsoft-cms.info,Ads_EasyListPrivacy
 HOST-SUFFIX,log.zdnet.co.kr,Ads_EasyListPrivacy
 HOST-SUFFIX,log.zongheng.com,Ads_EasyListPrivacy
@@ -23991,6 +23992,7 @@ HOST-SUFFIX,obqclg.dadway-onlineshop.com,Ads_EasyListPrivacy
 HOST-SUFFIX,obqvss.debameubelen.be,Ads_EasyListPrivacy
 HOST-SUFFIX,obrazy.dlabiznesu.pracuj.pl,Ads_EasyListPrivacy
 HOST-SUFFIX,obrqts.hudforeclosed.com,Ads_EasyListPrivacy
+HOST-SUFFIX,obs.jollyoutdoorjogger.com,Ads_EasyListPrivacy
 HOST-SUFFIX,obs.system1onesource.com,Ads_EasyListPrivacy
 HOST-SUFFIX,obscenesidewalk.com,Ads_EasyListPrivacy
 HOST-SUFFIX,observe-nexus.pointandplace.com,Ads_EasyListPrivacy
@@ -24978,6 +24980,7 @@ HOST-SUFFIX,pincourse.com,Ads_EasyListPrivacy
 HOST-SUFFIX,pine.clk.click,Ads_EasyListPrivacy
 HOST-SUFFIX,pine.nervecentral.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ping.dozuki.com,Ads_EasyListPrivacy
+HOST-SUFFIX,ping.fastsimon.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ping.hashnode.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ping.hungama.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ping.naturadapt.com,Ads_EasyListPrivacy
@@ -24994,6 +24997,7 @@ HOST-SUFFIX,pint-dev-branch.airship.com,Ads_EasyListPrivacy
 HOST-SUFFIX,pionmj.companyshop24.de,Ads_EasyListPrivacy
 HOST-SUFFIX,pipe-collect.ebu.io,Ads_EasyListPrivacy
 HOST-SUFFIX,pipedream.wistia.com,Ads_EasyListPrivacy
+HOST-SUFFIX,pipeline.nachtkastje.nl,Ads_EasyListPrivacy
 HOST-SUFFIX,pipelinepub.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,piper.amocrm.ru,Ads_EasyListPrivacy
 HOST-SUFFIX,pippio.com,Ads_EasyListPrivacy
@@ -26510,6 +26514,7 @@ HOST-SUFFIX,rockagainst.com,Ads_EasyListPrivacy
 HOST-SUFFIX,rockpebbles.com,Ads_EasyListPrivacy
 HOST-SUFFIX,rockstarwriter.com,Ads_EasyListPrivacy
 HOST-SUFFIX,roedwy.imidapeptide.com,Ads_EasyListPrivacy
+HOST-SUFFIX,roibest-report-sdk.qiliangjia.com,Ads_EasyListPrivacy
 HOST-SUFFIX,roinjg.mkluzkoviny.cz,Ads_EasyListPrivacy
 HOST-SUFFIX,roiscs.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,rollbar.actonservice.com,Ads_EasyListPrivacy
@@ -28467,6 +28472,7 @@ HOST-SUFFIX,sharelink.oppvenuz.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sharen.oyorooms.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sharing.kptncook.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sharkskids.com,Ads_EasyListPrivacy
+HOST-SUFFIX,shdid.me,Ads_EasyListPrivacy
 HOST-SUFFIX,sheeta.nrj-play.fr,Ads_EasyListPrivacy
 HOST-SUFFIX,sheideal.com,Ads_EasyListPrivacy
 HOST-SUFFIX,shelbypublishing.actonservice.com,Ads_EasyListPrivacy
@@ -33972,6 +33978,7 @@ HOST-SUFFIX,stats.vdsnow.ru,Ads_EasyListPrivacy
 HOST-SUFFIX,stats.vican.me,Ads_EasyListPrivacy
 HOST-SUFFIX,stats.vidbinge.com,Ads_EasyListPrivacy
 HOST-SUFFIX,stats.viddler.com,Ads_EasyListPrivacy
+HOST-SUFFIX,stats.videasy.net,Ads_EasyListPrivacy
 HOST-SUFFIX,stats.vidyome.com,Ads_EasyListPrivacy
 HOST-SUFFIX,stats.visions.ch,Ads_EasyListPrivacy
 HOST-SUFFIX,stats.vk-portal.net,Ads_EasyListPrivacy
