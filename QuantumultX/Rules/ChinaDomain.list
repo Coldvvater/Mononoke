@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 801
+# 规则统计: 804
 
 HOST,acg.tv,ChinaDomain
 HOST,assets1.xboxlive.cn,ChinaDomain
@@ -69,6 +69,7 @@ HOST-SUFFIX,36kr.com,ChinaDomain
 HOST-SUFFIX,36krcdn.com,ChinaDomain
 HOST-SUFFIX,39.net,ChinaDomain
 HOST-SUFFIX,3dmgame.com,ChinaDomain
+HOST-SUFFIX,4008823823.com,ChinaDomain
 HOST-SUFFIX,4399.com,ChinaDomain
 HOST-SUFFIX,51cto.com,ChinaDomain
 HOST-SUFFIX,51ctocdn.cn,ChinaDomain
@@ -389,6 +390,7 @@ HOST-SUFFIX,hwccpc.cn,ChinaDomain
 HOST-SUFFIX,hwccpc.com,ChinaDomain
 HOST-SUFFIX,hwht.com,ChinaDomain
 HOST-SUFFIX,hwtrip.com,ChinaDomain
+HOST-SUFFIX,hwwt8.com,ChinaDomain
 HOST-SUFFIX,ialicdn.com,ChinaDomain
 HOST-SUFFIX,ibreader.com,ChinaDomain
 HOST-SUFFIX,ibuscloud.com,ChinaDomain
@@ -435,6 +437,7 @@ HOST-SUFFIX,jstarkan.com,ChinaDomain
 HOST-SUFFIX,kaiyanapp.com,ChinaDomain
 HOST-SUFFIX,kdslife.com,ChinaDomain
 HOST-SUFFIX,keepcdn.com,ChinaDomain
+HOST-SUFFIX,kfcapp.cn,ChinaDomain
 HOST-SUFFIX,kingsoft-office-service.com,ChinaDomain
 HOST-SUFFIX,kkmh.com,ChinaDomain
 HOST-SUFFIX,klook.com,ChinaDomain
