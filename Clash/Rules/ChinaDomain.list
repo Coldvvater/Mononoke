@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 801
+# 规则统计: 806
 
 DOMAIN,acg.tv
 DOMAIN,assets1.xboxlive.cn
@@ -12,6 +12,7 @@ DOMAIN,dl.ubnt.com
 DOMAIN,doh.pub
 DOMAIN,gstore.val.manlaxy.com
 DOMAIN,i.dell.com
+DOMAIN,kms.03k.org
 DOMAIN,lv.queniujq.cn
 DOMAIN,media.cdn.queniuqe.com
 DOMAIN,ocsp.globalsign.com
@@ -21,6 +22,7 @@ DOMAIN,www.intel.cn
 DOMAIN,www.layuicdn.com
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,10086.cn
+DOMAIN-SUFFIX,110.com
 DOMAIN-SUFFIX,111.com
 DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,115cdn.com
@@ -115,10 +117,12 @@ DOMAIN-SUFFIX,aligames.com
 DOMAIN-SUFFIX,aliimg.com
 DOMAIN-SUFFIX,alikunlun.com
 DOMAIN-SUFFIX,alikunlun.net
+DOMAIN-SUFFIX,alimama.com
 DOMAIN-SUFFIX,alios.cn
 DOMAIN-SUFFIX,alipan.com
 DOMAIN-SUFFIX,alipay.cn
 DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipaydev.com
 DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,aliyuncs.com
@@ -668,6 +672,7 @@ DOMAIN-SUFFIX,takungpao.com
 DOMAIN-SUFFIX,tantanapp.com
 DOMAIN-SUFFIX,tanx.com
 DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,taobao.org
 DOMAIN-SUFFIX,taobaocdn.com
 DOMAIN-SUFFIX,taopiaopiao.com
 DOMAIN-SUFFIX,tb.cn

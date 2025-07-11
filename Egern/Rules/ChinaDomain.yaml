@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 801
+# 规则统计: 806
 
 domain_set:
   - acg.tv
@@ -13,6 +13,7 @@ domain_set:
   - doh.pub
   - gstore.val.manlaxy.com
   - i.dell.com
+  - kms.03k.org
   - lv.queniujq.cn
   - media.cdn.queniuqe.com
   - ocsp.globalsign.com
@@ -23,6 +24,7 @@ domain_set:
 domain_suffix_set:
   - 10010.com
   - 10086.cn
+  - 110.com
   - 111.com
   - 115.com
   - 115cdn.com
@@ -117,10 +119,12 @@ domain_suffix_set:
   - aliimg.com
   - alikunlun.com
   - alikunlun.net
+  - alimama.com
   - alios.cn
   - alipan.com
   - alipay.cn
   - alipay.com
+  - alipaydev.com
   - alipayobjects.com
   - aliyun.com
   - aliyuncs.com
@@ -670,6 +674,7 @@ domain_suffix_set:
   - tantanapp.com
   - tanx.com
   - taobao.com
+  - taobao.org
   - taobaocdn.com
   - taopiaopiao.com
   - tb.cn

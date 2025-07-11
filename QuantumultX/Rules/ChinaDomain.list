@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 804
+# 规则统计: 809
 
 HOST,acg.tv,ChinaDomain
 HOST,assets1.xboxlive.cn,ChinaDomain
@@ -12,6 +12,7 @@ HOST,dl.ubnt.com,ChinaDomain
 HOST,doh.pub,ChinaDomain
 HOST,gstore.val.manlaxy.com,ChinaDomain
 HOST,i.dell.com,ChinaDomain
+HOST,kms.03k.org,ChinaDomain
 HOST,lv.queniujq.cn,ChinaDomain
 HOST,media.cdn.queniuqe.com,ChinaDomain
 HOST,ocsp.globalsign.com,ChinaDomain
@@ -21,6 +22,7 @@ HOST,www.intel.cn,ChinaDomain
 HOST,www.layuicdn.com,ChinaDomain
 HOST-SUFFIX,10010.com,ChinaDomain
 HOST-SUFFIX,10086.cn,ChinaDomain
+HOST-SUFFIX,110.com,ChinaDomain
 HOST-SUFFIX,111.com,ChinaDomain
 HOST-SUFFIX,115.com,ChinaDomain
 HOST-SUFFIX,115cdn.com,ChinaDomain
@@ -115,10 +117,12 @@ HOST-SUFFIX,aligames.com,ChinaDomain
 HOST-SUFFIX,aliimg.com,ChinaDomain
 HOST-SUFFIX,alikunlun.com,ChinaDomain
 HOST-SUFFIX,alikunlun.net,ChinaDomain
+HOST-SUFFIX,alimama.com,ChinaDomain
 HOST-SUFFIX,alios.cn,ChinaDomain
 HOST-SUFFIX,alipan.com,ChinaDomain
 HOST-SUFFIX,alipay.cn,ChinaDomain
 HOST-SUFFIX,alipay.com,ChinaDomain
+HOST-SUFFIX,alipaydev.com,ChinaDomain
 HOST-SUFFIX,alipayobjects.com,ChinaDomain
 HOST-SUFFIX,aliyun.com,ChinaDomain
 HOST-SUFFIX,aliyuncs.com,ChinaDomain
@@ -668,6 +672,7 @@ HOST-SUFFIX,takungpao.com,ChinaDomain
 HOST-SUFFIX,tantanapp.com,ChinaDomain
 HOST-SUFFIX,tanx.com,ChinaDomain
 HOST-SUFFIX,taobao.com,ChinaDomain
+HOST-SUFFIX,taobao.org,ChinaDomain
 HOST-SUFFIX,taobaocdn.com,ChinaDomain
 HOST-SUFFIX,taopiaopiao.com,ChinaDomain
 HOST-SUFFIX,tb.cn,ChinaDomain

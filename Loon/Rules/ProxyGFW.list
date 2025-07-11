@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7391
+# 规则统计: 7402
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -609,6 +609,7 @@ DOMAIN-SUFFIX,bcrncdn.com
 DOMAIN-SUFFIX,bcvcdn.com
 DOMAIN-SUFFIX,bdsmvideos.net
 DOMAIN-SUFFIX,be
+DOMAIN-SUFFIX,beacondb.net
 DOMAIN-SUFFIX,beaconevents.com
 DOMAIN-SUFFIX,bearteach.com
 DOMAIN-SUFFIX,bebo.com
@@ -1800,6 +1801,7 @@ DOMAIN-SUFFIX,erights.net
 DOMAIN-SUFFIX,eriversoft.com
 DOMAIN-SUFFIX,erktv.com
 DOMAIN-SUFFIX,ernestmandel.org
+DOMAIN-SUFFIX,ero-video.net
 DOMAIN-SUFFIX,erodaizensyu.com
 DOMAIN-SUFFIX,erodoujinlog.com
 DOMAIN-SUFFIX,erodoujinworld.com
@@ -2365,6 +2367,7 @@ DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,gitkraken.com
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,gitlab.net
 DOMAIN-SUFFIX,gitmemory.com
 DOMAIN-SUFFIX,gizlen.net
 DOMAIN-SUFFIX,gjczz.com
@@ -3123,6 +3126,7 @@ DOMAIN-SUFFIX,i1.hk
 DOMAIN-SUFFIX,i2p2.de
 DOMAIN-SUFFIX,i2runner.com
 DOMAIN-SUFFIX,i818hk.com
+DOMAIN-SUFFIX,iaea.org
 DOMAIN-SUFFIX,iam.soy
 DOMAIN-SUFFIX,iamtopone.com
 DOMAIN-SUFFIX,iana.org
@@ -4587,6 +4591,7 @@ DOMAIN-SUFFIX,opencollective.com
 DOMAIN-SUFFIX,opendemocracy.net
 DOMAIN-SUFFIX,opendn.xyz
 DOMAIN-SUFFIX,openervpn.in
+DOMAIN-SUFFIX,openfreemap.org
 DOMAIN-SUFFIX,openid.net
 DOMAIN-SUFFIX,openleaks.org
 DOMAIN-SUFFIX,opensea.io
@@ -4875,6 +4880,7 @@ DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhub.org
 DOMAIN-SUFFIX,pornhubdeutsch.net
 DOMAIN-SUFFIX,pornhubpremium.com
+DOMAIN-SUFFIX,pornmd.com
 DOMAIN-SUFFIX,pornmm.net
 DOMAIN-SUFFIX,pornoxo.com
 DOMAIN-SUFFIX,pornpics.com
@@ -5352,6 +5358,7 @@ DOMAIN-SUFFIX,setn.com
 DOMAIN-SUFFIX,settv.com.tw
 DOMAIN-SUFFIX,setty.com.tw
 DOMAIN-SUFFIX,sevenload.com
+DOMAIN-SUFFIX,sex
 DOMAIN-SUFFIX,sex-11.com
 DOMAIN-SUFFIX,sex.com
 DOMAIN-SUFFIX,sex3.com
@@ -5564,6 +5571,7 @@ DOMAIN-SUFFIX,softether.org
 DOMAIN-SUFFIX,softfamous.com
 DOMAIN-SUFFIX,softlayer.net
 DOMAIN-SUFFIX,softnology.biz
+DOMAIN-SUFFIX,softonic.cn
 DOMAIN-SUFFIX,softonic.com
 DOMAIN-SUFFIX,softsmirror.cf
 DOMAIN-SUFFIX,softwarebychuck.com
@@ -5821,6 +5829,7 @@ DOMAIN-SUFFIX,tagwa.org.au
 DOMAIN-SUFFIX,tagwalk.com
 DOMAIN-SUFFIX,tahr.org.tw
 DOMAIN-SUFFIX,tailwindcss.com
+DOMAIN-SUFFIX,taipei
 DOMAIN-SUFFIX,taipeisociety.org
 DOMAIN-SUFFIX,taipeitimes.com
 DOMAIN-SUFFIX,taisounds.com
@@ -6754,6 +6763,7 @@ DOMAIN-SUFFIX,watchout.tw
 DOMAIN-SUFFIX,wattpad.com
 DOMAIN-SUFFIX,wav.tv
 DOMAIN-SUFFIX,waveprotocol.org
+DOMAIN-SUFFIX,waybackmachine.org
 DOMAIN-SUFFIX,waybig.com
 DOMAIN-SUFFIX,waymo.com
 DOMAIN-SUFFIX,waze.com
@@ -6843,6 +6853,7 @@ DOMAIN-SUFFIX,wikaba.com
 DOMAIN-SUFFIX,wikawika.xyz
 DOMAIN-SUFFIX,wiki.esu.im
 DOMAIN-SUFFIX,wiki.kfd.me
+DOMAIN-SUFFIX,wiki2.org
 DOMAIN-SUFFIX,wikia.com
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org

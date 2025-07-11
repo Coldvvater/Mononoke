@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7390
+# 规则统计: 7401
 
 no_resolve: true
 domain_set:
@@ -612,6 +612,7 @@ domain_suffix_set:
   - bcvcdn.com
   - bdsmvideos.net
   - be
+  - beacondb.net
   - beaconevents.com
   - bearteach.com
   - bebo.com
@@ -1803,6 +1804,7 @@ domain_suffix_set:
   - eriversoft.com
   - erktv.com
   - ernestmandel.org
+  - ero-video.net
   - erodaizensyu.com
   - erodoujinlog.com
   - erodoujinworld.com
@@ -2368,6 +2370,7 @@ domain_suffix_set:
   - gitkraken.com
   - gitlab.com
   - gitlab.io
+  - gitlab.net
   - gitmemory.com
   - gizlen.net
   - gjczz.com
@@ -3126,6 +3129,7 @@ domain_suffix_set:
   - i2p2.de
   - i2runner.com
   - i818hk.com
+  - iaea.org
   - iam.soy
   - iamtopone.com
   - iana.org
@@ -4590,6 +4594,7 @@ domain_suffix_set:
   - opendemocracy.net
   - opendn.xyz
   - openervpn.in
+  - openfreemap.org
   - openid.net
   - openleaks.org
   - opensea.io
@@ -4878,6 +4883,7 @@ domain_suffix_set:
   - pornhub.org
   - pornhubdeutsch.net
   - pornhubpremium.com
+  - pornmd.com
   - pornmm.net
   - pornoxo.com
   - pornpics.com
@@ -5355,6 +5361,7 @@ domain_suffix_set:
   - settv.com.tw
   - setty.com.tw
   - sevenload.com
+  - sex
   - sex-11.com
   - sex.com
   - sex3.com
@@ -5567,6 +5574,7 @@ domain_suffix_set:
   - softfamous.com
   - softlayer.net
   - softnology.biz
+  - softonic.cn
   - softonic.com
   - softsmirror.cf
   - softwarebychuck.com
@@ -5824,6 +5832,7 @@ domain_suffix_set:
   - tagwalk.com
   - tahr.org.tw
   - tailwindcss.com
+  - taipei
   - taipeisociety.org
   - taipeitimes.com
   - taisounds.com
@@ -6757,6 +6766,7 @@ domain_suffix_set:
   - wattpad.com
   - wav.tv
   - waveprotocol.org
+  - waybackmachine.org
   - waybig.com
   - waymo.com
   - waze.com
@@ -6846,6 +6856,7 @@ domain_suffix_set:
   - wikawika.xyz
   - wiki.esu.im
   - wiki.kfd.me
+  - wiki2.org
   - wikia.com
   - wikibooks.org
   - wikidata.org

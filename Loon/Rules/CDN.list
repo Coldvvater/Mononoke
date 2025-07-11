@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3754
+# 规则统计: 3763
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -437,6 +437,7 @@ DOMAIN,cdn.auth0.com
 DOMAIN,cdn.autoketing.org
 DOMAIN,cdn.axieinfinity.com
 DOMAIN,cdn.babylonjs.com
+DOMAIN,cdn.beacondb.net
 DOMAIN,cdn.bfe.dev
 DOMAIN,cdn.bfldr.com
 DOMAIN,cdn.bigcloud.click
@@ -853,6 +854,7 @@ DOMAIN,cdnjs.cat.net
 DOMAIN,cdnjs.cloudflare.com
 DOMAIN,cdnl.moviefap.com
 DOMAIN,cdnl.tnaflix.com
+DOMAIN,cdnmedia.ero-video.net
 DOMAIN,cdns.gigya.com
 DOMAIN,cdns.zbporn.com
 DOMAIN,cdnsecakmi.kaltura.com
@@ -1510,6 +1512,7 @@ DOMAIN,jac.yahoosandbox.com
 DOMAIN,jaws.pbs.org
 DOMAIN,jfe-cdn.qualtrics.com
 DOMAIN,jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net
+DOMAIN,jnmedia.ero-video.net
 DOMAIN,js-1-cdn.airdroid.com
 DOMAIN,js-cdn.blockchair.io
 DOMAIN,js-eu1.hsforms.net
@@ -2024,6 +2027,7 @@ DOMAIN,sdata.ndtv.com
 DOMAIN,sdk.customfit.ai
 DOMAIN,sdk.listenlive.co
 DOMAIN,sdk.loyaltylion.net
+DOMAIN,sdk.privacy-center.org
 DOMAIN,sdk.qikify.com
 DOMAIN,sdk.snapkit.com
 DOMAIN,sdk.split.io
@@ -2463,7 +2467,11 @@ DOMAIN,thumbor.forbes.com
 DOMAIN,thumbs.onlyfans.com
 DOMAIN,thumbs2.sendvid.com
 DOMAIN,thumbsnap.com
+DOMAIN,ti1.knews.cc
+DOMAIN,ti2.knews.cc
+DOMAIN,tiles.openfreemap.org
 DOMAIN,tiles.stadiamaps.com
+DOMAIN,tiles.versatiles.org
 DOMAIN,tiles.windy.com
 DOMAIN,time.cloudflare.com
 DOMAIN,time.google.com
@@ -3647,6 +3655,7 @@ DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,wixmp.com
 DOMAIN-SUFFIX,wixstatic.com
 DOMAIN-SUFFIX,wixstudio.io
+DOMAIN-SUFFIX,wmfusercontent.org
 DOMAIN-SUFFIX,wolongcdnm3u8.com
 DOMAIN-SUFFIX,wolongzywcdn3.com
 DOMAIN-SUFFIX,workers.dev

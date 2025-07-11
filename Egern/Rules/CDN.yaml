@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3754
+# 规则统计: 3763
 
 domain_set:
   - 0x0.st
@@ -438,6 +438,7 @@ domain_set:
   - cdn.autoketing.org
   - cdn.axieinfinity.com
   - cdn.babylonjs.com
+  - cdn.beacondb.net
   - cdn.bfe.dev
   - cdn.bfldr.com
   - cdn.bigcloud.click
@@ -854,6 +855,7 @@ domain_set:
   - cdnjs.cloudflare.com
   - cdnl.moviefap.com
   - cdnl.tnaflix.com
+  - cdnmedia.ero-video.net
   - cdns.gigya.com
   - cdns.zbporn.com
   - cdnsecakmi.kaltura.com
@@ -1511,6 +1513,7 @@ domain_set:
   - jaws.pbs.org
   - jfe-cdn.qualtrics.com
   - jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net
+  - jnmedia.ero-video.net
   - js-1-cdn.airdroid.com
   - js-cdn.blockchair.io
   - js-eu1.hsforms.net
@@ -2025,6 +2028,7 @@ domain_set:
   - sdk.customfit.ai
   - sdk.listenlive.co
   - sdk.loyaltylion.net
+  - sdk.privacy-center.org
   - sdk.qikify.com
   - sdk.snapkit.com
   - sdk.split.io
@@ -2464,7 +2468,11 @@ domain_set:
   - thumbs.onlyfans.com
   - thumbs2.sendvid.com
   - thumbsnap.com
+  - ti1.knews.cc
+  - ti2.knews.cc
+  - tiles.openfreemap.org
   - tiles.stadiamaps.com
+  - tiles.versatiles.org
   - tiles.windy.com
   - time.cloudflare.com
   - time.google.com
@@ -3649,6 +3657,7 @@ domain_suffix_set:
   - wixmp.com
   - wixstatic.com
   - wixstudio.io
+  - wmfusercontent.org
   - wolongcdnm3u8.com
   - wolongzywcdn3.com
   - workers.dev

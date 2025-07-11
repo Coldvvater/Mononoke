@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1060
+# 规则统计: 1079
 
 domain_set:
   - ccmdl.adobe.com
@@ -41,6 +41,7 @@ domain_suffix_set:
   - abc.com
   - abc.xyz
   - abebooks.com
+  - about.me
   - ac
   - accountkit.com
   - activated.win
@@ -117,6 +118,7 @@ domain_suffix_set:
   - bbc.com
   - bblmw.com
   - be
+  - beacondb.net
   - behance.net
   - bestbuy.com
   - bet365.com
@@ -287,6 +289,7 @@ domain_suffix_set:
   - elgoog.im
   - engadget.com
   - eporner.com
+  - ero-video.net
   - eroterest.net
   - es
   - etherscan.io
@@ -373,6 +376,7 @@ domain_suffix_set:
   - gitkraken.com
   - gitlab.com
   - gitlab.io
+  - gitlab.net
   - gl
   - gle
   - glitch.com
@@ -442,6 +446,7 @@ domain_suffix_set:
   - huobi.pro
   - hwinfo.com
   - hyvor.com
+  - iaea.org
   - iana.org
   - ibb.co
   - ibm.com
@@ -483,6 +488,7 @@ domain_suffix_set:
   - it
   - itasoftware.com
   - ixxx.com
+  - j.mp
   - jav.pw
   - java.com
   - javbus.com
@@ -509,11 +515,13 @@ domain_suffix_set:
   - kakao.com
   - kali.org
   - kde.org
+  - keycdn.com
   - kg
   - kick.com
   - kik.com
   - kinja.com
   - kisscos.net
+  - kknews.cc
   - ko-fi.com
   - kobo.com
   - komoot.com
@@ -572,6 +580,7 @@ domain_suffix_set:
   - md
   - medallia.com
   - mediafire.com
+  - mediawiki.org
   - medium.com
   - meetup.com
   - mega.io
@@ -679,6 +688,7 @@ domain_suffix_set:
   - one.com
   - onepluscommunityserver.com
   - opencollective.com
+  - openfreemap.org
   - opensea.io
   - openstreetmap.org
   - opentable.com
@@ -720,8 +730,10 @@ domain_suffix_set:
   - polymer-project.org
   - porn.com
   - porngo.com
+  - pornhd.com
   - pornhub.com
   - pornhub.org
+  - pornmd.com
   - pornoxo.com
   - pornpics.com
   - porntrex.com
@@ -800,6 +812,7 @@ domain_suffix_set:
   - serverfault.com
   - serviporno.com
   - setapp.com
+  - sex
   - sex.com
   - sf.net
   - sfmcompile.club
@@ -830,6 +843,7 @@ domain_suffix_set:
   - snapchat.com
   - snapkit.co
   - social
+  - softonic.cn
   - softonic.com
   - sony.net
   - sophos.com
@@ -870,7 +884,9 @@ domain_suffix_set:
   - t.co
   - t66y.com
   - tailwindcss.com
+  - taipei
   - talkcc.com
+  - techspot.com
   - tenor.com
   - tensorflow.org
   - terabox.com
@@ -976,6 +992,7 @@ domain_suffix_set:
   - washingtonpost.com
   - watch
   - waveprotocol.org
+  - waybackmachine.org
   - waymo.com
   - waze.com
   - wdfiles.com
@@ -992,6 +1009,7 @@ domain_suffix_set:
   - whoer.net
   - widevine.com
   - wikawika.xyz
+  - wiki2.org
   - wikibooks.org
   - wikidata.org
   - wikidot.com
@@ -1011,6 +1029,7 @@ domain_suffix_set:
   - wireguard.com
   - wireshark.org
   - wix.com
+  - wmfusercontent.org
   - wnacg.com
   - wordpress.com
   - wordpress.org
