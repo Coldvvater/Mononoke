@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5043
+# 规则统计: 5052
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,01221sop.xyz
 DOMAIN-SUFFIX,01231sop.xyz
 DOMAIN-SUFFIX,01240sop.xyz
 DOMAIN-SUFFIX,033ajy.xyz
+DOMAIN-SUFFIX,03t441b8w.com
 DOMAIN-SUFFIX,04o.fun
 DOMAIN-SUFFIX,0512s.com
 DOMAIN-SUFFIX,0592.mobi
@@ -121,6 +122,7 @@ DOMAIN-SUFFIX,19o8hzj117.com
 DOMAIN-SUFFIX,1buo.icu
 DOMAIN-SUFFIX,1buu1.penyouw.com
 DOMAIN-SUFFIX,1dki0.icu
+DOMAIN-SUFFIX,1dm6ccvy8.com
 DOMAIN-SUFFIX,1gmzo.icu
 DOMAIN-SUFFIX,1gtp.icu
 DOMAIN-SUFFIX,1iohncj.xyz
@@ -624,6 +626,7 @@ DOMAIN-SUFFIX,afqodjc.top
 DOMAIN-SUFFIX,afrhwdumolf.com
 DOMAIN-SUFFIX,afvrolvial.com
 DOMAIN-SUFFIX,ag1.zuszw.com
+DOMAIN-SUFFIX,agenter32.top
 DOMAIN-SUFFIX,agufoi.xyz
 DOMAIN-SUFFIX,aguo.com
 DOMAIN-SUFFIX,ahejtw.onelink.me
@@ -1192,6 +1195,7 @@ DOMAIN-SUFFIX,ctc.weather.com.cn
 DOMAIN-SUFFIX,ctimiyf.top
 DOMAIN-SUFFIX,ctkyom.xyz
 DOMAIN-SUFFIX,ctlacnh.icu
+DOMAIN-SUFFIX,ctsp4jao1.com
 DOMAIN-SUFFIX,cuaeblh.icu
 DOMAIN-SUFFIX,cucnmtf.top
 DOMAIN-SUFFIX,cukuix.com
@@ -2144,6 +2148,8 @@ DOMAIN-SUFFIX,hulichuang.mobi
 DOMAIN-SUFFIX,huo07091hy.com
 DOMAIN-SUFFIX,huo07100hy.com
 DOMAIN-SUFFIX,huo07101hy.com
+DOMAIN-SUFFIX,huo07110hy.com
+DOMAIN-SUFFIX,huo07111hy.com
 DOMAIN-SUFFIX,huohuo.huamuwo.com
 DOMAIN-SUFFIX,huoxun.wang
 DOMAIN-SUFFIX,hur05071kns.com
@@ -2615,6 +2621,7 @@ DOMAIN-SUFFIX,kklq05120p0i.com
 DOMAIN-SUFFIX,kklq05121p0i.com
 DOMAIN-SUFFIX,kklq05131p0i.com
 DOMAIN-SUFFIX,kklq05140p0i.com
+DOMAIN-SUFFIX,klaayg.icu
 DOMAIN-SUFFIX,klkk66.fun
 DOMAIN-SUFFIX,klmohbk.icu
 DOMAIN-SUFFIX,kloojzn.icu
@@ -3328,6 +3335,7 @@ DOMAIN-SUFFIX,pcqhe.cn
 DOMAIN-SUFFIX,pcxnrd.xyz
 DOMAIN-SUFFIX,pcxnrr.icu
 DOMAIN-SUFFIX,pdochgl.top
+DOMAIN-SUFFIX,pdrv.cn
 DOMAIN-SUFFIX,pebrihmethwa.com
 DOMAIN-SUFFIX,peclevnl.icu
 DOMAIN-SUFFIX,pefufv.xyz
@@ -4831,6 +4839,7 @@ DOMAIN-SUFFIX,yerhfnytky.top
 DOMAIN-SUFFIX,yeryt111.fun
 DOMAIN-SUFFIX,yetacdn.com
 DOMAIN-SUFFIX,yetacdn.net
+DOMAIN-SUFFIX,yetacdn.org
 DOMAIN-SUFFIX,yeuviq.icu
 DOMAIN-SUFFIX,yfaqgk.xyz
 DOMAIN-SUFFIX,yfasjfk.icu

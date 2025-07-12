@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 828
+# 规则统计: 829
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -296,6 +296,7 @@ domain_suffix_set:
   - data.mistat.india.xiaomi.com
   - data.mistat.rus.xiaomi.com
   - data.mistat.xiaomi.com
+  - datacollection.uve.weibo.com
   - datk.anythinktech.com
   - dc.sigmob.cn
   - de.tynt.com

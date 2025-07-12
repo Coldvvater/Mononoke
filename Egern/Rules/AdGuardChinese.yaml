@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5043
+# 规则统计: 5052
 
 domain_suffix_set:
   - 002777.xyz
@@ -11,6 +11,7 @@ domain_suffix_set:
   - 01231sop.xyz
   - 01240sop.xyz
   - 033ajy.xyz
+  - 03t441b8w.com
   - 04o.fun
   - 0512s.com
   - 0592.mobi
@@ -122,6 +123,7 @@ domain_suffix_set:
   - 1buo.icu
   - 1buu1.penyouw.com
   - 1dki0.icu
+  - 1dm6ccvy8.com
   - 1gmzo.icu
   - 1gtp.icu
   - 1iohncj.xyz
@@ -625,6 +627,7 @@ domain_suffix_set:
   - afrhwdumolf.com
   - afvrolvial.com
   - ag1.zuszw.com
+  - agenter32.top
   - agufoi.xyz
   - aguo.com
   - ahejtw.onelink.me
@@ -1193,6 +1196,7 @@ domain_suffix_set:
   - ctimiyf.top
   - ctkyom.xyz
   - ctlacnh.icu
+  - ctsp4jao1.com
   - cuaeblh.icu
   - cucnmtf.top
   - cukuix.com
@@ -2145,6 +2149,8 @@ domain_suffix_set:
   - huo07091hy.com
   - huo07100hy.com
   - huo07101hy.com
+  - huo07110hy.com
+  - huo07111hy.com
   - huohuo.huamuwo.com
   - huoxun.wang
   - hur05071kns.com
@@ -2616,6 +2622,7 @@ domain_suffix_set:
   - kklq05121p0i.com
   - kklq05131p0i.com
   - kklq05140p0i.com
+  - klaayg.icu
   - klkk66.fun
   - klmohbk.icu
   - kloojzn.icu
@@ -3329,6 +3336,7 @@ domain_suffix_set:
   - pcxnrd.xyz
   - pcxnrr.icu
   - pdochgl.top
+  - pdrv.cn
   - pebrihmethwa.com
   - peclevnl.icu
   - pefufv.xyz
@@ -4832,6 +4840,7 @@ domain_suffix_set:
   - yeryt111.fun
   - yetacdn.com
   - yetacdn.net
+  - yetacdn.org
   - yeuviq.icu
   - yfaqgk.xyz
   - yfasjfk.icu
