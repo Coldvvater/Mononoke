@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5052
+# 规则统计: 5068
 
 domain_suffix_set:
   - 002777.xyz
@@ -730,6 +730,7 @@ domain_suffix_set:
   - avspda.xyz
   - avxonsp.icu
   - awifi.cn
+  - awywlb89y.com
   - ax.ifeng.com
   - ayalcid.icu
   - ayebsc.xyz
@@ -1091,10 +1092,12 @@ domain_suffix_set:
   - cggyyi.xyz
   - cgskys.xyz
   - ch17axocue.top
+  - chanced112.com
   - chaoyumiao.com
   - chaqraex.com
   - chdhvckqav.com
   - checbox.cc
+  - chedethw.com
   - cherrya04.top
   - chicorty2.com
   - chidir.com
@@ -1352,6 +1355,7 @@ domain_suffix_set:
   - dkasdeerw.xyz
   - dkasffredf.xyz
   - dkhffh.xyz
+  - dklhflksd.com
   - dklnxtcj.icu
   - dktad.com
   - dkweuy.com
@@ -2151,6 +2155,9 @@ domain_suffix_set:
   - huo07101hy.com
   - huo07110hy.com
   - huo07111hy.com
+  - huo07120hy.com
+  - huo07121hy.com
+  - huo07130hy.com
   - huohuo.huamuwo.com
   - huoxun.wang
   - hur05071kns.com
@@ -2202,6 +2209,7 @@ domain_suffix_set:
   - ibkoiw.xyz
   - ibqemk.icu
   - ibqmey.xyz
+  - ibwvky.icu
   - ibyrwvi.cn
   - ichc1.xinglinpukang.com
   - icinmao.top
@@ -2328,6 +2336,7 @@ domain_suffix_set:
   - irtliso.top
   - irulws.xyz
   - irutvnco.top
+  - irzi.cn
   - is02041qqp.xyz
   - is02050qqp.xyz
   - istraxuhh.com
@@ -2382,6 +2391,7 @@ domain_suffix_set:
   - j.sdqoi2d.com
   - j1.piaobing.com
   - j2jtq0hpb.com
+  - j4mxrs21gh.com
   - j7c16.icu
   - jab88.com
   - jasmined544.com
@@ -2419,6 +2429,7 @@ domain_suffix_set:
   - jetlwsa.top
   - jewruta.top
   - jeyd.cn
+  - jfpo.cn
   - jfrrnf.icu
   - jg1668.com
   - jgapcsi.icu
@@ -3318,6 +3329,7 @@ domain_suffix_set:
   - p1.qxzsw.com
   - p1.zhongyoo.com
   - p2v.fun
+  - p4gdt4um6.com
   - p4p.sina.com.cn
   - p8u.hinet.net
   - pa6.fun
@@ -3608,6 +3620,7 @@ domain_suffix_set:
   - qwti.cn
   - qwursery.top
   - qxaz2xcw.com
+  - qxn9qlvmca.com
   - qxwoiv.com
   - qyisloy.top
   - qywbslk.top
@@ -3688,6 +3701,7 @@ domain_suffix_set:
   - rktjxj.icu
   - rkwxfi.xyz
   - rl1vypwyd2.com
+  - rliwiqr.icu
   - rmbsfh.icu
   - rmhfrtnd.com
   - rmioswx.icu
@@ -3861,6 +3875,7 @@ domain_suffix_set:
   - sksbgm.xyz
   - sky.dunsuan.com
   - sm-cloud.yunsafe.top
+  - smjfbjsfvrf.com
   - smuc.cnnfootballclub.com
   - sn9.icu
   - snjfasp.com
@@ -4849,6 +4864,7 @@ domain_suffix_set:
   - yghalathio.com
   - ygipjqf.icu
   - ygoibya.icu
+  - yh823ogu6b.com
   - yhak0o7rtz.com
   - yhdd1.com
   - yhgfsdad.top
