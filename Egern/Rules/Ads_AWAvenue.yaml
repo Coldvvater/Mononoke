@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 829
+# 规则统计: 838
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -118,6 +118,7 @@ domain_suffix_set:
   - adsmind.gdtimg.com
   - adsmind.ugdtimg.com
   - adsp.xunlei.com
+  - adstat.izuiyou.com
   - adstats.tencentmusic.com
   - adstore-1252524079.file.myqcloud.com
   - adstore-index-1252524079.file.myqcloud.com
@@ -191,6 +192,7 @@ domain_suffix_set:
   - api-gd.hiaiabc.com
   - api-htp.beizi.biz
   - api.ad.xiaomi.com
+  - api.anythinktech.com
   - api.e.kuaishou.com
   - api.fu.xcultur.com
   - api.htp.hubcloud.com.cn
@@ -285,11 +287,13 @@ domain_suffix_set:
   - config.unityads.unity3d.com
   - cpc-service-square.aiclk.com
   - cpro.baidustatic.com
+  - crash2.zhihu.com
   - crashlyticsreports-pa.googleapis.com
   - csjplatform.com
   - cws-cctv.conviva.com
   - d.applovin.com
   - d.applvn.com
+  - da.anythinktech.com
   - data-sdk-uuid-log.d.meituan.net
   - data.ads.oppomobile.com
   - data.chsmarttv.com
@@ -297,7 +301,6 @@ domain_suffix_set:
   - data.mistat.rus.xiaomi.com
   - data.mistat.xiaomi.com
   - datacollection.uve.weibo.com
-  - datk.anythinktech.com
   - dc.sigmob.cn
   - de.tynt.com
   - diagnosis.ad.xiaomi.com
@@ -380,6 +383,7 @@ domain_suffix_set:
   - httpdns.bcelive.com
   - httpdns.ocloud.oppomobile.com
   - hugelog.fcbox.com
+  - huichuan-mc.sm.cn
   - huichuan.sm.cn
   - hw-ot-ad.a.yximgs.com
   - hw-p2p-pull.video-voip.com
@@ -391,6 +395,7 @@ domain_suffix_set:
   - i.l-new.inmobicdn.net
   - i.l.inmobicdn.net
   - iad.apple.com
+  - iad.g.163.com
   - iadctest.qwapi.com
   - iadsdk.apple.com
   - iadworkbench.apple.com
@@ -413,6 +418,7 @@ domain_suffix_set:
   - impression-asia.liftoff.io
   - impression.appsflyer.com
   - in.treasuredata.com
+  - ios.bugly.qq.com
   - iot-eu-logser.realme.com
   - iot-logser.realme.com
   - ipv4.kkmh.com
@@ -535,6 +541,7 @@ domain_suffix_set:
   - mtj.baidu.com
   - nadvideo2.baidu.com
   - newvoice.chiq5.smart-tv.cn
+  - nex.163.com
   - nmetrics.samsung.com
   - notes-analytics-events.apple.com
   - notify.sec.miui.com
@@ -707,6 +714,7 @@ domain_suffix_set:
   - test.e.ad.xiaomi.com
   - tj.b.qq.com
   - tj.video.qq.com
+  - tk.anythinktech.com
   - tmead.y.qq.com
   - tmeadcomm.y.qq.com
   - tmfmazu-wangka.m.qq.com
@@ -831,3 +839,4 @@ domain_suffix_set:
   - ytx-file.110route.cn
   - zeus.ad.xiaomi.com
   - zhihu-web-analytics.zhihu.com
+  - zxid-m.mobileservice.cn

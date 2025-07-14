@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5068
+# 规则统计: 5073
 
 HOST-SUFFIX,002777.xyz,AdGuardChinese
 HOST-SUFFIX,003store.com,AdGuardChinese
@@ -1307,6 +1307,7 @@ HOST-SUFFIX,denjpl.xyz,AdGuardChinese
 HOST-SUFFIX,dephriezm.com,AdGuardChinese
 HOST-SUFFIX,depzdhamot.com,AdGuardChinese
 HOST-SUFFIX,derwbl.icu,AdGuardChinese
+HOST-SUFFIX,designx08.com,AdGuardChinese
 HOST-SUFFIX,df888.eastday.com,AdGuardChinese
 HOST-SUFFIX,dfan4.icu,AdGuardChinese
 HOST-SUFFIX,dfevpkzy6u.com,AdGuardChinese
@@ -2157,6 +2158,7 @@ HOST-SUFFIX,huo07111hy.com,AdGuardChinese
 HOST-SUFFIX,huo07120hy.com,AdGuardChinese
 HOST-SUFFIX,huo07121hy.com,AdGuardChinese
 HOST-SUFFIX,huo07130hy.com,AdGuardChinese
+HOST-SUFFIX,huo07131hy.com,AdGuardChinese
 HOST-SUFFIX,huohuo.huamuwo.com,AdGuardChinese
 HOST-SUFFIX,huoxun.wang,AdGuardChinese
 HOST-SUFFIX,hur05071kns.com,AdGuardChinese
@@ -2873,6 +2875,7 @@ HOST-SUFFIX,m1.kuanff.com,AdGuardChinese
 HOST-SUFFIX,m1.nn670.com,AdGuardChinese
 HOST-SUFFIX,m1.vodjk.com,AdGuardChinese
 HOST-SUFFIX,m1.we556.com,AdGuardChinese
+HOST-SUFFIX,m1vvvv1k2.com,AdGuardChinese
 HOST-SUFFIX,m2.lelemh.com,AdGuardChinese
 HOST-SUFFIX,m4r.fun,AdGuardChinese
 HOST-SUFFIX,m5.66077.cn,AdGuardChinese
@@ -3210,6 +3213,7 @@ HOST-SUFFIX,odxh.cn,AdGuardChinese
 HOST-SUFFIX,odz12g5ag.com,AdGuardChinese
 HOST-SUFFIX,oelj.cn,AdGuardChinese
 HOST-SUFFIX,oeryt111.fun,AdGuardChinese
+HOST-SUFFIX,oesnwi.icu,AdGuardChinese
 HOST-SUFFIX,oewrutk.top,AdGuardChinese
 HOST-SUFFIX,oexk.cn,AdGuardChinese
 HOST-SUFFIX,ofd.meng-an.cn,AdGuardChinese
@@ -4771,6 +4775,7 @@ HOST-SUFFIX,xplbxx.icu,AdGuardChinese
 HOST-SUFFIX,xpxi.cn,AdGuardChinese
 HOST-SUFFIX,xqrydt.icu,AdGuardChinese
 HOST-SUFFIX,xrlzhk.top,AdGuardChinese
+HOST-SUFFIX,xrus.cn,AdGuardChinese
 HOST-SUFFIX,xs.houyi.baofeng.net,AdGuardChinese
 HOST-SUFFIX,xs6po.icu,AdGuardChinese
 HOST-SUFFIX,xsrezl.icu,AdGuardChinese
