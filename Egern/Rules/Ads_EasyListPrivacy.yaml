@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41891
+# 规则统计: 41913
 
 domain_suffix_set:
   - 0.0.0.1
@@ -5046,6 +5046,7 @@ domain_suffix_set:
   - analysis.fi
   - analysis.prod.joyfru.jiji.com
   - analyt.ir
+  - analytic-client.blitzmightyparty.com
   - analytic-client.chickgoddess.com
   - analytic-client.panowars.com
   - analytic.alabama.aaa.com
@@ -5281,6 +5282,7 @@ domain_suffix_set:
   - analytics.groupe-seb.com
   - analytics.growthphysics.com
   - analytics.gtechgroup.it
+  - analytics.gtflixtv.com
   - analytics.gvim.mobi
   - analytics.hambleden-capital.com
   - analytics.hardrock.com
@@ -5665,6 +5667,7 @@ domain_suffix_set:
   - anet.abphotos.link
   - angebote.plex.com
   - anijjm.winkelstraat.nl
+  - animalcoder.com
   - animaux.oworld.fr
   - anl.footlocker.com
   - anmeldung.promatis.ch
@@ -8498,6 +8501,7 @@ domain_suffix_set:
   - classicnotebook.com
   - classroominc.actonservice.com
   - claynelsonlifebalance.actonservice.com
+  - clb.yahoo.co.jp
   - clck.dzen.ru
   - clcktrax.com
   - cleanhaircut.com
@@ -9660,6 +9664,8 @@ domain_suffix_set:
   - customerexperience.verintsystemsinc.com
   - customerrelations.theinstitutes.org
   - customers-capitalbank-jo-877029.p06.elqsandbox.com
+  - customers.edgetag.io
+  - customers.xray-superpixel.com
   - customersucceed.nanophase.com
   - customfingerprints.bablosoft.com
   - customize.titanfactorydirect.com
@@ -10601,6 +10607,7 @@ domain_suffix_set:
   - dd.betano.com
   - dd.control4.com
   - dd.g2.com
+  - dd.garena.com
   - dd.leboncoin.fr
   - dd.nytimes.com
   - dd.seloger-bureaux-commerces.com
@@ -12961,6 +12968,7 @@ domain_suffix_set:
   - experiences.cibc.com
   - experiences.simplii.com
   - experiencia.coopecaja.fi.cr
+  - experiments.parsely.com
   - experiments.sparanoid.net
   - expertise.logarithmicsolutions.com
   - experts.actonservice.com
@@ -13067,6 +13075,8 @@ domain_suffix_set:
   - fakexa-post.mno.link
   - fal2.carrefour-banque.fr
   - fallaciousfifth.com
+  - fallback.attntags.com
+  - fallback.emtag.net
   - falseframe.com
   - falsesight.com
   - familiarrod.com
@@ -18002,6 +18012,7 @@ domain_suffix_set:
   - lemonsandjoy.com
   - lenpmh.francoisesaget.com
   - leo1.leon-de-bruxelles.fr
+  - lessonsnetwork.com
   - let1.devialet.com
   - lets-dev.irl.com
   - lets.go.haymarketmedicalnetwork.com
@@ -24907,6 +24918,7 @@ domain_suffix_set:
   - perf-events.cloud.unity3d.com
   - perf.hsforms.com
   - perf.mouser.com
+  - perfectfetch.com
   - performance-logger.minted.com
   - performanceplay.co.kr
   - performantcorp.actonservice.com
@@ -25454,6 +25466,7 @@ domain_suffix_set:
   - prenesi-mojm.mercator.si
   - prepareplanes.com
   - presetrabbits.com
+  - presscoder.com
   - prettylearning.com
   - preview.fi-institutional.com.au
   - previousplayground.com
@@ -26609,6 +26622,7 @@ domain_suffix_set:
   - rtxpx-a.akamaihd.net
   - ru-go.experian.com
   - ru-ru.siemensplmevents.com
+  - rudder-tracking.rudderstack.com
   - rugttt.robinson.com
   - ruhpbn.zhigaojixie.com
   - rum-ingress-coralogix.com
@@ -27123,6 +27137,7 @@ domain_suffix_set:
   - sales.virtualpbx.com
   - salesandmarketing.aitcfis.com
   - saleslists.inform.equifax.com
+  - salmonfin.com
   - salsacartel.com
   - salto.freeto.jp
   - saltsabar.openapp.link
@@ -28636,6 +28651,7 @@ domain_suffix_set:
   - sketchpals.com
   - skf.actonservice.com
   - ski1.skiset.com
+  - skilledview.com
   - skillfuldrop.com
   - skillshouse.actonservice.com
   - skillsresults.com
@@ -33565,6 +33581,7 @@ domain_suffix_set:
   - stats.isabelsommerfeld.com
   - stats.iscc-system.org
   - stats.isthispoisonivy.website
+  - stats.itc.ua
   - stats.itsol.it
   - stats.itweb.co.za
   - stats.ivs.rocks
@@ -34643,6 +34660,7 @@ domain_suffix_set:
   - t.9gag.com
   - t.a3cloud.net
   - t.actemra.com
+  - t.adclr.jp
   - t.adlpo.com
   - t.adx.opera.com
   - t.afry.com
@@ -35676,6 +35694,7 @@ domain_suffix_set:
   - thejavalane.com
   - theme.echovisuals.com
   - themepicker.com
+  - thepowerstones.com
   - thequickbooksteam.intuit.ca
   - therapeuticcars.com
   - theroot.black.news
@@ -36087,6 +36106,7 @@ domain_suffix_set:
   - tqvacq.intrend.it
   - tqxpnv.bauhaus.info
   - tr-business.vodafone.com
+  - tr-experiments.parsely.com
   - tr-ms.bosch-home.com
   - tr-ms.profilo.com
   - tr-ms.siemens-home.bsh-group.com
@@ -38133,6 +38153,7 @@ domain_suffix_set:
   - tracking.unisabana.edu.co
   - tracking.univtec.com
   - tracking.unrealengine.com
+  - tracking.upfluence.co
   - tracking.usj.es
   - tracking.utas.edu.au
   - tracking.ventingdirect.com
@@ -40028,6 +40049,7 @@ domain_suffix_set:
   - watson.microsoft.com
   - wave.getonthewave.com
   - waveinverter.com
+  - wavesmachine.com
   - wavrlh.cedok.cz
   - wavzlt.michaelstars.com
   - waxsirens.com

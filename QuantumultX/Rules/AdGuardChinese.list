@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5083
+# 规则统计: 5088
 
 HOST-SUFFIX,002777.xyz,AdGuardChinese
 HOST-SUFFIX,003store.com,AdGuardChinese
@@ -35,6 +35,7 @@ HOST-SUFFIX,0uyt5b.cn,AdGuardChinese
 HOST-SUFFIX,0vc.fun,AdGuardChinese
 HOST-SUFFIX,0w58wpq55.com,AdGuardChinese
 HOST-SUFFIX,0x7iufg8hy.com,AdGuardChinese
+HOST-SUFFIX,0z3zbnbkv.com,AdGuardChinese
 HOST-SUFFIX,1.07swz.com,AdGuardChinese
 HOST-SUFFIX,1.1010pic.com,AdGuardChinese
 HOST-SUFFIX,1.11130.com.cn,AdGuardChinese
@@ -2165,6 +2166,7 @@ HOST-SUFFIX,huo07130hy.com,AdGuardChinese
 HOST-SUFFIX,huo07131hy.com,AdGuardChinese
 HOST-SUFFIX,huo07140hy.com,AdGuardChinese
 HOST-SUFFIX,huo07141hy.com,AdGuardChinese
+HOST-SUFFIX,huo07150hy.com,AdGuardChinese
 HOST-SUFFIX,huohuo.huamuwo.com,AdGuardChinese
 HOST-SUFFIX,huoxun.wang,AdGuardChinese
 HOST-SUFFIX,hur05071kns.com,AdGuardChinese
@@ -2204,6 +2206,7 @@ HOST-SUFFIX,hz.shouyoutv.com,AdGuardChinese
 HOST-SUFFIX,hzhyhm.com,AdGuardChinese
 HOST-SUFFIX,i2wq4.icu,AdGuardChinese
 HOST-SUFFIX,i3z.cn,AdGuardChinese
+HOST-SUFFIX,i5q1t8vj9.com,AdGuardChinese
 HOST-SUFFIX,i8m6.com,AdGuardChinese
 HOST-SUFFIX,i9i3ko2o70.com,AdGuardChinese
 HOST-SUFFIX,iads.xinmin.cn,AdGuardChinese
@@ -2271,6 +2274,7 @@ HOST-SUFFIX,iiyurraeoh.com,AdGuardChinese
 HOST-SUFFIX,ijeujkdhnvb.top,AdGuardChinese
 HOST-SUFFIX,ijimtyo.top,AdGuardChinese
 HOST-SUFFIX,ijksec.xyz,AdGuardChinese
+HOST-SUFFIX,ijyj.cn,AdGuardChinese
 HOST-SUFFIX,ikuailian.com,AdGuardChinese
 HOST-SUFFIX,ilcq.cn,AdGuardChinese
 HOST-SUFFIX,ilzies.com,AdGuardChinese
@@ -2702,6 +2706,7 @@ HOST-SUFFIX,kwsugo.icu,AdGuardChinese
 HOST-SUFFIX,kwumme.xyz,AdGuardChinese
 HOST-SUFFIX,kwurserd.top,AdGuardChinese
 HOST-SUFFIX,kwyamu.xyz,AdGuardChinese
+HOST-SUFFIX,kxkask.icu,AdGuardChinese
 HOST-SUFFIX,kxri.cn,AdGuardChinese
 HOST-SUFFIX,kxygsjv.icu,AdGuardChinese
 HOST-SUFFIX,kxyumk.icu,AdGuardChinese

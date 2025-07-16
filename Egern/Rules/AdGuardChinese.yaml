@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5083
+# 规则统计: 5088
 
 domain_suffix_set:
   - 002777.xyz
@@ -36,6 +36,7 @@ domain_suffix_set:
   - 0vc.fun
   - 0w58wpq55.com
   - 0x7iufg8hy.com
+  - 0z3zbnbkv.com
   - 1.07swz.com
   - 1.1010pic.com
   - 1.11130.com.cn
@@ -2166,6 +2167,7 @@ domain_suffix_set:
   - huo07131hy.com
   - huo07140hy.com
   - huo07141hy.com
+  - huo07150hy.com
   - huohuo.huamuwo.com
   - huoxun.wang
   - hur05071kns.com
@@ -2205,6 +2207,7 @@ domain_suffix_set:
   - hzhyhm.com
   - i2wq4.icu
   - i3z.cn
+  - i5q1t8vj9.com
   - i8m6.com
   - i9i3ko2o70.com
   - iads.xinmin.cn
@@ -2272,6 +2275,7 @@ domain_suffix_set:
   - ijeujkdhnvb.top
   - ijimtyo.top
   - ijksec.xyz
+  - ijyj.cn
   - ikuailian.com
   - ilcq.cn
   - ilzies.com
@@ -2703,6 +2707,7 @@ domain_suffix_set:
   - kwumme.xyz
   - kwurserd.top
   - kwyamu.xyz
+  - kxkask.icu
   - kxri.cn
   - kxygsjv.icu
   - kxyumk.icu
