@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5112
+# 规则统计: 5125
 
 domain_suffix_set:
   - 002777.xyz
@@ -208,6 +208,7 @@ domain_suffix_set:
   - 3exfu7vaxu.com
   - 3ff6kjylmjs.top
   - 3hads4i5hm.com
+  - 3j1fiw14n9.com
   - 3kfvgobkw.com
   - 3lo.icu
   - 3ni.icu
@@ -729,6 +730,8 @@ domain_suffix_set:
   - ausfyk.xyz
   - aushaq.top
   - auy07170km.com
+  - auy07180km.com
+  - auy07181km.com
   - avivid.likr.tw
   - avkd.cn
   - avqdhss.icu
@@ -753,6 +756,7 @@ domain_suffix_set:
   - b1.engdvd.com
   - b1.xiao84.com
   - b10.justacdn.net
+  - b1o8h004u5.com
   - b477.life
   - b79e4u3hz7.com
   - b7sw62.pingshu8.xyz
@@ -1098,6 +1102,7 @@ domain_suffix_set:
   - cggyyi.xyz
   - cgskys.xyz
   - ch17axocue.top
+  - chaldailg.com
   - chanced112.com
   - chaoyumiao.com
   - chaqraex.com
@@ -1291,6 +1296,7 @@ domain_suffix_set:
   - dayujs.top
   - dbdophuz.icu
   - dbigboq.top
+  - dbvo.cn
   - dchdmhf.cn
   - dchyjb.xyz
   - dd1.diymianmo.com
@@ -1995,6 +2001,7 @@ domain_suffix_set:
   - gucx.cn
   - guekoe.icu
   - guess.h.qhimg.com
+  - guessrp50.com
   - guifudi.com
   - gukviels.com
   - gumgo.cn
@@ -2455,6 +2462,7 @@ domain_suffix_set:
   - jewruta.top
   - jeyd.cn
   - jfpo.cn
+  - jfqua.cn
   - jfrrnf.icu
   - jg1668.com
   - jgapcsi.icu
@@ -3038,6 +3046,7 @@ domain_suffix_set:
   - mstmsbz.com
   - mtfc8.com
   - mthhhuq.cn
+  - mtiicw.icu
   - mtimiyx.top
   - mttpsy6666.cc
   - mtwuxss.icu
@@ -3667,6 +3676,7 @@ domain_suffix_set:
   - r4u.icu
   - r528e.cn
   - r5twojylmzsym.top
+  - r7tqkqrvuz.com
   - ra1.xyz
   - ra10.xyz
   - rabc1.iteye.com
@@ -4382,6 +4392,7 @@ domain_suffix_set:
   - usejj.wangkl.com
   - usgowell.com
   - usgowell.org
+  - ussxvwu.online
   - utbyvyl.icu
   - uteeo5018.com
   - utewyc.xyz
@@ -4795,8 +4806,10 @@ domain_suffix_set:
   - xmvqzd.icu
   - xmvxo.xyz
   - xn--2ss830adjbqy7h.xn--fiqs8s
+  - xn--6kr65fctg2t4e.com
   - xn--sssy7vrppusjyv0a.com
   - xn--swt207gl1hzc.net
+  - xn--uirw6qy5u.com
   - xn--w9q675dm1p7em.net
   - xn--wgvp78a61swpe6zdozj.cn
   - xn--xhq326aj6yqpw.com
