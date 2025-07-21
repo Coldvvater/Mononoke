@@ -1,7 +1,8 @@
 # 规则名称: Proxy
-# 规则统计: 1080
+# 规则统计: 1082
 
 domain_set:
+  - 7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
   - ccmdl.adobe.com
   - community.oneplus.com
   - ees.elsevier.com
@@ -1014,6 +1015,7 @@ domain_suffix_set:
   - wikibooks.org
   - wikidata.org
   - wikidot.com
+  - wikihow.com
   - wikileaks.org
   - wikimedia.org
   - wikinews.org

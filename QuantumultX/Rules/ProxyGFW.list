@@ -1,6 +1,7 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7403
+# 规则统计: 7405
 
+HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ProxyGFW
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
 HOST,community.oneplus.com,ProxyGFW
@@ -6859,6 +6860,7 @@ HOST-SUFFIX,wikia.com,ProxyGFW
 HOST-SUFFIX,wikibooks.org,ProxyGFW
 HOST-SUFFIX,wikidata.org,ProxyGFW
 HOST-SUFFIX,wikidot.com,ProxyGFW
+HOST-SUFFIX,wikihow.com,ProxyGFW
 HOST-SUFFIX,wikileaks-forum.com,ProxyGFW
 HOST-SUFFIX,wikileaks.ch,ProxyGFW
 HOST-SUFFIX,wikileaks.com,ProxyGFW

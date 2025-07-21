@@ -1,6 +1,7 @@
 # 规则名称: Proxy
-# 规则统计: 1080
+# 规则统计: 1082
 
+DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
 DOMAIN,ees.elsevier.com
@@ -1012,6 +1013,7 @@ DOMAIN-SUFFIX,wiki2.org
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
 DOMAIN-SUFFIX,wikidot.com
+DOMAIN-SUFFIX,wikihow.com
 DOMAIN-SUFFIX,wikileaks.org
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikinews.org

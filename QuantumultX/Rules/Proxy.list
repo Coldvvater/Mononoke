@@ -1,6 +1,7 @@
 # 规则名称: Proxy
-# 规则统计: 1081
+# 规则统计: 1083
 
+HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,Proxy
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
 HOST,ees.elsevier.com,Proxy
@@ -1012,6 +1013,7 @@ HOST-SUFFIX,wiki2.org,Proxy
 HOST-SUFFIX,wikibooks.org,Proxy
 HOST-SUFFIX,wikidata.org,Proxy
 HOST-SUFFIX,wikidot.com,Proxy
+HOST-SUFFIX,wikihow.com,Proxy
 HOST-SUFFIX,wikileaks.org,Proxy
 HOST-SUFFIX,wikimedia.org,Proxy
 HOST-SUFFIX,wikinews.org,Proxy
