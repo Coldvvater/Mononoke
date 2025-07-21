@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5132
+# 规则统计: 5140
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -733,6 +733,8 @@ DOMAIN-SUFFIX,auy07170km.com
 DOMAIN-SUFFIX,auy07180km.com
 DOMAIN-SUFFIX,auy07181km.com
 DOMAIN-SUFFIX,auy07190km.com
+DOMAIN-SUFFIX,auy07200km.com
+DOMAIN-SUFFIX,auy07201km.com
 DOMAIN-SUFFIX,avivid.likr.tw
 DOMAIN-SUFFIX,avkd.cn
 DOMAIN-SUFFIX,avqdhss.icu
@@ -2338,6 +2340,7 @@ DOMAIN-SUFFIX,infucierg.com
 DOMAIN-SUFFIX,inone517.com
 DOMAIN-SUFFIX,inphais.com
 DOMAIN-SUFFIX,inping.com
+DOMAIN-SUFFIX,insidemo75.com
 DOMAIN-SUFFIX,inte.sogou.com
 DOMAIN-SUFFIX,inulgaenypa.com
 DOMAIN-SUFFIX,inwuamo.top
@@ -3605,6 +3608,7 @@ DOMAIN-SUFFIX,qkgllif.icu
 DOMAIN-SUFFIX,qkitery.top
 DOMAIN-SUFFIX,ql.uzuzuz.com
 DOMAIN-SUFFIX,qm2.icu
+DOMAIN-SUFFIX,qmavyy.icu
 DOMAIN-SUFFIX,qmbdta.cn
 DOMAIN-SUFFIX,qnhi.cn
 DOMAIN-SUFFIX,qnhoqullbea.com
@@ -3670,6 +3674,7 @@ DOMAIN-SUFFIX,qwsanan.top
 DOMAIN-SUFFIX,qwti.cn
 DOMAIN-SUFFIX,qwursery.top
 DOMAIN-SUFFIX,qxaz2xcw.com
+DOMAIN-SUFFIX,qxdx2x6kn6.com
 DOMAIN-SUFFIX,qxn9qlvmca.com
 DOMAIN-SUFFIX,qxwoiv.com
 DOMAIN-SUFFIX,qyisloy.top
@@ -4448,6 +4453,7 @@ DOMAIN-SUFFIX,uxieks.com
 DOMAIN-SUFFIX,uy8f8z9uy.com
 DOMAIN-SUFFIX,uyislot.top
 DOMAIN-SUFFIX,uypg.cn
+DOMAIN-SUFFIX,uyqx.cn
 DOMAIN-SUFFIX,uyretut.top
 DOMAIN-SUFFIX,uyyquln.icu
 DOMAIN-SUFFIX,uziisk.icu
@@ -4745,6 +4751,7 @@ DOMAIN-SUFFIX,xa7j.icu
 DOMAIN-SUFFIX,xadulxs.cn
 DOMAIN-SUFFIX,xaiqrania.com
 DOMAIN-SUFFIX,xamniksq.com
+DOMAIN-SUFFIX,xapu7phoge.com
 DOMAIN-SUFFIX,xaqnbj.cn
 DOMAIN-SUFFIX,xbfebqya.icu
 DOMAIN-SUFFIX,xbfk.cn
@@ -4963,6 +4970,7 @@ DOMAIN-SUFFIX,ymgranque.com
 DOMAIN-SUFFIX,ymmiyun.com
 DOMAIN-SUFFIX,ymwjwe.xyz
 DOMAIN-SUFFIX,yn0mbg4p1.com
+DOMAIN-SUFFIX,yn9k86cpsf.com
 DOMAIN-SUFFIX,ynzhby.com
 DOMAIN-SUFFIX,ynztzh.com
 DOMAIN-SUFFIX,yoig.cn

@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1080
+# 规则统计: 1081
 
 HOST,ccmdl.adobe.com,Proxy
 HOST,community.oneplus.com,Proxy
@@ -799,6 +799,7 @@ HOST-SUFFIX,saucenao.com,Proxy
 HOST-SUFFIX,sb,Proxy
 HOST-SUFFIX,sc-cdn.net,Proxy
 HOST-SUFFIX,schema.org,Proxy
+HOST-SUFFIX,scp-wiki.com,Proxy
 HOST-SUFFIX,scp-wiki.net,Proxy
 HOST-SUFFIX,scpdb.org,Proxy
 HOST-SUFFIX,scpwiki.com,Proxy

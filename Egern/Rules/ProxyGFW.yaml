@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7401
+# 规则统计: 7402
 
 no_resolve: true
 domain_set:
@@ -5309,6 +5309,7 @@ domain_suffix_set:
   - scieron.com
   - scmp.com
   - scmpchinese.com
+  - scp-wiki.com
   - scp-wiki.net
   - scpdb.org
   - scpwiki.com

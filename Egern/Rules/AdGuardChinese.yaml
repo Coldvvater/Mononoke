@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5132
+# 规则统计: 5140
 
 domain_suffix_set:
   - 002777.xyz
@@ -734,6 +734,8 @@ domain_suffix_set:
   - auy07180km.com
   - auy07181km.com
   - auy07190km.com
+  - auy07200km.com
+  - auy07201km.com
   - avivid.likr.tw
   - avkd.cn
   - avqdhss.icu
@@ -2339,6 +2341,7 @@ domain_suffix_set:
   - inone517.com
   - inphais.com
   - inping.com
+  - insidemo75.com
   - inte.sogou.com
   - inulgaenypa.com
   - inwuamo.top
@@ -3606,6 +3609,7 @@ domain_suffix_set:
   - qkitery.top
   - ql.uzuzuz.com
   - qm2.icu
+  - qmavyy.icu
   - qmbdta.cn
   - qnhi.cn
   - qnhoqullbea.com
@@ -3671,6 +3675,7 @@ domain_suffix_set:
   - qwti.cn
   - qwursery.top
   - qxaz2xcw.com
+  - qxdx2x6kn6.com
   - qxn9qlvmca.com
   - qxwoiv.com
   - qyisloy.top
@@ -4449,6 +4454,7 @@ domain_suffix_set:
   - uy8f8z9uy.com
   - uyislot.top
   - uypg.cn
+  - uyqx.cn
   - uyretut.top
   - uyyquln.icu
   - uziisk.icu
@@ -4746,6 +4752,7 @@ domain_suffix_set:
   - xadulxs.cn
   - xaiqrania.com
   - xamniksq.com
+  - xapu7phoge.com
   - xaqnbj.cn
   - xbfebqya.icu
   - xbfk.cn
@@ -4964,6 +4971,7 @@ domain_suffix_set:
   - ymmiyun.com
   - ymwjwe.xyz
   - yn0mbg4p1.com
+  - yn9k86cpsf.com
   - ynzhby.com
   - ynztzh.com
   - yoig.cn

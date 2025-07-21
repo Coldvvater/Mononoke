@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7402
+# 规则统计: 7403
 
 HOST,ccmdl.adobe.com,ProxyGFW
 HOST,cloud.oracle.com,ProxyGFW
@@ -5306,6 +5306,7 @@ HOST-SUFFIX,sciencenets.com,ProxyGFW
 HOST-SUFFIX,scieron.com,ProxyGFW
 HOST-SUFFIX,scmp.com,ProxyGFW
 HOST-SUFFIX,scmpchinese.com,ProxyGFW
+HOST-SUFFIX,scp-wiki.com,ProxyGFW
 HOST-SUFFIX,scp-wiki.net,ProxyGFW
 HOST-SUFFIX,scpdb.org,ProxyGFW
 HOST-SUFFIX,scpwiki.com,ProxyGFW

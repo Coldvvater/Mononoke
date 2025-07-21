@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1079
+# 规则统计: 1080
 
 domain_set:
   - ccmdl.adobe.com
@@ -801,6 +801,7 @@ domain_suffix_set:
   - sb
   - sc-cdn.net
   - schema.org
+  - scp-wiki.com
   - scp-wiki.net
   - scpdb.org
   - scpwiki.com

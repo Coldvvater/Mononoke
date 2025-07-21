@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7401
+# 规则统计: 7402
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -5306,6 +5306,7 @@ DOMAIN-SUFFIX,sciencenets.com
 DOMAIN-SUFFIX,scieron.com
 DOMAIN-SUFFIX,scmp.com
 DOMAIN-SUFFIX,scmpchinese.com
+DOMAIN-SUFFIX,scp-wiki.com
 DOMAIN-SUFFIX,scp-wiki.net
 DOMAIN-SUFFIX,scpdb.org
 DOMAIN-SUFFIX,scpwiki.com
