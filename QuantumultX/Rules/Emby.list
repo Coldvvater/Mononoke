@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 187
+# 规则统计: 193
 
 HOST,2pfdml.mobaiemby.site,Emby
 HOST,cc.coemn.com,Emby
@@ -19,6 +19,7 @@ HOST-SUFFIX,16bit.cfd,Emby
 HOST-SUFFIX,20120714.xyz,Emby
 HOST-SUFFIX,252798.xyz,Emby
 HOST-SUFFIX,285286.xyz,Emby
+HOST-SUFFIX,3767483.xyz,Emby
 HOST-SUFFIX,404.sb,Emby
 HOST-SUFFIX,4545.cf,Emby
 HOST-SUFFIX,581658.best,Emby
@@ -50,6 +51,7 @@ HOST-SUFFIX,cc.semby.ink,Emby
 HOST-SUFFIX,cf.odysseyplus.site,Emby
 HOST-SUFFIX,charontv.com,Emby
 HOST-SUFFIX,cherrytv.one,Emby
+HOST-SUFFIX,ciallo.party,Emby
 HOST-SUFFIX,cinema.facmata.net,Emby
 HOST-SUFFIX,deja-vu.beauty,Emby
 HOST-SUFFIX,dicarerhome.com,Emby
@@ -148,12 +150,15 @@ HOST-SUFFIX,pololine.ml,Emby
 HOST-SUFFIX,pornemby.club,Emby
 HOST-SUFFIX,post.cn2gias.uk,Emby
 HOST-SUFFIX,pub1.emby.wtf,Emby
+HOST-SUFFIX,pub1.term.wtf,Emby
 HOST-SUFFIX,pub1back.emby.wtf,Emby
 HOST-SUFFIX,pub1cf.emby.wtf,Emby
 HOST-SUFFIX,pub2.emby.wtf,Emby
+HOST-SUFFIX,pub2.term.wtf,Emby
 HOST-SUFFIX,pub2back.emby.wtf,Emby
 HOST-SUFFIX,pub2cf.emby.wtf,Emby
 HOST-SUFFIX,pub3.emby.wtf,Emby
+HOST-SUFFIX,pub3.term.wtf,Emby
 HOST-SUFFIX,pub3back.emby.wtf,Emby
 HOST-SUFFIX,pub3cf.emby.wtf,Emby
 HOST-SUFFIX,reddust.link,Emby
@@ -178,6 +183,7 @@ HOST-SUFFIX,younoyes.com,Emby
 HOST-SUFFIX,yunti.online,Emby
 HOST-SUFFIX,zabc.net,Emby
 HOST-SUFFIX,zi0.icu,Emby
+HOST-SUFFIX,zn.al,Emby
 HOST-SUFFIX,zox.show,Emby
 IP-CIDR,152.53.67.239/32,Emby
 IP-CIDR,168.119.137.205/32,Emby
