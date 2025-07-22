@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5140
+# 规则统计: 5148
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -369,6 +369,7 @@ DOMAIN-SUFFIX,8878tp.com
 DOMAIN-SUFFIX,888bb555ww.com
 DOMAIN-SUFFIX,888bb666cc.com
 DOMAIN-SUFFIX,888xx222kk.com
+DOMAIN-SUFFIX,88ad.top
 DOMAIN-SUFFIX,88lmfff666.com
 DOMAIN-SUFFIX,88p2p.com
 DOMAIN-SUFFIX,8961.jianbihua.com
@@ -735,6 +736,8 @@ DOMAIN-SUFFIX,auy07181km.com
 DOMAIN-SUFFIX,auy07190km.com
 DOMAIN-SUFFIX,auy07200km.com
 DOMAIN-SUFFIX,auy07201km.com
+DOMAIN-SUFFIX,auy07210km.com
+DOMAIN-SUFFIX,auy07211km.com
 DOMAIN-SUFFIX,avivid.likr.tw
 DOMAIN-SUFFIX,avkd.cn
 DOMAIN-SUFFIX,avqdhss.icu
@@ -1553,7 +1556,6 @@ DOMAIN-SUFFIX,eeryt111.fun
 DOMAIN-SUFFIX,eetlwsw.top
 DOMAIN-SUFFIX,eewrutw.top
 DOMAIN-SUFFIX,eeyy.com
-DOMAIN-SUFFIX,ef9i0f3oev47.com
 DOMAIN-SUFFIX,efg.zle.com
 DOMAIN-SUFFIX,efgh.5lu.com
 DOMAIN-SUFFIX,efxh.cn
@@ -2440,6 +2442,7 @@ DOMAIN-SUFFIX,jb.ecar168.cn
 DOMAIN-SUFFIX,jbdch1.appmobile.cn
 DOMAIN-SUFFIX,jbkqemk.icu
 DOMAIN-SUFFIX,jc1.dayfund.com.cn
+DOMAIN-SUFFIX,jcbj62b2t.com
 DOMAIN-SUFFIX,jcdard.top
 DOMAIN-SUFFIX,jcfbgdbd.top
 DOMAIN-SUFFIX,jcinmaa.top
@@ -2663,6 +2666,7 @@ DOMAIN-SUFFIX,khesuts.com
 DOMAIN-SUFFIX,khoqetslh.com
 DOMAIN-SUFFIX,khrtac.xiangha.com
 DOMAIN-SUFFIX,kiolpia.icu
+DOMAIN-SUFFIX,kitchenfu47.top
 DOMAIN-SUFFIX,kiuee8.com
 DOMAIN-SUFFIX,kiwihk.net
 DOMAIN-SUFFIX,kiykfux.icu
@@ -3326,6 +3330,7 @@ DOMAIN-SUFFIX,opkmio.xyz
 DOMAIN-SUFFIX,opkrerkaidf.com
 DOMAIN-SUFFIX,opqnkw.xyz
 DOMAIN-SUFFIX,opwc.cn
+DOMAIN-SUFFIX,opwqkq.icu
 DOMAIN-SUFFIX,oqaejin.icu
 DOMAIN-SUFFIX,oqea.cn
 DOMAIN-SUFFIX,oqidsgkq.com
@@ -3366,6 +3371,7 @@ DOMAIN-SUFFIX,owurserk.top
 DOMAIN-SUFFIX,oxjb.cn
 DOMAIN-SUFFIX,oxkqeu.xyz
 DOMAIN-SUFFIX,oxpgm.cn
+DOMAIN-SUFFIX,oyed.cn
 DOMAIN-SUFFIX,oyretuk.top
 DOMAIN-SUFFIX,p.7060.la
 DOMAIN-SUFFIX,p.junshi881.com
@@ -3531,6 +3537,7 @@ DOMAIN-SUFFIX,q06g.com
 DOMAIN-SUFFIX,q1.yyxwzx.com
 DOMAIN-SUFFIX,q1bp.icu
 DOMAIN-SUFFIX,q2usj.icu
+DOMAIN-SUFFIX,q3rlg1flo.com
 DOMAIN-SUFFIX,q5sn40kmp2.com
 DOMAIN-SUFFIX,q83v5haaz.com
 DOMAIN-SUFFIX,q8q.icu
@@ -4901,6 +4908,7 @@ DOMAIN-SUFFIX,y1n1n3e0v.com
 DOMAIN-SUFFIX,y4l.icu
 DOMAIN-SUFFIX,y4re1yokqv.com
 DOMAIN-SUFFIX,y66xvgo5i.chuimg.com
+DOMAIN-SUFFIX,y6oiuyphb.com
 DOMAIN-SUFFIX,y7pcgacfn.com
 DOMAIN-SUFFIX,y7ts.icu
 DOMAIN-SUFFIX,y9ppy0icw1.com
