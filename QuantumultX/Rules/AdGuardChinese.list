@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5148
+# 规则统计: 5153
 
 HOST-SUFFIX,002777.xyz,AdGuardChinese
 HOST-SUFFIX,003store.com,AdGuardChinese
@@ -414,6 +414,7 @@ HOST-SUFFIX,999xx999kk.com,AdGuardChinese
 HOST-SUFFIX,99jinpin.com,AdGuardChinese
 HOST-SUFFIX,99smsf.com,AdGuardChinese
 HOST-SUFFIX,9fum.ifeng.com,AdGuardChinese
+HOST-SUFFIX,9hyf6wsiv5.com,AdGuardChinese
 HOST-SUFFIX,9kh5b.cn,AdGuardChinese
 HOST-SUFFIX,9oru1vh0w.com,AdGuardChinese
 HOST-SUFFIX,9vviyje1s.top,AdGuardChinese
@@ -2946,6 +2947,7 @@ HOST-SUFFIX,manage.wdfans.cn,AdGuardChinese
 HOST-SUFFIX,market.178.com,AdGuardChinese
 HOST-SUFFIX,market.21cn.com,AdGuardChinese
 HOST-SUFFIX,market.duowan.com,AdGuardChinese
+HOST-SUFFIX,marketpd4.top,AdGuardChinese
 HOST-SUFFIX,matwbp.iask.sina.com.cn,AdGuardChinese
 HOST-SUFFIX,mb.gulongbbs.com,AdGuardChinese
 HOST-SUFFIX,mbaedurr.com,AdGuardChinese
@@ -3054,6 +3056,7 @@ HOST-SUFFIX,mrutvncx.top,AdGuardChinese
 HOST-SUFFIX,ms.cnbanbao.com,AdGuardChinese
 HOST-SUFFIX,mscs.svaeuzh.cn,AdGuardChinese
 HOST-SUFFIX,msmcoa.xyz,AdGuardChinese
+HOST-SUFFIX,msslwa.icu,AdGuardChinese
 HOST-SUFFIX,mstmsbz.com,AdGuardChinese
 HOST-SUFFIX,mtfc8.com,AdGuardChinese
 HOST-SUFFIX,mthhhuq.cn,AdGuardChinese
@@ -4367,6 +4370,7 @@ HOST-SUFFIX,ujimtyt.top,AdGuardChinese
 HOST-SUFFIX,ujmz.cn,AdGuardChinese
 HOST-SUFFIX,ujovcb.cn,AdGuardChinese
 HOST-SUFFIX,uk0.icu,AdGuardChinese
+HOST-SUFFIX,ukfp.cn,AdGuardChinese
 HOST-SUFFIX,ukitert.top,AdGuardChinese
 HOST-SUFFIX,ukkiftx.icu,AdGuardChinese
 HOST-SUFFIX,ulad.cn,AdGuardChinese
@@ -5088,6 +5092,7 @@ HOST-SUFFIX,zio8.icu,AdGuardChinese
 HOST-SUFFIX,ziqniduy.com,AdGuardChinese
 HOST-SUFFIX,zisu.cn.com,AdGuardChinese
 HOST-SUFFIX,ziweuu.com,AdGuardChinese
+HOST-SUFFIX,zj9puq8ycu.com,AdGuardChinese
 HOST-SUFFIX,zjen.cn,AdGuardChinese
 HOST-SUFFIX,zjgfq.com,AdGuardChinese
 HOST-SUFFIX,zjib0.icu,AdGuardChinese

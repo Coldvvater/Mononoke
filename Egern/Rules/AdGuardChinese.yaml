@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5148
+# 规则统计: 5153
 
 domain_suffix_set:
   - 002777.xyz
@@ -415,6 +415,7 @@ domain_suffix_set:
   - 99jinpin.com
   - 99smsf.com
   - 9fum.ifeng.com
+  - 9hyf6wsiv5.com
   - 9kh5b.cn
   - 9oru1vh0w.com
   - 9vviyje1s.top
@@ -2947,6 +2948,7 @@ domain_suffix_set:
   - market.178.com
   - market.21cn.com
   - market.duowan.com
+  - marketpd4.top
   - matwbp.iask.sina.com.cn
   - mb.gulongbbs.com
   - mbaedurr.com
@@ -3055,6 +3057,7 @@ domain_suffix_set:
   - ms.cnbanbao.com
   - mscs.svaeuzh.cn
   - msmcoa.xyz
+  - msslwa.icu
   - mstmsbz.com
   - mtfc8.com
   - mthhhuq.cn
@@ -4368,6 +4371,7 @@ domain_suffix_set:
   - ujmz.cn
   - ujovcb.cn
   - uk0.icu
+  - ukfp.cn
   - ukitert.top
   - ukkiftx.icu
   - ulad.cn
@@ -5089,6 +5093,7 @@ domain_suffix_set:
   - ziqniduy.com
   - zisu.cn.com
   - ziweuu.com
+  - zj9puq8ycu.com
   - zjen.cn
   - zjgfq.com
   - zjib0.icu
