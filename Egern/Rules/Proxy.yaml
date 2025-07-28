@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1082
+# 规则统计: 1086
 
 domain_set:
   - 7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
@@ -14,6 +14,8 @@ domain_set:
   - store.ui.com.cn
   - wego.here.com
 domain_suffix_set:
+  - 123av.com
+  - 123av.me
   - 123rf.com
   - 18comic.org
   - 18comic.vip
@@ -885,6 +887,7 @@ domain_suffix_set:
   - sysctl-explorer.net
   - t.co
   - t66y.com
+  - tailfin.cc
   - tailwindcss.com
   - taipei
   - talkcc.com
@@ -925,6 +928,7 @@ domain_suffix_set:
   - tmagazine.com
   - tnaflix.com
   - to
+  - tokto-motion.net
   - tokyomotion.net
   - tokyonline.com
   - toolforge.org

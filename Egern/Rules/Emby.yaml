@@ -1,9 +1,8 @@
 # 规则名称: Emby
-# 规则统计: 193
+# 规则统计: 192
 
 no_resolve: true
 domain_set:
-  - 2pfdml.mobaiemby.site
   - cc.coemn.com
   - cdn1.nebula-media.org
   - cf-cdn1.nebula-media.org
@@ -11,6 +10,7 @@ domain_set:
   - cuinf.sfcat.link
   - emby-cdn1.nebula-media.org
   - emby.nebula-media.org
+  - mcdn.mobaiemby.site
   - notnetflix.cos.cat
   - starharn-cf.nebula-media.org
   - starharn.nebula-media.org
@@ -62,7 +62,6 @@ domain_suffix_set:
   - ednovas.org
   - em.ssky.me
   - emby-cf.plusmedia.site
-  - emby-myg-de.vfing.de
   - emby-sg.plusmedia.site
   - emby.aiyowei.ml
   - emby.bid

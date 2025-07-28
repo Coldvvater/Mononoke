@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 840
+# 规则统计: 838
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -516,7 +516,6 @@ domain_suffix_set:
   - mobaliyun.res.mgtv.com
   - mobile.da.mgtv.com
   - mobilelog.upqzfile.com
-  - mon.zijieapi.com
   - monitor-ads-test.huan.tv
   - monitor-uu.play.aiseet.atianqi.com
   - monitor.music.qq.com
@@ -722,7 +721,6 @@ domain_suffix_set:
   - tnc3-aliec2.bytedance.com
   - tnc3-aliec2.snssdk.com
   - tnc3-aliec2.toutiaoapi.com
-  - tnc3-aliec2.zijieapi.com
   - tnc3-alisc1.bytedance.com
   - tnc3-alisc1.snssdk.com
   - tnc3-alisc1.toutiaoapi.com

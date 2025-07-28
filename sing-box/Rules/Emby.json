@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain": [
-        "2pfdml.mobaiemby.site",
         "cc.coemn.com",
         "cdn1.nebula-media.org",
         "cf-cdn1.nebula-media.org",
@@ -11,6 +10,7 @@
         "cuinf.sfcat.link",
         "emby-cdn1.nebula-media.org",
         "emby.nebula-media.org",
+        "mcdn.mobaiemby.site",
         "notnetflix.cos.cat",
         "starharn-cf.nebula-media.org",
         "starharn.nebula-media.org",
@@ -65,7 +65,6 @@
         "ednovas.org",
         "em.ssky.me",
         "emby-cf.plusmedia.site",
-        "emby-myg-de.vfing.de",
         "emby-sg.plusmedia.site",
         "emby.aiyowei.ml",
         "emby.bid",

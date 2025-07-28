@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3773
+# 规则统计: 3788
 
 domain_set:
   - 0x0.st
@@ -315,6 +315,7 @@ domain_set:
   - bookface-static.ycombinator.com
   - bot.ivy.ai
   - brand-sdk.kmsmep.com
+  - brandwidgets.outtra.com
   - brick.a.ssl.fastly.net
   - brick.freetls.fastly.net
   - bst.icons8.com
@@ -423,6 +424,7 @@ domain_set:
   - cdn.accounts.nintendo.com
   - cdn.adguard.com
   - cdn.adguard.info
+  - cdn.adsninja.ca
   - cdn.aimerce.ai
   - cdn.amcharts.com
   - cdn.announcekit.app
@@ -519,6 +521,7 @@ domain_set:
   - cdn.evbstatic.com
   - cdn.faire.com
   - cdn.fastcomments.com
+  - cdn.fera.ai
   - cdn.filen.io
   - cdn.firebase.com
   - cdn.fluidplayer.com
@@ -589,6 +592,7 @@ domain_set:
   - cdn.lihkg.com
   - cdn.linearicons.com
   - cdn.livechatinc.com
+  - cdn.logbase.io
   - cdn.loom.com
   - cdn.macstories.net
   - cdn.manageengine.com
@@ -671,6 +675,7 @@ domain_set:
   - cdn.report-uri.com
   - cdn.rex.contents.rakuten.co.jp
   - cdn.rive.app
+  - cdn.road.cc
   - cdn.robinpro.gallery
   - cdn.roboflow.com
   - cdn.royaleapi.com
@@ -720,6 +725,7 @@ domain_set:
   - cdn.thingiverse.com
   - cdn.tiny.cloud
   - cdn.tinypass.com
+  - cdn.tokyo-motion.net
   - cdn.tolt.io
   - cdn.tracxn.com
   - cdn.transcend.io
@@ -929,6 +935,7 @@ domain_set:
   - config.extension.grammarly.com
   - connect-js.stripe.com
   - connect.facebook.net
+  - connect.getflowbox.com
   - connect.nosto.com
   - connectivitycheck.android.com
   - connectivitycheck.gstatic.com
@@ -1245,6 +1252,7 @@ domain_set:
   - icons.buffer.com
   - icons.duckduckgo.com
   - icons.ferndocs.com
+  - icons.internetbrands.com
   - icons.leavemealone.com
   - icons.llamao.fi
   - icons.ly
@@ -1668,6 +1676,7 @@ domain_set:
   - media.shopimind.com
   - media.smooch.io
   - media.steampowered.com
+  - media.tailfin.cc
   - media.telanganatoday.com
   - media.tenor.com
   - media.themoviedb.org
@@ -1880,6 +1889,7 @@ domain_set:
   - public.linear.app
   - public.mocortech.com
   - public.saasexch.com
+  - public.zoorix.com
   - publicsuffix.org
   - pytorch.org
   - qmod.quotemedia.com
@@ -2024,6 +2034,7 @@ domain_set:
   - screenshots.debian.net
   - screenshots.downloadtorrentfile.com
   - screenshots.webflow.com
+  - script.custobar.com
   - scripts.dailymail.co.uk
   - scripts.scriptwrapper.com
   - scripts.webeo.com
@@ -2241,6 +2252,7 @@ domain_set:
   - static.guim.co.uk
   - static.heavy-r.com
   - static.helpjuice.com
+  - static.hosting.com
   - static.hotjar.com
   - static.hubspot.com
   - static.hugedomains.com
@@ -2627,6 +2639,7 @@ domain_set:
   - widgets.listenlive.co
   - widgets.media.weather.com
   - widgets.outbrain.com
+  - widgets.pinterest.com
   - widgets.tree-nation.com
   - widgets.turnto.com
   - widgets.zohosalesiq.com
@@ -2829,6 +2842,7 @@ domain_suffix_set:
   - cdndoe.xyz
   - cdnfonts.com
   - cdninstagram.com
+  - cdnjav.com
   - cdnjhd.com
   - cdnjs.network
   - cdnpk.net
@@ -3293,7 +3307,6 @@ domain_suffix_set:
   - nelreports.net
   - nest.land
   - net.anydesk.com
-  - netdna-ssl.com
   - netlify.app
   - neweggimages.com
   - newscdn.com.au
@@ -3473,6 +3486,7 @@ domain_suffix_set:
   - shgcdn.com
   - shields.io
   - shopifycdn.com
+  - shoppulse88.store
   - shortpixel.ai
   - simgbb.com
   - similarcdn.com
@@ -3552,6 +3566,7 @@ domain_suffix_set:
   - superfiliate-cdn.com
   - surge.sh
   - surrit.com
+  - surrit.store
   - susercontent.com
   - svbtleusercontent.com
   - sway-cdn.com

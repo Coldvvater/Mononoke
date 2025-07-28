@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7405
+# 规则统计: 7409
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ProxyGFW
 HOST,ccmdl.adobe.com,ProxyGFW
@@ -30,6 +30,8 @@ HOST-SUFFIX,10beasts.net,ProxyGFW
 HOST-SUFFIX,10conditionsoflove.com,ProxyGFW
 HOST-SUFFIX,10musume.com,ProxyGFW
 HOST-SUFFIX,111666.best,ProxyGFW
+HOST-SUFFIX,123av.com,ProxyGFW
+HOST-SUFFIX,123av.me,ProxyGFW
 HOST-SUFFIX,123rf.com,ProxyGFW
 HOST-SUFFIX,12bet.com,ProxyGFW
 HOST-SUFFIX,12vpn.com,ProxyGFW
@@ -5830,6 +5832,7 @@ HOST-SUFFIX,tafm.org,ProxyGFW
 HOST-SUFFIX,tagwa.org.au,ProxyGFW
 HOST-SUFFIX,tagwalk.com,ProxyGFW
 HOST-SUFFIX,tahr.org.tw,ProxyGFW
+HOST-SUFFIX,tailfin.cc,ProxyGFW
 HOST-SUFFIX,tailwindcss.com,ProxyGFW
 HOST-SUFFIX,taipei,ProxyGFW
 HOST-SUFFIX,taipeisociety.org,ProxyGFW
@@ -6163,6 +6166,7 @@ HOST-SUFFIX,togetter.com,ProxyGFW
 HOST-SUFFIX,toh.info,ProxyGFW
 HOST-SUFFIX,token.im,ProxyGFW
 HOST-SUFFIX,tokenlon.im,ProxyGFW
+HOST-SUFFIX,tokto-motion.net,ProxyGFW
 HOST-SUFFIX,tokyo-247.com,ProxyGFW
 HOST-SUFFIX,tokyo-hot.com,ProxyGFW
 HOST-SUFFIX,tokyo-porn-tube.com,ProxyGFW

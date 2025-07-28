@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1083
+# 规则统计: 1087
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,Proxy
 HOST,ccmdl.adobe.com,Proxy
@@ -12,6 +12,8 @@ HOST,sgminorshort.wechat.com,Proxy
 HOST,sgshort.wechat.com,Proxy
 HOST,store.ui.com.cn,Proxy
 HOST,wego.here.com,Proxy
+HOST-SUFFIX,123av.com,Proxy
+HOST-SUFFIX,123av.me,Proxy
 HOST-SUFFIX,123rf.com,Proxy
 HOST-SUFFIX,18comic.org,Proxy
 HOST-SUFFIX,18comic.vip,Proxy
@@ -883,6 +885,7 @@ HOST-SUFFIX,synergyse.com,Proxy
 HOST-SUFFIX,sysctl-explorer.net,Proxy
 HOST-SUFFIX,t.co,Proxy
 HOST-SUFFIX,t66y.com,Proxy
+HOST-SUFFIX,tailfin.cc,Proxy
 HOST-SUFFIX,tailwindcss.com,Proxy
 HOST-SUFFIX,taipei,Proxy
 HOST-SUFFIX,talkcc.com,Proxy
@@ -923,6 +926,7 @@ HOST-SUFFIX,tktube.com,Proxy
 HOST-SUFFIX,tmagazine.com,Proxy
 HOST-SUFFIX,tnaflix.com,Proxy
 HOST-SUFFIX,to,Proxy
+HOST-SUFFIX,tokto-motion.net,Proxy
 HOST-SUFFIX,tokyomotion.net,Proxy
 HOST-SUFFIX,tokyonline.com,Proxy
 HOST-SUFFIX,toolforge.org,Proxy

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3773
+# 规则统计: 3788
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -314,6 +314,7 @@ DOMAIN,boards.greenhouse.io
 DOMAIN,bookface-static.ycombinator.com
 DOMAIN,bot.ivy.ai
 DOMAIN,brand-sdk.kmsmep.com
+DOMAIN,brandwidgets.outtra.com
 DOMAIN,brick.a.ssl.fastly.net
 DOMAIN,brick.freetls.fastly.net
 DOMAIN,bst.icons8.com
@@ -422,6 +423,7 @@ DOMAIN,cdn.accounts.autodesk.com
 DOMAIN,cdn.accounts.nintendo.com
 DOMAIN,cdn.adguard.com
 DOMAIN,cdn.adguard.info
+DOMAIN,cdn.adsninja.ca
 DOMAIN,cdn.aimerce.ai
 DOMAIN,cdn.amcharts.com
 DOMAIN,cdn.announcekit.app
@@ -518,6 +520,7 @@ DOMAIN,cdn.european-alternatives.eu
 DOMAIN,cdn.evbstatic.com
 DOMAIN,cdn.faire.com
 DOMAIN,cdn.fastcomments.com
+DOMAIN,cdn.fera.ai
 DOMAIN,cdn.filen.io
 DOMAIN,cdn.firebase.com
 DOMAIN,cdn.fluidplayer.com
@@ -588,6 +591,7 @@ DOMAIN,cdn.libravatar.org
 DOMAIN,cdn.lihkg.com
 DOMAIN,cdn.linearicons.com
 DOMAIN,cdn.livechatinc.com
+DOMAIN,cdn.logbase.io
 DOMAIN,cdn.loom.com
 DOMAIN,cdn.macstories.net
 DOMAIN,cdn.manageengine.com
@@ -670,6 +674,7 @@ DOMAIN,cdn.reimu.net
 DOMAIN,cdn.report-uri.com
 DOMAIN,cdn.rex.contents.rakuten.co.jp
 DOMAIN,cdn.rive.app
+DOMAIN,cdn.road.cc
 DOMAIN,cdn.robinpro.gallery
 DOMAIN,cdn.roboflow.com
 DOMAIN,cdn.royaleapi.com
@@ -719,6 +724,7 @@ DOMAIN,cdn.thenewstack.io
 DOMAIN,cdn.thingiverse.com
 DOMAIN,cdn.tiny.cloud
 DOMAIN,cdn.tinypass.com
+DOMAIN,cdn.tokyo-motion.net
 DOMAIN,cdn.tolt.io
 DOMAIN,cdn.tracxn.com
 DOMAIN,cdn.transcend.io
@@ -928,6 +934,7 @@ DOMAIN,components.trynow.net
 DOMAIN,config.extension.grammarly.com
 DOMAIN,connect-js.stripe.com
 DOMAIN,connect.facebook.net
+DOMAIN,connect.getflowbox.com
 DOMAIN,connect.nosto.com
 DOMAIN,connectivitycheck.android.com
 DOMAIN,connectivitycheck.gstatic.com
@@ -1244,6 +1251,7 @@ DOMAIN,ichef.bbci.co.uk
 DOMAIN,icons.buffer.com
 DOMAIN,icons.duckduckgo.com
 DOMAIN,icons.ferndocs.com
+DOMAIN,icons.internetbrands.com
 DOMAIN,icons.leavemealone.com
 DOMAIN,icons.llamao.fi
 DOMAIN,icons.ly
@@ -1667,6 +1675,7 @@ DOMAIN,media.ra.kroll.com
 DOMAIN,media.shopimind.com
 DOMAIN,media.smooch.io
 DOMAIN,media.steampowered.com
+DOMAIN,media.tailfin.cc
 DOMAIN,media.telanganatoday.com
 DOMAIN,media.tenor.com
 DOMAIN,media.themoviedb.org
@@ -1879,6 +1888,7 @@ DOMAIN,public.hare200.com
 DOMAIN,public.linear.app
 DOMAIN,public.mocortech.com
 DOMAIN,public.saasexch.com
+DOMAIN,public.zoorix.com
 DOMAIN,publicsuffix.org
 DOMAIN,pytorch.org
 DOMAIN,qmod.quotemedia.com
@@ -2023,6 +2033,7 @@ DOMAIN,screenshots.codesandbox.io
 DOMAIN,screenshots.debian.net
 DOMAIN,screenshots.downloadtorrentfile.com
 DOMAIN,screenshots.webflow.com
+DOMAIN,script.custobar.com
 DOMAIN,scripts.dailymail.co.uk
 DOMAIN,scripts.scriptwrapper.com
 DOMAIN,scripts.webeo.com
@@ -2240,6 +2251,7 @@ DOMAIN,static.grammarly.com
 DOMAIN,static.guim.co.uk
 DOMAIN,static.heavy-r.com
 DOMAIN,static.helpjuice.com
+DOMAIN,static.hosting.com
 DOMAIN,static.hotjar.com
 DOMAIN,static.hubspot.com
 DOMAIN,static.hugedomains.com
@@ -2626,6 +2638,7 @@ DOMAIN,widgets.flickr.com
 DOMAIN,widgets.listenlive.co
 DOMAIN,widgets.media.weather.com
 DOMAIN,widgets.outbrain.com
+DOMAIN,widgets.pinterest.com
 DOMAIN,widgets.tree-nation.com
 DOMAIN,widgets.turnto.com
 DOMAIN,widgets.zohosalesiq.com
@@ -2827,6 +2840,7 @@ DOMAIN-SUFFIX,cdnclouder.com
 DOMAIN-SUFFIX,cdndoe.xyz
 DOMAIN-SUFFIX,cdnfonts.com
 DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,cdnjav.com
 DOMAIN-SUFFIX,cdnjhd.com
 DOMAIN-SUFFIX,cdnjs.network
 DOMAIN-SUFFIX,cdnpk.net
@@ -3291,7 +3305,6 @@ DOMAIN-SUFFIX,nel.measure.office.net
 DOMAIN-SUFFIX,nelreports.net
 DOMAIN-SUFFIX,nest.land
 DOMAIN-SUFFIX,net.anydesk.com
-DOMAIN-SUFFIX,netdna-ssl.com
 DOMAIN-SUFFIX,netlify.app
 DOMAIN-SUFFIX,neweggimages.com
 DOMAIN-SUFFIX,newscdn.com.au
@@ -3471,6 +3484,7 @@ DOMAIN-SUFFIX,sftcdn.net
 DOMAIN-SUFFIX,shgcdn.com
 DOMAIN-SUFFIX,shields.io
 DOMAIN-SUFFIX,shopifycdn.com
+DOMAIN-SUFFIX,shoppulse88.store
 DOMAIN-SUFFIX,shortpixel.ai
 DOMAIN-SUFFIX,simgbb.com
 DOMAIN-SUFFIX,similarcdn.com
@@ -3550,6 +3564,7 @@ DOMAIN-SUFFIX,substackcdn.com
 DOMAIN-SUFFIX,superfiliate-cdn.com
 DOMAIN-SUFFIX,surge.sh
 DOMAIN-SUFFIX,surrit.com
+DOMAIN-SUFFIX,surrit.store
 DOMAIN-SUFFIX,susercontent.com
 DOMAIN-SUFFIX,svbtleusercontent.com
 DOMAIN-SUFFIX,sway-cdn.com
