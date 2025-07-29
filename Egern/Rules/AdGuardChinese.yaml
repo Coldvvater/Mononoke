@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5200
+# 规则统计: 5214
 
 domain_suffix_set:
   - 002777.xyz
@@ -518,6 +518,8 @@ domain_suffix_set:
   - aaa.tumanyi.com
   - aafns.xyz
   - aafuck.xyz
+  - aai07280mu.com
+  - aai07281mu.com
   - aapj.cn
   - aariedbtr.com
   - ab.cnbanbao.com
@@ -1289,6 +1291,7 @@ domain_suffix_set:
   - daffodilo44.com
   - dai.siyuetian.net
   - dai18.mumu01.com
+  - dai9146.xyz
   - daiitmk.cn
   - daima.aixiaola.com
   - daima.diaoben.net
@@ -1953,6 +1956,8 @@ domain_suffix_set:
   - gio07261rp.com
   - gio07270rp.com
   - gio07271rp.com
+  - gio07280rp.com
+  - gio07281rp.com
   - giphaudoq.com
   - gjinuqg.top
   - gjjskhdnm.top
@@ -2303,6 +2308,7 @@ domain_suffix_set:
   - ifje.cn
   - iflucav.icu
   - ifmccdn.icu
+  - ifoh.cn
   - ifqn.cn
   - ifxqubw.icu
   - ig65.vip
@@ -3185,6 +3191,7 @@ domain_suffix_set:
   - nhjn788.fun
   - nhjnw78.fun
   - nhur.cn
+  - nhy9i8t56f.com
   - nhz6q.cn
   - niecarsg.com
   - nievolmqn.com
@@ -3480,6 +3487,7 @@ domain_suffix_set:
   - picnewsss.com
   - pics.xgo-img.com.cn
   - piln.cn
+  - pimormebwf.com
   - pincai.com
   - pinjzp.icu
   - pisauc.cn
@@ -3648,6 +3656,7 @@ domain_suffix_set:
   - qkgllif.icu
   - qkitery.top
   - ql.uzuzuz.com
+  - qlghunil.com
   - qlkysc.icu
   - qm2.icu
   - qmavyy.icu
@@ -3718,6 +3727,7 @@ domain_suffix_set:
   - qwursery.top
   - qxaz2xcw.com
   - qxdx2x6kn6.com
+  - qxeymg.icu
   - qxn9qlvmca.com
   - qxwoiv.com
   - qyisloy.top
@@ -4070,6 +4080,7 @@ domain_suffix_set:
   - sugilip.cn
   - sums.suning.com
   - sunflowers66.top
+  - sunglasse2.top
   - super.cat898.com
   - super.kdnet.net
   - superfish.com
@@ -4744,6 +4755,7 @@ domain_suffix_set:
   - woublie.top
   - wouvxlie.top
   - wowad.wow-classic.com
+  - wozlx.cn
   - wpeo.cn
   - wpmdeo.xyz
   - wpsbaq.xyz
@@ -4955,6 +4967,7 @@ domain_suffix_set:
   - y1.junshitt.com
   - y1.spreton.com
   - y18ut1kw22.com
+  - y1ma8c054n.com
   - y1n1n3e0v.com
   - y4l.icu
   - y4re1yokqv.com
@@ -5175,6 +5188,7 @@ domain_suffix_set:
   - zr3.icu
   - zrbnte.top
   - zrkksps.icu
+  - zrzgsdocqm.com
   - zsjxwj.com
   - zt2088.com
   - ztdbfz.top
