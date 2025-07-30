@@ -1,5 +1,5 @@
 # 规则名称: Disney
-# 规则统计: 171
+# 规则统计: 172
 
 domain_suffix_set:
   - 20thcenturystudios.com.au
@@ -118,6 +118,7 @@ domain_suffix_set:
   - disneyworld-go.com
   - dlp-media.com
   - dmed.technology
+  - dssedge.com
   - dssott.com
   - dtci.co
   - dtci.technology

@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 807
+# 规则统计: 829
 
 domain_set:
   - 7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
@@ -113,6 +113,7 @@ domain_suffix_set:
   - alibabachengdun.com
   - alibabadns.com
   - alibabausercontent.com
+  - alibtrip.com
   - alicdn.com
   - alicloudccp.com
   - alidns.com
@@ -188,6 +189,7 @@ domain_suffix_set:
   - byted-static.com
   - bytedance.com
   - bytednsdoc.com
+  - byteeffecttos.com
   - bytegoofy.com
   - byteimg.com
   - bytetcc.com
@@ -251,6 +253,7 @@ domain_suffix_set:
   - coolapkmarket.net
   - cowcs.com
   - cowtransfer.com
+  - coze.cn
   - csdn.com
   - csdn.net
   - csdnimg.cn
@@ -264,6 +267,11 @@ domain_suffix_set:
   - dbankcdn.cn
   - dbankcdn.com
   - dbankcloud.com
+  - dcarapi.com
+  - dcarimg.com
+  - dcarlive.com
+  - dcarstatic.com
+  - dcarvod.com
   - dewu.com
   - dfcfw.com
   - dianping.com
@@ -287,9 +295,11 @@ domain_suffix_set:
   - docin.com
   - docschina.org
   - donews.com
+  - dongchedi.com
   - douban.com
   - douban.fm
   - doubanio.com
+  - doubao.com
   - douyin.com
   - douyincdn.com
   - douyinliving.com
@@ -306,6 +316,7 @@ domain_suffix_set:
   - duapp.com
   - duba.net
   - duokan.com
+  - dwz.cn
   - dxy.cn
   - dxycdn.com
   - eastmoney.com
@@ -336,6 +347,7 @@ domain_suffix_set:
   - fqnovelpic.com
   - frdic.com
   - freshhema.com
+  - freshippo.com
   - fun.tv
   - funshion.com
   - futu5.com
@@ -544,6 +556,7 @@ domain_suffix_set:
   - nubia.com
   - oceanengine.com
   - officewebapps.cn
+  - okr.com
   - oneplus.cn
   - oneplusbbs.com
   - onlinedown.com
@@ -572,12 +585,16 @@ domain_suffix_set:
   - pinduoduo.net
   - pingan.com
   - pingwest.com
+  - pipix.com
   - pphimalayanrt.com
   - pplive.cn
   - pplive.com
   - pps.tv
   - ppsimg.com
   - pptv.com
+  - ppximg.com
+  - ppxstatic.com
+  - ppxvod.com
   - psbc.com
   - pstatp.com
   - pubyun.com
@@ -718,6 +735,7 @@ domain_suffix_set:
   - vmall.com
   - vmallres.com
   - volccdn.com
+  - volcengine.com
   - volces.com
   - volcvideo.com
   - wallstreetcn.com
@@ -744,6 +762,7 @@ domain_suffix_set:
   - wpscdn.cn
   - wpscdn.com
   - wscn.net
+  - wukong.com
   - x3322.net
   - xhscdn.com
   - xiachufang.com
@@ -759,6 +778,7 @@ domain_suffix_set:
   - xiaomixiaoai.com
   - xiaomiyoupin.com
   - xiaote.net
+  - xiaoxiaapi.com
   - ximalaya.com
   - xincai.com
   - xinhuanet.com
@@ -802,9 +822,11 @@ domain_suffix_set:
   - zhuanzfx.com
   - zijieapi.com
   - zjcdn.com
+  - zjurl.cn
   - zui.com
   - zuimeitianqi.com
   - zuoyebang.com
+  - zybang.com
 domain_wildcard_set:
   - *.ffzy-online?.com
   - *.ffzy-play?.com

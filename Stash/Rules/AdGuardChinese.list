@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5214
+# 规则统计: 5224
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -217,6 +217,7 @@ DOMAIN-SUFFIX,3p8801.co
 DOMAIN-SUFFIX,3pefw1lz4.com
 DOMAIN-SUFFIX,3q1lsj.cn
 DOMAIN-SUFFIX,3rcld5y1dm.com
+DOMAIN-SUFFIX,3rre9r4t2.com
 DOMAIN-SUFFIX,3ryin2uj0x.com
 DOMAIN-SUFFIX,3sas.icu
 DOMAIN-SUFFIX,3ts.icu
@@ -252,6 +253,7 @@ DOMAIN-SUFFIX,4ve.fun
 DOMAIN-SUFFIX,4we.icu
 DOMAIN-SUFFIX,4wm.fun
 DOMAIN-SUFFIX,4wu3gf.cn
+DOMAIN-SUFFIX,4xicd08qs.com
 DOMAIN-SUFFIX,4zn.fun
 DOMAIN-SUFFIX,5.ccutu.com
 DOMAIN-SUFFIX,5.gzfenda.com
@@ -519,6 +521,8 @@ DOMAIN-SUFFIX,aafns.xyz
 DOMAIN-SUFFIX,aafuck.xyz
 DOMAIN-SUFFIX,aai07280mu.com
 DOMAIN-SUFFIX,aai07281mu.com
+DOMAIN-SUFFIX,aai07290mu.com
+DOMAIN-SUFFIX,aai07291mu.com
 DOMAIN-SUFFIX,aapj.cn
 DOMAIN-SUFFIX,aariedbtr.com
 DOMAIN-SUFFIX,ab.cnbanbao.com
@@ -1957,6 +1961,7 @@ DOMAIN-SUFFIX,gio07270rp.com
 DOMAIN-SUFFIX,gio07271rp.com
 DOMAIN-SUFFIX,gio07280rp.com
 DOMAIN-SUFFIX,gio07281rp.com
+DOMAIN-SUFFIX,gio07290rp.com
 DOMAIN-SUFFIX,giphaudoq.com
 DOMAIN-SUFFIX,gjinuqg.top
 DOMAIN-SUFFIX,gjjskhdnm.top
@@ -3277,6 +3282,7 @@ DOMAIN-SUFFIX,o4q.fun
 DOMAIN-SUFFIX,o8s.icu
 DOMAIN-SUFFIX,o8zoz.icu
 DOMAIN-SUFFIX,oa-panther.data.aliyun.com
+DOMAIN-SUFFIX,oaatyq.icu
 DOMAIN-SUFFIX,oaiqksi.top
 DOMAIN-SUFFIX,oajv.cn
 DOMAIN-SUFFIX,oakmn.top
@@ -3738,6 +3744,7 @@ DOMAIN-SUFFIX,r40h9qvpq.com
 DOMAIN-SUFFIX,r4u.icu
 DOMAIN-SUFFIX,r528e.cn
 DOMAIN-SUFFIX,r5twojylmzsym.top
+DOMAIN-SUFFIX,r6q4mtfno.com
 DOMAIN-SUFFIX,r7tqkqrvuz.com
 DOMAIN-SUFFIX,ra1.xyz
 DOMAIN-SUFFIX,ra10.xyz
@@ -3991,6 +3998,7 @@ DOMAIN-SUFFIX,sm-cloud.yunsafe.top
 DOMAIN-SUFFIX,smjfbjsfvrf.com
 DOMAIN-SUFFIX,smuc.cnnfootballclub.com
 DOMAIN-SUFFIX,sn9.icu
+DOMAIN-SUFFIX,sneakersq5.com
 DOMAIN-SUFFIX,snjfasp.com
 DOMAIN-SUFFIX,snmi.cn
 DOMAIN-SUFFIX,snnmgdt.icu
@@ -4726,6 +4734,7 @@ DOMAIN-SUFFIX,wj9uod3838.com
 DOMAIN-SUFFIX,wjimtye.top
 DOMAIN-SUFFIX,wkabios.icu
 DOMAIN-SUFFIX,wkitere.top
+DOMAIN-SUFFIX,wkzvf2658.com
 DOMAIN-SUFFIX,wkzw.me
 DOMAIN-SUFFIX,wl.uqwjdhgv.top
 DOMAIN-SUFFIX,wlberlaiw.com
@@ -4907,6 +4916,7 @@ DOMAIN-SUFFIX,xpj08.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,xpjcg.oss-accelerate.aliyuncs.com
 DOMAIN-SUFFIX,xplbxx.icu
 DOMAIN-SUFFIX,xpxi.cn
+DOMAIN-SUFFIX,xpya.cn
 DOMAIN-SUFFIX,xqrydt.icu
 DOMAIN-SUFFIX,xrlzhk.top
 DOMAIN-SUFFIX,xrus.cn

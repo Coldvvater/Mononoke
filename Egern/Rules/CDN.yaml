@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3788
+# 规则统计: 3789
 
 domain_set:
   - 0x0.st
@@ -1333,6 +1333,7 @@ domain_set:
   - images.freeimages.com
   - images.g2crowd.com
   - images.github.media
+  - images.hothardware.com
   - images.idgesg.net
   - images.kick.com
   - images.loox.io

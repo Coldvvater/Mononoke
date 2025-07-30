@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5214
+# 规则统计: 5224
 
 domain_suffix_set:
   - 002777.xyz
@@ -218,6 +218,7 @@ domain_suffix_set:
   - 3pefw1lz4.com
   - 3q1lsj.cn
   - 3rcld5y1dm.com
+  - 3rre9r4t2.com
   - 3ryin2uj0x.com
   - 3sas.icu
   - 3ts.icu
@@ -253,6 +254,7 @@ domain_suffix_set:
   - 4we.icu
   - 4wm.fun
   - 4wu3gf.cn
+  - 4xicd08qs.com
   - 4zn.fun
   - 5.ccutu.com
   - 5.gzfenda.com
@@ -520,6 +522,8 @@ domain_suffix_set:
   - aafuck.xyz
   - aai07280mu.com
   - aai07281mu.com
+  - aai07290mu.com
+  - aai07291mu.com
   - aapj.cn
   - aariedbtr.com
   - ab.cnbanbao.com
@@ -1958,6 +1962,7 @@ domain_suffix_set:
   - gio07271rp.com
   - gio07280rp.com
   - gio07281rp.com
+  - gio07290rp.com
   - giphaudoq.com
   - gjinuqg.top
   - gjjskhdnm.top
@@ -3278,6 +3283,7 @@ domain_suffix_set:
   - o8s.icu
   - o8zoz.icu
   - oa-panther.data.aliyun.com
+  - oaatyq.icu
   - oaiqksi.top
   - oajv.cn
   - oakmn.top
@@ -3739,6 +3745,7 @@ domain_suffix_set:
   - r4u.icu
   - r528e.cn
   - r5twojylmzsym.top
+  - r6q4mtfno.com
   - r7tqkqrvuz.com
   - ra1.xyz
   - ra10.xyz
@@ -3992,6 +3999,7 @@ domain_suffix_set:
   - smjfbjsfvrf.com
   - smuc.cnnfootballclub.com
   - sn9.icu
+  - sneakersq5.com
   - snjfasp.com
   - snmi.cn
   - snnmgdt.icu
@@ -4727,6 +4735,7 @@ domain_suffix_set:
   - wjimtye.top
   - wkabios.icu
   - wkitere.top
+  - wkzvf2658.com
   - wkzw.me
   - wl.uqwjdhgv.top
   - wlberlaiw.com
@@ -4908,6 +4917,7 @@ domain_suffix_set:
   - xpjcg.oss-accelerate.aliyuncs.com
   - xplbxx.icu
   - xpxi.cn
+  - xpya.cn
   - xqrydt.icu
   - xrlzhk.top
   - xrus.cn
