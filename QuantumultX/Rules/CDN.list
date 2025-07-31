@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3789
+# 规则统计: 3804
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -520,6 +520,7 @@ HOST,cdn.european-alternatives.eu,CDN
 HOST,cdn.evbstatic.com,CDN
 HOST,cdn.faire.com,CDN
 HOST,cdn.fastcomments.com,CDN
+HOST,cdn.fastmediaing.com,CDN
 HOST,cdn.fera.ai,CDN
 HOST,cdn.filen.io,CDN
 HOST,cdn.firebase.com,CDN
@@ -669,6 +670,7 @@ HOST,cdn.rebuyengine.com,CDN
 HOST,cdn.recovermycart.com,CDN
 HOST,cdn.redhat.com,CDN
 HOST,cdn.redoc.ly,CDN
+HOST,cdn.redwap.xyz,CDN
 HOST,cdn.registerdisney.go.com,CDN
 HOST,cdn.reimu.net,CDN
 HOST,cdn.report-uri.com,CDN
@@ -788,6 +790,7 @@ HOST,cdn1.dan.com,CDN
 HOST,cdn1.edgedatg.com,CDN
 HOST,cdn1.epicgames.com,CDN
 HOST,cdn1.hentaicity.com,CDN
+HOST,cdn1.hotmoza.tv,CDN
 HOST,cdn1.iconfinder.com,CDN
 HOST,cdn1.identitymind.com,CDN
 HOST,cdn1.plesk.com,CDN
@@ -796,6 +799,7 @@ HOST,cdn1.suno.ai,CDN
 HOST,cdn1.sysgears.com,CDN
 HOST,cdn1.techbang.com,CDN
 HOST,cdn1.unrealengine.com,CDN
+HOST,cdn1.xxxsx.com,CDN
 HOST,cdn10.bigcommerce.com,CDN
 HOST,cdn11.bigcommerce.com,CDN
 HOST,cdn2-imgix.macpaw.com,CDN
@@ -872,9 +876,11 @@ HOST,cdnstatic.w1mp.com,CDN
 HOST,cdnstatic.w4nkr.com,CDN
 HOST,cdnth.zbporn.com,CDN
 HOST,cdntranscend.eventbrite.com,CDN
+HOST,cdntube.b-cdn.net,CDN
 HOST,cdnweb.devolutions.net,CDN
 HOST,cdp.sph.com.sg,CDN
 HOST,cds.connatix.com,CDN
+HOST,celebrities-small.porndig.com,CDN
 HOST,certificates.godaddy.com,CDN
 HOST,certona.gap.com,CDN
 HOST,cf-assets.www.cloudflare.com,CDN
@@ -978,6 +984,7 @@ HOST,crt.comodoca.com,CDN
 HOST,crt.usertrust.com,CDN
 HOST,csp.microsoft.com,CDN
 HOST,css-1-cdn.airdroid.com,CDN
+HOST,css.4jpg.top,CDN
 HOST,css.blackmagicdesign.com,CDN
 HOST,css.createsend1.com,CDN
 HOST,curl.se,CDN
@@ -1630,6 +1637,7 @@ HOST,media.cmx.edu.kg,CDN
 HOST,media.cnn.com,CDN
 HOST,media.contentapi.ea.com,CDN
 HOST,media.convertkit.com,CDN
+HOST,media.crazyshit.com,CDN
 HOST,media.daily.dev,CDN
 HOST,media.datacenterdynamics.com,CDN
 HOST,media.dev.to,CDN
@@ -1647,6 +1655,7 @@ HOST,media.gettyimages.com,CDN
 HOST,media.giphy.com,CDN
 HOST,media.graphassets.com,CDN
 HOST,media.hachyderm.io,CDN
+HOST,media.hentaifreak.org,CDN
 HOST,media.infosec.exchange,CDN
 HOST,media.inhumanity.com,CDN
 HOST,media.invisioncic.com,CDN
@@ -1817,6 +1826,7 @@ HOST,pics.hentai.name,CDN
 HOST,pics.javhd.today,CDN
 HOST,pics.mf8.biz,CDN
 HOST,pics.paypal.com,CDN
+HOST,pics.pornfhd.com,CDN
 HOST,pics.serviporno.com,CDN
 HOST,pics.vpdmm.cc,CDN
 HOST,pics.x-n-x-x.pro,CDN
@@ -2182,6 +2192,7 @@ HOST,static.apkpure.com,CDN
 HOST,static.arxiv.org,CDN
 HOST,static.assetlab.io,CDN
 HOST,static.axios.com,CDN
+HOST,static.bad.news,CDN
 HOST,static.bangumi.moe,CDN
 HOST,static.bbc.co.uk,CDN
 HOST,static.bbci.co.uk,CDN
@@ -2712,6 +2723,7 @@ HOST-SUFFIX,anpoimages.com,CDN
 HOST-SUFFIX,anpustream.com,CDN
 HOST-SUFFIX,ant.design,CDN
 HOST-SUFFIX,aolcdn.com,CDN
+HOST-SUFFIX,aosikaimage.com,CDN
 HOST-SUFFIX,api.instabug.com,CDN
 HOST-SUFFIX,api.loganalytics.io,CDN
 HOST-SUFFIX,app-analytics-services.com,CDN
@@ -3025,6 +3037,7 @@ HOST-SUFFIX,gammacdn.com,CDN
 HOST-SUFFIX,gateway.originprotocol.com,CDN
 HOST-SUFFIX,gateway.pinata.cloud,CDN
 HOST-SUFFIX,gateway.serph.network,CDN
+HOST-SUFFIX,gayzyimage.com,CDN
 HOST-SUFFIX,gcr.si,CDN
 HOST-SUFFIX,gdvid.info,CDN
 HOST-SUFFIX,gentcdn.com,CDN
@@ -3069,6 +3082,7 @@ HOST-SUFFIX,hgasm1.com,CDN
 HOST-SUFFIX,hgasm2.com,CDN
 HOST-SUFFIX,hgasm3.com,CDN
 HOST-SUFFIX,hgimg00.com,CDN
+HOST-SUFFIX,hgimg01.com,CDN
 HOST-SUFFIX,highwinds-cdn.com,CDN
 HOST-SUFFIX,himg.nl,CDN
 HOST-SUFFIX,hits.b3log.org,CDN
@@ -3288,6 +3302,7 @@ HOST-SUFFIX,msftauthimages.net,CDN
 HOST-SUFFIX,msftconnecttest.com,CDN
 HOST-SUFFIX,msftncsi.com,CDN
 HOST-SUFFIX,msftstatic.com,CDN
+HOST-SUFFIX,mubicdn.com,CDN
 HOST-SUFFIX,muscache.com,CDN
 HOST-SUFFIX,mxmcdn.net,CDN
 HOST-SUFFIX,myanalytics.cdn.office.net,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3787
+# 规则统计: 3802
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -520,6 +520,7 @@ DOMAIN,cdn.european-alternatives.eu
 DOMAIN,cdn.evbstatic.com
 DOMAIN,cdn.faire.com
 DOMAIN,cdn.fastcomments.com
+DOMAIN,cdn.fastmediaing.com
 DOMAIN,cdn.fera.ai
 DOMAIN,cdn.filen.io
 DOMAIN,cdn.firebase.com
@@ -669,6 +670,7 @@ DOMAIN,cdn.rebuyengine.com
 DOMAIN,cdn.recovermycart.com
 DOMAIN,cdn.redhat.com
 DOMAIN,cdn.redoc.ly
+DOMAIN,cdn.redwap.xyz
 DOMAIN,cdn.registerdisney.go.com
 DOMAIN,cdn.reimu.net
 DOMAIN,cdn.report-uri.com
@@ -788,6 +790,7 @@ DOMAIN,cdn1.dan.com
 DOMAIN,cdn1.edgedatg.com
 DOMAIN,cdn1.epicgames.com
 DOMAIN,cdn1.hentaicity.com
+DOMAIN,cdn1.hotmoza.tv
 DOMAIN,cdn1.iconfinder.com
 DOMAIN,cdn1.identitymind.com
 DOMAIN,cdn1.plesk.com
@@ -796,6 +799,7 @@ DOMAIN,cdn1.suno.ai
 DOMAIN,cdn1.sysgears.com
 DOMAIN,cdn1.techbang.com
 DOMAIN,cdn1.unrealengine.com
+DOMAIN,cdn1.xxxsx.com
 DOMAIN,cdn10.bigcommerce.com
 DOMAIN,cdn11.bigcommerce.com
 DOMAIN,cdn2-imgix.macpaw.com
@@ -872,9 +876,11 @@ DOMAIN,cdnstatic.w1mp.com
 DOMAIN,cdnstatic.w4nkr.com
 DOMAIN,cdnth.zbporn.com
 DOMAIN,cdntranscend.eventbrite.com
+DOMAIN,cdntube.b-cdn.net
 DOMAIN,cdnweb.devolutions.net
 DOMAIN,cdp.sph.com.sg
 DOMAIN,cds.connatix.com
+DOMAIN,celebrities-small.porndig.com
 DOMAIN,certificates.godaddy.com
 DOMAIN,certona.gap.com
 DOMAIN,cf-assets.www.cloudflare.com
@@ -978,6 +984,7 @@ DOMAIN,crt.comodoca.com
 DOMAIN,crt.usertrust.com
 DOMAIN,csp.microsoft.com
 DOMAIN,css-1-cdn.airdroid.com
+DOMAIN,css.4jpg.top
 DOMAIN,css.blackmagicdesign.com
 DOMAIN,css.createsend1.com
 DOMAIN,curl.se
@@ -1630,6 +1637,7 @@ DOMAIN,media.cmx.edu.kg
 DOMAIN,media.cnn.com
 DOMAIN,media.contentapi.ea.com
 DOMAIN,media.convertkit.com
+DOMAIN,media.crazyshit.com
 DOMAIN,media.daily.dev
 DOMAIN,media.datacenterdynamics.com
 DOMAIN,media.dev.to
@@ -1647,6 +1655,7 @@ DOMAIN,media.gettyimages.com
 DOMAIN,media.giphy.com
 DOMAIN,media.graphassets.com
 DOMAIN,media.hachyderm.io
+DOMAIN,media.hentaifreak.org
 DOMAIN,media.infosec.exchange
 DOMAIN,media.inhumanity.com
 DOMAIN,media.invisioncic.com
@@ -1817,6 +1826,7 @@ DOMAIN,pics.hentai.name
 DOMAIN,pics.javhd.today
 DOMAIN,pics.mf8.biz
 DOMAIN,pics.paypal.com
+DOMAIN,pics.pornfhd.com
 DOMAIN,pics.serviporno.com
 DOMAIN,pics.vpdmm.cc
 DOMAIN,pics.x-n-x-x.pro
@@ -2182,6 +2192,7 @@ DOMAIN,static.apkpure.com
 DOMAIN,static.arxiv.org
 DOMAIN,static.assetlab.io
 DOMAIN,static.axios.com
+DOMAIN,static.bad.news
 DOMAIN,static.bangumi.moe
 DOMAIN,static.bbc.co.uk
 DOMAIN,static.bbci.co.uk
@@ -2712,6 +2723,7 @@ DOMAIN-SUFFIX,anpoimages.com
 DOMAIN-SUFFIX,anpustream.com
 DOMAIN-SUFFIX,ant.design
 DOMAIN-SUFFIX,aolcdn.com
+DOMAIN-SUFFIX,aosikaimage.com
 DOMAIN-SUFFIX,api.instabug.com
 DOMAIN-SUFFIX,api.loganalytics.io
 DOMAIN-SUFFIX,app-analytics-services.com
@@ -3025,6 +3037,7 @@ DOMAIN-SUFFIX,gammacdn.com
 DOMAIN-SUFFIX,gateway.originprotocol.com
 DOMAIN-SUFFIX,gateway.pinata.cloud
 DOMAIN-SUFFIX,gateway.serph.network
+DOMAIN-SUFFIX,gayzyimage.com
 DOMAIN-SUFFIX,gcr.si
 DOMAIN-SUFFIX,gdvid.info
 DOMAIN-SUFFIX,gentcdn.com
@@ -3069,6 +3082,7 @@ DOMAIN-SUFFIX,hgasm1.com
 DOMAIN-SUFFIX,hgasm2.com
 DOMAIN-SUFFIX,hgasm3.com
 DOMAIN-SUFFIX,hgimg00.com
+DOMAIN-SUFFIX,hgimg01.com
 DOMAIN-SUFFIX,highwinds-cdn.com
 DOMAIN-SUFFIX,himg.nl
 DOMAIN-SUFFIX,hits.b3log.org
@@ -3288,6 +3302,7 @@ DOMAIN-SUFFIX,msftauthimages.net
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,msftstatic.com
+DOMAIN-SUFFIX,mubicdn.com
 DOMAIN-SUFFIX,muscache.com
 DOMAIN-SUFFIX,mxmcdn.net
 DOMAIN-SUFFIX,myanalytics.cdn.office.net
