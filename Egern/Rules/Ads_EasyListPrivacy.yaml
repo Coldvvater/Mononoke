@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41913
+# 规则统计: 41940
 
 domain_suffix_set:
   - 0.0.0.1
@@ -4774,6 +4774,7 @@ domain_suffix_set:
   - affiliate.htb-energy.co.jp
   - affiliate.k-uno.co.jp
   - affiliate.kgcshop.jp
+  - affiliate.kinguin.net
   - affiliate.logitravel.com
   - affiliate.ouchi.coop
   - affiliate.petitwedding.com
@@ -5325,6 +5326,7 @@ domain_suffix_set:
   - analytics.klickly.com
   - analytics.komiku.org
   - analytics.kongregate.io
+  - analytics.kurocore.com
   - analytics.laregione.ch
   - analytics.lasegunda.ecn.cl
   - analytics.lemoolah.com
@@ -5335,6 +5337,7 @@ domain_suffix_set:
   - analytics.liveact.cri-mw.jp
   - analytics.livesense.marketing
   - analytics.livestream.com
+  - analytics.loadweb.com
   - analytics.logsss.com
   - analytics.lunaweb.cloud
   - analytics.lunge.de
@@ -5633,6 +5636,7 @@ domain_suffix_set:
   - analytics.yollamedia.com
   - analytics.yomedia.vn
   - analytics.yugen.to
+  - analytics.yyggames.com
   - analytics.zagg.com
   - analytics.zevvle.com
   - analytics.ziftsolutions.com
@@ -6806,6 +6810,7 @@ domain_suffix_set:
   - ask.antalis.ro
   - ask.antalis.se
   - ask.wearelistening.co.nz
+  - askdriver.com
   - asnjih.apatchy.co.uk
   - asoewk.jaanuu.com
   - asp.glasspp119.jp
@@ -7468,6 +7473,7 @@ domain_suffix_set:
   - bicp-analytics.postscript.io
   - bidder.mediams.mb.softbank.jp
   - bidgx.com
+  - bidpapers.com
   - bidswitch.net
   - bienvenido.americanindustriesgroup.com
   - bigcustomernetwork.actonservice.com
@@ -7964,6 +7970,7 @@ domain_suffix_set:
   - buf.lemonde.fr
   - bugdsm.buffalo-boots.com
   - bugjyl.jkattire.co.uk
+  - bugpizza.com
   - bugsnag.shopbop.amazon.dev
   - build.1tap.tax
   - build.bildgta.ca
@@ -8315,11 +8322,13 @@ domain_suffix_set:
   - cdanjoyner4374.myre.io
   - cdeatz.spartoo.it
   - cdfhpj.automobile.it
+  - cdjbf8trk.com
   - cdjhcf.hometogo.es
   - cdl.booksy.com
   - cdl.lvsafe.io
   - cdl2.booksy.com
   - cdn-channels-pixel.ex.co
+  - cdn-eu.usefathom.com
   - cdn-rum.ngenix.net
   - cdn.arcstudiopro.com
   - cdn.net.dz.jumia.com
@@ -8608,6 +8617,7 @@ domain_suffix_set:
   - clicks.variis.com
   - clicks2.hqo.co
   - clickserver.libero.it
+  - clickstream.sberbank.ru
   - clicktracker.iscan.nl
   - client-analytics.braintreegateway.com
   - client-analytics.mts.ru
@@ -9868,6 +9878,7 @@ domain_suffix_set:
   - d1ros97qkrwjf5.cloudfront.net
   - d1t9uctetvi0tu.cloudfront.net
   - d1tbj6eaenapdy.cloudfront.net
+  - d1tqsoh7s4xjz9.cloudfront.net
   - d1vg5xiq7qffdj.cloudfront.net
   - d1xfq2052q7thw.cloudfront.net
   - d1z3r0i09bwium.cloudfront.net
@@ -11228,6 +11239,7 @@ domain_suffix_set:
   - dmdgdu.atmosphera.com
   - dmepyodjotcuks.com
   - dmkt.solutions.cas.org
+  - dmndfrcstng.com
   - dmp.citynews.ovh
   - dmpcdn.el-mundo.net
   - dmpmetrics.rcsmetrics.it
@@ -12989,6 +13001,7 @@ domain_suffix_set:
   - explore.revenera.com
   - explore.waldenu.edu
   - expo.nada.org
+  - exportdialog.com
   - exprealty377.myre.io
   - exquisiteartisanship.com
   - exr-mms.expertreviews.co.uk
@@ -13432,6 +13445,7 @@ domain_suffix_set:
   - fpa-cdn.arstechnica.com
   - fpadga.mcruises.ru
   - fpapi.io
+  - fpaudience.com
   - fpb8.esce.fr
   - fpc.acpinternist.org
   - fpc.acpjournals.org
@@ -13709,6 +13723,7 @@ domain_suffix_set:
   - g993dvyzae.branch.salesfloor.net
   - ga-beacon.appspot.com
   - ga-tracker-dot-detmir-bonus.appspot.com
+  - ga.finam.ru
   - ga.groc.press
   - ga.nsimg.net
   - ga.webdigi.co.uk
@@ -18060,6 +18075,7 @@ domain_suffix_set:
   - library.acspubs.org
   - library.daptiv.com
   - library.westernstatescat.com
+  - libraryfacts.com
   - libraryscout.com
   - libraryvalue.com
   - librato-collector.genius.com
@@ -18969,6 +18985,7 @@ domain_suffix_set:
   - liveviewer.ez.no
   - liveyield.com
   - livingsleet.com
+  - lizard.donald.cat
   - lizardslaugh.com
   - lj5s1u8ct5vz.app.chatpay.dev
   - ljb0.assuronline.com
@@ -23211,6 +23228,7 @@ domain_suffix_set:
   - mmulsx.comet.it
   - mmwlwm.autoscout24.pl
   - mmz3.beinsports.com
+  - mnbvpo8trk.com
   - mnbyto.goo-net.com
   - mnfqyj.corello.com.br
   - mnrddc.journeys.com
@@ -24634,6 +24652,7 @@ domain_suffix_set:
   - p.hentaiforce.net
   - p.ianmjones.com
   - p.iforge.app
+  - p.jmlp.app
   - p.logbox.io
   - p.marqueplace.com
   - p.meilentrio.de
@@ -25990,6 +26009,7 @@ domain_suffix_set:
   - r42tag.com
   - r4nds.absorba.com
   - raac33.net
+  - rabbit.donald.cat
   - rabbitbreath.com
   - rabbitrifle.com
   - rac.ruutu.fi
@@ -27559,6 +27579,7 @@ domain_suffix_set:
   - scrippsfoodnetnew.foodnetwork.com
   - scrippshgtvnew.hgtv.com
   - script.ac
+  - scripts.dadata.com.br
   - scripts.psyma.com
   - scrollservice.com
   - scrubswim.com
@@ -32281,6 +32302,7 @@ domain_suffix_set:
   - spoonsilk.com
   - sportsnearby.com
   - sportyforum.com
+  - spotlersearchanalytics.com
   - spotlessstamp.com
   - spottednoise.com
   - spread.epoolers.com
@@ -32723,7 +32745,6 @@ domain_suffix_set:
   - sstats.bbt.com
   - sstats.belgiantrain.be
   - sstats.bever.nl
-  - sstats.bitdefender.com
   - sstats.bnpparibasfortis.be
   - sstats.bonappetit.com
   - sstats.bookhostels.com
@@ -33898,6 +33919,7 @@ domain_suffix_set:
   - stats.spark.co.nz
   - stats.sparkloop.app
   - stats.splinder.com
+  - stats.spreadsimple.com
   - stats.spreadtheworld.net
   - stats.sprune.com
   - stats.sqlteam.com
@@ -34754,6 +34776,7 @@ domain_suffix_set:
   - t.commandbar.com
   - t.comms.thetimes.co.uk
   - t.cozone.com
+  - t.cpurls.net
   - t.csurams.com
   - t.cubuffs.com
   - t.dailymail.co.uk
@@ -34903,6 +34926,7 @@ domain_suffix_set:
   - t.okcciviccenter.com
   - t.okstate.com
   - t.olemisssports.com
+  - t.optiwizehealth.com
   - t.oralia.fr
   - t.orion.fi
   - t.osubeavers.com
@@ -35101,6 +35125,7 @@ domain_suffix_set:
   - tags.pw.adn.cloud
   - tags.soloway.ru
   - tags.stepstone.com
+  - tagservice.maximus.mobkoi.com
   - tagtracking.vibescm.com
   - takigx.tourneau.com
   - takingbackjuly.com
@@ -35754,6 +35779,7 @@ domain_suffix_set:
   - tilanalytics.timesinternet.in
   - tilt.bankofamerica.com
   - tim.nextinpact.com
+  - time.aktion-mensch.de
   - timeclock.mytoolr.com
   - timejs.game.163.com
   - timing.uhrforum.de
@@ -38859,7 +38885,6 @@ domain_suffix_set:
   - tyumen.net.anwalt.de
   - tyvuwf.lameteoagricole.net
   - tzgurwizule3.app.cardahealth.com
-  - tzm.px-cloud.net
   - tzovkp.aboutyou.at
   - tzwaw.pw
   - u-test.getgoose.com
@@ -39107,6 +39132,7 @@ domain_suffix_set:
   - uqhpej.wiberrentacar.com
   - ur.b.inhaabit.com
   - urbanairship.com
+  - urbanlaurel.com
   - urehgr.halekulani.com
   - ureoaw.netthandelen.no
   - ureruadebis.papawash.com
@@ -39742,6 +39768,7 @@ domain_suffix_set:
   - victoryideas.com
   - video-ad-stats.googlesyndication.com
   - video-analytics-api.cloudinary.com
+  - video-intel.pixels.ai
   - video.bzfd.it
   - video.funnelbox.com
   - video.verintsystemsinc.com
