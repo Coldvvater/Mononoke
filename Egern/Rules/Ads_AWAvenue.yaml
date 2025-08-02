@@ -1,12 +1,14 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 837
+# 规则统计: 847
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
   - 1500022744.vodplayer.wxamedia.com
   - 1500026601.vodplayer.wxamedia.com
+  - 1rtb.com
   - 8le8le.com
   - 8rn1y79f02-1.algolianet.com
+  - a.market.xiaomi.com
   - a0.app.xiaomi.com
   - aaid.umeng.com
   - abtest-ch.snssdk.com
@@ -51,6 +53,7 @@ domain_suffix_set:
   - adexpo.tencentmusic.com
   - adfilter.imtt.qq.com
   - adguanggao.eee114.com
+  - adintl.cn
   - adjust.cn
   - adjust.com
   - adks.hpplay.cn
@@ -141,6 +144,7 @@ domain_suffix_set:
   - adx-os.anythinktech.com
   - adx.ads.heytapmobi.com
   - adx.ads.oppomobile.com
+  - adx.adwangmai.com
   - adx.appsdk.com.cn
   - adx.sogaha.cn
   - adx.tuia.cn
@@ -294,6 +298,7 @@ domain_suffix_set:
   - data-sdk-uuid-log.d.meituan.net
   - data.ads.oppomobile.com
   - data.chsmarttv.com
+  - data.hicloud.com
   - data.mistat.india.xiaomi.com
   - data.mistat.rus.xiaomi.com
   - data.mistat.xiaomi.com
@@ -462,6 +467,7 @@ domain_suffix_set:
   - log-verify.hiaiabc.com
   - log.ad.xiaomi.com
   - log.aispeech.com
+  - log.aliyuncs.com
   - log.amemv.com
   - log.appstore3.huan.tv
   - log.avlyun.com
@@ -753,6 +759,7 @@ domain_suffix_set:
   - tytx.m.cn.miaozhen.com
   - tz.sec.xiaomi.com
   - uapi.ads.heytapmobi.com
+  - ubixioe.com
   - udc.yahoo.com
   - udcm.yahoo.com
   - uedas.qidian.com
@@ -792,6 +799,7 @@ domain_suffix_set:
   - vipauth.hpplay.cn
   - vipgslb.hpplay.cn
   - virusinfo-cloudscan-cn.heytapmobi.com
+  - vlion.cn
   - vlive.qqvideo.tc.qq.com
   - volc.bj.ad.track.66mobi.com
   - vungle.com
@@ -829,6 +837,7 @@ domain_suffix_set:
   - xlviiirdr.com
   - xlviirdr.com
   - xycdn.com
+  - yfanads.com
   - yk-ssp-ad.cp31.ott.cibntv.net
   - yk-ssp.ad.youku.com
   - ykad-data.cp31.ott.cibntv.net
@@ -837,5 +846,6 @@ domain_suffix_set:
   - youku-acs.m.taobao.com
   - ytx-file.110route.cn
   - zeus.ad.xiaomi.com
+  - zhangyuyidong.cn
   - zhihu-web-analytics.zhihu.com
   - zxid-m.mobileservice.cn
