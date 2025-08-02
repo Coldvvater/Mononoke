@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5248
+# 规则统计: 5257
 
 domain_suffix_set:
   - 002777.xyz
@@ -759,6 +759,7 @@ domain_suffix_set:
   - avxonsp.icu
   - awifi.cn
   - awkxf8bbj.com
+  - awtguzoxc.com
   - awywlb89y.com
   - ax.ifeng.com
   - ayalcid.icu
@@ -770,6 +771,7 @@ domain_suffix_set:
   - azenco.xyz
   - b.kouke5.com
   - b.unjs.com
+  - b0rz2s5ik.com
   - b1.51scw.net
   - b1.91jucai.com
   - b1.b2b168.com
@@ -1231,6 +1233,7 @@ domain_suffix_set:
   - csdsa22.fun
   - csfds000.fun
   - cspb1.5w5w.com
+  - csqqgc90u.com
   - css.juqingba.cn
   - css.zmjm.com
   - ctc.weather.com.cn
@@ -2126,6 +2129,7 @@ domain_suffix_set:
   - hdyurliu.top
   - healthys09.top
   - heatherssb.com
+  - heavly1.com
   - hebaidu.cc
   - heemphaers.com
   - heiviek.com
@@ -2439,6 +2443,7 @@ domain_suffix_set:
   - ivnrrkx.cn
   - ivvn.cn
   - ivy.pconline.com.cn
+  - ivzaq2irg.com
   - iwanad.baidu.com
   - iwatero.top
   - iwcnmto.top
@@ -3268,6 +3273,8 @@ domain_suffix_set:
   - nug07301lu.com
   - nug07310lu.com
   - nug07311lu.com
+  - nug08010lu.com
+  - nug08011lu.com
   - nuiknnf.icu
   - nunflw.top
   - nuvaioqds.com
@@ -3430,6 +3437,7 @@ domain_suffix_set:
   - oxjb.cn
   - oxkqeu.xyz
   - oxpgm.cn
+  - oycf.cn
   - oyed.cn
   - oyretuk.top
   - p.7060.la
@@ -4446,6 +4454,7 @@ domain_suffix_set:
   - uhyf.cn
   - uiakq.top
   - uicdns.xyz
+  - uiqouw.icu
   - uivc.cn
   - ujimtyt.top
   - ujmz.cn

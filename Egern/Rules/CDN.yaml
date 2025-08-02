@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3804
+# 规则统计: 3809
 
 domain_set:
   - 0x0.st
@@ -1228,6 +1228,7 @@ domain_set:
   - i.hentaifox.com
   - i.ibb.co
   - i.iheart.com
+  - i.imagepost.com
   - i.imgflip.com
   - i.imgur.com
   - i.insider.com
@@ -1481,6 +1482,7 @@ domain_set:
   - img1.ak.crunchyroll.com
   - img1.socialshopwave.com
   - img1.yna.co.kr
+  - img2.javdove.com
   - img2.socialshopwave.com
   - img2.tnaflix.com
   - img2.yna.co.kr
@@ -2589,6 +2591,7 @@ domain_set:
   - videos.ohentai.org
   - videos2-h.sendvid.com
   - videos2.edclub.com
+  - vids.imagepost.com
   - vip.dytt-img.com
   - vir.wsj.net
   - viu-static.akamaized.net
@@ -3426,6 +3429,7 @@ domain_suffix_set:
   - proxy1.startpage.com
   - proxy2.startpage.com
   - proxy3.startpage.com
+  - prppsn.com
   - pstatic.net
   - pstorage.space
   - public.cdn.office.net
@@ -3599,6 +3603,7 @@ domain_suffix_set:
   - thesourcemediaassets.com
   - thirdwebcdn.com
   - thisiscdn.com
+  - tiktokcdn-eu.com
   - tiktokcdn-us.com
   - tiktokcdn.com
   - tildacdn.com

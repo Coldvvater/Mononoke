@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7408
+# 规则统计: 7417
 
 no_resolve: true
 domain_set:
@@ -530,6 +530,7 @@ domain_suffix_set:
   - avmoo.net
   - avmoo.pw
   - avoision.com
+  - avtoday.io
   - avyahoo.com
   - aweber.com
   - aws
@@ -2083,6 +2084,7 @@ domain_suffix_set:
   - forms.new
   - forum4hk.com
   - forums-free.com
+  - fosshub.com
   - fotile.me
   - fountmedia.io
   - fourthinternational.org
@@ -3219,6 +3221,7 @@ domain_suffix_set:
   - imageflea.com
   - imageglass.org
   - imagekit.io
+  - imagepost.com
   - images-gaytube.com
   - imageshack.us
   - imagevenue.com
@@ -3393,6 +3396,7 @@ domain_suffix_set:
   - javbus.co
   - javbus.com
   - javdb.com
+  - javdove.com
   - javfinder.ai
   - javfor.me
   - javfree.me
@@ -3750,6 +3754,7 @@ domain_suffix_set:
   - listennotes.com
   - listentoyoutube.com
   - listorious.com
+  - liteapks.com
   - litenews.hk
   - lithium.com
   - liu-xiaobo.org
@@ -3818,6 +3823,7 @@ domain_suffix_set:
   - luckydesigner.space
   - luke54.com
   - luke54.org
+  - lumendatabase.org
   - lupm.org
   - lushstories.com
   - luxebc.com
@@ -4949,6 +4955,7 @@ domain_suffix_set:
   - producthunt.com
   - project-syndicate.org
   - prometheus.io
+  - proporn.com
   - prosciana.com
   - prosiben.de
   - proton.me
@@ -5123,6 +5130,7 @@ domain_suffix_set:
   - readthedocs.io
   - readydown.com
   - realcourage.org
+  - realgfporn.com
   - realitykings.com
   - realraptalk.com
   - realsexpass.com
@@ -5640,6 +5648,7 @@ domain_suffix_set:
   - spatial.io
   - spb.com
   - speakerdeck.com
+  - spec.org
   - speedcat.me
   - speedify.com
   - speedtest.net

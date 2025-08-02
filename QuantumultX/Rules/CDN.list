@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3804
+# 规则统计: 3809
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1227,6 +1227,7 @@ HOST,i.hamreus.com,CDN
 HOST,i.hentaifox.com,CDN
 HOST,i.ibb.co,CDN
 HOST,i.iheart.com,CDN
+HOST,i.imagepost.com,CDN
 HOST,i.imgflip.com,CDN
 HOST,i.imgur.com,CDN
 HOST,i.insider.com,CDN
@@ -1480,6 +1481,7 @@ HOST,img0.yna.co.kr,CDN
 HOST,img1.ak.crunchyroll.com,CDN
 HOST,img1.socialshopwave.com,CDN
 HOST,img1.yna.co.kr,CDN
+HOST,img2.javdove.com,CDN
 HOST,img2.socialshopwave.com,CDN
 HOST,img2.tnaflix.com,CDN
 HOST,img2.yna.co.kr,CDN
@@ -2588,6 +2590,7 @@ HOST,videos.elephas.app,CDN
 HOST,videos.ohentai.org,CDN
 HOST,videos2-h.sendvid.com,CDN
 HOST,videos2.edclub.com,CDN
+HOST,vids.imagepost.com,CDN
 HOST,vip.dytt-img.com,CDN
 HOST,vir.wsj.net,CDN
 HOST,viu-static.akamaized.net,CDN
@@ -3424,6 +3427,7 @@ HOST-SUFFIX,proxy.ustclug.org,CDN
 HOST-SUFFIX,proxy1.startpage.com,CDN
 HOST-SUFFIX,proxy2.startpage.com,CDN
 HOST-SUFFIX,proxy3.startpage.com,CDN
+HOST-SUFFIX,prppsn.com,CDN
 HOST-SUFFIX,pstatic.net,CDN
 HOST-SUFFIX,pstorage.space,CDN
 HOST-SUFFIX,public.cdn.office.net,CDN
@@ -3597,6 +3601,7 @@ HOST-SUFFIX,teraboxcdn.com,CDN
 HOST-SUFFIX,thesourcemediaassets.com,CDN
 HOST-SUFFIX,thirdwebcdn.com,CDN
 HOST-SUFFIX,thisiscdn.com,CDN
+HOST-SUFFIX,tiktokcdn-eu.com,CDN
 HOST-SUFFIX,tiktokcdn-us.com,CDN
 HOST-SUFFIX,tiktokcdn.com,CDN
 HOST-SUFFIX,tildacdn.com,CDN
