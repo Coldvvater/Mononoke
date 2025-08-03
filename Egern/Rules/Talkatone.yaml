@@ -1,5 +1,5 @@
 # 规则名称: Talkatone
-# 规则统计: 17
+# 规则统计: 16
 
 no_resolve: true
 domain_suffix_set:
@@ -8,7 +8,6 @@ domain_suffix_set:
   - crashlytics.com
   - inmobi.com
   - inner-active.mobi
-  - ip-api.com
   - kochava.com
   - mobilefuse.com
   - talkatone.com
