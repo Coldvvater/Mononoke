@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 847
+# 规则统计: 848
 
 domain_suffix_set:
   - 1500020991.vodplayer.wxamedia.com
@@ -521,6 +521,7 @@ domain_suffix_set:
   - mobads.baidu.com
   - mobaliyun.res.mgtv.com
   - mobile.da.mgtv.com
+  - mobilead.kuwo.cn
   - mobilelog.upqzfile.com
   - monitor-ads-test.huan.tv
   - monitor-uu.play.aiseet.atianqi.com
