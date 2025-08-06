@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3811
+# 规则统计: 3819
 
 domain_set:
   - 0x0.st
@@ -1371,6 +1371,7 @@ domain_set:
   - images.spr.so
   - images.store.crowdstrike.com
   - images.svc.ui.com
+  - images.tg.cc
   - images.tokopedia.net
   - images.typeform.com
   - images.unsplash.com
@@ -1405,6 +1406,7 @@ domain_set:
   - img-s-msn-com.akamaized.net
   - img.177pica.com
   - img.3movs.com
+  - img.4gamers.com.tw
   - img.4khd.com
   - img.adspower.net
   - img.agrd.eu
@@ -1469,6 +1471,7 @@ domain_set:
   - img.sparknotes.com
   - img.supjav.com
   - img.telemetr.io
+  - img.tg.cc
   - img.thingiverse.com
   - img.timero.xyz
   - img.toto.im
@@ -1616,6 +1619,7 @@ domain_set:
   - mangaz-books.j-comi.jp
   - mangaz-static.j-comi.jp
   - mantisloader.mantis-awx.com
+  - map.vesselfinder.net
   - maps.geoapify.com
   - maps.gstatic.com
   - maptile.osmand.net
@@ -1906,6 +1910,7 @@ domain_set:
   - public.saasexch.com
   - public.zoorix.com
   - publicsuffix.org
+  - puku-dist.4gamers.com.tw
   - pytorch.org
   - qmod.quotemedia.com
   - quriobot.com
@@ -2123,6 +2128,7 @@ domain_set:
   - st.agrd.eu
   - st.deviantart.net
   - st.dynamicyield.com
+  - st.transfer.it
   - st1.zoom.us
   - st2.zoom.us
   - st3.zoom.us
@@ -2383,6 +2389,7 @@ domain_set:
   - static.uptimia.com
   - static.v2ex.com
   - static.vanta.com
+  - static.vesselfinder.net
   - static.vinted.com
   - static.vocadb.net
   - static.webclicks24.com
@@ -2495,6 +2502,7 @@ domain_set:
   - thumbnailer.mixcloud.com
   - thumbnails.applegamingwiki.com
   - thumbnails.cbsig.net
+  - thumbor.4gamers.com.tw
   - thumbor.forbes.com
   - thumbs.onlyfans.com
   - thumbs2.sendvid.com

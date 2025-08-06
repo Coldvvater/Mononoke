@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1100
+# 规则统计: 1103
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,ccmdl.adobe.com
@@ -986,7 +986,10 @@ DOMAIN-SUFFIX,vercel.com
 DOMAIN-SUFFIX,vercel.live
 DOMAIN-SUFFIX,verizon.com
 DOMAIN-SUFFIX,verizonwireless.com
+DOMAIN-SUFFIX,vesselfinder.com
+DOMAIN-SUFFIX,vesselfinder.net
 DOMAIN-SUFFIX,viber.com
+DOMAIN-SUFFIX,vice.com
 DOMAIN-SUFFIX,victoriassecret.com
 DOMAIN-SUFFIX,vikacg.com
 DOMAIN-SUFFIX,vimeo.com

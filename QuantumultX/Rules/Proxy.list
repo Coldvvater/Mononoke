@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1101
+# 规则统计: 1104
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,Proxy
 HOST,ccmdl.adobe.com,Proxy
@@ -986,7 +986,10 @@ HOST-SUFFIX,vercel.com,Proxy
 HOST-SUFFIX,vercel.live,Proxy
 HOST-SUFFIX,verizon.com,Proxy
 HOST-SUFFIX,verizonwireless.com,Proxy
+HOST-SUFFIX,vesselfinder.com,Proxy
+HOST-SUFFIX,vesselfinder.net,Proxy
 HOST-SUFFIX,viber.com,Proxy
+HOST-SUFFIX,vice.com,Proxy
 HOST-SUFFIX,victoriassecret.com,Proxy
 HOST-SUFFIX,vikacg.com,Proxy
 HOST-SUFFIX,vimeo.com,Proxy

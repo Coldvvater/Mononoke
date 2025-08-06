@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7417
+# 规则统计: 7420
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,ccmdl.adobe.com
@@ -6608,11 +6608,14 @@ DOMAIN-SUFFIX,vermonttibet.org
 DOMAIN-SUFFIX,vern.cc
 DOMAIN-SUFFIX,versavpn.com
 DOMAIN-SUFFIX,verybs.com
+DOMAIN-SUFFIX,vesselfinder.com
+DOMAIN-SUFFIX,vesselfinder.net
 DOMAIN-SUFFIX,vevo.com
 DOMAIN-SUFFIX,vewas.net
 DOMAIN-SUFFIX,vft.com.tw
 DOMAIN-SUFFIX,viber.com
 DOMAIN-SUFFIX,vica.info
+DOMAIN-SUFFIX,vice.com
 DOMAIN-SUFFIX,victimsofcommunism.org
 DOMAIN-SUFFIX,victoriassecret.com
 DOMAIN-SUFFIX,vid.me

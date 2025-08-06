@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7418
+# 规则统计: 7421
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ProxyGFW
 HOST,ccmdl.adobe.com,ProxyGFW
@@ -6608,11 +6608,14 @@ HOST-SUFFIX,vermonttibet.org,ProxyGFW
 HOST-SUFFIX,vern.cc,ProxyGFW
 HOST-SUFFIX,versavpn.com,ProxyGFW
 HOST-SUFFIX,verybs.com,ProxyGFW
+HOST-SUFFIX,vesselfinder.com,ProxyGFW
+HOST-SUFFIX,vesselfinder.net,ProxyGFW
 HOST-SUFFIX,vevo.com,ProxyGFW
 HOST-SUFFIX,vewas.net,ProxyGFW
 HOST-SUFFIX,vft.com.tw,ProxyGFW
 HOST-SUFFIX,viber.com,ProxyGFW
 HOST-SUFFIX,vica.info,ProxyGFW
+HOST-SUFFIX,vice.com,ProxyGFW
 HOST-SUFFIX,victimsofcommunism.org,ProxyGFW
 HOST-SUFFIX,victoriassecret.com,ProxyGFW
 HOST-SUFFIX,vid.me,ProxyGFW

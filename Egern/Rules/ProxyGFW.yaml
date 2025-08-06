@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7417
+# 规则统计: 7420
 
 no_resolve: true
 domain_set:
@@ -6611,11 +6611,14 @@ domain_suffix_set:
   - vern.cc
   - versavpn.com
   - verybs.com
+  - vesselfinder.com
+  - vesselfinder.net
   - vevo.com
   - vewas.net
   - vft.com.tw
   - viber.com
   - vica.info
+  - vice.com
   - victimsofcommunism.org
   - victoriassecret.com
   - vid.me
