@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3809
+# 规则统计: 3811
 
 domain_set:
   - 0x0.st
@@ -91,6 +91,7 @@ domain_set:
   - asset-cdn.uscardforum.com
   - asset.booth.pm
   - asset.chase.com
+  - asset.jamieoliver.com
   - asset.mansionglobal.com
   - assets-app.circleci.com
   - assets-cdn.123rf.com
@@ -569,6 +570,7 @@ domain_set:
   - cdn.ip2location.io
   - cdn.iporntv.net
   - cdn.ipregistry.co
+  - cdn.jamieoliver.com
   - cdn.javmg.com
   - cdn.javsts.com
   - cdn.jetboost.io
