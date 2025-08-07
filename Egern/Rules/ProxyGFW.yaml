@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7420
+# 规则统计: 7424
 
 no_resolve: true
 domain_set:
@@ -269,6 +269,8 @@ domain_suffix_set:
   - airconsole.com
   - aircrack-ng.org
   - airitilibrary.com
+  - airtable.com
+  - airtableusercontent.com
   - airvpn.org
   - aisex.com
   - ait.org.tw
@@ -5919,6 +5921,7 @@ domain_suffix_set:
   - teachparentstech.org
   - teamamericany.com
   - technews.tw
+  - techpowerup.com
   - techspot.com
   - techviz.net
   - teck.in
@@ -7052,6 +7055,7 @@ domain_suffix_set:
   - xizang-zhiye.org
   - xjp.cc
   - xjtravelguide.com
+  - xkcd.com
   - xkiwi.tk
   - xlfmtalk.com
   - xlfmwz.info

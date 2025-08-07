@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1104
+# 规则统计: 1109
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,Proxy
 HOST,ccmdl.adobe.com,Proxy
@@ -57,6 +57,8 @@ HOST-SUFFIX,aicoin.com,Proxy
 HOST-SUFFIX,aimoon.com,Proxy
 HOST-SUFFIX,airav.cc,Proxy
 HOST-SUFFIX,airav.io,Proxy
+HOST-SUFFIX,airtable.com,Proxy
+HOST-SUFFIX,airtableusercontent.com,Proxy
 HOST-SUFFIX,akamai.net,Proxy
 HOST-SUFFIX,akamaihd.net,Proxy
 HOST-SUFFIX,amazon.com,Proxy
@@ -435,6 +437,7 @@ HOST-SUFFIX,hetzner.com,Proxy
 HOST-SUFFIX,hinet.net,Proxy
 HOST-SUFFIX,hk,Proxy
 HOST-SUFFIX,hk01.com,Proxy
+HOST-SUFFIX,hkepc.com,Proxy
 HOST-SUFFIX,holopin.io,Proxy
 HOST-SUFFIX,homedepot.com,Proxy
 HOST-SUFFIX,hostloc.com,Proxy
@@ -901,6 +904,7 @@ HOST-SUFFIX,tailfin.cc,Proxy
 HOST-SUFFIX,tailwindcss.com,Proxy
 HOST-SUFFIX,taipei,Proxy
 HOST-SUFFIX,talkcc.com,Proxy
+HOST-SUFFIX,techpowerup.com,Proxy
 HOST-SUFFIX,techspot.com,Proxy
 HOST-SUFFIX,tenor.com,Proxy
 HOST-SUFFIX,tensorflow.org,Proxy
@@ -1072,6 +1076,7 @@ HOST-SUFFIX,xhamsterlive.com,Proxy
 HOST-SUFFIX,xhcdn.com,Proxy
 HOST-SUFFIX,xhlive.org,Proxy
 HOST-SUFFIX,xing.com,Proxy
+HOST-SUFFIX,xkcd.com,Proxy
 HOST-SUFFIX,xn--ngstr-lra8j.com,Proxy
 HOST-SUFFIX,xnxx.com,Proxy
 HOST-SUFFIX,xpressunblock.com,Proxy

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3817
+# 规则统计: 3825
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -800,6 +800,7 @@ DOMAIN,cdn1.stamped.io
 DOMAIN,cdn1.suno.ai
 DOMAIN,cdn1.sysgears.com
 DOMAIN,cdn1.techbang.com
+DOMAIN,cdn1.telegram.space
 DOMAIN,cdn1.unrealengine.com
 DOMAIN,cdn1.xxxsx.com
 DOMAIN,cdn10.bigcommerce.com
@@ -839,10 +840,12 @@ DOMAIN,cdn4.bigcommerce.com
 DOMAIN,cdn4.edgedatg.com
 DOMAIN,cdn4.iconfinder.com
 DOMAIN,cdn4.sysgears.com
+DOMAIN,cdn4.telegram.space
 DOMAIN,cdn5.bigcommerce.com
 DOMAIN,cdn5.edgedatg.com
 DOMAIN,cdn5.hextom.com
 DOMAIN,cdn5.iconfinder.com
+DOMAIN,cdn5.telegram.space
 DOMAIN,cdn6.aptoide.com
 DOMAIN,cdn6.bigcommerce.com
 DOMAIN,cdn6.edgedatg.com
@@ -1125,6 +1128,7 @@ DOMAIN,fesdk.nexon.com
 DOMAIN,fiddle.fastly.dev
 DOMAIN,fiddle.jshell.net
 DOMAIN,file.izanmei.net
+DOMAIN,file1.hkepc.com
 DOMAIN,files.armorgames.com
 DOMAIN,files.buildwithfern.com
 DOMAIN,files.jotform.com
@@ -1227,6 +1231,7 @@ DOMAIN,i.guim.co.uk
 DOMAIN,i.gzn.jp
 DOMAIN,i.hamreus.com
 DOMAIN,i.hentaifox.com
+DOMAIN,i.hkepc.com
 DOMAIN,i.ibb.co
 DOMAIN,i.iheart.com
 DOMAIN,i.imagepost.com
@@ -1295,6 +1300,7 @@ DOMAIN,image.mgstage.com
 DOMAIN,image.mux.com
 DOMAIN,image.nmb.best
 DOMAIN,image.p-c2-x.abema-tv.com
+DOMAIN,image.prntscr.com
 DOMAIN,image.send.grammarly.com
 DOMAIN,image.ship.vercel.com
 DOMAIN,image.shutterstock.com
@@ -2194,6 +2200,7 @@ DOMAIN,static.addtoany.com
 DOMAIN,static.adguardvpn.com
 DOMAIN,static.afterpay.com
 DOMAIN,static.ahrefs.com
+DOMAIN,static.airtable.com
 DOMAIN,static.aizanmei.org
 DOMAIN,static.animaapp.com
 DOMAIN,static.anyporn.com
@@ -2722,6 +2729,7 @@ DOMAIN-SUFFIX,agechecker-northern-apps.com
 DOMAIN-SUFFIX,agechecker.northern-apps.com
 DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,airio3.live
+DOMAIN-SUFFIX,airtableusercontent.com
 DOMAIN-SUFFIX,akidoo.top
 DOMAIN-SUFFIX,alexdav.id
 DOMAIN-SUFFIX,algolianet.com

@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1103
+# 规则统计: 1108
 
 domain_set:
   - 7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
@@ -59,6 +59,8 @@ domain_suffix_set:
   - aimoon.com
   - airav.cc
   - airav.io
+  - airtable.com
+  - airtableusercontent.com
   - akamai.net
   - akamaihd.net
   - amazon.com
@@ -437,6 +439,7 @@ domain_suffix_set:
   - hinet.net
   - hk
   - hk01.com
+  - hkepc.com
   - holopin.io
   - homedepot.com
   - hostloc.com
@@ -903,6 +906,7 @@ domain_suffix_set:
   - tailwindcss.com
   - taipei
   - talkcc.com
+  - techpowerup.com
   - techspot.com
   - tenor.com
   - tensorflow.org
@@ -1074,6 +1078,7 @@ domain_suffix_set:
   - xhcdn.com
   - xhlive.org
   - xing.com
+  - xkcd.com
   - xn--ngstr-lra8j.com
   - xnxx.com
   - xpressunblock.com

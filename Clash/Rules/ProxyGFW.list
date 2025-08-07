@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7420
+# 规则统计: 7424
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,ccmdl.adobe.com
@@ -266,6 +266,8 @@ DOMAIN-SUFFIX,airav.io
 DOMAIN-SUFFIX,airconsole.com
 DOMAIN-SUFFIX,aircrack-ng.org
 DOMAIN-SUFFIX,airitilibrary.com
+DOMAIN-SUFFIX,airtable.com
+DOMAIN-SUFFIX,airtableusercontent.com
 DOMAIN-SUFFIX,airvpn.org
 DOMAIN-SUFFIX,aisex.com
 DOMAIN-SUFFIX,ait.org.tw
@@ -5916,6 +5918,7 @@ DOMAIN-SUFFIX,tdm.com.mo
 DOMAIN-SUFFIX,teachparentstech.org
 DOMAIN-SUFFIX,teamamericany.com
 DOMAIN-SUFFIX,technews.tw
+DOMAIN-SUFFIX,techpowerup.com
 DOMAIN-SUFFIX,techspot.com
 DOMAIN-SUFFIX,techviz.net
 DOMAIN-SUFFIX,teck.in
@@ -7049,6 +7052,7 @@ DOMAIN-SUFFIX,xixicui.icu
 DOMAIN-SUFFIX,xizang-zhiye.org
 DOMAIN-SUFFIX,xjp.cc
 DOMAIN-SUFFIX,xjtravelguide.com
+DOMAIN-SUFFIX,xkcd.com
 DOMAIN-SUFFIX,xkiwi.tk
 DOMAIN-SUFFIX,xlfmtalk.com
 DOMAIN-SUFFIX,xlfmwz.info

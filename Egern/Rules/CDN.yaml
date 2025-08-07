@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3819
+# 规则统计: 3827
 
 domain_set:
   - 0x0.st
@@ -801,6 +801,7 @@ domain_set:
   - cdn1.suno.ai
   - cdn1.sysgears.com
   - cdn1.techbang.com
+  - cdn1.telegram.space
   - cdn1.unrealengine.com
   - cdn1.xxxsx.com
   - cdn10.bigcommerce.com
@@ -840,10 +841,12 @@ domain_set:
   - cdn4.edgedatg.com
   - cdn4.iconfinder.com
   - cdn4.sysgears.com
+  - cdn4.telegram.space
   - cdn5.bigcommerce.com
   - cdn5.edgedatg.com
   - cdn5.hextom.com
   - cdn5.iconfinder.com
+  - cdn5.telegram.space
   - cdn6.aptoide.com
   - cdn6.bigcommerce.com
   - cdn6.edgedatg.com
@@ -1126,6 +1129,7 @@ domain_set:
   - fiddle.fastly.dev
   - fiddle.jshell.net
   - file.izanmei.net
+  - file1.hkepc.com
   - files.armorgames.com
   - files.buildwithfern.com
   - files.jotform.com
@@ -1228,6 +1232,7 @@ domain_set:
   - i.gzn.jp
   - i.hamreus.com
   - i.hentaifox.com
+  - i.hkepc.com
   - i.ibb.co
   - i.iheart.com
   - i.imagepost.com
@@ -1296,6 +1301,7 @@ domain_set:
   - image.mux.com
   - image.nmb.best
   - image.p-c2-x.abema-tv.com
+  - image.prntscr.com
   - image.send.grammarly.com
   - image.ship.vercel.com
   - image.shutterstock.com
@@ -2195,6 +2201,7 @@ domain_set:
   - static.adguardvpn.com
   - static.afterpay.com
   - static.ahrefs.com
+  - static.airtable.com
   - static.aizanmei.org
   - static.animaapp.com
   - static.anyporn.com
@@ -2724,6 +2731,7 @@ domain_suffix_set:
   - agechecker.northern-apps.com
   - ahcdn.com
   - airio3.live
+  - airtableusercontent.com
   - akidoo.top
   - alexdav.id
   - algolianet.com

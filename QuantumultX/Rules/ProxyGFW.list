@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7421
+# 规则统计: 7425
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ProxyGFW
 HOST,ccmdl.adobe.com,ProxyGFW
@@ -266,6 +266,8 @@ HOST-SUFFIX,airav.io,ProxyGFW
 HOST-SUFFIX,airconsole.com,ProxyGFW
 HOST-SUFFIX,aircrack-ng.org,ProxyGFW
 HOST-SUFFIX,airitilibrary.com,ProxyGFW
+HOST-SUFFIX,airtable.com,ProxyGFW
+HOST-SUFFIX,airtableusercontent.com,ProxyGFW
 HOST-SUFFIX,airvpn.org,ProxyGFW
 HOST-SUFFIX,aisex.com,ProxyGFW
 HOST-SUFFIX,ait.org.tw,ProxyGFW
@@ -5916,6 +5918,7 @@ HOST-SUFFIX,tdm.com.mo,ProxyGFW
 HOST-SUFFIX,teachparentstech.org,ProxyGFW
 HOST-SUFFIX,teamamericany.com,ProxyGFW
 HOST-SUFFIX,technews.tw,ProxyGFW
+HOST-SUFFIX,techpowerup.com,ProxyGFW
 HOST-SUFFIX,techspot.com,ProxyGFW
 HOST-SUFFIX,techviz.net,ProxyGFW
 HOST-SUFFIX,teck.in,ProxyGFW
@@ -7049,6 +7052,7 @@ HOST-SUFFIX,xixicui.icu,ProxyGFW
 HOST-SUFFIX,xizang-zhiye.org,ProxyGFW
 HOST-SUFFIX,xjp.cc,ProxyGFW
 HOST-SUFFIX,xjtravelguide.com,ProxyGFW
+HOST-SUFFIX,xkcd.com,ProxyGFW
 HOST-SUFFIX,xkiwi.tk,ProxyGFW
 HOST-SUFFIX,xlfmtalk.com,ProxyGFW
 HOST-SUFFIX,xlfmwz.info,ProxyGFW

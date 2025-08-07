@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1103
+# 规则统计: 1108
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,ccmdl.adobe.com
@@ -57,6 +57,8 @@ DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com
 DOMAIN-SUFFIX,airav.cc
 DOMAIN-SUFFIX,airav.io
+DOMAIN-SUFFIX,airtable.com
+DOMAIN-SUFFIX,airtableusercontent.com
 DOMAIN-SUFFIX,akamai.net
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,amazon.com
@@ -435,6 +437,7 @@ DOMAIN-SUFFIX,hetzner.com
 DOMAIN-SUFFIX,hinet.net
 DOMAIN-SUFFIX,hk
 DOMAIN-SUFFIX,hk01.com
+DOMAIN-SUFFIX,hkepc.com
 DOMAIN-SUFFIX,holopin.io
 DOMAIN-SUFFIX,homedepot.com
 DOMAIN-SUFFIX,hostloc.com
@@ -901,6 +904,7 @@ DOMAIN-SUFFIX,tailfin.cc
 DOMAIN-SUFFIX,tailwindcss.com
 DOMAIN-SUFFIX,taipei
 DOMAIN-SUFFIX,talkcc.com
+DOMAIN-SUFFIX,techpowerup.com
 DOMAIN-SUFFIX,techspot.com
 DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,tensorflow.org
@@ -1072,6 +1076,7 @@ DOMAIN-SUFFIX,xhamsterlive.com
 DOMAIN-SUFFIX,xhcdn.com
 DOMAIN-SUFFIX,xhlive.org
 DOMAIN-SUFFIX,xing.com
+DOMAIN-SUFFIX,xkcd.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xpressunblock.com
