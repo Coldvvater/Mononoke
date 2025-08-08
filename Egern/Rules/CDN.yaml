@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3827
+# 规则统计: 3829
 
 domain_set:
   - 0x0.st
@@ -963,6 +963,7 @@ domain_set:
   - content.any.run
   - content.api.news
   - content.arduino.cc
+  - content.gitbook.com
   - content.invisioncic.com
   - content.jwplatform.com
   - content.kaspersky-labs.com
@@ -2144,6 +2145,7 @@ domain_set:
   - static-00.iconduck.com
   - static-1.bitchute.com
   - static-2.bitchute.com
+  - static-2v.gitbook.com
   - static-3.bitchute.com
   - static-4.bitchute.com
   - static-act.imoim.net

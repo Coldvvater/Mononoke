@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3825
+# 规则统计: 3827
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -962,6 +962,7 @@ DOMAIN,content-prod-live.cert.starbucks.com
 DOMAIN,content.any.run
 DOMAIN,content.api.news
 DOMAIN,content.arduino.cc
+DOMAIN,content.gitbook.com
 DOMAIN,content.invisioncic.com
 DOMAIN,content.jwplatform.com
 DOMAIN,content.kaspersky-labs.com
@@ -2143,6 +2144,7 @@ DOMAIN,start-page.buffer.com
 DOMAIN,static-00.iconduck.com
 DOMAIN,static-1.bitchute.com
 DOMAIN,static-2.bitchute.com
+DOMAIN,static-2v.gitbook.com
 DOMAIN,static-3.bitchute.com
 DOMAIN,static-4.bitchute.com
 DOMAIN,static-act.imoim.net
