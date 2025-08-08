@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListChina
-# 规则统计: 4880
+# 规则统计: 4917
 
 domain_suffix_set:
   - 003store.com
@@ -350,6 +350,7 @@ domain_suffix_set:
   - 8fo.icu
   - 8gra3.icu
   - 8jkx.com
+  - 8lz3swf01q.com
   - 8q88n.icu
   - 8radc6a0m2.com
   - 8sh.fun
@@ -476,6 +477,7 @@ domain_suffix_set:
   - aai07290mu.com
   - aai07291mu.com
   - aapj.cn
+  - aaqaz.cn
   - aariedbtr.com
   - ab.cnbanbao.com
   - ab.rejushe.com
@@ -682,7 +684,9 @@ domain_suffix_set:
   - avkd.cn
   - avqdhss.icu
   - avxonsp.icu
+  - awfyuqoidy.com
   - awkxf8bbj.com
+  - awtguzoxc.com
   - awywlb89y.com
   - ax.*.ifeng.com
   - ax.ifeng.com
@@ -695,6 +699,7 @@ domain_suffix_set:
   - azenco.xyz
   - b.kouke5.com
   - b.unjs.com
+  - b0rz2s5ik.com
   - b1.51scw.net
   - b1.91jucai.com
   - b1.b2b168.com
@@ -1044,6 +1049,7 @@ domain_suffix_set:
   - chdhvckqav.com
   - checbox.cc
   - chedethw.com
+  - cheesevp.com
   - cherrya04.top
   - chicorty2.com
   - chidir.com
@@ -1132,6 +1138,7 @@ domain_suffix_set:
   - csdsa22.fun
   - csfds000.fun
   - cspb1.5w5w.com
+  - csqqgc90u.com
   - css.juqingba.cn
   - css.zmjm.com
   - ctc.weather.com.cn
@@ -1141,6 +1148,7 @@ domain_suffix_set:
   - ctsp4jao1.com
   - cuaeblh.icu
   - cucnmtf.top
+  - cui3875.xyz
   - cukuix.com
   - cuqpi.cn
   - curesdf.top
@@ -1355,6 +1363,7 @@ domain_suffix_set:
   - dpjbpj.top
   - dpsusqs20.com
   - dpweupc.icu
+  - dqjrxj.icu
   - dqlrfmwp.icu
   - draktash.com
   - drandoxo.com
@@ -1982,6 +1991,7 @@ domain_suffix_set:
   - hdyurliu.top
   - healthys09.top
   - heatherssb.com
+  - heavly1.com
   - hebaidu.cc
   - heemphaers.com
   - heiviek.com
@@ -2225,6 +2235,7 @@ domain_suffix_set:
   - infucierg.com
   - inone517.com
   - inphais.com
+  - insideex.top
   - insidemo75.com
   - inte.sogou.com
   - inulgaenypa.com
@@ -2277,6 +2288,7 @@ domain_suffix_set:
   - ivnrrkx.cn
   - ivvn.cn
   - ivy.pconline.com.cn
+  - ivzaq2irg.com
   - iwanad.baidu.com
   - iwatero.top
   - iwcnmto.top
@@ -2358,6 +2370,7 @@ domain_suffix_set:
   - jguhqbe.top
   - jgvkxp.xyz
   - jgxirv.icu
+  - jhf4eib1zb.com
   - jhlnlt.xyz
   - jhrulp.icu
   - jia6983.xyz
@@ -2444,6 +2457,7 @@ domain_suffix_set:
   - jtimiya.top
   - jucnwta.top
   - jun01.oss-cn-beijing.aliyuncs.com
+  - junpjmg96.com
   - juresda.top
   - justapp.top
   - juutckrt.icu
@@ -2496,6 +2510,7 @@ domain_suffix_set:
   - kcinvdd.top
   - kclimid.top
   - kcokamid.top
+  - kcqstn35as.com
   - kczq.cn
   - kdamcsd.top
   - kdicked.top
@@ -2567,6 +2582,7 @@ domain_suffix_set:
   - kruraits.com
   - krutvncd.top
   - kryeia.xyz
+  - ksaef6idy.com
   - kspl48j.xyz
   - ksro.cn
   - ktfmk4utug.com
@@ -2574,6 +2590,7 @@ domain_suffix_set:
   - kucnwtd.top
   - kuiv.cn
   - kuresdd.top
+  - kvbh.cn
   - kvhee.com
   - kvkcei.xyz
   - kvqp.cn
@@ -2815,6 +2832,7 @@ domain_suffix_set:
   - mg.glwxw.net
   - mghezaxh.com
   - mgqtcs.xyz
+  - mgux.cn
   - mhaw.cn
   - mhdnspro.com
   - mhoiia.icu
@@ -2888,6 +2906,7 @@ domain_suffix_set:
   - mtiicw.icu
   - mtimiyx.top
   - mttpsy6666.cc
+  - mtuvpoyfy.com
   - mtwuxss.icu
   - mucnmtx.top
   - mucnwtx.top
@@ -3042,6 +3061,12 @@ domain_suffix_set:
   - nug07301lu.com
   - nug07310lu.com
   - nug07311lu.com
+  - nug08010lu.com
+  - nug08011lu.com
+  - nug08020lu.com
+  - nug08021lu.com
+  - nug08030lu.com
+  - nug08031lu.com
   - nuiknnf.icu
   - nunflw.top
   - nuvaioqds.com
@@ -3197,6 +3222,7 @@ domain_suffix_set:
   - oxjb.cn
   - oxkqeu.xyz
   - oxpgm.cn
+  - oycf.cn
   - oyed.cn
   - oyretuk.top
   - p.7060.la
@@ -3308,6 +3334,7 @@ domain_suffix_set:
   - poke88.com
   - political-effort.com
   - popsvg.xyz
+  - popularr3.top
   - pos.baidu.com
   - poster.weather.com.cn
   - potatosa6.com
@@ -3325,6 +3352,7 @@ domain_suffix_set:
   - prbibo.top
   - pro.iweihai.cn
   - prtfpl.xyz
+  - ptju.cn
   - ptrmnx.icu
   - pttzjo.top
   - pub.funshion.com
@@ -3364,6 +3392,7 @@ domain_suffix_set:
   - qaqvec.icu
   - qaxl.cn
   - qbcyr5tfd.com
+  - qbibsy.icu
   - qbsday.xyz
   - qc1.cheshipin.com
   - qcinvdy.top
@@ -3570,6 +3599,7 @@ domain_suffix_set:
   - riym.cn
   - rjdmhl.icu
   - rjpvnl.icu
+  - rjsq7ljyp.com
   - rjvzjn.top
   - rjwpwod.icu
   - rjxvff.icu
@@ -3745,6 +3775,7 @@ domain_suffix_set:
   - skfgnsvkjfgvv.com
   - sknkggfnm.com
   - sksbgm.xyz
+  - sksi91y8rs.com
   - sky.dunsuan.com
   - smjfbjsfvrf.com
   - smuc.cnnfootballclub.com
@@ -3854,6 +3885,7 @@ domain_suffix_set:
   - syfgtby.cn
   - syislob.top
   - sykzow.xyz
+  - symjgg.icu
   - synacast.com
   - synergyat.work
   - syshwc.xyz
@@ -3934,6 +3966,7 @@ domain_suffix_set:
   - tixoilll.com
   - tjfavx.icu
   - tjimtyi.top
+  - tjv250730ads.com
   - tjvcffap.icu
   - tk.504pk.com
   - tkiteri.top
@@ -4146,6 +4179,7 @@ domain_suffix_set:
   - uhyf.cn
   - uiakq.top
   - uicdns.xyz
+  - uiqouw.icu
   - uivc.cn
   - ujimtyt.top
   - ujmz.cn
@@ -4387,6 +4421,7 @@ domain_suffix_set:
   - w11.zhongkaohelp.com
   - w18.9939.com
   - w3.ting55.com
+  - w3cfba6ufr.com
   - w4sn20zpvz.com
   - w59g.icu
   - w5ftl8bhu3.com
@@ -4413,6 +4448,8 @@ domain_suffix_set:
   - weagehn.icu
   - web.900.la
   - web3cdn.cn
+  - weewci.icu
+  - weggrq0p42.com
   - weitietl.com
   - wenhua.jiaoshou.com
   - wenxue.weimeifan.net

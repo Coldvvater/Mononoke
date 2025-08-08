@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41940
+# 规则统计: 41950
 
 domain_suffix_set:
   - 0.0.0.1
@@ -4935,6 +4935,7 @@ domain_suffix_set:
   - alliantdata.actonservice.com
   - alliedfundingcorp.actonservice.com
   - allinsurance.allinsure.ca
+  - alloutdubstep.com
   - allreach.actonservice.com
   - allrisks.actonservice.com
   - allstarfg.actonservice.com
@@ -7557,6 +7558,7 @@ domain_suffix_set:
   - blissfulcrescendo.com
   - blissfullagoon.com
   - blitz-analytics-batch-server.blitz.gg
+  - blitzcampaigns.com
   - blmjbp.casamundo.pl
   - blockchain.actonservice.com
   - blockdial.com
@@ -8875,6 +8877,7 @@ domain_suffix_set:
   - collector.hippodromeonline.com
   - collector.mazeberry.com
   - collector.megaxh.com
+  - collector.net-logger.com
   - collector.pi.spectrum.net
   - collector.quillbot.com
   - collector.schibsted.io
@@ -12628,6 +12631,7 @@ domain_suffix_set:
   - eroar.lionsclubs.org
   - erp.qwic.nl
   - err.ifengcloud.ifeng.com
+  - error-analytics-production.shopifysvc.com
   - error-analytics-sessions-production.shopifysvc.com
   - error-collector.ted.com
   - error.videonow.ru
@@ -13723,7 +13727,6 @@ domain_suffix_set:
   - g993dvyzae.branch.salesfloor.net
   - ga-beacon.appspot.com
   - ga-tracker-dot-detmir-bonus.appspot.com
-  - ga.finam.ru
   - ga.groc.press
   - ga.nsimg.net
   - ga.webdigi.co.uk
@@ -13780,6 +13783,7 @@ domain_suffix_set:
   - gdt.qq.com
   - gea-exchange-03.net.jumia.ug
   - gear.echovisuals.com
+  - gearbubbles.com
   - gecfnc.foresight.jp
   - gedozw.autoscout24.cz
   - geekbackyard.com
@@ -14983,6 +14987,7 @@ domain_suffix_set:
   - hello.trailblazers.com
   - hello.wellocution.com
   - hellogain.actonservice.com
+  - hellounbox.com
   - helpcollar.com
   - helpdesk.thinkhdi.com
   - helpflame.com
@@ -24663,6 +24668,7 @@ domain_suffix_set:
   - p.pmu.fr
   - p.ryanhalliday.com
   - p.skimresources.com
+  - p.spotidownloader.com
   - p.tencentmind.com
   - p.tryretool.com
   - p.typekit.net
@@ -35555,6 +35561,7 @@ domain_suffix_set:
   - telemetry.navispherecarrier.com
   - telemetry.owenscorning.com
   - telemetry.phenixrts.com
+  - telemetry.proton.me
   - telemetry.reembed.com
   - telemetry.ruthschris.com
   - telemetry.sdk.inmobi.com
@@ -35717,6 +35724,7 @@ domain_suffix_set:
   - thefishstops.com
   - thefontzone.com
   - thejavalane.com
+  - themangotea.com
   - theme.echovisuals.com
   - themepicker.com
   - thepowerstones.com
@@ -36045,6 +36053,7 @@ domain_suffix_set:
   - toeopa.doutornature.com
   - tofupancake.com
   - tofusquirrel.com
+  - tomatobarrel.com
   - tommys.openapp.link
   - tongji-res.meizu.com
   - tongji.mafengwo.cn
@@ -37512,6 +37521,7 @@ domain_suffix_set:
   - tracker-rec.smart-bdash.com
   - tracker-server.high-cdn.com
   - tracker-v4.gamedock.io
+  - tracker.3dissue.com
   - tracker.520call.me
   - tracker.adbinead.com
   - tracker.affiliate.iqbroker.com
