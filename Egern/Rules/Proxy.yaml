@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1108
+# 规则统计: 1111
 
 domain_set:
   - 7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
@@ -246,6 +246,7 @@ domain_suffix_set:
   - deepmind.com
   - deezer.com
   - deno.com
+  - desmos.com
   - detnews.com
   - dev
   - deviantart.com
@@ -326,6 +327,7 @@ domain_suffix_set:
   - feedly.com
   - fide.com
   - figma.com
+  - findagrave.com
   - firebase.com
   - firebaseio.com
   - firefox.com
@@ -586,6 +588,7 @@ domain_suffix_set:
   - mangafox.me
   - manhuabika.com
   - mapbox.com
+  - maptiler.com
   - material.io
   - matrix.org
   - matters.town

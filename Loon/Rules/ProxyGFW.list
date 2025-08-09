@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7425
+# 规则统计: 7428
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,ccmdl.adobe.com
@@ -1479,6 +1479,7 @@ DOMAIN-SUFFIX,derekhsu.homeip.net
 DOMAIN-SUFFIX,desc.se
 DOMAIN-SUFFIX,design.google
 DOMAIN-SUFFIX,desipro.de
+DOMAIN-SUFFIX,desmos.com
 DOMAIN-SUFFIX,dessci.com
 DOMAIN-SUFFIX,destroy-china.jp
 DOMAIN-SUFFIX,detnews.com
@@ -2016,6 +2017,7 @@ DOMAIN-SUFFIX,filmingfortibet.org
 DOMAIN-SUFFIX,filthdump.com
 DOMAIN-SUFFIX,financetwitter.com
 DOMAIN-SUFFIX,finchvpn.com
+DOMAIN-SUFFIX,findagrave.com
 DOMAIN-SUFFIX,findbook.tw
 DOMAIN-SUFFIX,findmespot.com
 DOMAIN-SUFFIX,findyoutube.com
@@ -3881,6 +3883,7 @@ DOMAIN-SUFFIX,manta.com
 DOMAIN-SUFFIX,manyvoices.news
 DOMAIN-SUFFIX,mapbox.com
 DOMAIN-SUFFIX,maplew.com
+DOMAIN-SUFFIX,maptiler.com
 DOMAIN-SUFFIX,marc.info
 DOMAIN-SUFFIX,marguerite.su
 DOMAIN-SUFFIX,martau.com

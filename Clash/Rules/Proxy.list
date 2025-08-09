@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1108
+# 规则统计: 1111
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,ccmdl.adobe.com
@@ -244,6 +244,7 @@ DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,deno.com
+DOMAIN-SUFFIX,desmos.com
 DOMAIN-SUFFIX,detnews.com
 DOMAIN-SUFFIX,dev
 DOMAIN-SUFFIX,deviantart.com
@@ -324,6 +325,7 @@ DOMAIN-SUFFIX,feeder.co
 DOMAIN-SUFFIX,feedly.com
 DOMAIN-SUFFIX,fide.com
 DOMAIN-SUFFIX,figma.com
+DOMAIN-SUFFIX,findagrave.com
 DOMAIN-SUFFIX,firebase.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,firefox.com
@@ -584,6 +586,7 @@ DOMAIN-SUFFIX,malwarebytes.com
 DOMAIN-SUFFIX,mangafox.me
 DOMAIN-SUFFIX,manhuabika.com
 DOMAIN-SUFFIX,mapbox.com
+DOMAIN-SUFFIX,maptiler.com
 DOMAIN-SUFFIX,material.io
 DOMAIN-SUFFIX,matrix.org
 DOMAIN-SUFFIX,matters.town

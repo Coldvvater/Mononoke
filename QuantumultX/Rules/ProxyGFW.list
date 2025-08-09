@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7425
+# 规则统计: 7428
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ProxyGFW
 HOST,ccmdl.adobe.com,ProxyGFW
@@ -1479,6 +1479,7 @@ HOST-SUFFIX,derekhsu.homeip.net,ProxyGFW
 HOST-SUFFIX,desc.se,ProxyGFW
 HOST-SUFFIX,design.google,ProxyGFW
 HOST-SUFFIX,desipro.de,ProxyGFW
+HOST-SUFFIX,desmos.com,ProxyGFW
 HOST-SUFFIX,dessci.com,ProxyGFW
 HOST-SUFFIX,destroy-china.jp,ProxyGFW
 HOST-SUFFIX,detnews.com,ProxyGFW
@@ -2016,6 +2017,7 @@ HOST-SUFFIX,filmingfortibet.org,ProxyGFW
 HOST-SUFFIX,filthdump.com,ProxyGFW
 HOST-SUFFIX,financetwitter.com,ProxyGFW
 HOST-SUFFIX,finchvpn.com,ProxyGFW
+HOST-SUFFIX,findagrave.com,ProxyGFW
 HOST-SUFFIX,findbook.tw,ProxyGFW
 HOST-SUFFIX,findmespot.com,ProxyGFW
 HOST-SUFFIX,findyoutube.com,ProxyGFW
@@ -3881,6 +3883,7 @@ HOST-SUFFIX,manta.com,ProxyGFW
 HOST-SUFFIX,manyvoices.news,ProxyGFW
 HOST-SUFFIX,mapbox.com,ProxyGFW
 HOST-SUFFIX,maplew.com,ProxyGFW
+HOST-SUFFIX,maptiler.com,ProxyGFW
 HOST-SUFFIX,marc.info,ProxyGFW
 HOST-SUFFIX,marguerite.su,ProxyGFW
 HOST-SUFFIX,martau.com,ProxyGFW

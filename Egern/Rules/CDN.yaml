@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3835
+# 规则统计: 3838
 
 domain_set:
   - 0x0.st
@@ -689,6 +689,7 @@ domain_set:
   - cdn.royaleapi.com
   - cdn.safecharge.com
   - cdn.sanity.io
+  - cdn.sapphire.microsoftapp.net
   - cdn.sc.gl
   - cdn.scaleflex.it
   - cdn.schemaapp.com
@@ -1350,6 +1351,7 @@ domain_set:
   - images.everyplate.com
   - images.fandango.com
   - images.financemagnates.com
+  - images.findagrave.com
   - images.flightradar24.com
   - images.freeimages.com
   - images.g2crowd.com
@@ -2747,6 +2749,7 @@ domain_suffix_set:
   - alphafish.top
   - amaicdn.com
   - ampproject.org
+  - ancestrycdn.com
   - angular.dev
   - angular.io
   - angularjs.org

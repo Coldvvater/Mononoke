@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1109
+# 规则统计: 1112
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,Proxy
 HOST,ccmdl.adobe.com,Proxy
@@ -244,6 +244,7 @@ HOST-SUFFIX,deepl.com,Proxy
 HOST-SUFFIX,deepmind.com,Proxy
 HOST-SUFFIX,deezer.com,Proxy
 HOST-SUFFIX,deno.com,Proxy
+HOST-SUFFIX,desmos.com,Proxy
 HOST-SUFFIX,detnews.com,Proxy
 HOST-SUFFIX,dev,Proxy
 HOST-SUFFIX,deviantart.com,Proxy
@@ -324,6 +325,7 @@ HOST-SUFFIX,feeder.co,Proxy
 HOST-SUFFIX,feedly.com,Proxy
 HOST-SUFFIX,fide.com,Proxy
 HOST-SUFFIX,figma.com,Proxy
+HOST-SUFFIX,findagrave.com,Proxy
 HOST-SUFFIX,firebase.com,Proxy
 HOST-SUFFIX,firebaseio.com,Proxy
 HOST-SUFFIX,firefox.com,Proxy
@@ -584,6 +586,7 @@ HOST-SUFFIX,malwarebytes.com,Proxy
 HOST-SUFFIX,mangafox.me,Proxy
 HOST-SUFFIX,manhuabika.com,Proxy
 HOST-SUFFIX,mapbox.com,Proxy
+HOST-SUFFIX,maptiler.com,Proxy
 HOST-SUFFIX,material.io,Proxy
 HOST-SUFFIX,matrix.org,Proxy
 HOST-SUFFIX,matters.town,Proxy

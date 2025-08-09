@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7424
+# 规则统计: 7427
 
 no_resolve: true
 domain_set:
@@ -1482,6 +1482,7 @@ domain_suffix_set:
   - desc.se
   - design.google
   - desipro.de
+  - desmos.com
   - dessci.com
   - destroy-china.jp
   - detnews.com
@@ -2019,6 +2020,7 @@ domain_suffix_set:
   - filthdump.com
   - financetwitter.com
   - finchvpn.com
+  - findagrave.com
   - findbook.tw
   - findmespot.com
   - findyoutube.com
@@ -3884,6 +3886,7 @@ domain_suffix_set:
   - manyvoices.news
   - mapbox.com
   - maplew.com
+  - maptiler.com
   - marc.info
   - marguerite.su
   - martau.com
