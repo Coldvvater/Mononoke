@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5285
+# 规则统计: 5286
 
 HOST-SUFFIX,002777.xyz,AdGuardChinese
 HOST-SUFFIX,003store.com,AdGuardChinese
@@ -1401,6 +1401,7 @@ HOST-SUFFIX,djfp97jp7v.com,AdGuardChinese
 HOST-SUFFIX,djhfkcfrdxv.com,AdGuardChinese
 HOST-SUFFIX,djs.baomihua.com,AdGuardChinese
 HOST-SUFFIX,djsxm.xyz,AdGuardChinese
+HOST-SUFFIX,dkaktsb.icu,AdGuardChinese
 HOST-SUFFIX,dkasdeerw.xyz,AdGuardChinese
 HOST-SUFFIX,dkasffredf.xyz,AdGuardChinese
 HOST-SUFFIX,dkhffh.xyz,AdGuardChinese

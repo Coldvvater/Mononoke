@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3829
+# 规则统计: 3835
 
 domain_set:
   - 0x0.st
@@ -109,6 +109,7 @@ domain_set:
   - assets-s3-us-east-1.ceros.com
   - assets-themes.chess.com
   - assets-v2.super.so
+  - assets-www.readspeaker.com
   - assets-www.xbox.com
   - assets.aboutamazon.com
   - assets.adobedtm.com
@@ -335,6 +336,7 @@ domain_set:
   - c.fantia.jp
   - c.marsflag.com
   - c.navattic.com
+  - c.pki.goog
   - c.s-microsoft.com
   - c.speedtestcustom.com
   - c.start.me
@@ -379,6 +381,7 @@ domain_set:
   - cdn-dynmedia-1.microsoft.com
   - cdn-edge.karte.io
   - cdn-eu.dynamicyield.com
+  - cdn-eu.readspeaker.com
   - cdn-fck.tnaflix.com
   - cdn-forum.networklessons.com
   - cdn-front.freepik.com
@@ -410,6 +413,7 @@ domain_set:
   - cdn-swell-assets.yotpo.com
   - cdn-thumbs.imagevenue.com
   - cdn-uicons.flaticon.com
+  - cdn-us.readspeaker.com
   - cdn-web.fydeos.io
   - cdn-web.orbstack.dev
   - cdn-web.tunein.com
@@ -2620,6 +2624,8 @@ domain_set:
   - vscode-sync-insiders.trafficmanager.net
   - vscode-sync.trafficmanager.net
   - vsmarketplacebadge.apphb.com
+  - vte-eu.readspeaker.com
+  - vte-us.readspeaker.com
   - vuejs.org
   - vz-2222604c-50b.b-cdn.net
   - vz-c0fe498e-5ab.b-cdn.net
