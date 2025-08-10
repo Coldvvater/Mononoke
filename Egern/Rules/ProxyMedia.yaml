@@ -1,10 +1,11 @@
 # 规则名称: ProxyMedia
-# 规则统计: 346
+# 规则统计: 350
 
 no_resolve: true
 domain_set:
   - 44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - ai.google.dev
+  - aistudio.google.com
   - aod-dash-uk-live.akamaized.net
   - aod-hls-uk-live.akamaized.net
   - api.githubcopilot.com
@@ -111,10 +112,13 @@ domain_suffix_set:
   - channel5.com
   - chatgpt.com
   - claude.ai
+  - claudeusercontent.com
   - client-api.arkoselabs.com
   - cognito-identity.us-east-1.amazonaws.com
   - copilot.cloud.microsoft
   - copilot.microsoft.com
+  - curosr.com
+  - curosr.sh
   - cws-hulu.conviva.com
   - cws.conviva.com
   - d151l6v8er5bdm.cloudfront.net

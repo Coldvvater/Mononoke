@@ -1,8 +1,9 @@
 # 规则名称: ProxyMedia
-# 规则统计: 388
+# 规则统计: 392
 
 HOST,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,ProxyMedia
 HOST,ai.google.dev,ProxyMedia
+HOST,aistudio.google.com,ProxyMedia
 HOST,aod-dash-uk-live.akamaized.net,ProxyMedia
 HOST,aod-hls-uk-live.akamaized.net,ProxyMedia
 HOST,api.githubcopilot.com,ProxyMedia
@@ -108,10 +109,13 @@ HOST-SUFFIX,channel4.com,ProxyMedia
 HOST-SUFFIX,channel5.com,ProxyMedia
 HOST-SUFFIX,chatgpt.com,ProxyMedia
 HOST-SUFFIX,claude.ai,ProxyMedia
+HOST-SUFFIX,claudeusercontent.com,ProxyMedia
 HOST-SUFFIX,client-api.arkoselabs.com,ProxyMedia
 HOST-SUFFIX,cognito-identity.us-east-1.amazonaws.com,ProxyMedia
 HOST-SUFFIX,copilot.cloud.microsoft,ProxyMedia
 HOST-SUFFIX,copilot.microsoft.com,ProxyMedia
+HOST-SUFFIX,curosr.com,ProxyMedia
+HOST-SUFFIX,curosr.sh,ProxyMedia
 HOST-SUFFIX,cws-hulu.conviva.com,ProxyMedia
 HOST-SUFFIX,cws.conviva.com,ProxyMedia
 HOST-SUFFIX,d151l6v8er5bdm.cloudfront.net,ProxyMedia

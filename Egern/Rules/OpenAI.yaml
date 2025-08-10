@@ -1,5 +1,5 @@
 # 规则名称: OpenAI
-# 规则统计: 16
+# 规则统计: 17
 
 domain_suffix_set:
   - auth0.com
@@ -16,6 +16,7 @@ domain_suffix_set:
   - openai.com
   - openaiapi-site.azureedge.net
   - sentry.io
+  - sora.com
   - stripe.com
 domain_keyword_set:
   - openai
