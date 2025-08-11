@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3850
+# 规则统计: 3852
 
 domain_set:
   - 0x0.st
@@ -881,6 +881,7 @@ domain_set:
   - cdnl.tnaflix.com
   - cdnmedia.ero-video.net
   - cdns.gigya.com
+  - cdns.us.gigya.com
   - cdns.zbporn.com
   - cdnsecakmi.kaltura.com
   - cdnstatic.porno-cum.com
@@ -1776,6 +1777,7 @@ domain_set:
   - news-assets.apple.com
   - news-data.pts.org.tw
   - newsletter.postmarkapp.com
+  - newsstatic.rthk.hk
   - next-images.123rf.com
   - next-images.opencollective.com
   - nextra.site

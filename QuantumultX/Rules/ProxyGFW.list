@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7429
+# 规则统计: 7430
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ProxyGFW
 HOST,ccmdl.adobe.com,ProxyGFW
@@ -1541,6 +1541,7 @@ HOST-SUFFIX,disneyplus.com,ProxyGFW
 HOST-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,ProxyGFW
 HOST-SUFFIX,disp.cc,ProxyGFW
 HOST-SUFFIX,disqus.com,ProxyGFW
+HOST-SUFFIX,distrowatch.com,ProxyGFW
 HOST-SUFFIX,dit-inc.us,ProxyGFW
 HOST-SUFFIX,diyin.org,ProxyGFW
 HOST-SUFFIX,dizhidizhi.com,ProxyGFW

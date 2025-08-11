@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1111
+# 规则统计: 1112
 
 domain_set:
   - 7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
@@ -258,6 +258,7 @@ domain_suffix_set:
   - discourse.group
   - dish.com
   - disqus.com
+  - distrowatch.com
   - dk
   - dlsite.com
   - dmcdn.net

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7428
+# 规则统计: 7429
 
 no_resolve: true
 domain_set:
@@ -1544,6 +1544,7 @@ domain_suffix_set:
   - disneyplus.com.ssl.sc.omtrdc.net
   - disp.cc
   - disqus.com
+  - distrowatch.com
   - dit-inc.us
   - diyin.org
   - dizhidizhi.com

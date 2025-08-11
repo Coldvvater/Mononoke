@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7428
+# 规则统计: 7429
 
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN,ccmdl.adobe.com
@@ -1541,6 +1541,7 @@ DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
 DOMAIN-SUFFIX,disp.cc
 DOMAIN-SUFFIX,disqus.com
+DOMAIN-SUFFIX,distrowatch.com
 DOMAIN-SUFFIX,dit-inc.us
 DOMAIN-SUFFIX,diyin.org
 DOMAIN-SUFFIX,dizhidizhi.com

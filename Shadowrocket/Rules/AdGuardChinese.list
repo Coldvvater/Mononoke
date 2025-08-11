@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5298
+# 规则统计: 5305
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -216,6 +216,7 @@ DOMAIN-SUFFIX,3lo.icu
 DOMAIN-SUFFIX,3ni.icu
 DOMAIN-SUFFIX,3p8801.co
 DOMAIN-SUFFIX,3pefw1lz4.com
+DOMAIN-SUFFIX,3pzqcv5hc5.com
 DOMAIN-SUFFIX,3q1lsj.cn
 DOMAIN-SUFFIX,3rcld5y1dm.com
 DOMAIN-SUFFIX,3rre9r4t2.com
@@ -355,6 +356,7 @@ DOMAIN-SUFFIX,7hgw85qugx.com
 DOMAIN-SUFFIX,7mk.fun
 DOMAIN-SUFFIX,7o2l520r0a.com
 DOMAIN-SUFFIX,7rag9q1on.com
+DOMAIN-SUFFIX,7strqfn56s.com
 DOMAIN-SUFFIX,7tc.fun
 DOMAIN-SUFFIX,7u4b8l1zt.com
 DOMAIN-SUFFIX,7x9i88rvn.com
@@ -828,6 +830,7 @@ DOMAIN-SUFFIX,baphullpet.com
 DOMAIN-SUFFIX,bas.boshi.tv
 DOMAIN-SUFFIX,bavotr.xyz
 DOMAIN-SUFFIX,bbbtttjjj.com
+DOMAIN-SUFFIX,bbcz4tta.top
 DOMAIN-SUFFIX,bbjzly.top
 DOMAIN-SUFFIX,bborxjkan.com
 DOMAIN-SUFFIX,bbqoa.top
@@ -1416,6 +1419,7 @@ DOMAIN-SUFFIX,dktad.com
 DOMAIN-SUFFIX,dkweuy.com
 DOMAIN-SUFFIX,dlads.cn
 DOMAIN-SUFFIX,dlig.cn
+DOMAIN-SUFFIX,dlkfhlkjoirfgn.com
 DOMAIN-SUFFIX,dlngzx.top
 DOMAIN-SUFFIX,dm.17xuexiba.com
 DOMAIN-SUFFIX,dm.21hubei.com
@@ -3159,7 +3163,6 @@ DOMAIN-SUFFIX,mxafaw.icu
 DOMAIN-SUFFIX,mxcmwk.xyz
 DOMAIN-SUFFIX,myabcd.cc
 DOMAIN-SUFFIX,myfenxi.com
-DOMAIN-SUFFIX,myhuaweicloud.com
 DOMAIN-SUFFIX,myqmgm.xyz
 DOMAIN-SUFFIX,myretux.top
 DOMAIN-SUFFIX,mytanwan.com
@@ -3544,6 +3547,7 @@ DOMAIN-SUFFIX,piln.cn
 DOMAIN-SUFFIX,pimormebwf.com
 DOMAIN-SUFFIX,pincai.com
 DOMAIN-SUFFIX,pinjzp.icu
+DOMAIN-SUFFIX,pinmgm.com
 DOMAIN-SUFFIX,pisauc.cn
 DOMAIN-SUFFIX,pisb.cn
 DOMAIN-SUFFIX,pixoctopus.pixnet.net
@@ -4166,6 +4170,7 @@ DOMAIN-SUFFIX,sweisib.top
 DOMAIN-SUFFIX,sweizab.top
 DOMAIN-SUFFIX,swerilxb.top
 DOMAIN-SUFFIX,swilmib.top
+DOMAIN-SUFFIX,swqmuo.icu
 DOMAIN-SUFFIX,swurserb.top
 DOMAIN-SUFFIX,sx.fakjkwp.cn
 DOMAIN-SUFFIX,syfgtby.cn
@@ -4606,6 +4611,8 @@ DOMAIN-SUFFIX,valeriesara.com
 DOMAIN-SUFFIX,vasz.cn
 DOMAIN-SUFFIX,vaykjwn.top
 DOMAIN-SUFFIX,vbc08091op.com
+DOMAIN-SUFFIX,vbc08100op.com
+DOMAIN-SUFFIX,vbc08101op.com
 DOMAIN-SUFFIX,vbjm.cn
 DOMAIN-SUFFIX,vbjzdl.top
 DOMAIN-SUFFIX,vbllxaaj.icu

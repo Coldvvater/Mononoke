@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5298
+# 规则统计: 5305
 
 domain_suffix_set:
   - 002777.xyz
@@ -217,6 +217,7 @@ domain_suffix_set:
   - 3ni.icu
   - 3p8801.co
   - 3pefw1lz4.com
+  - 3pzqcv5hc5.com
   - 3q1lsj.cn
   - 3rcld5y1dm.com
   - 3rre9r4t2.com
@@ -356,6 +357,7 @@ domain_suffix_set:
   - 7mk.fun
   - 7o2l520r0a.com
   - 7rag9q1on.com
+  - 7strqfn56s.com
   - 7tc.fun
   - 7u4b8l1zt.com
   - 7x9i88rvn.com
@@ -829,6 +831,7 @@ domain_suffix_set:
   - bas.boshi.tv
   - bavotr.xyz
   - bbbtttjjj.com
+  - bbcz4tta.top
   - bbjzly.top
   - bborxjkan.com
   - bbqoa.top
@@ -1417,6 +1420,7 @@ domain_suffix_set:
   - dkweuy.com
   - dlads.cn
   - dlig.cn
+  - dlkfhlkjoirfgn.com
   - dlngzx.top
   - dm.17xuexiba.com
   - dm.21hubei.com
@@ -3160,7 +3164,6 @@ domain_suffix_set:
   - mxcmwk.xyz
   - myabcd.cc
   - myfenxi.com
-  - myhuaweicloud.com
   - myqmgm.xyz
   - myretux.top
   - mytanwan.com
@@ -3545,6 +3548,7 @@ domain_suffix_set:
   - pimormebwf.com
   - pincai.com
   - pinjzp.icu
+  - pinmgm.com
   - pisauc.cn
   - pisb.cn
   - pixoctopus.pixnet.net
@@ -4167,6 +4171,7 @@ domain_suffix_set:
   - sweizab.top
   - swerilxb.top
   - swilmib.top
+  - swqmuo.icu
   - swurserb.top
   - sx.fakjkwp.cn
   - syfgtby.cn
@@ -4607,6 +4612,8 @@ domain_suffix_set:
   - vasz.cn
   - vaykjwn.top
   - vbc08091op.com
+  - vbc08100op.com
+  - vbc08101op.com
   - vbjm.cn
   - vbjzdl.top
   - vbllxaaj.icu
