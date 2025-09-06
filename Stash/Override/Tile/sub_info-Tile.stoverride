@@ -1,0 +1,20 @@
+name: 机场订阅信息 Tile 磁贴
+desc: 显示机场剩余流量、流量使用情况、流量重置日期、以及套餐到期时间
+author: Coldvvater
+homepage: "https://github.com/Coldvvater/Mononoke/tree/master/Clash/StashOverride/Tile"
+icon: "https://github.com/Koolson/Qure/blob/master/IconSet/Color/Airport.png?raw=true"
+category: "Coldvvater"
+# 搭配boxjs使用：BoxJS订阅以下地址: https://raw.githubusercontent.com/smartmimi/conf/master/boxjs/cookie.boxjs.json, 添加"机场流量", 并按提示填写订阅链接等参数
+
+tiles:
+  - name: sub_info-Tile
+    interval: 3600
+    title: 'sample'
+    content: ''
+    icon: 'airplane.departure'
+    backgroundColor: '#009944'
+    argument: ''
+script-providers:
+  sub_info-Tile:
+    url: https://raw.githubusercontent.com/githubdulong/Script/master/sub_info_panel.js
+    interval: 86400

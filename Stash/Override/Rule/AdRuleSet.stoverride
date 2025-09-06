@@ -1,0 +1,17 @@
+name: 去广告规则覆写
+desc: 分流去广告(或存在误杀，谨慎使用)
+author: anti-AD
+homepage: "https://github.com/Coldvvater/Mononoke/tree/master/Clash/StashOverride/Rule"
+icon: "https://github.com/Koolson/Qure/blob/master/IconSet/Color/Bypass.png?raw=true"
+category: "Coldvvater"
+
+rule-providers:
+  anti-AD:
+    type: http
+    behavior: domain
+    url: "https://anti-ad.net/clash.yaml"
+    path: ./ruleset/anti-ad-clash.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,anti-AD,REJECT

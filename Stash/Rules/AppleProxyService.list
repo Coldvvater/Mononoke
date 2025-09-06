@@ -1,0 +1,29 @@
+# 规则名称: AppleProxyService
+# 规则统计: 26
+
+DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple.comscoreresearch.com
+DOMAIN,apps.apple.com
+DOMAIN,beta.apple.com
+DOMAIN,beta.music.apple.com
+DOMAIN,books.apple.com
+DOMAIN,books.itunes.apple.com
+DOMAIN,facetime.apple.com
+DOMAIN,gateway.icloud.com
+DOMAIN,itunes.apple.com
+DOMAIN,lookup-api.apple.com
+DOMAIN,news-assets.apple.com
+DOMAIN,news-client-search.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN,radio.itunes.apple.com
+DOMAIN,testflight.apple.com
+DOMAIN,tv.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-KEYWORD,apple-relay
+DOMAIN-KEYWORD,testflight

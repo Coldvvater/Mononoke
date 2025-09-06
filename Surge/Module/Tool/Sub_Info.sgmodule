@@ -1,0 +1,12 @@
+#!name=机场订阅信息
+#!desc=显示机场剩余流量、流量使用情况、流量重置日期、以及套餐到期时间
+#!category=Coldvvater
+#!arguments=机场名称:airport,面板图标:airplane.departure,图标颜色:#157EFB,流量重置日期:1,套餐到期日子:2024-01-01,订阅链接:sub_link,面板刷新时间:3600
+#!arguments-desc=部分参数指导:\n\n1. 面板图标可以使用iOS系统的SF Symbol的符号图标自定义，\n\n2. 图标颜色可以使用Hex颜色代码，\n\n3. 面板刷新时间以秒为单位 如：3600（一小时），\n\n4. 订阅链接必须经过encode，可以使用快捷指令或 https://www.urlencoder.org/ 网站进行encode。
+# 适配最新Surge TF 5.21.0 (3026)及以上版本的模块新功能，安装模块后只需要长按模块，在弹出的"Edit Arguments"点击进入然后填写相关参数即可使用。
+
+[Panel]
+SUB_INFO = script-name=sub_info,content="Loading…",update-interval={{{面板刷新时间}}}
+
+[Script]
+sub_info = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/sub_info_panel.js,argument=url={{{订阅链接}}}&reset_day={{{流量重置日期}}}&title={{{机场名称}}}&icon={{{面板图标}}}&color={{{图标颜色}}}&expire={{{套餐到期日子}}}
