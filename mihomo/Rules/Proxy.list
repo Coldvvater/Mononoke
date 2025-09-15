@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1141
+# 规则统计: 1142
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,community.oneplus.com
@@ -831,6 +831,7 @@ DOMAIN-SUFFIX,rfc-editor.org
 DOMAIN-SUFFIX,rferl.org
 DOMAIN-SUFFIX,rip
 DOMAIN-SUFFIX,ripe.net
+DOMAIN-SUFFIX,roboflow.com
 DOMAIN-SUFFIX,rottentomatoes.com
 DOMAIN-SUFFIX,rs
 DOMAIN-SUFFIX,rtings.com
