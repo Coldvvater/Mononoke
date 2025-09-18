@@ -1,5 +1,5 @@
 # 规则名称: Reject
-# 规则统计: 5996
+# 规则统计: 5997
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -225,6 +225,7 @@ DOMAIN,mobileads.msn.com
 DOMAIN,mobilelog.kugou.com
 DOMAIN,mopnativeadv.037201.com
 DOMAIN,mqtt.zhihu.com
+DOMAIN,msmp.abchina.com.cn
 DOMAIN,n.3g.163.com
 DOMAIN,nadvideo2.baidu.com
 DOMAIN,nativeadv.dftoutiao.com
