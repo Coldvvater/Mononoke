@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7450
+# 规则统计: 7451
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -7268,6 +7268,7 @@ DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zengjinyan.org
 DOMAIN-SUFFIX,zenmate.com
 DOMAIN-SUFFIX,zenmate.com.ru
+DOMAIN-SUFFIX,zenn.dev
 DOMAIN-SUFFIX,zerochan.net
 DOMAIN-SUFFIX,zerohedge.com
 DOMAIN-SUFFIX,zeronet.io

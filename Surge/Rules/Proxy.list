@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1606
+# 规则统计: 1607
 
 DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
@@ -1560,6 +1560,7 @@ DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN-SUFFIX,zbporn.com
 DOMAIN-SUFFIX,zello.com
 DOMAIN-SUFFIX,zendesk.com
+DOMAIN-SUFFIX,zenn.dev
 DOMAIN-SUFFIX,zerochan.net
 DOMAIN-SUFFIX,zeronet.io
 DOMAIN-SUFFIX,zndsk.com
