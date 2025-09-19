@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5021
+# 规则统计: 5034
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -246,6 +246,7 @@ DOMAIN-SUFFIX,4fs3r.icu
 DOMAIN-SUFFIX,4fzfc1irq.com
 DOMAIN-SUFFIX,4gu.fun
 DOMAIN-SUFFIX,4i1.icu
+DOMAIN-SUFFIX,4ifhpfi1.xyz
 DOMAIN-SUFFIX,4jc.icu
 DOMAIN-SUFFIX,4kxczstxil.com
 DOMAIN-SUFFIX,4p04u96158.com
@@ -325,6 +326,7 @@ DOMAIN-SUFFIX,6cs.icu
 DOMAIN-SUFFIX,6efgcdcjr000.fun
 DOMAIN-SUFFIX,6ft8a.icu
 DOMAIN-SUFFIX,6gute.icu
+DOMAIN-SUFFIX,6gvg5saail.com
 DOMAIN-SUFFIX,6jyi7mzae.com
 DOMAIN-SUFFIX,6ku.icu
 DOMAIN-SUFFIX,6lx.fun
@@ -1148,6 +1150,7 @@ DOMAIN-SUFFIX,cientch.360doc.cn
 DOMAIN-SUFFIX,cigoqcq.top
 DOMAIN-SUFFIX,cinemaup.top
 DOMAIN-SUFFIX,cjimtyf.top
+DOMAIN-SUFFIX,cjphjf4zm.com
 DOMAIN-SUFFIX,ckg.vipyl.com
 DOMAIN-SUFFIX,ckyriuf.icu
 DOMAIN-SUFFIX,clarityid.top
@@ -1333,6 +1336,8 @@ DOMAIN-SUFFIX,dfhgry.com
 DOMAIN-SUFFIX,dfhthh.icu
 DOMAIN-SUFFIX,dfi09171kq.com
 DOMAIN-SUFFIX,dfi09180kq.com
+DOMAIN-SUFFIX,dfi09181kq.com
+DOMAIN-SUFFIX,dfi09190kq.com
 DOMAIN-SUFFIX,dfqzah.xyz
 DOMAIN-SUFFIX,dgaxrjj0jwpwp.cloudfront.net
 DOMAIN-SUFFIX,dgfhjmd.com
@@ -1559,6 +1564,7 @@ DOMAIN-SUFFIX,ejunshi.com
 DOMAIN-SUFFIX,eknz.cn
 DOMAIN-SUFFIX,ekzf.cn
 DOMAIN-SUFFIX,ekzmk.icu
+DOMAIN-SUFFIX,elclaq.icu
 DOMAIN-SUFFIX,eldaridpr.com
 DOMAIN-SUFFIX,eletys.icu
 DOMAIN-SUFFIX,elloisny.com
@@ -1967,6 +1973,7 @@ DOMAIN-SUFFIX,gumnus.com
 DOMAIN-SUFFIX,gunmi.cn
 DOMAIN-SUFFIX,guqoinly.com
 DOMAIN-SUFFIX,guqransoq.com
+DOMAIN-SUFFIX,gusp.cn
 DOMAIN-SUFFIX,gw8.icu
 DOMAIN-SUFFIX,gwogrgq.icu
 DOMAIN-SUFFIX,gwwquc.icu
@@ -2163,6 +2170,7 @@ DOMAIN-SUFFIX,hylplj.icu
 DOMAIN-SUFFIX,hyth74.fun
 DOMAIN-SUFFIX,hz.shouyoutv.com
 DOMAIN-SUFFIX,hzhyhm.com
+DOMAIN-SUFFIX,i0y0i9vz0.com
 DOMAIN-SUFFIX,i2wj211yk.com
 DOMAIN-SUFFIX,i3z.cn
 DOMAIN-SUFFIX,i5q1t8vj9.com
@@ -3263,6 +3271,7 @@ DOMAIN-SUFFIX,oweizak.top
 DOMAIN-SUFFIX,owilmik.top
 DOMAIN-SUFFIX,owsrgljb.icu
 DOMAIN-SUFFIX,owurserk.top
+DOMAIN-SUFFIX,oxggiwdp57.com
 DOMAIN-SUFFIX,oxjb.cn
 DOMAIN-SUFFIX,oxpgm.cn
 DOMAIN-SUFFIX,oxwd.cn
@@ -3669,6 +3678,7 @@ DOMAIN-SUFFIX,rklzpo.com
 DOMAIN-SUFFIX,rktjxj.icu
 DOMAIN-SUFFIX,rl1vypwyd2.com
 DOMAIN-SUFFIX,rliwiqr.icu
+DOMAIN-SUFFIX,rlpbld.icu
 DOMAIN-SUFFIX,rlri.cn
 DOMAIN-SUFFIX,rmbsfh.icu
 DOMAIN-SUFFIX,rmfbrz.icu
@@ -4424,6 +4434,7 @@ DOMAIN-SUFFIX,vncq.cn
 DOMAIN-SUFFIX,vnig0.cn
 DOMAIN-SUFFIX,vnuuh.icu
 DOMAIN-SUFFIX,vnwu.cn
+DOMAIN-SUFFIX,vogue99.top
 DOMAIN-SUFFIX,vokzqgjp.icu
 DOMAIN-SUFFIX,vopzhl.icu
 DOMAIN-SUFFIX,vpydjogaytpg.xyz
@@ -4899,6 +4910,8 @@ DOMAIN-SUFFIX,yur09160og.com
 DOMAIN-SUFFIX,yur09161og.com
 DOMAIN-SUFFIX,yur09170og.com
 DOMAIN-SUFFIX,yur09171og.com
+DOMAIN-SUFFIX,yur09180og.com
+DOMAIN-SUFFIX,yur09181og.com
 DOMAIN-SUFFIX,yuwenbin.host
 DOMAIN-SUFFIX,yvrileid.com
 DOMAIN-SUFFIX,ywakoc.icu
