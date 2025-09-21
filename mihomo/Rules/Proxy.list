@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1605
+# 规则统计: 1607
 
 DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
@@ -54,6 +54,7 @@ DOMAIN,ip-scan.adspower.net
 DOMAIN,itunes.apple.com
 DOMAIN,ktpx.amazon.com
 DOMAIN,lab.skk.moe
+DOMAIN,login.alibaba.com
 DOMAIN,lookup-api.apple.com
 DOMAIN,new.c.mi.com
 DOMAIN,news-assets.apple.com
@@ -1118,6 +1119,7 @@ DOMAIN-SUFFIX,rawgit.com
 DOMAIN-SUFFIX,re
 DOMAIN-SUFFIX,reabble.com
 DOMAIN-SUFFIX,readme.com
+DOMAIN-SUFFIX,readmoo.com
 DOMAIN-SUFFIX,readthedocs.io
 DOMAIN-SUFFIX,readyatdawn.com
 DOMAIN-SUFFIX,realgfporn.com
