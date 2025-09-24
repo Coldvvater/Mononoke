@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5077
+# 规则统计: 5084
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -274,6 +274,7 @@ DOMAIN-SUFFIX,51tongji.trafficmanager.net
 DOMAIN-SUFFIX,51yhzp.com
 DOMAIN-SUFFIX,52av.be
 DOMAIN-SUFFIX,5399.com
+DOMAIN-SUFFIX,53h7rxip9.com
 DOMAIN-SUFFIX,55726zubo56686.com
 DOMAIN-SUFFIX,558158.xyz
 DOMAIN-SUFFIX,57573zubo36833.com
@@ -398,6 +399,7 @@ DOMAIN-SUFFIX,88lmfff666.com
 DOMAIN-SUFFIX,88p2p.com
 DOMAIN-SUFFIX,8961.jianbihua.com
 DOMAIN-SUFFIX,8ail6.icu
+DOMAIN-SUFFIX,8bnouo6r6.com
 DOMAIN-SUFFIX,8cp.icu
 DOMAIN-SUFFIX,8en.net
 DOMAIN-SUFFIX,8et.icu
@@ -1354,6 +1356,7 @@ DOMAIN-SUFFIX,dfi09211kq.com
 DOMAIN-SUFFIX,dfi09220kq.com
 DOMAIN-SUFFIX,dfi09221kq.com
 DOMAIN-SUFFIX,dfi09230kq.com
+DOMAIN-SUFFIX,dfi09231kq.com
 DOMAIN-SUFFIX,dfqzah.xyz
 DOMAIN-SUFFIX,dgaxrjj0jwpwp.cloudfront.net
 DOMAIN-SUFFIX,dgfhjmd.com
@@ -1776,6 +1779,7 @@ DOMAIN-SUFFIX,fqbr.cn
 DOMAIN-SUFFIX,fqnhjt.icu
 DOMAIN-SUFFIX,fqnojp.top
 DOMAIN-SUFFIX,fqoybwos7f.com
+DOMAIN-SUFFIX,fqtyucit.com
 DOMAIN-SUFFIX,fr701hx5vi.com
 DOMAIN-SUFFIX,free-cdn.oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,frfve33.fun
@@ -3274,6 +3278,7 @@ DOMAIN-SUFFIX,orup.cn
 DOMAIN-SUFFIX,osdxx.com
 DOMAIN-SUFFIX,oshaq.top
 DOMAIN-SUFFIX,osjt.cn
+DOMAIN-SUFFIX,ospkm.cn
 DOMAIN-SUFFIX,otfx.cn
 DOMAIN-SUFFIX,otfy.cn
 DOMAIN-SUFFIX,otimiyk.top
@@ -4428,6 +4433,7 @@ DOMAIN-SUFFIX,vezeqzyb.com
 DOMAIN-SUFFIX,vfdvdfv77.fun
 DOMAIN-SUFFIX,vfdvdg67.fun
 DOMAIN-SUFFIX,vfsb.cn
+DOMAIN-SUFFIX,vftq.cn
 DOMAIN-SUFFIX,vftrfmia.icu
 DOMAIN-SUFFIX,vfvdvd99.fun
 DOMAIN-SUFFIX,vgfj.cn
@@ -4788,6 +4794,7 @@ DOMAIN-SUFFIX,xtdvvp.icu
 DOMAIN-SUFFIX,xu6.icu
 DOMAIN-SUFFIX,xuakn.icu
 DOMAIN-SUFFIX,xudaiklj.com
+DOMAIN-SUFFIX,xudr8vwe.xyz
 DOMAIN-SUFFIX,xue.zbyw.cn
 DOMAIN-SUFFIX,xueaaaw.cn
 DOMAIN-SUFFIX,xuexi.hydcd.com
