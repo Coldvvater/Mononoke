@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4007
+# 规则统计: 4008
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2593,6 +2593,7 @@ DOMAIN,storage.gra.cloud.ovh.net
 DOMAIN,storage.ko-fi.com
 DOMAIN,storage.moegirl.tw
 DOMAIN,storage.sciencecast.org
+DOMAIN,storage.tally.so
 DOMAIN,storage.windiscover.com
 DOMAIN,storage.withfabric.xyz
 DOMAIN,storageapi.fleek.co
