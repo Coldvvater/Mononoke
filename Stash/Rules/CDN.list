@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4013
+# 规则统计: 4021
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -192,6 +192,7 @@ DOMAIN,assets.ifttt.com
 DOMAIN,assets.ipstack.com
 DOMAIN,assets.jable.tv
 DOMAIN,assets.jolipage.co
+DOMAIN,assets.juksy.com
 DOMAIN,assets.kagi.com
 DOMAIN,assets.keysquare.io
 DOMAIN,assets.khoros.com
@@ -248,6 +249,7 @@ DOMAIN,assets.static-upwork.com
 DOMAIN,assets.stickpng.com
 DOMAIN,assets.stigg.io
 DOMAIN,assets.swoogo.com
+DOMAIN,assets.tatlerasia.com
 DOMAIN,assets.the-independent.com
 DOMAIN,assets.time.com
 DOMAIN,assets.toiimg.com
@@ -778,6 +780,7 @@ DOMAIN,cdn.sunofbeaches.com
 DOMAIN,cdn.svgator.com
 DOMAIN,cdn.syftdata.com
 DOMAIN,cdn.tailwindcss.com
+DOMAIN,cdn.tatlerasia.com
 DOMAIN,cdn.techcommunity.microsoft.com
 DOMAIN,cdn.termius.com
 DOMAIN,cdn.theatlantic.com
@@ -852,6 +855,7 @@ DOMAIN,cdn1.bigcommerce.com
 DOMAIN,cdn1.dan.com
 DOMAIN,cdn1.edgedatg.com
 DOMAIN,cdn1.epicgames.com
+DOMAIN,cdn1.ettoday.net
 DOMAIN,cdn1.hentaicity.com
 DOMAIN,cdn1.hotmoza.tv
 DOMAIN,cdn1.iconfinder.com
@@ -1080,7 +1084,6 @@ DOMAIN,david-dm.org
 DOMAIN,db.onlinewebfonts.com
 DOMAIN,dc-cdn.cdw.com
 DOMAIN,dd.dexscreener.com
-DOMAIN,ddcdn.comtucdncom.com
 DOMAIN,demo.unified-streaming.com
 DOMAIN,demotiles.maplibre.org
 DOMAIN,denali-static.grammarly.com
@@ -1473,6 +1476,7 @@ DOMAIN,images.tokopedia.net
 DOMAIN,images.typeform.com
 DOMAIN,images.unsplash.com
 DOMAIN,images.videolan.org
+DOMAIN,images.voguehk.com
 DOMAIN,images.web3.storage
 DOMAIN,images.weserv.nl
 DOMAIN,images.wikia.com
@@ -1605,7 +1609,6 @@ DOMAIN,img4.gelbooru.com
 DOMAIN,img4.javmost.com
 DOMAIN,img4.socialshopwave.com
 DOMAIN,img4.yna.co.kr
-DOMAIN,img5.gelbooru.com
 DOMAIN,img5.socialshopwave.com
 DOMAIN,img5.yna.co.kr
 DOMAIN,img6.airdroid.com
@@ -1777,6 +1780,7 @@ DOMAIN,media.dev.to
 DOMAIN,media.discordapp.net
 DOMAIN,media.dlsite.com
 DOMAIN,media.e4le.me
+DOMAIN,media.ettoday.net
 DOMAIN,media.evolv.ai
 DOMAIN,media.fc2.com
 DOMAIN,media.flaticon.com
@@ -2231,7 +2235,6 @@ DOMAIN,sites.chase.com
 DOMAIN,sites.super.so
 DOMAIN,skills-assets.pstmn.io
 DOMAIN,sm.ign.com
-DOMAIN,smd-cms.nasa.gov
 DOMAIN,sn-s3-cdn.angry.im
 DOMAIN,snippet.growsumo.com
 DOMAIN,snippet.maze.co
@@ -2251,6 +2254,7 @@ DOMAIN,sp.replit.com
 DOMAIN,sp.streamlabs.com
 DOMAIN,spcdn.incartupsell.com
 DOMAIN,spoprod-a.akamaihd.net
+DOMAIN,spotlightimage.biggo.com
 DOMAIN,sprig.figma.com
 DOMAIN,ss7.vzw.com
 DOMAIN,ssl.gstatic.com
@@ -2283,6 +2287,7 @@ DOMAIN,static-assets.clubhouseapi.com
 DOMAIN,static-assets.codecademy.com
 DOMAIN,static-assets.coinbase.com
 DOMAIN,static-assets.freeanimehentai.net
+DOMAIN,static-assets.juksy.com
 DOMAIN,static-assets.mapbox.com
 DOMAIN,static-assets.npr.org
 DOMAIN,static-assets.vinted.com
@@ -2440,6 +2445,7 @@ DOMAIN,static.launchdarkly.com
 DOMAIN,static.licdn.com
 DOMAIN,static.linear.app
 DOMAIN,static.lingq.com
+DOMAIN,static.lwn.net
 DOMAIN,static.macupdate.com
 DOMAIN,static.maxmind.com
 DOMAIN,static.mediafire.com
@@ -2666,6 +2672,7 @@ DOMAIN,time.apple.com
 DOMAIN,time.cloudflare.com
 DOMAIN,time.google.com
 DOMAIN,time.windows.com
+DOMAIN,tn.tubepornclassic.com
 DOMAIN,tn.txxx.tube
 DOMAIN,tn.upornia.com
 DOMAIN,tn.vjav.com
@@ -3924,6 +3931,7 @@ DOMAIN-SUFFIX,yimg.com
 DOMAIN-SUFFIX,yimg.jp
 DOMAIN-SUFFIX,ymq.cool
 DOMAIN-SUFFIX,yourimageshare.com
+DOMAIN-SUFFIX,ypcdn.com
 DOMAIN-SUFFIX,ypncdn.com
 DOMAIN-SUFFIX,yps.link
 DOMAIN-SUFFIX,ytimg.com
