@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1607
+# 规则统计: 1609
 
 DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
@@ -185,6 +185,7 @@ DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,aptoide.com
 DOMAIN-SUFFIX,arc.net
 DOMAIN-SUFFIX,archive-it.org
+DOMAIN-SUFFIX,archive.li
 DOMAIN-SUFFIX,archive.md
 DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,archive.today
@@ -634,6 +635,7 @@ DOMAIN-SUFFIX,goog
 DOMAIN-SUFFIX,googl.com
 DOMAIN-SUFFIX,gooogle.com
 DOMAIN-SUFFIX,gov
+DOMAIN-SUFFIX,gqhongkong.com
 DOMAIN-SUFFIX,grammarly.com
 DOMAIN-SUFFIX,grammarly.io
 DOMAIN-SUFFIX,graph.org

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7451
+# 规则统计: 7452
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -2769,6 +2769,7 @@ DOMAIN-SUFFIX,gov
 DOMAIN-SUFFIX,gov.ir
 DOMAIN-SUFFIX,gov.taipei
 DOMAIN-SUFFIX,gov.tw
+DOMAIN-SUFFIX,gqhongkong.com
 DOMAIN-SUFFIX,gr8domain.biz
 DOMAIN-SUFFIX,gr8name.biz
 DOMAIN-SUFFIX,gradconnection.com
