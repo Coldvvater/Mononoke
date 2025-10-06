@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4036
+# 规则统计: 4042
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -126,6 +126,7 @@ DOMAIN,assets.awwwards.com
 DOMAIN,assets.basehub.com
 DOMAIN,assets.bbhub.io
 DOMAIN,assets.bitstamp.net
+DOMAIN,assets.bitwarden.com
 DOMAIN,assets.bnidx.com
 DOMAIN,assets.braintreegateway.com
 DOMAIN,assets.bravenet.com
@@ -402,6 +403,7 @@ DOMAIN,cdn-app.pathfactory.com
 DOMAIN,cdn-assets.circleci.com
 DOMAIN,cdn-avatars.huggingface.co
 DOMAIN,cdn-b.saashub.com
+DOMAIN,cdn-blocks.karte.io
 DOMAIN,cdn-bundler.nice-team.net
 DOMAIN,cdn-c.leavemealone.com
 DOMAIN,cdn-cf-east.streamable.com
@@ -506,6 +508,7 @@ DOMAIN,cdn.chess24.com
 DOMAIN,cdn.circle.so
 DOMAIN,cdn.clever-cloud.com
 DOMAIN,cdn.cliqz.com
+DOMAIN,cdn.cloud.unity.com
 DOMAIN,cdn.cloudcraft.co
 DOMAIN,cdn.cmcmarkets.com
 DOMAIN,cdn.cms-twdigitalassets.com
@@ -646,6 +649,7 @@ DOMAIN,cdn.lihkg.com
 DOMAIN,cdn.linearicons.com
 DOMAIN,cdn.livechatinc.com
 DOMAIN,cdn.logbase.io
+DOMAIN,cdn.login.unity.com
 DOMAIN,cdn.loom.com
 DOMAIN,cdn.macstories.net
 DOMAIN,cdn.manageengine.com
@@ -1362,6 +1366,7 @@ DOMAIN,icons.ly
 DOMAIN,icons.simplesvg.com
 DOMAIN,icons.veryicon.com
 DOMAIN,icons.zeabur.com
+DOMAIN,idportal-cdn-prd.unity.com
 DOMAIN,iframe.nbcnews.com
 DOMAIN,ih0.redbubble.net
 DOMAIN,ih1.redbubble.net
@@ -2251,6 +2256,7 @@ DOMAIN,social-reaction-api.hk01.com
 DOMAIN,socialpic.video.friday.tw
 DOMAIN,solve-widget.forethought.ai
 DOMAIN,source.domaintools.com
+DOMAIN,source.roboflow.com
 DOMAIN,source.unsplash.com
 DOMAIN,sourcemaps.squarespace.net
 DOMAIN,sourcepoint.theguardian.com
