@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 853
+# 规则统计: 855
 
 DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,1500022744.vodplayer.wxamedia.com
@@ -240,6 +240,8 @@ DOMAIN-SUFFIX,biz.weibo.com
 DOMAIN-SUFFIX,bj.ad.track.66mobi.com
 DOMAIN-SUFFIX,books-analytics-events.apple.com
 DOMAIN-SUFFIX,bootpreload.uve.weibo.com
+DOMAIN-SUFFIX,browser.events.data.msn.cn
+DOMAIN-SUFFIX,browser.events.data.msn.com
 DOMAIN-SUFFIX,browsercfg-drcn.cloud.dbankcloud.cn
 DOMAIN-SUFFIX,bsrv.qq.com
 DOMAIN-SUFFIX,bugly.qq.com
