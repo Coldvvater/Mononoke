@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4040
+# 规则统计: 4042
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1908,12 +1908,14 @@ DOMAIN,oaos-resources.allstate.com
 DOMAIN,object.innei.in
 DOMAIN,objects.g0v.social
 DOMAIN,objects.hit.moe
+DOMAIN,ocsp.comodoca.com
 DOMAIN,ocsp.digicert.com
 DOMAIN,ocsp.godaddy.com
 DOMAIN,ocsp.sectigo.com
 DOMAIN,ocsp.usertrust.com
 DOMAIN,oct8neproxy.azurewebsites.net
 DOMAIN,ohttp-relay1.fastly-edge.com
+DOMAIN,oneocsp.microsoft.com
 DOMAIN,ooo.0o0.ooo
 DOMAIN,open-vsx.org
 DOMAIN,openapi.vercel.sh
