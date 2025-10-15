@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1461
+# 规则统计: 1463
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -87,6 +87,8 @@ DOMAIN-SUFFIX,addr.tools
 DOMAIN-SUFFIX,adguard-dns.io
 DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,adguard.org
+DOMAIN-SUFFIX,adguardaccount.com
+DOMAIN-SUFFIX,adguardcdn.com
 DOMAIN-SUFFIX,adidas.com
 DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,aex.com
