@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7453
+# 规则统计: 7454
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -541,6 +541,7 @@ DOMAIN-SUFFIX,avyahoo.com
 DOMAIN-SUFFIX,aweber.com
 DOMAIN-SUFFIX,aws
 DOMAIN-SUFFIX,aws.dev
+DOMAIN-SUFFIX,awscloud.com
 DOMAIN-SUFFIX,axios.com
 DOMAIN-SUFFIX,axureformac.com
 DOMAIN-SUFFIX,azerbaycan.tv

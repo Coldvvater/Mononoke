@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1461
+# 规则统计: 1462
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -168,6 +168,7 @@ DOMAIN-SUFFIX,avtoday.io
 DOMAIN-SUFFIX,aweber.com
 DOMAIN-SUFFIX,aws
 DOMAIN-SUFFIX,aws.dev
+DOMAIN-SUFFIX,awscloud.com
 DOMAIN-SUFFIX,axios.com
 DOMAIN-SUFFIX,azure-mobile.net
 DOMAIN-SUFFIX,azurecontainer.io
