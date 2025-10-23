@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1462
+# 规则统计: 1463
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -1209,6 +1209,7 @@ DOMAIN-SUFFIX,thefreelibrary.com
 DOMAIN-SUFFIX,theguardian.com
 DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,thenewstack.io
 DOMAIN-SUFFIX,thepiratebay.org
 DOMAIN-SUFFIX,theregister.com
 DOMAIN-SUFFIX,thesaurus.com

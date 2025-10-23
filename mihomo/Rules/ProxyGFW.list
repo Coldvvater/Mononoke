@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7454
+# 规则统计: 7455
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -6020,6 +6020,7 @@ DOMAIN-SUFFIX,thehun.net
 DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,thenewslens.com
+DOMAIN-SUFFIX,thenewstack.io
 DOMAIN-SUFFIX,thepiratebay.ee
 DOMAIN-SUFFIX,thepiratebay.org
 DOMAIN-SUFFIX,theporndude.com
