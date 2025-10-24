@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4070
+# 规则统计: 4071
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -138,6 +138,7 @@ DOMAIN,assets.byteplus.com
 DOMAIN,assets.calendly.com
 DOMAIN,assets.canny.io
 DOMAIN,assets.capterra.com
+DOMAIN,assets.cello.so
 DOMAIN,assets.change.org
 DOMAIN,assets.chaos.social
 DOMAIN,assets.chess24.com
