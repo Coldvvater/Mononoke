@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7457
+# 规则统计: 7458
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -464,6 +464,7 @@ DOMAIN-SUFFIX,areca-backup.org
 DOMAIN-SUFFIX,arena.taipei
 DOMAIN-SUFFIX,arethusa.su
 DOMAIN-SUFFIX,arlingtoncemetery.mil
+DOMAIN-SUFFIX,armorgames.com
 DOMAIN-SUFFIX,army.mil
 DOMAIN-SUFFIX,arstechnica.net
 DOMAIN-SUFFIX,art4tibet1998.org

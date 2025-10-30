@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1465
+# 规则统计: 1466
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -148,6 +148,7 @@ DOMAIN-SUFFIX,archive.li
 DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,archive.today
 DOMAIN-SUFFIX,archiveofourown.org
+DOMAIN-SUFFIX,armorgames.com
 DOMAIN-SUFFIX,artstation.com
 DOMAIN-SUFFIX,ashemaletube.com
 DOMAIN-SUFFIX,ask.com
