@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5298
+# 规则统计: 5309
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -286,6 +286,7 @@ DOMAIN-SUFFIX,5.ccutu.com
 DOMAIN-SUFFIX,5.gzfenda.com
 DOMAIN-SUFFIX,50bang.org
 DOMAIN-SUFFIX,50m.gkcyc.com
+DOMAIN-SUFFIX,51dh.xin
 DOMAIN-SUFFIX,51dxs.com
 DOMAIN-SUFFIX,51gxqm.com
 DOMAIN-SUFFIX,51tongji.trafficmanager.net
@@ -763,6 +764,7 @@ DOMAIN-SUFFIX,aoao11211iis.top
 DOMAIN-SUFFIX,aoao12011iis.top
 DOMAIN-SUFFIX,aos01070ss.xyz
 DOMAIN-SUFFIX,aos01080ss.xyz
+DOMAIN-SUFFIX,aovk.cn
 DOMAIN-SUFFIX,aoydwg.icu
 DOMAIN-SUFFIX,apajku.icu
 DOMAIN-SUFFIX,apeacc.icu
@@ -2897,6 +2899,7 @@ DOMAIN-SUFFIX,lxsz0w0aw.com
 DOMAIN-SUFFIX,lxting.com
 DOMAIN-SUFFIX,lxwp426ao.com
 DOMAIN-SUFFIX,lyfdrh.icu
+DOMAIN-SUFFIX,lyjq9gwob.com
 DOMAIN-SUFFIX,lyo1dkdbp.com
 DOMAIN-SUFFIX,lywaelm.online
 DOMAIN-SUFFIX,lyz.radio366.com
@@ -2916,6 +2919,7 @@ DOMAIN-SUFFIX,m1.kuanff.com
 DOMAIN-SUFFIX,m1.nn670.com
 DOMAIN-SUFFIX,m1.vodjk.com
 DOMAIN-SUFFIX,m1.we556.com
+DOMAIN-SUFFIX,m17d1e83q.com
 DOMAIN-SUFFIX,m1jm3nzf2.com
 DOMAIN-SUFFIX,m1vvvv1k2.com
 DOMAIN-SUFFIX,m2.lelemh.com
@@ -3597,6 +3601,7 @@ DOMAIN-SUFFIX,pyonbrj41b.com
 DOMAIN-SUFFIX,pytexb.icu
 DOMAIN-SUFFIX,pyxytj.icu
 DOMAIN-SUFFIX,pznnvt.top
+DOMAIN-SUFFIX,pzq7ilwvv.com
 DOMAIN-SUFFIX,pzzedx.icu
 DOMAIN-SUFFIX,q06g.com
 DOMAIN-SUFFIX,q1.yyxwzx.com
@@ -3876,6 +3881,7 @@ DOMAIN-SUFFIX,ruvgbv.icu
 DOMAIN-SUFFIX,ruvowe4xeo.com
 DOMAIN-SUFFIX,rvgtaai.top
 DOMAIN-SUFFIX,rvkhazel.com
+DOMAIN-SUFFIX,rvrl1srlq.com
 DOMAIN-SUFFIX,rvxmlj.icu
 DOMAIN-SUFFIX,rvxo.cn
 DOMAIN-SUFFIX,rvxsvwqf.icu
@@ -4044,6 +4050,7 @@ DOMAIN-SUFFIX,soublib.top
 DOMAIN-SUFFIX,soy5c00zc.com
 DOMAIN-SUFFIX,sp.dnqc.com
 DOMAIN-SUFFIX,spcode.baidu.com
+DOMAIN-SUFFIX,specialty75.com
 DOMAIN-SUFFIX,spkh.cn
 DOMAIN-SUFFIX,spl.ztvx8.com
 DOMAIN-SUFFIX,spoaven.top
@@ -4943,6 +4950,7 @@ DOMAIN-SUFFIX,xnqxocz.icu
 DOMAIN-SUFFIX,xoceonsl.com
 DOMAIN-SUFFIX,xoiz.cn
 DOMAIN-SUFFIX,xoqsxdpx.xyz
+DOMAIN-SUFFIX,xpdgvlxwn.icu
 DOMAIN-SUFFIX,xpicj0.icu
 DOMAIN-SUFFIX,xpj08.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,xpjcg.oss-accelerate.aliyuncs.com
@@ -5197,6 +5205,8 @@ DOMAIN-SUFFIX,zdh10290lo.com
 DOMAIN-SUFFIX,zdh10291lo.com
 DOMAIN-SUFFIX,zdh10300lo.com
 DOMAIN-SUFFIX,zdh10301lo.com
+DOMAIN-SUFFIX,zdh10310lo.com
+DOMAIN-SUFFIX,zdh10311lo.com
 DOMAIN-SUFFIX,ze5.com
 DOMAIN-SUFFIX,zevwrl.top
 DOMAIN-SUFFIX,zfwgn.icu
@@ -5214,6 +5224,7 @@ DOMAIN-SUFFIX,zhwzsym.top
 DOMAIN-SUFFIX,zhy333.com
 DOMAIN-SUFFIX,ziajretrs.com
 DOMAIN-SUFFIX,zibjls.top
+DOMAIN-SUFFIX,zihqjf.icu
 DOMAIN-SUFFIX,zikeke7.com
 DOMAIN-SUFFIX,zio8.icu
 DOMAIN-SUFFIX,zipnzz.icu
