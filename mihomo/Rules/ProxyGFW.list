@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7458
+# 规则统计: 7464
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -89,6 +89,7 @@ DOMAIN-SUFFIX,24.com
 DOMAIN-SUFFIX,24hrs.ca
 DOMAIN-SUFFIX,24smile.org
 DOMAIN-SUFFIX,25u.com
+DOMAIN-SUFFIX,2ch.sc
 DOMAIN-SUFFIX,2du5.com
 DOMAIN-SUFFIX,2lipstube.com
 DOMAIN-SUFFIX,2mdn.net
@@ -522,6 +523,7 @@ DOMAIN-SUFFIX,av-e-body.com
 DOMAIN-SUFFIX,av.com
 DOMAIN-SUFFIX,av.movie
 DOMAIN-SUFFIX,av01.tv
+DOMAIN-SUFFIX,av28.com
 DOMAIN-SUFFIX,avaaz.org
 DOMAIN-SUFFIX,avbody.tv
 DOMAIN-SUFFIX,avcity.tv
@@ -944,6 +946,7 @@ DOMAIN-SUFFIX,camsoda.com
 DOMAIN-SUFFIX,canadameet.com
 DOMAIN-SUFFIX,canalporno.com
 DOMAIN-SUFFIX,canarymail.io
+DOMAIN-SUFFIX,cangku.moe
 DOMAIN-SUFFIX,cantonese.asia
 DOMAIN-SUFFIX,canyu.org
 DOMAIN-SUFFIX,cao.im
@@ -3392,6 +3395,7 @@ DOMAIN-SUFFIX,it
 DOMAIN-SUFFIX,itaboo.info
 DOMAIN-SUFFIX,italiatibet.org
 DOMAIN-SUFFIX,itasoftware.com
+DOMAIN-SUFFIX,itch.io
 DOMAIN-SUFFIX,itemdb.com
 DOMAIN-SUFFIX,itemfix.com
 DOMAIN-SUFFIX,ithome.com.tw
@@ -4902,6 +4906,7 @@ DOMAIN-SUFFIX,poloniex.com
 DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,polymerhk.com
+DOMAIN-SUFFIX,pomf.cat
 DOMAIN-SUFFIX,poolbinance.com
 DOMAIN-SUFFIX,poolin.com
 DOMAIN-SUFFIX,popai.pro
@@ -7270,6 +7275,7 @@ DOMAIN-SUFFIX,zapto.org
 DOMAIN-SUFFIX,zattoo.com
 DOMAIN-SUFFIX,zb.com
 DOMAIN-SUFFIX,zbporn.com
+DOMAIN-SUFFIX,zdnet.com
 DOMAIN-SUFFIX,zdnet.com.tw
 DOMAIN-SUFFIX,zello.com
 DOMAIN-SUFFIX,zendesk.com
