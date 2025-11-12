@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 47
+# 规则统计: 43
 
 DOMAIN,ai.google.dev
 DOMAIN,aida.googleapis.com
@@ -7,10 +7,6 @@ DOMAIN,aisandbox-pa.googleapis.com
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,api.github.com
 DOMAIN,api.jetbrains.ai
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-DOMAIN,cp4.cloudflare.com
 DOMAIN,file.oaiusercontent.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN,jules.google.com
