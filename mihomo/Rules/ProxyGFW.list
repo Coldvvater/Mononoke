@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7466
+# 规则统计: 7475
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -2930,6 +2930,7 @@ DOMAIN-SUFFIX,hentai.to
 DOMAIN-SUFFIX,hentaifox.com
 DOMAIN-SUFFIX,hentaipaw.com
 DOMAIN-SUFFIX,hentaiplay.net
+DOMAIN-SUFFIX,hentaistream.com
 DOMAIN-SUFFIX,hentaitube.tv
 DOMAIN-SUFFIX,hentaivideoworld.com
 DOMAIN-SUFFIX,heqinglian.net
@@ -3461,6 +3462,7 @@ DOMAIN-SUFFIX,javtag.com
 DOMAIN-SUFFIX,javtrailers.com
 DOMAIN-SUFFIX,javtsunami.com
 DOMAIN-SUFFIX,javwind.com
+DOMAIN-SUFFIX,javynow.com
 DOMAIN-SUFFIX,javzoo.com
 DOMAIN-SUFFIX,javzz.com
 DOMAIN-SUFFIX,jbtalks.cc
@@ -4129,6 +4131,7 @@ DOMAIN-SUFFIX,modernchinastudies.org
 DOMAIN-SUFFIX,modrinth.com
 DOMAIN-SUFFIX,moeerolibrary.com
 DOMAIN-SUFFIX,moegirl.org
+DOMAIN-SUFFIX,moeload.com
 DOMAIN-SUFFIX,moeshare.cc
 DOMAIN-SUFFIX,mofaxiehui.com
 DOMAIN-SUFFIX,mofos.com
@@ -4224,6 +4227,7 @@ DOMAIN-SUFFIX,my03.com
 DOMAIN-SUFFIX,my903.com
 DOMAIN-SUFFIX,myactimes.com
 DOMAIN-SUFFIX,myanimelist.net
+DOMAIN-SUFFIX,myanimeshelf.com
 DOMAIN-SUFFIX,myanniu.com
 DOMAIN-SUFFIX,myaudiocast.com
 DOMAIN-SUFFIX,myav.com.tw
@@ -4918,8 +4922,10 @@ DOMAIN-SUFFIX,popyard.org
 DOMAIN-SUFFIX,porn.com
 DOMAIN-SUFFIX,porn2.com
 DOMAIN-SUFFIX,porn5.com
+DOMAIN-SUFFIX,porn87.com
 DOMAIN-SUFFIX,pornbase.org
 DOMAIN-SUFFIX,pornbest.org
+DOMAIN-SUFFIX,porndig.com
 DOMAIN-SUFFIX,pornerbros.com
 DOMAIN-SUFFIX,porngo.com
 DOMAIN-SUFFIX,pornhd.com
@@ -5567,6 +5573,7 @@ DOMAIN-SUFFIX,skyxvpn.com
 DOMAIN-SUFFIX,sl-reverse.com
 DOMAIN-SUFFIX,slack.com
 DOMAIN-SUFFIX,slacker.com
+DOMAIN-SUFFIX,slackhq.com
 DOMAIN-SUFFIX,slashine.onl
 DOMAIN-SUFFIX,slaytizle.com
 DOMAIN-SUFFIX,sleazydream.com
@@ -6507,6 +6514,7 @@ DOMAIN-SUFFIX,ultrasurf.us
 DOMAIN-SUFFIX,ultravpn.com
 DOMAIN-SUFFIX,ultravpn.fr
 DOMAIN-SUFFIX,ultraxs.com
+DOMAIN-SUFFIX,umblr.com
 DOMAIN-SUFFIX,umich.edu
 DOMAIN-SUFFIX,unblock-us.com
 DOMAIN-SUFFIX,unblock.cn.com
@@ -6543,6 +6551,7 @@ DOMAIN-SUFFIX,updatestar.com
 DOMAIN-SUFFIX,updownradar.com
 DOMAIN-SUFFIX,upghsbc.com
 DOMAIN-SUFFIX,upholdjustice.org
+DOMAIN-SUFFIX,upjav.org
 DOMAIN-SUFFIX,upload4u.info
 DOMAIN-SUFFIX,uploaded.net
 DOMAIN-SUFFIX,uploaded.to
