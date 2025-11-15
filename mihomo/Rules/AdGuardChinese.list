@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 5244
+# 规则统计: 5253
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -846,6 +846,7 @@ DOMAIN-SUFFIX,b1o8h004u5.com
 DOMAIN-SUFFIX,b1zftjhtwb.com
 DOMAIN-SUFFIX,b477.life
 DOMAIN-SUFFIX,b79e4u3hz7.com
+DOMAIN-SUFFIX,b7ijghyla1.com
 DOMAIN-SUFFIX,b7sw62.pingshu8.xyz
 DOMAIN-SUFFIX,b82q168jgj.com
 DOMAIN-SUFFIX,b8b4ix7bj.com
@@ -1085,6 +1086,7 @@ DOMAIN-SUFFIX,bxdupj.icu
 DOMAIN-SUFFIX,bxheifoe.icu
 DOMAIN-SUFFIX,bxhm.cn
 DOMAIN-SUFFIX,bxlulr.icu
+DOMAIN-SUFFIX,bxmo.cn
 DOMAIN-SUFFIX,bxzlfr.icu
 DOMAIN-SUFFIX,by.dyq.cn
 DOMAIN-SUFFIX,bybrrn.icu
@@ -2572,6 +2574,7 @@ DOMAIN-SUFFIX,jtvwbp.cn
 DOMAIN-SUFFIX,juandou.com
 DOMAIN-SUFFIX,jubsg4r6qy.com
 DOMAIN-SUFFIX,jucnwta.top
+DOMAIN-SUFFIX,judicial4.com
 DOMAIN-SUFFIX,juejdkio.com
 DOMAIN-SUFFIX,jun01.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,junpjmg96.com
@@ -3024,6 +3027,7 @@ DOMAIN-SUFFIX,mscs.svaeuzh.cn
 DOMAIN-SUFFIX,msslwa.icu
 DOMAIN-SUFFIX,mstmsbz.com
 DOMAIN-SUFFIX,mtfc8.com
+DOMAIN-SUFFIX,mthonpga.com
 DOMAIN-SUFFIX,mtiicw.icu
 DOMAIN-SUFFIX,mtimiyx.top
 DOMAIN-SUFFIX,mtmvrulutr.com
@@ -3258,6 +3262,7 @@ DOMAIN-SUFFIX,o6oxvugdl.com
 DOMAIN-SUFFIX,o8s.icu
 DOMAIN-SUFFIX,o8u3n4q7fe.com
 DOMAIN-SUFFIX,o8zoz.icu
+DOMAIN-SUFFIX,o9qdqbu6nu.com
 DOMAIN-SUFFIX,oa-panther.data.aliyun.com
 DOMAIN-SUFFIX,oa88s0gb8.com
 DOMAIN-SUFFIX,oaatyq.icu
@@ -3698,6 +3703,7 @@ DOMAIN-SUFFIX,qxdx2x6kn6.com
 DOMAIN-SUFFIX,qxeymg.icu
 DOMAIN-SUFFIX,qxn9qlvmca.com
 DOMAIN-SUFFIX,qxwoiv.com
+DOMAIN-SUFFIX,qyplvnzcm1.com
 DOMAIN-SUFFIX,qywbslk.top
 DOMAIN-SUFFIX,qzq1hq3mt.com
 DOMAIN-SUFFIX,r.99waiyu.com
@@ -4927,6 +4933,8 @@ DOMAIN-SUFFIX,xxsmtz8.com
 DOMAIN-SUFFIX,xxsmtz9.com
 DOMAIN-SUFFIX,xxts11130zs.com
 DOMAIN-SUFFIX,xxts11131zs.com
+DOMAIN-SUFFIX,xxts11140zs.com
+DOMAIN-SUFFIX,xxts11141zs.com
 DOMAIN-SUFFIX,xxxx68xxxx.com
 DOMAIN-SUFFIX,y.photoint.net
 DOMAIN-SUFFIX,y0mwy.icu
@@ -5072,6 +5080,7 @@ DOMAIN-SUFFIX,yxgfcj.com
 DOMAIN-SUFFIX,yxonk5bcue.com
 DOMAIN-SUFFIX,yxqhuy.icu
 DOMAIN-SUFFIX,yxqmryq.top
+DOMAIN-SUFFIX,yxwg21lyyn.com
 DOMAIN-SUFFIX,yy17173.dtime.com
 DOMAIN-SUFFIX,yylady.cn
 DOMAIN-SUFFIX,z.grfyw.com

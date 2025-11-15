@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1499
+# 规则统计: 1502
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -58,6 +58,7 @@ DOMAIN-SUFFIX,1point3acres.com
 DOMAIN-SUFFIX,24.com
 DOMAIN-SUFFIX,2ch.sc
 DOMAIN-SUFFIX,360ssh.com
+DOMAIN-SUFFIX,3dporndude.com
 DOMAIN-SUFFIX,3movs.com
 DOMAIN-SUFFIX,4cdn.org
 DOMAIN-SUFFIX,4chan.org
@@ -612,6 +613,7 @@ DOMAIN-SUFFIX,he.net
 DOMAIN-SUFFIX,hentaifox.com
 DOMAIN-SUFFIX,hentaipaw.com
 DOMAIN-SUFFIX,hentaiplay.net
+DOMAIN-SUFFIX,hentaiporns.net
 DOMAIN-SUFFIX,hentaistream.com
 DOMAIN-SUFFIX,heroku.com
 DOMAIN-SUFFIX,herokuapp.com
@@ -857,6 +859,7 @@ DOMAIN-SUFFIX,myanimelist.net
 DOMAIN-SUFFIX,myanimeshelf.com
 DOMAIN-SUFFIX,mydnsleaktest.com
 DOMAIN-SUFFIX,myfreecams.com
+DOMAIN-SUFFIX,myfutanari.com
 DOMAIN-SUFFIX,myipstack.com
 DOMAIN-SUFFIX,mypikpak.com
 DOMAIN-SUFFIX,myspace.com
