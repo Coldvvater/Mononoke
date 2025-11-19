@@ -1,10 +1,11 @@
 # 规则名称: AI
-# 规则统计: 43
+# 规则统计: 44
 
 DOMAIN,ai.google.dev
 DOMAIN,aida.googleapis.com
 DOMAIN,aisandbox-pa.googleapis.com
 DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,antigravity.google
 DOMAIN,api.github.com
 DOMAIN,api.jetbrains.ai
 DOMAIN,file.oaiusercontent.com
