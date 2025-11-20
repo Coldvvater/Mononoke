@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7479
+# 规则统计: 7501
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -521,6 +521,7 @@ DOMAIN-SUFFIX,authorizeddns.us
 DOMAIN-SUFFIX,autodesk.com
 DOMAIN-SUFFIX,autodraw.com
 DOMAIN-SUFFIX,av-e-body.com
+DOMAIN-SUFFIX,av-wiki.net
 DOMAIN-SUFFIX,av.com
 DOMAIN-SUFFIX,av.movie
 DOMAIN-SUFFIX,av01.tv
@@ -661,6 +662,7 @@ DOMAIN-SUFFIX,bestvpnforchina.net
 DOMAIN-SUFFIX,bestvpnserver.com
 DOMAIN-SUFFIX,bestvpnservice.com
 DOMAIN-SUFFIX,bestvpnusa.com
+DOMAIN-SUFFIX,bet
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,betaclouds.net
 DOMAIN-SUFFIX,betfair.com
@@ -672,6 +674,7 @@ DOMAIN-SUFFIX,bewww.net
 DOMAIN-SUFFIX,beyondfirewall.com
 DOMAIN-SUFFIX,bfnn.org
 DOMAIN-SUFFIX,bfsh.hk
+DOMAIN-SUFFIX,bg
 DOMAIN-SUFFIX,bgme.me
 DOMAIN-SUFFIX,bgp.tools
 DOMAIN-SUFFIX,bgvpn.com
@@ -1599,6 +1602,7 @@ DOMAIN-SUFFIX,dnvod.tv
 DOMAIN-SUFFIX,doc.new
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,dockerstatus.com
 DOMAIN-SUFFIX,docs.cfw.lbyczf.com
 DOMAIN-SUFFIX,docs.new
 DOMAIN-SUFFIX,doctorvoice.org
@@ -1741,6 +1745,7 @@ DOMAIN-SUFFIX,ebony-beauty.com
 DOMAIN-SUFFIX,ebookbrowse.com
 DOMAIN-SUFFIX,ebookee.com
 DOMAIN-SUFFIX,ebtcbank.com
+DOMAIN-SUFFIX,ec
 DOMAIN-SUFFIX,ecfa.org.tw
 DOMAIN-SUFFIX,echainhost.com
 DOMAIN-SUFFIX,echofon.com
@@ -2135,6 +2140,7 @@ DOMAIN-SUFFIX,fpmtmexico.org
 DOMAIN-SUFFIX,fqok.org
 DOMAIN-SUFFIX,fqrouter.com
 DOMAIN-SUFFIX,fr
+DOMAIN-SUFFIX,framer.com
 DOMAIN-SUFFIX,frank2019.me
 DOMAIN-SUFFIX,franklc.com
 DOMAIN-SUFFIX,freakshare.com
@@ -2156,6 +2162,7 @@ DOMAIN-SUFFIX,freechina.net
 DOMAIN-SUFFIX,freechina.news
 DOMAIN-SUFFIX,freechinaforum.org
 DOMAIN-SUFFIX,freechinaweibo.com
+DOMAIN-SUFFIX,freecodecamp.org
 DOMAIN-SUFFIX,freeddns.com
 DOMAIN-SUFFIX,freeddns.org
 DOMAIN-SUFFIX,freedl.org
@@ -3221,6 +3228,7 @@ DOMAIN-SUFFIX,idreamx.com
 DOMAIN-SUFFIX,idrive.com
 DOMAIN-SUFFIX,idsam.com
 DOMAIN-SUFFIX,idv.tw
+DOMAIN-SUFFIX,ie
 DOMAIN-SUFFIX,ieasy5.com
 DOMAIN-SUFFIX,ied2k.net
 DOMAIN-SUFFIX,ienergy1.com
@@ -3248,6 +3256,7 @@ DOMAIN-SUFFIX,iicns.com
 DOMAIN-SUFFIX,iina.io
 DOMAIN-SUFFIX,ikstar.com
 DOMAIN-SUFFIX,ikwb.com
+DOMAIN-SUFFIX,il
 DOMAIN-SUFFIX,ilbe.com
 DOMAIN-SUFFIX,ilhamtohtiinstitute.org
 DOMAIN-SUFFIX,illawarramercury.com.au
@@ -3358,6 +3367,7 @@ DOMAIN-SUFFIX,ipredator.se
 DOMAIN-SUFFIX,iptv.com.tw
 DOMAIN-SUFFIX,iptvbin.com
 DOMAIN-SUFFIX,ipvanish.com
+DOMAIN-SUFFIX,ir
 DOMAIN-SUFFIX,irangov.ir
 DOMAIN-SUFFIX,iredmail.org
 DOMAIN-SUFFIX,irib.ir
@@ -3924,6 +3934,7 @@ DOMAIN-SUFFIX,mangafox.com
 DOMAIN-SUFFIX,mangafox.me
 DOMAIN-SUFFIX,mangmang.run
 DOMAIN-SUFFIX,manhuabika.com
+DOMAIN-SUFFIX,manhuagui.com
 DOMAIN-SUFFIX,maniash.com
 DOMAIN-SUFFIX,manicur4ik.ru
 DOMAIN-SUFFIX,mansion.com
@@ -3964,6 +3975,7 @@ DOMAIN-SUFFIX,mattwilcox.net
 DOMAIN-SUFFIX,maturejp.com
 DOMAIN-SUFFIX,maven.org
 DOMAIN-SUFFIX,maxing.jp
+DOMAIN-SUFFIX,maxjav.com
 DOMAIN-SUFFIX,mayimayi.com
 DOMAIN-SUFFIX,mayoclinic.org
 DOMAIN-SUFFIX,mcadforums.com
@@ -4038,11 +4050,13 @@ DOMAIN-SUFFIX,mexc.com
 DOMAIN-SUFFIX,meyou.jp
 DOMAIN-SUFFIX,meyul.com
 DOMAIN-SUFFIX,mfxmedia.com
+DOMAIN-SUFFIX,mg
 DOMAIN-SUFFIX,mgoon.com
 DOMAIN-SUFFIX,mgstage.com
 DOMAIN-SUFFIX,mh4u.org
 DOMAIN-SUFFIX,mhradio.org
 DOMAIN-SUFFIX,michaelmarketl.com
+DOMAIN-SUFFIX,micro.blog
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,microvpn.com
 DOMAIN-SUFFIX,middle-way.net
@@ -4537,6 +4551,7 @@ DOMAIN-SUFFIX,nvquan.org
 DOMAIN-SUFFIX,nvtongzhisheng.org
 DOMAIN-SUFFIX,nwtca.org
 DOMAIN-SUFFIX,ny.stgloballink.com
+DOMAIN-SUFFIX,ny1.com
 DOMAIN-SUFFIX,nyaa.eu
 DOMAIN-SUFFIX,nyaa.land
 DOMAIN-SUFFIX,nyaa.si
@@ -4654,6 +4669,7 @@ DOMAIN-SUFFIX,openervpn.in
 DOMAIN-SUFFIX,openfreemap.org
 DOMAIN-SUFFIX,openid.net
 DOMAIN-SUFFIX,openleaks.org
+DOMAIN-SUFFIX,openlibrary.org
 DOMAIN-SUFFIX,opensea.io
 DOMAIN-SUFFIX,openstreetmap.org
 DOMAIN-SUFFIX,opentable.com
@@ -4871,6 +4887,7 @@ DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pixivsketch.net
 DOMAIN-SUFFIX,pixnet.in
 DOMAIN-SUFFIX,pixnet.net
+DOMAIN-SUFFIX,pk
 DOMAIN-SUFFIX,pk.com
 DOMAIN-SUFFIX,pki.goog
 DOMAIN-SUFFIX,pkqjiasu.com
@@ -5257,6 +5274,7 @@ DOMAIN-SUFFIX,rlwlw.com
 DOMAIN-SUFFIX,rmbl.ws
 DOMAIN-SUFFIX,rmjdw.com
 DOMAIN-SUFFIX,rmjdw132.info
+DOMAIN-SUFFIX,ro
 DOMAIN-SUFFIX,roadshow.hk
 DOMAIN-SUFFIX,roboflow.com
 DOMAIN-SUFFIX,roboforex.com
@@ -5265,6 +5283,7 @@ DOMAIN-SUFFIX,rocket-inc.net
 DOMAIN-SUFFIX,rocket.chat
 DOMAIN-SUFFIX,rocketbbs.com
 DOMAIN-SUFFIX,rocketcdn.me
+DOMAIN-SUFFIX,rocks
 DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,rojo.com
 DOMAIN-SUFFIX,rolfoundation.org
@@ -6527,6 +6546,7 @@ DOMAIN-SUFFIX,unblocksit.es
 DOMAIN-SUFFIX,uncyclomedia.org
 DOMAIN-SUFFIX,uncyclopedia.hk
 DOMAIN-SUFFIX,uncyclopedia.tw
+DOMAIN-SUFFIX,underhentai.net
 DOMAIN-SUFFIX,underlords.com
 DOMAIN-SUFFIX,underwoodammo.com
 DOMAIN-SUFFIX,unholyknight.com
@@ -7062,6 +7082,7 @@ DOMAIN-SUFFIX,x3guide.com
 DOMAIN-SUFFIX,xanga.com
 DOMAIN-SUFFIX,xbabe.com
 DOMAIN-SUFFIX,xbookcn.com
+DOMAIN-SUFFIX,xbooru.com
 DOMAIN-SUFFIX,xbtce.com
 DOMAIN-SUFFIX,xcafe.in
 DOMAIN-SUFFIX,xchina.co
@@ -7144,6 +7165,7 @@ DOMAIN-SUFFIX,xuehua.us
 DOMAIN-SUFFIX,xuite.net
 DOMAIN-SUFFIX,xuzhiyong.net
 DOMAIN-SUFFIX,xvbelink.com
+DOMAIN-SUFFIX,xvideo-jp.com
 DOMAIN-SUFFIX,xvideo.cc
 DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,xvideos.com

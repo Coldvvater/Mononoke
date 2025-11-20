@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1502
+# 规则统计: 1534
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -165,6 +165,7 @@ DOMAIN-SUFFIX,au
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,autodesk.com
 DOMAIN-SUFFIX,autodraw.com
+DOMAIN-SUFFIX,av-wiki.net
 DOMAIN-SUFFIX,av28.com
 DOMAIN-SUFFIX,avg.com
 DOMAIN-SUFFIX,avgle.com
@@ -190,7 +191,9 @@ DOMAIN-SUFFIX,be
 DOMAIN-SUFFIX,beacondb.net
 DOMAIN-SUFFIX,behance.net
 DOMAIN-SUFFIX,bestbuy.com
+DOMAIN-SUFFIX,bet
 DOMAIN-SUFFIX,bet365.com
+DOMAIN-SUFFIX,bg
 DOMAIN-SUFFIX,bgp.tools
 DOMAIN-SUFFIX,bibox.com
 DOMAIN-SUFFIX,bikaa.xyz
@@ -398,6 +401,7 @@ DOMAIN-SUFFIX,dnsleak.privadovpn.com
 DOMAIN-SUFFIX,dnsleaktest.com
 DOMAIN-SUFFIX,dnsleaktest.org
 DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,dockerstatus.com
 DOMAIN-SUFFIX,docofcard.com
 DOMAIN-SUFFIX,doujins.com
 DOMAIN-SUFFIX,dowjones.com
@@ -422,6 +426,7 @@ DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,e621.net
 DOMAIN-SUFFIX,earthcam.com
 DOMAIN-SUFFIX,easylist.to
+DOMAIN-SUFFIX,ec
 DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,edgeapp.net
 DOMAIN-SUFFIX,edgecastcdn.net
@@ -468,12 +473,14 @@ DOMAIN-SUFFIX,fc2.com
 DOMAIN-SUFFIX,feedburner.com
 DOMAIN-SUFFIX,feeder.co
 DOMAIN-SUFFIX,feedly.com
+DOMAIN-SUFFIX,ff.im
 DOMAIN-SUFFIX,fide.com
 DOMAIN-SUFFIX,figma.com
 DOMAIN-SUFFIX,findagrave.com
 DOMAIN-SUFFIX,firebase.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,fish.audio
 DOMAIN-SUFFIX,fixupx.com
 DOMAIN-SUFFIX,fixvx.com
 DOMAIN-SUFFIX,flickr.com
@@ -491,6 +498,9 @@ DOMAIN-SUFFIX,foreignpolicy.com
 DOMAIN-SUFFIX,fosshub.com
 DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,fr
+DOMAIN-SUFFIX,framer.com
+DOMAIN-SUFFIX,freebeacon.com
+DOMAIN-SUFFIX,freecodecamp.org
 DOMAIN-SUFFIX,freedownloadmanager.org
 DOMAIN-SUFFIX,freemacsoft.net
 DOMAIN-SUFFIX,freepik.com
@@ -630,6 +640,7 @@ DOMAIN-SUFFIX,hqporner.com
 DOMAIN-SUFFIX,hsex.men
 DOMAIN-SUFFIX,hsforms.com
 DOMAIN-SUFFIX,hsforms.net
+DOMAIN-SUFFIX,html5rocks.com
 DOMAIN-SUFFIX,hubspotlinksstarter.com
 DOMAIN-SUFFIX,hubspotstarter.net
 DOMAIN-SUFFIX,huffpost.com
@@ -649,11 +660,13 @@ DOMAIN-SUFFIX,icon.yukonga.top
 DOMAIN-SUFFIX,iconfinder.com
 DOMAIN-SUFFIX,id
 DOMAIN-SUFFIX,idrive.com
+DOMAIN-SUFFIX,ie
 DOMAIN-SUFFIX,ietf.org
 DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,ifttt.com
 DOMAIN-SUFFIX,iheart.com
 DOMAIN-SUFFIX,iina.io
+DOMAIN-SUFFIX,il
 DOMAIN-SUFFIX,iloveimg.com
 DOMAIN-SUFFIX,imagefap.com
 DOMAIN-SUFFIX,imagekit.io
@@ -686,6 +699,7 @@ DOMAIN-SUFFIX,ipinfo.io
 DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,iporntv.net
 DOMAIN-SUFFIX,ipv4.surfsharkdns.com
+DOMAIN-SUFFIX,ir
 DOMAIN-SUFFIX,is
 DOMAIN-SUFFIX,is.gd
 DOMAIN-SUFFIX,issuu.com
@@ -711,6 +725,7 @@ DOMAIN-SUFFIX,javtrailers.com
 DOMAIN-SUFFIX,javtsunami.com
 DOMAIN-SUFFIX,javwind.com
 DOMAIN-SUFFIX,javynow.com
+DOMAIN-SUFFIX,jiji.com
 DOMAIN-SUFFIX,jirachecklist.com
 DOMAIN-SUFFIX,jkforum.net
 DOMAIN-SUFFIX,joinmastodon.org
@@ -746,6 +761,7 @@ DOMAIN-SUFFIX,kobo.com
 DOMAIN-SUFFIX,kodif.io
 DOMAIN-SUFFIX,komoot.com
 DOMAIN-SUFFIX,komoot.net
+DOMAIN-SUFFIX,konachan.com
 DOMAIN-SUFFIX,kr
 DOMAIN-SUFFIX,kraken.com
 DOMAIN-SUFFIX,kucoin.com
@@ -800,11 +816,13 @@ DOMAIN-SUFFIX,makerworld.com
 DOMAIN-SUFFIX,malwarebytes.com
 DOMAIN-SUFFIX,mangafox.me
 DOMAIN-SUFFIX,manhuabika.com
+DOMAIN-SUFFIX,manhuagui.com
 DOMAIN-SUFFIX,mapbox.com
 DOMAIN-SUFFIX,maptiler.com
 DOMAIN-SUFFIX,material.io
 DOMAIN-SUFFIX,matrix.org
 DOMAIN-SUFFIX,matters.town
+DOMAIN-SUFFIX,maxjav.com
 DOMAIN-SUFFIX,mayoclinic.org
 DOMAIN-SUFFIX,md
 DOMAIN-SUFFIX,medallia.com
@@ -822,6 +840,8 @@ DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,metacritic.com
 DOMAIN-SUFFIX,metamask.io
 DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,mg
+DOMAIN-SUFFIX,micro.blog
 DOMAIN-SUFFIX,mikrotik.com
 DOMAIN-SUFFIX,mil
 DOMAIN-SUFFIX,minecraft-services.net
@@ -921,6 +941,7 @@ DOMAIN-SUFFIX,nsfwr34.com
 DOMAIN-SUFFIX,nsloon.app
 DOMAIN-SUFFIX,nsloon.com
 DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,ny1.com
 DOMAIN-SUFFIX,nyaa.land
 DOMAIN-SUFFIX,nypost.com
 DOMAIN-SUFFIX,nyt.com
@@ -951,6 +972,7 @@ DOMAIN-SUFFIX,ookla.com
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,opencollective.com
 DOMAIN-SUFFIX,openfreemap.org
+DOMAIN-SUFFIX,openlibrary.org
 DOMAIN-SUFFIX,opensea.io
 DOMAIN-SUFFIX,openstreetmap.org
 DOMAIN-SUFFIX,opentable.com
@@ -974,6 +996,7 @@ DOMAIN-SUFFIX,paste.ee
 DOMAIN-SUFFIX,pastebin.com
 DOMAIN-SUFFIX,pastie.org
 DOMAIN-SUFFIX,patreon.com
+DOMAIN-SUFFIX,pawoo.net
 DOMAIN-SUFFIX,pcloud.com
 DOMAIN-SUFFIX,pe
 DOMAIN-SUFFIX,peeringdb.com
@@ -997,6 +1020,7 @@ DOMAIN-SUFFIX,pixeldrain.com
 DOMAIN-SUFFIX,pixelscan.net
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
+DOMAIN-SUFFIX,pk
 DOMAIN-SUFFIX,pl
 DOMAIN-SUFFIX,playboy.com
 DOMAIN-SUFFIX,player.fm
@@ -1015,6 +1039,7 @@ DOMAIN-SUFFIX,pornhd.com
 DOMAIN-SUFFIX,pornhost.com
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhub.org
+DOMAIN-SUFFIX,pornmate.com
 DOMAIN-SUFFIX,pornmd.com
 DOMAIN-SUFFIX,pornoxo.com
 DOMAIN-SUFFIX,pornpics.com
@@ -1087,7 +1112,10 @@ DOMAIN-SUFFIX,rfc-editor.org
 DOMAIN-SUFFIX,rferl.org
 DOMAIN-SUFFIX,rip
 DOMAIN-SUFFIX,ripe.net
+DOMAIN-SUFFIX,riseup.net
+DOMAIN-SUFFIX,ro
 DOMAIN-SUFFIX,roboflow.com
+DOMAIN-SUFFIX,rocks
 DOMAIN-SUFFIX,rottentomatoes.com
 DOMAIN-SUFFIX,rs
 DOMAIN-SUFFIX,rsshub.app
@@ -1240,6 +1268,7 @@ DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,thenewstack.io
 DOMAIN-SUFFIX,thepiratebay.org
+DOMAIN-SUFFIX,theporndude.com
 DOMAIN-SUFFIX,theregister.com
 DOMAIN-SUFFIX,thesaurus.com
 DOMAIN-SUFFIX,thetvdb.com
@@ -1305,6 +1334,7 @@ DOMAIN-SUFFIX,udn.com
 DOMAIN-SUFFIX,ui.com
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,umblr.com
+DOMAIN-SUFFIX,underhentai.net
 DOMAIN-SUFFIX,uniswap.org
 DOMAIN-SUFFIX,unpkg.com
 DOMAIN-SUFFIX,unsplash.com
@@ -1435,6 +1465,7 @@ DOMAIN-SUFFIX,x-art.com
 DOMAIN-SUFFIX,x.co
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,x.company
+DOMAIN-SUFFIX,xbooru.com
 DOMAIN-SUFFIX,xchina.co
 DOMAIN-SUFFIX,xdaforums.com
 DOMAIN-SUFFIX,xfinity.com
@@ -1451,6 +1482,7 @@ DOMAIN-SUFFIX,xns.one
 DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xpressunblock.com
 DOMAIN-SUFFIX,xquartz.org
+DOMAIN-SUFFIX,xvideo-jp.com
 DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,xxx
