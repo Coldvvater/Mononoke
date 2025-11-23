@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 195
+# 规则统计: 196
 
 DOMAIN,cc.coemn.com
 DOMAIN,cdn1.nebula-media.org
@@ -8,6 +8,7 @@ DOMAIN,cminf.sfcat.link
 DOMAIN,cuinf.sfcat.link
 DOMAIN,emby-cdn1.nebula-media.org
 DOMAIN,emby.nebula-media.org
+DOMAIN,m.mobaiemby.site
 DOMAIN,mcdn.mobaiemby.site
 DOMAIN,notnetflix.cos.cat
 DOMAIN,starharn-cf.nebula-media.org
