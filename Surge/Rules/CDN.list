@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4171
+# 规则统计: 4173
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -453,6 +453,7 @@ DOMAIN,cdn-static-push.porndig.com
 DOMAIN,cdn-static.paw.cloud
 DOMAIN,cdn-static.talent.com
 DOMAIN,cdn-swell-assets.yotpo.com
+DOMAIN,cdn-teams-slug.flaticon.com
 DOMAIN,cdn-thumbs.imagevenue.com
 DOMAIN,cdn-uicons.flaticon.com
 DOMAIN,cdn-us.readspeaker.com
@@ -3619,6 +3620,7 @@ DOMAIN-SUFFIX,mercdn.net
 DOMAIN-SUFFIX,metric.gstatic.com
 DOMAIN-SUFFIX,mfcimg.com
 DOMAIN-SUFFIX,minotar.net
+DOMAIN-SUFFIX,mintcdn.com
 DOMAIN-SUFFIX,mirror-media.xyz
 DOMAIN-SUFFIX,misskeyusercontent.com
 DOMAIN-SUFFIX,misskeyusercontent.jp
