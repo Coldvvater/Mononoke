@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 44
+# 规则统计: 45
 
 DOMAIN,ai.google.dev
 DOMAIN,aida.googleapis.com
@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
 DOMAIN-SUFFIX,deepmind.com

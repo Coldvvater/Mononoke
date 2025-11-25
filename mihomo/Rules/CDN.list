@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4173
+# 规则统计: 4174
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -3418,6 +3418,7 @@ DOMAIN-SUFFIX,hs-scripts.com
 DOMAIN-SUFFIX,hs-scripts.net
 DOMAIN-SUFFIX,hsappstatic.net
 DOMAIN-SUFFIX,hscollectedforms.net
+DOMAIN-SUFFIX,hsstatic.net
 DOMAIN-SUFFIX,hsto.org
 DOMAIN-SUFFIX,hubspotlinks.com
 DOMAIN-SUFFIX,hubspotusercontent-eu1.net
