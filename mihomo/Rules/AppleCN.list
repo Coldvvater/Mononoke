@@ -1,7 +1,8 @@
 # 规则名称: AppleCN
-# 规则统计: 179
+# 规则统计: 180
 
 DOMAIN,api.smoot.apple.cn
+DOMAIN,appleintelligencefeedback.care.apple.com
 DOMAIN,gs-loc-cn.apple.com
 DOMAIN-SUFFIX,a1.mzstatic.com
 DOMAIN-SUFFIX,a2.mzstatic.com
