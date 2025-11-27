@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1532
+# 规则统计: 1533
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -452,6 +452,7 @@ DOMAIN-SUFFIX,eu.org
 DOMAIN-SUFFIX,euronews.com
 DOMAIN-SUFFIX,evan888.top
 DOMAIN-SUFFIX,every1dns.net
+DOMAIN-SUFFIX,everymac.com
 DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,explainthis.io
 DOMAIN-SUFFIX,expressvpn.com
