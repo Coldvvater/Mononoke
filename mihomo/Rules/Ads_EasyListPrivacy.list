@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 42190
+# 规则统计: 42192
 
 DOMAIN-SUFFIX,0.0.0.1
 DOMAIN-SUFFIX,0.myikas.com
@@ -14839,6 +14839,7 @@ DOMAIN-SUFFIX,gravitykick.com
 DOMAIN-SUFFIX,graylog.prod.cams.run
 DOMAIN-SUFFIX,grayoranges.com
 DOMAIN-SUFFIX,grayreceipt.com
+DOMAIN-SUFFIX,grayscaleart.com
 DOMAIN-SUFFIX,grc.openapp.link
 DOMAIN-SUFFIX,grc2.secureforms.mcafee.com
 DOMAIN-SUFFIX,greasegarden.com
@@ -27823,6 +27824,7 @@ DOMAIN-SUFFIX,seahorseinfo.agilent.com
 DOMAIN-SUFFIX,sealingdev.actonservice.com
 DOMAIN-SUFFIX,sealtravels.com
 DOMAIN-SUFFIX,seamarketny.actonservice.com
+DOMAIN-SUFFIX,seamlesssalon.com
 DOMAIN-SUFFIX,seao.business.samsung.com
 DOMAIN-SUFFIX,search.anonymous.ads.brave.com
 DOMAIN-SUFFIX,seatsmoke.com
