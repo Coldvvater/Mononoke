@@ -1,5 +1,5 @@
 # 规则名称: ProxyMedia
-# 规则统计: 395
+# 规则统计: 399
 
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,ai.google.dev
@@ -59,6 +59,7 @@ DOMAIN,music.youtube.com
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN,netflix.com.edgesuite.net
+DOMAIN,notebooklm.google.com
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN,players.brightcove.net
@@ -109,6 +110,7 @@ DOMAIN-SUFFIX,channel4.com
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
@@ -197,6 +199,7 @@ DOMAIN-SUFFIX,japronx.com
 DOMAIN-SUFFIX,japronx.net
 DOMAIN-SUFFIX,japronx.tv
 DOMAIN-SUFFIX,japronx.vip
+DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,joox.com
 DOMAIN-SUFFIX,js-agent.newrelic.com
 DOMAIN-SUFFIX,jtvnw.net
@@ -299,6 +302,7 @@ DOMAIN-SUFFIX,viu.now.com
 DOMAIN-SUFFIX,viu.tv
 DOMAIN-SUFFIX,vod360.net
 DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,yb.uncn.jp
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube-nocookie.com
