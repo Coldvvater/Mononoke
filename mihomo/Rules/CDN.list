@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4189
+# 规则统计: 4190
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2933,7 +2933,7 @@ DOMAIN,webcdn.17app.co
 DOMAIN,webfonts.zoho.com
 DOMAIN,webobjects2.cdw.com
 DOMAIN,webp.frostming.com
-DOMAIN,website-cdn.ipinfo.io
+DOMAIN,website-cdn
 DOMAIN,website-media.deel.com
 DOMAIN,website-prod.cache.wpscdn.com
 DOMAIN,webstatic.chargebee.com
@@ -3063,6 +3063,7 @@ DOMAIN-SUFFIX,assets.digitalocean.com
 DOMAIN-SUFFIX,assets.getpocket.com
 DOMAIN-SUFFIX,assets.heroku.com
 DOMAIN-SUFFIX,assets.ibm.com
+DOMAIN-SUFFIX,assets.ipinfo.io
 DOMAIN-SUFFIX,assets.pinterest.com
 DOMAIN-SUFFIX,assets.shortbread.aws.dev
 DOMAIN-SUFFIX,assets.tumblr.com
