@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4206
+# 规则统计: 4208
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1259,6 +1259,7 @@ DOMAIN,featureflags.netlify.com
 DOMAIN,fesdk.nexon.com
 DOMAIN,fiddle.fastly.dev
 DOMAIN,fiddle.jshell.net
+DOMAIN,file.ahu.moe
 DOMAIN,file.izanmei.net
 DOMAIN,file.zoom.us
 DOMAIN,file1.hkepc.net
@@ -2454,6 +2455,7 @@ DOMAIN,static.addtoany.com
 DOMAIN,static.adguardvpn.com
 DOMAIN,static.afterpay.com
 DOMAIN,static.ahrefs.com
+DOMAIN,static.ahu.moe
 DOMAIN,static.airtable.com
 DOMAIN,static.aizanmei.org
 DOMAIN,static.animaapp.com
@@ -2976,6 +2978,7 @@ DOMAIN,widgets.pinterest.com
 DOMAIN,widgets.tree-nation.com
 DOMAIN,widgets.turnto.com
 DOMAIN,widgets.zohosalesiq.com
+DOMAIN,wiki.metacubex.one
 DOMAIN,wikiwandv2-19431.kxcdn.com
 DOMAIN,wimg.rule34.xxx
 DOMAIN,wire.shodan.io
@@ -3332,7 +3335,6 @@ DOMAIN-SUFFIX,events.backtrace.io
 DOMAIN-SUFFIX,exp-tas.com
 DOMAIN-SUFFIX,externulls.com
 DOMAIN-SUFFIX,ezocdn.com
-DOMAIN-SUFFIX,f-droid.org
 DOMAIN-SUFFIX,f.hubspotemail.net
 DOMAIN-SUFFIX,f.hubspotfree.net
 DOMAIN-SUFFIX,f.hubspotstarter.net
