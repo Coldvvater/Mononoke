@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7573
+# 规则统计: 7574
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -4155,6 +4155,7 @@ DOMAIN-SUFFIX,mirrormedia.com.tw
 DOMAIN-SUFFIX,mirrormedia.mg
 DOMAIN-SUFFIX,missav.com
 DOMAIN-SUFFIX,missav.ws
+DOMAIN-SUFFIX,missav123.com
 DOMAIN-SUFFIX,misskey.io
 DOMAIN-SUFFIX,mist.vip
 DOMAIN-SUFFIX,mit.edu
