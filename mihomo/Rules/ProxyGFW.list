@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7574
+# 规则统计: 7575
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -5244,6 +5244,7 @@ DOMAIN-SUFFIX,readingtimes.com.tw
 DOMAIN-SUFFIX,readme.com
 DOMAIN-SUFFIX,readmoo.com
 DOMAIN-SUFFIX,readthedocs.io
+DOMAIN-SUFFIX,readwise.io
 DOMAIN-SUFFIX,readydown.com
 DOMAIN-SUFFIX,realcourage.org
 DOMAIN-SUFFIX,realgfporn.com

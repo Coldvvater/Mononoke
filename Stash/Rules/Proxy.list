@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1536
+# 规则统计: 1537
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -1086,6 +1086,7 @@ DOMAIN-SUFFIX,reabble.com
 DOMAIN-SUFFIX,readme.com
 DOMAIN-SUFFIX,readmoo.com
 DOMAIN-SUFFIX,readthedocs.io
+DOMAIN-SUFFIX,readwise.io
 DOMAIN-SUFFIX,realgfporn.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,recombee.com
