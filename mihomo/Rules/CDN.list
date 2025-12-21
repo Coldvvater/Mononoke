@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4239
+# 规则统计: 4241
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -815,6 +815,7 @@ DOMAIN,cdn.stash.com
 DOMAIN,cdn.staticdelivr.com
 DOMAIN,cdn.staticswin.com
 DOMAIN,cdn.stellarhosted.com
+DOMAIN,cdn.stonly.com
 DOMAIN,cdn.streamlabs.com
 DOMAIN,cdn.substack.com
 DOMAIN,cdn.sunofbeaches.com
@@ -3158,6 +3159,7 @@ DOMAIN-SUFFIX,bytebucket.org
 DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,c-dn.net
 DOMAIN-SUFFIX,capcutstatic.com
+DOMAIN-SUFFIX,cartastatic.com
 DOMAIN-SUFFIX,cartocdn.com
 DOMAIN-SUFFIX,cas-bridge.xethub.hf.co
 DOMAIN-SUFFIX,cbsnewsstatic.com

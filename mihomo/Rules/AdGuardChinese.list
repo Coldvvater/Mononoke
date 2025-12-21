@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 6346
+# 规则统计: 6365
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,04o.fun
 DOMAIN-SUFFIX,0512s.com
 DOMAIN-SUFFIX,0592.mobi
 DOMAIN-SUFFIX,06789.xyz
+DOMAIN-SUFFIX,06cp8ypn8j.com
 DOMAIN-SUFFIX,06evyxnibl.com
 DOMAIN-SUFFIX,0755rc.com
 DOMAIN-SUFFIX,07pv7k61z.com
@@ -127,6 +128,7 @@ DOMAIN-SUFFIX,16m.cc
 DOMAIN-SUFFIX,17.huanqiu.com
 DOMAIN-SUFFIX,17282.org
 DOMAIN-SUFFIX,177o.com
+DOMAIN-SUFFIX,17ryi4j3qb.com
 DOMAIN-SUFFIX,18532.org
 DOMAIN-SUFFIX,192168.luyouwang.com
 DOMAIN-SUFFIX,1990tu.com
@@ -473,6 +475,7 @@ DOMAIN-SUFFIX,8feichai.com
 DOMAIN-SUFFIX,8ff0.cn
 DOMAIN-SUFFIX,8fo.icu
 DOMAIN-SUFFIX,8jkx.com
+DOMAIN-SUFFIX,8k9ynfczfd.com
 DOMAIN-SUFFIX,8le8le.com
 DOMAIN-SUFFIX,8lz3swf01q.com
 DOMAIN-SUFFIX,8radc6a0m2.com
@@ -527,6 +530,7 @@ DOMAIN-SUFFIX,9fum.ifeng.com
 DOMAIN-SUFFIX,9gau3j8x7.com
 DOMAIN-SUFFIX,9h3s1ew2qn.com
 DOMAIN-SUFFIX,9hyf6wsiv5.com
+DOMAIN-SUFFIX,9j9gc694o4.com
 DOMAIN-SUFFIX,9kh5b.cn
 DOMAIN-SUFFIX,9l4i9edu.top
 DOMAIN-SUFFIX,9l9ck7mdd2.com
@@ -1096,6 +1100,7 @@ DOMAIN-SUFFIX,awywlb89y.com
 DOMAIN-SUFFIX,ax.ifeng.com
 DOMAIN-SUFFIX,aybikaemg.com
 DOMAIN-SUFFIX,ayodanuauw.com
+DOMAIN-SUFFIX,ayqwjhh4cn.com
 DOMAIN-SUFFIX,azaleada1.top
 DOMAIN-SUFFIX,b.kouke5.com
 DOMAIN-SUFFIX,b.unjs.com
@@ -1608,6 +1613,7 @@ DOMAIN-SUFFIX,cpro.baidustatic.com
 DOMAIN-SUFFIX,cpro.bdrmb.cn
 DOMAIN-SUFFIX,cpro.xixiliya.cn
 DOMAIN-SUFFIX,cpro.zol.com.cn
+DOMAIN-SUFFIX,cq2f5kn85c.top
 DOMAIN-SUFFIX,cqudya.icu
 DOMAIN-SUFFIX,craegvin.com
 DOMAIN-SUFFIX,craivrals.com
@@ -1937,6 +1943,7 @@ DOMAIN-SUFFIX,dwjlxiuio.com
 DOMAIN-SUFFIX,dwyeeunm.com
 DOMAIN-SUFFIX,dwyeuy.com
 DOMAIN-SUFFIX,dxdxfl.icu
+DOMAIN-SUFFIX,dxix.cn
 DOMAIN-SUFFIX,dxp.baidu.com
 DOMAIN-SUFFIX,dxuxtb.com
 DOMAIN-SUFFIX,dxvfdv.icu
@@ -2221,6 +2228,7 @@ DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,fmfrht.icu
 DOMAIN-SUFFIX,fmjo.cn
 DOMAIN-SUFFIX,fmlmbf.top
+DOMAIN-SUFFIX,fmnoaqebhe.com
 DOMAIN-SUFFIX,fngmeat.top
 DOMAIN-SUFFIX,fnoc.cn
 DOMAIN-SUFFIX,fnya.cn
@@ -2298,6 +2306,7 @@ DOMAIN-SUFFIX,g2.ganjing.world
 DOMAIN-SUFFIX,g4yk4cyyw.com
 DOMAIN-SUFFIX,g8hi6r3odr.com
 DOMAIN-SUFFIX,g8ygkqhm9p.com
+DOMAIN-SUFFIX,g9cvic3khh.com
 DOMAIN-SUFFIX,ga1.3dmgame.com
 DOMAIN-SUFFIX,gai1359.xyz
 DOMAIN-SUFFIX,game.loveota.com
@@ -2354,6 +2363,8 @@ DOMAIN-SUFFIX,ggai12180cp.com
 DOMAIN-SUFFIX,ggai12181cp.com
 DOMAIN-SUFFIX,ggai12190cp.com
 DOMAIN-SUFFIX,ggai12191cp.com
+DOMAIN-SUFFIX,ggai12200cp.com
+DOMAIN-SUFFIX,ggai12201cp.com
 DOMAIN-SUFFIX,ggcode.2345.com
 DOMAIN-SUFFIX,ggdm1.nhaidu.net
 DOMAIN-SUFFIX,ggjs.d17.cc
@@ -2616,6 +2627,7 @@ DOMAIN-SUFFIX,hiad.myweb.hinet.net
 DOMAIN-SUFFIX,hiad.vmall.com
 DOMAIN-SUFFIX,hiaphrilloig.com
 DOMAIN-SUFFIX,hidzrf.icu
+DOMAIN-SUFFIX,highwayfk.com
 DOMAIN-SUFFIX,hingidnaa.com
 DOMAIN-SUFFIX,hitalsli.com
 DOMAIN-SUFFIX,hjdjfl.icu
@@ -2928,6 +2940,7 @@ DOMAIN-SUFFIX,ixtu.cn
 DOMAIN-SUFFIX,ixug0amgtn.com
 DOMAIN-SUFFIX,iy.com.cn
 DOMAIN-SUFFIX,iyfbodn.com
+DOMAIN-SUFFIX,iyhaatedew.com
 DOMAIN-SUFFIX,iyof.cn
 DOMAIN-SUFFIX,iyqbsst.top
 DOMAIN-SUFFIX,iyuedu.cn.com
@@ -3228,6 +3241,7 @@ DOMAIN-SUFFIX,kvbh.cn
 DOMAIN-SUFFIX,kvdxvqw.xyz
 DOMAIN-SUFFIX,kvhee.com
 DOMAIN-SUFFIX,kvqp.cn
+DOMAIN-SUFFIX,kvzscvzk0t.com
 DOMAIN-SUFFIX,kw17vswzu.com
 DOMAIN-SUFFIX,kwcnmtd.top
 DOMAIN-SUFFIX,kwhcgsqn2f.com
@@ -4458,6 +4472,7 @@ DOMAIN-SUFFIX,qxeymg.icu
 DOMAIN-SUFFIX,qxn9qlvmca.com
 DOMAIN-SUFFIX,qxwoiv.com
 DOMAIN-SUFFIX,qyel.cn
+DOMAIN-SUFFIX,qykezpy.xyz
 DOMAIN-SUFFIX,qyplvnzcm1.com
 DOMAIN-SUFFIX,qywbslk.top
 DOMAIN-SUFFIX,qzq1hq3mt.com
@@ -4672,6 +4687,7 @@ DOMAIN-SUFFIX,samsung-com.112.2o7.net
 DOMAIN-SUFFIX,samsungads.com
 DOMAIN-SUFFIX,sanme2.taisantech.com
 DOMAIN-SUFFIX,saptuqse29.com
+DOMAIN-SUFFIX,sausage34.com
 DOMAIN-SUFFIX,saxysec.com
 DOMAIN-SUFFIX,sbbd1.qulishi.com
 DOMAIN-SUFFIX,sbkpsa.icu
@@ -6039,6 +6055,8 @@ DOMAIN-SUFFIX,ycglik.icu
 DOMAIN-SUFFIX,ych.asia
 DOMAIN-SUFFIX,ychahlollfb.com
 DOMAIN-SUFFIX,ycikokryl.com
+DOMAIN-SUFFIX,yczl5qg8jr.com
+DOMAIN-SUFFIX,ydeyivh.xyz
 DOMAIN-SUFFIX,ydhilninhp.com
 DOMAIN-SUFFIX,ydxdg.xyz
 DOMAIN-SUFFIX,yeandriethzm.com
@@ -6319,6 +6337,7 @@ DOMAIN-SUFFIX,zsy10221yok.com
 DOMAIN-SUFFIX,zsy10230yok.com
 DOMAIN-SUFFIX,zsy10231yok.com
 DOMAIN-SUFFIX,zsy10240yok.com
+DOMAIN-SUFFIX,zsz8xljo8y.top
 DOMAIN-SUFFIX,zt2088.com
 DOMAIN-SUFFIX,ztdbfz.top
 DOMAIN-SUFFIX,ztgha.xyz
