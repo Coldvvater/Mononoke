@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4242
+# 规则统计: 4244
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -2173,6 +2173,7 @@ DOMAIN,quriobot.com
 DOMAIN,r.bing.com
 DOMAIN,r.r10s.jp
 DOMAIN,r2.1hanime.com
+DOMAIN,r2.dejavu.moe
 DOMAIN,r2.gear4music.com
 DOMAIN,r2.leadsy.ai
 DOMAIN,r2cdn.corespeed.io
@@ -2637,6 +2638,7 @@ DOMAIN,static.opensuse.org
 DOMAIN,static.oracle.com
 DOMAIN,static.parallels.com
 DOMAIN,static.peatio.com
+DOMAIN,static.pepy.tech
 DOMAIN,static.pfrt.yna.co.kr
 DOMAIN,static.pingcap.com
 DOMAIN,static.planetminecraft.com
