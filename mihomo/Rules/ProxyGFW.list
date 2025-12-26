@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7575
+# 规则统计: 7576
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -5281,6 +5281,7 @@ DOMAIN-SUFFIX,redtube.com
 DOMAIN-SUFFIX,redtubepremium.com
 DOMAIN-SUFFIX,referer.us
 DOMAIN-SUFFIX,reflectivecode.com
+DOMAIN-SUFFIX,regex101.com
 DOMAIN-SUFFIX,registry.google
 DOMAIN-SUFFIX,reimu.net
 DOMAIN-SUFFIX,relaxbbs.com
