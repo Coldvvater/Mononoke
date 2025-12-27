@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1538
+# 规则统计: 1535
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -37,9 +37,6 @@ DOMAIN,s3-ap-northeast-1.amazonaws.com
 DOMAIN,s3-ap-southeast-2.amazonaws.com
 DOMAIN,search.yahoo.co.jp
 DOMAIN,sessions.bugsnag.com
-DOMAIN,sglong.wechat.com
-DOMAIN,sgminorshort.wechat.com
-DOMAIN,sgshort.wechat.com
 DOMAIN,store.ui.com.cn
 DOMAIN,tronlink-images.s3.us-east-2.amazonaws.com
 DOMAIN,vcards.metowolf.com

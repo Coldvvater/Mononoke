@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4248
+# 规则统计: 4251
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -718,6 +718,7 @@ DOMAIN,cdn.omnicalculator.com
 DOMAIN,cdn.one.store
 DOMAIN,cdn.onesignal.com
 DOMAIN,cdn.onetime.dog
+DOMAIN,cdn.onfastspring.com
 DOMAIN,cdn.onlyhentaistuff.com
 DOMAIN,cdn.openai.com
 DOMAIN,cdn.osxdaily.com
@@ -1482,6 +1483,7 @@ DOMAIN,image.thefly.com
 DOMAIN,image.tmdb.org
 DOMAIN,image.vuukle.com
 DOMAIN,image.westinyou.com
+DOMAIN,image.worthepenny.com
 DOMAIN,image.xmanhua.net
 DOMAIN,image.yuntu.com.tw
 DOMAIN,image.yymanhua.com
@@ -2235,6 +2237,7 @@ DOMAIN,s.abcnews.com
 DOMAIN,s.gishan.cc
 DOMAIN,s.imgflip.com
 DOMAIN,s.imgur.com
+DOMAIN,s.linear.app
 DOMAIN,s.midishow.net
 DOMAIN,s.namemc.com
 DOMAIN,s.pacn.ws
@@ -3025,7 +3028,6 @@ DOMAIN,www.acgpix.de
 DOMAIN,www.bbthat.com
 DOMAIN,www.envoyproxy.io
 DOMAIN,www.gstatic.com
-DOMAIN,www.paypalobjects.com
 DOMAIN,www.pngmart.com
 DOMAIN,www.tbstat.com
 DOMAIN,www.typescriptlang.org
@@ -3782,6 +3784,7 @@ DOMAIN-SUFFIX,pastebin.com
 DOMAIN-SUFFIX,patientpop.com
 DOMAIN-SUFFIX,patreonusercontent.com
 DOMAIN-SUFFIX,payloadcms.app
+DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,pcdn.co
 DOMAIN-SUFFIX,permaweb.eu.org
 DOMAIN-SUFFIX,permaweb.io
