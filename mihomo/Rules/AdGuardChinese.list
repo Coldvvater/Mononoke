@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 6478
+# 规则统计: 6492
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -948,6 +948,8 @@ DOMAIN-SUFFIX,ainb12250zh.com
 DOMAIN-SUFFIX,ainb12251zh.com
 DOMAIN-SUFFIX,ainb12260zh.com
 DOMAIN-SUFFIX,ainb12261zh.com
+DOMAIN-SUFFIX,ainb12270zh.com
+DOMAIN-SUFFIX,ainb12271zh.com
 DOMAIN-SUFFIX,airakgyl.com
 DOMAIN-SUFFIX,airline49.top
 DOMAIN-SUFFIX,airport89.com
@@ -1457,6 +1459,7 @@ DOMAIN-SUFFIX,c21x8nmdak.com
 DOMAIN-SUFFIX,c3q6l5oeq.com
 DOMAIN-SUFFIX,c6.friok.com
 DOMAIN-SUFFIX,c64ihqx0gj.com
+DOMAIN-SUFFIX,c6hhfkvxv.com
 DOMAIN-SUFFIX,c7o9xp4e4.com
 DOMAIN-SUFFIX,c81.ipanocloud.com
 DOMAIN-SUFFIX,ca.yangshengtv.com
@@ -1478,6 +1481,7 @@ DOMAIN-SUFFIX,car.qcmrjx.com
 DOMAIN-SUFFIX,careless05.com
 DOMAIN-SUFFIX,carlinaframh.com
 DOMAIN-SUFFIX,carnations9.com
+DOMAIN-SUFFIX,casserole59.top
 DOMAIN-SUFFIX,catalog.fjwhcbsh.com
 DOMAIN-SUFFIX,catherineagnesmj.com
 DOMAIN-SUFFIX,cautious60.com
@@ -2302,6 +2306,7 @@ DOMAIN-SUFFIX,free-cdn.oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,frhopo.cn
 DOMAIN-SUFFIX,frontend-perf-service.e.kuaishou.com
 DOMAIN-SUFFIX,frthpp.icu
+DOMAIN-SUFFIX,frzlftr9y.com
 DOMAIN-SUFFIX,fsjfnp.top
 DOMAIN-SUFFIX,fsmnmorgb.com
 DOMAIN-SUFFIX,fsnazsmk.icu
@@ -2871,6 +2876,7 @@ DOMAIN-SUFFIX,iiwk.cn
 DOMAIN-SUFFIX,iiyurraeoh.com
 DOMAIN-SUFFIX,ijxi.cn
 DOMAIN-SUFFIX,ijyj.cn
+DOMAIN-SUFFIX,iklparx8i.com
 DOMAIN-SUFFIX,ikronzealu.com
 DOMAIN-SUFFIX,ikuailian.com
 DOMAIN-SUFFIX,ilcq.cn
@@ -4277,6 +4283,7 @@ DOMAIN-SUFFIX,phfuhedbph.com
 DOMAIN-SUFFIX,phinathuu.com
 DOMAIN-SUFFIX,phodhithp.com
 DOMAIN-SUFFIX,phorralut.com
+DOMAIN-SUFFIX,phosphate50.com
 DOMAIN-SUFFIX,phozatoi.com
 DOMAIN-SUFFIX,phozeksr.com
 DOMAIN-SUFFIX,phpad.cqnews.net
@@ -4996,6 +5003,7 @@ DOMAIN-SUFFIX,stroveiks.com
 DOMAIN-SUFFIX,stsgus.icu
 DOMAIN-SUFFIX,stubborn80.top
 DOMAIN-SUFFIX,stun.hitv.com
+DOMAIN-SUFFIX,su0k43kcy.com
 DOMAIN-SUFFIX,sub.powerapple.com
 DOMAIN-SUFFIX,success.ctobsnssdk.com
 DOMAIN-SUFFIX,sucnwtb.top
@@ -5249,6 +5257,7 @@ DOMAIN-SUFFIX,treimphens.com
 DOMAIN-SUFFIX,trellq.com
 DOMAIN-SUFFIX,trenhdg.com
 DOMAIN-SUFFIX,treqonwyp.com
+DOMAIN-SUFFIX,trerqekuw.com
 DOMAIN-SUFFIX,tridroin.com
 DOMAIN-SUFFIX,trigminp.com
 DOMAIN-SUFFIX,tristaspd.com
@@ -5321,9 +5330,11 @@ DOMAIN-SUFFIX,txd8s0oif.com
 DOMAIN-SUFFIX,txhywh.cn
 DOMAIN-SUFFIX,txnczz.icu
 DOMAIN-SUFFIX,txre.cn
+DOMAIN-SUFFIX,txru.cn
 DOMAIN-SUFFIX,txvq.cn
 DOMAIN-SUFFIX,typhooned.com
 DOMAIN-SUFFIX,tytx.m.cn.miaozhen.com
+DOMAIN-SUFFIX,tyvybl.icu
 DOMAIN-SUFFIX,tz.sec.xiaomi.com
 DOMAIN-SUFFIX,tzethaungot.com
 DOMAIN-SUFFIX,tztmqvga.icu
@@ -6310,6 +6321,7 @@ DOMAIN-SUFFIX,z1.cwbaike.com
 DOMAIN-SUFFIX,z1.o8h7d.cn
 DOMAIN-SUFFIX,z1.pclady.com.cn
 DOMAIN-SUFFIX,z1hihu.xmcimg.com
+DOMAIN-SUFFIX,z4tnhm97b.com
 DOMAIN-SUFFIX,z4v.icu
 DOMAIN-SUFFIX,z60ft9y8lj.com
 DOMAIN-SUFFIX,z8t.icu
@@ -6394,6 +6406,7 @@ DOMAIN-SUFFIX,ziqi462ni.com
 DOMAIN-SUFFIX,ziqniduy.com
 DOMAIN-SUFFIX,zisu.cn.com
 DOMAIN-SUFFIX,ziweuu.com
+DOMAIN-SUFFIX,zj7coeb5i.com
 DOMAIN-SUFFIX,zj9puq8ycu.com
 DOMAIN-SUFFIX,zjen.cn
 DOMAIN-SUFFIX,zjgfq.com
@@ -6410,6 +6423,7 @@ DOMAIN-SUFFIX,zlgame.top
 DOMAIN-SUFFIX,zlgenuyiu.com
 DOMAIN-SUFFIX,zlongad.com
 DOMAIN-SUFFIX,zlzgfj.icu
+DOMAIN-SUFFIX,zmdttx.icu
 DOMAIN-SUFFIX,zmkp6jvq4.com
 DOMAIN-SUFFIX,zmpgln.icu
 DOMAIN-SUFFIX,zmrkxz.icu
