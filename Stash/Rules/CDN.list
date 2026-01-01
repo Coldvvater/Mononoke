@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4252
+# 规则统计: 4253
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -268,6 +268,7 @@ DOMAIN,assets.tokopedia.net
 DOMAIN,assets.toot.cafe
 DOMAIN,assets.tvtropes.org
 DOMAIN,assets.twitch.tv
+DOMAIN,assets.unicorn.studio
 DOMAIN,assets.unifi-ai.com
 DOMAIN,assets.upload.io
 DOMAIN,assets.vantage.sh

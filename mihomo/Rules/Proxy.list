@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1533
+# 规则统计: 1536
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -297,6 +297,7 @@ DOMAIN-SUFFIX,cloudflarestatus.com
 DOMAIN-SUFFIX,cloudflarestorage.com
 DOMAIN-SUFFIX,cloudflarestream.com
 DOMAIN-SUFFIX,cloudflaretest.com
+DOMAIN-SUFFIX,cloudflaretunnel.com
 DOMAIN-SUFFIX,cloudflarewarp.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cloudfunctions.net
@@ -583,6 +584,7 @@ DOMAIN-SUFFIX,googl.com
 DOMAIN-SUFFIX,gooogle.com
 DOMAIN-SUFFIX,gov
 DOMAIN-SUFFIX,gqhongkong.com
+DOMAIN-SUFFIX,grafana.com
 DOMAIN-SUFFIX,grammarly.com
 DOMAIN-SUFFIX,grammarly.io
 DOMAIN-SUFFIX,graphql.org
@@ -1227,6 +1229,7 @@ DOMAIN-SUFFIX,strava.com
 DOMAIN-SUFFIX,streamable.com
 DOMAIN-SUFFIX,stripchat.com
 DOMAIN-SUFFIX,strongleakstest.com
+DOMAIN-SUFFIX,studio
 DOMAIN-SUFFIX,su
 DOMAIN-SUFFIX,substack.com
 DOMAIN-SUFFIX,superuser.com
