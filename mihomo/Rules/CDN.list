@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4262
+# 规则统计: 4271
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -115,6 +115,7 @@ DOMAIN,assets-next.matters.news
 DOMAIN,assets-next.mattersprotocol.io
 DOMAIN,assets-s3-us-east-1.ceros.com
 DOMAIN,assets-themes.chess.com
+DOMAIN,assets-v2.i-scmp.com
 DOMAIN,assets-v2.super.so
 DOMAIN,assets-www.readspeaker.com
 DOMAIN,assets-www.xbox.com
@@ -221,6 +222,7 @@ DOMAIN,assets.newrepublic.com
 DOMAIN,assets.nflxext.com
 DOMAIN,assets.nintendo.com
 DOMAIN,assets.nxtrace.org
+DOMAIN,assets.nypost.com
 DOMAIN,assets.onestore.ms
 DOMAIN,assets.ontrack.com
 DOMAIN,assets.openalternative.co
@@ -507,6 +509,7 @@ DOMAIN,cdn.bfldr.com
 DOMAIN,cdn.bigcloud.click
 DOMAIN,cdn.birdie.so
 DOMAIN,cdn.blogarama.com
+DOMAIN,cdn.boldmethod.com
 DOMAIN,cdn.botframework.com
 DOMAIN,cdn.branch.io
 DOMAIN,cdn.brandfetch.io
@@ -636,6 +639,7 @@ DOMAIN,cdn.hinative.com
 DOMAIN,cdn.hk01.com
 DOMAIN,cdn.hongkongcard.com
 DOMAIN,cdn.hypershort.com
+DOMAIN,cdn.i-scmp.com
 DOMAIN,cdn.icomoon.io
 DOMAIN,cdn.icon-icons.com
 DOMAIN,cdn.iconfinder.com
@@ -952,6 +956,7 @@ DOMAIN,cdn3.tubeteen18.com
 DOMAIN,cdn3.unrealengine.com
 DOMAIN,cdn4.bigcommerce.com
 DOMAIN,cdn4.edgedatg.com
+DOMAIN,cdn4.focus.bg
 DOMAIN,cdn4.iconfinder.com
 DOMAIN,cdn4.sysgears.com
 DOMAIN,cdn4.telegram.space
@@ -1522,6 +1527,7 @@ DOMAIN,images.drata.com
 DOMAIN,images.ecomm.microsoft.com
 DOMAIN,images.emojiterra.com
 DOMAIN,images.en.aptoide.com
+DOMAIN,images.euronews.com
 DOMAIN,images.everyplate.com
 DOMAIN,images.fandango.com
 DOMAIN,images.filepuma.com
@@ -1902,6 +1908,7 @@ DOMAIN,media.geeksforgeeks.org
 DOMAIN,media.gettr.com
 DOMAIN,media.gettyimages.com
 DOMAIN,media.giphy.com
+DOMAIN,media.glassdoor.com
 DOMAIN,media.graphassets.com
 DOMAIN,media.hachyderm.io
 DOMAIN,media.hentaifreak.org
@@ -2782,6 +2789,7 @@ DOMAIN,sts.online.visualstudio.com
 DOMAIN,sts3.wsj.net
 DOMAIN,stubdownloader.services.mozilla.com
 DOMAIN,styleguide-assets.shannons.com.au
+DOMAIN,subscriptions.news.com.au
 DOMAIN,support.content.office.net
 DOMAIN,swan.prod.merch.vpsvc.com
 DOMAIN,sync.getpublica.com
@@ -4034,6 +4042,7 @@ DOMAIN-SUFFIX,tedcdn.com
 DOMAIN-SUFFIX,telemetry.services.yofi.ai
 DOMAIN-SUFFIX,teo-rum.com
 DOMAIN-SUFFIX,teraboxcdn.com
+DOMAIN-SUFFIX,thecontentserver.com
 DOMAIN-SUFFIX,thesourcemediaassets.com
 DOMAIN-SUFFIX,thirdwebcdn.com
 DOMAIN-SUFFIX,thisiscdn.com
