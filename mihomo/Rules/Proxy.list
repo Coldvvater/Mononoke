@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1536
+# 规则统计: 1537
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -1359,6 +1359,7 @@ DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,v2fly.org
 DOMAIN-SUFFIX,v2ray.com
 DOMAIN-SUFFIX,va
+DOMAIN-SUFFIX,vanityfair.com
 DOMAIN-SUFFIX,venturebeat.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,vercel.com

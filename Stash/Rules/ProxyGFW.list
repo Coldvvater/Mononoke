@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7583
+# 规则统计: 7584
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -6726,6 +6726,7 @@ DOMAIN-SUFFIX,van001.com
 DOMAIN-SUFFIX,van698.com
 DOMAIN-SUFFIX,vanemu.cn
 DOMAIN-SUFFIX,vanilla-jp.com
+DOMAIN-SUFFIX,vanityfair.com
 DOMAIN-SUFFIX,vanpeople.com
 DOMAIN-SUFFIX,vansky.com
 DOMAIN-SUFFIX,vaticannews.va
