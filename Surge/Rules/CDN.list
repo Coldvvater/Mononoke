@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4272
+# 规则统计: 4274
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1089,6 +1089,7 @@ DOMAIN,consentdeliveryfd.azurefd.net
 DOMAIN,consumersite-assets.trustpilot.net
 DOMAIN,consumersiteimages.trustpilot.net
 DOMAIN,content-a.strava.com
+DOMAIN,content-cdn.svc.ui.com
 DOMAIN,content-management-files.canva.com
 DOMAIN,content-prod-live.cert.starbucks.com
 DOMAIN,content.any.run
@@ -2534,6 +2535,7 @@ DOMAIN,static.coingecko.com
 DOMAIN,static.comicbz.com
 DOMAIN,static.community.workday.com
 DOMAIN,static.convertio.co
+DOMAIN,static.corespeed.io
 DOMAIN,static.corp.google.com
 DOMAIN,static.crunchyroll.com
 DOMAIN,static.crypto.com
@@ -2994,7 +2996,7 @@ DOMAIN,webfonts.zoho.com
 DOMAIN,webobjects2.cdw.com
 DOMAIN,webp.frostming.com
 DOMAIN,website-cdn.ipinfo.io
-DOMAIN,website-media
+DOMAIN,website-media.deel.com
 DOMAIN,website-prod.cache.wpscdn.com
 DOMAIN,webstatic.chargebee.com
 DOMAIN,widget.automizely.com
