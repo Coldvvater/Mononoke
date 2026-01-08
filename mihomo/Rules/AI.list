@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 48
+# 规则统计: 49
 
 DOMAIN,ai.google.dev
 DOMAIN,aida.googleapis.com
@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,dify.ai
+DOMAIN-SUFFIX,g.ai
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com
