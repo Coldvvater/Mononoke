@@ -293,12 +293,16 @@ jobs:
       run: |
         for file in Mononoke-repo/Stash/Rules/*.list; do
           if [ -f "$file" ]; then
+            sed -i -e '/^USER-AGENT/d' "$file"
             sed -i -e '/^URL-REGEX/d' "$file"
+            sed -i -e '/^AND/d' "$file"
+            sed -i -e '/^OR/d' "$file"
+            sed -i -e '/^NOT/d' "$file"
             file_names=$(basename "$file" .list)
             line_count=$(wc -l < "$file")
             awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
             awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            sed -i -E '/^(URL-REGEX),/ s/^/#/' "$file"
+            sed -i -E '/^(OR|AND|NOT|USER-AGENT|URL-REGEX),/ s/^/#/' "$file"
             sed -i '2a\\' "$file"
           else
             echo "$file not found."
