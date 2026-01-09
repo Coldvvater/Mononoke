@@ -1,5 +1,5 @@
 # 规则名称: WeChat
-# 规则统计: 33
+# 规则统计: 31
 
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,btrace.qq.com
@@ -32,5 +32,3 @@ DOMAIN-SUFFIX,wxapp.tc.qq.com
 DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN-SUFFIX,yun-hl.3g.qq.com
 IP-ASN,132203,no-resolve
-USER-AGENT,MicroMessenger*
-USER-AGENT,WeChat*

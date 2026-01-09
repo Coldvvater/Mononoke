@@ -1,5 +1,5 @@
 # 规则名称: AppleMusic
-# 规则统计: 11
+# 规则统计: 10
 
 DOMAIN,aod-ssl.itunes.apple.com
 DOMAIN,aod.itunes.apple.com
@@ -11,4 +11,3 @@ DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,blobstore.apple.com
 DOMAIN-SUFFIX,music.apple.com
 PROCESS-NAME,Music
-USER-AGENT,Music*

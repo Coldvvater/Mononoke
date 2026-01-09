@@ -1,5 +1,5 @@
 # 规则名称: PayPal
-# 规则统计: 248
+# 规则统计: 247
 
 DOMAIN-SUFFIX,account-paypal.info
 DOMAIN-SUFFIX,account-paypal.net
@@ -248,4 +248,3 @@ DOMAIN-SUFFIX,xoom.net.cn
 DOMAIN-SUFFIX,xoom.us
 DOMAIN-SUFFIX,xoomcom.com
 DOMAIN-KEYWORD,paypal
-USER-AGENT,PayPal*

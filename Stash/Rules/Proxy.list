@@ -850,6 +850,7 @@ DOMAIN-SUFFIX,minecraft.tools
 DOMAIN-SUFFIX,minecraft.wiki
 DOMAIN-SUFFIX,minecraftforum.net
 DOMAIN-SUFFIX,minecraftservices.com
+DOMAIN-SUFFIX,mingpao.com
 DOMAIN-SUFFIX,miniclip.com
 DOMAIN-SUFFIX,missav.com
 DOMAIN-SUFFIX,missav123.com
@@ -965,6 +966,7 @@ DOMAIN-SUFFIX,olelive.com
 DOMAIN-SUFFIX,olevod.com
 DOMAIN-SUFFIX,olympics.com
 DOMAIN-SUFFIX,omny.fm
+DOMAIN-SUFFIX,on.cc
 DOMAIN-SUFFIX,one
 DOMAIN-SUFFIX,one.com
 DOMAIN-SUFFIX,one.one.one
@@ -1538,5 +1540,3 @@ DOMAIN-KEYWORD,whatsapp
 IP-CIDR,18.206.50.220/32,no-resolve
 IP-CIDR,3.136.94.196/32,no-resolve
 IP-CIDR,44.205.88.94/32,no-resolve
-USER-AGENT,Roam*
-USER-AGENT,SpeedTest*
