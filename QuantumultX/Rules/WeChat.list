@@ -1,0 +1,36 @@
+# 规则名称: WeChat
+# 规则统计: 33
+
+HOST,apd-pcdnwxlogin.teg.tencent-cloud.net,WeChat
+HOST,btrace.qq.com,WeChat
+HOST,dldir1.qq.com,WeChat
+HOST,slife.xy-asia.com,WeChat
+HOST,soup.v.qq.com,WeChat
+HOST,vweixinf.tc.qq.com,WeChat
+HOST,weixin110.qq.com,WeChat
+HOST,wup.imtt.qq.com,WeChat
+HOST-SUFFIX,iot-tencent.com,WeChat
+HOST-SUFFIX,lbs.gtimg.com,WeChat
+HOST-SUFFIX,map.qq.com,WeChat
+HOST-SUFFIX,qlogo.cn,WeChat
+HOST-SUFFIX,qpic.cn,WeChat
+HOST-SUFFIX,servicewechat.com,WeChat
+HOST-SUFFIX,tenpay.com,WeChat
+HOST-SUFFIX,up-hl.3g.qq.com,WeChat
+HOST-SUFFIX,vweixinthumb.tc.qq.com,WeChat
+HOST-SUFFIX,wechat.com,WeChat
+HOST-SUFFIX,wechatlegal.net,WeChat
+HOST-SUFFIX,wechatos.net,WeChat
+HOST-SUFFIX,wechatpay.com,WeChat
+HOST-SUFFIX,weixin.com,WeChat
+HOST-SUFFIX,weixin.qq.com,WeChat
+HOST-SUFFIX,weixinbridge.com,WeChat
+HOST-SUFFIX,weixinsxy.com,WeChat
+HOST-SUFFIX,wx.gtimg.com,WeChat
+HOST-SUFFIX,wx.qq.com,WeChat
+HOST-SUFFIX,wxapp.tc.qq.com,WeChat
+HOST-SUFFIX,wxs.qq.com,WeChat
+HOST-SUFFIX,yun-hl.3g.qq.com,WeChat
+IP-ASN,132203,WeChat
+USER-AGENT,MicroMessenger*,WeChat
+USER-AGENT,WeChat*,WeChat
