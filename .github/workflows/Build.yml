@@ -1,0 +1,432 @@
+# =============================================================================
+# 规则集自动构建工作流
+# 每天 0:05 和 12:05 (UTC) 自动运行，从上游源下载规则并转换为多平台格式
+# 当 Surge/Custom/ 目录下的自定义规则文件有提交时，等待 3 分钟后自动触发构建
+# =============================================================================
+name: Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 0,12 * * *"
+  push:
+    paths:
+      - 'Surge/Custom/**'
+
+# 同一时间只允许一个构建运行，防止并发冲突
+concurrency:
+  group: build-rules
+  cancel-in-progress: false
+
+# 需要写权限用于推送变更，actions 权限用于清理历史运行记录
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+
+    steps:
+    # =========================================================================
+    # Step 1: 检出仓库
+    # =========================================================================
+    - name: Checkout Repository
+      uses: actions/checkout@v7.0.0
+      with:
+        repository: ${{ github.repository }}
+        path: Mononoke-repo
+
+
+    # =========================================================================
+    # Step 2: 3 分钟延迟（仅 push 触发时生效）
+    # 等待后续可能连续提交的 commit 合并，避免频繁触发构建
+    # =========================================================================
+    - name: Delay 3 Minutes (push trigger only)
+      if: github.event_name == 'push'
+      run: sleep 180
+
+
+    # =========================================================================
+    # Step 3: 下载上游规则源，合并/分类输出为 .list 文件
+    # =========================================================================
+    - name: Run Bash Script
+      run: |
+        set -euo pipefail
+
+        # 通用下载合并函数：将多个 URL 的内容按序拼接到一个文件
+        download_and_merge() {
+            local output="$1"
+            shift
+            : > "$output"
+            for url in "$@"; do
+                echo "Downloading: $url"
+                curl -f -L "$url" >> "$output" || { echo "Download Failed: $url"; exit 1; }
+                echo "" >> "$output"
+            done
+        }
+
+        repo_name=$(basename "$GITHUB_REPOSITORY")
+        if [[ "$repo_name" != "Mononoke" ]]; then
+            echo "Unknown repository. Please run this script in the Mononoke repository."
+            exit 1
+        fi
+
+        echo "Running in Mononoke repository"
+        mkdir -p Mononoke-repo/Ruleset
+
+        # ---- 合并类规则（多源聚合为一个文件） ----
+
+        # 广告拦截规则
+        download_and_merge Mononoke-repo/Ruleset/Reject.list \
+            "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list" \
+            "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list" \
+            "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list" \
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list" \
+            "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Reject.list"
+
+        # SukkaW 广告规则
+        download_and_merge Mononoke-repo/Ruleset/Ads_SukkaW.list \
+            "https://ruleset.skk.moe/List/domainset/reject.conf" \
+            "https://ruleset.skk.moe/List/non_ip/reject.conf"
+
+        # SukkaW CDN 规则
+        download_and_merge Mononoke-repo/Ruleset/CDN.list \
+            "https://ruleset.skk.moe/List/domainset/cdn.conf" \
+            "https://ruleset.skk.moe/List/non_ip/cdn.conf"
+
+        # 直连规则
+        download_and_merge Mononoke-repo/Ruleset/Direct.list \
+            "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Direct.list"
+
+        # GFW 代理规则
+        download_and_merge Mononoke-repo/Ruleset/ProxyGFW.list \
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list" \
+            "https://ruleset.skk.moe/List/non_ip/global.conf"
+
+        # AI 规则（SukkaW + 自定义）
+        download_and_merge Mononoke-repo/Ruleset/AI.list \
+            "https://ruleset.skk.moe/List/non_ip/ai.conf" \
+            "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/xAI.list" \
+            "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/AI.list"
+
+        # Apple 代理规则
+        download_and_merge Mononoke-repo/Ruleset/AppleProxy.list \
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+
+        # Apple 国内规则
+        download_and_merge Mononoke-repo/Ruleset/AppleCN.list \
+            "https://ruleset.skk.moe/List/non_ip/apple_cn.conf" \
+            "https://ruleset.skk.moe/List/domainset/apple_cdn.conf"
+
+        # 代理规则
+        download_and_merge Mononoke-repo/Ruleset/Proxy.list \
+            "https://ruleset.skk.moe/List/non_ip/global.conf" \
+            "https://raw.githubusercontent.com/Repcz/Tool/refs/heads/X/Surge/Custom/Proxy.list"
+
+        # ---- 单源下载规则（一个 URL 对应一个文件） ----
+        files=(
+            # 苹果
+            "APNs.list|https://kelee.one/Tool/Loon/Lsr/ApplePushNotificationService.lsr"
+            "Apple.list|https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+            "AppleMusic.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
+            "AppStore.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppStore/AppStore.list"
+            "AppleID.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
+            "iCloud.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+            "TestFlight.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+            "AppleServers.list|https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+            # AI
+            "OpenAI.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
+            "Claude.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+            "xAI.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/xAI.list"
+            # 社交媒体
+            "Twitter.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+            "Instagram.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+            "Facebook.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+            # 谷歌
+            "YouTube.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+            "Google.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+            # 微软 / 开源
+            "Github.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+            "OneDrive.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+            "Microsoft.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+            # 甲骨文
+            "Oracle.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
+            # 流媒体
+            "TikTok.list|https://kelee.one/Tool/Loon/Lsr/TikTok.lsr"
+            "Netflix.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
+            "HBO.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+            "Disney.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+            "Spotify.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+            "PrimeVideo.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+            "FitnessPlus.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+            "AppleMedia.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+            "Bahamut.list|https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+            "ProxyMedia.list|https://ruleset.skk.moe/List/non_ip/stream.conf"
+            "BiliBiliIntl.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBiliIntl/BiliBiliIntl.list"
+            # PayPal
+            "PayPal.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+            # Cloudflare
+            "Cloudflare.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+            # 游戏
+            "Steam.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+            "Epic.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+            "Game.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list"
+            "Xbox.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Xbox/Xbox.list"
+            # 下载CDN
+            "DownloadCDN_Global.list|https://kelee.one/Tool/Loon/Lsr/InternationalDownloadCDN.lsr"
+            "DownloadCDN_CN.list|https://kelee.one/Tool/Loon/Lsr/ChinaDownloadCDN.lsr"
+            # 国内规则
+            "NetEaseMusic.list|https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list"
+            "bilibili.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+            "WeChat.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/WeChat/WeChat.list"
+            "ChinaASN.list|https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+            "ChinaDomain.list|https://ruleset.skk.moe/List/non_ip/domestic.conf"
+            "ChinaIP.list|https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt"
+            # 广告规则
+            "Ads_limbopro.list|https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
+            "Ads_EasyListChina.list|https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+            "Ads_EasyListPrivacy.list|https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+            "Ads_Dlerio.list|https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/AdBlock.list"
+            "Ads_AWAvenue.list|https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge.list"
+            "AdGuardChinese.list|https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+            # 自定义规则
+            "Crypto.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Crypto.list"
+            "Emby.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Emby.list"
+            "Lan.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Lan.list"
+            "Porn.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Porn.list"
+            "Prevent_DNS_Leaks.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Prevent_DNS_Leaks.list"
+            "Talkatone.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Talkatone.list"
+            "Telegram_NoIP.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Telegram_NoIP.list"
+            "Telegram.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Telegram.list"
+            "TronLink.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/TronLink.list"
+            "Trust.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Trust.list"
+            "Ads_DiDiChuXing.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Ads_DiDiChuXing.list"
+            "FILTER_REGION.list|https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/FILTER_REGION.list"
+        )
+        for entry in "${files[@]}"; do
+            IFS='|' read -r filename url <<< "$entry"
+            echo "Downloading: $url"
+            if curl -f -L -o "Mononoke-repo/Ruleset/$filename" "$url"; then
+                echo "Downloaded: $filename"
+            elif [[ "$url" == *"kelee.one"* ]] && [ -f "Mononoke-repo/Loon/Rules/$filename" ]; then
+                # kelee.one 下载失败时降级使用上次构建的文件
+                echo "Download failed, falling back to existing file: $filename"
+                cp "Mononoke-repo/Loon/Rules/$filename" "Mononoke-repo/Ruleset/$filename"
+            else
+                echo "Download Failed: $url"
+                exit 1
+            fi
+        done
+        echo "Files downloaded successfully."
+
+    # =========================================================================
+    # Step 4: 源文件格式标准化（统一为 DOMAIN,xxx 格式）
+    # =========================================================================
+    - name: Source build
+      run: |
+        set -euo pipefail
+        for file in Mononoke-repo/Ruleset/*.list ; do
+          if [ -f "$file" ]; then
+            # 将以"."开头的行（裸域名）转换为 DOMAIN-SUFFIX 格式
+            sed -i '/^\./s/^\./DOMAIN-SUFFIX,/' "$file"
+            # 将未被识别为已知规则类型的行自动添加 DOMAIN, 前缀
+            sed -i -E '/^\s*$/b; /^\s*[#;]/b; /^DOMAIN,|^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,|^DOMAIN-WILDCARD,|^IP-CIDR,|^IP-CIDR6,|^IP-ASN,|^GEOIP,|^AND,|^OR,|^NOT,|^URL-REGEX,|^USER-AGENT,|^PROCESS-NAME,|^DEST-PORT,/b; s/^([^#])/DOMAIN,\1/' "$file"
+            # 删除注释行（#或;开头）、空行、行内注释（// 及之后内容）
+            sed -i -e '/^\s*[#;]/d' -e '/^$/d' -e 's| //.*||'  "$file"
+            # 删除 SukkaW 规则的标记域名（匹配含 leet speak 在内的所有变体）
+            sed -i -E '/DOMAIN,.*ruleset\.skk\.moe/d' "$file"
+            # 移除行尾的 reject 标记
+            sed -i -e 's/,reject$//' "$file"
+            # 删除误拦截的 12306 域名
+            sed -i -e '/DOMAIN,ad.12306.cn/d' "$file"
+            # 修正逗号后多余空格
+            sed -i 's/, */,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    # =========================================================================
+    # Step 5: 排序与去重
+    # =========================================================================
+    - name: Source sort
+      run: |
+        set -euo pipefail
+        for file in Mononoke-repo/Ruleset/*.list ; do
+          if [ -f "$file" ]; then
+            # 自动识别纯 IP 地址并添加 IP-CIDR, 前缀
+            sed -i -E '/^IP-CIDR,/!{/^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/[0-9]+/s/^/IP-CIDR,/}' "$file"
+            # 自动识别纯 IPv6 地址并添加 IP-CIDR6, 前缀
+            sed -i -E '/^IP-CIDR6,/!{/^[a-fA-F0-9]+:|([a-fA-F0-9]+:+)+[a-fA-F0-9]+\/[0-9]+/s/^/IP-CIDR6,/}' "$file"
+            # 按规则类型分组排序，保持同类规则在一起，组内按域名/IP 字母序排列
+            awk '
+            /^DOMAIN,/         { print "0 " $0; next }
+            /^DOMAIN-SUFFIX,/  { print "1 " $0; next }
+            /^DOMAIN-KEYWORD,/ { print "2 " $0; next }
+            /^DOMAIN-WILDCARD,/{ print "3 " $0; next }
+            /^IP-CIDR,/        { print "4 " $0; next }
+            /^IP-CIDR6,/       { print "5 " $0; next }
+            /^IP-ASN,/         { print "6 " $0; next }
+            /^PROCESS-NAME,/   { print "7 " $0; next }
+            /^URL-REGEX,/      { print "8 " $0; next }
+            /^USER-AGENT,/     { print "9 " $0; next }
+            /^GEOIP,/          { print "10 " $0; next }
+            /^AND,/            { print "11 " $0; next }
+            /^OR,/             { print "12 " $0; next }
+            /^NOT,/            { print "13 " $0; next }
+            /^DEST-PORT,/      { print "14 " $0; next }
+                               { print "15 " $0; next }
+            ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > "$file.sorted" && mv "$file.sorted" "$file"
+            # 大小写不敏感去重
+            awk '!seen[tolower($0)]++' "$file" > temp && mv temp "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    # =========================================================================
+    # Step 6: 将通用 .list 文件复制到各平台目录
+    # =========================================================================
+    - name: Copy files
+      run: |
+        set -euo pipefail
+        rm -rf Mononoke-repo/{Loon,Stash,Surge}/Rules
+        mkdir -p Mononoke-repo/{Loon,Stash,Surge,mihomo}/Rules
+        for file in Mononoke-repo/Ruleset/*.list; do
+          filename=$(basename "$file")
+          # 复制到大部分平台（保持 .list 后缀）
+          for dir in Loon Stash Surge mihomo; do
+            cp "$file" "Mononoke-repo/$dir/Rules/$filename"
+          done
+        done
+        echo "Files copied successfully."
+  
+    # =========================================================================
+    # Step 7: Loon 平台格式处理
+    # =========================================================================
+    - name: Loon
+      run: |
+        set -euo pipefail
+        for file in Mononoke-repo/Loon/Rules/*.list; do
+          if [ -f "$file" ]; then
+            # 删除 Loon 不支持的 PROCESS-NAME 规则
+            sed -i -e '/^PROCESS-NAME/d' "$file"
+            # 添加元数据注释头
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            tmpfile=$(mktemp)
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
+            tmpfile=$(mktemp)
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    # =========================================================================
+    # Step 8: Stash 平台格式处理
+    # =========================================================================
+    - name: Stash
+      run: |
+        set -euo pipefail
+        for file in Mononoke-repo/Stash/Rules/*.list; do
+          if [ -f "$file" ]; then
+            # 删除 Stash 不支持的规则类型
+            sed -i -e '/^USER-AGENT/d' "$file"
+            sed -i -e '/^URL-REGEX/d' "$file"
+            sed -i -e '/^AND/d' "$file"
+            sed -i -e '/^OR/d' "$file"
+            sed -i -e '/^NOT/d' "$file"
+            # 添加元数据注释头
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            tmpfile=$(mktemp)
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
+            tmpfile=$(mktemp)
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    # =========================================================================
+    # Step 9: Surge 平台格式处理
+    # =========================================================================
+    - name: Surge
+      run: |
+        set -euo pipefail
+        for file in Mononoke-repo/Surge/Rules/*.list; do
+          if [ -f "$file" ]; then
+            # Surge 原生支持所有规则类型，仅添加元数据注释头
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            tmpfile=$(mktemp)
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
+            tmpfile=$(mktemp)
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    # =========================================================================
+    # Step 10: mihomo 平台格式处理
+    # =========================================================================
+    - name: mihomo
+      run: |
+        set -euo pipefail
+        rm -rf Mononoke-repo/Ruleset
+        for file in Mononoke-repo/mihomo/Rules/*.list; do
+          if [ -f "$file" ]; then
+            # 删除 mihomo 不支持的规则类型：USER-AGENT、URL-REGEX
+            sed -i -e '/^USER-AGENT/d' "$file"
+            sed -i -e '/^URL-REGEX/d' "$file"
+            # DOMAIN-WILDCARD *.domain.com 转换为 DOMAIN-SUFFIX domain.com
+            sed -i -E 's/^DOMAIN-WILDCARD,\*\.(.+)/DOMAIN-SUFFIX,\1/' "$file"
+            # 删除无法转换的残留 DOMAIN-WILDCARD 行
+            sed -i '/^DOMAIN-WILDCARD,/d' "$file"
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            # 添加元数据注释头
+            tmpfile=$(mktemp)
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
+            tmpfile=$(mktemp)
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    # =========================================================================
+    # Step 11: 提交并推送变更
+    # =========================================================================
+    - name: Push Update
+      run: |
+        set -euo pipefail
+        cd Mononoke-repo
+          if [[ -n $(git status -s) ]]; then
+            git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+            git config --local user.name "${{ github.actor }}"
+            git add -A
+            TIMESTAMP="$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "update(rules): ${TIMESTAMP}"
+            git push origin "${{ github.ref_name }}"
+          else
+            echo "No changes to commit."
+          fi
+
+    # =========================================================================
+    # Step 12: 清理历史 Workflow 运行记录，仅保留最近 2 次
+    # =========================================================================
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2

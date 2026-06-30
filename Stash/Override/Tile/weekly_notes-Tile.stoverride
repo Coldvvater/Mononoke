@@ -1,0 +1,16 @@
+name: 每周循环信息展示 Tile 磁贴
+desc: 用于每周七天自定义显示特定信息
+author: Coldvvater
+homepage: "https://github.com/Coldvvater/Mononoke/tree/master/Clash/StashOverride/Tile"
+icon: "https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/note.png?raw=true"
+category: "Coldvvater"
+# 搭配boxjs使用：BoxJS订阅以下地址: https://raw.githubusercontent.com/smartmimi/conf/master/boxjs/cookie.boxjs.json, 添加"每周信息展示", 依次添加标题及每天需要展示的文字信息即可
+
+tiles:
+  - name: weekly_notes-Tile
+    interval: 3600
+
+script-providers:
+  weekly_notes-Tile:
+    url: https://raw.githubusercontent.com/smartmimi/conf/master/surge/weekly_notes.js
+    interval: 86400
