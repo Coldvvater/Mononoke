@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4620
+# 规则统计: 4625
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -263,6 +263,7 @@ DOMAIN,assets.raspberrypi.com
 DOMAIN,assets.redbullshop.com
 DOMAIN,assets.repair.org
 DOMAIN,assets.reviews.io
+DOMAIN,assets.ryanair.com
 DOMAIN,assets.safing.io
 DOMAIN,assets.salesmartly.com
 DOMAIN,assets.scaleflex.com
@@ -498,6 +499,7 @@ DOMAIN,cdn-msp.jmcomic-zzz.one
 DOMAIN,cdn-msp.jmcomic.me
 DOMAIN,cdn-node.diskpart.com
 DOMAIN,cdn-nsbus.ui.com
+DOMAIN,cdn-o.suno.com
 DOMAIN,cdn-public-apis.moonlock.com
 DOMAIN,cdn-public.sociabble.com
 DOMAIN,cdn-raw.modrinth.com
@@ -582,6 +584,7 @@ DOMAIN,cdn.c1.amplience.net
 DOMAIN,cdn.calibermind.com
 DOMAIN,cdn.cameo.com
 DOMAIN,cdn.camweara.com
+DOMAIN,cdn.candid.org
 DOMAIN,cdn.candu.ai
 DOMAIN,cdn.candy.ai
 DOMAIN,cdn.casestudies.svc.ui.com
@@ -761,6 +764,7 @@ DOMAIN,cdn.masto.host
 DOMAIN,cdn.mathjax.org
 DOMAIN,cdn.matterhorn.app
 DOMAIN,cdn.mcauto-images-production.sendgrid.net
+DOMAIN,cdn.mcp-use.com
 DOMAIN,cdn.mcr.ea.com
 DOMAIN,cdn.mer.run
 DOMAIN,cdn.mercury.com
@@ -4296,6 +4300,7 @@ DOMAIN-SUFFIX,sourceforge.io
 DOMAIN-SUFFIX,splunkcloud.com
 DOMAIN-SUFFIX,spreadshirtmedia.com
 DOMAIN-SUFFIX,sqspcdn.com
+DOMAIN-SUFFIX,squarecdn.com
 DOMAIN-SUFFIX,squarespace-cdn.com
 DOMAIN-SUFFIX,srcdn.com
 DOMAIN-SUFFIX,ss-cdn.com
