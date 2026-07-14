@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 6480
+# 规则统计: 6494
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,06cp8ypn8j.com
 DOMAIN-SUFFIX,06evyxnibl.com
 DOMAIN-SUFFIX,06hkgn0jl3.com
 DOMAIN-SUFFIX,0755rc.com
+DOMAIN-SUFFIX,078pwrxpbg.com
 DOMAIN-SUFFIX,07pv7k61z.com
 DOMAIN-SUFFIX,086123.xyz
 DOMAIN-SUFFIX,08pkgxft0u.com
@@ -409,6 +410,7 @@ DOMAIN-SUFFIX,4c0wa2ml2f.com
 DOMAIN-SUFFIX,4cxup4kp3c.com
 DOMAIN-SUFFIX,4d45i6p0g.com
 DOMAIN-SUFFIX,4d9f09z8c.com
+DOMAIN-SUFFIX,4e0jpheoi1.com
 DOMAIN-SUFFIX,4e9ynqm47d.com
 DOMAIN-SUFFIX,4f3tsea1m.com
 DOMAIN-SUFFIX,4f8g9foqwy.com
@@ -490,6 +492,7 @@ DOMAIN-SUFFIX,5cyi6tp6h.com
 DOMAIN-SUFFIX,5cyqzktkwh.com
 DOMAIN-SUFFIX,5dfiuae82.com
 DOMAIN-SUFFIX,5dycay3rr.com
+DOMAIN-SUFFIX,5e2hf0q3a.com
 DOMAIN-SUFFIX,5edf1d2qv.com
 DOMAIN-SUFFIX,5eyal1g5a9.com
 DOMAIN-SUFFIX,5f1qyi04vz.com
@@ -1803,6 +1806,7 @@ DOMAIN-SUFFIX,d3d7a0q05k6bvz.cloudfront.net
 DOMAIN-SUFFIX,d3iih5w7xp5hdg.cloudfront.net
 DOMAIN-SUFFIX,d3s9in1sg.com
 DOMAIN-SUFFIX,d48paxyhx.com
+DOMAIN-SUFFIX,d4cxdtup9.com
 DOMAIN-SUFFIX,d4dlgw9mi.com
 DOMAIN-SUFFIX,d4ehbdtlw.com
 DOMAIN-SUFFIX,d4rxxm6ig.com
@@ -1858,6 +1862,7 @@ DOMAIN-SUFFIX,dbvo.cn
 DOMAIN-SUFFIX,dbzolzzy7s.com
 DOMAIN-SUFFIX,dc5koxhfh.com
 DOMAIN-SUFFIX,dcpgdj.icu
+DOMAIN-SUFFIX,dcqe7gez5.com
 DOMAIN-SUFFIX,dcwxhamq0.com
 DOMAIN-SUFFIX,dd1.diymianmo.com
 DOMAIN-SUFFIX,dd81bp3qbj.com
@@ -2751,6 +2756,7 @@ DOMAIN-SUFFIX,h1883c5wn.com
 DOMAIN-SUFFIX,h1cn8nwng.com
 DOMAIN-SUFFIX,h1yfrt.com
 DOMAIN-SUFFIX,h27aq0mc6.com
+DOMAIN-SUFFIX,h40q9nv18.com
 DOMAIN-SUFFIX,h4htfgrei0.com
 DOMAIN-SUFFIX,h4tmdz92jq.com
 DOMAIN-SUFFIX,h57vpulpu.com
@@ -3848,6 +3854,7 @@ DOMAIN-SUFFIX,mxauvrtdm.com
 DOMAIN-SUFFIX,mxvl.cn
 DOMAIN-SUFFIX,mya2pg8cdg.com
 DOMAIN-SUFFIX,myieldell.com
+DOMAIN-SUFFIX,myiqvn5w3.com
 DOMAIN-SUFFIX,myunion1.qm120.com
 DOMAIN-SUFFIX,myunion1.tupians.com
 DOMAIN-SUFFIX,mzarqhufj4.com
@@ -4107,6 +4114,7 @@ DOMAIN-SUFFIX,obiknmm.icu
 DOMAIN-SUFFIX,obstetrician36.com
 DOMAIN-SUFFIX,obv3epx22d.com
 DOMAIN-SUFFIX,ocvdi0rum.com
+DOMAIN-SUFFIX,oczeilqyw.com
 DOMAIN-SUFFIX,od6992uotl.com
 DOMAIN-SUFFIX,odhivvin.com
 DOMAIN-SUFFIX,odmerorlzo.com
@@ -4450,6 +4458,7 @@ DOMAIN-SUFFIX,pyntbz.icu
 DOMAIN-SUFFIX,pyonbrj41b.com
 DOMAIN-SUFFIX,pyrfpb.icu
 DOMAIN-SUFFIX,pz0d6zc6n.com
+DOMAIN-SUFFIX,pzkkot4kn.com
 DOMAIN-SUFFIX,pzpcbt.icu
 DOMAIN-SUFFIX,pzq7ilwvv.com
 DOMAIN-SUFFIX,pztnzqwz.icu
@@ -4788,6 +4797,7 @@ DOMAIN-SUFFIX,s11.cn
 DOMAIN-SUFFIX,s1gr2198h.com
 DOMAIN-SUFFIX,s2dln6sdu.com
 DOMAIN-SUFFIX,s2plb194m.com
+DOMAIN-SUFFIX,s2ze6h0miy.com
 DOMAIN-SUFFIX,s3-nl-01.mangabuddy.in
 DOMAIN-SUFFIX,s3bltexcm.com
 DOMAIN-SUFFIX,s3t75j8o7.com
@@ -4824,6 +4834,7 @@ DOMAIN-SUFFIX,sbpb1.qulishi.com
 DOMAIN-SUFFIX,sc126.com
 DOMAIN-SUFFIX,scb4tpwq40.com
 DOMAIN-SUFFIX,schedule77.top
+DOMAIN-SUFFIX,scissors73.top
 DOMAIN-SUFFIX,sckfcn.cn
 DOMAIN-SUFFIX,scraper29.top
 DOMAIN-SUFFIX,script-bd.baixing.net
@@ -5233,6 +5244,7 @@ DOMAIN-SUFFIX,txtvrp.icu
 DOMAIN-SUFFIX,txutayo.com
 DOMAIN-SUFFIX,typhooned.com
 DOMAIN-SUFFIX,tyvybl.icu
+DOMAIN-SUFFIX,tzifhmvuju.com
 DOMAIN-SUFFIX,tzlbzndiezpzro.com
 DOMAIN-SUFFIX,tzp61mplc.com
 DOMAIN-SUFFIX,u.qxen.com
@@ -5619,6 +5631,7 @@ DOMAIN-SUFFIX,vv1.pyhfxdm.cn
 DOMAIN-SUFFIX,vv4t0gqaa4.com
 DOMAIN-SUFFIX,vvd68pv6lj.com
 DOMAIN-SUFFIX,vvllrb.top
+DOMAIN-SUFFIX,vvogrqq6r.com
 DOMAIN-SUFFIX,vvqc95xhtx.com
 DOMAIN-SUFFIX,vvtpftuiqrbdha.com
 DOMAIN-SUFFIX,vvv.ieduw.com
@@ -6414,6 +6427,7 @@ DOMAIN-SUFFIX,zoologist00.com
 DOMAIN-SUFFIX,zoom.zshu.net
 DOMAIN-SUFFIX,zorkraith.com
 DOMAIN-SUFFIX,zpgb.cn
+DOMAIN-SUFFIX,zptfrxoaumxhnu.com
 DOMAIN-SUFFIX,zpxvpvee.icu
 DOMAIN-SUFFIX,zpzatutb.com
 DOMAIN-SUFFIX,zq.lansedir.com
