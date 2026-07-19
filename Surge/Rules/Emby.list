@@ -1,5 +1,5 @@
 # 规则名称: Emby
-# 规则统计: 194
+# 规则统计: 195
 
 DOMAIN,cc.coemn.com
 DOMAIN,cdn1.nebula-media.org
@@ -102,6 +102,7 @@ DOMAIN-SUFFIX,embyplus.club
 DOMAIN-SUFFIX,embyplus.org
 DOMAIN-SUFFIX,embyserver.ga
 DOMAIN-SUFFIX,embytv.cf
+DOMAIN-SUFFIX,feimu.tv
 DOMAIN-SUFFIX,feiniu.lol
 DOMAIN-SUFFIX,freetz.top
 DOMAIN-SUFFIX,gfwemby.org
