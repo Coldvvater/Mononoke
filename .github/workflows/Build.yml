@@ -34,7 +34,7 @@ jobs:
     # Step 1: 检出仓库
     # =========================================================================
     - name: Checkout Repository
-      uses: actions/checkout@v7.0.0
+      uses: actions/checkout@v7.0.1
       with:
         repository: ${{ github.repository }}
         path: Mononoke-repo
