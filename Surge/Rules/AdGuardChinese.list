@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 6229
+# 规则统计: 6239
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -400,6 +400,7 @@ DOMAIN-SUFFIX,4c0wa2ml2f.com
 DOMAIN-SUFFIX,4cxup4kp3c.com
 DOMAIN-SUFFIX,4d45i6p0g.com
 DOMAIN-SUFFIX,4d9f09z8c.com
+DOMAIN-SUFFIX,4djkbk96r4.com
 DOMAIN-SUFFIX,4e0jpheoi1.com
 DOMAIN-SUFFIX,4f3tsea1m.com
 DOMAIN-SUFFIX,4f8g9foqwy.com
@@ -2002,6 +2003,7 @@ DOMAIN-SUFFIX,ds1.kaijia.com
 DOMAIN-SUFFIX,ds8k3y2d5n.com
 DOMAIN-SUFFIX,dshsnxfcjwdhpe.com
 DOMAIN-SUFFIX,dsp.ali213.net
+DOMAIN-SUFFIX,dszvvdcmzxztte.com
 DOMAIN-SUFFIX,dtdjhb.icu
 DOMAIN-SUFFIX,dtindrofe.com
 DOMAIN-SUFFIX,dtjal7b1f.com
@@ -2153,6 +2155,7 @@ DOMAIN-SUFFIX,erebor.douban.com
 DOMAIN-SUFFIX,ergeapp.com
 DOMAIN-SUFFIX,esa2j46dwf.com
 DOMAIN-SUFFIX,eshm72fwql.com
+DOMAIN-SUFFIX,esozdcn.icu
 DOMAIN-SUFFIX,estuary98.top
 DOMAIN-SUFFIX,et3lc8yoe.com
 DOMAIN-SUFFIX,etff5y04k.com
@@ -2702,7 +2705,9 @@ DOMAIN-SUFFIX,h702886htm.com
 DOMAIN-SUFFIX,h7ima6w5k.com
 DOMAIN-SUFFIX,h89o58087.com
 DOMAIN-SUFFIX,h8cjr6nhm.com
+DOMAIN-SUFFIX,h8h1ls3hg.com
 DOMAIN-SUFFIX,h9806gjhz.com
+DOMAIN-SUFFIX,h9w02sx7t9.com
 DOMAIN-SUFFIX,hades.qyer.com
 DOMAIN-SUFFIX,handsaw46.com
 DOMAIN-SUFFIX,hanlinzhijia.net
@@ -2818,6 +2823,7 @@ DOMAIN-SUFFIX,hoznpn.icu
 DOMAIN-SUFFIX,hpfkvr.icu
 DOMAIN-SUFFIX,hqfhspz.com
 DOMAIN-SUFFIX,hqluu46i3a.com
+DOMAIN-SUFFIX,hqo0k12qs.com
 DOMAIN-SUFFIX,hqvkbn.icu
 DOMAIN-SUFFIX,hqvrvageaf.com
 DOMAIN-SUFFIX,hriy.cn
@@ -4490,6 +4496,7 @@ DOMAIN-SUFFIX,rg338ne0rt.com
 DOMAIN-SUFFIX,rg84983is.com
 DOMAIN-SUFFIX,rgaagnida.com
 DOMAIN-SUFFIX,rgcrunzozp.com
+DOMAIN-SUFFIX,rgdnlzsth.icu
 DOMAIN-SUFFIX,rgoxcknehm.com
 DOMAIN-SUFFIX,rgzz3rs.icu
 DOMAIN-SUFFIX,rhaol5omof.com
@@ -4646,6 +4653,7 @@ DOMAIN-SUFFIX,sentiment39.top
 DOMAIN-SUFFIX,sentinelol.com
 DOMAIN-SUFFIX,sexy-more.com
 DOMAIN-SUFFIX,sftz4zyqd.com
+DOMAIN-SUFFIX,sfzjk57ov.com
 DOMAIN-SUFFIX,sgg.southcn.com
 DOMAIN-SUFFIX,sgjewpnite.com
 DOMAIN-SUFFIX,sh996.dftoutiao.com
@@ -4679,6 +4687,7 @@ DOMAIN-SUFFIX,sjhgfrvbxrbbr.com
 DOMAIN-SUFFIX,skirmish33.top
 DOMAIN-SUFFIX,sksi91y8rs.com
 DOMAIN-SUFFIX,sky.dunsuan.com
+DOMAIN-SUFFIX,sledgehammer09.com
 DOMAIN-SUFFIX,sm-cloud.yunsafe.top
 DOMAIN-SUFFIX,sm2ralisg.com
 DOMAIN-SUFFIX,smkqwa.icu
@@ -6084,6 +6093,7 @@ DOMAIN-SUFFIX,zdl4o6sp3.com
 DOMAIN-SUFFIX,ze5.com
 DOMAIN-SUFFIX,zeigraim.com
 DOMAIN-SUFFIX,zepcdxyiqtxtbc.com
+DOMAIN-SUFFIX,zf56jef1dd.com
 DOMAIN-SUFFIX,zfc2ul88s.top
 DOMAIN-SUFFIX,zfdfs1tpyd.com
 DOMAIN-SUFFIX,zfpn7ef472.com
