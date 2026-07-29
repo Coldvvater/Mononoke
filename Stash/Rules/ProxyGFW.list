@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7600
+# 规则统计: 7602
 
 DOMAIN,ccmdl.adobe.com
 DOMAIN,cloud.oracle.com
@@ -512,6 +512,7 @@ DOMAIN-SUFFIX,atlanta168.com
 DOMAIN-SUFFIX,atlaspost.com
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,atlassian.net
+DOMAIN-SUFFIX,atmeta.com
 DOMAIN-SUFFIX,atnext.com
 DOMAIN-SUFFIX,atom.com
 DOMAIN-SUFFIX,au
@@ -590,6 +591,7 @@ DOMAIN-SUFFIX,bangchen.net
 DOMAIN-SUFFIX,bangdream.space
 DOMAIN-SUFFIX,bangkokpost.com
 DOMAIN-SUFFIX,bangumi.moe
+DOMAIN-SUFFIX,bangumi.tv
 DOMAIN-SUFFIX,bangyoulater.com
 DOMAIN-SUFFIX,bankmobilevibe.com
 DOMAIN-SUFFIX,bannedbook.org

@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1564
+# 规则统计: 1566
 
 DOMAIN,api.avax.network
 DOMAIN,api.revenuecat.com
@@ -159,6 +159,7 @@ DOMAIN-SUFFIX,astrill.org
 DOMAIN-SUFFIX,at
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,atlassian.net
+DOMAIN-SUFFIX,atmeta.com
 DOMAIN-SUFFIX,atom.com
 DOMAIN-SUFFIX,au
 DOMAIN-SUFFIX,auth0.com
@@ -184,6 +185,7 @@ DOMAIN-SUFFIX,bandcamp.com
 DOMAIN-SUFFIX,bandwagonhost.com
 DOMAIN-SUFFIX,bang.com
 DOMAIN-SUFFIX,bangumi.moe
+DOMAIN-SUFFIX,bangumi.tv
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bblmw.com
 DOMAIN-SUFFIX,be
