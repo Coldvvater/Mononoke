@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 865
+# 规则统计: 866
 
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,acg.tv
@@ -208,6 +208,7 @@ DOMAIN-SUFFIX,cailianpress.com
 DOMAIN-SUFFIX,cainiao.com
 DOMAIN-SUFFIX,cainiaoyizhan.com
 DOMAIN-SUFFIX,caiyunapp.com
+DOMAIN-SUFFIX,caiyuncdn.com
 DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,camscanner.com
 DOMAIN-SUFFIX,ccb.com
