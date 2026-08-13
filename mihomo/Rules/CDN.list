@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4648
+# 规则统计: 4654
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -588,6 +588,7 @@ DOMAIN,cdn.bfe.dev
 DOMAIN,cdn.bfldr.com
 DOMAIN,cdn.birdie.so
 DOMAIN,cdn.bitmovin.com
+DOMAIN,cdn.bitrix24.eu
 DOMAIN,cdn.blogarama.com
 DOMAIN,cdn.bogos.io
 DOMAIN,cdn.boldmethod.com
@@ -738,6 +739,7 @@ DOMAIN,cdn.i-scmp.com
 DOMAIN,cdn.icomoon.io
 DOMAIN,cdn.icon-icons.com
 DOMAIN,cdn.iconfinder.com
+DOMAIN,cdn.id.life
 DOMAIN,cdn.imageengine.io
 DOMAIN,cdn.imago-images.com
 DOMAIN,cdn.img.ly
@@ -1719,6 +1721,7 @@ DOMAIN,images.microcms-assets.io
 DOMAIN,images.mobilism.org
 DOMAIN,images.moegoat.com
 DOMAIN,images.moovitapp.com
+DOMAIN,images.motion.dev
 DOMAIN,images.nebula.tv
 DOMAIN,images.newrepublic.com
 DOMAIN,images.now-tv.com
@@ -2060,6 +2063,7 @@ DOMAIN,mangaz-static.j-comi.jp
 DOMAIN,mantisloader.mantis-awx.com
 DOMAIN,map.adsbexchange.com
 DOMAIN,map.vesselfinder.net
+DOMAIN,maps-api-cdn.meteoblue.com
 DOMAIN,maps.geoapify.com
 DOMAIN,maps.gstatic.com
 DOMAIN,maps.hereapi.com
@@ -2896,6 +2900,7 @@ DOMAIN,static.maxmind.com
 DOMAIN,static.mediafire.com
 DOMAIN,static.meiguo.com
 DOMAIN,static.mendeley.com
+DOMAIN,static.meteoblue.com
 DOMAIN,static.missav.com
 DOMAIN,static.mocortech.com
 DOMAIN,static.moegoat.com
@@ -4371,6 +4376,7 @@ DOMAIN-SUFFIX,sny.monosnap.com
 DOMAIN-SUFFIX,snzypic.com
 DOMAIN-SUFFIX,someonewhocares.org
 DOMAIN-SUFFIX,sourceforge.io
+DOMAIN-SUFFIX,spaceship-cdn.com
 DOMAIN-SUFFIX,splunkcloud.com
 DOMAIN-SUFFIX,spreadshirtmedia.com
 DOMAIN-SUFFIX,sqspcdn.com
