@@ -1,5 +1,5 @@
 # 规则名称: AdGuardChinese
-# 规则统计: 6443
+# 规则统计: 6452
 
 DOMAIN-SUFFIX,002777.xyz
 DOMAIN-SUFFIX,003store.com
@@ -67,6 +67,7 @@ DOMAIN-SUFFIX,0wk6gdkg8r.com
 DOMAIN-SUFFIX,0wpfe0duo.com
 DOMAIN-SUFFIX,0xr7ii3df.com
 DOMAIN-SUFFIX,0xzxwnkqdu.com
+DOMAIN-SUFFIX,0yfqg4qm0.com
 DOMAIN-SUFFIX,0yjeii25x4.com
 DOMAIN-SUFFIX,0yu3bxtqv.com
 DOMAIN-SUFFIX,0z3zbnbkv.com
@@ -265,6 +266,7 @@ DOMAIN-SUFFIX,27gh.cc
 DOMAIN-SUFFIX,27ocdto914.com
 DOMAIN-SUFFIX,283.laobanfa.com
 DOMAIN-SUFFIX,28jbkeigl.com
+DOMAIN-SUFFIX,29ruu0q5p.com
 DOMAIN-SUFFIX,29zle9rx4.com
 DOMAIN-SUFFIX,2agmk5mh07.com
 DOMAIN-SUFFIX,2bqlkznz.xyz
@@ -1594,6 +1596,7 @@ DOMAIN-SUFFIX,c6ufggd57t.com
 DOMAIN-SUFFIX,c7bijgz6zr.com
 DOMAIN-SUFFIX,c81.ipanocloud.com
 DOMAIN-SUFFIX,c8q27tqnaw.com
+DOMAIN-SUFFIX,c918sslye.com
 DOMAIN-SUFFIX,c9pgryrmt4.com
 DOMAIN-SUFFIX,ca.yangshengtv.com
 DOMAIN-SUFFIX,cacafly.net
@@ -1716,6 +1719,7 @@ DOMAIN-SUFFIX,classroomlf.com
 DOMAIN-SUFFIX,cliffed.top
 DOMAIN-SUFFIX,clo41zgrs.com
 DOMAIN-SUFFIX,cm.baidu.com
+DOMAIN-SUFFIX,cm30oc1du.com
 DOMAIN-SUFFIX,cmesgpqq8z.com
 DOMAIN-SUFFIX,cmm.xmfish.com
 DOMAIN-SUFFIX,cn.bidushe.com
@@ -3203,6 +3207,7 @@ DOMAIN-SUFFIX,jfxefv.icu
 DOMAIN-SUFFIX,jg0y00ciyr.com
 DOMAIN-SUFFIX,jg1668.com
 DOMAIN-SUFFIX,jg8zueqa4e.com
+DOMAIN-SUFFIX,jgdzthrmmhnddc.com
 DOMAIN-SUFFIX,jgid.cn
 DOMAIN-SUFFIX,jgo1pcbx9.com
 DOMAIN-SUFFIX,jgpo1zqhj.com
@@ -3339,6 +3344,7 @@ DOMAIN-SUFFIX,k1.wendahu.com
 DOMAIN-SUFFIX,k1s3u1dtpc.com
 DOMAIN-SUFFIX,k2bividyt.com
 DOMAIN-SUFFIX,k2n0f.cn
+DOMAIN-SUFFIX,k3vgy6hf7.com
 DOMAIN-SUFFIX,k5705bn39u.com
 DOMAIN-SUFFIX,k5qdqwgjit.com
 DOMAIN-SUFFIX,k5w06v2yzh.com
@@ -5327,6 +5333,7 @@ DOMAIN-SUFFIX,uk3eymh64c.com
 DOMAIN-SUFFIX,ukew6uo7u1.com
 DOMAIN-SUFFIX,ukgm0qily.com
 DOMAIN-SUFFIX,uks8suop4b.com
+DOMAIN-SUFFIX,ukwtsegym.com
 DOMAIN-SUFFIX,ukx6umuvu.com
 DOMAIN-SUFFIX,ulgroiklf.com
 DOMAIN-SUFFIX,ulk8je1fv9.com
@@ -6113,6 +6120,7 @@ DOMAIN-SUFFIX,ykxwn.com
 DOMAIN-SUFFIX,ykyfhxr.xyz
 DOMAIN-SUFFIX,yl04z4v.cn
 DOMAIN-SUFFIX,ylghac.icu
+DOMAIN-SUFFIX,ylkvxrimr.com
 DOMAIN-SUFFIX,ylr1xn2b4i.com
 DOMAIN-SUFFIX,ym3jmnu05.com
 DOMAIN-SUFFIX,ymapiatm.xyz
@@ -6416,6 +6424,7 @@ DOMAIN-SUFFIX,zulaedha.com
 DOMAIN-SUFFIX,zulphaqaq.in
 DOMAIN-SUFFIX,zumnervl.com
 DOMAIN-SUFFIX,zuowen.hydcd.com
+DOMAIN-SUFFIX,zuqqgwi.icu
 DOMAIN-SUFFIX,zvciaoan1k.com
 DOMAIN-SUFFIX,zvgvenibe.com
 DOMAIN-SUFFIX,zvhtzl.icu
