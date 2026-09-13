@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 1570
+# 规则统计: 1571
 
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,api.avax.network
@@ -230,6 +230,7 @@ DOMAIN-SUFFIX,bloomberg.net
 DOMAIN-SUFFIX,blubrry.com
 DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,box.com
+DOMAIN-SUFFIX,boxcloud.com
 DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,broadcom.com

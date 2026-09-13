@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7605
+# 规则统计: 7606
 
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,ccmdl.adobe.com
@@ -828,6 +828,7 @@ DOMAIN-SUFFIX,botanwang.com
 DOMAIN-SUFFIX,bowenpress.com
 DOMAIN-SUFFIX,box.com
 DOMAIN-SUFFIX,box.net
+DOMAIN-SUFFIX,boxcloud.com
 DOMAIN-SUFFIX,boxpn.com
 DOMAIN-SUFFIX,boxun.com
 DOMAIN-SUFFIX,boxun.tv
