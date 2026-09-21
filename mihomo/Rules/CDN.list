@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4700
+# 规则统计: 4702
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1725,6 +1725,7 @@ DOMAIN,images.flightradar24.com
 DOMAIN,images.g2crowd.com
 DOMAIN,images.github.media
 DOMAIN,images.gog.com
+DOMAIN,images.hibob.com
 DOMAIN,images.hothardware.com
 DOMAIN,images.icon-icons.com
 DOMAIN,images.indianexpress.com
@@ -2109,6 +2110,7 @@ DOMAIN,media-central.indianexpress.com
 DOMAIN,media-cms.ayoba.me
 DOMAIN,media-cms.onesignal.com
 DOMAIN,media-hls.growcdnssedge.com
+DOMAIN,media-process.hibob.com
 DOMAIN,media-s3-us-east-1.ceros.com
 DOMAIN,media.beehiiv.com
 DOMAIN,media.breitbart.com
