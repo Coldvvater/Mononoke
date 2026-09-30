@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7606
+# 规则统计: 7607
 
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,ccmdl.adobe.com
@@ -6334,6 +6334,7 @@ DOMAIN-SUFFIX,togetter.com
 DOMAIN-SUFFIX,toh.info
 DOMAIN-SUFFIX,token.im
 DOMAIN-SUFFIX,tokenlon.im
+DOMAIN-SUFFIX,tokens.ci
 DOMAIN-SUFFIX,tokto-motion.net
 DOMAIN-SUFFIX,tokyo-247.com
 DOMAIN-SUFFIX,tokyo-hot.com
