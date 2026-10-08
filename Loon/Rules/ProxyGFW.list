@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7607
+# 规则统计: 7610
 
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,ccmdl.adobe.com
@@ -445,6 +445,7 @@ DOMAIN-SUFFIX,appdownloader.net
 DOMAIN-SUFFIX,appledaily.com
 DOMAIN-SUFFIX,appledaily.com.hk
 DOMAIN-SUFFIX,appledaily.com.tw
+DOMAIN-SUFFIX,approveit.today
 DOMAIN-SUFFIX,appshopper.com
 DOMAIN-SUFFIX,appsocks.net
 DOMAIN-SUFFIX,appspot-preview.com
@@ -5954,6 +5955,7 @@ DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,suroot.com
 DOMAIN-SUFFIX,surrenderat20.net
+DOMAIN-SUFFIX,surveymonkey.com
 DOMAIN-SUFFIX,sustainability.google
 DOMAIN-SUFFIX,suyangg.com
 DOMAIN-SUFFIX,svsfx.com
@@ -6751,6 +6753,7 @@ DOMAIN-SUFFIX,vanilla-jp.com
 DOMAIN-SUFFIX,vanityfair.com
 DOMAIN-SUFFIX,vanpeople.com
 DOMAIN-SUFFIX,vansky.com
+DOMAIN-SUFFIX,vanta.com
 DOMAIN-SUFFIX,vaticannews.va
 DOMAIN-SUFFIX,vatn.org
 DOMAIN-SUFFIX,vcf-online.org
