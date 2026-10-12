@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 54
+# 规则统计: 57
 
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,ai.google.dev
@@ -13,9 +13,12 @@ DOMAIN,api.jetbrains.ai
 DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,file.oaiusercontent.com
 DOMAIN,gateway.ai.cloudflare.com
+DOMAIN,inference.codeium.com
 DOMAIN,jules.google.com
 DOMAIN,openrouter.ai
 DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,server.codeium.com
+DOMAIN,server.self-serve.windsurf.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,anthropic.com
