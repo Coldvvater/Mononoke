@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7609
+# 规则统计: 7610
 
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,ccmdl.adobe.com
@@ -4557,6 +4557,7 @@ DOMAIN-SUFFIX,nordvpn.com
 DOMAIN-SUFFIX,nos.nl
 DOMAIN-SUFFIX,note.com
 DOMAIN-SUFFIX,notepad-plus-plus.org
+DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,nottinghampost.com
