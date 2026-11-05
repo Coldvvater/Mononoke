@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 870
+# 规则统计: 871
 
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,acg.tv
@@ -299,6 +299,7 @@ DOMAIN-SUFFIX,didiglobal.com
 DOMAIN-SUFFIX,didistatic.com
 DOMAIN-SUFFIX,digicert.cn
 DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,dittocdn.com
 DOMAIN-SUFFIX,dizzylab.net
 DOMAIN-SUFFIX,dl.bscstorage.net
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
