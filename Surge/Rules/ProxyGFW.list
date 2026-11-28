@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7954
+# 规则统计: 7957
 
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,ai.google.dev
@@ -283,6 +283,7 @@ DOMAIN-SUFFIX,ai.azure.com
 DOMAIN-SUFFIX,ai.dev
 DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,aicoin.com
+DOMAIN-SUFFIX,aicu.cc
 DOMAIN-SUFFIX,aidc.com.tw
 DOMAIN-SUFFIX,aihub.top
 DOMAIN-SUFFIX,aimoon.com
@@ -1555,6 +1556,7 @@ DOMAIN-SUFFIX,dalailamaworld.com
 DOMAIN-SUFFIX,dalianmeng.org
 DOMAIN-SUFFIX,daliulian.org
 DOMAIN-SUFFIX,danke4china.net
+DOMAIN-SUFFIX,danmakus.com
 DOMAIN-SUFFIX,danwei.org
 DOMAIN-SUFFIX,daolan.net
 DOMAIN-SUFFIX,daozhongxing.org
@@ -6049,6 +6051,7 @@ DOMAIN-SUFFIX,southmongolia.org
 DOMAIN-SUFFIX,southnews.com.tw
 DOMAIN-SUFFIX,sowers.org.hk
 DOMAIN-SUFFIX,soylent.com
+DOMAIN-SUFFIX,spacedesk.net
 DOMAIN-SUFFIX,spaceforce.mil
 DOMAIN-SUFFIX,spacex.com
 DOMAIN-SUFFIX,spankbang.com
